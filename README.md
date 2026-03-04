@@ -16,12 +16,17 @@ App di consultazione del System Reference Document D&D 3.5 in italiano, basata s
 # Installa dipendenze
 pip install -r requirements.txt
 
-# Parsing incantesimi → data/spells.json
-python scripts/parse_srd.py spells
+# Parsing di tutti i contenuti SRD → JSON in /data/
+python scripts/parse_srd.py
 
-# Preview locale del sito SRD
-python -m http.server 8000
-# Apri http://localhost:8000
+# Import JSON → SQLite
+python scripts/import_to_db.py
+
+# Avvio backend API
+uvicorn backend.app:app --reload --port 8000
+
+# Frontend (in un altro terminale, o aprire frontend/index.html)
+# L'API di default è http://localhost:8000/api
 ```
 
 ## Struttura repo
@@ -29,8 +34,8 @@ python -m http.server 8000
 ```
 /data/              → JSON generati dal parser (spells.json, ...)
 /scripts/           → parse_srd.py, import_to_db.py, import_translations.py
-/backend/           → FastAPI app (TODO)
-/frontend/          → HTML/CSS/JS app (TODO)
+/backend/           → FastAPI app (app.py)
+/frontend/          → HTML/CSS/JS app di consultazione
 /spells/            → HTML sorgenti SRD (incantesimi)
 /basic-rules-and-legal/ → HTML sorgenti SRD (regole, talenti, razze, classi, equipaggiamento)
 dnd35.db            → SQLite database (gitignored)
@@ -38,14 +43,24 @@ dnd35.db            → SQLite database (gitignored)
 
 Per la documentazione completa (schema DB, convenzioni, task) vedi [CLAUDE.md](CLAUDE.md).
 
+## Dati estratti
+
+| Categoria | Conteggio |
+|-----------|-----------|
+| Incantesimi | 608 |
+| Talenti | 111 |
+| Razze | 7 |
+| Equipaggiamento | 288 |
+| Classi | 31 |
+
 ## Stato attuale
 
 - [x] Setup struttura cartelle e CLAUDE.md
-- [x] Parser incantesimi (608 spell estratti)
-- [ ] Parser talenti, razze, equipaggiamento, classi
-- [ ] Schema SQLite e import_to_db.py
-- [ ] Backend FastAPI
-- [ ] Frontend consultazione
+- [x] Parser completo (incantesimi, talenti, razze, equipaggiamento, classi)
+- [x] Schema SQLite e import_to_db.py
+- [x] Backend FastAPI con API REST
+- [x] Frontend consultazione (dark theme)
+- [x] GitHub Actions deploy
 - [ ] Traduzioni IT
 
 ## Crediti

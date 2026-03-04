@@ -39,11 +39,11 @@ dnd35.db            → SQLite database (gitignored, generato dagli script)
 
 **feats:** name, slug, type, prerequisites, benefit, normal, special, desc_html
 
-**races:** name, slug + tutti i campi strutturati dagli HTML, desc_html
+**races:** name, slug, traits_json, desc_html
 
-**equipment:** name, slug + tutti i campi strutturati dagli HTML, desc_html
+**equipment:** name, slug, category, data_json, desc_html
 
-**classes:** name, slug + tutti i campi strutturati dagli HTML, desc_html
+**classes:** name, slug, hit_die, alignment, table_html, desc_html
 
 ### Tabella traduzioni
 
@@ -66,19 +66,42 @@ Serve per le traduzioni IT incrementali senza toccare le tabelle principali.
 python scripts/parse_srd.py              # parse tutto
 python scripts/parse_srd.py spells       # parse solo incantesimi
 
-# Import JSON → SQLite (TODO)
+# Import JSON → SQLite
 python scripts/import_to_db.py
 
-# Import traduzioni IT (TODO)
-python scripts/import_translations.py
+# Import traduzioni IT (formato JSON)
+python scripts/import_translations.py translations_it.json
+
+# Avvio backend locale
+uvicorn backend.app:app --reload --port 8000
 ```
+
+## API Endpoints
+
+```
+GET /api/spells?q=&school=&level=&limit=50&offset=0
+GET /api/spells/{slug}
+GET /api/feats?q=&type=&limit=50&offset=0
+GET /api/feats/{slug}
+GET /api/races
+GET /api/races/{slug}
+GET /api/equipment?q=&category=&limit=50&offset=0
+GET /api/equipment/{id}
+GET /api/classes
+GET /api/classes/{slug}
+```
+
+Tutti gli endpoint accettano `?lang=it` per le traduzioni.
 
 ## Task correnti
 
-- [ ] Setup struttura cartelle
-- [ ] Scrivere parse_srd.py (incantesimi come primo test)
-- [ ] Definire schema SQLite
-- [ ] Scrivere import_to_db.py
-- [ ] Parsing talenti, razze, equipaggiamento, classi
-- [ ] Setup backend FastAPI
-- [ ] Setup frontend
+- [x] Setup struttura cartelle
+- [x] Scrivere parse_srd.py (incantesimi, talenti, razze, equipaggiamento, classi)
+- [x] Definire schema SQLite
+- [x] Scrivere import_to_db.py
+- [x] Setup backend FastAPI
+- [x] Setup frontend (HTML/CSS/JS)
+- [x] Scrivere import_translations.py
+- [x] GitHub Actions deploy workflow
+- [ ] Aggiungere traduzioni IT
+- [ ] Collegare frontend a GitHub Pages con backend
