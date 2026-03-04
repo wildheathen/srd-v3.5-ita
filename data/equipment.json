@@ -1,0 +1,2311 @@
+[
+  {
+    "Simple Weapons": "Gauntlet",
+    "Cost": "2 gp",
+    "Dmg (S)": "1d2",
+    "Dmg (M)": "1d3",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "1 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Gauntlet",
+    "slug": "gauntlet"
+  },
+  {
+    "Simple Weapons": "Unarmed strike",
+    "Cost": "—",
+    "Dmg (S)": "1d23",
+    "Dmg (M)": "1d33",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "—",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Unarmed strike",
+    "slug": "unarmed-strike"
+  },
+  {
+    "Simple Weapons": "Dagger",
+    "Cost": "2 gp",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "19–20/x2",
+    "Range Increment": "10 ft.",
+    "Weight1": "1 lb.",
+    "Type2": "Piercing or slashing",
+    "_category": "weapon",
+    "name": "Dagger",
+    "slug": "dagger"
+  },
+  {
+    "Simple Weapons": "Dagger, punching",
+    "Cost": "2 gp",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "1 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Dagger, punching",
+    "slug": "dagger-punching"
+  },
+  {
+    "Simple Weapons": "Gauntlet, spiked",
+    "Cost": "5 gp",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "1 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Gauntlet, spiked",
+    "slug": "gauntlet-spiked"
+  },
+  {
+    "Simple Weapons": "Mace, light",
+    "Cost": "5 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "4 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Mace, light",
+    "slug": "mace-light"
+  },
+  {
+    "Simple Weapons": "Sickle",
+    "Cost": "6 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "2 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Sickle",
+    "slug": "sickle"
+  },
+  {
+    "Simple Weapons": "Club",
+    "Cost": "—",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x2",
+    "Range Increment": "10 ft.",
+    "Weight1": "3 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Club",
+    "slug": "club"
+  },
+  {
+    "Simple Weapons": "Mace, heavy",
+    "Cost": "12 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "8 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Mace, heavy",
+    "slug": "mace-heavy"
+  },
+  {
+    "Simple Weapons": "Morningstar",
+    "Cost": "8 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "6 lb.",
+    "Type2": "Bludgeoning and piercing",
+    "_category": "weapon",
+    "name": "Morningstar",
+    "slug": "morningstar"
+  },
+  {
+    "Simple Weapons": "Shortspear",
+    "Cost": "1 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x2",
+    "Range Increment": "20 ft.",
+    "Weight1": "3 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Shortspear",
+    "slug": "shortspear"
+  },
+  {
+    "Simple Weapons": "Longspear4",
+    "Cost": "5 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "9 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Longspear4",
+    "slug": "longspear4"
+  },
+  {
+    "Simple Weapons": "Quarterstaff5",
+    "Cost": "—",
+    "Dmg (S)": "1d4/1d4",
+    "Dmg (M)": "1d6/1d6",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "4 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Quarterstaff5",
+    "slug": "quarterstaff5"
+  },
+  {
+    "Simple Weapons": "Spear",
+    "Cost": "2 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "x3",
+    "Range Increment": "20 ft.",
+    "Weight1": "6 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Spear",
+    "slug": "spear"
+  },
+  {
+    "Simple Weapons": "Crossbow, heavy",
+    "Cost": "50 gp",
+    "Dmg (S)": "1d8",
+    "Dmg (M)": "1d10",
+    "Critical": "19–20/x2",
+    "Range Increment": "120 ft.",
+    "Weight1": "8 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Crossbow, heavy",
+    "slug": "crossbow-heavy"
+  },
+  {
+    "Simple Weapons": "Bolts, crossbow (10)",
+    "Cost": "1 gp",
+    "Dmg (S)": "—",
+    "Dmg (M)": "—",
+    "Critical": "—",
+    "Range Increment": "—",
+    "Weight1": "1 lb.",
+    "Type2": "—",
+    "_category": "weapon",
+    "name": "Bolts, crossbow (10)",
+    "slug": "bolts-crossbow-10"
+  },
+  {
+    "Simple Weapons": "Crossbow, light",
+    "Cost": "35 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "19–20/x2",
+    "Range Increment": "80 ft.",
+    "Weight1": "4 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Crossbow, light",
+    "slug": "crossbow-light"
+  },
+  {
+    "Simple Weapons": "Bolts, crossbow (10)",
+    "Cost": "1 gp",
+    "Dmg (S)": "—",
+    "Dmg (M)": "—",
+    "Critical": "—",
+    "Range Increment": "—",
+    "Weight1": "1 lb.",
+    "Type2": "—",
+    "_category": "weapon",
+    "name": "Bolts, crossbow (10)",
+    "slug": "bolts-crossbow-10"
+  },
+  {
+    "Simple Weapons": "Dart",
+    "Cost": "5 sp",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "x2",
+    "Range Increment": "20 ft.",
+    "Weight1": "1/2 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Dart",
+    "slug": "dart"
+  },
+  {
+    "Simple Weapons": "Javelin",
+    "Cost": "1 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x2",
+    "Range Increment": "30 ft.",
+    "Weight1": "2 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Javelin",
+    "slug": "javelin"
+  },
+  {
+    "Simple Weapons": "Sling",
+    "Cost": "—",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "x2",
+    "Range Increment": "50 ft.",
+    "Weight1": "0 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Sling",
+    "slug": "sling"
+  },
+  {
+    "Simple Weapons": "Bullets, sling (10)",
+    "Cost": "1 sp",
+    "Dmg (S)": "—",
+    "Dmg (M)": "—",
+    "Critical": "—",
+    "Range Increment": "—",
+    "Weight1": "5 lb.",
+    "Type2": "—",
+    "_category": "weapon",
+    "name": "Bullets, sling (10)",
+    "slug": "bullets-sling-10"
+  },
+  {
+    "Simple Weapons": "Axe, throwing",
+    "Cost": "8 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x2",
+    "Range Increment": "10 ft.",
+    "Weight1": "2 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Axe, throwing",
+    "slug": "axe-throwing"
+  },
+  {
+    "Simple Weapons": "Hammer, light",
+    "Cost": "1 gp",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "x2",
+    "Range Increment": "20 ft.",
+    "Weight1": "2 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Hammer, light",
+    "slug": "hammer-light"
+  },
+  {
+    "Simple Weapons": "Handaxe",
+    "Cost": "6 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "3 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Handaxe",
+    "slug": "handaxe"
+  },
+  {
+    "Simple Weapons": "Kukri",
+    "Cost": "8 gp",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "18–20/x2",
+    "Range Increment": "—",
+    "Weight1": "2 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Kukri",
+    "slug": "kukri"
+  },
+  {
+    "Simple Weapons": "Pick, light",
+    "Cost": "4 gp",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "x4",
+    "Range Increment": "—",
+    "Weight1": "3 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Pick, light",
+    "slug": "pick-light"
+  },
+  {
+    "Simple Weapons": "Sap",
+    "Cost": "1 gp",
+    "Dmg (S)": "1d43",
+    "Dmg (M)": "1d63",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "2 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Sap",
+    "slug": "sap"
+  },
+  {
+    "Simple Weapons": "Shield, light",
+    "Cost": "special",
+    "Dmg (S)": "1d2",
+    "Dmg (M)": "1d3",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "special",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Shield, light",
+    "slug": "shield-light"
+  },
+  {
+    "Simple Weapons": "Spiked armor",
+    "Cost": "special",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "special",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Spiked armor",
+    "slug": "spiked-armor"
+  },
+  {
+    "Simple Weapons": "Spiked shield, light",
+    "Cost": "special",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "special",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Spiked shield, light",
+    "slug": "spiked-shield-light"
+  },
+  {
+    "Simple Weapons": "Sword, short",
+    "Cost": "10 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "19–20/x2",
+    "Range Increment": "—",
+    "Weight1": "2 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Sword, short",
+    "slug": "sword-short"
+  },
+  {
+    "Simple Weapons": "Battleaxe",
+    "Cost": "10 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "6 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Battleaxe",
+    "slug": "battleaxe"
+  },
+  {
+    "Simple Weapons": "Flail",
+    "Cost": "8 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "5 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Flail",
+    "slug": "flail"
+  },
+  {
+    "Simple Weapons": "Longsword",
+    "Cost": "15 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "19–20/x2",
+    "Range Increment": "—",
+    "Weight1": "4 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Longsword",
+    "slug": "longsword"
+  },
+  {
+    "Simple Weapons": "Pick, heavy",
+    "Cost": "8 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x4",
+    "Range Increment": "—",
+    "Weight1": "6 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Pick, heavy",
+    "slug": "pick-heavy"
+  },
+  {
+    "Simple Weapons": "Rapier",
+    "Cost": "20 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "18–20/x2",
+    "Range Increment": "—",
+    "Weight1": "2 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Rapier",
+    "slug": "rapier"
+  },
+  {
+    "Simple Weapons": "Scimitar",
+    "Cost": "15 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "18–20/x2",
+    "Range Increment": "—",
+    "Weight1": "4 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Scimitar",
+    "slug": "scimitar"
+  },
+  {
+    "Simple Weapons": "Shield, heavy",
+    "Cost": "special",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "special",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Shield, heavy",
+    "slug": "shield-heavy"
+  },
+  {
+    "Simple Weapons": "Spiked shield, heavy",
+    "Cost": "special",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "special",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Spiked shield, heavy",
+    "slug": "spiked-shield-heavy"
+  },
+  {
+    "Simple Weapons": "Trident",
+    "Cost": "15 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "x2",
+    "Range Increment": "10 ft.",
+    "Weight1": "4 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Trident",
+    "slug": "trident"
+  },
+  {
+    "Simple Weapons": "Warhammer",
+    "Cost": "12 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "5 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Warhammer",
+    "slug": "warhammer"
+  },
+  {
+    "Simple Weapons": "Falchion",
+    "Cost": "75 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "2d4",
+    "Critical": "18–20/x2",
+    "Range Increment": "—",
+    "Weight1": "8 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Falchion",
+    "slug": "falchion"
+  },
+  {
+    "Simple Weapons": "Glaive4",
+    "Cost": "8 gp",
+    "Dmg (S)": "1d8",
+    "Dmg (M)": "1d10",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "10 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Glaive4",
+    "slug": "glaive4"
+  },
+  {
+    "Simple Weapons": "Greataxe",
+    "Cost": "20 gp",
+    "Dmg (S)": "1d10",
+    "Dmg (M)": "1d12",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "12 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Greataxe",
+    "slug": "greataxe"
+  },
+  {
+    "Simple Weapons": "Greatclub",
+    "Cost": "5 gp",
+    "Dmg (S)": "1d8",
+    "Dmg (M)": "1d10",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "8 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Greatclub",
+    "slug": "greatclub"
+  },
+  {
+    "Simple Weapons": "Flail, heavy",
+    "Cost": "15 gp",
+    "Dmg (S)": "1d8",
+    "Dmg (M)": "1d10",
+    "Critical": "19–20/x2",
+    "Range Increment": "—",
+    "Weight1": "10 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Flail, heavy",
+    "slug": "flail-heavy"
+  },
+  {
+    "Simple Weapons": "Greatsword",
+    "Cost": "50 gp",
+    "Dmg (S)": "1d10",
+    "Dmg (M)": "2d6",
+    "Critical": "19–20/x2",
+    "Range Increment": "—",
+    "Weight1": "8 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Greatsword",
+    "slug": "greatsword"
+  },
+  {
+    "Simple Weapons": "Guisarme4",
+    "Cost": "9 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "2d4",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "12 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Guisarme4",
+    "slug": "guisarme4"
+  },
+  {
+    "Simple Weapons": "Halberd",
+    "Cost": "10 gp",
+    "Dmg (S)": "1d8",
+    "Dmg (M)": "1d10",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "12 lb.",
+    "Type2": "Piercing or slashing",
+    "_category": "weapon",
+    "name": "Halberd",
+    "slug": "halberd"
+  },
+  {
+    "Simple Weapons": "Lance4",
+    "Cost": "10 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "10 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Lance4",
+    "slug": "lance4"
+  },
+  {
+    "Simple Weapons": "Ranseur4",
+    "Cost": "10 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "2d4",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "12 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Ranseur4",
+    "slug": "ranseur4"
+  },
+  {
+    "Simple Weapons": "Scythe",
+    "Cost": "18 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "2d4",
+    "Critical": "x4",
+    "Range Increment": "—",
+    "Weight1": "10 lb.",
+    "Type2": "Piercing or slashing",
+    "_category": "weapon",
+    "name": "Scythe",
+    "slug": "scythe"
+  },
+  {
+    "Simple Weapons": "Longbow",
+    "Cost": "75 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "x3",
+    "Range Increment": "100 ft.",
+    "Weight1": "3 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Longbow",
+    "slug": "longbow"
+  },
+  {
+    "Simple Weapons": "Arrows (20)",
+    "Cost": "1 gp",
+    "Dmg (S)": "—",
+    "Dmg (M)": "—",
+    "Critical": "—",
+    "Range Increment": "—",
+    "Weight1": "3 lb.",
+    "Type2": "—",
+    "_category": "weapon",
+    "name": "Arrows (20)",
+    "slug": "arrows-20"
+  },
+  {
+    "Simple Weapons": "Longbow, composite",
+    "Cost": "100 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "x3",
+    "Range Increment": "110 ft.",
+    "Weight1": "3 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Longbow, composite",
+    "slug": "longbow-composite"
+  },
+  {
+    "Simple Weapons": "Arrows (20)",
+    "Cost": "1 gp",
+    "Dmg (S)": "—",
+    "Dmg (M)": "—",
+    "Critical": "—",
+    "Range Increment": "—",
+    "Weight1": "3 lb.",
+    "Type2": "—",
+    "_category": "weapon",
+    "name": "Arrows (20)",
+    "slug": "arrows-20"
+  },
+  {
+    "Simple Weapons": "Shortbow",
+    "Cost": "30 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x3",
+    "Range Increment": "60 ft.",
+    "Weight1": "2 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Shortbow",
+    "slug": "shortbow"
+  },
+  {
+    "Simple Weapons": "Arrows (20)",
+    "Cost": "1 gp",
+    "Dmg (S)": "—",
+    "Dmg (M)": "—",
+    "Critical": "—",
+    "Range Increment": "—",
+    "Weight1": "3 lb.",
+    "Type2": "—",
+    "_category": "weapon",
+    "name": "Arrows (20)",
+    "slug": "arrows-20"
+  },
+  {
+    "Simple Weapons": "Shortbow, composite",
+    "Cost": "75 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x3",
+    "Range Increment": "70 ft.",
+    "Weight1": "2 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Shortbow, composite",
+    "slug": "shortbow-composite"
+  },
+  {
+    "Simple Weapons": "Arrows (20)",
+    "Cost": "1 gp",
+    "Dmg (S)": "—",
+    "Dmg (M)": "—",
+    "Critical": "—",
+    "Range Increment": "—",
+    "Weight1": "3 lb.",
+    "Type2": "—",
+    "_category": "weapon",
+    "name": "Arrows (20)",
+    "slug": "arrows-20"
+  },
+  {
+    "Simple Weapons": "Kama",
+    "Cost": "2 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "2 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Kama",
+    "slug": "kama"
+  },
+  {
+    "Simple Weapons": "Nunchaku",
+    "Cost": "2 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "2 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Nunchaku",
+    "slug": "nunchaku"
+  },
+  {
+    "Simple Weapons": "Sai",
+    "Cost": "1 gp",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "x2",
+    "Range Increment": "10 ft.",
+    "Weight1": "1 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Sai",
+    "slug": "sai"
+  },
+  {
+    "Simple Weapons": "Siangham",
+    "Cost": "3 gp",
+    "Dmg (S)": "1d4",
+    "Dmg (M)": "1d6",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "1 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Siangham",
+    "slug": "siangham"
+  },
+  {
+    "Simple Weapons": "Sword, bastard",
+    "Cost": "35 gp",
+    "Dmg (S)": "1d8",
+    "Dmg (M)": "1d10",
+    "Critical": "19–20/x2",
+    "Range Increment": "—",
+    "Weight1": "6 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Sword, bastard",
+    "slug": "sword-bastard"
+  },
+  {
+    "Simple Weapons": "Waraxe, dwarven",
+    "Cost": "30 gp",
+    "Dmg (S)": "1d8",
+    "Dmg (M)": "1d10",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "8 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Waraxe, dwarven",
+    "slug": "waraxe-dwarven"
+  },
+  {
+    "Simple Weapons": "Whip4",
+    "Cost": "1 gp",
+    "Dmg (S)": "1d23",
+    "Dmg (M)": "1d33",
+    "Critical": "x2",
+    "Range Increment": "",
+    "Weight1": "2 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Whip4",
+    "slug": "whip4"
+  },
+  {
+    "Simple Weapons": "Axe, orc double5",
+    "Cost": "60 gp",
+    "Dmg (S)": "1d6/1d6",
+    "Dmg (M)": "1d8/1d8",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "15 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Axe, orc double5",
+    "slug": "axe-orc-double5"
+  },
+  {
+    "Simple Weapons": "Chain, spiked4",
+    "Cost": "25 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "2d4",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "10 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Chain, spiked4",
+    "slug": "chain-spiked4"
+  },
+  {
+    "Simple Weapons": "Flail, dire5",
+    "Cost": "90 gp",
+    "Dmg (S)": "1d6/1d6",
+    "Dmg (M)": "1d8/1d8",
+    "Critical": "x2",
+    "Range Increment": "—",
+    "Weight1": "10 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Flail, dire5",
+    "slug": "flail-dire5"
+  },
+  {
+    "Simple Weapons": "Hammer,gnome hooked5",
+    "Cost": "20 gp",
+    "Dmg (S)": "1d6/1d4",
+    "Dmg (M)": "1d8/1d6",
+    "Critical": "x3/x4",
+    "Range Increment": "—",
+    "Weight1": "6 lb.",
+    "Type2": "Bludgeoning and piercing",
+    "_category": "weapon",
+    "name": "Hammer,gnome hooked5",
+    "slug": "hammer-gnome-hooked5"
+  },
+  {
+    "Simple Weapons": "Sword, two-bladed5",
+    "Cost": "100 gp",
+    "Dmg (S)": "1d6/1d6",
+    "Dmg (M)": "1d8/1d8",
+    "Critical": "19–20/x2",
+    "Range Increment": "—",
+    "Weight1": "10 lb.",
+    "Type2": "Slashing",
+    "_category": "weapon",
+    "name": "Sword, two-bladed5",
+    "slug": "sword-two-bladed5"
+  },
+  {
+    "Simple Weapons": "Urgrosh, dwarven5",
+    "Cost": "50 gp",
+    "Dmg (S)": "1d6/1d4",
+    "Dmg (M)": "1d8/1d6",
+    "Critical": "x3",
+    "Range Increment": "—",
+    "Weight1": "12 lb.",
+    "Type2": "Slashing or piercing",
+    "_category": "weapon",
+    "name": "Urgrosh, dwarven5",
+    "slug": "urgrosh-dwarven5"
+  },
+  {
+    "Simple Weapons": "Bolas",
+    "Cost": "5 gp",
+    "Dmg (S)": "1d33",
+    "Dmg (M)": "1d43",
+    "Critical": "x2",
+    "Range Increment": "10 ft.",
+    "Weight1": "2 lb.",
+    "Type2": "Bludgeoning",
+    "_category": "weapon",
+    "name": "Bolas",
+    "slug": "bolas"
+  },
+  {
+    "Simple Weapons": "Crossbow, hand",
+    "Cost": "100 gp",
+    "Dmg (S)": "1d3",
+    "Dmg (M)": "1d4",
+    "Critical": "19–20/x2",
+    "Range Increment": "30 ft.",
+    "Weight1": "2 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Crossbow, hand",
+    "slug": "crossbow-hand"
+  },
+  {
+    "Simple Weapons": "Bolts (10)",
+    "Cost": "1 gp",
+    "Dmg (S)": "—",
+    "Dmg (M)": "—",
+    "Critical": "—",
+    "Range Increment": "—",
+    "Weight1": "1 lb.",
+    "Type2": "—",
+    "_category": "weapon",
+    "name": "Bolts (10)",
+    "slug": "bolts-10"
+  },
+  {
+    "Simple Weapons": "Crossbow,repeating heavy",
+    "Cost": "400 gp",
+    "Dmg (S)": "1d8",
+    "Dmg (M)": "1d10",
+    "Critical": "19–20/x2",
+    "Range Increment": "120 ft.",
+    "Weight1": "12 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Crossbow,repeating heavy",
+    "slug": "crossbow-repeating-heavy"
+  },
+  {
+    "Simple Weapons": "Bolts (5)",
+    "Cost": "1 gp",
+    "Dmg (S)": "—",
+    "Dmg (M)": "—",
+    "Critical": "—",
+    "Range Increment": "1 lb.",
+    "Weight1": "—",
+    "Type2": "",
+    "_category": "weapon",
+    "name": "Bolts (5)",
+    "slug": "bolts-5"
+  },
+  {
+    "Simple Weapons": "Crossbow,repeating light",
+    "Cost": "250 gp",
+    "Dmg (S)": "1d6",
+    "Dmg (M)": "1d8",
+    "Critical": "19–20/x2",
+    "Range Increment": "80 ft.",
+    "Weight1": "6 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Crossbow,repeating light",
+    "slug": "crossbow-repeating-light"
+  },
+  {
+    "Simple Weapons": "Bolts (5)",
+    "Cost": "1 gp",
+    "Dmg (S)": "—",
+    "Dmg (M)": "—",
+    "Critical": "—",
+    "Range Increment": "1 lb.",
+    "Weight1": "—",
+    "Type2": "",
+    "_category": "weapon",
+    "name": "Bolts (5)",
+    "slug": "bolts-5"
+  },
+  {
+    "Simple Weapons": "Net",
+    "Cost": "20 gp",
+    "Dmg (S)": "—",
+    "Dmg (M)": "—",
+    "Critical": "10 ft.",
+    "Range Increment": "6 lb.",
+    "Weight1": "—",
+    "Type2": "",
+    "_category": "weapon",
+    "name": "Net",
+    "slug": "net"
+  },
+  {
+    "Simple Weapons": "Shuriken (5)",
+    "Cost": "1 gp",
+    "Dmg (S)": "1",
+    "Dmg (M)": "1d2",
+    "Critical": "x2",
+    "Range Increment": "10 ft.",
+    "Weight1": "1/2 lb.",
+    "Type2": "Piercing",
+    "_category": "weapon",
+    "name": "Shuriken (5)",
+    "slug": "shuriken-5"
+  },
+  {
+    "Speed": "Light armor",
+    "_category": "armor",
+    "name": "Light armor",
+    "slug": "light-armor"
+  },
+  {
+    "Speed": "Padded",
+    "_category": "armor",
+    "name": "Padded",
+    "slug": "padded"
+  },
+  {
+    "Speed": "Leather",
+    "_category": "armor",
+    "name": "Leather",
+    "slug": "leather"
+  },
+  {
+    "Speed": "Studded leather",
+    "_category": "armor",
+    "name": "Studded leather",
+    "slug": "studded-leather"
+  },
+  {
+    "Speed": "Chain shirt",
+    "_category": "armor",
+    "name": "Chain shirt",
+    "slug": "chain-shirt"
+  },
+  {
+    "Speed": "Medium armor",
+    "_category": "armor",
+    "name": "Medium armor",
+    "slug": "medium-armor"
+  },
+  {
+    "Speed": "Hide",
+    "_category": "armor",
+    "name": "Hide",
+    "slug": "hide"
+  },
+  {
+    "Speed": "Scale mail",
+    "_category": "armor",
+    "name": "Scale mail",
+    "slug": "scale-mail"
+  },
+  {
+    "Speed": "Chainmail",
+    "_category": "armor",
+    "name": "Chainmail",
+    "slug": "chainmail"
+  },
+  {
+    "Speed": "Breastplate",
+    "_category": "armor",
+    "name": "Breastplate",
+    "slug": "breastplate"
+  },
+  {
+    "Speed": "Heavy armor",
+    "_category": "armor",
+    "name": "Heavy armor",
+    "slug": "heavy-armor"
+  },
+  {
+    "Speed": "Splint mail",
+    "_category": "armor",
+    "name": "Splint mail",
+    "slug": "splint-mail"
+  },
+  {
+    "Speed": "Banded mail",
+    "_category": "armor",
+    "name": "Banded mail",
+    "slug": "banded-mail"
+  },
+  {
+    "Speed": "Half-plate",
+    "_category": "armor",
+    "name": "Half-plate",
+    "slug": "half-plate"
+  },
+  {
+    "Speed": "Full plate",
+    "_category": "armor",
+    "name": "Full plate",
+    "slug": "full-plate"
+  },
+  {
+    "Speed": "Shields",
+    "_category": "armor",
+    "name": "Shields",
+    "slug": "shields"
+  },
+  {
+    "Speed": "Buckler",
+    "_category": "armor",
+    "name": "Buckler",
+    "slug": "buckler"
+  },
+  {
+    "Speed": "Shield, light wooden",
+    "_category": "armor",
+    "name": "Shield, light wooden",
+    "slug": "shield-light-wooden"
+  },
+  {
+    "Speed": "Shield, light steel",
+    "_category": "armor",
+    "name": "Shield, light steel",
+    "slug": "shield-light-steel"
+  },
+  {
+    "Speed": "Shield, heavy wooden",
+    "_category": "armor",
+    "name": "Shield, heavy wooden",
+    "slug": "shield-heavy-wooden"
+  },
+  {
+    "Speed": "Shield, heavy steel",
+    "_category": "armor",
+    "name": "Shield, heavy steel",
+    "slug": "shield-heavy-steel"
+  },
+  {
+    "Speed": "Shield, tower",
+    "_category": "armor",
+    "name": "Shield, tower",
+    "slug": "shield-tower"
+  },
+  {
+    "Speed": "Extras",
+    "_category": "armor",
+    "name": "Extras",
+    "slug": "extras"
+  },
+  {
+    "Speed": "Armor spikes",
+    "_category": "armor",
+    "name": "Armor spikes",
+    "slug": "armor-spikes"
+  },
+  {
+    "Speed": "Gauntlet, locked",
+    "_category": "armor",
+    "name": "Gauntlet, locked",
+    "slug": "gauntlet-locked"
+  },
+  {
+    "Speed": "Shield spikes",
+    "_category": "armor",
+    "name": "Shield spikes",
+    "slug": "shield-spikes"
+  },
+  {
+    "Adventuring Gear": "Backpack (empty)",
+    "_category": "goods",
+    "name": "Backpack (empty)",
+    "slug": "backpack-empty"
+  },
+  {
+    "Adventuring Gear": "Barrel (empty)",
+    "_category": "goods",
+    "name": "Barrel (empty)",
+    "slug": "barrel-empty"
+  },
+  {
+    "Adventuring Gear": "Basket (empty)",
+    "_category": "goods",
+    "name": "Basket (empty)",
+    "slug": "basket-empty"
+  },
+  {
+    "Adventuring Gear": "Bedroll",
+    "_category": "goods",
+    "name": "Bedroll",
+    "slug": "bedroll"
+  },
+  {
+    "Adventuring Gear": "Bell",
+    "_category": "goods",
+    "name": "Bell",
+    "slug": "bell"
+  },
+  {
+    "Adventuring Gear": "Blanket, winter",
+    "_category": "goods",
+    "name": "Blanket, winter",
+    "slug": "blanket-winter"
+  },
+  {
+    "Adventuring Gear": "Block and tackle",
+    "_category": "goods",
+    "name": "Block and tackle",
+    "slug": "block-and-tackle"
+  },
+  {
+    "Adventuring Gear": "Bottle, wine, glass",
+    "_category": "goods",
+    "name": "Bottle, wine, glass",
+    "slug": "bottle-wine-glass"
+  },
+  {
+    "Adventuring Gear": "Bucket (empty)",
+    "_category": "goods",
+    "name": "Bucket (empty)",
+    "slug": "bucket-empty"
+  },
+  {
+    "Adventuring Gear": "Caltrops",
+    "_category": "goods",
+    "name": "Caltrops",
+    "slug": "caltrops"
+  },
+  {
+    "Adventuring Gear": "Candle",
+    "_category": "goods",
+    "name": "Candle",
+    "slug": "candle"
+  },
+  {
+    "Adventuring Gear": "Canvas (sq. yd.)",
+    "_category": "goods",
+    "name": "Canvas (sq. yd.)",
+    "slug": "canvas-sq-yd"
+  },
+  {
+    "Adventuring Gear": "Case, map or scroll",
+    "_category": "goods",
+    "name": "Case, map or scroll",
+    "slug": "case-map-or-scroll"
+  },
+  {
+    "Adventuring Gear": "Chain (10 ft.)",
+    "_category": "goods",
+    "name": "Chain (10 ft.)",
+    "slug": "chain-10-ft"
+  },
+  {
+    "Adventuring Gear": "Chalk, 1 piece",
+    "_category": "goods",
+    "name": "Chalk, 1 piece",
+    "slug": "chalk-1-piece"
+  },
+  {
+    "Adventuring Gear": "Chest (empty)",
+    "_category": "goods",
+    "name": "Chest (empty)",
+    "slug": "chest-empty"
+  },
+  {
+    "Adventuring Gear": "Crowbar",
+    "_category": "goods",
+    "name": "Crowbar",
+    "slug": "crowbar"
+  },
+  {
+    "Adventuring Gear": "Firewood (per day)",
+    "_category": "goods",
+    "name": "Firewood (per day)",
+    "slug": "firewood-per-day"
+  },
+  {
+    "Adventuring Gear": "Fishhook",
+    "_category": "goods",
+    "name": "Fishhook",
+    "slug": "fishhook"
+  },
+  {
+    "Adventuring Gear": "Fishing net, 25 sq. ft.",
+    "_category": "goods",
+    "name": "Fishing net, 25 sq. ft.",
+    "slug": "fishing-net-25-sq-ft"
+  },
+  {
+    "Adventuring Gear": "Flask (empty)",
+    "_category": "goods",
+    "name": "Flask (empty)",
+    "slug": "flask-empty"
+  },
+  {
+    "Adventuring Gear": "Flint and steel",
+    "_category": "goods",
+    "name": "Flint and steel",
+    "slug": "flint-and-steel"
+  },
+  {
+    "Adventuring Gear": "Grappling hook",
+    "_category": "goods",
+    "name": "Grappling hook",
+    "slug": "grappling-hook"
+  },
+  {
+    "Adventuring Gear": "Hammer",
+    "_category": "goods",
+    "name": "Hammer",
+    "slug": "hammer"
+  },
+  {
+    "Adventuring Gear": "Ink (1 oz. vial)",
+    "_category": "goods",
+    "name": "Ink (1 oz. vial)",
+    "slug": "ink-1-oz-vial"
+  },
+  {
+    "Adventuring Gear": "Inkpen",
+    "_category": "goods",
+    "name": "Inkpen",
+    "slug": "inkpen"
+  },
+  {
+    "Adventuring Gear": "Jug, clay",
+    "_category": "goods",
+    "name": "Jug, clay",
+    "slug": "jug-clay"
+  },
+  {
+    "Adventuring Gear": "Ladder, 10-foot",
+    "_category": "goods",
+    "name": "Ladder, 10-foot",
+    "slug": "ladder-10-foot"
+  },
+  {
+    "Adventuring Gear": "Lamp, common",
+    "_category": "goods",
+    "name": "Lamp, common",
+    "slug": "lamp-common"
+  },
+  {
+    "Adventuring Gear": "Lantern, bullseye",
+    "_category": "goods",
+    "name": "Lantern, bullseye",
+    "slug": "lantern-bullseye"
+  },
+  {
+    "Adventuring Gear": "Lantern, hooded",
+    "_category": "goods",
+    "name": "Lantern, hooded",
+    "slug": "lantern-hooded"
+  },
+  {
+    "Adventuring Gear": "Lock",
+    "_category": "goods",
+    "name": "Lock",
+    "slug": "lock"
+  },
+  {
+    "Adventuring Gear": "Very simple",
+    "_category": "goods",
+    "name": "Very simple",
+    "slug": "very-simple"
+  },
+  {
+    "Adventuring Gear": "Average",
+    "_category": "goods",
+    "name": "Average",
+    "slug": "average"
+  },
+  {
+    "Adventuring Gear": "Good",
+    "_category": "goods",
+    "name": "Good",
+    "slug": "good"
+  },
+  {
+    "Adventuring Gear": "Amazing",
+    "_category": "goods",
+    "name": "Amazing",
+    "slug": "amazing"
+  },
+  {
+    "Adventuring Gear": "Manacles",
+    "_category": "goods",
+    "name": "Manacles",
+    "slug": "manacles"
+  },
+  {
+    "Adventuring Gear": "Manacles, masterwork",
+    "_category": "goods",
+    "name": "Manacles, masterwork",
+    "slug": "manacles-masterwork"
+  },
+  {
+    "Adventuring Gear": "Mirror, small steel",
+    "_category": "goods",
+    "name": "Mirror, small steel",
+    "slug": "mirror-small-steel"
+  },
+  {
+    "Adventuring Gear": "Mug/Tankard, clay",
+    "_category": "goods",
+    "name": "Mug/Tankard, clay",
+    "slug": "mug-tankard-clay"
+  },
+  {
+    "Adventuring Gear": "Oil (1-pint flask)",
+    "_category": "goods",
+    "name": "Oil (1-pint flask)",
+    "slug": "oil-1-pint-flask"
+  },
+  {
+    "Adventuring Gear": "Paper (sheet)",
+    "_category": "goods",
+    "name": "Paper (sheet)",
+    "slug": "paper-sheet"
+  },
+  {
+    "Adventuring Gear": "Parchment (sheet)",
+    "_category": "goods",
+    "name": "Parchment (sheet)",
+    "slug": "parchment-sheet"
+  },
+  {
+    "Adventuring Gear": "Pick, miner’s",
+    "_category": "goods",
+    "name": "Pick, miner’s",
+    "slug": "pick-miner-s"
+  },
+  {
+    "Adventuring Gear": "Pitcher, clay",
+    "_category": "goods",
+    "name": "Pitcher, clay",
+    "slug": "pitcher-clay"
+  },
+  {
+    "Adventuring Gear": "Piton",
+    "_category": "goods",
+    "name": "Piton",
+    "slug": "piton"
+  },
+  {
+    "Adventuring Gear": "Pole, 10-foot",
+    "_category": "goods",
+    "name": "Pole, 10-foot",
+    "slug": "pole-10-foot"
+  },
+  {
+    "Adventuring Gear": "Pot, iron",
+    "_category": "goods",
+    "name": "Pot, iron",
+    "slug": "pot-iron"
+  },
+  {
+    "Adventuring Gear": "Pouch, belt (empty)",
+    "_category": "goods",
+    "name": "Pouch, belt (empty)",
+    "slug": "pouch-belt-empty"
+  },
+  {
+    "Adventuring Gear": "Ram, portable",
+    "_category": "goods",
+    "name": "Ram, portable",
+    "slug": "ram-portable"
+  },
+  {
+    "Adventuring Gear": "Rations, trail (per day)",
+    "_category": "goods",
+    "name": "Rations, trail (per day)",
+    "slug": "rations-trail-per-day"
+  },
+  {
+    "Adventuring Gear": "Rope, hempen (50 ft.)",
+    "_category": "goods",
+    "name": "Rope, hempen (50 ft.)",
+    "slug": "rope-hempen-50-ft"
+  },
+  {
+    "Adventuring Gear": "Rope, silk (50 ft.)",
+    "_category": "goods",
+    "name": "Rope, silk (50 ft.)",
+    "slug": "rope-silk-50-ft"
+  },
+  {
+    "Adventuring Gear": "Sack (empty)",
+    "_category": "goods",
+    "name": "Sack (empty)",
+    "slug": "sack-empty"
+  },
+  {
+    "Adventuring Gear": "Sealing wax",
+    "_category": "goods",
+    "name": "Sealing wax",
+    "slug": "sealing-wax"
+  },
+  {
+    "Adventuring Gear": "Sewing needle",
+    "_category": "goods",
+    "name": "Sewing needle",
+    "slug": "sewing-needle"
+  },
+  {
+    "Adventuring Gear": "Signal whistle",
+    "_category": "goods",
+    "name": "Signal whistle",
+    "slug": "signal-whistle"
+  },
+  {
+    "Adventuring Gear": "Signet ring",
+    "_category": "goods",
+    "name": "Signet ring",
+    "slug": "signet-ring"
+  },
+  {
+    "Adventuring Gear": "Sledge",
+    "_category": "goods",
+    "name": "Sledge",
+    "slug": "sledge"
+  },
+  {
+    "Adventuring Gear": "Soap (per lb.)",
+    "_category": "goods",
+    "name": "Soap (per lb.)",
+    "slug": "soap-per-lb"
+  },
+  {
+    "Adventuring Gear": "Spade or shovel",
+    "_category": "goods",
+    "name": "Spade or shovel",
+    "slug": "spade-or-shovel"
+  },
+  {
+    "Adventuring Gear": "Spyglass",
+    "_category": "goods",
+    "name": "Spyglass",
+    "slug": "spyglass"
+  },
+  {
+    "Adventuring Gear": "Tent",
+    "_category": "goods",
+    "name": "Tent",
+    "slug": "tent"
+  },
+  {
+    "Adventuring Gear": "Torch",
+    "_category": "goods",
+    "name": "Torch",
+    "slug": "torch"
+  },
+  {
+    "Adventuring Gear": "Vial, ink or potion",
+    "_category": "goods",
+    "name": "Vial, ink or potion",
+    "slug": "vial-ink-or-potion"
+  },
+  {
+    "Adventuring Gear": "Waterskin",
+    "_category": "goods",
+    "name": "Waterskin",
+    "slug": "waterskin"
+  },
+  {
+    "Adventuring Gear": "Whetstone",
+    "_category": "goods",
+    "name": "Whetstone",
+    "slug": "whetstone"
+  },
+  {
+    "Adventuring Gear": "Acid (flask)",
+    "_category": "goods",
+    "name": "Acid (flask)",
+    "slug": "acid-flask"
+  },
+  {
+    "Adventuring Gear": "Alchemist’s fire (flask)",
+    "_category": "goods",
+    "name": "Alchemist’s fire (flask)",
+    "slug": "alchemist-s-fire-flask"
+  },
+  {
+    "Adventuring Gear": "Antitoxin (vial)",
+    "_category": "goods",
+    "name": "Antitoxin (vial)",
+    "slug": "antitoxin-vial"
+  },
+  {
+    "Adventuring Gear": "Everburning torch",
+    "_category": "goods",
+    "name": "Everburning torch",
+    "slug": "everburning-torch"
+  },
+  {
+    "Adventuring Gear": "Holy water (flask)",
+    "_category": "goods",
+    "name": "Holy water (flask)",
+    "slug": "holy-water-flask"
+  },
+  {
+    "Adventuring Gear": "Smokestick",
+    "_category": "goods",
+    "name": "Smokestick",
+    "slug": "smokestick"
+  },
+  {
+    "Adventuring Gear": "Sunrod",
+    "_category": "goods",
+    "name": "Sunrod",
+    "slug": "sunrod"
+  },
+  {
+    "Adventuring Gear": "Tanglefoot bag",
+    "_category": "goods",
+    "name": "Tanglefoot bag",
+    "slug": "tanglefoot-bag"
+  },
+  {
+    "Adventuring Gear": "Thunderstone",
+    "_category": "goods",
+    "name": "Thunderstone",
+    "slug": "thunderstone"
+  },
+  {
+    "Adventuring Gear": "Tindertwig",
+    "_category": "goods",
+    "name": "Tindertwig",
+    "slug": "tindertwig"
+  },
+  {
+    "Adventuring Gear": "Alchemist’s lab",
+    "_category": "goods",
+    "name": "Alchemist’s lab",
+    "slug": "alchemist-s-lab"
+  },
+  {
+    "Adventuring Gear": "Artisan’s tools",
+    "_category": "goods",
+    "name": "Artisan’s tools",
+    "slug": "artisan-s-tools"
+  },
+  {
+    "Adventuring Gear": "Artisan’s tools, masterwork",
+    "_category": "goods",
+    "name": "Artisan’s tools, masterwork",
+    "slug": "artisan-s-tools-masterwork"
+  },
+  {
+    "Adventuring Gear": "Climber’s kit",
+    "_category": "goods",
+    "name": "Climber’s kit",
+    "slug": "climber-s-kit"
+  },
+  {
+    "Adventuring Gear": "Disguise kit",
+    "_category": "goods",
+    "name": "Disguise kit",
+    "slug": "disguise-kit"
+  },
+  {
+    "Adventuring Gear": "Healer’s kit",
+    "_category": "goods",
+    "name": "Healer’s kit",
+    "slug": "healer-s-kit"
+  },
+  {
+    "Adventuring Gear": "Holly and mistletoe",
+    "_category": "goods",
+    "name": "Holly and mistletoe",
+    "slug": "holly-and-mistletoe"
+  },
+  {
+    "Adventuring Gear": "Holy symbol, wooden",
+    "_category": "goods",
+    "name": "Holy symbol, wooden",
+    "slug": "holy-symbol-wooden"
+  },
+  {
+    "Adventuring Gear": "Holy symbol, silver",
+    "_category": "goods",
+    "name": "Holy symbol, silver",
+    "slug": "holy-symbol-silver"
+  },
+  {
+    "Adventuring Gear": "Hourglass",
+    "_category": "goods",
+    "name": "Hourglass",
+    "slug": "hourglass"
+  },
+  {
+    "Adventuring Gear": "Magnifying glass",
+    "_category": "goods",
+    "name": "Magnifying glass",
+    "slug": "magnifying-glass"
+  },
+  {
+    "Adventuring Gear": "Musical instrument, common",
+    "_category": "goods",
+    "name": "Musical instrument, common",
+    "slug": "musical-instrument-common"
+  },
+  {
+    "Adventuring Gear": "Musical instrument, masterwork",
+    "_category": "goods",
+    "name": "Musical instrument, masterwork",
+    "slug": "musical-instrument-masterwork"
+  },
+  {
+    "Adventuring Gear": "Scale, merchant’s",
+    "_category": "goods",
+    "name": "Scale, merchant’s",
+    "slug": "scale-merchant-s"
+  },
+  {
+    "Adventuring Gear": "Spell component pouch",
+    "_category": "goods",
+    "name": "Spell component pouch",
+    "slug": "spell-component-pouch"
+  },
+  {
+    "Adventuring Gear": "Spellbook, wizard’s (blank)",
+    "_category": "goods",
+    "name": "Spellbook, wizard’s (blank)",
+    "slug": "spellbook-wizard-s-blank"
+  },
+  {
+    "Adventuring Gear": "Thieves’ tools",
+    "_category": "goods",
+    "name": "Thieves’ tools",
+    "slug": "thieves-tools"
+  },
+  {
+    "Adventuring Gear": "Thieves’ tools, masterwork",
+    "_category": "goods",
+    "name": "Thieves’ tools, masterwork",
+    "slug": "thieves-tools-masterwork"
+  },
+  {
+    "Adventuring Gear": "Tool, masterwork",
+    "_category": "goods",
+    "name": "Tool, masterwork",
+    "slug": "tool-masterwork"
+  },
+  {
+    "Adventuring Gear": "Water clock",
+    "_category": "goods",
+    "name": "Water clock",
+    "slug": "water-clock"
+  },
+  {
+    "Adventuring Gear": "Artisan’s outfit",
+    "_category": "goods",
+    "name": "Artisan’s outfit",
+    "slug": "artisan-s-outfit"
+  },
+  {
+    "Adventuring Gear": "Cleric’s vestments",
+    "_category": "goods",
+    "name": "Cleric’s vestments",
+    "slug": "cleric-s-vestments"
+  },
+  {
+    "Adventuring Gear": "Cold weather outfit",
+    "_category": "goods",
+    "name": "Cold weather outfit",
+    "slug": "cold-weather-outfit"
+  },
+  {
+    "Adventuring Gear": "Courtier’s outfit",
+    "_category": "goods",
+    "name": "Courtier’s outfit",
+    "slug": "courtier-s-outfit"
+  },
+  {
+    "Adventuring Gear": "Entertainer’s outfit",
+    "_category": "goods",
+    "name": "Entertainer’s outfit",
+    "slug": "entertainer-s-outfit"
+  },
+  {
+    "Adventuring Gear": "Explorer’s outfit",
+    "_category": "goods",
+    "name": "Explorer’s outfit",
+    "slug": "explorer-s-outfit"
+  },
+  {
+    "Adventuring Gear": "Monk’s outfit",
+    "_category": "goods",
+    "name": "Monk’s outfit",
+    "slug": "monk-s-outfit"
+  },
+  {
+    "Adventuring Gear": "Noble’s outfit",
+    "_category": "goods",
+    "name": "Noble’s outfit",
+    "slug": "noble-s-outfit"
+  },
+  {
+    "Adventuring Gear": "Peasant’s outfit",
+    "_category": "goods",
+    "name": "Peasant’s outfit",
+    "slug": "peasant-s-outfit"
+  },
+  {
+    "Adventuring Gear": "Royal outfit",
+    "_category": "goods",
+    "name": "Royal outfit",
+    "slug": "royal-outfit"
+  },
+  {
+    "Adventuring Gear": "Scholar’s outfit",
+    "_category": "goods",
+    "name": "Scholar’s outfit",
+    "slug": "scholar-s-outfit"
+  },
+  {
+    "Adventuring Gear": "Traveler’s outfit",
+    "_category": "goods",
+    "name": "Traveler’s outfit",
+    "slug": "traveler-s-outfit"
+  },
+  {
+    "Adventuring Gear": "Ale",
+    "_category": "goods",
+    "name": "Ale",
+    "slug": "ale"
+  },
+  {
+    "Adventuring Gear": "Gallon",
+    "_category": "goods",
+    "name": "Gallon",
+    "slug": "gallon"
+  },
+  {
+    "Adventuring Gear": "Mug",
+    "_category": "goods",
+    "name": "Mug",
+    "slug": "mug"
+  },
+  {
+    "Adventuring Gear": "Banquet (per person)",
+    "_category": "goods",
+    "name": "Banquet (per person)",
+    "slug": "banquet-per-person"
+  },
+  {
+    "Adventuring Gear": "Bread, per loaf",
+    "_category": "goods",
+    "name": "Bread, per loaf",
+    "slug": "bread-per-loaf"
+  },
+  {
+    "Adventuring Gear": "Cheese, hunk of",
+    "_category": "goods",
+    "name": "Cheese, hunk of",
+    "slug": "cheese-hunk-of"
+  },
+  {
+    "Adventuring Gear": "Inn stay (per day)",
+    "_category": "goods",
+    "name": "Inn stay (per day)",
+    "slug": "inn-stay-per-day"
+  },
+  {
+    "Adventuring Gear": "Good",
+    "_category": "goods",
+    "name": "Good",
+    "slug": "good"
+  },
+  {
+    "Adventuring Gear": "Common",
+    "_category": "goods",
+    "name": "Common",
+    "slug": "common"
+  },
+  {
+    "Adventuring Gear": "Poor",
+    "_category": "goods",
+    "name": "Poor",
+    "slug": "poor"
+  },
+  {
+    "Adventuring Gear": "Meals (per day)",
+    "_category": "goods",
+    "name": "Meals (per day)",
+    "slug": "meals-per-day"
+  },
+  {
+    "Adventuring Gear": "Good",
+    "_category": "goods",
+    "name": "Good",
+    "slug": "good"
+  },
+  {
+    "Adventuring Gear": "Common",
+    "_category": "goods",
+    "name": "Common",
+    "slug": "common"
+  },
+  {
+    "Adventuring Gear": "Poor",
+    "_category": "goods",
+    "name": "Poor",
+    "slug": "poor"
+  },
+  {
+    "Adventuring Gear": "Meat, chunk of",
+    "_category": "goods",
+    "name": "Meat, chunk of",
+    "slug": "meat-chunk-of"
+  },
+  {
+    "Adventuring Gear": "Wine",
+    "_category": "goods",
+    "name": "Wine",
+    "slug": "wine"
+  },
+  {
+    "Adventuring Gear": "Common (pitcher)",
+    "_category": "goods",
+    "name": "Common (pitcher)",
+    "slug": "common-pitcher"
+  },
+  {
+    "Adventuring Gear": "Fine (bottle)",
+    "_category": "goods",
+    "name": "Fine (bottle)",
+    "slug": "fine-bottle"
+  },
+  {
+    "Adventuring Gear": "Barding",
+    "_category": "goods",
+    "name": "Barding",
+    "slug": "barding"
+  },
+  {
+    "Adventuring Gear": "Medium creature",
+    "_category": "goods",
+    "name": "Medium creature",
+    "slug": "medium-creature"
+  },
+  {
+    "Adventuring Gear": "Large creature",
+    "_category": "goods",
+    "name": "Large creature",
+    "slug": "large-creature"
+  },
+  {
+    "Adventuring Gear": "Bit and bridle",
+    "_category": "goods",
+    "name": "Bit and bridle",
+    "slug": "bit-and-bridle"
+  },
+  {
+    "Adventuring Gear": "Dog, guard",
+    "_category": "goods",
+    "name": "Dog, guard",
+    "slug": "dog-guard"
+  },
+  {
+    "Adventuring Gear": "Dog, riding",
+    "_category": "goods",
+    "name": "Dog, riding",
+    "slug": "dog-riding"
+  },
+  {
+    "Adventuring Gear": "Donkey or mule",
+    "_category": "goods",
+    "name": "Donkey or mule",
+    "slug": "donkey-or-mule"
+  },
+  {
+    "Adventuring Gear": "Feed (per day)",
+    "_category": "goods",
+    "name": "Feed (per day)",
+    "slug": "feed-per-day"
+  },
+  {
+    "Adventuring Gear": "Horse",
+    "_category": "goods",
+    "name": "Horse",
+    "slug": "horse"
+  },
+  {
+    "Adventuring Gear": "Horse, heavy",
+    "_category": "goods",
+    "name": "Horse, heavy",
+    "slug": "horse-heavy"
+  },
+  {
+    "Adventuring Gear": "Horse, light",
+    "_category": "goods",
+    "name": "Horse, light",
+    "slug": "horse-light"
+  },
+  {
+    "Adventuring Gear": "Pony",
+    "_category": "goods",
+    "name": "Pony",
+    "slug": "pony"
+  },
+  {
+    "Adventuring Gear": "Warhorse, heavy",
+    "_category": "goods",
+    "name": "Warhorse, heavy",
+    "slug": "warhorse-heavy"
+  },
+  {
+    "Adventuring Gear": "Warhorse, light",
+    "_category": "goods",
+    "name": "Warhorse, light",
+    "slug": "warhorse-light"
+  },
+  {
+    "Adventuring Gear": "Warpony",
+    "_category": "goods",
+    "name": "Warpony",
+    "slug": "warpony"
+  },
+  {
+    "Adventuring Gear": "Saddle",
+    "_category": "goods",
+    "name": "Saddle",
+    "slug": "saddle"
+  },
+  {
+    "Adventuring Gear": "Military",
+    "_category": "goods",
+    "name": "Military",
+    "slug": "military"
+  },
+  {
+    "Adventuring Gear": "Pack",
+    "_category": "goods",
+    "name": "Pack",
+    "slug": "pack"
+  },
+  {
+    "Adventuring Gear": "Riding",
+    "_category": "goods",
+    "name": "Riding",
+    "slug": "riding"
+  },
+  {
+    "Adventuring Gear": "Saddle, Exotic",
+    "_category": "goods",
+    "name": "Saddle, Exotic",
+    "slug": "saddle-exotic"
+  },
+  {
+    "Adventuring Gear": "Military",
+    "_category": "goods",
+    "name": "Military",
+    "slug": "military"
+  },
+  {
+    "Adventuring Gear": "Pack",
+    "_category": "goods",
+    "name": "Pack",
+    "slug": "pack"
+  },
+  {
+    "Adventuring Gear": "Riding",
+    "_category": "goods",
+    "name": "Riding",
+    "slug": "riding"
+  },
+  {
+    "Adventuring Gear": "Saddlebags",
+    "_category": "goods",
+    "name": "Saddlebags",
+    "slug": "saddlebags"
+  },
+  {
+    "Adventuring Gear": "Stabling (per day)",
+    "_category": "goods",
+    "name": "Stabling (per day)",
+    "slug": "stabling-per-day"
+  },
+  {
+    "Adventuring Gear": "Carriage",
+    "_category": "goods",
+    "name": "Carriage",
+    "slug": "carriage"
+  },
+  {
+    "Adventuring Gear": "Cart",
+    "_category": "goods",
+    "name": "Cart",
+    "slug": "cart"
+  },
+  {
+    "Adventuring Gear": "Galley",
+    "_category": "goods",
+    "name": "Galley",
+    "slug": "galley"
+  },
+  {
+    "Adventuring Gear": "Keelboat",
+    "_category": "goods",
+    "name": "Keelboat",
+    "slug": "keelboat"
+  },
+  {
+    "Adventuring Gear": "Longship",
+    "_category": "goods",
+    "name": "Longship",
+    "slug": "longship"
+  },
+  {
+    "Adventuring Gear": "Rowboat",
+    "_category": "goods",
+    "name": "Rowboat",
+    "slug": "rowboat"
+  },
+  {
+    "Adventuring Gear": "Oar",
+    "_category": "goods",
+    "name": "Oar",
+    "slug": "oar"
+  },
+  {
+    "Adventuring Gear": "Sailing ship",
+    "_category": "goods",
+    "name": "Sailing ship",
+    "slug": "sailing-ship"
+  },
+  {
+    "Adventuring Gear": "Sled",
+    "_category": "goods",
+    "name": "Sled",
+    "slug": "sled"
+  },
+  {
+    "Adventuring Gear": "Wagon",
+    "_category": "goods",
+    "name": "Wagon",
+    "slug": "wagon"
+  },
+  {
+    "Adventuring Gear": "Warship",
+    "_category": "goods",
+    "name": "Warship",
+    "slug": "warship"
+  },
+  {
+    "Adventuring Gear": "Coach cab",
+    "_category": "goods",
+    "name": "Coach cab",
+    "slug": "coach-cab"
+  },
+  {
+    "Adventuring Gear": "Hireling, trained",
+    "_category": "goods",
+    "name": "Hireling, trained",
+    "slug": "hireling-trained"
+  },
+  {
+    "Adventuring Gear": "Hireling, untrained",
+    "_category": "goods",
+    "name": "Hireling, untrained",
+    "slug": "hireling-untrained"
+  },
+  {
+    "Adventuring Gear": "Messenger",
+    "_category": "goods",
+    "name": "Messenger",
+    "slug": "messenger"
+  },
+  {
+    "Adventuring Gear": "Road or gate toll",
+    "_category": "goods",
+    "name": "Road or gate toll",
+    "slug": "road-or-gate-toll"
+  },
+  {
+    "Adventuring Gear": "Ship’s passage",
+    "_category": "goods",
+    "name": "Ship’s passage",
+    "slug": "ship-s-passage"
+  },
+  {
+    "Adventuring Gear": "Spell, 0-level",
+    "_category": "goods",
+    "name": "Spell, 0-level",
+    "slug": "spell-0-level"
+  },
+  {
+    "Adventuring Gear": "Spell, 1st-level",
+    "_category": "goods",
+    "name": "Spell, 1st-level",
+    "slug": "spell-1st-level"
+  },
+  {
+    "Adventuring Gear": "Spell, 2nd-level",
+    "_category": "goods",
+    "name": "Spell, 2nd-level",
+    "slug": "spell-2nd-level"
+  },
+  {
+    "Adventuring Gear": "Spell, 3rd-level",
+    "_category": "goods",
+    "name": "Spell, 3rd-level",
+    "slug": "spell-3rd-level"
+  },
+  {
+    "Adventuring Gear": "Spell, 4th-level",
+    "_category": "goods",
+    "name": "Spell, 4th-level",
+    "slug": "spell-4th-level"
+  },
+  {
+    "Adventuring Gear": "Spell, 5th-level",
+    "_category": "goods",
+    "name": "Spell, 5th-level",
+    "slug": "spell-5th-level"
+  },
+  {
+    "Adventuring Gear": "Spell, 6th-level",
+    "_category": "goods",
+    "name": "Spell, 6th-level",
+    "slug": "spell-6th-level"
+  },
+  {
+    "Adventuring Gear": "Spell, 7th-level",
+    "_category": "goods",
+    "name": "Spell, 7th-level",
+    "slug": "spell-7th-level"
+  },
+  {
+    "Adventuring Gear": "Spell, 8th-level",
+    "_category": "goods",
+    "name": "Spell, 8th-level",
+    "slug": "spell-8th-level"
+  },
+  {
+    "Adventuring Gear": "Spell, 9th-level",
+    "_category": "goods",
+    "name": "Spell, 9th-level",
+    "slug": "spell-9th-level"
+  }
+]

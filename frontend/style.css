@@ -1,0 +1,242 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #1a1a2e;
+  --bg-card: #16213e;
+  --bg-hover: #1e2a4a;
+  --text: #e0e0e0;
+  --text-dim: #8a8a9a;
+  --accent: #c4a35a;
+  --accent-dim: #8a7340;
+  --border: #2a2a4a;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 1.5rem 1rem 0.5rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+}
+
+.subtitle {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+/* ── Tabs ─────────────────────────────────────────── */
+
+#tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 1rem 1rem 0;
+  flex-wrap: wrap;
+}
+
+.tab {
+  background: var(--bg-card);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 6px 6px 0 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  color: var(--text);
+  background: var(--bg-hover);
+}
+
+.tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--bg);
+  background: var(--bg);
+  font-weight: 600;
+}
+
+/* ── Search ───────────────────────────────────────── */
+
+#search-bar {
+  padding: 0.75rem 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#search {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: 1rem;
+  outline: none;
+}
+
+#search:focus {
+  border-color: var(--accent);
+}
+
+#search::placeholder {
+  color: var(--text-dim);
+}
+
+/* ── Layout ───────────────────────────────────────── */
+
+main {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#results-list {
+  flex: 1;
+  min-width: 0;
+}
+
+#detail-panel {
+  flex: 1.5;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  position: sticky;
+  top: 1rem;
+}
+
+#detail-panel.hidden {
+  display: none;
+}
+
+/* ── Result items ─────────────────────────────────── */
+
+.result-item {
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 2px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+  border-left: 3px solid transparent;
+}
+
+.result-item:hover {
+  background: var(--bg-hover);
+}
+
+.result-item.selected {
+  background: var(--bg-hover);
+  border-left-color: var(--accent);
+}
+
+.result-item .name {
+  font-weight: 500;
+}
+
+.result-item .meta {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-top: 0.15rem;
+}
+
+.no-results {
+  text-align: center;
+  color: var(--text-dim);
+  padding: 2rem;
+}
+
+/* ── Detail panel ─────────────────────────────────── */
+
+#detail-panel h2 {
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+  font-size: 1.4rem;
+}
+
+#detail-panel .field {
+  margin-bottom: 0.5rem;
+}
+
+#detail-panel .field-label {
+  font-weight: 600;
+  color: var(--accent-dim);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+#detail-panel .field-value {
+  margin-top: 0.1rem;
+}
+
+#detail-panel .desc-html {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+#detail-panel .desc-html p {
+  margin-bottom: 0.5rem;
+}
+
+#detail-panel .desc-html table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+  font-size: 0.9rem;
+}
+
+#detail-panel .desc-html th,
+#detail-panel .desc-html td {
+  border: 1px solid var(--border);
+  padding: 0.3rem 0.5rem;
+  text-align: left;
+}
+
+#detail-panel .desc-html th {
+  background: var(--bg);
+  color: var(--accent);
+}
+
+/* ── Loading ──────────────────────────────────────── */
+
+.loading {
+  text-align: center;
+  color: var(--text-dim);
+  padding: 2rem;
+}
+
+/* ── Responsive ───────────────────────────────────── */
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  #detail-panel {
+    position: static;
+    max-height: none;
+  }
+}
