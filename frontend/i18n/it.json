@@ -88,6 +88,20 @@
 
   "meta.hit_die": "Dado vita: ${value}",
 
+  "tab.translation_status": "Stato Traduzioni",
+
+  "status.title": "Stato Traduzioni Italiane",
+  "status.overall": "Completamento Generale",
+  "status.category": "Categoria",
+  "status.field": "Campo",
+  "status.translated": "Tradotti",
+  "status.total": "Totale",
+  "status.percent": "Percentuale",
+  "status.generated": "Generato il",
+  "status.entries": "entries",
+
+  "source.label": "Fonte",
+
   "lang.it": "Italiano",
   "lang.en": "English"
 }

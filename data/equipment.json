@@ -10,7 +10,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Gauntlet",
-    "slug": "gauntlet"
+    "slug": "gauntlet",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Unarmed strike",
@@ -23,7 +24,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Unarmed strike",
-    "slug": "unarmed-strike"
+    "slug": "unarmed-strike",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Dagger",
@@ -36,7 +38,8 @@
     "Type2": "Piercing or slashing",
     "_category": "weapon",
     "name": "Dagger",
-    "slug": "dagger"
+    "slug": "dagger",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Dagger, punching",
@@ -49,7 +52,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Dagger, punching",
-    "slug": "dagger-punching"
+    "slug": "dagger-punching",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Gauntlet, spiked",
@@ -62,7 +66,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Gauntlet, spiked",
-    "slug": "gauntlet-spiked"
+    "slug": "gauntlet-spiked",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Mace, light",
@@ -75,7 +80,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Mace, light",
-    "slug": "mace-light"
+    "slug": "mace-light",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Sickle",
@@ -88,7 +94,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Sickle",
-    "slug": "sickle"
+    "slug": "sickle",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Club",
@@ -101,7 +108,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Club",
-    "slug": "club"
+    "slug": "club",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Mace, heavy",
@@ -114,7 +122,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Mace, heavy",
-    "slug": "mace-heavy"
+    "slug": "mace-heavy",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Morningstar",
@@ -127,7 +136,8 @@
     "Type2": "Bludgeoning and piercing",
     "_category": "weapon",
     "name": "Morningstar",
-    "slug": "morningstar"
+    "slug": "morningstar",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Shortspear",
@@ -140,7 +150,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Shortspear",
-    "slug": "shortspear"
+    "slug": "shortspear",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Longspear4",
@@ -153,7 +164,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Longspear4",
-    "slug": "longspear4"
+    "slug": "longspear4",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Quarterstaff5",
@@ -166,7 +178,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Quarterstaff5",
-    "slug": "quarterstaff5"
+    "slug": "quarterstaff5",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Spear",
@@ -179,7 +192,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Spear",
-    "slug": "spear"
+    "slug": "spear",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Crossbow, heavy",
@@ -192,7 +206,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Crossbow, heavy",
-    "slug": "crossbow-heavy"
+    "slug": "crossbow-heavy",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Bolts, crossbow (10)",
@@ -205,7 +220,8 @@
     "Type2": "—",
     "_category": "weapon",
     "name": "Bolts, crossbow (10)",
-    "slug": "bolts-crossbow-10"
+    "slug": "bolts-crossbow-10",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Crossbow, light",
@@ -218,7 +234,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Crossbow, light",
-    "slug": "crossbow-light"
+    "slug": "crossbow-light",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Bolts, crossbow (10)",
@@ -231,7 +248,8 @@
     "Type2": "—",
     "_category": "weapon",
     "name": "Bolts, crossbow (10)",
-    "slug": "bolts-crossbow-10"
+    "slug": "bolts-crossbow-10",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Dart",
@@ -244,7 +262,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Dart",
-    "slug": "dart"
+    "slug": "dart",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Javelin",
@@ -257,7 +276,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Javelin",
-    "slug": "javelin"
+    "slug": "javelin",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Sling",
@@ -270,7 +290,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Sling",
-    "slug": "sling"
+    "slug": "sling",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Bullets, sling (10)",
@@ -283,7 +304,8 @@
     "Type2": "—",
     "_category": "weapon",
     "name": "Bullets, sling (10)",
-    "slug": "bullets-sling-10"
+    "slug": "bullets-sling-10",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Axe, throwing",
@@ -296,7 +318,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Axe, throwing",
-    "slug": "axe-throwing"
+    "slug": "axe-throwing",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Hammer, light",
@@ -309,7 +332,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Hammer, light",
-    "slug": "hammer-light"
+    "slug": "hammer-light",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Handaxe",
@@ -322,7 +346,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Handaxe",
-    "slug": "handaxe"
+    "slug": "handaxe",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Kukri",
@@ -335,7 +360,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Kukri",
-    "slug": "kukri"
+    "slug": "kukri",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Pick, light",
@@ -348,7 +374,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Pick, light",
-    "slug": "pick-light"
+    "slug": "pick-light",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Sap",
@@ -361,7 +388,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Sap",
-    "slug": "sap"
+    "slug": "sap",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Shield, light",
@@ -374,7 +402,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Shield, light",
-    "slug": "shield-light"
+    "slug": "shield-light",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Spiked armor",
@@ -387,7 +416,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Spiked armor",
-    "slug": "spiked-armor"
+    "slug": "spiked-armor",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Spiked shield, light",
@@ -400,7 +430,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Spiked shield, light",
-    "slug": "spiked-shield-light"
+    "slug": "spiked-shield-light",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Sword, short",
@@ -413,7 +444,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Sword, short",
-    "slug": "sword-short"
+    "slug": "sword-short",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Battleaxe",
@@ -426,7 +458,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Battleaxe",
-    "slug": "battleaxe"
+    "slug": "battleaxe",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Flail",
@@ -439,7 +472,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Flail",
-    "slug": "flail"
+    "slug": "flail",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Longsword",
@@ -452,7 +486,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Longsword",
-    "slug": "longsword"
+    "slug": "longsword",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Pick, heavy",
@@ -465,7 +500,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Pick, heavy",
-    "slug": "pick-heavy"
+    "slug": "pick-heavy",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Rapier",
@@ -478,7 +514,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Rapier",
-    "slug": "rapier"
+    "slug": "rapier",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Scimitar",
@@ -491,7 +528,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Scimitar",
-    "slug": "scimitar"
+    "slug": "scimitar",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Shield, heavy",
@@ -504,7 +542,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Shield, heavy",
-    "slug": "shield-heavy"
+    "slug": "shield-heavy",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Spiked shield, heavy",
@@ -517,7 +556,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Spiked shield, heavy",
-    "slug": "spiked-shield-heavy"
+    "slug": "spiked-shield-heavy",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Trident",
@@ -530,7 +570,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Trident",
-    "slug": "trident"
+    "slug": "trident",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Warhammer",
@@ -543,7 +584,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Warhammer",
-    "slug": "warhammer"
+    "slug": "warhammer",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Falchion",
@@ -556,7 +598,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Falchion",
-    "slug": "falchion"
+    "slug": "falchion",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Glaive4",
@@ -569,7 +612,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Glaive4",
-    "slug": "glaive4"
+    "slug": "glaive4",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Greataxe",
@@ -582,7 +626,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Greataxe",
-    "slug": "greataxe"
+    "slug": "greataxe",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Greatclub",
@@ -595,7 +640,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Greatclub",
-    "slug": "greatclub"
+    "slug": "greatclub",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Flail, heavy",
@@ -608,7 +654,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Flail, heavy",
-    "slug": "flail-heavy"
+    "slug": "flail-heavy",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Greatsword",
@@ -621,7 +668,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Greatsword",
-    "slug": "greatsword"
+    "slug": "greatsword",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Guisarme4",
@@ -634,7 +682,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Guisarme4",
-    "slug": "guisarme4"
+    "slug": "guisarme4",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Halberd",
@@ -647,7 +696,8 @@
     "Type2": "Piercing or slashing",
     "_category": "weapon",
     "name": "Halberd",
-    "slug": "halberd"
+    "slug": "halberd",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Lance4",
@@ -660,7 +710,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Lance4",
-    "slug": "lance4"
+    "slug": "lance4",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Ranseur4",
@@ -673,7 +724,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Ranseur4",
-    "slug": "ranseur4"
+    "slug": "ranseur4",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Scythe",
@@ -686,7 +738,8 @@
     "Type2": "Piercing or slashing",
     "_category": "weapon",
     "name": "Scythe",
-    "slug": "scythe"
+    "slug": "scythe",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Longbow",
@@ -699,7 +752,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Longbow",
-    "slug": "longbow"
+    "slug": "longbow",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Arrows (20)",
@@ -712,7 +766,8 @@
     "Type2": "—",
     "_category": "weapon",
     "name": "Arrows (20)",
-    "slug": "arrows-20"
+    "slug": "arrows-20",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Longbow, composite",
@@ -725,7 +780,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Longbow, composite",
-    "slug": "longbow-composite"
+    "slug": "longbow-composite",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Arrows (20)",
@@ -738,7 +794,8 @@
     "Type2": "—",
     "_category": "weapon",
     "name": "Arrows (20)",
-    "slug": "arrows-20"
+    "slug": "arrows-20",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Shortbow",
@@ -751,7 +808,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Shortbow",
-    "slug": "shortbow"
+    "slug": "shortbow",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Arrows (20)",
@@ -764,7 +822,8 @@
     "Type2": "—",
     "_category": "weapon",
     "name": "Arrows (20)",
-    "slug": "arrows-20"
+    "slug": "arrows-20",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Shortbow, composite",
@@ -777,7 +836,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Shortbow, composite",
-    "slug": "shortbow-composite"
+    "slug": "shortbow-composite",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Arrows (20)",
@@ -790,7 +850,8 @@
     "Type2": "—",
     "_category": "weapon",
     "name": "Arrows (20)",
-    "slug": "arrows-20"
+    "slug": "arrows-20",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Kama",
@@ -803,7 +864,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Kama",
-    "slug": "kama"
+    "slug": "kama",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Nunchaku",
@@ -816,7 +878,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Nunchaku",
-    "slug": "nunchaku"
+    "slug": "nunchaku",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Sai",
@@ -829,7 +892,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Sai",
-    "slug": "sai"
+    "slug": "sai",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Siangham",
@@ -842,7 +906,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Siangham",
-    "slug": "siangham"
+    "slug": "siangham",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Sword, bastard",
@@ -855,7 +920,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Sword, bastard",
-    "slug": "sword-bastard"
+    "slug": "sword-bastard",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Waraxe, dwarven",
@@ -868,7 +934,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Waraxe, dwarven",
-    "slug": "waraxe-dwarven"
+    "slug": "waraxe-dwarven",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Whip4",
@@ -881,7 +948,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Whip4",
-    "slug": "whip4"
+    "slug": "whip4",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Axe, orc double5",
@@ -894,7 +962,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Axe, orc double5",
-    "slug": "axe-orc-double5"
+    "slug": "axe-orc-double5",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Chain, spiked4",
@@ -907,7 +976,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Chain, spiked4",
-    "slug": "chain-spiked4"
+    "slug": "chain-spiked4",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Flail, dire5",
@@ -920,7 +990,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Flail, dire5",
-    "slug": "flail-dire5"
+    "slug": "flail-dire5",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Hammer,gnome hooked5",
@@ -933,7 +1004,8 @@
     "Type2": "Bludgeoning and piercing",
     "_category": "weapon",
     "name": "Hammer,gnome hooked5",
-    "slug": "hammer-gnome-hooked5"
+    "slug": "hammer-gnome-hooked5",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Sword, two-bladed5",
@@ -946,7 +1018,8 @@
     "Type2": "Slashing",
     "_category": "weapon",
     "name": "Sword, two-bladed5",
-    "slug": "sword-two-bladed5"
+    "slug": "sword-two-bladed5",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Urgrosh, dwarven5",
@@ -959,7 +1032,8 @@
     "Type2": "Slashing or piercing",
     "_category": "weapon",
     "name": "Urgrosh, dwarven5",
-    "slug": "urgrosh-dwarven5"
+    "slug": "urgrosh-dwarven5",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Bolas",
@@ -972,7 +1046,8 @@
     "Type2": "Bludgeoning",
     "_category": "weapon",
     "name": "Bolas",
-    "slug": "bolas"
+    "slug": "bolas",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Crossbow, hand",
@@ -985,7 +1060,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Crossbow, hand",
-    "slug": "crossbow-hand"
+    "slug": "crossbow-hand",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Bolts (10)",
@@ -998,7 +1074,8 @@
     "Type2": "—",
     "_category": "weapon",
     "name": "Bolts (10)",
-    "slug": "bolts-10"
+    "slug": "bolts-10",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Crossbow,repeating heavy",
@@ -1011,7 +1088,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Crossbow,repeating heavy",
-    "slug": "crossbow-repeating-heavy"
+    "slug": "crossbow-repeating-heavy",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Bolts (5)",
@@ -1024,7 +1102,8 @@
     "Type2": "",
     "_category": "weapon",
     "name": "Bolts (5)",
-    "slug": "bolts-5"
+    "slug": "bolts-5",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Crossbow,repeating light",
@@ -1037,7 +1116,8 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Crossbow,repeating light",
-    "slug": "crossbow-repeating-light"
+    "slug": "crossbow-repeating-light",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Bolts (5)",
@@ -1050,7 +1130,8 @@
     "Type2": "",
     "_category": "weapon",
     "name": "Bolts (5)",
-    "slug": "bolts-5"
+    "slug": "bolts-5",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Net",
@@ -1063,7 +1144,8 @@
     "Type2": "",
     "_category": "weapon",
     "name": "Net",
-    "slug": "net"
+    "slug": "net",
+    "source": "SRD"
   },
   {
     "Simple Weapons": "Shuriken (5)",
@@ -1076,1236 +1158,1442 @@
     "Type2": "Piercing",
     "_category": "weapon",
     "name": "Shuriken (5)",
-    "slug": "shuriken-5"
+    "slug": "shuriken-5",
+    "source": "SRD"
   },
   {
     "Speed": "Light armor",
     "_category": "armor",
     "name": "Light armor",
-    "slug": "light-armor"
+    "slug": "light-armor",
+    "source": "SRD"
   },
   {
     "Speed": "Padded",
     "_category": "armor",
     "name": "Padded",
-    "slug": "padded"
+    "slug": "padded",
+    "source": "SRD"
   },
   {
     "Speed": "Leather",
     "_category": "armor",
     "name": "Leather",
-    "slug": "leather"
+    "slug": "leather",
+    "source": "SRD"
   },
   {
     "Speed": "Studded leather",
     "_category": "armor",
     "name": "Studded leather",
-    "slug": "studded-leather"
+    "slug": "studded-leather",
+    "source": "SRD"
   },
   {
     "Speed": "Chain shirt",
     "_category": "armor",
     "name": "Chain shirt",
-    "slug": "chain-shirt"
+    "slug": "chain-shirt",
+    "source": "SRD"
   },
   {
     "Speed": "Medium armor",
     "_category": "armor",
     "name": "Medium armor",
-    "slug": "medium-armor"
+    "slug": "medium-armor",
+    "source": "SRD"
   },
   {
     "Speed": "Hide",
     "_category": "armor",
     "name": "Hide",
-    "slug": "hide"
+    "slug": "hide",
+    "source": "SRD"
   },
   {
     "Speed": "Scale mail",
     "_category": "armor",
     "name": "Scale mail",
-    "slug": "scale-mail"
+    "slug": "scale-mail",
+    "source": "SRD"
   },
   {
     "Speed": "Chainmail",
     "_category": "armor",
     "name": "Chainmail",
-    "slug": "chainmail"
+    "slug": "chainmail",
+    "source": "SRD"
   },
   {
     "Speed": "Breastplate",
     "_category": "armor",
     "name": "Breastplate",
-    "slug": "breastplate"
+    "slug": "breastplate",
+    "source": "SRD"
   },
   {
     "Speed": "Heavy armor",
     "_category": "armor",
     "name": "Heavy armor",
-    "slug": "heavy-armor"
+    "slug": "heavy-armor",
+    "source": "SRD"
   },
   {
     "Speed": "Splint mail",
     "_category": "armor",
     "name": "Splint mail",
-    "slug": "splint-mail"
+    "slug": "splint-mail",
+    "source": "SRD"
   },
   {
     "Speed": "Banded mail",
     "_category": "armor",
     "name": "Banded mail",
-    "slug": "banded-mail"
+    "slug": "banded-mail",
+    "source": "SRD"
   },
   {
     "Speed": "Half-plate",
     "_category": "armor",
     "name": "Half-plate",
-    "slug": "half-plate"
+    "slug": "half-plate",
+    "source": "SRD"
   },
   {
     "Speed": "Full plate",
     "_category": "armor",
     "name": "Full plate",
-    "slug": "full-plate"
+    "slug": "full-plate",
+    "source": "SRD"
   },
   {
     "Speed": "Shields",
     "_category": "armor",
     "name": "Shields",
-    "slug": "shields"
+    "slug": "shields",
+    "source": "SRD"
   },
   {
     "Speed": "Buckler",
     "_category": "armor",
     "name": "Buckler",
-    "slug": "buckler"
+    "slug": "buckler",
+    "source": "SRD"
   },
   {
     "Speed": "Shield, light wooden",
     "_category": "armor",
     "name": "Shield, light wooden",
-    "slug": "shield-light-wooden"
+    "slug": "shield-light-wooden",
+    "source": "SRD"
   },
   {
     "Speed": "Shield, light steel",
     "_category": "armor",
     "name": "Shield, light steel",
-    "slug": "shield-light-steel"
+    "slug": "shield-light-steel",
+    "source": "SRD"
   },
   {
     "Speed": "Shield, heavy wooden",
     "_category": "armor",
     "name": "Shield, heavy wooden",
-    "slug": "shield-heavy-wooden"
+    "slug": "shield-heavy-wooden",
+    "source": "SRD"
   },
   {
     "Speed": "Shield, heavy steel",
     "_category": "armor",
     "name": "Shield, heavy steel",
-    "slug": "shield-heavy-steel"
+    "slug": "shield-heavy-steel",
+    "source": "SRD"
   },
   {
     "Speed": "Shield, tower",
     "_category": "armor",
     "name": "Shield, tower",
-    "slug": "shield-tower"
+    "slug": "shield-tower",
+    "source": "SRD"
   },
   {
     "Speed": "Extras",
     "_category": "armor",
     "name": "Extras",
-    "slug": "extras"
+    "slug": "extras",
+    "source": "SRD"
   },
   {
     "Speed": "Armor spikes",
     "_category": "armor",
     "name": "Armor spikes",
-    "slug": "armor-spikes"
+    "slug": "armor-spikes",
+    "source": "SRD"
   },
   {
     "Speed": "Gauntlet, locked",
     "_category": "armor",
     "name": "Gauntlet, locked",
-    "slug": "gauntlet-locked"
+    "slug": "gauntlet-locked",
+    "source": "SRD"
   },
   {
     "Speed": "Shield spikes",
     "_category": "armor",
     "name": "Shield spikes",
-    "slug": "shield-spikes"
+    "slug": "shield-spikes",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Backpack (empty)",
     "_category": "goods",
     "name": "Backpack (empty)",
-    "slug": "backpack-empty"
+    "slug": "backpack-empty",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Barrel (empty)",
     "_category": "goods",
     "name": "Barrel (empty)",
-    "slug": "barrel-empty"
+    "slug": "barrel-empty",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Basket (empty)",
     "_category": "goods",
     "name": "Basket (empty)",
-    "slug": "basket-empty"
+    "slug": "basket-empty",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Bedroll",
     "_category": "goods",
     "name": "Bedroll",
-    "slug": "bedroll"
+    "slug": "bedroll",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Bell",
     "_category": "goods",
     "name": "Bell",
-    "slug": "bell"
+    "slug": "bell",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Blanket, winter",
     "_category": "goods",
     "name": "Blanket, winter",
-    "slug": "blanket-winter"
+    "slug": "blanket-winter",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Block and tackle",
     "_category": "goods",
     "name": "Block and tackle",
-    "slug": "block-and-tackle"
+    "slug": "block-and-tackle",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Bottle, wine, glass",
     "_category": "goods",
     "name": "Bottle, wine, glass",
-    "slug": "bottle-wine-glass"
+    "slug": "bottle-wine-glass",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Bucket (empty)",
     "_category": "goods",
     "name": "Bucket (empty)",
-    "slug": "bucket-empty"
+    "slug": "bucket-empty",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Caltrops",
     "_category": "goods",
     "name": "Caltrops",
-    "slug": "caltrops"
+    "slug": "caltrops",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Candle",
     "_category": "goods",
     "name": "Candle",
-    "slug": "candle"
+    "slug": "candle",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Canvas (sq. yd.)",
     "_category": "goods",
     "name": "Canvas (sq. yd.)",
-    "slug": "canvas-sq-yd"
+    "slug": "canvas-sq-yd",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Case, map or scroll",
     "_category": "goods",
     "name": "Case, map or scroll",
-    "slug": "case-map-or-scroll"
+    "slug": "case-map-or-scroll",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Chain (10 ft.)",
     "_category": "goods",
     "name": "Chain (10 ft.)",
-    "slug": "chain-10-ft"
+    "slug": "chain-10-ft",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Chalk, 1 piece",
     "_category": "goods",
     "name": "Chalk, 1 piece",
-    "slug": "chalk-1-piece"
+    "slug": "chalk-1-piece",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Chest (empty)",
     "_category": "goods",
     "name": "Chest (empty)",
-    "slug": "chest-empty"
+    "slug": "chest-empty",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Crowbar",
     "_category": "goods",
     "name": "Crowbar",
-    "slug": "crowbar"
+    "slug": "crowbar",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Firewood (per day)",
     "_category": "goods",
     "name": "Firewood (per day)",
-    "slug": "firewood-per-day"
+    "slug": "firewood-per-day",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Fishhook",
     "_category": "goods",
     "name": "Fishhook",
-    "slug": "fishhook"
+    "slug": "fishhook",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Fishing net, 25 sq. ft.",
     "_category": "goods",
     "name": "Fishing net, 25 sq. ft.",
-    "slug": "fishing-net-25-sq-ft"
+    "slug": "fishing-net-25-sq-ft",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Flask (empty)",
     "_category": "goods",
     "name": "Flask (empty)",
-    "slug": "flask-empty"
+    "slug": "flask-empty",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Flint and steel",
     "_category": "goods",
     "name": "Flint and steel",
-    "slug": "flint-and-steel"
+    "slug": "flint-and-steel",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Grappling hook",
     "_category": "goods",
     "name": "Grappling hook",
-    "slug": "grappling-hook"
+    "slug": "grappling-hook",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Hammer",
     "_category": "goods",
     "name": "Hammer",
-    "slug": "hammer"
+    "slug": "hammer",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Ink (1 oz. vial)",
     "_category": "goods",
     "name": "Ink (1 oz. vial)",
-    "slug": "ink-1-oz-vial"
+    "slug": "ink-1-oz-vial",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Inkpen",
     "_category": "goods",
     "name": "Inkpen",
-    "slug": "inkpen"
+    "slug": "inkpen",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Jug, clay",
     "_category": "goods",
     "name": "Jug, clay",
-    "slug": "jug-clay"
+    "slug": "jug-clay",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Ladder, 10-foot",
     "_category": "goods",
     "name": "Ladder, 10-foot",
-    "slug": "ladder-10-foot"
+    "slug": "ladder-10-foot",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Lamp, common",
     "_category": "goods",
     "name": "Lamp, common",
-    "slug": "lamp-common"
+    "slug": "lamp-common",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Lantern, bullseye",
     "_category": "goods",
     "name": "Lantern, bullseye",
-    "slug": "lantern-bullseye"
+    "slug": "lantern-bullseye",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Lantern, hooded",
     "_category": "goods",
     "name": "Lantern, hooded",
-    "slug": "lantern-hooded"
+    "slug": "lantern-hooded",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Lock",
     "_category": "goods",
     "name": "Lock",
-    "slug": "lock"
+    "slug": "lock",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Very simple",
     "_category": "goods",
     "name": "Very simple",
-    "slug": "very-simple"
+    "slug": "very-simple",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Average",
     "_category": "goods",
     "name": "Average",
-    "slug": "average"
+    "slug": "average",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Good",
     "_category": "goods",
     "name": "Good",
-    "slug": "good"
+    "slug": "good",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Amazing",
     "_category": "goods",
     "name": "Amazing",
-    "slug": "amazing"
+    "slug": "amazing",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Manacles",
     "_category": "goods",
     "name": "Manacles",
-    "slug": "manacles"
+    "slug": "manacles",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Manacles, masterwork",
     "_category": "goods",
     "name": "Manacles, masterwork",
-    "slug": "manacles-masterwork"
+    "slug": "manacles-masterwork",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Mirror, small steel",
     "_category": "goods",
     "name": "Mirror, small steel",
-    "slug": "mirror-small-steel"
+    "slug": "mirror-small-steel",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Mug/Tankard, clay",
     "_category": "goods",
     "name": "Mug/Tankard, clay",
-    "slug": "mug-tankard-clay"
+    "slug": "mug-tankard-clay",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Oil (1-pint flask)",
     "_category": "goods",
     "name": "Oil (1-pint flask)",
-    "slug": "oil-1-pint-flask"
+    "slug": "oil-1-pint-flask",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Paper (sheet)",
     "_category": "goods",
     "name": "Paper (sheet)",
-    "slug": "paper-sheet"
+    "slug": "paper-sheet",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Parchment (sheet)",
     "_category": "goods",
     "name": "Parchment (sheet)",
-    "slug": "parchment-sheet"
+    "slug": "parchment-sheet",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Pick, miner’s",
     "_category": "goods",
     "name": "Pick, miner’s",
-    "slug": "pick-miner-s"
+    "slug": "pick-miner-s",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Pitcher, clay",
     "_category": "goods",
     "name": "Pitcher, clay",
-    "slug": "pitcher-clay"
+    "slug": "pitcher-clay",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Piton",
     "_category": "goods",
     "name": "Piton",
-    "slug": "piton"
+    "slug": "piton",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Pole, 10-foot",
     "_category": "goods",
     "name": "Pole, 10-foot",
-    "slug": "pole-10-foot"
+    "slug": "pole-10-foot",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Pot, iron",
     "_category": "goods",
     "name": "Pot, iron",
-    "slug": "pot-iron"
+    "slug": "pot-iron",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Pouch, belt (empty)",
     "_category": "goods",
     "name": "Pouch, belt (empty)",
-    "slug": "pouch-belt-empty"
+    "slug": "pouch-belt-empty",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Ram, portable",
     "_category": "goods",
     "name": "Ram, portable",
-    "slug": "ram-portable"
+    "slug": "ram-portable",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Rations, trail (per day)",
     "_category": "goods",
     "name": "Rations, trail (per day)",
-    "slug": "rations-trail-per-day"
+    "slug": "rations-trail-per-day",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Rope, hempen (50 ft.)",
     "_category": "goods",
     "name": "Rope, hempen (50 ft.)",
-    "slug": "rope-hempen-50-ft"
+    "slug": "rope-hempen-50-ft",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Rope, silk (50 ft.)",
     "_category": "goods",
     "name": "Rope, silk (50 ft.)",
-    "slug": "rope-silk-50-ft"
+    "slug": "rope-silk-50-ft",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Sack (empty)",
     "_category": "goods",
     "name": "Sack (empty)",
-    "slug": "sack-empty"
+    "slug": "sack-empty",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Sealing wax",
     "_category": "goods",
     "name": "Sealing wax",
-    "slug": "sealing-wax"
+    "slug": "sealing-wax",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Sewing needle",
     "_category": "goods",
     "name": "Sewing needle",
-    "slug": "sewing-needle"
+    "slug": "sewing-needle",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Signal whistle",
     "_category": "goods",
     "name": "Signal whistle",
-    "slug": "signal-whistle"
+    "slug": "signal-whistle",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Signet ring",
     "_category": "goods",
     "name": "Signet ring",
-    "slug": "signet-ring"
+    "slug": "signet-ring",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Sledge",
     "_category": "goods",
     "name": "Sledge",
-    "slug": "sledge"
+    "slug": "sledge",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Soap (per lb.)",
     "_category": "goods",
     "name": "Soap (per lb.)",
-    "slug": "soap-per-lb"
+    "slug": "soap-per-lb",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spade or shovel",
     "_category": "goods",
     "name": "Spade or shovel",
-    "slug": "spade-or-shovel"
+    "slug": "spade-or-shovel",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spyglass",
     "_category": "goods",
     "name": "Spyglass",
-    "slug": "spyglass"
+    "slug": "spyglass",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Tent",
     "_category": "goods",
     "name": "Tent",
-    "slug": "tent"
+    "slug": "tent",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Torch",
     "_category": "goods",
     "name": "Torch",
-    "slug": "torch"
+    "slug": "torch",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Vial, ink or potion",
     "_category": "goods",
     "name": "Vial, ink or potion",
-    "slug": "vial-ink-or-potion"
+    "slug": "vial-ink-or-potion",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Waterskin",
     "_category": "goods",
     "name": "Waterskin",
-    "slug": "waterskin"
+    "slug": "waterskin",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Whetstone",
     "_category": "goods",
     "name": "Whetstone",
-    "slug": "whetstone"
+    "slug": "whetstone",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Acid (flask)",
     "_category": "goods",
     "name": "Acid (flask)",
-    "slug": "acid-flask"
+    "slug": "acid-flask",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Alchemist’s fire (flask)",
     "_category": "goods",
     "name": "Alchemist’s fire (flask)",
-    "slug": "alchemist-s-fire-flask"
+    "slug": "alchemist-s-fire-flask",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Antitoxin (vial)",
     "_category": "goods",
     "name": "Antitoxin (vial)",
-    "slug": "antitoxin-vial"
+    "slug": "antitoxin-vial",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Everburning torch",
     "_category": "goods",
     "name": "Everburning torch",
-    "slug": "everburning-torch"
+    "slug": "everburning-torch",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Holy water (flask)",
     "_category": "goods",
     "name": "Holy water (flask)",
-    "slug": "holy-water-flask"
+    "slug": "holy-water-flask",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Smokestick",
     "_category": "goods",
     "name": "Smokestick",
-    "slug": "smokestick"
+    "slug": "smokestick",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Sunrod",
     "_category": "goods",
     "name": "Sunrod",
-    "slug": "sunrod"
+    "slug": "sunrod",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Tanglefoot bag",
     "_category": "goods",
     "name": "Tanglefoot bag",
-    "slug": "tanglefoot-bag"
+    "slug": "tanglefoot-bag",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Thunderstone",
     "_category": "goods",
     "name": "Thunderstone",
-    "slug": "thunderstone"
+    "slug": "thunderstone",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Tindertwig",
     "_category": "goods",
     "name": "Tindertwig",
-    "slug": "tindertwig"
+    "slug": "tindertwig",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Alchemist’s lab",
     "_category": "goods",
     "name": "Alchemist’s lab",
-    "slug": "alchemist-s-lab"
+    "slug": "alchemist-s-lab",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Artisan’s tools",
     "_category": "goods",
     "name": "Artisan’s tools",
-    "slug": "artisan-s-tools"
+    "slug": "artisan-s-tools",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Artisan’s tools, masterwork",
     "_category": "goods",
     "name": "Artisan’s tools, masterwork",
-    "slug": "artisan-s-tools-masterwork"
+    "slug": "artisan-s-tools-masterwork",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Climber’s kit",
     "_category": "goods",
     "name": "Climber’s kit",
-    "slug": "climber-s-kit"
+    "slug": "climber-s-kit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Disguise kit",
     "_category": "goods",
     "name": "Disguise kit",
-    "slug": "disguise-kit"
+    "slug": "disguise-kit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Healer’s kit",
     "_category": "goods",
     "name": "Healer’s kit",
-    "slug": "healer-s-kit"
+    "slug": "healer-s-kit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Holly and mistletoe",
     "_category": "goods",
     "name": "Holly and mistletoe",
-    "slug": "holly-and-mistletoe"
+    "slug": "holly-and-mistletoe",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Holy symbol, wooden",
     "_category": "goods",
     "name": "Holy symbol, wooden",
-    "slug": "holy-symbol-wooden"
+    "slug": "holy-symbol-wooden",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Holy symbol, silver",
     "_category": "goods",
     "name": "Holy symbol, silver",
-    "slug": "holy-symbol-silver"
+    "slug": "holy-symbol-silver",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Hourglass",
     "_category": "goods",
     "name": "Hourglass",
-    "slug": "hourglass"
+    "slug": "hourglass",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Magnifying glass",
     "_category": "goods",
     "name": "Magnifying glass",
-    "slug": "magnifying-glass"
+    "slug": "magnifying-glass",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Musical instrument, common",
     "_category": "goods",
     "name": "Musical instrument, common",
-    "slug": "musical-instrument-common"
+    "slug": "musical-instrument-common",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Musical instrument, masterwork",
     "_category": "goods",
     "name": "Musical instrument, masterwork",
-    "slug": "musical-instrument-masterwork"
+    "slug": "musical-instrument-masterwork",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Scale, merchant’s",
     "_category": "goods",
     "name": "Scale, merchant’s",
-    "slug": "scale-merchant-s"
+    "slug": "scale-merchant-s",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spell component pouch",
     "_category": "goods",
     "name": "Spell component pouch",
-    "slug": "spell-component-pouch"
+    "slug": "spell-component-pouch",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spellbook, wizard’s (blank)",
     "_category": "goods",
     "name": "Spellbook, wizard’s (blank)",
-    "slug": "spellbook-wizard-s-blank"
+    "slug": "spellbook-wizard-s-blank",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Thieves’ tools",
     "_category": "goods",
     "name": "Thieves’ tools",
-    "slug": "thieves-tools"
+    "slug": "thieves-tools",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Thieves’ tools, masterwork",
     "_category": "goods",
     "name": "Thieves’ tools, masterwork",
-    "slug": "thieves-tools-masterwork"
+    "slug": "thieves-tools-masterwork",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Tool, masterwork",
     "_category": "goods",
     "name": "Tool, masterwork",
-    "slug": "tool-masterwork"
+    "slug": "tool-masterwork",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Water clock",
     "_category": "goods",
     "name": "Water clock",
-    "slug": "water-clock"
+    "slug": "water-clock",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Artisan’s outfit",
     "_category": "goods",
     "name": "Artisan’s outfit",
-    "slug": "artisan-s-outfit"
+    "slug": "artisan-s-outfit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Cleric’s vestments",
     "_category": "goods",
     "name": "Cleric’s vestments",
-    "slug": "cleric-s-vestments"
+    "slug": "cleric-s-vestments",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Cold weather outfit",
     "_category": "goods",
     "name": "Cold weather outfit",
-    "slug": "cold-weather-outfit"
+    "slug": "cold-weather-outfit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Courtier’s outfit",
     "_category": "goods",
     "name": "Courtier’s outfit",
-    "slug": "courtier-s-outfit"
+    "slug": "courtier-s-outfit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Entertainer’s outfit",
     "_category": "goods",
     "name": "Entertainer’s outfit",
-    "slug": "entertainer-s-outfit"
+    "slug": "entertainer-s-outfit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Explorer’s outfit",
     "_category": "goods",
     "name": "Explorer’s outfit",
-    "slug": "explorer-s-outfit"
+    "slug": "explorer-s-outfit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Monk’s outfit",
     "_category": "goods",
     "name": "Monk’s outfit",
-    "slug": "monk-s-outfit"
+    "slug": "monk-s-outfit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Noble’s outfit",
     "_category": "goods",
     "name": "Noble’s outfit",
-    "slug": "noble-s-outfit"
+    "slug": "noble-s-outfit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Peasant’s outfit",
     "_category": "goods",
     "name": "Peasant’s outfit",
-    "slug": "peasant-s-outfit"
+    "slug": "peasant-s-outfit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Royal outfit",
     "_category": "goods",
     "name": "Royal outfit",
-    "slug": "royal-outfit"
+    "slug": "royal-outfit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Scholar’s outfit",
     "_category": "goods",
     "name": "Scholar’s outfit",
-    "slug": "scholar-s-outfit"
+    "slug": "scholar-s-outfit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Traveler’s outfit",
     "_category": "goods",
     "name": "Traveler’s outfit",
-    "slug": "traveler-s-outfit"
+    "slug": "traveler-s-outfit",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Ale",
     "_category": "goods",
     "name": "Ale",
-    "slug": "ale"
+    "slug": "ale",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Gallon",
     "_category": "goods",
     "name": "Gallon",
-    "slug": "gallon"
+    "slug": "gallon",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Mug",
     "_category": "goods",
     "name": "Mug",
-    "slug": "mug"
+    "slug": "mug",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Banquet (per person)",
     "_category": "goods",
     "name": "Banquet (per person)",
-    "slug": "banquet-per-person"
+    "slug": "banquet-per-person",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Bread, per loaf",
     "_category": "goods",
     "name": "Bread, per loaf",
-    "slug": "bread-per-loaf"
+    "slug": "bread-per-loaf",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Cheese, hunk of",
     "_category": "goods",
     "name": "Cheese, hunk of",
-    "slug": "cheese-hunk-of"
+    "slug": "cheese-hunk-of",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Inn stay (per day)",
     "_category": "goods",
     "name": "Inn stay (per day)",
-    "slug": "inn-stay-per-day"
+    "slug": "inn-stay-per-day",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Good",
     "_category": "goods",
     "name": "Good",
-    "slug": "good"
+    "slug": "good",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Common",
     "_category": "goods",
     "name": "Common",
-    "slug": "common"
+    "slug": "common",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Poor",
     "_category": "goods",
     "name": "Poor",
-    "slug": "poor"
+    "slug": "poor",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Meals (per day)",
     "_category": "goods",
     "name": "Meals (per day)",
-    "slug": "meals-per-day"
+    "slug": "meals-per-day",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Good",
     "_category": "goods",
     "name": "Good",
-    "slug": "good"
+    "slug": "good",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Common",
     "_category": "goods",
     "name": "Common",
-    "slug": "common"
+    "slug": "common",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Poor",
     "_category": "goods",
     "name": "Poor",
-    "slug": "poor"
+    "slug": "poor",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Meat, chunk of",
     "_category": "goods",
     "name": "Meat, chunk of",
-    "slug": "meat-chunk-of"
+    "slug": "meat-chunk-of",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Wine",
     "_category": "goods",
     "name": "Wine",
-    "slug": "wine"
+    "slug": "wine",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Common (pitcher)",
     "_category": "goods",
     "name": "Common (pitcher)",
-    "slug": "common-pitcher"
+    "slug": "common-pitcher",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Fine (bottle)",
     "_category": "goods",
     "name": "Fine (bottle)",
-    "slug": "fine-bottle"
+    "slug": "fine-bottle",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Barding",
     "_category": "goods",
     "name": "Barding",
-    "slug": "barding"
+    "slug": "barding",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Medium creature",
     "_category": "goods",
     "name": "Medium creature",
-    "slug": "medium-creature"
+    "slug": "medium-creature",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Large creature",
     "_category": "goods",
     "name": "Large creature",
-    "slug": "large-creature"
+    "slug": "large-creature",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Bit and bridle",
     "_category": "goods",
     "name": "Bit and bridle",
-    "slug": "bit-and-bridle"
+    "slug": "bit-and-bridle",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Dog, guard",
     "_category": "goods",
     "name": "Dog, guard",
-    "slug": "dog-guard"
+    "slug": "dog-guard",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Dog, riding",
     "_category": "goods",
     "name": "Dog, riding",
-    "slug": "dog-riding"
+    "slug": "dog-riding",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Donkey or mule",
     "_category": "goods",
     "name": "Donkey or mule",
-    "slug": "donkey-or-mule"
+    "slug": "donkey-or-mule",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Feed (per day)",
     "_category": "goods",
     "name": "Feed (per day)",
-    "slug": "feed-per-day"
+    "slug": "feed-per-day",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Horse",
     "_category": "goods",
     "name": "Horse",
-    "slug": "horse"
+    "slug": "horse",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Horse, heavy",
     "_category": "goods",
     "name": "Horse, heavy",
-    "slug": "horse-heavy"
+    "slug": "horse-heavy",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Horse, light",
     "_category": "goods",
     "name": "Horse, light",
-    "slug": "horse-light"
+    "slug": "horse-light",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Pony",
     "_category": "goods",
     "name": "Pony",
-    "slug": "pony"
+    "slug": "pony",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Warhorse, heavy",
     "_category": "goods",
     "name": "Warhorse, heavy",
-    "slug": "warhorse-heavy"
+    "slug": "warhorse-heavy",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Warhorse, light",
     "_category": "goods",
     "name": "Warhorse, light",
-    "slug": "warhorse-light"
+    "slug": "warhorse-light",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Warpony",
     "_category": "goods",
     "name": "Warpony",
-    "slug": "warpony"
+    "slug": "warpony",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Saddle",
     "_category": "goods",
     "name": "Saddle",
-    "slug": "saddle"
+    "slug": "saddle",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Military",
     "_category": "goods",
     "name": "Military",
-    "slug": "military"
+    "slug": "military",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Pack",
     "_category": "goods",
     "name": "Pack",
-    "slug": "pack"
+    "slug": "pack",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Riding",
     "_category": "goods",
     "name": "Riding",
-    "slug": "riding"
+    "slug": "riding",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Saddle, Exotic",
     "_category": "goods",
     "name": "Saddle, Exotic",
-    "slug": "saddle-exotic"
+    "slug": "saddle-exotic",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Military",
     "_category": "goods",
     "name": "Military",
-    "slug": "military"
+    "slug": "military",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Pack",
     "_category": "goods",
     "name": "Pack",
-    "slug": "pack"
+    "slug": "pack",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Riding",
     "_category": "goods",
     "name": "Riding",
-    "slug": "riding"
+    "slug": "riding",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Saddlebags",
     "_category": "goods",
     "name": "Saddlebags",
-    "slug": "saddlebags"
+    "slug": "saddlebags",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Stabling (per day)",
     "_category": "goods",
     "name": "Stabling (per day)",
-    "slug": "stabling-per-day"
+    "slug": "stabling-per-day",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Carriage",
     "_category": "goods",
     "name": "Carriage",
-    "slug": "carriage"
+    "slug": "carriage",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Cart",
     "_category": "goods",
     "name": "Cart",
-    "slug": "cart"
+    "slug": "cart",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Galley",
     "_category": "goods",
     "name": "Galley",
-    "slug": "galley"
+    "slug": "galley",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Keelboat",
     "_category": "goods",
     "name": "Keelboat",
-    "slug": "keelboat"
+    "slug": "keelboat",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Longship",
     "_category": "goods",
     "name": "Longship",
-    "slug": "longship"
+    "slug": "longship",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Rowboat",
     "_category": "goods",
     "name": "Rowboat",
-    "slug": "rowboat"
+    "slug": "rowboat",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Oar",
     "_category": "goods",
     "name": "Oar",
-    "slug": "oar"
+    "slug": "oar",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Sailing ship",
     "_category": "goods",
     "name": "Sailing ship",
-    "slug": "sailing-ship"
+    "slug": "sailing-ship",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Sled",
     "_category": "goods",
     "name": "Sled",
-    "slug": "sled"
+    "slug": "sled",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Wagon",
     "_category": "goods",
     "name": "Wagon",
-    "slug": "wagon"
+    "slug": "wagon",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Warship",
     "_category": "goods",
     "name": "Warship",
-    "slug": "warship"
+    "slug": "warship",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Coach cab",
     "_category": "goods",
     "name": "Coach cab",
-    "slug": "coach-cab"
+    "slug": "coach-cab",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Hireling, trained",
     "_category": "goods",
     "name": "Hireling, trained",
-    "slug": "hireling-trained"
+    "slug": "hireling-trained",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Hireling, untrained",
     "_category": "goods",
     "name": "Hireling, untrained",
-    "slug": "hireling-untrained"
+    "slug": "hireling-untrained",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Messenger",
     "_category": "goods",
     "name": "Messenger",
-    "slug": "messenger"
+    "slug": "messenger",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Road or gate toll",
     "_category": "goods",
     "name": "Road or gate toll",
-    "slug": "road-or-gate-toll"
+    "slug": "road-or-gate-toll",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Ship’s passage",
     "_category": "goods",
     "name": "Ship’s passage",
-    "slug": "ship-s-passage"
+    "slug": "ship-s-passage",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spell, 0-level",
     "_category": "goods",
     "name": "Spell, 0-level",
-    "slug": "spell-0-level"
+    "slug": "spell-0-level",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spell, 1st-level",
     "_category": "goods",
     "name": "Spell, 1st-level",
-    "slug": "spell-1st-level"
+    "slug": "spell-1st-level",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spell, 2nd-level",
     "_category": "goods",
     "name": "Spell, 2nd-level",
-    "slug": "spell-2nd-level"
+    "slug": "spell-2nd-level",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spell, 3rd-level",
     "_category": "goods",
     "name": "Spell, 3rd-level",
-    "slug": "spell-3rd-level"
+    "slug": "spell-3rd-level",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spell, 4th-level",
     "_category": "goods",
     "name": "Spell, 4th-level",
-    "slug": "spell-4th-level"
+    "slug": "spell-4th-level",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spell, 5th-level",
     "_category": "goods",
     "name": "Spell, 5th-level",
-    "slug": "spell-5th-level"
+    "slug": "spell-5th-level",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spell, 6th-level",
     "_category": "goods",
     "name": "Spell, 6th-level",
-    "slug": "spell-6th-level"
+    "slug": "spell-6th-level",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spell, 7th-level",
     "_category": "goods",
     "name": "Spell, 7th-level",
-    "slug": "spell-7th-level"
+    "slug": "spell-7th-level",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spell, 8th-level",
     "_category": "goods",
     "name": "Spell, 8th-level",
-    "slug": "spell-8th-level"
+    "slug": "spell-8th-level",
+    "source": "SRD"
   },
   {
     "Adventuring Gear": "Spell, 9th-level",
     "_category": "goods",
     "name": "Spell, 9th-level",
-    "slug": "spell-9th-level"
+    "slug": "spell-9th-level",
+    "source": "SRD"
   }
 ]

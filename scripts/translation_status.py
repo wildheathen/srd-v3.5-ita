@@ -107,9 +107,72 @@ def report_category(category, lang, data_dir):
     print()
 
 
+def generate_json_report(lang, data_dir, categories):
+    """Generate a JSON report of translation status."""
+    from datetime import datetime, timezone
+
+    result = {
+        "lang": lang,
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "categories": {},
+        "summary": {
+            "total_entries": 0,
+            "total_fields": 0,
+            "translated_fields": 0,
+            "overall_percent": 0.0,
+        },
+    }
+
+    for cat in categories:
+        base = load_json(os.path.join(data_dir, f"{cat}.json"))
+        overlay = load_json(os.path.join(data_dir, "i18n", lang, f"{cat}.json"))
+
+        overlay_map = {}
+        for entry in overlay:
+            slug = entry.get("slug")
+            if slug:
+                overlay_map[slug] = entry
+
+        fields = TRANSLATABLE_FIELDS.get(cat, ["name"])
+        cat_data = {"total": len(base), "overlay_count": len(overlay_map), "fields": {}}
+
+        for field in fields:
+            base_with_field = sum(
+                1 for e in base
+                if e.get(field) is not None and e.get(field) != ""
+            )
+            if base_with_field == 0:
+                continue
+
+            translated = sum(
+                1 for slug, e in overlay_map.items()
+                if field in e and e[field] is not None and e[field] != ""
+            )
+
+            pct = (translated / base_with_field * 100) if base_with_field > 0 else 0
+            cat_data["fields"][field] = {
+                "translated": translated,
+                "total": base_with_field,
+                "percent": round(pct, 1),
+            }
+
+            result["summary"]["total_fields"] += base_with_field
+            result["summary"]["translated_fields"] += translated
+
+        result["categories"][cat] = cat_data
+        result["summary"]["total_entries"] += len(base)
+
+    total = result["summary"]["total_fields"]
+    done = result["summary"]["translated_fields"]
+    result["summary"]["overall_percent"] = round(done / total * 100, 1) if total > 0 else 0.0
+
+    return result
+
+
 def main():
     lang = "it"
     category_filter = None
+    json_output = False
 
     args = sys.argv[1:]
     i = 0
@@ -117,6 +180,9 @@ def main():
         if args[i] == "--lang" and i + 1 < len(args):
             lang = args[i + 1]
             i += 2
+        elif args[i] == "--json":
+            json_output = True
+            i += 1
         elif not args[i].startswith("-"):
             category_filter = args[i]
             i += 1
@@ -138,6 +204,15 @@ def main():
             print(f"Categorie disponibili: {', '.join(categories)}")
             sys.exit(1)
         categories = [category_filter]
+
+    if json_output:
+        report = generate_json_report(lang, data_dir, categories)
+        out_path = os.path.join(data_dir, "translation-status.json")
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(report, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        print(f"Written translation status to {out_path}")
+        return
 
     print(f"Stato traduzioni [{lang.upper()}]")
 
