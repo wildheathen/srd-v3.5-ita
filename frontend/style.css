@@ -539,6 +539,41 @@ main {
   padding: 1rem 0;
 }
 
+.status-lang-selector {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.status-lang-btn {
+  background: var(--bg-card);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.status-lang-btn:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.status-lang-btn.active {
+  background: var(--accent-dim);
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.status-lang-label {
+  text-align: center;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
 .status-overall {
   margin-bottom: 1.5rem;
   text-align: center;

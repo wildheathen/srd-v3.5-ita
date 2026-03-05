@@ -206,12 +206,45 @@ def main():
         categories = [category_filter]
 
     if json_output:
-        report = generate_json_report(lang, data_dir, categories)
-        out_path = os.path.join(data_dir, "translation-status.json")
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(report, f, ensure_ascii=False, indent=2)
+        from datetime import datetime, timezone
+
+        # Auto-detect available languages from data/i18n/ subdirectories
+        i18n_dir = os.path.join(data_dir, "i18n")
+        if os.path.isdir(i18n_dir):
+            langs = sorted(
+                d for d in os.listdir(i18n_dir)
+                if os.path.isdir(os.path.join(i18n_dir, d)) and d != "__pycache__"
+            )
+        else:
+            langs = [lang]
+
+        # Generate per-language status files
+        for lng in langs:
+            report = generate_json_report(lng, data_dir, categories)
+            out_path = os.path.join(data_dir, f"translation-status-{lng}.json")
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(report, f, ensure_ascii=False, indent=2)
+                f.write("\n")
+            print(f"Written translation status to {out_path}")
+
+        # Also write legacy translation-status.json (first language)
+        if langs:
+            report = generate_json_report(langs[0], data_dir, categories)
+            out_path = os.path.join(data_dir, "translation-status.json")
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(report, f, ensure_ascii=False, indent=2)
+                f.write("\n")
+
+        # Generate index file
+        index = {
+            "languages": langs,
+            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        }
+        index_path = os.path.join(data_dir, "translation-status-index.json")
+        with open(index_path, "w", encoding="utf-8") as f:
+            json.dump(index, f, ensure_ascii=False, indent=2)
             f.write("\n")
-        print(f"Written translation status to {out_path}")
+        print(f"Written index to {index_path}")
         return
 
     print(f"Stato traduzioni [{lang.upper()}]")
