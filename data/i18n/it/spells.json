@@ -863,7 +863,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "components": "V, S, FD",
     "level": "Drd 2",
-    "target_area_effect": "Metal equipment of una creatura per two levels,, non più di 9 m\n      l'una dall'altra; o 25 lb. of metal/livello, nuna of which can be more than 9 m away from any of the rest"
+    "target_area_effect": "Metal equipment of una creatura per two levels,, non più di 9 m\n      l'una dall'altra; o 25 lb. of metal/livello, nuna of which can be more than 9 m away from any of the rest",
+    "duration": "7 round"
   },
   {
     "slug": "chill-touch",
@@ -2803,7 +2804,8 @@
     "range": "Contatto",
     "level": "Str/Mag 2",
     "components": "V, S, M",
-    "target_area_effect": "Umanoide vivente toccato"
+    "target_area_effect": "Umanoide vivente toccato",
+    "duration": "1d6+2 round"
   },
   {
     "slug": "giant-vermin",
@@ -3091,7 +3093,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "components": "V, S, FD",
     "level": "Drd 2, Sole 2",
-    "target_area_effect": "Metal equipment of una creatura per two levels,, non più di 9 m\n      l'una dall'altra; o 25 lb. of metal/livello, all of which must be within a 9 m circle"
+    "target_area_effect": "Metal equipment of una creatura per two levels,, non più di 9 m\n      l'una dall'altra; o 25 lb. of metal/livello, all of which must be within a 9 m circle",
+    "duration": "7 round"
   },
   {
     "slug": "helping-hand",
@@ -3361,7 +3364,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "components": "V, S, M/FD",
     "level": "Drd 4, Str/Mag 4, Acqua 5",
-    "target_area_effect": "Cylinder (6 m radius, 12 m di altezza)"
+    "target_area_effect": "Cylinder (6 m radius, 12 m di altezza)",
+    "duration": "1 round completo"
   },
   {
     "slug": "identify",
@@ -3676,7 +3680,8 @@
     "range": "Contatto",
     "level": "Brd 6, Str/Mag 8",
     "components": "V",
-    "target_area_effect": "Creatura vivente toccata"
+    "target_area_effect": "Creatura vivente toccata",
+    "duration": "1d4+1 round"
   },
   {
     "slug": "jump",

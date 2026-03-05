@@ -1,6 +1,6 @@
 {
   "lang": "it",
-  "generated_at": "2026-03-05T12:00:20Z",
+  "generated_at": "2026-03-05T12:16:35Z",
   "categories": {
     "spells": {
       "total": 608,
@@ -52,9 +52,9 @@
           "percent": 100.0
         },
         "duration": {
-          "translated": 497,
+          "translated": 502,
           "total": 502,
-          "percent": 99.0
+          "percent": 100.0
         },
         "saving_throw": {
           "translated": 449,
@@ -88,9 +88,9 @@
           "percent": 99.1
         },
         "prerequisites": {
-          "translated": 0,
+          "translated": 64,
           "total": 64,
-          "percent": 0.0
+          "percent": 100.0
         },
         "benefit": {
           "translated": 111,
@@ -98,9 +98,9 @@
           "percent": 100.0
         },
         "normal": {
-          "translated": 31,
+          "translated": 32,
           "total": 32,
-          "percent": 96.9
+          "percent": 100.0
         },
         "special": {
           "translated": 65,
@@ -233,7 +233,7 @@
   "summary": {
     "total_entries": 1353,
     "total_fields": 8989,
-    "translated_fields": 7699,
-    "overall_percent": 85.6
+    "translated_fields": 7769,
+    "overall_percent": 86.4
   }
 }

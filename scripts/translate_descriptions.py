@@ -109,6 +109,77 @@ for slug, traits in RACE_TRAITS.items():
     RACE_DESC_HTML[slug] = f"<ul>\n{items}\n</ul>"
 
 
+# ── Feat prerequisites translations ──────────────────────────────────────
+# Direct mapping of EN prerequisite strings to IT
+
+FEAT_PREREQUISITES = {
+    "armor-proficiency-medium": "Competenza nelle Armature (leggere).",
+    "augment-summoning": "Focalizzazione Magica (evocazione).",
+    "brew-potion": "Livello dell'incantatore 3°.",
+    "cleave": "For 13, Attacco Poderoso.",
+    "combat-expertise": "Int 13.",
+    "craft-magic-arms-and-armor": "Livello dell'incantatore 5°.",
+    "craft-rod": "Livello dell'incantatore 9°.",
+    "craft-staff": "Livello dell'incantatore 12°.",
+    "craft-wand": "Livello dell'incantatore 5°.",
+    "craft-wondrous-item": "Livello dell'incantatore 3°.",
+    "deflect-arrows": "Des 13, Colpo Senz'Armi Migliorato.",
+    "diehard": "Resistenza Fisica.",
+    "dodge": "Des 13.",
+    "exotic-weapon-proficiency": "Bonus di attacco base +1 (più For 13 per spada bastarda o ascia da guerra nanica).",
+    "extra-turning": "Capacità di scacciare o intimorire creature.",
+    "far-shot": "Tiro Ravvicinato.",
+    "feat-descriptions--armor-proficiency-heavy": "Competenza nelle Armature (leggere), Competenza nelle Armature (medie).",
+    "feat-name": "Un punteggio di caratteristica minimo, un altro talento o talenti, un bonus di attacco base minimo, un numero minimo di gradi in una o più abilità, o un livello di classe che un personaggio deve avere per acquisire questo talento. Questa voce è assente se un talento non ha prerequisiti. Un talento può avere più di un prerequisito.",
+    "forge-ring": "Livello dell'incantatore 12°.",
+    "great-cleave": "For 13, Fendente, Attacco Poderoso, bonus di attacco base +4.",
+    "greater-spell-penetration": "Penetrazione Magica.",
+    "greater-two-weapon-fighting": "Des 19, Combattere con Due Armi Migliorato, Combattere con Due Armi, bonus di attacco base +11.",
+    "greater-weapon-focus": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 8°.",
+    "greater-weapon-specialization": "Competenza con l'arma selezionata, Focalizzazione sull'Arma Superiore con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, Specializzazione sull'Arma con l'arma selezionata, livello da guerriero 12°.",
+    "improved-bull-rush": "For 13, Attacco Poderoso.",
+    "improved-critical": "Competenza con l'arma, bonus di attacco base +8.",
+    "improved-disarm": "Int 13, Competenza in Combattimento.",
+    "improved-familiar": "Capacità di acquisire un nuovo famiglio, allineamento compatibile, livello sufficientemente alto (vedi sotto).",
+    "improved-feint": "Int 13, Competenza in Combattimento.",
+    "improved-grapple": "Des 13, Colpo Senz'Armi Migliorato.",
+    "improved-overrun": "For 13, Attacco Poderoso.",
+    "improved-precise-shot": "Des 19, Tiro Ravvicinato, Tiro Preciso, bonus di attacco base +11.",
+    "improved-shield-bash": "Competenza negli Scudi.",
+    "improved-sunder": "For 13, Attacco Poderoso.",
+    "improved-trip": "Int 13, Competenza in Combattimento.",
+    "improved-turning": "Capacità di scacciare o intimorire creature.",
+    "improved-two-weapon-fighting": "Des 17, Combattere con Due Armi, bonus di attacco base +6.",
+    "leadership": "Livello del personaggio 6°.",
+    "manyshot": "Des 17, Tiro Ravvicinato, Tiro Rapido, bonus di attacco base +6.",
+    "mobility": "Des 13, Schivare.",
+    "mounted-archery": "Cavalcare 1 grado, Combattimento in Sella.",
+    "mounted-combat": "Cavalcare 1 grado.",
+    "natural-spell": "Sag 13, capacità forma selvatica.",
+    "power-attack": "For 13.",
+    "precise-shot": "Tiro Ravvicinato.",
+    "quick-draw": "Bonus di attacco base +1.",
+    "rapid-reload": "Competenza nelle Armi (tipo di balestra scelto).",
+    "rapid-shot": "Des 13, Tiro Ravvicinato.",
+    "ride-by-attack": "Cavalcare 1 grado, Combattimento in Sella.",
+    "scribe-scroll": "Livello dell'incantatore 1°.",
+    "shot-on-the-run": "Des 13, Schivare, Mobilità, Tiro Ravvicinato, bonus di attacco base +4.",
+    "snatch-arrows": "Des 15, Deviare Frecce, Colpo Senz'Armi Migliorato.",
+    "spell-mastery": "Livello da mago 1°.",
+    "spirited-charge": "Cavalcare 1 grado, Combattimento in Sella, Attacco in Corsa.",
+    "spring-attack": "Des 13, Schivare, Mobilità, bonus di attacco base +4.",
+    "stunning-fist": "Des 13, Sag 13, Colpo Senz'Armi Migliorato, bonus di attacco base +8.",
+    "tower-shield-proficiency": "Competenza negli Scudi.",
+    "trample": "Cavalcare 1 grado, Combattimento in Sella.",
+    "two-weapon-defense": "Des 15, Combattere con Due Armi.",
+    "two-weapon-fighting": "Des 15.",
+    "weapon-finesse": "Bonus di attacco base +1.",
+    "weapon-focus": "Competenza con l'arma selezionata, bonus di attacco base +1.",
+    "weapon-specialization": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 4°.",
+    "whirlwind-attack": "Des 13, Int 13, Competenza in Combattimento, Schivare, Mobilità, Attacco in Movimento, bonus di attacco base +4.",
+}
+
+
 # ── Feat translations (benefit, normal, special) ─────────────────────────
 # These are the most commonly used feats with their benefit text translated
 
@@ -450,6 +521,7 @@ FEAT_TRANSLATIONS = {
     },
     "improved-precise-shot": {
         "benefit": "I tuoi attacchi a distanza ignorano il bonus alla CA garantito ai bersagli da qualsiasi cosa che non sia copertura totale, e la probabilità di mancamento garantita ai bersagli da qualsiasi cosa che non sia occultamento totale. Copertura totale e occultamento totale forniscono i loro normali benefici contro i tuoi attacchi a distanza. Inoltre, quando spari o lanci un'arma a distanza contro un bersaglio impegnato in lotta, non devi tirare casualmente per vedere quale partecipante alla lotta è colpito.",
+        "normal": "Vedi le regole normali sugli effetti di copertura e occultamento. Senza questo talento, un personaggio che spara o lancia un'arma a distanza contro un bersaglio impegnato in lotta deve tirare casualmente per vedere quale partecipante alla lotta è colpito.",
         "special": "Un guerriero può selezionare Tiro Preciso Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con arco è considerato come se avesse Tiro Preciso Migliorato, anche se non ne soddisfa i prerequisiti.",
     },
     "investigator": {
@@ -601,6 +673,8 @@ def translate_feats(data_dir):
             overlay_map[slug] = entry
 
     added = 0
+
+    # Apply benefit/normal/special translations
     for slug, fields in FEAT_TRANSLATIONS.items():
         if slug not in overlay_map:
             overlay_map[slug] = {"slug": slug}
@@ -610,6 +684,16 @@ def translate_feats(data_dir):
             if field not in entry:
                 entry[field] = value
                 added += 1
+
+    # Apply prerequisites translations
+    for slug, prereq_it in FEAT_PREREQUISITES.items():
+        if slug not in overlay_map:
+            overlay_map[slug] = {"slug": slug}
+
+        entry = overlay_map[slug]
+        if "prerequisites" not in entry:
+            entry["prerequisites"] = prereq_it
+            added += 1
 
     result = sorted(overlay_map.values(), key=lambda x: x.get("slug", ""))
     save_overlay(result, overlay_path)

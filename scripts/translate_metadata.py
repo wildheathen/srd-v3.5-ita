@@ -278,6 +278,7 @@ def translate_duration(val):
         "Concentration": "Concentrazione",
         "See text": "Vedi testo",
         "1 round": "1 round",
+        "1 full round": "1 round completo",
         "1 min.": "1 min.",
         "1 minute": "1 minuto",
         "1 hour": "1 ora",
@@ -290,7 +291,12 @@ def translate_duration(val):
     ordered = sorted(DURATION_TOKEN_MAP.items(), key=lambda x: -len(x[0]))
     for en, it in ordered:
         result = result.replace(en, it)
-    # Only return if something changed
+
+    # "rounds" is same in IT but we still want to mark it as translated
+    # Match patterns like "7 rounds", "1d6+2 rounds", "1d4+1 rounds"
+    if result == val and re.match(r'^[\d\w+d]+\s+rounds?$', val):
+        return val.replace("rounds", "round")
+
     return result if result != val else None
 
 

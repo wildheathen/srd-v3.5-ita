@@ -650,7 +650,7 @@ function renderFeat(f) {
     [t('detail.feat.normal'), f.normal],
     [t('detail.feat.special'), f.special],
   ];
-  return `<h2>${esc(f.name)}${renderSourceBadge(f)}</h2>` + renderFields(fields) + renderDesc(f.desc_html);
+  return `<h2>${esc(f.name)}${renderSourceBadge(f)}</h2>` + renderFields(fields);
 }
 
 function renderClass(c) {
