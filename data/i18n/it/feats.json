@@ -30,7 +30,8 @@
     "type": "Generale",
     "benefit": "Vedi Competenza nelle Armature (leggere).",
     "normal": "Vedi Competenza nelle Armature (leggere).",
-    "special": "Guerrieri, barbari, paladini, chierici, druidi e bardi hanno automaticamente Competenza nelle Armature (medie) come talento bonus. Non hanno bisogno di selezionarlo."
+    "special": "Guerrieri, barbari, paladini, chierici, druidi e bardi hanno automaticamente Competenza nelle Armature (medie) come talento bonus. Non hanno bisogno di selezionarlo.",
+    "prerequisites": "Competenza nelle Armature (leggere)."
   },
   {
     "slug": "athletic",
@@ -42,7 +43,8 @@
     "slug": "augment-summoning",
     "name": "Evocazione Potenziata",
     "type": "Generale",
-    "benefit": "Ogni creatura che evochi con qualsiasi incantesimo di evocazione ottiene un bonus di potenziamento di +4 a Forza e Costituzione per la durata dell'incantesimo che l'ha evocata."
+    "benefit": "Ogni creatura che evochi con qualsiasi incantesimo di evocazione ottiene un bonus di potenziamento di +4 a Forza e Costituzione per la durata dell'incantesimo che l'ha evocata.",
+    "prerequisites": "Focalizzazione Magica (evocazione)."
   },
   {
     "slug": "blind-fight",
@@ -56,14 +58,16 @@
     "slug": "brew-potion",
     "name": "Creare Pozioni",
     "type": "Creazione Oggetti",
-    "benefit": "Puoi creare una pozione di qualsiasi incantesimo di 3° livello o inferiore che conosci e che ha come bersaglio una o più creature. Preparare una pozione richiede un giorno. Quando crei una pozione, stabilisci il livello dell'incantatore, che deve essere sufficiente per lanciare l'incantesimo in questione e non superiore al tuo livello. Il prezzo base di una pozione è il suo livello dell'incantesimo × il livello dell'incantesimo × 50 mo. Per preparare una pozione, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà di questo prezzo base."
+    "benefit": "Puoi creare una pozione di qualsiasi incantesimo di 3° livello o inferiore che conosci e che ha come bersaglio una o più creature. Preparare una pozione richiede un giorno. Quando crei una pozione, stabilisci il livello dell'incantatore, che deve essere sufficiente per lanciare l'incantesimo in questione e non superiore al tuo livello. Il prezzo base di una pozione è il suo livello dell'incantesimo × il livello dell'incantesimo × 50 mo. Per preparare una pozione, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà di questo prezzo base.",
+    "prerequisites": "Livello dell'incantatore 3°."
   },
   {
     "slug": "cleave",
     "name": "Fendente",
     "type": "Generale",
     "benefit": "Se colpisci un avversario con sufficiente danno da farlo cadere (tipicamente riducendo i suoi punti ferita sotto 0 o uccidendolo), ottieni un attacco in mischia extra immediato contro un'altra creatura nelle vicinanze. Non puoi fare un passo di 1,5 m prima di effettuare questo attacco extra. L'attacco extra è al tuo bonus di attacco completo, anche se hai già attaccato in quel round. Puoi usare questa capacità una volta per round.",
-    "special": "Un guerriero può selezionare Fendente come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Fendente come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "For 13, Attacco Poderoso."
   },
   {
     "slug": "combat-casting",
@@ -77,7 +81,8 @@
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco o l'azione di attacco completo in mischia, puoi subire una penalità di –1 ai tiri per colpire in mischia e ottenere un bonus di schivare +1 alla Classe Armatura. Questa penalità e bonus aumentano di 1 per ogni –1 nei tiri per colpire, fino a un massimo di –5/+5. Devi scegliere di usare questa capacità prima di effettuare un tiro per colpire, e i suoi effetti durano fino alla tua prossima azione.",
     "special": "Un guerriero può selezionare Competenza in Combattimento come uno dei suoi talenti bonus da guerriero.",
-    "normal": "Un personaggio senza il talento Competenza in Combattimento può combattere sulla difensiva mentre usa l'azione di attacco o l'azione di attacco completo per subire una penalità di –4 ai tiri per colpire e ottenere un bonus di schivare +2 alla Classe Armatura."
+    "normal": "Un personaggio senza il talento Competenza in Combattimento può combattere sulla difensiva mentre usa l'azione di attacco o l'azione di attacco completo per subire una penalità di –4 ai tiri per colpire e ottenere un bonus di schivare +2 alla Classe Armatura.",
+    "prerequisites": "Int 13."
   },
   {
     "slug": "combat-reflexes",
@@ -91,31 +96,36 @@
     "slug": "craft-magic-arms-and-armor",
     "name": "Creare Armi e Armature Magiche",
     "type": "Creazione Oggetti",
-    "benefit": "Puoi creare qualsiasi arma, armatura o scudo magico di cui soddisfi i prerequisiti. Potenziare un'arma, un'armatura o uno scudo richiede un giorno per ogni 1.000 mo nel prezzo delle sue caratteristiche magiche. Per potenziare un'arma, un'armatura o uno scudo, devi spendere 1/25 del prezzo totale delle sue caratteristiche in PE e usare materie prime per un costo pari alla metà del prezzo."
+    "benefit": "Puoi creare qualsiasi arma, armatura o scudo magico di cui soddisfi i prerequisiti. Potenziare un'arma, un'armatura o uno scudo richiede un giorno per ogni 1.000 mo nel prezzo delle sue caratteristiche magiche. Per potenziare un'arma, un'armatura o uno scudo, devi spendere 1/25 del prezzo totale delle sue caratteristiche in PE e usare materie prime per un costo pari alla metà del prezzo.",
+    "prerequisites": "Livello dell'incantatore 5°."
   },
   {
     "slug": "craft-rod",
     "name": "Creare Verghe",
     "type": "Creazione Oggetti",
-    "benefit": "Puoi creare qualsiasi verga di cui soddisfi i prerequisiti. Creare una verga richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare una verga, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base."
+    "benefit": "Puoi creare qualsiasi verga di cui soddisfi i prerequisiti. Creare una verga richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare una verga, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base.",
+    "prerequisites": "Livello dell'incantatore 9°."
   },
   {
     "slug": "craft-staff",
     "name": "Creare Bastoni",
     "type": "Creazione Oggetti",
-    "benefit": "Puoi creare qualsiasi bastone di cui soddisfi i prerequisiti. Creare un bastone richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare un bastone, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base. Un bastone appena creato ha 50 cariche."
+    "benefit": "Puoi creare qualsiasi bastone di cui soddisfi i prerequisiti. Creare un bastone richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare un bastone, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base. Un bastone appena creato ha 50 cariche.",
+    "prerequisites": "Livello dell'incantatore 12°."
   },
   {
     "slug": "craft-wand",
     "name": "Creare Bacchette",
     "type": "Creazione Oggetti",
-    "benefit": "Puoi creare una bacchetta di qualsiasi incantesimo di 4° livello o inferiore che conosci. Creare una bacchetta richiede un giorno per ogni 1.000 mo nel suo prezzo base. Il prezzo base di una bacchetta è il suo livello dell'incantatore × il livello dell'incantesimo × 750 mo. Per creare una bacchetta, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà del prezzo base."
+    "benefit": "Puoi creare una bacchetta di qualsiasi incantesimo di 4° livello o inferiore che conosci. Creare una bacchetta richiede un giorno per ogni 1.000 mo nel suo prezzo base. Il prezzo base di una bacchetta è il suo livello dell'incantatore × il livello dell'incantesimo × 750 mo. Per creare una bacchetta, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà del prezzo base.",
+    "prerequisites": "Livello dell'incantatore 5°."
   },
   {
     "slug": "craft-wondrous-item",
     "name": "Creare Oggetti Meravigliosi",
     "type": "Creazione Oggetti",
-    "benefit": "Puoi creare qualsiasi oggetto meraviglioso di cui soddisfi i prerequisiti. Incantare un oggetto meraviglioso richiede un giorno per ogni 1.000 mo nel suo prezzo. Per incantare un oggetto meraviglioso, devi spendere 1/25 del prezzo dell'oggetto in PE e usare materie prime per un costo pari alla metà di questo prezzo. Puoi anche riparare un oggetto meraviglioso rotto se soddisfi i prerequisiti per crearlo."
+    "benefit": "Puoi creare qualsiasi oggetto meraviglioso di cui soddisfi i prerequisiti. Incantare un oggetto meraviglioso richiede un giorno per ogni 1.000 mo nel suo prezzo. Per incantare un oggetto meraviglioso, devi spendere 1/25 del prezzo dell'oggetto in PE e usare materie prime per un costo pari alla metà di questo prezzo. Puoi anche riparare un oggetto meraviglioso rotto se soddisfi i prerequisiti per crearlo.",
+    "prerequisites": "Livello dell'incantatore 3°."
   },
   {
     "slug": "deceitful",
@@ -128,7 +138,8 @@
     "name": "Deviare Frecce",
     "type": "Generale",
     "benefit": "Devi avere almeno una mano libera (senza tenere nulla) per usare questo talento. Una volta per round, quando saresti normalmente colpito da un'arma a distanza, puoi deviarla in modo da non subire danni. Devi essere consapevole dell'attacco e non essere colto alla sprovvista. Tentare di deviare un'arma a distanza non conta come un'azione. Armi a distanza eccezionalmente massicce e armi a distanza generate da incantesimi o capacità magiche non possono essere deviate.",
-    "special": "Un monaco può selezionare Deviare Frecce come talento bonus al 2° livello, anche se non soddisfa i prerequisiti. Un guerriero può selezionare Deviare Frecce come uno dei suoi talenti bonus da guerriero."
+    "special": "Un monaco può selezionare Deviare Frecce come talento bonus al 2° livello, anche se non soddisfa i prerequisiti. Un guerriero può selezionare Deviare Frecce come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Des 13, Colpo Senz'Armi Migliorato."
   },
   {
     "slug": "deft-hands",
@@ -141,7 +152,8 @@
     "name": "Duro a Morire",
     "type": "Generale",
     "benefit": "Quando sei ridotto tra –1 e –9 punti ferita, diventi automaticamente stabile. Non devi tirare d% per vedere se perdi 1 punto ferita ogni round. Quando sei ridotto a punti ferita negativi, puoi scegliere di agire come se fossi disabilitato, anziché morente. Devi prendere questa decisione non appena sei ridotto a punti ferita negativi (anche se non è il tuo turno). Se non agisci, perdi comunque punti ferita come normale.",
-    "normal": "Un personaggio senza questo talento che è ridotto tra –1 e –9 punti ferita è incosciente e morente."
+    "normal": "Un personaggio senza questo talento che è ridotto tra –1 e –9 punti ferita è incosciente e morente.",
+    "prerequisites": "Resistenza Fisica."
   },
   {
     "slug": "diligent",
@@ -154,7 +166,8 @@
     "name": "Schivare",
     "type": "Generale",
     "benefit": "Durante la tua azione, designa un avversario e ricevi un bonus di schivare +1 alla Classe Armatura contro gli attacchi di quell'avversario. Puoi selezionare un nuovo avversario su ogni azione. Un bonus di schivare si cumula con tutti gli altri bonus di schivare che puoi avere.",
-    "special": "Un guerriero può selezionare Schivare come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Schivare come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Des 13."
   },
   {
     "slug": "empower-spell",
@@ -188,7 +201,8 @@
     "type": "Generale",
     "benefit": "Effettui i tiri per colpire con l'arma selezionata normalmente.",
     "normal": "Un personaggio che usa un'arma con cui non è competente subisce una penalità di –4 ai tiri per colpire.",
-    "special": "Puoi ottenere Competenza nelle Armi Esotiche più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma esotica."
+    "special": "Puoi ottenere Competenza nelle Armi Esotiche più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma esotica.",
+    "prerequisites": "Bonus di attacco base +1 (più For 13 per spada bastarda o ascia da guerra nanica)."
   },
   {
     "slug": "extend-spell",
@@ -202,14 +216,16 @@
     "type": "Generale",
     "benefit": "Ogni volta che prendi questo talento, puoi usare la tua capacità di scacciare o intimorire creature quattro volte in più al giorno del normale. Se hai la capacità di scacciare o intimorire più di un tipo di creatura, ciascuna delle tue capacità di scacciare o intimorire ottiene quattro usi aggiuntivi al giorno.",
     "normal": "Senza questo talento, un personaggio può tipicamente scacciare o intimorire non morti (o altre creature) un numero di volte al giorno pari a 3 + il suo modificatore di Carisma.",
-    "special": "Puoi ottenere Scacciare Extra più volte. I suoi effetti si cumulano. Ogni volta che prendi il talento, puoi usare ciascuna delle tue capacità di scacciare o intimorire quattro volte aggiuntive al giorno."
+    "special": "Puoi ottenere Scacciare Extra più volte. I suoi effetti si cumulano. Ogni volta che prendi il talento, puoi usare ciascuna delle tue capacità di scacciare o intimorire quattro volte aggiuntive al giorno.",
+    "prerequisites": "Capacità di scacciare o intimorire creature."
   },
   {
     "slug": "far-shot",
     "name": "Tiro Lontano",
     "type": "Generale",
     "benefit": "Quando usi un'arma a proiettile, come un arco, il suo incremento di gittata aumenta della metà (moltiplicato per 1,5). Quando usi un'arma da lancio, il suo incremento di gittata è raddoppiato.",
-    "special": "Un guerriero può selezionare Tiro Lontano come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Tiro Lontano come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Tiro Ravvicinato."
   },
   {
     "slug": "feat-descriptions--armor-proficiency-heavy",
@@ -217,7 +233,8 @@
     "type": "Generale",
     "benefit": "Vedi Competenza nelle Armature (leggere).",
     "normal": "Vedi Competenza nelle Armature (leggere).",
-    "special": "Guerrieri, paladini e chierici hanno automaticamente Competenza nelle Armature (pesanti) come talento bonus. Non hanno bisogno di selezionarlo."
+    "special": "Guerrieri, paladini e chierici hanno automaticamente Competenza nelle Armature (pesanti) come talento bonus. Non hanno bisogno di selezionarlo.",
+    "prerequisites": "Competenza nelle Armature (leggere), Competenza nelle Armature (medie)."
   },
   {
     "slug": "feat-descriptions--armor-proficiency-light",
@@ -231,20 +248,23 @@
     "slug": "feat-name",
     "benefit": "Ciò che il talento consente al personaggio (\"tu\" nella descrizione del talento) di fare. Se un personaggio ha lo stesso talento più di una volta, i suoi benefici non si cumulano a meno che non sia indicato diversamente nella descrizione. In generale, avere un talento due volte è uguale ad averlo una volta.",
     "normal": "A cosa è limitato o da cosa è ristretto un personaggio che non ha questo talento. Se non avere il talento non causa alcuno svantaggio particolare, questa voce è assente.",
-    "special": "Fatti aggiuntivi sul talento che possono essere utili quando si decide se acquisirlo."
+    "special": "Fatti aggiuntivi sul talento che possono essere utili quando si decide se acquisirlo.",
+    "prerequisites": "Un punteggio di caratteristica minimo, un altro talento o talenti, un bonus di attacco base minimo, un numero minimo di gradi in una o più abilità, o un livello di classe che un personaggio deve avere per acquisire questo talento. Questa voce è assente se un talento non ha prerequisiti. Un talento può avere più di un prerequisito."
   },
   {
     "slug": "forge-ring",
     "name": "Forgiare Anelli",
     "type": "Creazione Oggetti",
-    "benefit": "Puoi creare qualsiasi anello di cui soddisfi i prerequisiti. Creare un anello richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare un anello, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base. Puoi anche riparare un anello rotto se soddisfi i prerequisiti per crearlo."
+    "benefit": "Puoi creare qualsiasi anello di cui soddisfi i prerequisiti. Creare un anello richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare un anello, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base. Puoi anche riparare un anello rotto se soddisfi i prerequisiti per crearlo.",
+    "prerequisites": "Livello dell'incantatore 12°."
   },
   {
     "slug": "great-cleave",
     "name": "Grande Fendente",
     "type": "Generale",
     "benefit": "Questo talento funziona come Fendente, eccetto che non c'è limite al numero di volte che puoi usarlo per round.",
-    "special": "Un guerriero può selezionare Fendente Poderoso come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Fendente Poderoso come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "For 13, Fendente, Attacco Poderoso, bonus di attacco base +4."
   },
   {
     "slug": "great-fortitude",
@@ -263,28 +283,32 @@
     "slug": "greater-spell-penetration",
     "name": "Penetrazione Magica Superiore",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura. Questo bonus si cumula con quello di Penetrazione Magica."
+    "benefit": "Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura. Questo bonus si cumula con quello di Penetrazione Magica.",
+    "prerequisites": "Penetrazione Magica."
   },
   {
     "slug": "greater-two-weapon-fighting",
     "name": "Combattere con Due Armi Superiore",
     "type": "Generale",
     "benefit": "Ottieni un terzo attacco con la tua arma secondaria, anche se con una penalità di –10.",
-    "special": "Un guerriero può selezionare Combattere con Due Armi Superiore come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Superiore, anche se non ne soddisfa i prerequisiti."
+    "special": "Un guerriero può selezionare Combattere con Due Armi Superiore come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Superiore, anche se non ne soddisfa i prerequisiti.",
+    "prerequisites": "Des 19, Combattere con Due Armi Migliorato, Combattere con Due Armi, bonus di attacco base +11."
   },
   {
     "slug": "greater-weapon-focus",
     "name": "Focalizzazione sull'Arma Superiore",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +1 a tutti i tiri per colpire effettuati usando l'arma selezionata. Questo bonus si cumula con altri bonus ai tiri per colpire, incluso quello di Focalizzazione sull'Arma.",
-    "special": "Puoi ottenere Focalizzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma."
+    "special": "Puoi ottenere Focalizzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
+    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 8°."
   },
   {
     "slug": "greater-weapon-specialization",
     "name": "Specializzazione sull'Arma Superiore",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutti i tiri per i danni effettuati usando l'arma selezionata. Questo bonus si cumula con altri bonus ai tiri per i danni, incluso quello di Specializzazione sull'Arma.",
-    "special": "Puoi ottenere Specializzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma."
+    "special": "Puoi ottenere Specializzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
+    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma Superiore con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, Specializzazione sull'Arma con l'arma selezionata, livello da guerriero 12°."
   },
   {
     "slug": "heighten-spell",
@@ -297,7 +321,8 @@
     "name": "Spinta Migliorata",
     "type": "Generale",
     "benefit": "Quando effettui uno spingere, non provochi un attacco di opportunità dal difensore. Ottieni anche un bonus di +4 alla prova di Forza per spingere.",
-    "special": "Un guerriero può selezionare Spingere Migliorato come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Spingere Migliorato come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "For 13, Attacco Poderoso."
   },
   {
     "slug": "improved-counterspell",
@@ -311,7 +336,8 @@
     "name": "Critico Migliorato",
     "type": "Generale",
     "benefit": "Quando usi l'arma selezionata, il suo intervallo di minaccia di critico è raddoppiato.",
-    "special": "Puoi ottenere Critico Migliorato più volte. Gli effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Questo effetto non si cumula con nessun altro effetto che espande l'intervallo di minaccia di un'arma."
+    "special": "Puoi ottenere Critico Migliorato più volte. Gli effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Questo effetto non si cumula con nessun altro effetto che espande l'intervallo di minaccia di un'arma.",
+    "prerequisites": "Competenza con l'arma, bonus di attacco base +8."
   },
   {
     "slug": "improved-disarm",
@@ -319,20 +345,23 @@
     "type": "Generale",
     "benefit": "Non provochi un attacco di opportunità quando tenti di disarmare un avversario, né l'avversario ha la possibilità di disarmarti. Ottieni anche un bonus di +4 alla prova di attacco per disarmare il tuo avversario.",
     "normal": "Senza questo talento, tentare di disarmare provoca un attacco di opportunità.",
-    "special": "Un guerriero può selezionare Disarmare Migliorato come uno dei suoi talenti bonus da guerriero. Un monaco può selezionare Disarmare Migliorato come talento bonus al 6° livello, anche se non ne soddisfa i prerequisiti."
+    "special": "Un guerriero può selezionare Disarmare Migliorato come uno dei suoi talenti bonus da guerriero. Un monaco può selezionare Disarmare Migliorato come talento bonus al 6° livello, anche se non ne soddisfa i prerequisiti.",
+    "prerequisites": "Int 13, Competenza in Combattimento."
   },
   {
     "slug": "improved-familiar",
     "name": "Famiglio Migliorato",
     "type": "Generale",
-    "benefit": "Quando scegli un famiglio, le creature elencate di seguito sono disponibili anche per l'incantatore. L'incantatore può scegliere un famiglio con un allineamento fino a un passo di distanza su ciascuno degli assi di allineamento (da legale a caotico, da buono a malvagio)."
+    "benefit": "Quando scegli un famiglio, le creature elencate di seguito sono disponibili anche per l'incantatore. L'incantatore può scegliere un famiglio con un allineamento fino a un passo di distanza su ciascuno degli assi di allineamento (da legale a caotico, da buono a malvagio).",
+    "prerequisites": "Capacità di acquisire un nuovo famiglio, allineamento compatibile, livello sufficientemente alto (vedi sotto)."
   },
   {
     "slug": "improved-feint",
     "name": "Finta Migliorata",
     "type": "Generale",
     "benefit": "Puoi effettuare una prova di Raggirare per fintare in combattimento come azione di movimento.",
-    "normal": "Fintare in combattimento è un'azione standard."
+    "normal": "Fintare in combattimento è un'azione standard.",
+    "prerequisites": "Int 13, Competenza in Combattimento."
   },
   {
     "slug": "improved-grapple",
@@ -340,7 +369,8 @@
     "type": "Generale",
     "benefit": "Non provochi un attacco di opportunità quando effettui un attacco di contatto per iniziare una lotta. Ottieni anche un bonus di +4 a tutte le prove di lotta, indipendentemente dal fatto che tu abbia iniziato la lotta o meno.",
     "normal": "Senza questo talento, effettuare una lotta provoca un attacco di opportunità.",
-    "special": "Un guerriero può selezionare Lotta Migliorata come uno dei suoi talenti bonus da guerriero. Un monaco può selezionare Lotta Migliorata come talento bonus al 1° livello, anche se non ne soddisfa i prerequisiti."
+    "special": "Un guerriero può selezionare Lotta Migliorata come uno dei suoi talenti bonus da guerriero. Un monaco può selezionare Lotta Migliorata come talento bonus al 1° livello, anche se non ne soddisfa i prerequisiti.",
+    "prerequisites": "Des 13, Colpo Senz'Armi Migliorato."
   },
   {
     "slug": "improved-initiative",
@@ -355,14 +385,17 @@
     "type": "Generale",
     "benefit": "Quando tenti di travolgere un avversario, il bersaglio non può scegliere di evitarti. Ottieni anche un bonus di +4 alla prova di Forza per abbattere il tuo avversario.",
     "normal": "Senza questo talento, il bersaglio di un travolgimento può scegliere di farsi da parte.",
-    "special": "Un guerriero può selezionare Travolgere Migliorato come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Travolgere Migliorato come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "For 13, Attacco Poderoso."
   },
   {
     "slug": "improved-precise-shot",
     "name": "Tiro Preciso Migliorato",
     "type": "Generale",
     "benefit": "I tuoi attacchi a distanza ignorano il bonus alla CA garantito ai bersagli da qualsiasi cosa che non sia copertura totale, e la probabilità di mancamento garantita ai bersagli da qualsiasi cosa che non sia occultamento totale. Copertura totale e occultamento totale forniscono i loro normali benefici contro i tuoi attacchi a distanza. Inoltre, quando spari o lanci un'arma a distanza contro un bersaglio impegnato in lotta, non devi tirare casualmente per vedere quale partecipante alla lotta è colpito.",
-    "special": "Un guerriero può selezionare Tiro Preciso Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con arco è considerato come se avesse Tiro Preciso Migliorato, anche se non ne soddisfa i prerequisiti."
+    "special": "Un guerriero può selezionare Tiro Preciso Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con arco è considerato come se avesse Tiro Preciso Migliorato, anche se non ne soddisfa i prerequisiti.",
+    "prerequisites": "Des 19, Tiro Ravvicinato, Tiro Preciso, bonus di attacco base +11.",
+    "normal": "Vedi le regole normali sugli effetti di copertura e occultamento. Senza questo talento, un personaggio che spara o lancia un'arma a distanza contro un bersaglio impegnato in lotta deve tirare casualmente per vedere quale partecipante alla lotta è colpito."
   },
   {
     "slug": "improved-shield-bash",
@@ -370,7 +403,8 @@
     "type": "Generale",
     "benefit": "Quando effettui un colpo con lo scudo, puoi comunque applicare il bonus dello scudo alla CA.",
     "normal": "Senza questo talento, un personaggio che effettua un colpo con lo scudo perde il bonus dello scudo alla CA fino alla sua prossima azione.",
-    "special": "Un guerriero può selezionare Colpo con lo Scudo Migliorato come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Colpo con lo Scudo Migliorato come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Competenza negli Scudi."
   },
   {
     "slug": "improved-sunder",
@@ -378,7 +412,8 @@
     "type": "Generale",
     "benefit": "Quando colpisci un oggetto tenuto o indossato con un attacco per distruggere, non provochi un attacco di opportunità. Ottieni anche un bonus di +4 alla prova di attacco per distruggere.",
     "normal": "Senza questo talento, tentare di distruggere un oggetto provoca un attacco di opportunità.",
-    "special": "Un guerriero può selezionare Distruggere Migliorato come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Distruggere Migliorato come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "For 13, Attacco Poderoso."
   },
   {
     "slug": "improved-trip",
@@ -386,13 +421,15 @@
     "type": "Generale",
     "benefit": "Non provochi un attacco di opportunità quando tenti di sgambettare un avversario mentre sei in mischia. Ottieni anche un bonus di +4 alla prova di Forza per sgambettare. Se sgambetti con successo un avversario, ottieni immediatamente un attacco in mischia contro quell'avversario come se non avessi usato il tuo attacco per lo sgambetto.",
     "normal": "Senza questo talento, tentare uno sgambetto provoca un attacco di opportunità.",
-    "special": "Al 6° livello, un monaco può selezionare Sgambetto Migliorato come talento bonus, anche se non ne soddisfa i prerequisiti."
+    "special": "Al 6° livello, un monaco può selezionare Sgambetto Migliorato come talento bonus, anche se non ne soddisfa i prerequisiti.",
+    "prerequisites": "Int 13, Competenza in Combattimento."
   },
   {
     "slug": "improved-turning",
     "name": "Scacciare Migliorato",
     "type": "Generale",
-    "benefit": "Aggiungi un bonus di +1 al tuo livello di scacciare quando fai una prova di scacciare per determinare il Dado Vita massimo della creatura non morta che puoi influenzare."
+    "benefit": "Aggiungi un bonus di +1 al tuo livello di scacciare quando fai una prova di scacciare per determinare il Dado Vita massimo della creatura non morta che puoi influenzare.",
+    "prerequisites": "Capacità di scacciare o intimorire creature."
   },
   {
     "slug": "improved-two-weapon-fighting",
@@ -400,7 +437,8 @@
     "type": "Generale",
     "benefit": "Oltre al normale attacco extra con un'arma secondaria, ottieni un secondo attacco con essa, anche se con una penalità di –5.",
     "normal": "Senza questo talento, puoi ottenere solo un singolo attacco extra con un'arma secondaria.",
-    "special": "Un guerriero può selezionare Combattere con Due Armi Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 6° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Migliorato, anche se non ne soddisfa i prerequisiti."
+    "special": "Un guerriero può selezionare Combattere con Due Armi Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 6° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Migliorato, anche se non ne soddisfa i prerequisiti.",
+    "prerequisites": "Des 17, Combattere con Due Armi, bonus di attacco base +6."
   },
   {
     "slug": "improved-unarmed-strike",
@@ -426,7 +464,8 @@
     "slug": "leadership",
     "name": "Autorità",
     "type": "Generale",
-    "benefit": "Avere questo talento consente al personaggio di attrarre compagni leali e seguaci devoti, subordinati che lo assistono. Il personaggio può reclutare un coorteo e un certo numero di seguaci in base al suo punteggio di Autorità."
+    "benefit": "Avere questo talento consente al personaggio di attrarre compagni leali e seguaci devoti, subordinati che lo assistono. Il personaggio può reclutare un coorteo e un certo numero di seguaci in base al suo punteggio di Autorità.",
+    "prerequisites": "Livello del personaggio 6°."
   },
   {
     "slug": "lightning-reflexes",
@@ -445,7 +484,8 @@
     "name": "Tiro Multiplo",
     "type": "Generale",
     "benefit": "Come azione standard, puoi tirare due frecce contro un singolo avversario entro 9 metri. Entrambe le frecce usano lo stesso tiro per colpire (con una penalità di –4) per determinare il successo e infliggono danni normalmente. Per ogni cinque punti di bonus di attacco base che hai sopra +6, puoi aggiungere una freccia aggiuntiva al tiro, fino a un massimo di quattro frecce (con un bonus di attacco base di +16 o superiore).",
-    "special": "Indipendentemente dal numero di frecce che tiri, applichi i danni basati sulla precisione solo una volta. Se ottieni un colpo critico, solo la prima freccia tirata infligge danni critici; tutte le altre infliggono danni normali."
+    "special": "Indipendentemente dal numero di frecce che tiri, applichi i danni basati sulla precisione solo una volta. Se ottieni un colpo critico, solo la prima freccia tirata infligge danni critici; tutte le altre infliggono danni normali.",
+    "prerequisites": "Des 17, Tiro Ravvicinato, Tiro Rapido, bonus di attacco base +6."
   },
   {
     "slug": "martial-weapon-proficiency",
@@ -466,27 +506,31 @@
     "name": "Mobilità",
     "type": "Generale",
     "benefit": "Ottieni un bonus di schivare +4 alla Classe Armatura contro attacchi di opportunità causati dal muoversi fuori da o dentro un'area minacciata. Un bonus di schivare di questo tipo non si applica se perdi il tuo bonus di Destrezza alla CA.",
-    "special": "Un guerriero può selezionare Mobilità come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Mobilità come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Des 13, Schivare."
   },
   {
     "slug": "mounted-archery",
     "name": "Tiro in Sella",
     "type": "Generale",
     "benefit": "La penalità che subisci quando usi un'arma a distanza mentre sei in sella è dimezzata: –2 invece di –4 se la cavalcatura compie un doppio movimento, e –4 invece di –8 se la cavalcatura corre.",
-    "special": "Un guerriero può selezionare Tiro in Sella come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Tiro in Sella come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella."
   },
   {
     "slug": "mounted-combat",
     "name": "Combattimento in Sella",
     "type": "Generale",
     "benefit": "Una volta per round quando la tua cavalcatura è colpita in combattimento, puoi tentare una prova di Cavalcare (come reazione) per negare il colpo. La prova di Cavalcare sostituisce la CA della cavalcatura. Se il risultato della tua prova di Cavalcare è maggiore del tiro per colpire, il colpo manca.",
-    "special": "Un guerriero può selezionare Combattere in Sella come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Combattere in Sella come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Cavalcare 1 grado."
   },
   {
     "slug": "natural-spell",
     "name": "Incantesimi Naturali",
     "type": "Generale",
-    "benefit": "Puoi completare le componenti verbali e somatiche degli incantesimi mentre sei in forma selvatica. Puoi anche usare qualsiasi focus materiale o focus divino che porti incorporato nella tua forma selvatica."
+    "benefit": "Puoi completare le componenti verbali e somatiche degli incantesimi mentre sei in forma selvatica. Puoi anche usare qualsiasi focus materiale o focus divino che porti incorporato nella tua forma selvatica.",
+    "prerequisites": "Sag 13, capacità forma selvatica."
   },
   {
     "slug": "negotiator",
@@ -518,14 +562,16 @@
     "name": "Attacco Poderoso",
     "type": "Generale",
     "benefit": "Nel tuo turno, prima di effettuare tiri per colpire per un round, puoi scegliere di sottrarre un numero dal tuo tiro per colpire in mischia e aggiungere lo stesso numero al tuo tiro per i danni in mischia. Questo numero non può superare il tuo bonus di attacco base. La penalità ai tiri per colpire e il bonus ai danni si applicano fino alla tua prossima azione.",
-    "special": "Se attacchi con un'arma a due mani, aggiungi invece il doppio del numero sottratto dai tiri per colpire. Non puoi aggiungere il bonus ai danni con un'arma leggera."
+    "special": "Se attacchi con un'arma a due mani, aggiungi invece il doppio del numero sottratto dai tiri per colpire. Non puoi aggiungere il bonus ai danni con un'arma leggera.",
+    "prerequisites": "For 13."
   },
   {
     "slug": "precise-shot",
     "name": "Tiro Preciso",
     "type": "Generale",
     "benefit": "Puoi sparare o lanciare armi a distanza su un bersaglio impegnato in mischia senza subire la penalità standard di –4 al tiro per colpire.",
-    "special": "Un guerriero può selezionare Tiro Preciso come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Tiro Preciso come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Tiro Ravvicinato."
   },
   {
     "slug": "quick-draw",
@@ -533,7 +579,8 @@
     "type": "Generale",
     "benefit": "Puoi estrarre un'arma come azione gratuita invece che come azione di movimento. Puoi lanciare armi alla massima velocità di attacco (molto simile alla penalità per gli attacchi in mischia).",
     "normal": "Senza questo talento, puoi estrarre un'arma come azione di movimento, o (se il tuo bonus di attacco base è +1 o superiore) come azione gratuita come parte di un movimento.",
-    "special": "Un guerriero può selezionare Estrazione Rapida come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Estrazione Rapida come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Bonus di attacco base +1."
   },
   {
     "slug": "quicken-spell",
@@ -548,21 +595,24 @@
     "type": "Generale",
     "benefit": "Il tempo necessario per ricaricare il tuo tipo di balestra scelto è ridotto a un'azione gratuita (per una balestra a mano o leggera) o a un'azione di movimento (per una balestra pesante). Ricaricare una balestra provoca comunque un attacco di opportunità. Se hai selezionato questo talento per la balestra a mano o leggera, puoi tirare quella balestra con la stessa velocità con cui potresti tirare un arco.",
     "normal": "Un personaggio senza questo talento ha bisogno di un'azione di movimento per ricaricare una balestra a mano o leggera, o di un'azione di round completo per ricaricare una balestra pesante.",
-    "special": "Puoi ottenere Ricarica Rapida più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di balestra. Un guerriero può selezionare Ricarica Rapida come uno dei suoi talenti bonus da guerriero."
+    "special": "Puoi ottenere Ricarica Rapida più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di balestra. Un guerriero può selezionare Ricarica Rapida come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Competenza nelle Armi (tipo di balestra scelto)."
   },
   {
     "slug": "rapid-shot",
     "name": "Tiro Rapido",
     "type": "Generale",
     "benefit": "Puoi ottenere un attacco a distanza extra per round. Tutti i tuoi tiri per colpire per il round subiscono una penalità di –2 quando usi Tiro Rapido.",
-    "special": "Un guerriero può selezionare Tiro Rapido come uno dei suoi talenti bonus da guerriero. Un ranger di 2° livello che ha scelto lo stile di combattimento con arco è considerato come se avesse Tiro Rapido, anche se non ne soddisfa i prerequisiti."
+    "special": "Un guerriero può selezionare Tiro Rapido come uno dei suoi talenti bonus da guerriero. Un ranger di 2° livello che ha scelto lo stile di combattimento con arco è considerato come se avesse Tiro Rapido, anche se non ne soddisfa i prerequisiti.",
+    "prerequisites": "Des 13, Tiro Ravvicinato."
   },
   {
     "slug": "ride-by-attack",
     "name": "Attacco in Corsa",
     "type": "Generale",
     "benefit": "Quando sei in sella e usi l'azione di carica, puoi muoverti e attaccare come con una carica standard e poi continuare a muoverti (fino al doppio della velocità della cavalcatura). Devi muoverti almeno di 3 metri prima e dopo l'attacco.",
-    "special": "Un guerriero può selezionare Attacco in Corsa a Cavallo come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Attacco in Corsa a Cavallo come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella."
   },
   {
     "slug": "run",
@@ -575,7 +625,8 @@
     "slug": "scribe-scroll",
     "name": "Scrivere Pergamene",
     "type": "Creazione Oggetti",
-    "benefit": "Puoi creare una pergamena di qualsiasi incantesimo che conosci. Scrivere una pergamena richiede un giorno per ogni 1.000 mo nel suo prezzo base. Il prezzo base di una pergamena è il suo livello dell'incantesimo × il suo livello dell'incantatore × 25 mo. Per scrivere una pergamena, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà del prezzo base."
+    "benefit": "Puoi creare una pergamena di qualsiasi incantesimo che conosci. Scrivere una pergamena richiede un giorno per ogni 1.000 mo nel suo prezzo base. Il prezzo base di una pergamena è il suo livello dell'incantesimo × il suo livello dell'incantatore × 25 mo. Per scrivere una pergamena, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà del prezzo base.",
+    "prerequisites": "Livello dell'incantatore 1°."
   },
   {
     "slug": "self-sufficient",
@@ -596,7 +647,8 @@
     "name": "Tiro in Movimento",
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco con un'arma a distanza, puoi muoverti sia prima che dopo l'attacco, purché la distanza totale che percorri non sia maggiore della tua velocità.",
-    "special": "Un guerriero può selezionare Tiro in Movimento come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Tiro in Movimento come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Des 13, Schivare, Mobilità, Tiro Ravvicinato, bonus di attacco base +4."
   },
   {
     "slug": "silent-spell",
@@ -625,7 +677,8 @@
     "name": "Afferrare Frecce",
     "type": "Generale",
     "benefit": "Quando usi il talento Deviare Frecce puoi afferrare l'arma invece di deviarla semplicemente. Le armi da lancio possono essere immediatamente rilanciate contro l'attaccante originale (anche se non è il tuo turno) o conservate per un uso successivo. Devi avere almeno una mano libera (senza tenere nulla) per usare questo talento.",
-    "special": "Un guerriero può selezionare Afferrare Frecce come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Afferrare Frecce come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Des 15, Deviare Frecce, Colpo Senz'Armi Migliorato."
   },
   {
     "slug": "spell-focus",
@@ -639,7 +692,8 @@
     "name": "Padronanza Magica",
     "type": "Speciale",
     "benefit": "Ogni volta che prendi questo talento, scegli un numero di incantesimi pari al tuo modificatore di Intelligenza che già conosci. Da quel momento in poi, puoi preparare questi incantesimi senza fare riferimento a un libro degli incantesimi.",
-    "normal": "Senza questo talento, devi usare un libro degli incantesimi per preparare tutti i tuoi incantesimi, eccetto <i>lettura del magico</i>."
+    "normal": "Senza questo talento, devi usare un libro degli incantesimi per preparare tutti i tuoi incantesimi, eccetto <i>lettura del magico</i>.",
+    "prerequisites": "Livello da mago 1°."
   },
   {
     "slug": "spell-penetration",
@@ -652,14 +706,16 @@
     "name": "Carica Devastante",
     "type": "Generale",
     "benefit": "Quando sei in sella e usi l'azione di carica, infliggi il doppio dei danni con un'arma da mischia (o il triplo dei danni con una lancia).",
-    "special": "Un guerriero può selezionare Carica Impetuosa come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Carica Impetuosa come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella, Attacco in Corsa."
   },
   {
     "slug": "spring-attack",
     "name": "Attacco in Movimento",
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco con un'arma da mischia, puoi muoverti sia prima che dopo l'attacco, purché la distanza totale che percorri non sia maggiore della tua velocità. Muoversi in questo modo non provoca un attacco di opportunità dal difensore che stai attaccando.",
-    "special": "Un guerriero può selezionare Attacco in Movimento come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Attacco in Movimento come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Des 13, Schivare, Mobilità, bonus di attacco base +4."
   },
   {
     "slug": "stealthy",
@@ -678,7 +734,8 @@
     "name": "Pugno Stordente",
     "type": "Generale",
     "benefit": "Devi dichiarare di usare questo talento prima di effettuare il tiro per colpire (quindi un attacco mancato spreca il tentativo). Pugno Stordente costringe un avversario colpito da te con un attacco senz'armi a effettuare un tiro salvezza sulla Tempra (CD 10 + metà del tuo livello del personaggio + il tuo modificatore di Sag), oltre a subire danni normali. Se il difensore fallisce il tiro salvezza, è stordito per 1 round.",
-    "special": "Puoi tentare uno stordimento una volta al giorno per ogni quattro livelli che hai raggiunto, e non più di una volta per round."
+    "special": "Puoi tentare uno stordimento una volta al giorno per ogni quattro livelli che hai raggiunto, e non più di una volta per round.",
+    "prerequisites": "Des 13, Sag 13, Colpo Senz'Armi Migliorato, bonus di attacco base +8."
   },
   {
     "slug": "toughness",
@@ -693,7 +750,8 @@
     "type": "Generale",
     "benefit": "Puoi usare uno scudo torre e subire solo le penalità standard.",
     "normal": "Un personaggio che usa uno scudo con cui non è competente subisce la penalità di controllo dell'armatura dello scudo ai tiri per colpire e a tutte le prove di abilità che comportano movimento, incluso Cavalcare.",
-    "special": "I guerrieri hanno automaticamente Competenza nello Scudo Torre come talento bonus. Non hanno bisogno di selezionarlo."
+    "special": "I guerrieri hanno automaticamente Competenza nello Scudo Torre come talento bonus. Non hanno bisogno di selezionarlo.",
+    "prerequisites": "Competenza negli Scudi."
   },
   {
     "slug": "track",
@@ -708,14 +766,16 @@
     "name": "Travolgere",
     "type": "Generale",
     "benefit": "Quando tenti di travolgere un avversario mentre sei in sella, il bersaglio non può scegliere di evitarti. La tua cavalcatura può effettuare un attacco con zoccolo contro qualsiasi bersaglio che abbatti, ottenendo il bonus standard di +4 ai tiri per colpire contro bersagli proni.",
-    "special": "Un guerriero può selezionare Travolgere come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Travolgere come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella."
   },
   {
     "slug": "two-weapon-defense",
     "name": "Difesa con Due Armi",
     "type": "Generale",
     "benefit": "Quando impugni un'arma doppia o due armi (escluse armi naturali o colpi senz'armi), ottieni un bonus di scudo +1 alla CA. Quando combatti sulla difensiva o usi l'azione di difesa totale, questo bonus di scudo aumenta a +2.",
-    "special": "Un guerriero può selezionare Difesa con Due Armi come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Difesa con Due Armi come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Des 15, Combattere con Due Armi."
   },
   {
     "slug": "two-weapon-fighting",
@@ -723,35 +783,40 @@
     "type": "Generale",
     "benefit": "Le tue penalità al combattimento con due armi sono ridotte di 2 con l'arma primaria e di 6 con l'arma secondaria.",
     "normal": "Se impugni una seconda arma nella mano secondaria, puoi ottenere un attacco extra con quell'arma al costo di una penalità di –6 ai tiri per colpire con l'arma primaria e una penalità di –10 con l'arma secondaria.",
-    "special": "Un ranger di 2° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi, anche se non ne soddisfa i prerequisiti."
+    "special": "Un ranger di 2° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi, anche se non ne soddisfa i prerequisiti.",
+    "prerequisites": "Des 15."
   },
   {
     "slug": "weapon-finesse",
     "name": "Arma Accurata",
     "type": "Generale",
     "benefit": "Con un'arma leggera, stocco, frusta o catena chiodata fatta per una creatura della tua categoria di taglia, puoi usare il tuo modificatore di Destrezza invece del tuo modificatore di Forza ai tiri per colpire in mischia.",
-    "special": "Un guerriero può selezionare Arma Accurata come uno dei suoi talenti bonus da guerriero. Le creature naturali possono selezionare questo talento."
+    "special": "Un guerriero può selezionare Arma Accurata come uno dei suoi talenti bonus da guerriero. Le creature naturali possono selezionare questo talento.",
+    "prerequisites": "Bonus di attacco base +1."
   },
   {
     "slug": "weapon-focus",
     "name": "Focalizzazione sull'Arma",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +1 a tutti i tiri per colpire effettuati usando l'arma selezionata.",
-    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma."
+    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
+    "prerequisites": "Competenza con l'arma selezionata, bonus di attacco base +1."
   },
   {
     "slug": "weapon-specialization",
     "name": "Specializzazione sull'Arma",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutti i tiri per i danni effettuati usando l'arma selezionata.",
-    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Un guerriero può selezionare Specializzazione sull'Arma come uno dei suoi talenti bonus da guerriero."
+    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Un guerriero può selezionare Specializzazione sull'Arma come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 4°."
   },
   {
     "slug": "whirlwind-attack",
     "name": "Attacco Turbinante",
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco completo, puoi rinunciare ai tuoi attacchi regolari e invece effettuare un attacco in mischia al tuo bonus di attacco base completo contro ogni avversario entro la tua portata.",
-    "special": "Un guerriero può selezionare Attacco Turbinante come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Attacco Turbinante come uno dei suoi talenti bonus da guerriero.",
+    "prerequisites": "Des 13, Int 13, Competenza in Combattimento, Schivare, Mobilità, Attacco in Movimento, bonus di attacco base +4."
   },
   {
     "slug": "widen-spell",

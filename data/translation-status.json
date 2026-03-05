@@ -1,6 +1,6 @@
 {
   "lang": "it",
-  "generated_at": "2026-03-05T12:00:20Z",
+  "generated_at": "2026-03-05T12:36:14Z",
   "categories": {
     "spells": {
       "total": 608,
@@ -52,9 +52,9 @@
           "percent": 100.0
         },
         "duration": {
-          "translated": 497,
+          "translated": 502,
           "total": 502,
-          "percent": 99.0
+          "percent": 100.0
         },
         "saving_throw": {
           "translated": 449,
@@ -67,9 +67,9 @@
           "percent": 100.0
         },
         "desc_html": {
-          "translated": 0,
+          "translated": 502,
           "total": 605,
-          "percent": 0.0
+          "percent": 83.0
         }
       }
     },
@@ -88,9 +88,9 @@
           "percent": 99.1
         },
         "prerequisites": {
-          "translated": 0,
+          "translated": 64,
           "total": 64,
-          "percent": 0.0
+          "percent": 100.0
         },
         "benefit": {
           "translated": 111,
@@ -98,9 +98,9 @@
           "percent": 100.0
         },
         "normal": {
-          "translated": 31,
+          "translated": 32,
           "total": 32,
-          "percent": 96.9
+          "percent": 100.0
         },
         "special": {
           "translated": 65,
@@ -134,14 +134,14 @@
           "percent": 100.0
         },
         "table_html": {
-          "translated": 0,
+          "translated": 30,
           "total": 30,
-          "percent": 0.0
+          "percent": 100.0
         },
         "desc_html": {
-          "translated": 0,
+          "translated": 31,
           "total": 31,
-          "percent": 0.0
+          "percent": 100.0
         }
       }
     },
@@ -181,9 +181,9 @@
           "percent": 93.4
         },
         "environment": {
-          "translated": 207,
+          "translated": 269,
           "total": 269,
-          "percent": 77.0
+          "percent": 100.0
         },
         "organization": {
           "translated": 259,
@@ -196,9 +196,9 @@
           "percent": 100.0
         },
         "desc_html": {
-          "translated": 0,
+          "translated": 286,
           "total": 288,
-          "percent": 0.0
+          "percent": 99.3
         }
       }
     },
@@ -223,9 +223,9 @@
           "percent": 100.0
         },
         "desc_html": {
-          "translated": 0,
+          "translated": 19,
           "total": 19,
-          "percent": 0.0
+          "percent": 100.0
         }
       }
     }
@@ -233,7 +233,7 @@
   "summary": {
     "total_entries": 1353,
     "total_fields": 8989,
-    "translated_fields": 7699,
-    "overall_percent": 85.6
+    "translated_fields": 8699,
+    "overall_percent": 96.8
   }
 }
