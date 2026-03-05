@@ -1,0 +1,3254 @@
+[
+  {
+    "slug": "acid-arrow",
+    "name": "Freccia Acida",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "acid-fog",
+    "name": "Nebbia Acida",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "acid-splash",
+    "name": "Spruzzo Acido",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "aid",
+    "name": "Aiuto",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "air-walk",
+    "name": "Camminare nell'Aria",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "alarm",
+    "name": "Allarme",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "align-weapon",
+    "name": "Allineare Arma",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "alter-self",
+    "name": "Alterare Se Stesso",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "analyze-dweomer",
+    "name": "Analizzare Incantesimo",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "animal-growth",
+    "name": "Crescita Animale",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "animal-messenger",
+    "name": "Messaggero Animale",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "animal-shapes",
+    "name": "Forme Animali",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "animal-trance",
+    "name": "Trance Animale",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "animate-dead",
+    "name": "Animare i Morti",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "animate-objects",
+    "name": "Animare Oggetti",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "animate-plants",
+    "name": "Animare Piante",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "animate-rope",
+    "name": "Animare Corde",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "antilife-shell",
+    "name": "Guscio Anti-Vita",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "antimagic-field",
+    "name": "Campo Anti-Magia",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "antipathy",
+    "name": "Antipatia",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "antiplant-shell",
+    "name": "Guscio Anti-Piante",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "arcane-eye",
+    "name": "Occhio Arcano",
+    "school": "Divinazione",
+    "subschool": "Scrutamento"
+  },
+  {
+    "slug": "arcane-lock",
+    "name": "Serratura Arcana",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "arcane-mark",
+    "name": "Marchio Arcano",
+    "school": "Universale"
+  },
+  {
+    "slug": "arcane-sight",
+    "name": "Vista Arcana",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "arcane-sight-greater",
+    "name": "Vista Arcana Superiore",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "astral-projection",
+    "name": "Proiezione Astrale",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "atonement",
+    "name": "Espiazione",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "augury",
+    "name": "Augurio",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "awaken",
+    "name": "Risveglio",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "baleful-polymorph",
+    "name": "Metamorfosi Funesta",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "bane",
+    "name": "Anatema",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "banishment",
+    "name": "Bandire",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "barkskin",
+    "name": "Pelle Coriacea",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "bears-endurance",
+    "name": "Resistenza dell'Orso",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "bears-endurance-mass",
+    "name": "Resistenza dell'Orso di Massa",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "bestow-curse",
+    "name": "Infliggere Maledizione",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "binding",
+    "name": "Vincolo",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "black-tentacles",
+    "name": "Tentacoli Neri",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "blade-barrier",
+    "name": "Barriera di Lame",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "blasphemy",
+    "name": "Blasfemia",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "bless",
+    "name": "Benedizione",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "bless-water",
+    "name": "Benedire Acqua",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "bless-weapon",
+    "name": "Benedire Arma",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "blight",
+    "name": "Rovinare",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "blindness-deafness",
+    "name": "Cecità/Sordità",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "blink",
+    "name": "Intermittenza",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "blur",
+    "name": "Sfocatura",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "break-enchantment",
+    "name": "Spezzare Incantamento",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "bulls-strength",
+    "name": "Forza del Toro",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "bulls-strength-mass",
+    "name": "Forza del Toro di Massa",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "burning-hands",
+    "name": "Mani Brucianti",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "call-lightning",
+    "name": "Invocare il Fulmine",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "call-lightning-storm",
+    "name": "Invocare la Tempesta di Fulmini",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "calm-animals",
+    "name": "Calmare Animali",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "calm-emotions",
+    "name": "Calmare Emozioni",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "cats-grace",
+    "name": "Grazia del Gatto",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "cats-grace-mass",
+    "name": "Grazia del Gatto di Massa",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "cause-fear",
+    "name": "Causare Paura",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "chain-lightning",
+    "name": "Fulmine a Catena",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "changestaff",
+    "name": "Bastone Mutaforma",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "chaos-hammer",
+    "name": "Martello del Caos",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "charm-animal",
+    "name": "Ammaliare Animali",
+    "school": "Ammaliamento",
+    "subschool": "Charme"
+  },
+  {
+    "slug": "charm-monster",
+    "name": "Ammaliare Mostri",
+    "school": "Ammaliamento",
+    "subschool": "Charme"
+  },
+  {
+    "slug": "charm-monster-mass",
+    "name": "Ammaliare Mostri di Massa",
+    "school": "Ammaliamento",
+    "subschool": "Charme"
+  },
+  {
+    "slug": "charm-person",
+    "name": "Ammaliare Persone",
+    "school": "Ammaliamento",
+    "subschool": "Charme"
+  },
+  {
+    "slug": "chill-metal",
+    "name": "Metallo Gelido",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "chill-touch",
+    "name": "Tocco Gelido",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "circle-of-death",
+    "name": "Cerchio di Morte",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "clairaudience-clairvoyance",
+    "name": "Chiaroudienza/Chiaroveggenza",
+    "school": "Divinazione",
+    "subschool": "Scrutamento"
+  },
+  {
+    "slug": "clenched-fist",
+    "name": "Pugno Serrato",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "cloak-of-chaos",
+    "name": "Manto del Caos",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "clone",
+    "name": "Clone",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "cloudkill",
+    "name": "Nube Mortale",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "color-spray",
+    "name": "Spruzzo di Colori",
+    "school": "Illusione",
+    "subschool": "Trama"
+  },
+  {
+    "slug": "command",
+    "name": "Comando",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "command-greater",
+    "name": "Comando Superiore",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "command-plants",
+    "name": "Comandare Piante",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "command-undead",
+    "name": "Comandare Non Morti",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "commune",
+    "name": "Comunione",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "commune-with-nature",
+    "name": "Comunione con la Natura",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "comprehend-languages",
+    "name": "Comprensione dei Linguaggi",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "cone-of-cold",
+    "name": "Cono di Freddo",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "confusion",
+    "name": "Confusione",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "confusion-lesser",
+    "name": "Confusione Minore",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "consecrate",
+    "name": "Consacrare",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "contact-other-plane",
+    "name": "Contattare Altri Piani",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "contagion",
+    "name": "Contagio",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "contingency",
+    "name": "Contingenza",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "continual-flame",
+    "name": "Fiamma Perenne",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "control-plants",
+    "name": "Controllare Piante",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "control-undead",
+    "name": "Controllare Non Morti",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "control-water",
+    "name": "Controllare Acqua",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "control-weather",
+    "name": "Controllare Tempo Atmosferico",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "control-winds",
+    "name": "Controllare Venti",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "create-food-and-water",
+    "name": "Creare Cibo e Acqua",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "create-greater-undead",
+    "name": "Creare Non Morti Superiori",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "create-undead",
+    "name": "Creare Non Morti",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "create-water",
+    "name": "Creare Acqua",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "creeping-doom",
+    "name": "Rovina Strisciante",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "crushing-despair",
+    "name": "Disperazione Opprimente",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "crushing-hand",
+    "name": "Mano Stringente",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "cure-critical-wounds",
+    "name": "Cura Ferite Critiche",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "cure-critical-wounds-mass",
+    "name": "Cura Ferite Critiche di Massa",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "cure-light-wounds",
+    "name": "Cura Ferite Leggere",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "cure-light-wounds-mass",
+    "name": "Cura Ferite Leggere di Massa",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "cure-minor-wounds",
+    "name": "Cura Ferite Minori",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "cure-moderate-wounds",
+    "name": "Cura Ferite Moderate",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "cure-moderate-wounds-mass",
+    "name": "Cura Ferite Moderate di Massa",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "cure-serious-wounds",
+    "name": "Cura Ferite Gravi",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "cure-serious-wounds-mass",
+    "name": "Cura Ferite Gravi di Massa",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "curse-water",
+    "name": "Maledire Acqua",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "dancing-lights",
+    "name": "Luci Danzanti",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "darkness",
+    "name": "Oscurità",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "darkvision",
+    "name": "Scurovisione",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "daylight",
+    "name": "Luce del Giorno",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "daze",
+    "name": "Frastornare",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "daze-monster",
+    "name": "Frastornare Mostri",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "death-knell",
+    "name": "Campana a Morto",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "death-ward",
+    "name": "Interdizione alla Morte",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "deathwatch",
+    "name": "Veglia Funebre",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "deep-slumber",
+    "name": "Sonno Profondo",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "deeper-darkness",
+    "name": "Oscurità Profonda",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "delay-poison",
+    "name": "Ritardare Veleno",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "delayed-blast-fireball",
+    "name": "Palla di Fuoco a Scoppio Ritardato",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "demand",
+    "name": "Esigere",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "desecrate",
+    "name": "Dissacrare",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "destruction",
+    "name": "Distruzione",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "detect-animals-or-plants",
+    "name": "Individuare Animali o Piante",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "detect-chaos",
+    "name": "Individuare il Caos",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "detect-evil",
+    "name": "Individuare il Male",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "detect-good",
+    "name": "Individuare il Bene",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "detect-law",
+    "name": "Individuare la Legge",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "detect-magic",
+    "name": "Individuare il Magico",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "detect-poison",
+    "name": "Individuare Veleni",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "detect-scrying",
+    "name": "Individuare Scrutamento",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "detect-secret-doors",
+    "name": "Individuare Porte Segrete",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "detect-snares-and-pits",
+    "name": "Individuare Trappole e Fosse",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "detect-thoughts",
+    "name": "Individuare Pensieri",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "detect-undead",
+    "name": "Individuare Non Morti",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "dictum",
+    "name": "Editto",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "dimension-door",
+    "name": "Porta Dimensionale",
+    "school": "Evocazione",
+    "subschool": "Teletrasporto"
+  },
+  {
+    "slug": "dimensional-anchor",
+    "name": "Ancora Dimensionale",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "dimensional-lock",
+    "name": "Blocco Dimensionale",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "diminish-plants",
+    "name": "Rimpicciolire Piante",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "discern-lies",
+    "name": "Discernere Bugie",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "discern-location",
+    "name": "Discernere Posizione",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "disguise-self",
+    "name": "Camuffare Se Stesso",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "disintegrate",
+    "name": "Disintegrazione",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "dismissal",
+    "name": "Congedo",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "dispel-chaos",
+    "name": "Dissolvi Caos",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "dispel-evil",
+    "name": "Dissolvi Male",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "dispel-good",
+    "name": "Dissolvi Bene",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "dispel-law",
+    "name": "Dissolvi Legge",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "dispel-magic",
+    "name": "Dissolvi Magie",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "dispel-magic-greater",
+    "name": "Dissolvi Magie Superiore",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "displacement",
+    "name": "Dislocazione",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "disrupt-undead",
+    "name": "Distruggere Non Morti",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "disrupting-weapon",
+    "name": "Arma Distruttiva",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "divination",
+    "name": "Divinazione",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "divine-favor",
+    "name": "Favore Divino",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "divine-power",
+    "name": "Potere Divino",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "dominate-animal",
+    "name": "Dominare Animali",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "dominate-monster",
+    "name": "Dominare Mostri",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "dominate-person",
+    "name": "Dominare Persone",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "doom",
+    "name": "Giudizio",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "dream",
+    "name": "Sogno",
+    "school": "Illusione",
+    "subschool": "Fantasma"
+  },
+  {
+    "slug": "eagles-splendor",
+    "name": "Splendore dell'Aquila",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "eagles-splendor-mass",
+    "name": "Splendore dell'Aquila di Massa",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "earthquake",
+    "name": "Terremoto",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "elemental-swarm",
+    "name": "Sciame Elementale",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "endure-elements",
+    "name": "Sopportare Elementi",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "energy-drain",
+    "name": "Risucchio di Energia",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "enervation",
+    "name": "Enervazione",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "enlarge-person",
+    "name": "Ingrandire Persone",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "enlarge-person-mass",
+    "name": "Ingrandire Persone di Massa",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "entangle",
+    "name": "Intralciare",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "enthrall",
+    "name": "Affascinare",
+    "school": "Ammaliamento",
+    "subschool": "Charme"
+  },
+  {
+    "slug": "entropic-shield",
+    "name": "Scudo Entropico",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "erase",
+    "name": "Cancellare",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "ethereal-jaunt",
+    "name": "Escursione Eterea",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "etherealness",
+    "name": "Forma Eterea",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "expeditious-retreat",
+    "name": "Ritirata Rapida",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "explosive-runes",
+    "name": "Rune Esplosive",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "eyebite",
+    "name": "Malocchio",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "fabricate",
+    "name": "Fabbricare",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "faerie-fire",
+    "name": "Fuoco Fatuo",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "false-life",
+    "name": "Vita Falsa",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "false-vision",
+    "name": "Visione Falsa",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "fear",
+    "name": "Paura",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "feather-fall",
+    "name": "Caduta Morbida",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "feeblemind",
+    "name": "Demenza",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "find-the-path",
+    "name": "Trovare il Sentiero",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "find-traps",
+    "name": "Trovare Trappole",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "finger-of-death",
+    "name": "Dito della Morte",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "fire-seeds",
+    "name": "Semi di Fuoco",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "fire-shield",
+    "name": "Scudo di Fuoco",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "fire-storm",
+    "name": "Tempesta di Fuoco",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "fire-trap",
+    "name": "Trappola di Fuoco",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "fireball",
+    "name": "Palla di Fuoco",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "flame-arrow",
+    "name": "Freccia Infuocata",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "flame-blade",
+    "name": "Lama di Fuoco",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "flame-strike",
+    "name": "Colonna di Fuoco",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "flaming-sphere",
+    "name": "Sfera Infuocata",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "flare",
+    "name": "Bagliore",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "flesh-to-stone",
+    "name": "Carne in Pietra",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "fly",
+    "name": "Volare",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "floating-disk",
+    "name": "Disco Fluttuante",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "fog-cloud",
+    "name": "Nube di Nebbia",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "forbiddance",
+    "name": "Interdizione",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "forcecage",
+    "name": "Gabbia di Forza",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "forceful-hand",
+    "name": "Mano Possente",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "foresight",
+    "name": "Preveggenza",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "foxs-cunning",
+    "name": "Astuzia della Volpe",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "foxs-cunning-mass",
+    "name": "Astuzia della Volpe di Massa",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "freedom",
+    "name": "Libertà",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "freedom-of-movement",
+    "name": "Libertà di Movimento",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "freezing-sphere",
+    "name": "Sfera Gelata",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "gaseous-form",
+    "name": "Forma Gassosa",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "gate",
+    "name": "Portale",
+    "school": "Evocazione",
+    "subschool": "Creazione o Richiamo"
+  },
+  {
+    "slug": "geas-quest",
+    "name": "Missione",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "geas-lesser",
+    "name": "Missione Minore",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "gentle-repose",
+    "name": "Riposo Inviolato",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "ghost-sound",
+    "name": "Suono Fantasma",
+    "school": "Illusione",
+    "subschool": "Finzione"
+  },
+  {
+    "slug": "ghoul-touch",
+    "name": "Tocco del Ghoul",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "giant-vermin",
+    "name": "Parassiti Giganti",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "glibness",
+    "name": "Eloquenza",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "glitterdust",
+    "name": "Polvere Scintillante",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "globe-of-invulnerability",
+    "name": "Globo di Invulnerabilità",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "globe-of-invulnerability-lesser",
+    "name": "Globo di Invulnerabilità Minore",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "glyph-of-warding",
+    "name": "Glifo di Interdizione",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "glyph-of-warding-greater",
+    "name": "Glifo di Interdizione Superiore",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "goodberry",
+    "name": "Bacche Benefiche",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "good-hope",
+    "name": "Buona Speranza",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "grasping-hand",
+    "name": "Mano Afferrante",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "grease",
+    "name": "Unto",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "greater",
+    "name": "Superiore (Nome Incantesimo)",
+    "school": "Vedi descrizione"
+  },
+  {
+    "slug": "guards-and-wards",
+    "name": "Guardie e Interdizioni",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "guidance",
+    "name": "Guida",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "gust-of-wind",
+    "name": "Raffica di Vento",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "hallow",
+    "name": "Consacrare Luogo",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "hallucinatory-terrain",
+    "name": "Terreno Illusorio",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "halt-undead",
+    "name": "Fermare Non Morti",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "harm",
+    "name": "Infliggere Ferite",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "haste",
+    "name": "Velocità",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "heal",
+    "name": "Guarigione",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "heal-mass",
+    "name": "Guarigione di Massa",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "heal-mount",
+    "name": "Guarire Cavalcatura",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "heat-metal",
+    "name": "Metallo Rovente",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "helping-hand",
+    "name": "Mano Soccorritrice",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "heroes-feast",
+    "name": "Banchetto degli Eroi",
+    "school": "Evocazione"
+  },
+  {
+    "slug": "heroism",
+    "name": "Eroismo",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "heroism-greater",
+    "name": "Eroismo Superiore",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "hide-from-animals",
+    "name": "Nascondersi dagli Animali",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "hide-from-undead",
+    "name": "Nascondersi dai Non Morti",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "hideous-laughter",
+    "name": "Risata Incontenibile",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "hold-animal",
+    "name": "Bloccare Animali",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "hold-monster",
+    "name": "Bloccare Mostri",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "hold-monster-mass",
+    "name": "Bloccare Mostri di Massa",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "hold-person",
+    "name": "Bloccare Persone",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "hold-person-mass",
+    "name": "Bloccare Persone di Massa",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "hold-portal",
+    "name": "Bloccare Portale",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "holy-aura",
+    "name": "Aura Sacra",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "holy-smite",
+    "name": "Punizione Sacra",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "holy-sword",
+    "name": "Spada Sacra",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "holy-word",
+    "name": "Parola Sacra",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "horrid-wilting",
+    "name": "Avvizzire Orribile",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "hypnotic-pattern",
+    "name": "Trama Ipnotica",
+    "school": "Illusione",
+    "subschool": "Trama"
+  },
+  {
+    "slug": "hypnotism",
+    "name": "Ipnotismo",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "ice-storm",
+    "name": "Tempesta di Ghiaccio",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "identify",
+    "name": "Identificare",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "illusory-script",
+    "name": "Scrittura Illusoria",
+    "school": "Illusione",
+    "subschool": "Fantasma"
+  },
+  {
+    "slug": "illusory-wall",
+    "name": "Muro Illusorio",
+    "school": "Illusione",
+    "subschool": "Finzione"
+  },
+  {
+    "slug": "imbue-with-spell-ability",
+    "name": "Investire di Capacità Magica",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "implosion",
+    "name": "Implosione",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "imprisonment",
+    "name": "Imprigionamento",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "incendiary-cloud",
+    "name": "Nube Incendiaria",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "inflict-critical-wounds",
+    "name": "Infliggere Ferite Critiche",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "inflict-critical-wounds-mass",
+    "name": "Infliggere Ferite Critiche di Massa",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "inflict-light-wounds",
+    "name": "Infliggere Ferite Leggere",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "inflict-light-wounds-mass",
+    "name": "Infliggere Ferite Leggere di Massa",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "inflict-minor-wounds",
+    "name": "Infliggere Ferite Minori",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "inflict-moderate-wounds",
+    "name": "Infliggere Ferite Moderate",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "inflict-moderate-wounds-mass",
+    "name": "Infliggere Ferite Moderate di Massa",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "inflict-serious-wounds",
+    "name": "Infliggere Ferite Gravi",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "inflict-serious-wounds-mass",
+    "name": "Infliggere Ferite Gravi di Massa",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "insanity",
+    "name": "Follia",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "insect-plague",
+    "name": "Piaga degli Insetti",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "instant-summons",
+    "name": "Evocazione Istantanea",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "interposing-hand",
+    "name": "Mano Interponente",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "invisibility",
+    "name": "Invisibilità",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "invisibility-greater",
+    "name": "Invisibilità Superiore",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "invisibility-mass",
+    "name": "Invisibilità di Massa",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "invisibility-purge",
+    "name": "Epurazione dell'Invisibilità",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "invisibility-sphere",
+    "name": "Sfera di Invisibilità",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "iron-body",
+    "name": "Corpo di Ferro",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "ironwood",
+    "name": "Legno di Ferro",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "irresistible-dance",
+    "name": "Danza Irresistibile",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "jump",
+    "name": "Saltare",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "keen-edge",
+    "name": "Lama Affilata",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "knock",
+    "name": "Scassinare",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "know-direction",
+    "name": "Conoscere Direzione",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "legend-lore",
+    "name": "Conoscenze delle Leggende",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "lesser",
+    "name": "Minore (Nome Incantesimo)",
+    "school": "Vedi descrizione"
+  },
+  {
+    "slug": "levitate",
+    "name": "Levitare",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "light",
+    "name": "Luce",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "lightning-bolt",
+    "name": "Fulmine",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "limited-wish",
+    "name": "Desiderio Limitato",
+    "school": "Universale"
+  },
+  {
+    "slug": "liveoak",
+    "name": "Quercia Vivente",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "locate-creature",
+    "name": "Localizzare Creature",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "locate-object",
+    "name": "Localizzare Oggetto",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "longstrider",
+    "name": "Passo Lungo",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "lullaby",
+    "name": "Ninnananna",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "mage-armor",
+    "name": "Armatura del Mago",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "mage-hand",
+    "name": "Mano del Mago",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "mages-disjunction",
+    "name": "Disgiunzione del Mago",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "mages-faithful-hound",
+    "name": "Segugio Fedele del Mago",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "mages-lucubration",
+    "name": "Lucubrazione del Mago",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "mages-magnificent-mansion",
+    "name": "Magione Magnifica del Mago",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "mages-private-sanctum",
+    "name": "Santuario Privato del Mago",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "mages-sword",
+    "name": "Spada del Mago",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "magic-aura",
+    "name": "Aura Magica",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "magic-circle-against-chaos",
+    "name": "Cerchio Magico Contro il Caos",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "magic-circle-against-evil",
+    "name": "Cerchio Magico Contro il Male",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "magic-circle-against-good",
+    "name": "Cerchio Magico Contro il Bene",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "magic-circle-against-law",
+    "name": "Cerchio Magico Contro la Legge",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "magic-fang",
+    "name": "Zanna Magica",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "magic-fang-greater",
+    "name": "Zanna Magica Superiore",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "magic-jar",
+    "name": "Giara Magica",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "magic-missile",
+    "name": "Dardo Incantato",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "magic-mouth",
+    "name": "Bocca Magica",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "magic-stone",
+    "name": "Pietra Magica",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "magic-vestment",
+    "name": "Veste Magica",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "magic-weapon",
+    "name": "Arma Magica",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "magic-weapon-greater",
+    "name": "Arma Magica Superiore",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "major-creation",
+    "name": "Creazione Maggiore",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "major-image",
+    "name": "Immagine Maggiore",
+    "school": "Illusione",
+    "subschool": "Finzione"
+  },
+  {
+    "slug": "make-whole",
+    "name": "Riparare Integralmente",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "mark-of-justice",
+    "name": "Marchio di Giustizia",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "mass",
+    "name": "Di Massa (Nome Incantesimo)",
+    "school": "Vedi descrizione"
+  },
+  {
+    "slug": "maze",
+    "name": "Labirinto",
+    "school": "Evocazione",
+    "subschool": "Teletrasporto"
+  },
+  {
+    "slug": "meld-into-stone",
+    "name": "Fondersi nella Pietra",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "mending",
+    "name": "Riparare",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "message",
+    "name": "Messaggio",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "meteor-swarm",
+    "name": "Sciame di Meteore",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "mind-blank",
+    "name": "Vuoto Mentale",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "mind-fog",
+    "name": "Nebbia della Mente",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "minor-creation",
+    "name": "Creazione Minore",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "minor-image",
+    "name": "Immagine Minore",
+    "school": "Illusione",
+    "subschool": "Finzione"
+  },
+  {
+    "slug": "miracle",
+    "name": "Miracolo",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "mirage-arcana",
+    "name": "Miraggio Arcano",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "mirror-image",
+    "name": "Immagine Speculare",
+    "school": "Illusione",
+    "subschool": "Finzione"
+  },
+  {
+    "slug": "misdirection",
+    "name": "Depistaggio",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "mislead",
+    "name": "Fuorviare",
+    "school": "Illusione",
+    "subschool": "Finzione, Mascheramento"
+  },
+  {
+    "slug": "mnemonic-enhancer",
+    "name": "Potenziatore Mnemonico",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "modify-memory",
+    "name": "Modificare Memoria",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "moment-of-prescience",
+    "name": "Momento di Prescienza",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "mount",
+    "name": "Cavalcatura",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "move-earth",
+    "name": "Muovere Terra",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "neutralize-poison",
+    "name": "Neutralizzare Veleno",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "nightmare",
+    "name": "Incubo",
+    "school": "Illusione",
+    "subschool": "Fantasma"
+  },
+  {
+    "slug": "nondetection",
+    "name": "Non Individuazione",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "obscure-object",
+    "name": "Oscurare Oggetto",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "obscuring-mist",
+    "name": "Foschia Oscurante",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "open-close",
+    "name": "Aprire/Chiudere",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "orders-wrath",
+    "name": "Collera dell'Ordine",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "overland-flight",
+    "name": "Volo Prolungato",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "owls-wisdom",
+    "name": "Saggezza del Gufo",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "owls-wisdom-mass",
+    "name": "Saggezza del Gufo di Massa",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "passwall",
+    "name": "Passapareti",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "pass-without-trace",
+    "name": "Passare Senza Tracce",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "permanency",
+    "name": "Permanenza",
+    "school": "Universale"
+  },
+  {
+    "slug": "permanent-image",
+    "name": "Immagine Permanente",
+    "school": "Illusione",
+    "subschool": "Finzione"
+  },
+  {
+    "slug": "persistent-image",
+    "name": "Immagine Persistente",
+    "school": "Illusione",
+    "subschool": "Finzione"
+  },
+  {
+    "slug": "phantasmal-killer",
+    "name": "Assassino Fantasma",
+    "school": "Illusione",
+    "subschool": "Fantasma"
+  },
+  {
+    "slug": "phantom-steed",
+    "name": "Destriero Fantasma",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "phantom-trap",
+    "name": "Trappola Fantasma",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "phase-door",
+    "name": "Porta di Fase",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "planar-ally",
+    "name": "Alleato Planare",
+    "school": "Evocazione",
+    "subschool": "Richiamo"
+  },
+  {
+    "slug": "planar-ally-greater",
+    "name": "Alleato Planare Superiore",
+    "school": "Evocazione",
+    "subschool": "Richiamo"
+  },
+  {
+    "slug": "planar-ally-lesser",
+    "name": "Alleato Planare Minore",
+    "school": "Evocazione",
+    "subschool": "Richiamo"
+  },
+  {
+    "slug": "planar-binding",
+    "name": "Vincolo Planare",
+    "school": "Evocazione",
+    "subschool": "Richiamo"
+  },
+  {
+    "slug": "planar-binding-greater",
+    "name": "Vincolo Planare Superiore",
+    "school": "Evocazione",
+    "subschool": "Richiamo"
+  },
+  {
+    "slug": "planar-binding-lesser",
+    "name": "Vincolo Planare Minore",
+    "school": "Evocazione",
+    "subschool": "Richiamo"
+  },
+  {
+    "slug": "plane-shift",
+    "name": "Spostamento Planare",
+    "school": "Evocazione",
+    "subschool": "Teletrasporto"
+  },
+  {
+    "slug": "plant-growth",
+    "name": "Crescita Vegetale",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "poison",
+    "name": "Veleno",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "polar-ray",
+    "name": "Raggio Polare",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "polymorph",
+    "name": "Metamorfosi",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "polymorph-any-object",
+    "name": "Metamorfosi Universale",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "power-word-blind",
+    "name": "Parola del Potere Accecare",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "power-word-kill",
+    "name": "Parola del Potere Uccidere",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "power-word-stun",
+    "name": "Parola del Potere Stordire",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "prayer",
+    "name": "Preghiera",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "prestidigitation",
+    "name": "Prestidigitazione",
+    "school": "Universale"
+  },
+  {
+    "slug": "prismatic-sphere",
+    "name": "Sfera Prismatica",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "prismatic-spray",
+    "name": "Spruzzo Prismatico",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "prismatic-wall",
+    "name": "Muro Prismatico",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "produce-flame",
+    "name": "Produrre Fiamma",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "programmed-image",
+    "name": "Immagine Programmata",
+    "school": "Illusione",
+    "subschool": "Finzione"
+  },
+  {
+    "slug": "project-image",
+    "name": "Proiettare Immagine",
+    "school": "Illusione",
+    "subschool": "Ombra"
+  },
+  {
+    "slug": "protection-from-arrows",
+    "name": "Protezione dalle Frecce",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "protection-from-chaos",
+    "name": "Protezione dal Caos",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "protection-from-energy",
+    "name": "Protezione dall'Energia",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "protection-from-evil",
+    "name": "Protezione dal Male",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "protection-from-good",
+    "name": "Protezione dal Bene",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "protection-from-law",
+    "name": "Protezione dalla Legge",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "protection-from-spells",
+    "name": "Protezione dagli Incantesimi",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "prying-eyes",
+    "name": "Occhi Indiscreti",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "prying-eyes-greater",
+    "name": "Occhi Indiscreti Superiori",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "purify-food-and-drink",
+    "name": "Purificare Cibo e Bevande",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "pyrotechnics",
+    "name": "Pirotecnica",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "quench",
+    "name": "Estinguere",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "rage",
+    "name": "Furia",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "rainbow-pattern",
+    "name": "Trama dell'Arcobaleno",
+    "school": "Illusione",
+    "subschool": "Trama"
+  },
+  {
+    "slug": "raise-dead",
+    "name": "Rianimare i Morti",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "ray-of-enfeeblement",
+    "name": "Raggio di Indebolimento",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "ray-of-exhaustion",
+    "name": "Raggio di Esaurimento",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "ray-of-frost",
+    "name": "Raggio di Gelo",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "read-magic",
+    "name": "Lettura del Magico",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "reduce-animal",
+    "name": "Ridurre Animali",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "reduce-person",
+    "name": "Ridurre Persone",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "reduce-person-mass",
+    "name": "Ridurre Persone di Massa",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "refuge",
+    "name": "Rifugio",
+    "school": "Evocazione",
+    "subschool": "Teletrasporto"
+  },
+  {
+    "slug": "regenerate",
+    "name": "Rigenerazione",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "reincarnate",
+    "name": "Reincarnazione",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "remove-blindness-deafness",
+    "name": "Rimuovere Cecità/Sordità",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "remove-curse",
+    "name": "Rimuovere Maledizione",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "remove-disease",
+    "name": "Rimuovere Malattia",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "remove-fear",
+    "name": "Rimuovere Paura",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "remove-paralysis",
+    "name": "Rimuovere Paralisi",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "repel-metal-or-stone",
+    "name": "Respingere Metallo o Pietra",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "repel-vermin",
+    "name": "Respingere Parassiti",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "repel-wood",
+    "name": "Respingere Legno",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "repulsion",
+    "name": "Repulsione",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "resilient-sphere",
+    "name": "Sfera Resiliente",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "resistance",
+    "name": "Resistenza",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "resist-energy",
+    "name": "Resistere all'Energia",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "restoration",
+    "name": "Ristorare",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "restoration-greater",
+    "name": "Ristorare Superiore",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "restoration-lesser",
+    "name": "Ristorare Minore",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "resurrection",
+    "name": "Resurrezione",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "reverse-gravity",
+    "name": "Invertire Gravità",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "righteous-might",
+    "name": "Potere Rettitudine",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "rope-trick",
+    "name": "Trucco della Corda",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "rusting-grasp",
+    "name": "Presa Arrugginente",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "sanctuary",
+    "name": "Santuario",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "scare",
+    "name": "Spaventare",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "scintillating-pattern",
+    "name": "Trama Scintillante",
+    "school": "Illusione",
+    "subschool": "Trama"
+  },
+  {
+    "slug": "scorching-ray",
+    "name": "Raggio Rovente",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "screen",
+    "name": "Schermo",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "scrying",
+    "name": "Scrutare",
+    "school": "Divinazione",
+    "subschool": "Scrutamento"
+  },
+  {
+    "slug": "scrying-greater",
+    "name": "Scrutare Superiore",
+    "school": "Divinazione",
+    "subschool": "Scrutamento"
+  },
+  {
+    "slug": "sculpt-sound",
+    "name": "Plasmare Suoni",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "searing-light",
+    "name": "Luce Incandescente",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "secret-chest",
+    "name": "Scrigno Segreto",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "secret-page",
+    "name": "Pagina Segreta",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "secure-shelter",
+    "name": "Rifugio Sicuro",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "see-invisibility",
+    "name": "Vedere Invisibilità",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "seeming",
+    "name": "Parvenza",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "sending",
+    "name": "Invio",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "sepia-snake-sigil",
+    "name": "Sigillo del Serpente Color Seppia",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "sequester",
+    "name": "Sequestrare",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "shades",
+    "name": "Ombre",
+    "school": "Illusione",
+    "subschool": "Ombra"
+  },
+  {
+    "slug": "shadow-conjuration",
+    "name": "Evocazione d'Ombra",
+    "school": "Illusione",
+    "subschool": "Ombra"
+  },
+  {
+    "slug": "shadow-conjuration-greater",
+    "name": "Evocazione d'Ombra Superiore",
+    "school": "Illusione",
+    "subschool": "Ombra"
+  },
+  {
+    "slug": "shadow-evocation",
+    "name": "Invocazione d'Ombra",
+    "school": "Illusione",
+    "subschool": "Ombra"
+  },
+  {
+    "slug": "shadow-evocation-greater",
+    "name": "Invocazione d'Ombra Superiore",
+    "school": "Illusione",
+    "subschool": "Ombra"
+  },
+  {
+    "slug": "shadow-walk",
+    "name": "Camminata nell'Ombra",
+    "school": "Illusione",
+    "subschool": "Ombra"
+  },
+  {
+    "slug": "shambler",
+    "name": "Cumulo Strisciante",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "shapechange",
+    "name": "Cambiare Forma",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "shatter",
+    "name": "Frantumare",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "shield",
+    "name": "Scudo",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "shield-of-faith",
+    "name": "Scudo della Fede",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "shield-of-law",
+    "name": "Scudo della Legge",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "shield-other",
+    "name": "Scudo su Altro",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "shillelagh",
+    "name": "Shillelagh",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "shocking-grasp",
+    "name": "Tocco Shocking",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "shout",
+    "name": "Urlo",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "shout-greater",
+    "name": "Urlo Superiore",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "shrink-item",
+    "name": "Rimpicciolire Oggetto",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "silence",
+    "name": "Silenzio",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "silent-image",
+    "name": "Immagine Silenziosa",
+    "school": "Illusione",
+    "subschool": "Finzione"
+  },
+  {
+    "slug": "simulacrum",
+    "name": "Simulacro",
+    "school": "Illusione",
+    "subschool": "Ombra"
+  },
+  {
+    "slug": "slay-living",
+    "name": "Uccidere Viventi",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "sleep",
+    "name": "Sonno",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "sleet-storm",
+    "name": "Tempesta di Nevischio",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "slow",
+    "name": "Lentezza",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "snare",
+    "name": "Laccio",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "soften-earth-and-stone",
+    "name": "Ammorbidire Terra e Pietra",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "solid-fog",
+    "name": "Nebbia Solida",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "song-of-discord",
+    "name": "Canto di Discordia",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "soul-bind",
+    "name": "Vincolo dell'Anima",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "sound-burst",
+    "name": "Scoppio Sonoro",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "speak-with-animals",
+    "name": "Parlare con gli Animali",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "speak-with-dead",
+    "name": "Parlare con i Morti",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "speak-with-plants",
+    "name": "Parlare con le Piante",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "spectral-hand",
+    "name": "Mano Spettrale",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "spell-immunity",
+    "name": "Immunità agli Incantesimi",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "spell-immunity-greater",
+    "name": "Immunità agli Incantesimi Superiore",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "spell-resistance",
+    "name": "Resistenza agli Incantesimi",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "spellstaff",
+    "name": "Bastone Magico",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "spell-turning",
+    "name": "Rivoltare Incantesimi",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "spider-climb",
+    "name": "Scalare Ragno",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "spike-growth",
+    "name": "Crescita di Spine",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "spike-stones",
+    "name": "Pietre Acuminate",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "spiritual-weapon",
+    "name": "Arma Spirituale",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "statue",
+    "name": "Statua",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "status",
+    "name": "Status",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "stinking-cloud",
+    "name": "Nube Maleodorante",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "stone-shape",
+    "name": "Scolpire Pietra",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "stoneskin",
+    "name": "Pelle di Pietra",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "stone-tell",
+    "name": "Pietra Parlante",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "stone-to-flesh",
+    "name": "Pietra in Carne",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "storm-of-vengeance",
+    "name": "Tempesta della Vendetta",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "suggestion",
+    "name": "Suggestione",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "suggestion-mass",
+    "name": "Suggestione di Massa",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "summon-instrument",
+    "name": "Evocare Strumento",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-monster-i",
+    "name": "Evocare Mostri I",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-monster-ii",
+    "name": "Evocare Mostri II",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-monster-iii",
+    "name": "Evocare Mostri III",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-monster-iv",
+    "name": "Evocare Mostri IV",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-monster-v",
+    "name": "Evocare Mostri V",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-monster-vi",
+    "name": "Evocare Mostri VI",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-monster-vii",
+    "name": "Evocare Mostri VII",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-monster-viii",
+    "name": "Evocare Mostri VIII",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-monster-ix",
+    "name": "Evocare Mostri IX",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-natures-ally-i",
+    "name": "Evocare Alleato Naturale I",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-natures-ally-ii",
+    "name": "Evocare Alleato Naturale II",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-natures-ally-iii",
+    "name": "Evocare Alleato Naturale III",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-natures-ally-iv",
+    "name": "Evocare Alleato Naturale IV",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-natures-ally-v",
+    "name": "Evocare Alleato Naturale V",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-natures-ally-vi",
+    "name": "Evocare Alleato Naturale VI",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-natures-ally-vii",
+    "name": "Evocare Alleato Naturale VII",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-natures-ally-viii",
+    "name": "Evocare Alleato Naturale VIII",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-natures-ally-ix",
+    "name": "Evocare Alleato Naturale IX",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "summon-swarm",
+    "name": "Evocare Sciame",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "sunbeam",
+    "name": "Raggio di Sole",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "sunburst",
+    "name": "Esplosione Solare",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "symbol-of-death",
+    "name": "Simbolo di Morte",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "symbol-of-fear",
+    "name": "Simbolo di Paura",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "symbol-of-insanity",
+    "name": "Simbolo di Follia",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "symbol-of-pain",
+    "name": "Simbolo di Dolore",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "symbol-of-persuasion",
+    "name": "Simbolo di Persuasione",
+    "school": "Ammaliamento",
+    "subschool": "Charme"
+  },
+  {
+    "slug": "symbol-of-sleep",
+    "name": "Simbolo di Sonno",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "symbol-of-stunning",
+    "name": "Simbolo di Stordimento",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "symbol-of-weakness",
+    "name": "Simbolo di Debolezza",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "sympathetic-vibration",
+    "name": "Vibrazione Simpatica",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "sympathy",
+    "name": "Simpatia",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "telekinesis",
+    "name": "Telecinesi",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "telekinetic-sphere",
+    "name": "Sfera Telecinetica",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "telepathic-bond",
+    "name": "Legame Telepatico",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "teleport",
+    "name": "Teletrasporto",
+    "school": "Evocazione",
+    "subschool": "Teletrasporto"
+  },
+  {
+    "slug": "teleport-object",
+    "name": "Teletrasporto di Oggetti",
+    "school": "Evocazione",
+    "subschool": "Teletrasporto"
+  },
+  {
+    "slug": "teleport-greater",
+    "name": "Teletrasporto Superiore",
+    "school": "Evocazione",
+    "subschool": "Teletrasporto"
+  },
+  {
+    "slug": "teleportation-circle",
+    "name": "Cerchio di Teletrasporto",
+    "school": "Evocazione",
+    "subschool": "Teletrasporto"
+  },
+  {
+    "slug": "temporal-stasis",
+    "name": "Stasi Temporale",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "time-stop",
+    "name": "Fermare il Tempo",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "tiny-hut",
+    "name": "Capanna",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "tongues",
+    "name": "Linguaggi",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "touch-of-fatigue",
+    "name": "Tocco di Fatica",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "touch-of-idiocy",
+    "name": "Tocco di Idiozia",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  },
+  {
+    "slug": "transformation",
+    "name": "Trasformazione",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "transmute-metal-to-wood",
+    "name": "Trasmutare Metallo in Legno",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "transmute-mud-to-rock",
+    "name": "Trasmutare Fango in Roccia",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "transmute-rock-to-mud",
+    "name": "Trasmutare Roccia in Fango",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "transport-via-plants",
+    "name": "Trasporto tramite Piante",
+    "school": "Evocazione",
+    "subschool": "Teletrasporto"
+  },
+  {
+    "slug": "trap-the-soul",
+    "name": "Intrappolare l'Anima",
+    "school": "Evocazione",
+    "subschool": "Convocazione"
+  },
+  {
+    "slug": "tree-shape",
+    "name": "Forma di Albero",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "tree-stride",
+    "name": "Passo dell'Albero",
+    "school": "Evocazione",
+    "subschool": "Teletrasporto"
+  },
+  {
+    "slug": "true-resurrection",
+    "name": "Resurrezione Pura",
+    "school": "Evocazione",
+    "subschool": "Guarigione"
+  },
+  {
+    "slug": "true-seeing",
+    "name": "Vista del Vero",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "true-strike",
+    "name": "Colpo Sicuro",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "undeath-to-death",
+    "name": "Non Morte in Morte",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "undetectable-alignment",
+    "name": "Allineamento Non Individuabile",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "unhallow",
+    "name": "Dissacrare Luogo",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "unholy-aura",
+    "name": "Aura Empia",
+    "school": "Abiurazione"
+  },
+  {
+    "slug": "unholy-blight",
+    "name": "Punizione Empia",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "unseen-servant",
+    "name": "Servitore Invisibile",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "vampiric-touch",
+    "name": "Tocco del Vampiro",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "veil",
+    "name": "Velo",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "ventriloquism",
+    "name": "Ventriloquio",
+    "school": "Illusione",
+    "subschool": "Finzione"
+  },
+  {
+    "slug": "virtue",
+    "name": "Virtù",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "vision",
+    "name": "Visione",
+    "school": "Divinazione"
+  },
+  {
+    "slug": "wail-of-the-banshee",
+    "name": "Lamento della Banshee",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "wall-of-fire",
+    "name": "Muro di Fuoco",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "wall-of-force",
+    "name": "Muro di Forza",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "wall-of-ice",
+    "name": "Muro di Ghiaccio",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "wall-of-iron",
+    "name": "Muro di Ferro",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "wall-of-stone",
+    "name": "Muro di Pietra",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "wall-of-thorns",
+    "name": "Muro di Spine",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "warp-wood",
+    "name": "Deformare Legno",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "water-breathing",
+    "name": "Respirare sott'Acqua",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "water-walk",
+    "name": "Camminare sull'Acqua",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "waves-of-exhaustion",
+    "name": "Onde di Esaurimento",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "waves-of-fatigue",
+    "name": "Onde di Fatica",
+    "school": "Necromanzia"
+  },
+  {
+    "slug": "web",
+    "name": "Ragnatela",
+    "school": "Evocazione",
+    "subschool": "Creazione"
+  },
+  {
+    "slug": "weird",
+    "name": "Destino",
+    "school": "Illusione",
+    "subschool": "Fantasma"
+  },
+  {
+    "slug": "whirlwind",
+    "name": "Turbine",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "whispering-wind",
+    "name": "Vento Sussurrante",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "wind-walk",
+    "name": "Camminata nel Vento",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "wind-wall",
+    "name": "Muro di Vento",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "wish",
+    "name": "Desiderio",
+    "school": "Universale"
+  },
+  {
+    "slug": "wood-shape",
+    "name": "Plasmare Legno",
+    "school": "Trasmutazione"
+  },
+  {
+    "slug": "word-of-chaos",
+    "name": "Parola del Caos",
+    "school": "Invocazione"
+  },
+  {
+    "slug": "word-of-recall",
+    "name": "Parola del Richiamo",
+    "school": "Evocazione",
+    "subschool": "Teletrasporto"
+  },
+  {
+    "slug": "zone-of-silence",
+    "name": "Zona di Silenzio",
+    "school": "Illusione",
+    "subschool": "Mascheramento"
+  },
+  {
+    "slug": "zone-of-truth",
+    "name": "Zona di Verità",
+    "school": "Ammaliamento",
+    "subschool": "Compulsione"
+  }
+]

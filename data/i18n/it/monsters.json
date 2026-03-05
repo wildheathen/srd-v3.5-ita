@@ -1,0 +1,1158 @@
+[
+  {
+    "slug": "aboleth",
+    "name": "Aboleth"
+  },
+  {
+    "slug": "aboleth-mage-10th-level-wizard",
+    "name": "Aboleth Mago, Mago di 10° Livello"
+  },
+  {
+    "slug": "achaierai",
+    "name": "Achaierai"
+  },
+  {
+    "slug": "allip",
+    "name": "Allip"
+  },
+  {
+    "slug": "angel",
+    "name": "Angelo"
+  },
+  {
+    "slug": "animated-object-tiny",
+    "name": "Oggetto Animato, Minuscolo"
+  },
+  {
+    "slug": "animated-object-small",
+    "name": "Oggetto Animato, Piccolo"
+  },
+  {
+    "slug": "animated-object-medium",
+    "name": "Oggetto Animato, Medio"
+  },
+  {
+    "slug": "ankheg",
+    "name": "Ankheg"
+  },
+  {
+    "slug": "aranea",
+    "name": "Aranea"
+  },
+  {
+    "slug": "archon",
+    "name": "Archon"
+  },
+  {
+    "slug": "juvenile-arrowhawk",
+    "name": "Arrowhawk Giovane"
+  },
+  {
+    "slug": "adult-arrowhawk",
+    "name": "Arrowhawk Adulto"
+  },
+  {
+    "slug": "elder-arrowhawk",
+    "name": "Arrowhawk Anziano"
+  },
+  {
+    "slug": "assassin-vine",
+    "name": "Vite Assassina"
+  },
+  {
+    "slug": "athach",
+    "name": "Athach"
+  },
+  {
+    "slug": "avoral",
+    "name": "Avoral"
+  },
+  {
+    "slug": "azer",
+    "name": "Azer"
+  },
+  {
+    "slug": "ape",
+    "name": "Scimmia"
+  },
+  {
+    "slug": "baboon",
+    "name": "Babbuino"
+  },
+  {
+    "slug": "badger",
+    "name": "Tasso"
+  },
+  {
+    "slug": "bat",
+    "name": "Pipistrello"
+  },
+  {
+    "slug": "bear-black",
+    "name": "Orso, Nero"
+  },
+  {
+    "slug": "bear-brown",
+    "name": "Orso, Bruno"
+  },
+  {
+    "slug": "bear-polar",
+    "name": "Orso, Polare"
+  },
+  {
+    "slug": "bison",
+    "name": "Bisonte"
+  },
+  {
+    "slug": "boar",
+    "name": "Cinghiale"
+  },
+  {
+    "slug": "camel",
+    "name": "Cammello"
+  },
+  {
+    "slug": "cat",
+    "name": "Gatto"
+  },
+  {
+    "slug": "cheetah",
+    "name": "Ghepardo"
+  },
+  {
+    "slug": "crocodile",
+    "name": "Coccodrillo"
+  },
+  {
+    "slug": "crocodile-giant",
+    "name": "Coccodrillo, Gigante"
+  },
+  {
+    "slug": "dog",
+    "name": "Cane"
+  },
+  {
+    "slug": "dog-riding",
+    "name": "Cane, da Sella"
+  },
+  {
+    "slug": "donkey",
+    "name": "Asino"
+  },
+  {
+    "slug": "eagle",
+    "name": "Aquila"
+  },
+  {
+    "slug": "elephant",
+    "name": "Elefante"
+  },
+  {
+    "slug": "hawk",
+    "name": "Falco"
+  },
+  {
+    "slug": "horse",
+    "name": "Cavallo"
+  },
+  {
+    "slug": "hyena",
+    "name": "Iena"
+  },
+  {
+    "slug": "leopard",
+    "name": "Leopardo"
+  },
+  {
+    "slug": "lion",
+    "name": "Leone"
+  },
+  {
+    "slug": "lizard",
+    "name": "Lucertola"
+  },
+  {
+    "slug": "lizard-monitor",
+    "name": "Lucertola, Varano"
+  },
+  {
+    "slug": "manta-ray",
+    "name": "Manta"
+  },
+  {
+    "slug": "monkey",
+    "name": "Scimmia"
+  },
+  {
+    "slug": "mule",
+    "name": "Mulo"
+  },
+  {
+    "slug": "octopus",
+    "name": "Piovra"
+  },
+  {
+    "slug": "octopus-giant",
+    "name": "Piovra, Gigante"
+  },
+  {
+    "slug": "owl",
+    "name": "Gufo"
+  },
+  {
+    "slug": "pony",
+    "name": "Pony"
+  },
+  {
+    "slug": "pony-war",
+    "name": "Pony, da Guerra"
+  },
+  {
+    "slug": "porpoise",
+    "name": "Focena"
+  },
+  {
+    "slug": "rat",
+    "name": "Ratto"
+  },
+  {
+    "slug": "raven",
+    "name": "Corvo"
+  },
+  {
+    "slug": "rhinoceros",
+    "name": "Rinoceronte"
+  },
+  {
+    "slug": "shark-medium",
+    "name": "Squalo, Medio"
+  },
+  {
+    "slug": "shark-large",
+    "name": "Squalo, Grande"
+  },
+  {
+    "slug": "shark-huge",
+    "name": "Squalo, Enorme"
+  },
+  {
+    "slug": "snake",
+    "name": "Serpente"
+  },
+  {
+    "slug": "squid",
+    "name": "Calamaro"
+  },
+  {
+    "slug": "squid-giant",
+    "name": "Calamaro, Gigante"
+  },
+  {
+    "slug": "tiger",
+    "name": "Tigre"
+  },
+  {
+    "slug": "toad",
+    "name": "Rospo"
+  },
+  {
+    "slug": "weasel",
+    "name": "Donnola"
+  },
+  {
+    "slug": "whale",
+    "name": "Balena"
+  },
+  {
+    "slug": "wolf",
+    "name": "Lupo"
+  },
+  {
+    "slug": "wolverine",
+    "name": "Ghiottone"
+  },
+  {
+    "slug": "combat",
+    "name": "Combattimento"
+  },
+  {
+    "slug": "barghest",
+    "name": "Barghest"
+  },
+  {
+    "slug": "greater-barghest",
+    "name": "Barghest Superiore"
+  },
+  {
+    "slug": "basilisk",
+    "name": "Basilisco"
+  },
+  {
+    "slug": "abyssal-greater-basilisk",
+    "name": "Basilisco Superiore Abissale"
+  },
+  {
+    "slug": "behir",
+    "name": "Behir"
+  },
+  {
+    "slug": "belker",
+    "name": "Belker"
+  },
+  {
+    "slug": "blink-dog",
+    "name": "Cane Intermittente"
+  },
+  {
+    "slug": "bodak",
+    "name": "Bodak"
+  },
+  {
+    "slug": "bralani",
+    "name": "Bralani"
+  },
+  {
+    "slug": "bugbear",
+    "name": "Bugbear"
+  },
+  {
+    "slug": "bulette",
+    "name": "Bulette"
+  },
+  {
+    "slug": "hit-dice",
+    "name": "Dadi Vita"
+  },
+  {
+    "slug": "resistance-to-acid-cold-electricity",
+    "name": "Resistenza ad Acido, Freddo, Elettricità"
+  },
+  {
+    "slug": "damage-reduction",
+    "name": "Riduzione del Danno"
+  },
+  {
+    "slug": "centaur",
+    "name": "Centauro"
+  },
+  {
+    "slug": "chaos-beast",
+    "name": "Bestia del Caos"
+  },
+  {
+    "slug": "chimera",
+    "name": "Chimera"
+  },
+  {
+    "slug": "choker",
+    "name": "Choker"
+  },
+  {
+    "slug": "chuul",
+    "name": "Chuul"
+  },
+  {
+    "slug": "cloaker",
+    "name": "Cloaker"
+  },
+  {
+    "slug": "cockatrice",
+    "name": "Coccatrice"
+  },
+  {
+    "slug": "couatl",
+    "name": "Couatl"
+  },
+  {
+    "slug": "darkmantle",
+    "name": "Darkmantle"
+  },
+  {
+    "slug": "delver",
+    "name": "Delver"
+  },
+  {
+    "slug": "demon",
+    "name": "Demone"
+  },
+  {
+    "slug": "derro",
+    "name": "Derro"
+  },
+  {
+    "slug": "destrachan",
+    "name": "Destrachan"
+  },
+  {
+    "slug": "devil",
+    "name": "Diavolo"
+  },
+  {
+    "slug": "devourer",
+    "name": "Divoratore"
+  },
+  {
+    "slug": "digester",
+    "name": "Digestore"
+  },
+  {
+    "slug": "dinosaur",
+    "name": "Dinosauro"
+  },
+  {
+    "slug": "dire-animal",
+    "name": "Animale Crudele"
+  },
+  {
+    "slug": "doppelganger",
+    "name": "Doppelganger"
+  },
+  {
+    "slug": "dragon-breath-weapons",
+    "name": "Armi a Soffio dei Draghi"
+  },
+  {
+    "slug": "black-dragons-by-age",
+    "name": "Draghi Neri per Età"
+  },
+  {
+    "slug": "brass-dragons-by-age",
+    "name": "Draghi d'Ottone per Età"
+  },
+  {
+    "slug": "dragon-turtle",
+    "name": "Drago Tartaruga"
+  },
+  {
+    "slug": "dragonne",
+    "name": "Dragonne"
+  },
+  {
+    "slug": "drider",
+    "name": "Drider"
+  },
+  {
+    "slug": "dryad",
+    "name": "Driade"
+  },
+  {
+    "slug": "dwarf-1st-level-warrior",
+    "name": "Nano, Guerriero di 1° Livello"
+  },
+  {
+    "slug": "duergar-1st-level-warrior",
+    "name": "Duergar, Guerriero di 1° Livello"
+  },
+  {
+    "slug": "eagle-giant",
+    "name": "Aquila, Gigante"
+  },
+  {
+    "slug": "air-elemental-small",
+    "name": "Elementale dell'Aria, Piccolo"
+  },
+  {
+    "slug": "air-elemental-medium",
+    "name": "Elementale dell'Aria, Medio"
+  },
+  {
+    "slug": "air-elemental-large",
+    "name": "Elementale dell'Aria, Grande"
+  },
+  {
+    "slug": "elf-1st-level-warrior",
+    "name": "Elfo, Guerriero di 1° Livello"
+  },
+  {
+    "slug": "drow-1st-level-warrior",
+    "name": "Drow, Guerriero di 1° Livello"
+  },
+  {
+    "slug": "ethereal-filcher",
+    "name": "Ladro Etereo"
+  },
+  {
+    "slug": "ethereal-marauder",
+    "name": "Predatore Etereo"
+  },
+  {
+    "slug": "ettercap",
+    "name": "Ettercap"
+  },
+  {
+    "slug": "ettin",
+    "name": "Ettin"
+  },
+  {
+    "slug": "resistance-to-cold-and-fire",
+    "name": "Resistenza a Freddo e Fuoco"
+  },
+  {
+    "slug": "formian-worker",
+    "name": "Formian Operaio"
+  },
+  {
+    "slug": "formian-warrior",
+    "name": "Formian Guerriero"
+  },
+  {
+    "slug": "formian-taskmaster",
+    "name": "Formian Sorvegliante"
+  },
+  {
+    "slug": "frost-worm",
+    "name": "Verme del Gelo"
+  },
+  {
+    "slug": "shrieker",
+    "name": "Strillone"
+  },
+  {
+    "slug": "violet-fungus",
+    "name": "Fungo Violetto"
+  },
+  {
+    "slug": "gargoyle",
+    "name": "Gargoyle"
+  },
+  {
+    "slug": "genie",
+    "name": "Genio"
+  },
+  {
+    "slug": "ghaele",
+    "name": "Ghaele"
+  },
+  {
+    "slug": "ghost",
+    "name": "Fantasma"
+  },
+  {
+    "slug": "ghoul",
+    "name": "Ghoul"
+  },
+  {
+    "slug": "ghast",
+    "name": "Ghast"
+  },
+  {
+    "slug": "giant",
+    "name": "Gigante"
+  },
+  {
+    "slug": "gibbering-mouther",
+    "name": "Farfugliatore"
+  },
+  {
+    "slug": "girallon",
+    "name": "Girallon"
+  },
+  {
+    "slug": "gnoll",
+    "name": "Gnoll"
+  },
+  {
+    "slug": "gnome-1st-level-warrior",
+    "name": "Gnomo, Guerriero di 1° Livello"
+  },
+  {
+    "slug": "svirfneblin-1st-level-warrior",
+    "name": "Svirfneblin, Guerriero di 1° Livello"
+  },
+  {
+    "slug": "goblin",
+    "name": "Goblin"
+  },
+  {
+    "slug": "golem",
+    "name": "Golem"
+  },
+  {
+    "slug": "gorgon",
+    "name": "Gorgone"
+  },
+  {
+    "slug": "gray-render",
+    "name": "Render Grigio"
+  },
+  {
+    "slug": "grick",
+    "name": "Grick"
+  },
+  {
+    "slug": "griffon",
+    "name": "Grifone"
+  },
+  {
+    "slug": "grimlock",
+    "name": "Grimlock"
+  },
+  {
+    "slug": "hag",
+    "name": "Strega"
+  },
+  {
+    "slug": "hd",
+    "name": "DV"
+  },
+  {
+    "slug": "abilities",
+    "name": "Caratteristiche"
+  },
+  {
+    "slug": "size",
+    "name": "Taglia"
+  },
+  {
+    "slug": "bite-damage",
+    "name": "Danno da Morso"
+  },
+  {
+    "slug": "claw-damage",
+    "name": "Danno da Artiglio"
+  },
+  {
+    "slug": "halfling-1st-level-warrior",
+    "name": "Halfling, Guerriero di 1° Livello"
+  },
+  {
+    "slug": "harpy",
+    "name": "Arpia"
+  },
+  {
+    "slug": "harpy-archer-7th-level-fighter",
+    "name": "Arpia Arciera, Guerriero di 7° Livello"
+  },
+  {
+    "slug": "hellhound",
+    "name": "Segugio Infernale"
+  },
+  {
+    "slug": "nessian-warhound",
+    "name": "Segugio da Guerra di Nesso"
+  },
+  {
+    "slug": "hippogriff",
+    "name": "Ippogrifo"
+  },
+  {
+    "slug": "hobgoblin-1st-level-warrior",
+    "name": "Hobgoblin, Guerriero di 1° Livello"
+  },
+  {
+    "slug": "homunculus",
+    "name": "Homunculus"
+  },
+  {
+    "slug": "howler",
+    "name": "Ululatore"
+  },
+  {
+    "slug": "five-headed-hydra",
+    "name": "Idra a Cinque Teste"
+  },
+  {
+    "slug": "six-headed-hydra",
+    "name": "Idra a Sei Teste"
+  },
+  {
+    "slug": "seven-headed-hydra",
+    "name": "Idra a Sette Teste"
+  },
+  {
+    "slug": "inevitable",
+    "name": "Inevitabile"
+  },
+  {
+    "slug": "invisible-stalker",
+    "name": "Segugio Invisibile"
+  },
+  {
+    "slug": "kobold-1st-level-warrior",
+    "name": "Coboldo, Guerriero di 1° Livello"
+  },
+  {
+    "slug": "kraken",
+    "name": "Kraken"
+  },
+  {
+    "slug": "krenshar",
+    "name": "Krenshar"
+  },
+  {
+    "slug": "lamia",
+    "name": "Lamia"
+  },
+  {
+    "slug": "lammasu",
+    "name": "Lammasu"
+  },
+  {
+    "slug": "golden-protector-celestial-half-dragon-lammasu",
+    "name": "Protettore Dorato (Lammasu Celestiale Mezzo Drago)"
+  },
+  {
+    "slug": "leonal",
+    "name": "Leonal"
+  },
+  {
+    "slug": "lich",
+    "name": "Lich"
+  },
+  {
+    "slug": "lillend",
+    "name": "Lillend"
+  },
+  {
+    "slug": "lizardfolk",
+    "name": "Uomini Lucertola"
+  },
+  {
+    "slug": "locathah",
+    "name": "Locathah"
+  },
+  {
+    "slug": "werebear-human-form",
+    "name": "Orso Mannaro, Forma Umana"
+  },
+  {
+    "slug": "werebear-bear-form",
+    "name": "Orso Mannaro, Forma d'Orso"
+  },
+  {
+    "slug": "werebear-hybrid-form",
+    "name": "Orso Mannaro, Forma Ibrida"
+  },
+  {
+    "slug": "magmin",
+    "name": "Magmin"
+  },
+  {
+    "slug": "manticore",
+    "name": "Manticora"
+  },
+  {
+    "slug": "medusa",
+    "name": "Medusa"
+  },
+  {
+    "slug": "mephit",
+    "name": "Mephit"
+  },
+  {
+    "slug": "merfolk",
+    "name": "Tritone"
+  },
+  {
+    "slug": "mimic",
+    "name": "Mimic"
+  },
+  {
+    "slug": "minotaur",
+    "name": "Minotauro"
+  },
+  {
+    "slug": "mohrg",
+    "name": "Mohrg"
+  },
+  {
+    "slug": "mummy",
+    "name": "Mummia"
+  },
+  {
+    "slug": "mummy-lord-10th-level-cleric",
+    "name": "Signore delle Mummie, Chierico di 10° Livello"
+  },
+  {
+    "slug": "naga",
+    "name": "Naga"
+  },
+  {
+    "slug": "night-hag",
+    "name": "Strega Notturna"
+  },
+  {
+    "slug": "nightmare",
+    "name": "Incubo"
+  },
+  {
+    "slug": "nightmare-cauchemar",
+    "name": "Incubo, Cauchemar"
+  },
+  {
+    "slug": "nightshade",
+    "name": "Ombra Notturna"
+  },
+  {
+    "slug": "nymph",
+    "name": "Ninfa"
+  },
+  {
+    "slug": "ogre",
+    "name": "Ogre"
+  },
+  {
+    "slug": "ogre-4th-level-barbarian",
+    "name": "Ogre, Barbaro di 4° Livello"
+  },
+  {
+    "slug": "ogre-mage",
+    "name": "Ogre Mago"
+  },
+  {
+    "slug": "black-pudding",
+    "name": "Melma Nera"
+  },
+  {
+    "slug": "elder-black-pudding",
+    "name": "Melma Nera Anziana"
+  },
+  {
+    "slug": "orc",
+    "name": "Orco"
+  },
+  {
+    "slug": "otyugh",
+    "name": "Otyugh"
+  },
+  {
+    "slug": "owl-giant",
+    "name": "Gufo, Gigante"
+  },
+  {
+    "slug": "owlbear",
+    "name": "Orsogufo"
+  },
+  {
+    "slug": "pegasus",
+    "name": "Pegaso"
+  },
+  {
+    "slug": "phantom-fungus",
+    "name": "Fungo Fantasma"
+  },
+  {
+    "slug": "phase-spider",
+    "name": "Ragno Fasico"
+  },
+  {
+    "slug": "phasm",
+    "name": "Phasm"
+  },
+  {
+    "slug": "planetouched",
+    "name": "Stirpe Planare"
+  },
+  {
+    "slug": "pseudodragon",
+    "name": "Pseudodrago"
+  },
+  {
+    "slug": "purple-worm",
+    "name": "Verme Purpureo"
+  },
+  {
+    "slug": "rakshasa",
+    "name": "Rakshasa"
+  },
+  {
+    "slug": "rast",
+    "name": "Rast"
+  },
+  {
+    "slug": "ravid",
+    "name": "Ravid"
+  },
+  {
+    "slug": "remorhaz",
+    "name": "Remorhaz"
+  },
+  {
+    "slug": "roc",
+    "name": "Roc"
+  },
+  {
+    "slug": "roper",
+    "name": "Roper"
+  },
+  {
+    "slug": "rust-monster",
+    "name": "Mostro della Ruggine"
+  },
+  {
+    "slug": "sahuagin",
+    "name": "Sahuagin"
+  },
+  {
+    "slug": "flamebrother-salamander",
+    "name": "Salamandra Fratello di Fiamma"
+  },
+  {
+    "slug": "average-salamander",
+    "name": "Salamandra Media"
+  },
+  {
+    "slug": "noble-salamander",
+    "name": "Salamandra Nobile"
+  },
+  {
+    "slug": "satyr",
+    "name": "Satiro"
+  },
+  {
+    "slug": "sea-cat",
+    "name": "Gatto Marino"
+  },
+  {
+    "slug": "shadow",
+    "name": "Ombra"
+  },
+  {
+    "slug": "greater-shadow",
+    "name": "Ombra Superiore"
+  },
+  {
+    "slug": "shadow-mastiff",
+    "name": "Mastino d'Ombra"
+  },
+  {
+    "slug": "shambling-mound",
+    "name": "Cumulo Strisciante"
+  },
+  {
+    "slug": "shield-guardian",
+    "name": "Guardiano dello Scudo"
+  },
+  {
+    "slug": "shocker-lizard",
+    "name": "Lucertola Elettrica"
+  },
+  {
+    "slug": "skeleton",
+    "name": "Scheletro"
+  },
+  {
+    "slug": "skum",
+    "name": "Skum"
+  },
+  {
+    "slug": "spectre",
+    "name": "Spettro"
+  },
+  {
+    "slug": "sphinx",
+    "name": "Sfinge"
+  },
+  {
+    "slug": "spider-eater",
+    "name": "Mangiaragni"
+  },
+  {
+    "slug": "sprite",
+    "name": "Spiritello"
+  },
+  {
+    "slug": "stirge",
+    "name": "Stirge"
+  },
+  {
+    "slug": "swarm",
+    "name": "Sciame"
+  },
+  {
+    "slug": "tarrasque",
+    "name": "Tarrasque"
+  },
+  {
+    "slug": "tendriculos",
+    "name": "Tendriculos"
+  },
+  {
+    "slug": "thoqqua",
+    "name": "Thoqqua"
+  },
+  {
+    "slug": "titan",
+    "name": "Titano"
+  },
+  {
+    "slug": "juvenile-tojanida",
+    "name": "Tojanida Giovane"
+  },
+  {
+    "slug": "adult-tojanida",
+    "name": "Tojanida Adulto"
+  },
+  {
+    "slug": "elder-tojanida",
+    "name": "Tojanida Anziano"
+  },
+  {
+    "slug": "treant",
+    "name": "Treant"
+  },
+  {
+    "slug": "triton",
+    "name": "Tritone"
+  },
+  {
+    "slug": "troglodyte",
+    "name": "Troglodita"
+  },
+  {
+    "slug": "troll",
+    "name": "Troll"
+  },
+  {
+    "slug": "troll-hunter-6th-level-ranger",
+    "name": "Troll Cacciatore, Ranger di 6° Livello"
+  },
+  {
+    "slug": "unicorn",
+    "name": "Unicorno"
+  },
+  {
+    "slug": "celestial-charger-7th-level-cleric",
+    "name": "Destriero Celestiale, Chierico di 7° Livello"
+  },
+  {
+    "slug": "damage",
+    "name": "Danno"
+  },
+  {
+    "slug": "vampire-spawn",
+    "name": "Progenie Vampirica"
+  },
+  {
+    "slug": "vargouille",
+    "name": "Vargouille"
+  },
+  {
+    "slug": "wight",
+    "name": "Wight"
+  },
+  {
+    "slug": "will-o-wisp",
+    "name": "Fuoco Fatuo"
+  },
+  {
+    "slug": "winter-wolf",
+    "name": "Lupo Invernale"
+  },
+  {
+    "slug": "worg",
+    "name": "Worg"
+  },
+  {
+    "slug": "wraith",
+    "name": "Wraith"
+  },
+  {
+    "slug": "dread-wraith",
+    "name": "Wraith Terribile"
+  },
+  {
+    "slug": "wyvern",
+    "name": "Viverna"
+  },
+  {
+    "slug": "xill",
+    "name": "Xill"
+  },
+  {
+    "slug": "minor-xorn",
+    "name": "Xorn Minore"
+  },
+  {
+    "slug": "average-xorn",
+    "name": "Xorn Medio"
+  },
+  {
+    "slug": "elder-xorn",
+    "name": "Xorn Anziano"
+  },
+  {
+    "slug": "yeth-hound",
+    "name": "Segugio Yeth"
+  },
+  {
+    "slug": "yrthak",
+    "name": "Yrthak"
+  },
+  {
+    "slug": "zombie",
+    "name": "Zombi"
+  },
+  {
+    "slug": "giant-ant-worker",
+    "name": "Formica Gigante, Operaia"
+  },
+  {
+    "slug": "giant-ant-soldier",
+    "name": "Formica Gigante, Soldato"
+  },
+  {
+    "slug": "giant-ant-queen",
+    "name": "Formica Gigante, Regina"
+  },
+  {
+    "slug": "giant-bee",
+    "name": "Ape Gigante"
+  },
+  {
+    "slug": "giant-bombardier-beetle",
+    "name": "Scarabeo Bombardiere Gigante"
+  },
+  {
+    "slug": "giant-fire-beetle",
+    "name": "Scarabeo di Fuoco Gigante"
+  },
+  {
+    "slug": "giant-stag-beetle",
+    "name": "Scarabeo Cervo Gigante"
+  },
+  {
+    "slug": "giant-praying-mantis",
+    "name": "Mantide Religiosa Gigante"
+  },
+  {
+    "slug": "giant-wasp",
+    "name": "Vespa Gigante"
+  },
+  {
+    "slug": "monstrous-centipede-tiny",
+    "name": "Centopiedi Mostruoso, Minuscolo"
+  },
+  {
+    "slug": "monstrous-centipede-small",
+    "name": "Centopiedi Mostruoso, Piccolo"
+  },
+  {
+    "slug": "monstrous-centipede-medium",
+    "name": "Centopiedi Mostruoso, Medio"
+  },
+  {
+    "slug": "monstrous-scorpion-tiny",
+    "name": "Scorpione Mostruoso, Minuscolo"
+  },
+  {
+    "slug": "monstrous-scorpion-small",
+    "name": "Scorpione Mostruoso, Piccolo"
+  },
+  {
+    "slug": "monstrous-scorpion-medium",
+    "name": "Scorpione Mostruoso, Medio"
+  },
+  {
+    "slug": "monstrous-spider-tiny",
+    "name": "Ragno Mostruoso, Minuscolo"
+  },
+  {
+    "slug": "monstrous-spider-small",
+    "name": "Ragno Mostruoso, Piccolo"
+  },
+  {
+    "slug": "monstrous-spider-medium",
+    "name": "Ragno Mostruoso, Medio"
+  }
+]

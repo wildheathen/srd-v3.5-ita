@@ -1,0 +1,9 @@
+[
+  {"slug": "humans", "name": "Umani"},
+  {"slug": "dwarves", "name": "Nani"},
+  {"slug": "elves", "name": "Elfi"},
+  {"slug": "gnomes", "name": "Gnomi"},
+  {"slug": "half-elves", "name": "Mezzelfi"},
+  {"slug": "half-orcs", "name": "Mezzorchi"},
+  {"slug": "halflings", "name": "Halfling"}
+]
