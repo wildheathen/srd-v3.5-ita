@@ -583,19 +583,38 @@ async function renderPreparedList() {
     return;
   }
 
-  // Resolve names in current language
+  // Resolve names, school, level in current language
   const spells = await loadData('spells');
-  const nameMap = {};
-  if (spells) spells.forEach((s) => { nameMap[s.slug] = s.name; });
-  entries.forEach((p) => { p.name = nameMap[p.slug] || p.name; });
+  const spellMap = {};
+  if (spells) spells.forEach((s) => { spellMap[s.slug] = s; });
+  entries.forEach((p) => {
+    const sp = spellMap[p.slug];
+    if (sp) {
+      p.name = sp.name;
+      p.school = sp.school || '';
+      p.level = sp.level || '';
+    }
+  });
 
-  // Sort by name
-  entries.sort((a, b) => a.name.localeCompare(b.name));
+  // Sort by minimum spell level (ascending), then by name
+  entries.sort((a, b) => {
+    const aLvls = parseSpellLevels(a.level);
+    const bLvls = parseSpellLevels(b.level);
+    const aMin = aLvls.length ? Math.min(...aLvls.map(l => l.lvl)) : 99;
+    const bMin = bLvls.length ? Math.min(...bLvls.map(l => l.lvl)) : 99;
+    return aMin - bMin || a.name.localeCompare(b.name);
+  });
 
   resultsList.innerHTML = entries.map((p) => {
     const allUsed = p.used >= p.prepared;
-    return `<div class="result-item prepared-item ${allUsed ? 'all-used' : ''}" data-slug="${esc(p.slug)}">
-      <div class="prep-name">${esc(p.name)}</div>
+    const schoolClr = getSchoolColor(p.school);
+    const schoolStyle = schoolClr ? ` style="--school-clr: ${schoolClr}"` : '';
+    const meta = [p.school, p.level].filter(Boolean).join(' — ');
+    return `<div class="result-item prepared-item ${allUsed ? 'all-used' : ''}" data-slug="${esc(p.slug)}"${schoolStyle}>
+      <div class="prep-info">
+        <div class="prep-name">${esc(p.name)}</div>
+        ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
+      </div>
       <div class="prep-controls">
         <div class="prep-counter">
           <button class="counter-btn use-minus" data-slug="${esc(p.slug)}" title="${t('btn.undo_use')}">-</button>

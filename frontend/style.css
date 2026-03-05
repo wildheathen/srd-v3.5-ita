@@ -464,13 +464,22 @@ main {
 .prepared-item {
   cursor: default;
   padding: 0.5rem 0.8rem;
+  border-left: 3px solid var(--school-clr, transparent);
+}
+
+.prepared-item .prep-info {
+  flex: 1;
+  min-width: 0;
 }
 
 .prepared-item .prep-name {
   font-weight: 500;
   cursor: pointer;
-  flex: 1;
-  min-width: 0;
+}
+
+.prepared-item .meta {
+  font-size: 0.75rem;
+  color: var(--school-clr, var(--text-dim));
 }
 
 .prepared-item .prep-name:hover {
