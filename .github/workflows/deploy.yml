@@ -23,13 +23,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Build site
+        run: |
+          mkdir -p _site/data _site/frontend
+          cp index.html _site/
+          cp frontend/style.css frontend/app.js _site/frontend/
+          cp data/spells.json data/feats.json data/races.json data/equipment.json data/classes.json _site/data/
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment
