@@ -29,6 +29,24 @@ body {
 header {
   text-align: center;
   padding: 1.5rem 1rem 0.5rem;
+  position: relative;
+}
+
+#lang-switcher {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--bg-card);
+  color: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+#lang-switcher:hover {
+  border-color: var(--accent);
 }
 
 header h1 {

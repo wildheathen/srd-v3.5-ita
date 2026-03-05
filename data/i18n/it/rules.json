@@ -1,0 +1,21 @@
+[
+  {"slug": "regole-base-e-punteggi-abilita", "name": "Regole Base e Punteggi Abilità"},
+  {"slug": "allineamento-e-descrizione", "name": "Allineamento e Descrizione"},
+  {"slug": "trasporto-movimento-ed-esplorazione", "name": "Trasporto, Movimento ed Esplorazione"},
+  {"slug": "combattimento-i-basi", "name": "Combattimento I — Basi"},
+  {"slug": "combattimento-ii-movimento-e-azioni-speciali", "name": "Combattimento II — Movimento e Azioni Speciali"},
+  {"slug": "abilita-i", "name": "Abilità I"},
+  {"slug": "abilita-ii", "name": "Abilità II"},
+  {"slug": "abilita-speciali-e-condizioni", "name": "Abilità Speciali e Condizioni"},
+  {"slug": "materiali-speciali", "name": "Materiali Speciali"},
+  {"slug": "piani", "name": "Piani"},
+  {"slug": "trappole", "name": "Trappole"},
+  {"slug": "tesori", "name": "Tesori"},
+  {"slug": "natura-clima-e-ambiente", "name": "Natura, Clima e Ambiente"},
+  {"slug": "oggetti-magici-basi-e-creazione", "name": "Oggetti Magici — Basi e Creazione"},
+  {"slug": "oggetti-magici-armature-e-armi", "name": "Oggetti Magici — Armature e Armi"},
+  {"slug": "oggetti-magici-pozioni-anelli-e-verghe", "name": "Oggetti Magici — Pozioni, Anelli e Verghe"},
+  {"slug": "oggetti-magici-pergamene-bastoni-e-bacchette", "name": "Oggetti Magici — Pergamene, Bastoni e Bacchette"},
+  {"slug": "oggetti-magici-oggetti-meravigliosi", "name": "Oggetti Magici — Oggetti Meravigliosi"},
+  {"slug": "oggetti-magici-intelligenti-maledetti-e-artefatti", "name": "Oggetti Magici — Intelligenti, Maledetti e Artefatti"}
+]

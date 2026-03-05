@@ -1,4 +1,4 @@
-/* Crystal Ball — Static JSON frontend */
+/* Crystal Ball — Static JSON frontend (i18n-aware) */
 
 const DATA_BASE = 'data';
 
@@ -51,30 +51,48 @@ function updatePreparedCount(slug, field, delta) {
   savePrepared(p);
 }
 
-// ── Data loading (static JSON) ───────────────────────────────────────────
+// ── Data loading (static JSON + i18n overlay) ────────────────────────────
 
 async function loadData(category) {
   if (category === 'prepared') return null; // handled separately
-  if (dataCache[category]) return dataCache[category];
+  const lang = getCurrentLang();
+  const cacheKey = `${category}_${lang}`;
 
-  resultsList.innerHTML = '<div class="loading">Caricamento...</div>';
+  if (dataCache[cacheKey]) return dataCache[cacheKey];
+
+  resultsList.innerHTML = `<div class="loading">${t('msg.loading')}</div>`;
 
   try {
-    const res = await fetch(`${DATA_BASE}/${category}.json`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    let data = await res.json();
-
-    if (category === 'equipment') {
-      data = data.map((item) => ({ ...item, category: item._category || '' }));
+    // Load base EN data (always cached under raw key)
+    if (!dataCache[category + '_raw']) {
+      const res = await fetch(`${DATA_BASE}/${category}.json`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      let data = await res.json();
+      if (category === 'equipment') {
+        data = data.map((item) => ({ ...item, category: item._category || '' }));
+      }
+      dataCache[category + '_raw'] = data;
     }
 
-    dataCache[category] = data;
+    let data = dataCache[category + '_raw'];
+
+    // Apply language overlay if not English
+    const overlay = await loadDataOverlay(category);
+    if (overlay) {
+      data = applyOverlay(data, overlay);
+    }
+
+    dataCache[cacheKey] = data;
     return data;
   } catch (err) {
     console.error(`Failed to load ${category}:`, err);
-    resultsList.innerHTML = `<div class="no-results">Errore nel caricamento di ${category}.json</div>`;
+    resultsList.innerHTML = `<div class="no-results">${t('msg.load_error', { category })}</div>`;
     return null;
   }
+}
+
+function clearAllDataCache() {
+  dataCache = {};
 }
 
 // ── Tab switching ────────────────────────────────────────────────────────
@@ -99,6 +117,42 @@ searchInput.addEventListener('input', () => {
   debounceTimer = setTimeout(renderResults, 150);
 });
 
+// ── Language switcher ────────────────────────────────────────────────────
+
+function initLangSwitcher() {
+  const sel = document.getElementById('lang-switcher');
+  if (!sel) return;
+  sel.value = getCurrentLang();
+  sel.addEventListener('change', async () => {
+    setLang(sel.value);
+    clearAllDataCache();
+    await loadI18n(sel.value);
+    updateTabLabels();
+    searchInput.placeholder = t('search.placeholder');
+    buildFilters();
+    renderResults();
+    // Re-render detail if visible
+    detailPanel.classList.add('hidden');
+  });
+}
+
+function updateTabLabels() {
+  const tabMap = {
+    spells: 'tab.spells',
+    prepared: 'tab.prepared',
+    feats: 'tab.feats',
+    classes: 'tab.classes',
+    races: 'tab.races',
+    equipment: 'tab.equipment',
+    monsters: 'tab.monsters',
+    rules: 'tab.rules',
+  };
+  document.querySelectorAll('.tab').forEach((btn) => {
+    const key = tabMap[btn.dataset.tab];
+    if (key) btn.textContent = t(key);
+  });
+}
+
 // ── Spell level parsing helper ───────────────────────────────────────────
 
 function parseSpellLevels(levelStr) {
@@ -118,15 +172,15 @@ function buildFilters() {
 
   if (currentTab === 'spells') {
     filtersDiv.innerHTML = `
-      <select id="filter-school"><option value="">Tutte le scuole</option></select>
-      <select id="filter-class"><option value="">Tutte le classi</option></select>
+      <select id="filter-school"><option value="">${t('filter.all_schools')}</option></select>
+      <select id="filter-class"><option value="">${t('filter.all_classes')}</option></select>
       <div class="level-checkboxes" id="filter-levels">
-        <span class="level-label">Livello:</span>
+        <span class="level-label">${t('filter.level_label')}</span>
         ${[0,1,2,3,4,5,6,7,8,9].map((n) =>
           `<label class="level-check"><input type="checkbox" value="${n}" checked> ${n}</label>`
         ).join('')}
-        <button id="levels-none" class="level-toggle" title="Deseleziona tutti">Nessuno</button>
-        <button id="levels-all" class="level-toggle" title="Seleziona tutti">Tutti</button>
+        <button id="levels-none" class="level-toggle" title="${t('filter.levels_none')}">${t('filter.levels_none')}</button>
+        <button id="levels-all" class="level-toggle" title="${t('filter.levels_all')}">${t('filter.levels_all')}</button>
       </div>
       <span id="result-count"></span>
     `;
@@ -146,22 +200,22 @@ function buildFilters() {
     });
   } else if (currentTab === 'feats') {
     filtersDiv.innerHTML = `
-      <select id="filter-type"><option value="">Tutti i tipi</option></select>
+      <select id="filter-type"><option value="">${t('filter.all_types')}</option></select>
       <span id="result-count"></span>
     `;
     populateFeatTypeFilter();
     filtersDiv.querySelector('select').addEventListener('change', renderResults);
   } else if (currentTab === 'equipment') {
     filtersDiv.innerHTML = `
-      <select id="filter-category"><option value="">Tutte le categorie</option></select>
+      <select id="filter-category"><option value="">${t('filter.all_categories')}</option></select>
       <span id="result-count"></span>
     `;
     populateEquipCategoryFilter();
     filtersDiv.querySelector('select').addEventListener('change', renderResults);
   } else if (currentTab === 'monsters') {
     filtersDiv.innerHTML = `
-      <select id="filter-cr"><option value="">Tutti i CR</option></select>
-      <select id="filter-mtype"><option value="">Tutti i tipi</option></select>
+      <select id="filter-cr"><option value="">${t('filter.all_cr')}</option></select>
+      <select id="filter-mtype"><option value="">${t('filter.all_types')}</option></select>
       <span id="result-count"></span>
     `;
     populateMonsterFilters();
@@ -170,11 +224,11 @@ function buildFilters() {
     );
   } else if (currentTab === 'prepared') {
     filtersDiv.innerHTML = `
-      <button id="clear-prepared" class="level-toggle" style="color: #e57373;">Cancella tutti</button>
+      <button id="clear-prepared" class="level-toggle" style="color: #e57373;">${t('btn.clear_prepared')}</button>
       <span id="result-count"></span>
     `;
     filtersDiv.querySelector('#clear-prepared').addEventListener('click', () => {
-      if (confirm('Cancellare tutti gli incantesimi preparati?')) {
+      if (confirm(t('msg.confirm_clear'))) {
         savePrepared({});
         renderResults();
       }
@@ -222,7 +276,7 @@ async function populateEquipCategoryFilter() {
   const cats = [...new Set(data.map((e) => e._category || e.category).filter(Boolean))].sort();
   const sel = document.getElementById('filter-category');
   cats.forEach((c) => {
-    const label = c === 'weapon' ? 'Armi' : c === 'armor' ? 'Armature' : c === 'goods' ? 'Beni e servizi' : c;
+    const label = c === 'weapon' ? t('cat.weapons') : c === 'armor' ? t('cat.armors') : c === 'goods' ? t('cat.goods') : c;
     sel.innerHTML += `<option value="${esc(c)}">${esc(label)}</option>`;
   });
 }
@@ -253,8 +307,8 @@ async function populateMonsterFilters() {
     }
   });
   const typeSel = document.getElementById('filter-mtype');
-  [...types].sort().forEach((t) => {
-    typeSel.innerHTML += `<option value="${esc(t)}">${esc(t)}</option>`;
+  [...types].sort().forEach((tp) => {
+    typeSel.innerHTML += `<option value="${esc(tp)}">${esc(tp)}</option>`;
   });
 }
 
@@ -329,10 +383,10 @@ async function renderResults() {
 
   // Update count
   const countEl = document.getElementById('result-count');
-  if (countEl) countEl.textContent = `${filtered.length} risultati`;
+  if (countEl) countEl.textContent = t('msg.results_count', { count: filtered.length });
 
   if (filtered.length === 0) {
-    resultsList.innerHTML = '<div class="no-results">Nessun risultato</div>';
+    resultsList.innerHTML = `<div class="no-results">${t('msg.no_results')}</div>`;
     return;
   }
 
@@ -346,9 +400,9 @@ async function renderResults() {
       if (p) {
         const allUsed = p.used >= p.prepared;
         prepHtml = `<span class="prep-badge ${allUsed ? 'exhausted' : ''}">${p.used}/${p.prepared}</span>`
-          + `<button class="prep-btn prep-btn-active" data-idx="${idx}" title="Aggiungi preparazione">+</button>`;
+          + `<button class="prep-btn prep-btn-active" data-idx="${idx}" title="${t('btn.add_prep')}">+</button>`;
       } else {
-        prepHtml = `<button class="prep-btn" data-idx="${idx}" title="Prepara incantesimo">+</button>`;
+        prepHtml = `<button class="prep-btn" data-idx="${idx}" title="${t('btn.prepare_spell')}">+</button>`;
       }
     }
     const isPrepared = currentTab === 'spells' && prepared[item.slug];
@@ -395,10 +449,10 @@ async function renderPreparedList() {
   const entries = Object.values(prepared);
 
   const countEl = document.getElementById('result-count');
-  if (countEl) countEl.textContent = `${entries.length} incantesimi`;
+  if (countEl) countEl.textContent = t('msg.prepared_count', { count: entries.length });
 
   if (entries.length === 0) {
-    resultsList.innerHTML = '<div class="no-results">Nessun incantesimo preparato.<br>Vai su Incantesimi e premi + per prepararne.</div>';
+    resultsList.innerHTML = `<div class="no-results">${t('msg.no_prepared')}</div>`;
     detailPanel.classList.add('hidden');
     return;
   }
@@ -412,16 +466,16 @@ async function renderPreparedList() {
       <div class="prep-name">${esc(p.name)}</div>
       <div class="prep-controls">
         <div class="prep-counter">
-          <button class="counter-btn use-minus" data-slug="${esc(p.slug)}" title="Annulla uso">-</button>
+          <button class="counter-btn use-minus" data-slug="${esc(p.slug)}" title="${t('btn.undo_use')}">-</button>
           <span class="prep-usage ${allUsed ? 'exhausted' : ''}">${p.used}/${p.prepared}</span>
-          <button class="counter-btn use-plus" data-slug="${esc(p.slug)}" title="Usa">+</button>
+          <button class="counter-btn use-plus" data-slug="${esc(p.slug)}" title="${t('btn.use')}">+</button>
         </div>
         <div class="prep-adjust">
-          <button class="counter-btn prep-minus" data-slug="${esc(p.slug)}" title="Meno preparati">-</button>
+          <button class="counter-btn prep-minus" data-slug="${esc(p.slug)}" title="${t('btn.less_prepared')}">-</button>
           <span class="prep-label">prep</span>
-          <button class="counter-btn prep-plus" data-slug="${esc(p.slug)}" title="Piu preparati">+</button>
+          <button class="counter-btn prep-plus" data-slug="${esc(p.slug)}" title="${t('btn.more_prepared')}">+</button>
         </div>
-        <button class="remove-btn" data-slug="${esc(p.slug)}" title="Rimuovi">&times;</button>
+        <button class="remove-btn" data-slug="${esc(p.slug)}" title="${t('btn.remove')}">&times;</button>
       </div>
     </div>`;
   }).join('');
@@ -486,12 +540,12 @@ function getMeta(item) {
     case 'feats':
       return item.type || '';
     case 'classes':
-      return item.hit_die ? `Hit Die: ${item.hit_die}` : '';
+      return item.hit_die ? t('meta.hit_die', { value: item.hit_die }) : '';
     case 'races':
       return '';
     case 'equipment': {
       const cat = item._category || item.category || '';
-      return cat === 'weapon' ? 'Arma' : cat === 'armor' ? 'Armatura' : cat === 'goods' ? 'Beni' : cat;
+      return cat === 'weapon' ? t('cat.weapon') : cat === 'armor' ? t('cat.armor') : cat === 'goods' ? t('cat.goods_short') : cat;
     }
     case 'monsters':
       return [item.type, item.challenge_rating ? `CR ${item.challenge_rating}` : ''].filter(Boolean).join(' — ');
@@ -528,34 +582,34 @@ function renderDetail(item, tab) {
 
 function renderSpell(s) {
   const fields = [
-    ['Scuola', [s.school, s.subschool ? `(${s.subschool})` : '', s.descriptor ? `[${s.descriptor}]` : ''].filter(Boolean).join(' ')],
-    ['Livello', s.level],
-    ['Componenti', s.components],
-    ['Tempo di lancio', s.casting_time],
-    ['Raggio', s.range],
-    ['Bersaglio / Area / Effetto', s.target_area_effect],
-    ['Durata', s.duration],
-    ['Tiro salvezza', s.saving_throw],
-    ['Resistenza incantesimi', s.spell_resistance],
+    [t('detail.spell.school'), [s.school, s.subschool ? `(${s.subschool})` : '', s.descriptor ? `[${s.descriptor}]` : ''].filter(Boolean).join(' ')],
+    [t('detail.spell.level'), s.level],
+    [t('detail.spell.components'), s.components],
+    [t('detail.spell.casting_time'), s.casting_time],
+    [t('detail.spell.range'), s.range],
+    [t('detail.spell.target'), s.target_area_effect],
+    [t('detail.spell.duration'), s.duration],
+    [t('detail.spell.saving_throw'), s.saving_throw],
+    [t('detail.spell.spell_resistance'), s.spell_resistance],
   ];
   return `<h2>${esc(s.name)}</h2>` + renderFields(fields) + renderDesc(s.desc_html);
 }
 
 function renderFeat(f) {
   const fields = [
-    ['Tipo', f.type],
-    ['Prerequisiti', f.prerequisites],
-    ['Beneficio', f.benefit],
-    ['Normale', f.normal],
-    ['Speciale', f.special],
+    [t('detail.feat.type'), f.type],
+    [t('detail.feat.prerequisites'), f.prerequisites],
+    [t('detail.feat.benefit'), f.benefit],
+    [t('detail.feat.normal'), f.normal],
+    [t('detail.feat.special'), f.special],
   ];
   return `<h2>${esc(f.name)}</h2>` + renderFields(fields) + renderDesc(f.desc_html);
 }
 
 function renderClass(c) {
   const fields = [
-    ['Dado vita', c.hit_die],
-    ['Allineamento', c.alignment],
+    [t('detail.class.hit_die'), c.hit_die],
+    [t('detail.class.alignment'), c.alignment],
   ];
   let html = `<h2>${esc(c.name)}</h2>` + renderFields(fields);
   if (c.table_html) {
@@ -569,7 +623,7 @@ function renderRace(r) {
   let html = `<h2>${esc(r.name)}</h2>`;
   if (r.traits && r.traits.length) {
     html += '<div class="desc-html"><ul>';
-    html += r.traits.map((t) => `<li>${t}</li>`).join('');
+    html += r.traits.map((tr) => `<li>${tr}</li>`).join('');
     html += '</ul></div>';
   }
   html += renderDesc(r.desc_html);
@@ -579,8 +633,8 @@ function renderRace(r) {
 function renderEquipment(e) {
   let html = `<h2>${esc(e.name)}</h2>`;
   const cat = e._category || e.category || '';
-  const catLabel = cat === 'weapon' ? 'Arma' : cat === 'armor' ? 'Armatura' : cat === 'goods' ? 'Beni e servizi' : cat;
-  html += `<div class="field"><span class="field-label">Categoria</span><div class="field-value">${esc(catLabel)}</div></div>`;
+  const catLabel = cat === 'weapon' ? t('cat.weapon') : cat === 'armor' ? t('cat.armor') : cat === 'goods' ? t('cat.goods') : cat;
+  html += `<div class="field"><span class="field-label">${t('detail.equip.category')}</span><div class="field-value">${esc(catLabel)}</div></div>`;
 
   const skip = new Set(['name', 'slug', '_category', 'category', 'desc_html']);
   const entries = Object.entries(e).filter(([k]) => !skip.has(k));
@@ -594,28 +648,28 @@ function renderEquipment(e) {
 
 function renderMonster(m) {
   const fields = [
-    ['Tipo', m.type],
-    ['Dadi vita', m.hit_dice],
-    ['Iniziativa', m.initiative],
-    ['Velocita', m.speed],
-    ['Classe armatura', m.armor_class],
-    ['Attacco base / Lotta', m.base_attack_grapple],
-    ['Attacco', m.attack],
-    ['Attacco completo', m.full_attack],
-    ['Spazio / Portata', m.space_reach],
-    ['Attacchi speciali', m.special_attacks],
-    ['Qualita speciali', m.special_qualities],
-    ['Tiri salvezza', m.saves],
-    ['Caratteristiche', m.abilities],
-    ['Abilita', m.skills],
-    ['Talenti', m.feats],
-    ['Ambiente', m.environment],
-    ['Organizzazione', m.organization],
-    ['Grado sfida', m.challenge_rating],
-    ['Tesoro', m.treasure],
-    ['Allineamento', m.alignment],
-    ['Avanzamento', m.advancement],
-    ['Modificatore livello', m.level_adjustment],
+    [t('detail.monster.type'), m.type],
+    [t('detail.monster.hit_dice'), m.hit_dice],
+    [t('detail.monster.initiative'), m.initiative],
+    [t('detail.monster.speed'), m.speed],
+    [t('detail.monster.armor_class'), m.armor_class],
+    [t('detail.monster.base_attack'), m.base_attack_grapple],
+    [t('detail.monster.attack'), m.attack],
+    [t('detail.monster.full_attack'), m.full_attack],
+    [t('detail.monster.space_reach'), m.space_reach],
+    [t('detail.monster.special_attacks'), m.special_attacks],
+    [t('detail.monster.special_qualities'), m.special_qualities],
+    [t('detail.monster.saves'), m.saves],
+    [t('detail.monster.abilities'), m.abilities],
+    [t('detail.monster.skills'), m.skills],
+    [t('detail.monster.feats'), m.feats],
+    [t('detail.monster.environment'), m.environment],
+    [t('detail.monster.organization'), m.organization],
+    [t('detail.monster.cr'), m.challenge_rating],
+    [t('detail.monster.treasure'), m.treasure],
+    [t('detail.monster.alignment'), m.alignment],
+    [t('detail.monster.advancement'), m.advancement],
+    [t('detail.monster.level_adjustment'), m.level_adjustment],
   ];
   return `<h2>${esc(m.name)}</h2>` + renderFields(fields) + renderDesc(m.desc_html);
 }
@@ -649,5 +703,13 @@ function esc(str) {
 
 // ── Init ─────────────────────────────────────────────────────────────────
 
-buildFilters();
-renderResults();
+async function initApp() {
+  await loadI18n();
+  updateTabLabels();
+  searchInput.placeholder = t('search.placeholder');
+  initLangSwitcher();
+  buildFilters();
+  renderResults();
+}
+
+initApp();

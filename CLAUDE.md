@@ -16,7 +16,9 @@ App di consultazione del System Reference Document D&D 3.5, basata sul fork di [
 /data/              → JSON generati dal parser (spells, feats, races, equipment, classes, monsters, rules)
 /scripts/           → parse_srd.py, import_to_db.py, import_translations.py
 /backend/           → FastAPI app (opzionale, non necessario per GitHub Pages)
-/frontend/          → style.css, app.js (caricati da index.html nella root)
+/frontend/          → style.css, app.js, i18n.js (caricati da index.html nella root)
+/frontend/i18n/     → UI string files per lingua (it.json, en.json, ...)
+/data/i18n/{lang}/  → Data overlay files per lingua (solo campi tradotti, keyed by slug)
 index.html          → Entry point Crystal Ball (root, servito da GitHub Pages)
 dnd35.db            → SQLite database (gitignored, generato dagli script)
 ```
@@ -137,6 +139,44 @@ GitHub Actions workflow (`.github/workflows/deploy.yml`):
 - Copia `index.html`, `frontend/`, `data/*.json` in `_site/`
 - Deploy su GitHub Pages
 
+## Sistema i18n (multi-lingua)
+
+L'app supporta il cambio lingua in tempo reale tramite un selettore nell'header.
+
+### Architettura
+
+Due livelli di traduzione:
+
+1. **UI strings** (`frontend/i18n/{lang}.json`): labels, bottoni, filtri, messaggi (~80 chiavi)
+2. **Data overlay** (`data/i18n/{lang}/{category}.json`): traduzioni dei contenuti SRD (nomi, scuole, tipi)
+
+### Come funziona
+
+- Lingua di default: italiano (`it`)
+- Preferenza salvata in `localStorage` (chiave `crystalball_lang`)
+- I dati base in `/data/` sono sempre in inglese (EN)
+- Per ogni lingua diversa da EN, il frontend carica un overlay da `data/i18n/{lang}/` e fa il merge per slug
+- Se un campo non ha traduzione nell'overlay, resta in inglese (fallback automatico)
+- La funzione `t(key)` traduce le stringhe UI; `loadDataOverlay()` e `applyOverlay()` gestiscono i dati
+
+### Aggiungere una nuova lingua
+
+1. Creare `frontend/i18n/{lang}.json` copiando `en.json` e traducendo i valori
+2. Creare `data/i18n/{lang}/` con file overlay per categoria (formato: array di oggetti con `slug` + campi tradotti)
+3. Aggiungere il codice lingua a `SUPPORTED_LANGS` in `frontend/i18n.js`
+4. Aggiungere `<option value="{lang}">` nel selettore in `index.html`
+
+### Formato overlay dati
+
+```json
+[
+  {"slug": "fireball", "name": "Palla di Fuoco", "school": "Invocazione"},
+  {"slug": "magic-missile", "name": "Dardo Incantato"}
+]
+```
+
+Solo i campi presenti vengono sovrascritti; il resto resta in inglese.
+
 ## Task correnti
 
 - [x] Setup struttura cartelle
@@ -150,4 +190,6 @@ GitHub Actions workflow (`.github/workflows/deploy.yml`):
 - [x] Sistema preparazione incantesimi con contatori uso/preparati
 - [x] Sezione mostri (289 entries con stat block)
 - [x] Sezione regole (19 pagine descrittive)
-- [ ] Aggiungere traduzioni IT
+- [x] Sistema i18n multi-lingua (UI strings + data overlay)
+- [x] Traduzioni IT termini chiave (nomi spell, mostri, talenti, classi, razze)
+- [ ] Traduzioni IT descrizioni complete (desc_html, benefit, ecc.)
