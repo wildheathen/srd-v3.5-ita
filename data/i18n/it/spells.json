@@ -1,7 +1,7 @@
 [
   {
     "slug": "acid-arrow",
-    "name": "Freccia Acida",
+    "name": "Freccia Acida di Melf",
     "school": "Evocazione",
     "subschool": "Creazione",
     "descriptor": "Acido",
@@ -195,7 +195,7 @@
   },
   {
     "slug": "animate-dead",
-    "name": "Animare i Morti",
+    "name": "Animare Morti",
     "school": "Necromanzia",
     "descriptor": "Male",
     "spell_resistance": "No",
@@ -339,7 +339,7 @@
   },
   {
     "slug": "arcane-mark",
-    "name": "Marchio Arcano",
+    "name": "Sigillo Arcano",
     "school": "Universale",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -537,7 +537,7 @@
   },
   {
     "slug": "black-tentacles",
-    "name": "Tentacoli Neri",
+    "name": "Tentacoli Neri di Evard",
     "school": "Evocazione",
     "subschool": "Creazione",
     "spell_resistance": "No",
@@ -598,7 +598,7 @@
   },
   {
     "slug": "bless-water",
-    "name": "Benedire Acqua",
+    "name": "Benedire l'Acqua",
     "school": "Trasmutazione",
     "descriptor": "Bene",
     "spell_resistance": "Sì (oggetto)",
@@ -613,7 +613,7 @@
   },
   {
     "slug": "bless-weapon",
-    "name": "Benedire Arma",
+    "name": "Benedire un'Arma",
     "school": "Trasmutazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -748,7 +748,7 @@
   },
   {
     "slug": "call-lightning-storm",
-    "name": "Invocare la Tempesta di Fulmini",
+    "name": "Invocare Tempesta di Fulmini",
     "school": "Invocazione",
     "descriptor": "Elettricità",
     "range": "Lungo (120 m + 12 m/livello)",
@@ -871,7 +871,7 @@
   },
   {
     "slug": "charm-animal",
-    "name": "Ammaliare Animali",
+    "name": "Charme su Animali",
     "school": "Ammaliamento",
     "subschool": "Charme",
     "descriptor": "Influenza Mentale",
@@ -881,7 +881,7 @@
   },
   {
     "slug": "charm-monster",
-    "name": "Ammaliare Mostri",
+    "name": "Charme sui Mostri",
     "school": "Ammaliamento",
     "subschool": "Charme",
     "descriptor": "Influenza Mentale",
@@ -892,7 +892,7 @@
   },
   {
     "slug": "charm-monster-mass",
-    "name": "Ammaliare Mostri di Massa",
+    "name": "Charme sui Mostri di Massa",
     "school": "Ammaliamento",
     "subschool": "Charme",
     "descriptor": "Influenza Mentale",
@@ -904,7 +904,7 @@
   },
   {
     "slug": "charm-person",
-    "name": "Ammaliare Persone",
+    "name": "Charme su Persone",
     "school": "Ammaliamento",
     "subschool": "Charme",
     "descriptor": "Influenza Mentale",
@@ -979,7 +979,7 @@
   },
   {
     "slug": "clenched-fist",
-    "name": "Pugno Serrato",
+    "name": "Pugno Serrato di Bigby",
     "school": "Invocazione",
     "descriptor": "Forza",
     "components": "V, S, F/FD",
@@ -988,7 +988,7 @@
   },
   {
     "slug": "cloak-of-chaos",
-    "name": "Manto del Caos",
+    "name": "Mantello del Caos",
     "school": "Abiurazione",
     "descriptor": "Caotico",
     "spell_resistance": "Sì (innocuo)",
@@ -1170,7 +1170,7 @@
   },
   {
     "slug": "confusion-lesser",
-    "name": "Confusione Minore",
+    "name": "Confusione Inferiore",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -1252,7 +1252,7 @@
   },
   {
     "slug": "control-plants",
-    "name": "Controllare Piante",
+    "name": "Controllare Vegetali",
     "school": "Trasmutazione",
     "spell_resistance": "No",
     "saving_throw": "Volontà nega",
@@ -1378,7 +1378,7 @@
   },
   {
     "slug": "creeping-doom",
-    "name": "Rovina Strisciante",
+    "name": "Piaga Strisciante",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "spell_resistance": "No",
@@ -1409,7 +1409,7 @@
   },
   {
     "slug": "crushing-hand",
-    "name": "Mano Stringente",
+    "name": "Mano Stritolatrice di Bigby",
     "school": "Invocazione",
     "descriptor": "Forza",
     "components": "V, S, M, F/FD",
@@ -1504,7 +1504,7 @@
   },
   {
     "slug": "curse-water",
-    "name": "Maledire Acqua",
+    "name": "Maledire l'Acqua",
     "school": "Necromanzia",
     "descriptor": "Male",
     "spell_resistance": "Sì (oggetto)",
@@ -1605,7 +1605,7 @@
   },
   {
     "slug": "death-knell",
-    "name": "Campana a Morto",
+    "name": "Rintocco di Morte",
     "school": "Necromanzia",
     "descriptor": "Morte, Male",
     "spell_resistance": "Sì",
@@ -1683,7 +1683,7 @@
   },
   {
     "slug": "delayed-blast-fireball",
-    "name": "Palla di Fuoco a Scoppio Ritardato",
+    "name": "Palla di Fuoco Ritardata",
     "school": "Invocazione",
     "descriptor": "Fuoco",
     "duration": "5 rounds o meno; vedi testo",
@@ -1733,7 +1733,7 @@
   },
   {
     "slug": "detect-animals-or-plants",
-    "name": "Individuare Animali o Piante",
+    "name": "Individuazione di Animali o Vegetali",
     "school": "Divinazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -1747,14 +1747,14 @@
   },
   {
     "slug": "detect-chaos",
-    "name": "Individuare il Caos",
+    "name": "Individuazione del Caos",
     "school": "Divinazione",
     "level": "Chr 1",
     "desc_html": "<p>Questo incantesimo funziona come <i>individuazione del male</i>, eccetto che individua le aure di creature caotiche, chierici di divinità caotiche, incantesimi caotici e oggetti magici caotici, e sei vulnerabile a un'aura caotica travolgente se sei legale.</p>"
   },
   {
     "slug": "detect-evil",
-    "name": "Individuare il Male",
+    "name": "Individuazione del Male",
     "school": "Divinazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -1768,21 +1768,21 @@
   },
   {
     "slug": "detect-good",
-    "name": "Individuare il Bene",
+    "name": "Individuazione del Bene",
     "school": "Divinazione",
     "level": "Chr 1",
     "desc_html": "<p>Questo incantesimo funziona come <i>individuazione del male</i>, eccetto che individua le aure di creature buone, chierici o paladini di divinità buone, incantesimi buoni e oggetti magici buoni, e sei vulnerabile a un'aura buona travolgente se sei malvagio.</p>"
   },
   {
     "slug": "detect-law",
-    "name": "Individuare la Legge",
+    "name": "Individuazione della Legge",
     "school": "Divinazione",
     "level": "Chr 1",
     "desc_html": "<p>Questo incantesimo funziona come <i>individuazione del male</i>, eccetto che individua le aure di creature legali, chierici di divinità legali, incantesimi legali e oggetti magici legali, e sei vulnerabile a un'aura legale travolgente se sei caotico.</p>"
   },
   {
     "slug": "detect-magic",
-    "name": "Individuare il Magico",
+    "name": "Individuazione del Magico",
     "school": "Divinazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -1796,7 +1796,7 @@
   },
   {
     "slug": "detect-poison",
-    "name": "Individuare Veleni",
+    "name": "Individuazione del Veleno",
     "school": "Divinazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -1810,7 +1810,7 @@
   },
   {
     "slug": "detect-scrying",
-    "name": "Individuare Scrutamento",
+    "name": "Individuazione dello Scrutamento",
     "school": "Divinazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -1824,7 +1824,7 @@
   },
   {
     "slug": "detect-secret-doors",
-    "name": "Individuare Porte Segrete",
+    "name": "Individuazione delle Porte Segrete",
     "school": "Divinazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -1838,7 +1838,7 @@
   },
   {
     "slug": "detect-snares-and-pits",
-    "name": "Individuare Trappole e Fosse",
+    "name": "Individuazione di Calappi",
     "school": "Divinazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -1852,7 +1852,7 @@
   },
   {
     "slug": "detect-thoughts",
-    "name": "Individuare Pensieri",
+    "name": "Individuazione dei Pensieri",
     "school": "Divinazione",
     "descriptor": "Influenza Mentale",
     "spell_resistance": "No",
@@ -1867,7 +1867,7 @@
   },
   {
     "slug": "detect-undead",
-    "name": "Individuare Non Morti",
+    "name": "Individuazione dei Non Morti",
     "school": "Divinazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -1925,7 +1925,7 @@
   },
   {
     "slug": "dimensional-lock",
-    "name": "Blocco Dimensionale",
+    "name": "Ancora Dimensionale",
     "school": "Abiurazione",
     "spell_resistance": "Sì",
     "saving_throw": "Nessuno",
@@ -1981,7 +1981,7 @@
   },
   {
     "slug": "disguise-self",
-    "name": "Camuffare Se Stesso",
+    "name": "Camuffare Se Stessa",
     "school": "Illusione",
     "subschool": "Mascheramento",
     "casting_time": "1 azione standard",
@@ -2022,7 +2022,7 @@
   },
   {
     "slug": "dispel-chaos",
-    "name": "Dissolvi Caos",
+    "name": "Dissolvi il Caos",
     "school": "Abiurazione",
     "descriptor": "Legale",
     "level": "Chr 5, Legge 5, Pal 4",
@@ -2030,7 +2030,7 @@
   },
   {
     "slug": "dispel-evil",
-    "name": "Dissolvi Male",
+    "name": "Dissolvi il Male",
     "school": "Abiurazione",
     "descriptor": "Bene",
     "spell_resistance": "Vedi testo",
@@ -2045,7 +2045,7 @@
   },
   {
     "slug": "dispel-good",
-    "name": "Dissolvi Bene",
+    "name": "Dissolvi il Bene",
     "school": "Abiurazione",
     "descriptor": "Male",
     "level": "Chr 5, Male 5",
@@ -2053,7 +2053,7 @@
   },
   {
     "slug": "dispel-law",
-    "name": "Dissolvi Legge",
+    "name": "Dissolvi la Legge",
     "school": "Abiurazione",
     "descriptor": "Caotico",
     "level": "Caos 5, Chr 5",
@@ -2496,7 +2496,7 @@
   },
   {
     "slug": "false-life",
-    "name": "Vita Falsa",
+    "name": "Vita Falsata",
     "school": "Necromanzia",
     "casting_time": "1 azione standard",
     "range": "Personale",
@@ -2698,7 +2698,7 @@
   },
   {
     "slug": "flame-blade",
-    "name": "Lama di Fuoco",
+    "name": "Lama Infuocata",
     "school": "Invocazione",
     "descriptor": "Fuoco",
     "spell_resistance": "Sì",
@@ -2772,7 +2772,7 @@
   },
   {
     "slug": "floating-disk",
-    "name": "Disco Fluttuante",
+    "name": "Disco Fluttuante di Tenser",
     "school": "Invocazione",
     "descriptor": "Forza",
     "spell_resistance": "No",
@@ -2845,7 +2845,7 @@
   },
   {
     "slug": "forceful-hand",
-    "name": "Mano Possente",
+    "name": "Mano Possente di Bigby",
     "school": "Invocazione",
     "descriptor": "Forza",
     "level": "Str/Mag 6",
@@ -2919,7 +2919,7 @@
   },
   {
     "slug": "freezing-sphere",
-    "name": "Sfera Gelata",
+    "name": "Sfera Gelida di Otiluke",
     "school": "Invocazione",
     "descriptor": "Freddo",
     "spell_resistance": "Sì",
@@ -3082,7 +3082,7 @@
   },
   {
     "slug": "globe-of-invulnerability-lesser",
-    "name": "Globo di Invulnerabilità Minore",
+    "name": "Globo di Invulnerabilità Inferiore",
     "school": "Abiurazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -3117,7 +3117,7 @@
   },
   {
     "slug": "good-hope",
-    "name": "Buona Speranza",
+    "name": "Buone Speranze",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -3147,7 +3147,7 @@
   },
   {
     "slug": "grasping-hand",
-    "name": "Mano Afferrante",
+    "name": "Mano Stringente di Bigby",
     "school": "Invocazione",
     "descriptor": "Forza",
     "components": "V, S, F/FD",
@@ -3220,7 +3220,7 @@
   },
   {
     "slug": "hallow",
-    "name": "Consacrare Luogo",
+    "name": "Consacrare",
     "school": "Invocazione",
     "descriptor": "Bene",
     "spell_resistance": "Vedi testo",
@@ -3402,7 +3402,7 @@
   },
   {
     "slug": "hide-from-animals",
-    "name": "Nascondersi dagli Animali",
+    "name": "Nascondersi agli Animali",
     "school": "Abiurazione",
     "spell_resistance": "Sì",
     "saving_throw": "Volontà nega (innocuo)",
@@ -3416,7 +3416,7 @@
   },
   {
     "slug": "hide-from-undead",
-    "name": "Nascondersi dai Non Morti",
+    "name": "Nascondersi ai Non Morti",
     "school": "Abiurazione",
     "spell_resistance": "Sì",
     "saving_throw": "Volontà nega (innocuo); vedi testo",
@@ -3430,7 +3430,7 @@
   },
   {
     "slug": "hideous-laughter",
-    "name": "Risata Incontenibile",
+    "name": "Risata Incontenibile di Tasha",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -3446,7 +3446,7 @@
   },
   {
     "slug": "hold-animal",
-    "name": "Bloccare Animali",
+    "name": "Blocca Animali",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -3457,7 +3457,7 @@
   },
   {
     "slug": "hold-monster",
-    "name": "Bloccare Mostri",
+    "name": "Blocca Mostri",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -3468,7 +3468,7 @@
   },
   {
     "slug": "hold-monster-mass",
-    "name": "Bloccare Mostri di Massa",
+    "name": "Blocca Mostri di Massa",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -3478,7 +3478,7 @@
   },
   {
     "slug": "hold-person",
-    "name": "Bloccare Persone",
+    "name": "Blocca Persone",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -3494,7 +3494,7 @@
   },
   {
     "slug": "hold-person-mass",
-    "name": "Bloccare Persone di Massa",
+    "name": "Blocca Persone di Massa",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -3504,7 +3504,7 @@
   },
   {
     "slug": "hold-portal",
-    "name": "Bloccare Portale",
+    "name": "Blocca Porte",
     "school": "Abiurazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -3653,7 +3653,7 @@
   },
   {
     "slug": "illusory-script",
-    "name": "Scrittura Illusoria",
+    "name": "Scritto Illusorio",
     "school": "Illusione",
     "subschool": "Fantasma",
     "descriptor": "Influenza Mentale",
@@ -3712,7 +3712,7 @@
   },
   {
     "slug": "imprisonment",
-    "name": "Imprigionamento",
+    "name": "Imprigionare",
     "school": "Abiurazione",
     "spell_resistance": "Sì",
     "saving_throw": "Volontà nega; vedi testo",
@@ -3742,21 +3742,21 @@
   },
   {
     "slug": "inflict-critical-wounds",
-    "name": "Infliggere Ferite Critiche",
+    "name": "Infliggi Ferite Critiche",
     "school": "Necromanzia",
     "level": "Chr 4, Distruzione 4",
     "desc_html": "<p>Questo incantesimo funziona come <i>infliggere ferite leggere</i>, eccetto che infligge 4d8 danni +1 per livello dell'incantatore (massimo +20).</p>"
   },
   {
     "slug": "inflict-critical-wounds-mass",
-    "name": "Infliggere Ferite Critiche di Massa",
+    "name": "Infliggi Ferite Critiche di Massa",
     "school": "Necromanzia",
     "level": "Chr 8",
     "desc_html": "<p>Questo incantesimo funziona come <i>infliggere ferite leggere di massa</i>, eccetto che infligge 4d8 danni +1 per livello dell'incantatore (massimo +40).</p>"
   },
   {
     "slug": "inflict-light-wounds",
-    "name": "Infliggere Ferite Leggere",
+    "name": "Infliggi Ferite Leggere",
     "school": "Necromanzia",
     "spell_resistance": "Sì",
     "saving_throw": "Volontà dimezza",
@@ -3770,7 +3770,7 @@
   },
   {
     "slug": "inflict-light-wounds-mass",
-    "name": "Infliggere Ferite Leggere di Massa",
+    "name": "Infliggi Ferite Leggere di Massa",
     "school": "Necromanzia",
     "spell_resistance": "Sì",
     "saving_throw": "Volontà dimezza",
@@ -3784,7 +3784,7 @@
   },
   {
     "slug": "inflict-minor-wounds",
-    "name": "Infliggere Ferite Minori",
+    "name": "Infliggi Ferite Minori",
     "school": "Necromanzia",
     "saving_throw": "Volontà nega",
     "level": "Chr 0",
@@ -3792,28 +3792,28 @@
   },
   {
     "slug": "inflict-moderate-wounds",
-    "name": "Infliggere Ferite Moderate",
+    "name": "Infliggi Ferite Moderate",
     "school": "Necromanzia",
     "level": "Chr 2",
     "desc_html": "<p>Questo incantesimo funziona come <i>infliggere ferite leggere</i>, eccetto che infligge 2d8 danni +1 per livello dell'incantatore (massimo +10).</p>"
   },
   {
     "slug": "inflict-moderate-wounds-mass",
-    "name": "Infliggere Ferite Moderate di Massa",
+    "name": "Infliggi Ferite Moderate di Massa",
     "school": "Necromanzia",
     "level": "Chr 6",
     "desc_html": "<p>Questo incantesimo funziona come <i>infliggere ferite leggere di massa</i>, eccetto che infligge 2d8 danni +1 per livello dell'incantatore (massimo +30).</p>"
   },
   {
     "slug": "inflict-serious-wounds",
-    "name": "Infliggere Ferite Gravi",
+    "name": "Infliggi Ferite Gravi",
     "school": "Necromanzia",
     "level": "Chr 3",
     "desc_html": "<p>Questo incantesimo funziona come <i>infliggere ferite leggere</i>, eccetto che infligge 3d8 danni +1 per livello dell'incantatore (massimo +15).</p>"
   },
   {
     "slug": "inflict-serious-wounds-mass",
-    "name": "Infliggere Ferite Gravi di Massa",
+    "name": "Infliggi Ferite Gravi di Massa",
     "school": "Necromanzia",
     "level": "Chr 7",
     "desc_html": "<p>Questo incantesimo funziona come <i>infliggere ferite leggere di massa</i>, eccetto che infligge 3d8 danni +1 per livello dell'incantatore (massimo +35).</p>"
@@ -3851,7 +3851,7 @@
   },
   {
     "slug": "instant-summons",
-    "name": "Evocazione Istantanea",
+    "name": "Evocazione Istantanea di Drawmij",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "spell_resistance": "No",
@@ -3866,7 +3866,7 @@
   },
   {
     "slug": "interposing-hand",
-    "name": "Mano Interponente",
+    "name": "Mano Interposta di Bigby",
     "school": "Invocazione",
     "descriptor": "Forza",
     "spell_resistance": "Sì",
@@ -3919,7 +3919,7 @@
   },
   {
     "slug": "invisibility-purge",
-    "name": "Epurazione dell'Invisibilità",
+    "name": "Epurare Invisibilità",
     "school": "Invocazione",
     "casting_time": "1 azione standard",
     "range": "Personale",
@@ -3967,7 +3967,7 @@
   },
   {
     "slug": "irresistible-dance",
-    "name": "Danza Irresistibile",
+    "name": "Danza Irresistibile di Otto",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -4037,7 +4037,7 @@
   },
   {
     "slug": "legend-lore",
-    "name": "Conoscenze delle Leggende",
+    "name": "Conoscenza delle Leggende",
     "school": "Divinazione",
     "casting_time": "Vedi testo",
     "range": "Personale",
@@ -4113,7 +4113,7 @@
   },
   {
     "slug": "liveoak",
-    "name": "Quercia Vivente",
+    "name": "Querciaviva",
     "school": "Trasmutazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -4127,7 +4127,7 @@
   },
   {
     "slug": "locate-creature",
-    "name": "Localizzare Creature",
+    "name": "Localizza Creatura",
     "school": "Divinazione",
     "duration": "10 min./livello",
     "level": "Brd 4, Str/Mag 4",
@@ -4136,7 +4136,7 @@
   },
   {
     "slug": "locate-object",
-    "name": "Localizzare Oggetto",
+    "name": "Localizza Oggetto",
     "school": "Divinazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -4178,7 +4178,7 @@
   },
   {
     "slug": "mage-armor",
-    "name": "Armatura del Mago",
+    "name": "Armatura Magica",
     "school": "Evocazione",
     "subschool": "Creazione",
     "descriptor": "Forza",
@@ -4501,7 +4501,7 @@
   },
   {
     "slug": "mark-of-justice",
-    "name": "Marchio di Giustizia",
+    "name": "Sigillo di Giustizia",
     "school": "Necromanzia",
     "spell_resistance": "Sì",
     "saving_throw": "Nessuno",
@@ -4606,7 +4606,7 @@
   },
   {
     "slug": "mind-fog",
-    "name": "Nebbia della Mente",
+    "name": "Nebbia Mentale",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -4715,7 +4715,7 @@
   },
   {
     "slug": "mnemonic-enhancer",
-    "name": "Potenziatore Mnemonico",
+    "name": "Potenziatore Mnemonico di Rary",
     "school": "Trasmutazione",
     "casting_time": "10 minuti",
     "range": "Personale",
@@ -4770,7 +4770,7 @@
   },
   {
     "slug": "move-earth",
-    "name": "Muovere Terra",
+    "name": "Muovere il Terreno",
     "school": "Trasmutazione",
     "descriptor": "Terra",
     "spell_resistance": "No",
@@ -4785,7 +4785,7 @@
   },
   {
     "slug": "neutralize-poison",
-    "name": "Neutralizzare Veleno",
+    "name": "Neutralizza Veleno",
     "school": "Evocazione",
     "subschool": "Guarigione",
     "spell_resistance": "Sì (innocuo, oggetto)",
@@ -4816,7 +4816,7 @@
   },
   {
     "slug": "nondetection",
-    "name": "Non Individuazione",
+    "name": "Anti-Individuazione",
     "school": "Abiurazione",
     "spell_resistance": "Sì (innocuo, oggetto)",
     "saving_throw": "Volontà nega (innocuo, oggetto)",
@@ -4830,7 +4830,7 @@
   },
   {
     "slug": "obscure-object",
-    "name": "Oscurare Oggetto",
+    "name": "Occulta Oggetto",
     "school": "Abiurazione",
     "spell_resistance": "Sì (oggetto)",
     "saving_throw": "Volontà nega (oggetto)",
@@ -4844,7 +4844,7 @@
   },
   {
     "slug": "obscuring-mist",
-    "name": "Foschia Oscurante",
+    "name": "Foschia Occultante",
     "school": "Evocazione",
     "subschool": "Creazione",
     "spell_resistance": "No",
@@ -4873,7 +4873,7 @@
   },
   {
     "slug": "orders-wrath",
-    "name": "Collera dell'Ordine",
+    "name": "Ira dell'Ordine",
     "school": "Invocazione",
     "descriptor": "Legale",
     "spell_resistance": "Sì",
@@ -4983,7 +4983,7 @@
   },
   {
     "slug": "phantasmal-killer",
-    "name": "Assassino Fantasma",
+    "name": "Allucinazione Mortale",
     "school": "Illusione",
     "subschool": "Fantasma",
     "descriptor": "Paura, Influenza Mentale",
@@ -4999,7 +4999,7 @@
   },
   {
     "slug": "phantom-steed",
-    "name": "Destriero Fantasma",
+    "name": "Destriero Fantomatico",
     "school": "Evocazione",
     "subschool": "Creazione",
     "spell_resistance": "No",
@@ -5029,7 +5029,7 @@
   },
   {
     "slug": "phase-door",
-    "name": "Porta di Fase",
+    "name": "Porta in Fase",
     "school": "Evocazione",
     "subschool": "Creazione",
     "spell_resistance": "No",
@@ -5064,7 +5064,7 @@
   },
   {
     "slug": "planar-ally-lesser",
-    "name": "Alleato Planare Minore",
+    "name": "Alleato Planare Inferiore",
     "school": "Evocazione",
     "subschool": "Richiamo",
     "descriptor": "vedi testo",
@@ -5204,7 +5204,7 @@
   },
   {
     "slug": "power-word-blind",
-    "name": "Parola del Potere Accecare",
+    "name": "Parola del Potere, Accecare",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -5220,7 +5220,7 @@
   },
   {
     "slug": "power-word-kill",
-    "name": "Parola del Potere Uccidere",
+    "name": "Parola del Potere, Uccidere",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Morte, Influenza Mentale",
@@ -5236,7 +5236,7 @@
   },
   {
     "slug": "power-word-stun",
-    "name": "Parola del Potere Stordire",
+    "name": "Parola del Potere, Stordire",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -5441,7 +5441,7 @@
   },
   {
     "slug": "prying-eyes",
-    "name": "Occhi Indiscreti",
+    "name": "Occhi Indagatori",
     "school": "Divinazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -5455,7 +5455,7 @@
   },
   {
     "slug": "prying-eyes-greater",
-    "name": "Occhi Indiscreti Superiori",
+    "name": "Occhi Indagatori Superiore",
     "school": "Divinazione",
     "level": "Str/Mag 8",
     "desc_html": "<p>Questo incantesimo funziona come <i>occhi indiscreti</i>, tranne che gli occhi possono vedere tutte le cose come sono realmente, proprio come se avessero <i>visione del vero</i> con gittata di 36 metri. Possono quindi navigare nelle aree oscurate a piena velocità normale. Inoltre, il modificatore di Osservare massimo di un <i>occhio indiscreto superiore</i> è +25 invece di +15.</p>"
@@ -5536,7 +5536,7 @@
   },
   {
     "slug": "raise-dead",
-    "name": "Rianimare i Morti",
+    "name": "Rianimare Morti",
     "school": "Evocazione",
     "subschool": "Guarigione",
     "spell_resistance": "Sì (innocuo)",
@@ -5686,7 +5686,7 @@
   },
   {
     "slug": "remove-blindness-deafness",
-    "name": "Rimuovere Cecità/Sordità",
+    "name": "Rimuovi Cecità/Sordità",
     "school": "Evocazione",
     "subschool": "Guarigione",
     "spell_resistance": "Sì (innocuo)",
@@ -5701,7 +5701,7 @@
   },
   {
     "slug": "remove-curse",
-    "name": "Rimuovere Maledizione",
+    "name": "Rimuovi Maledizione",
     "school": "Abiurazione",
     "spell_resistance": "Sì (innocuo)",
     "saving_throw": "Volontà nega (innocuo)",
@@ -5715,7 +5715,7 @@
   },
   {
     "slug": "remove-disease",
-    "name": "Rimuovere Malattia",
+    "name": "Rimuovi Malattia",
     "school": "Evocazione",
     "subschool": "Guarigione",
     "spell_resistance": "Sì (innocuo)",
@@ -5730,7 +5730,7 @@
   },
   {
     "slug": "remove-fear",
-    "name": "Rimuovere Paura",
+    "name": "Rimuovi Paura",
     "school": "Abiurazione",
     "spell_resistance": "Sì (innocuo)",
     "saving_throw": "Volontà nega (innocuo)",
@@ -5744,7 +5744,7 @@
   },
   {
     "slug": "remove-paralysis",
-    "name": "Rimuovere Paralisi",
+    "name": "Rimuovi Paralisi",
     "school": "Evocazione",
     "subschool": "Guarigione",
     "spell_resistance": "Sì (innocuo)",
@@ -5816,7 +5816,7 @@
   },
   {
     "slug": "resilient-sphere",
-    "name": "Sfera Resiliente",
+    "name": "Sfera Resiliente di Otiluke",
     "school": "Invocazione",
     "descriptor": "Forza",
     "spell_resistance": "Sì",
@@ -5878,7 +5878,7 @@
   },
   {
     "slug": "restoration-lesser",
-    "name": "Ristorare Minore",
+    "name": "Ristorare Inferiore",
     "school": "Evocazione",
     "subschool": "Guarigione",
     "spell_resistance": "Sì (innocuo)",
@@ -6085,7 +6085,7 @@
   },
   {
     "slug": "secret-chest",
-    "name": "Scrigno Segreto",
+    "name": "Scrigno Segreto di Leomund",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "spell_resistance": "No",
@@ -6114,7 +6114,7 @@
   },
   {
     "slug": "secure-shelter",
-    "name": "Rifugio Sicuro",
+    "name": "Rifugio Sicuro di Leomund",
     "school": "Evocazione",
     "subschool": "Creazione",
     "spell_resistance": "No",
@@ -6170,7 +6170,7 @@
   },
   {
     "slug": "sepia-snake-sigil",
-    "name": "Sigillo del Serpente Color Seppia",
+    "name": "Sigillo del Serpente",
     "school": "Evocazione",
     "subschool": "Creazione",
     "descriptor": "Forza",
@@ -6254,7 +6254,7 @@
   },
   {
     "slug": "shadow-walk",
-    "name": "Camminata nell'Ombra",
+    "name": "Camminare nelle Ombre",
     "school": "Illusione",
     "subschool": "Ombra",
     "spell_resistance": "Sì",
@@ -6353,7 +6353,7 @@
   },
   {
     "slug": "shield-other",
-    "name": "Scudo su Altro",
+    "name": "Scudo su Altri",
     "school": "Abiurazione",
     "spell_resistance": "Sì (innocuo)",
     "saving_throw": "Volontà nega (innocuo)",
@@ -6396,7 +6396,7 @@
   },
   {
     "slug": "shout",
-    "name": "Urlo",
+    "name": "Grido",
     "school": "Invocazione",
     "descriptor": "Sonoro",
     "spell_resistance": "Sì (oggetto)",
@@ -6411,7 +6411,7 @@
   },
   {
     "slug": "shout-greater",
-    "name": "Urlo Superiore",
+    "name": "Grido Superiore",
     "school": "Invocazione",
     "descriptor": "Sonoro",
     "saving_throw": "Tempra parziale o Riflessi nega (oggetto); vedi testo",
@@ -6701,7 +6701,7 @@
   },
   {
     "slug": "spell-resistance",
-    "name": "Resistenza agli Incantesimi",
+    "name": "Protezione dagli Incantesimi",
     "school": "Abiurazione",
     "spell_resistance": "Sì (innocuo)",
     "saving_throw": "Volontà nega (innocuo)",
@@ -6857,7 +6857,7 @@
   },
   {
     "slug": "stone-tell",
-    "name": "Pietra Parlante",
+    "name": "Pietre Parlanti",
     "school": "Divinazione",
     "casting_time": "10 minuti",
     "range": "Personale",
@@ -6897,7 +6897,7 @@
   },
   {
     "slug": "storm-of-vengeance",
-    "name": "Tempesta della Vendetta",
+    "name": "Tempesta di Vendetta",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "spell_resistance": "Sì",
@@ -6939,7 +6939,7 @@
   },
   {
     "slug": "summon-instrument",
-    "name": "Evocare Strumento",
+    "name": "Evoca Strumento",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "spell_resistance": "No",
@@ -6954,7 +6954,7 @@
   },
   {
     "slug": "summon-monster-i",
-    "name": "Evocare Mostri I",
+    "name": "Evoca Mostri I",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -6970,7 +6970,7 @@
   },
   {
     "slug": "summon-monster-ii",
-    "name": "Evocare Mostri II",
+    "name": "Evoca Mostri II",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -6980,7 +6980,7 @@
   },
   {
     "slug": "summon-monster-iii",
-    "name": "Evocare Mostri III",
+    "name": "Evoca Mostri III",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -6990,7 +6990,7 @@
   },
   {
     "slug": "summon-monster-iv",
-    "name": "Evocare Mostri IV",
+    "name": "Evoca Mostri IV",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7000,7 +7000,7 @@
   },
   {
     "slug": "summon-monster-ix",
-    "name": "Evocare Mostri IX",
+    "name": "Evoca Mostri IX",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7009,7 +7009,7 @@
   },
   {
     "slug": "summon-monster-v",
-    "name": "Evocare Mostri V",
+    "name": "Evoca Mostri V",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7019,7 +7019,7 @@
   },
   {
     "slug": "summon-monster-vi",
-    "name": "Evocare Mostri VI",
+    "name": "Evoca Mostri VI",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7029,7 +7029,7 @@
   },
   {
     "slug": "summon-monster-vii",
-    "name": "Evocare Mostri VII",
+    "name": "Evoca Mostri VII",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7038,7 +7038,7 @@
   },
   {
     "slug": "summon-monster-viii",
-    "name": "Evocare Mostri VIII",
+    "name": "Evoca Mostri VIII",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7047,7 +7047,7 @@
   },
   {
     "slug": "summon-natures-ally-i",
-    "name": "Evocare Alleato Naturale I",
+    "name": "Evoca Alleato Naturale I",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "spell_resistance": "No",
@@ -7062,7 +7062,7 @@
   },
   {
     "slug": "summon-natures-ally-ii",
-    "name": "Evocare Alleato Naturale II",
+    "name": "Evoca Alleato Naturale II",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "level": "Drd 2, Rgr 2",
@@ -7071,7 +7071,7 @@
   },
   {
     "slug": "summon-natures-ally-iii",
-    "name": "Evocare Alleato Naturale III",
+    "name": "Evoca Alleato Naturale III",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7081,7 +7081,7 @@
   },
   {
     "slug": "summon-natures-ally-iv",
-    "name": "Evocare Alleato Naturale IV",
+    "name": "Evoca Alleato Naturale IV",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7091,7 +7091,7 @@
   },
   {
     "slug": "summon-natures-ally-ix",
-    "name": "Evocare Alleato Naturale IX",
+    "name": "Evoca Alleato Naturale IX",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7101,7 +7101,7 @@
   },
   {
     "slug": "summon-natures-ally-v",
-    "name": "Evocare Alleato Naturale V",
+    "name": "Evoca Alleato Naturale V",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7111,7 +7111,7 @@
   },
   {
     "slug": "summon-natures-ally-vi",
-    "name": "Evocare Alleato Naturale VI",
+    "name": "Evoca Alleato Naturale VI",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7121,7 +7121,7 @@
   },
   {
     "slug": "summon-natures-ally-vii",
-    "name": "Evocare Alleato Naturale VII",
+    "name": "Evoca Alleato Naturale VII",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7131,7 +7131,7 @@
   },
   {
     "slug": "summon-natures-ally-viii",
-    "name": "Evocare Alleato Naturale VIII",
+    "name": "Evoca Alleato Naturale VIII",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
@@ -7141,7 +7141,7 @@
   },
   {
     "slug": "summon-swarm",
-    "name": "Evocare Sciame",
+    "name": "Evoca Sciame",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "spell_resistance": "No",
@@ -7210,7 +7210,7 @@
   },
   {
     "slug": "symbol-of-insanity",
-    "name": "Simbolo di Follia",
+    "name": "Simbolo di Demenza",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
@@ -7265,7 +7265,7 @@
   },
   {
     "slug": "sympathetic-vibration",
-    "name": "Vibrazione Simpatica",
+    "name": "Vibrazione Armonica",
     "school": "Invocazione",
     "descriptor": "Sonoro",
     "spell_resistance": "Sì",
@@ -7310,7 +7310,7 @@
   },
   {
     "slug": "telekinetic-sphere",
-    "name": "Sfera Telecinetica",
+    "name": "Sfera Telecinetica di Otiluke",
     "school": "Invocazione",
     "descriptor": "Forza",
     "spell_resistance": "Sì (oggetto)",
@@ -7325,7 +7325,7 @@
   },
   {
     "slug": "telepathic-bond",
-    "name": "Legame Telepatico",
+    "name": "Legame Telepatico di Rary",
     "school": "Divinazione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
@@ -7415,7 +7415,7 @@
   },
   {
     "slug": "tiny-hut",
-    "name": "Capanna",
+    "name": "Capanna di Leomund",
     "school": "Invocazione",
     "descriptor": "Forza",
     "spell_resistance": "No",
@@ -7444,7 +7444,7 @@
   },
   {
     "slug": "touch-of-fatigue",
-    "name": "Tocco di Fatica",
+    "name": "Tocco di Affaticamento",
     "school": "Necromanzia",
     "spell_resistance": "Sì",
     "saving_throw": "Tempra nega",
@@ -7545,7 +7545,7 @@
   },
   {
     "slug": "trap-the-soul",
-    "name": "Intrappolare l'Anima",
+    "name": "Imprigionare l'Anima",
     "school": "Evocazione",
     "subschool": "Convocazione",
     "spell_resistance": "Sì; vedi testo",
@@ -7594,7 +7594,7 @@
   },
   {
     "slug": "true-seeing",
-    "name": "Vista del Vero",
+    "name": "Visione del Vero",
     "school": "Divinazione",
     "spell_resistance": "Sì (innocuo)",
     "saving_throw": "Volontà nega (innocuo)",
@@ -7608,7 +7608,7 @@
   },
   {
     "slug": "true-strike",
-    "name": "Colpo Sicuro",
+    "name": "Colpo Accurato",
     "school": "Divinazione",
     "casting_time": "1 azione standard",
     "range": "Personale",
@@ -7644,7 +7644,7 @@
   },
   {
     "slug": "unhallow",
-    "name": "Dissacrare Luogo",
+    "name": "Dissacrare",
     "school": "Invocazione",
     "descriptor": "Male",
     "spell_resistance": "Vedi testo",
@@ -7934,7 +7934,7 @@
   },
   {
     "slug": "waves-of-fatigue",
-    "name": "Onde di Fatica",
+    "name": "Onde di Affaticamento",
     "school": "Necromanzia",
     "spell_resistance": "Sì",
     "saving_throw": "No",
@@ -8003,7 +8003,7 @@
   },
   {
     "slug": "wind-walk",
-    "name": "Camminata nel Vento",
+    "name": "Camminare nel Vento",
     "school": "Trasmutazione",
     "descriptor": "Aria",
     "spell_resistance": "No e Sì (innocuo)",

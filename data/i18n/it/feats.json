@@ -56,7 +56,7 @@
   },
   {
     "slug": "brew-potion",
-    "name": "Creare Pozioni",
+    "name": "Mescere Pozioni",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare una pozione di qualsiasi incantesimo di 3° livello o inferiore che conosci e che ha come bersaglio una o più creature. Preparare una pozione richiede un giorno. Quando crei una pozione, stabilisci il livello dell'incantatore, che deve essere sufficiente per lanciare l'incantesimo in questione e non superiore al tuo livello. Il prezzo base di una pozione è il suo livello dell'incantesimo × il livello dell'incantesimo × 50 mo. Per preparare una pozione, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà di questo prezzo base.",
     "prerequisites": "Livello dell'incantatore 3°."
@@ -71,13 +71,13 @@
   },
   {
     "slug": "combat-casting",
-    "name": "Lanciare in Combattimento",
+    "name": "Incantare in Combattimento",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +4 alle prove di Concentrazione effettuate per lanciare un incantesimo o usare una capacità magica mentre sei sulla difensiva o mentre sei in lotta."
   },
   {
     "slug": "combat-expertise",
-    "name": "Competenza in Combattimento",
+    "name": "Maestria in Combattimento",
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco o l'azione di attacco completo in mischia, puoi subire una penalità di –1 ai tiri per colpire in mischia e ottenere un bonus di schivare +1 alla Classe Armatura. Questa penalità e bonus aumentano di 1 per ogni –1 nei tiri per colpire, fino a un massimo di –5/+5. Devi scegliere di usare questa capacità prima di effettuare un tiro per colpire, e i suoi effetti durano fino alla tua prossima azione.",
     "special": "Un guerriero può selezionare Competenza in Combattimento come uno dei suoi talenti bonus da guerriero.",
@@ -191,7 +191,7 @@
   },
   {
     "slug": "eschew-materials",
-    "name": "Senza Materiali",
+    "name": "Escludere Materiali",
     "type": "Generale",
     "benefit": "Puoi lanciare qualsiasi incantesimo che ha una componente materiale del costo di 1 mo o meno senza bisogno di quella componente. (Il lancio dell'incantesimo provoca comunque attacchi di opportunità come normale.) Se l'incantesimo richiede una componente materiale che costa più di 1 mo, devi avere la componente materiale a portata di mano per lanciare l'incantesimo, come normale."
   },
@@ -206,7 +206,7 @@
   },
   {
     "slug": "extend-spell",
-    "name": "Incantesimi Prolungati",
+    "name": "Incantesimi Estesi",
     "type": "Metamagico",
     "benefit": "Un incantesimo prolungato dura il doppio del normale. Un incantesimo con durata di concentrazione, istantaneo o permanente non è influenzato da questo talento. Un incantesimo prolungato usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo."
   },
@@ -274,7 +274,7 @@
   },
   {
     "slug": "greater-spell-focus",
-    "name": "Focalizzazione Magica Superiore",
+    "name": "Incantesimi Focalizzati Superiore",
     "type": "Generale",
     "benefit": "Aggiungi +1 alla Classe Difficoltà per tutti i tiri salvezza contro gli incantesimi della scuola di magia selezionata. Questo bonus si cumula con il bonus di Focalizzazione Magica.",
     "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia a cui hai già applicato il talento Focalizzazione Magica."
@@ -318,7 +318,7 @@
   },
   {
     "slug": "improved-bull-rush",
-    "name": "Spinta Migliorata",
+    "name": "Spingere Migliorato",
     "type": "Generale",
     "benefit": "Quando effettui uno spingere, non provochi un attacco di opportunità dal difensore. Ottieni anche un bonus di +4 alla prova di Forza per spingere.",
     "special": "Un guerriero può selezionare Spingere Migliorato come uno dei suoi talenti bonus da guerriero.",
@@ -357,7 +357,7 @@
   },
   {
     "slug": "improved-feint",
-    "name": "Finta Migliorata",
+    "name": "Fintare Migliorato",
     "type": "Generale",
     "benefit": "Puoi effettuare una prova di Raggirare per fintare in combattimento come azione di movimento.",
     "normal": "Fintare in combattimento è un'azione standard.",
@@ -381,7 +381,7 @@
   },
   {
     "slug": "improved-overrun",
-    "name": "Travolgere Migliorato",
+    "name": "Oltrepassare Migliorato",
     "type": "Generale",
     "benefit": "Quando tenti di travolgere un avversario, il bersaglio non può scegliere di evitarti. Ottieni anche un bonus di +4 alla prova di Forza per abbattere il tuo avversario.",
     "normal": "Senza questo talento, il bersaglio di un travolgimento può scegliere di farsi da parte.",
@@ -399,7 +399,7 @@
   },
   {
     "slug": "improved-shield-bash",
-    "name": "Colpo di Scudo Migliorato",
+    "name": "Attacco con lo Scudo Migliorato",
     "type": "Generale",
     "benefit": "Quando effettui un colpo con lo scudo, puoi comunque applicare il bonus dello scudo alla CA.",
     "normal": "Senza questo talento, un personaggio che effettua un colpo con lo scudo perde il bonus dello scudo alla CA fino alla sua prossima azione.",
@@ -417,7 +417,7 @@
   },
   {
     "slug": "improved-trip",
-    "name": "Sgambetto Migliorato",
+    "name": "Sbilanciare Migliorato",
     "type": "Generale",
     "benefit": "Non provochi un attacco di opportunità quando tenti di sgambettare un avversario mentre sei in mischia. Ottieni anche un bonus di +4 alla prova di Forza per sgambettare. Se sgambetti con successo un avversario, ottieni immediatamente un attacco in mischia contro quell'avversario come se non avessi usato il tuo attacco per lo sgambetto.",
     "normal": "Senza questo talento, tentare uno sgambetto provoca un attacco di opportunità.",
@@ -511,7 +511,7 @@
   },
   {
     "slug": "mounted-archery",
-    "name": "Tiro in Sella",
+    "name": "Tirare in Sella",
     "type": "Generale",
     "benefit": "La penalità che subisci quando usi un'arma a distanza mentre sei in sella è dimezzata: –2 invece di –4 se la cavalcatura compie un doppio movimento, e –4 invece di –8 se la cavalcatura corre.",
     "special": "Un guerriero può selezionare Tiro in Sella come uno dei suoi talenti bonus da guerriero.",
@@ -519,7 +519,7 @@
   },
   {
     "slug": "mounted-combat",
-    "name": "Combattimento in Sella",
+    "name": "Combattere in Sella",
     "type": "Generale",
     "benefit": "Una volta per round quando la tua cavalcatura è colpita in combattimento, puoi tentare una prova di Cavalcare (come reazione) per negare il colpo. La prova di Cavalcare sostituisce la CA della cavalcatura. Se il risultato della tua prova di Cavalcare è maggiore del tiro per colpire, il colpo manca.",
     "special": "Un guerriero può selezionare Combattere in Sella come uno dei suoi talenti bonus da guerriero.",
@@ -540,7 +540,7 @@
   },
   {
     "slug": "nimble-fingers",
-    "name": "Dita Agili",
+    "name": "Dita Sottili",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Disattivare Congegni e Scassinare Serrature."
   },
@@ -608,7 +608,7 @@
   },
   {
     "slug": "ride-by-attack",
-    "name": "Attacco in Corsa",
+    "name": "Attacco in Sella",
     "type": "Generale",
     "benefit": "Quando sei in sella e usi l'azione di carica, puoi muoverti e attaccare come con una carica standard e poi continuare a muoverti (fino al doppio della velocità della cavalcatura). Devi muoverti almeno di 3 metri prima e dopo l'attacco.",
     "special": "Un guerriero può selezionare Attacco in Corsa a Cavallo come uno dei suoi talenti bonus da guerriero.",
@@ -682,7 +682,7 @@
   },
   {
     "slug": "spell-focus",
-    "name": "Focalizzazione Magica",
+    "name": "Incantesimi Focalizzati",
     "type": "Generale",
     "benefit": "Aggiungi +1 alla Classe Difficoltà per tutti i tiri salvezza contro gli incantesimi della scuola di magia selezionata.",
     "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia."
@@ -711,7 +711,7 @@
   },
   {
     "slug": "spring-attack",
-    "name": "Attacco in Movimento",
+    "name": "Attacco Rapido",
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco con un'arma da mischia, puoi muoverti sia prima che dopo l'attacco, purché la distanza totale che percorri non sia maggiore della tua velocità. Muoversi in questo modo non provoca un attacco di opportunità dal difensore che stai attaccando.",
     "special": "Un guerriero può selezionare Attacco in Movimento come uno dei suoi talenti bonus da guerriero.",
@@ -746,7 +746,7 @@
   },
   {
     "slug": "tower-shield-proficiency",
-    "name": "Competenza nello Scudo Torre",
+    "name": "Competenza negli Scudi Torre",
     "type": "Generale",
     "benefit": "Puoi usare uno scudo torre e subire solo le penalità standard.",
     "normal": "Un personaggio che usa uno scudo con cui non è competente subisce la penalità di controllo dell'armatura dello scudo ai tiri per colpire e a tutte le prove di abilità che comportano movimento, incluso Cavalcare.",
@@ -771,7 +771,7 @@
   },
   {
     "slug": "two-weapon-defense",
-    "name": "Difesa con Due Armi",
+    "name": "Difendere con Due Armi",
     "type": "Generale",
     "benefit": "Quando impugni un'arma doppia o due armi (escluse armi naturali o colpi senz'armi), ottieni un bonus di scudo +1 alla CA. Quando combatti sulla difensiva o usi l'azione di difesa totale, questo bonus di scudo aumenta a +2.",
     "special": "Un guerriero può selezionare Difesa con Due Armi come uno dei suoi talenti bonus da guerriero.",
@@ -820,7 +820,7 @@
   },
   {
     "slug": "widen-spell",
-    "name": "Incantesimi Allargati",
+    "name": "Incantesimi Ampliati",
     "type": "Metamagico",
     "benefit": "Puoi alterare un incantesimo a forma di scoppio, emanazione, linea o diffusione per aumentare la sua area. Qualsiasi misurazione numerica dell'area dell'incantesimo aumenta del 100%. Un incantesimo allargato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo. Gli incantesimi che non hanno un'area di una di queste quattro forme non sono influenzati da questo talento."
   }
