@@ -336,18 +336,29 @@ async function renderResults() {
     return;
   }
 
+  const prepared = currentTab === 'spells' ? loadPrepared() : {};
+
   resultsList.innerHTML = filtered.map((item, idx) => {
     const meta = getMeta(item);
-    const prepBtn = currentTab === 'spells'
-      ? `<button class="prep-btn" data-idx="${idx}" title="Prepara incantesimo">+</button>`
-      : '';
-    return `<div class="result-item" data-index="${idx}" data-slug="${item.slug || ''}">
+    let prepHtml = '';
+    if (currentTab === 'spells') {
+      const p = prepared[item.slug];
+      if (p) {
+        const allUsed = p.used >= p.prepared;
+        prepHtml = `<span class="prep-badge ${allUsed ? 'exhausted' : ''}">${p.used}/${p.prepared}</span>`
+          + `<button class="prep-btn prep-btn-active" data-idx="${idx}" title="Aggiungi preparazione">+</button>`;
+      } else {
+        prepHtml = `<button class="prep-btn" data-idx="${idx}" title="Prepara incantesimo">+</button>`;
+      }
+    }
+    const isPrepared = currentTab === 'spells' && prepared[item.slug];
+    return `<div class="result-item ${isPrepared ? 'is-prepared' : ''}" data-index="${idx}" data-slug="${item.slug || ''}">
       <div class="result-row">
         <div class="result-text">
           <div class="name">${esc(item.name)}</div>
           ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
         </div>
-        ${prepBtn}
+        ${prepHtml}
       </div>
     </div>`;
   }).join('');
@@ -371,8 +382,8 @@ async function renderResults() {
       e.stopPropagation();
       const item = resultsList._filtered[parseInt(btn.dataset.idx)];
       addPrepared(item);
-      btn.classList.add('prep-btn-flash');
-      setTimeout(() => btn.classList.remove('prep-btn-flash'), 300);
+      // Re-render to show updated badge
+      renderResults();
     });
   });
 }

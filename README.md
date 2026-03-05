@@ -52,14 +52,17 @@ Per la documentazione completa (schema DB, convenzioni, task) vedi [CLAUDE.md](C
 | Razze | 7 |
 | Equipaggiamento | 288 |
 | Classi | 31 |
+| Mostri | 289 |
+| Regole | 19 pagine |
 
 ## Stato attuale
 
 - [x] Setup struttura cartelle e CLAUDE.md
-- [x] Parser completo (incantesimi, talenti, razze, equipaggiamento, classi)
+- [x] Parser completo (incantesimi, talenti, razze, equipaggiamento, classi, mostri, regole)
 - [x] Schema SQLite e import_to_db.py
 - [x] Backend FastAPI con API REST
-- [x] Frontend consultazione (dark theme)
+- [x] Frontend consultazione (dark theme, filtri avanzati)
+- [x] Sistema preparazione incantesimi (localStorage)
 - [x] GitHub Actions deploy
 - [ ] Traduzioni IT
 
