@@ -1,6 +1,6 @@
 {
   "lang": "it",
-  "generated_at": "2026-03-05T12:36:14Z",
+  "generated_at": "2026-03-05T13:04:49Z",
   "categories": {
     "spells": {
       "total": 608,
@@ -67,9 +67,9 @@
           "percent": 100.0
         },
         "desc_html": {
-          "translated": 502,
+          "translated": 239,
           "total": 605,
-          "percent": 83.0
+          "percent": 39.5
         }
       }
     },
@@ -186,9 +186,9 @@
           "percent": 100.0
         },
         "organization": {
-          "translated": 259,
+          "translated": 269,
           "total": 269,
-          "percent": 96.3
+          "percent": 100.0
         },
         "alignment": {
           "translated": 205,
@@ -196,9 +196,9 @@
           "percent": 100.0
         },
         "desc_html": {
-          "translated": 286,
+          "translated": 284,
           "total": 288,
-          "percent": 99.3
+          "percent": 98.6
         }
       }
     },
@@ -223,9 +223,9 @@
           "percent": 100.0
         },
         "desc_html": {
-          "translated": 19,
+          "translated": 18,
           "total": 19,
-          "percent": 100.0
+          "percent": 94.7
         }
       }
     }
@@ -233,7 +233,7 @@
   "summary": {
     "total_entries": 1353,
     "total_fields": 8989,
-    "translated_fields": 8699,
-    "overall_percent": 96.8
+    "translated_fields": 8443,
+    "overall_percent": 93.9
   }
 }

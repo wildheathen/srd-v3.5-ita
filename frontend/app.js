@@ -876,6 +876,36 @@ function esc(str) {
   return el.innerHTML;
 }
 
+// ── Header toggle ────────────────────────────────────────────────────────
+
+function initHeaderToggle() {
+  const header = document.getElementById('app-header');
+  const toggle = document.getElementById('header-toggle');
+  if (!header || !toggle) return;
+
+  const collapsed = localStorage.getItem('crystalball_header_collapsed') === '1';
+  if (collapsed) {
+    header.classList.add('collapsed');
+    toggle.textContent = '▼';
+  }
+
+  toggle.addEventListener('click', () => {
+    header.classList.toggle('collapsed');
+    const isCollapsed = header.classList.contains('collapsed');
+    toggle.textContent = isCollapsed ? '▼' : '▲';
+    localStorage.setItem('crystalball_header_collapsed', isCollapsed ? '1' : '0');
+    updateContentHeight();
+  });
+}
+
+function updateContentHeight() {
+  const mainEl = document.querySelector('main');
+  if (!mainEl) return;
+  const top = mainEl.getBoundingClientRect().top;
+  const height = window.innerHeight - top - 16; // 16px bottom padding
+  document.documentElement.style.setProperty('--content-height', `${Math.max(200, height)}px`);
+}
+
 // ── Init ─────────────────────────────────────────────────────────────────
 
 async function initApp() {
@@ -884,8 +914,11 @@ async function initApp() {
   updateTabLabels();
   searchInput.placeholder = t('search.placeholder');
   initLangSwitcher();
+  initHeaderToggle();
   buildFilters();
   renderResults();
+  updateContentHeight();
+  window.addEventListener('resize', updateContentHeight);
 }
 
 initApp();

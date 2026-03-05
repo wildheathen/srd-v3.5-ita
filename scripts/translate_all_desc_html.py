@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
 Translate desc_html fields for rules, monsters, and spells into Italian.
-Uses formulaic replacements for structural elements and common D&D terminology.
-
-Reuses maps from translate_class_descriptions.py and adds category-specific maps.
+Only translates content within structural HTML tags (headers, bold labels,
+table cells, italic labels), leaving prose text in clean English.
 
 Usage:
     python scripts/translate_all_desc_html.py              # all categories
@@ -23,7 +22,6 @@ from translate_class_descriptions import (
     LABEL_MAP,
     SKILL_MAP,
     ABILITY_ABBR_MAP,
-    TERM_MAP,
     FEATURE_MAP,
 )
 
@@ -242,7 +240,7 @@ RULES_LABEL_MAP = {
     "Step 5:": "Passo 5:",
 }
 
-# ── Monster-specific labels ─────────────────────────────────────────────
+# ── Monster-specific ────────────────────────────────────────────────────
 
 MONSTER_SECTION_MAP = {
     "Combat": "Combattimento",
@@ -319,204 +317,86 @@ ABILITY_TYPE_MAP = {
     "(Sp)": "(Mag)",
 }
 
-# ── Common D&D terms for rules/monsters/spells ─────────────────────────
 
-EXTRA_TERM_MAP = {
-    # Attack types
-    "ranged touch attack": "attacco di contatto a distanza",
-    "melee touch attack": "attacco di contatto in mischia",
-    "touch attack": "attacco di contatto",
-    "ranged attack": "attacco a distanza",
-    "melee attack": "attacco in mischia",
-    "full attack": "attacco completo",
-    "unarmed attack": "attacco senz'armi",
-    "unarmed strike": "colpo senz'armi",
-    # Creature types
-    "Aberration": "Aberrazione",
-    "Animal": "Animale",
-    "Construct": "Costrutto",
-    "Dragon": "Drago",
-    "Elemental": "Elementale",
-    "Fey": "Folletto",
-    "Giant": "Gigante",
-    "Humanoid": "Umanoide",
-    "Magical Beast": "Bestia Magica",
-    "Monstrous Humanoid": "Umanoide Mostruoso",
-    "Ooze": "Melma",
-    "Outsider": "Esterno",
-    "Plant": "Pianta",
-    "Undead": "Non Morto",
-    "Vermin": "Parassita",
-    # Sizes
-    "Colossal": "Colossale",
-    "Gargantuan": "Mastodontico",
-    "Huge": "Enorme",
-    "Large": "Grande",
-    "Medium": "Medio",
-    "Small": "Piccolo",
-    "Tiny": "Minuscolo",
-    "Diminutive": "Minuto",
-    "Fine": "Piccolissimo",
-    # Combat terms
-    "natural armor": "armatura naturale",
-    "natural weapon": "arma naturale",
-    "natural weapons": "armi naturali",
-    "grapple check": "prova di lotta",
-    "grapple checks": "prove di lotta",
-    "initiative check": "prova di iniziativa",
-    "opposed check": "prova contrapposta",
-    "ability check": "prova di caratteristica",
-    "skill check": "prova di abilità",
-    "skill checks": "prove di abilità",
-    "level check": "prova di livello",
-    "dispel check": "prova di dissoluzione",
-    "concentration check": "prova di Concentrazione",
-    # Status
-    "flat-footed": "colto alla sprovvista",
-    "helpless": "indifeso",
-    "prone": "prono",
-    "grappled": "in lotta",
-    "pinned": "immobilizzato",
-    "stunned": "stordito",
-    "paralyzed": "paralizzato",
-    "blinded": "accecato",
-    "deafened": "assordato",
-    "invisible": "invisibile",
-    "incorporeal": "incorporeo",
-    # Damage types
-    "bludgeoning": "contundente",
-    "piercing": "perforante",
-    "slashing": "tagliente",
-    "nonlethal damage": "danno non letale",
-    "lethal damage": "danno letale",
-    "subdual damage": "danno debilitante",
-    "acid damage": "danni da acido",
-    "fire damage": "danni da fuoco",
-    "cold damage": "danni da freddo",
-    "electricity damage": "danni da elettricità",
-    "sonic damage": "danni da suono",
-    # Magic
-    "spell-like ability": "capacità magica",
-    "spell-like abilities": "capacità magiche",
-    "supernatural ability": "capacità soprannaturale",
-    "supernatural abilities": "capacità soprannaturali",
-    "extraordinary ability": "capacità straordinaria",
-    "extraordinary abilities": "capacità straordinarie",
-    "caster level": "livello dell'incantatore",
-    "spell level": "livello dell'incantesimo",
-    "DC ": "CD ",
-    # Common phrases
-    "per day": "al giorno",
-    "per round": "per round",
-    "once per day": "una volta al giorno",
-    "twice per day": "due volte al giorno",
-    "three times per day": "tre volte al giorno",
-    "at will": "a volontà",
-    "at-will": "a volontà",
-    "line of sight": "linea di vista",
-    "line of effect": "linea di effetto",
-    "space/reach": "spazio/portata",
-    "reach weapon": "arma con portata",
-}
-
-# ── Magic item specific labels ──────────────────────────────────────────
-
-MAGIC_ITEM_LABEL_MAP = {
-    "Aura:": "Aura:",
-    "Caster Level:": "Livello dell'Incantatore:",
-    "Activation:": "Attivazione:",
-    "Prerequisites:": "Prerequisiti:",
-    "Market Price:": "Prezzo di Mercato:",
-    "Cost to Create:": "Costo di Creazione:",
-    "Weight:": "Peso:",
-    "Construction:": "Costruzione:",
-    "Slot:": "Slot:",
-}
-
-# ── Schools of magic ────────────────────────────────────────────────────
-
-SCHOOL_MAP = {
-    "Abjuration": "Abiurazione",
-    "Conjuration": "Evocazione",
-    "Divination": "Divinazione",
-    "Enchantment": "Ammaliamento",
-    "Evocation": "Invocazione",
-    "Illusion": "Illusione",
-    "Necromancy": "Necromanzia",
-    "Transmutation": "Trasmutazione",
-    "Universal": "Universale",
-}
+def _apply_map(text, mapping):
+    """Apply a translation map to text, longer keys first."""
+    for en, it in sorted(mapping.items(), key=lambda x: -len(x[0])):
+        text = text.replace(en, it)
+    return text
 
 
-def translate_generic_desc_html(html, extra_label_map=None, extra_section_map=None):
-    """Apply formulaic translations to desc_html for any category."""
+def _translate_tag_content(html, tag_pattern, translate_fn):
+    """Translate content within specific HTML tags."""
+    def replacer(m):
+        open_tag = m.group(1)
+        content = m.group(2)
+        close_tag = m.group(3)
+        translated = translate_fn(content)
+        return f"{open_tag}{translated}{close_tag}"
+    return re.sub(tag_pattern, replacer, html, flags=re.DOTALL)
+
+
+def translate_structural_desc_html(html, extra_label_map=None, extra_section_map=None):
+    """Translate desc_html — only structural tags, not prose text."""
     if not html:
         return None
 
     result = html
 
-    # 1. Table headers
-    for en, it in sorted(TABLE_HEADER_MAP.items(), key=lambda x: -len(x[0])):
-        result = result.replace(f"<th>{en}</th>", f"<th>{it}</th>")
-
-    # 2. Section headers (h2/h3/h4)
+    # Build combined maps
     all_sections = dict(RULES_SECTION_MAP)
     if extra_section_map:
         all_sections.update(extra_section_map)
-    for en, it in sorted(all_sections.items(), key=lambda x: -len(x[0])):
-        result = re.sub(
-            rf'(<h[2-6][^>]*>)\s*{re.escape(en)}\s*(</h[2-6]>)',
-            rf'\1{it}\2',
-            result
-        )
 
-    # 3. Strong/bold labels (combine all label maps)
     all_labels = dict(LABEL_MAP)
     all_labels.update(RULES_LABEL_MAP)
     if extra_label_map:
         all_labels.update(extra_label_map)
-    for en, it in sorted(all_labels.items(), key=lambda x: -len(x[0])):
-        result = result.replace(f"<strong>{en}</strong>", f"<strong>{it}</strong>")
 
-    # 3b. Italic labels (for spells: <em>Material Component:</em>)
-    for en, it in sorted(all_labels.items(), key=lambda x: -len(x[0])):
-        result = result.replace(f"<em>{en}</em>", f"<em>{it}</em>")
-        result = result.replace(f"<i>{en}</i>", f"<i>{it}</i>")
+    # 1. <th> tags — table headers
+    def translate_th(content):
+        return _apply_map(content, TABLE_HEADER_MAP)
+    result = _translate_tag_content(result, r'(<th[^>]*>)(.*?)(</th>)', translate_th)
 
-    # 4. Ability type abbreviations (Ex) → (Str), (Su) → (Sop), (Sp) → (Mag)
-    for en, it in ABILITY_TYPE_MAP.items():
-        result = result.replace(en, it)
+    # 2. <h2>/<h3>/<h4>/<h5>/<h6> tags — section headers
+    def translate_heading(content):
+        return _apply_map(content.strip(), all_sections)
+    result = _translate_tag_content(result, r'(<h[2-6][^>]*>)\s*(.*?)\s*(</h[2-6]>)', translate_heading)
 
-    # 5. Ability abbreviations (Str) → (For), etc.
-    for en, it in ABILITY_ABBR_MAP.items():
-        result = result.replace(en, it)
+    # 3. <strong> tags — bold labels
+    def translate_strong(content):
+        translated = _apply_map(content, all_labels)
+        # Also translate ability type abbreviations in strong tags
+        translated = _apply_map(translated, ABILITY_TYPE_MAP)
+        return translated
+    result = _translate_tag_content(result, r'(<strong>)(.*?)(</strong>)', translate_strong)
 
-    # 6. Skill names in context
-    for en, it in sorted(SKILL_MAP.items(), key=lambda x: -len(x[0])):
-        result = result.replace(f"{en} check", f"prova di {it}")
-        result = result.replace(f"{en} checks", f"prove di {it}")
-        result = result.replace(f"{en} skill", f"abilità {it}")
-        result = result.replace(f"{en} (", f"{it} (")
+    # 4. <em> and <i> tags — italic labels (spell components, etc.)
+    def translate_em(content):
+        return _apply_map(content, all_labels)
+    result = _translate_tag_content(result, r'(<em>)(.*?)(</em>)', translate_em)
+    result = _translate_tag_content(result, r'(<i>)(.*?)(</i>)', translate_em)
 
-    # 7. Schools of magic
-    for en, it in sorted(SCHOOL_MAP.items(), key=lambda x: -len(x[0])):
-        result = result.replace(f"<strong>{en}</strong>", f"<strong>{it}</strong>")
+    # 5. <td> tags — table cells (feature names in class tables, etc.)
+    def translate_td(content):
+        c = content.strip()
+        if not c or c[0] in '+-−' or c[0].isdigit():
+            return content  # skip numeric cells
+        c = _apply_map(c, FEATURE_MAP)
+        c = _apply_map(c, ABILITY_ABBR_MAP)
+        return c
+    result = _translate_tag_content(result, r'(<td[^>]*>)(.*?)(</td>)', translate_td)
 
-    # 8. Feature names (class features that appear in other contexts)
-    for en, it in sorted(FEATURE_MAP.items(), key=lambda x: -len(x[0])):
-        result = result.replace(f">{en}<", f">{it}<")
-
-    # 9. Common terms (combined, longer first)
-    all_terms = dict(TERM_MAP)
-    all_terms.update(EXTRA_TERM_MAP)
-    for en, it in sorted(all_terms.items(), key=lambda x: -len(x[0])):
-        result = result.replace(en, it)
+    # 6. <caption> tags
+    def translate_caption(content):
+        return _apply_map(content, all_sections)
+    result = _translate_tag_content(result, r'(<caption[^>]*>)(.*?)(</caption>)', translate_caption)
 
     return result if result != html else None
 
 
 def translate_category(category, extra_label_map=None, extra_section_map=None):
-    """Translate desc_html for a given category."""
+    """Translate desc_html for a given category (overwriting old mixed translations)."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(os.path.dirname(script_dir), "data")
 
@@ -542,7 +422,9 @@ def translate_category(category, extra_label_map=None, extra_section_map=None):
             overlay_map[slug] = entry
 
     added = 0
+    replaced = 0
     skipped = 0
+
     for item in base:
         slug = item.get("slug")
         if not slug:
@@ -553,18 +435,24 @@ def translate_category(category, extra_label_map=None, extra_section_map=None):
 
         entry = overlay_map[slug]
 
-        # Only translate if not already present
-        if "desc_html" not in entry:
-            translated = translate_generic_desc_html(
-                item.get("desc_html"),
-                extra_label_map=extra_label_map,
-                extra_section_map=extra_section_map,
-            )
-            if translated:
-                entry["desc_html"] = translated
-                added += 1
+        # Always re-translate (overwrite old mixed translations)
+        translated = translate_structural_desc_html(
+            item.get("desc_html"),
+            extra_label_map=extra_label_map,
+            extra_section_map=extra_section_map,
+        )
+        if translated:
+            if "desc_html" in entry:
+                replaced += 1
             else:
-                skipped += 1
+                added += 1
+            entry["desc_html"] = translated
+        else:
+            # Remove old mixed translation if structural translation produces nothing
+            if "desc_html" in entry:
+                del entry["desc_html"]
+                replaced += 1
+            skipped += 1
 
     result = sorted(overlay_map.values(), key=lambda x: x.get("slug", ""))
     os.makedirs(os.path.dirname(overlay_path), exist_ok=True)
@@ -572,7 +460,7 @@ def translate_category(category, extra_label_map=None, extra_section_map=None):
         json.dump(result, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
-    print(f"{category}: {added} desc_html translations added ({skipped} unchanged)")
+    print(f"{category}: {added} new + {replaced} replaced desc_html ({skipped} no structural changes)")
 
 
 def main():

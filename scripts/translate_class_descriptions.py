@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Translate class desc_html fields into Italian using formulaic HTML replacements.
-Handles structural elements (headers, labels, table headers, skill names, ability names)
-and common D&D terminology.
+Translate class desc_html and table_html fields into Italian.
+Only translates content within structural HTML tags (headers, labels, table cells),
+leaving paragraph/prose text in clean English.
 
 Usage:
     python scripts/translate_class_descriptions.py
@@ -12,7 +12,7 @@ import json
 import os
 import re
 
-# ── HTML structure replacements (order matters: longer first) ────────────
+# ── Translation maps (exported for use by other scripts) ────────────────
 
 # Table headers
 TABLE_HEADER_MAP = {
@@ -36,7 +36,7 @@ TABLE_HEADER_MAP = {
     "Unarmed Damage": "Danno Senz'Armi",
 }
 
-# Section headers (h3/h4 content)
+# Section headers (h2/h3/h4 content)
 SECTION_MAP = {
     "Class Skills": "Abilità di Classe",
     "Class Features": "Privilegi di Classe",
@@ -53,7 +53,7 @@ SECTION_MAP = {
     "Multiclass Note": "Nota Multiclasse",
 }
 
-# Strong/bold labels
+# Strong/bold labels (appear as <strong>Label:</strong>)
 LABEL_MAP = {
     "Alignment:": "Allineamento:",
     "Hit Die:": "Dado Vita:",
@@ -121,92 +121,7 @@ ABILITY_ABBR_MAP = {
     "(Cha)": "(Car)",
 }
 
-# Common D&D terms in class descriptions
-TERM_MAP = {
-    "bonus feat": "talento bonus",
-    "Bonus feat": "Talento bonus",
-    "bonus feats": "talenti bonus",
-    "fighter bonus feat": "talento bonus da guerriero",
-    "fighter bonus feats": "talenti bonus da guerriero",
-    "simple weapons": "armi semplici",
-    "martial weapons": "armi da guerra",
-    "simple and martial weapons": "armi semplici e da guerra",
-    "all simple weapons": "tutte le armi semplici",
-    "all martial weapons": "tutte le armi da guerra",
-    "all simple and martial weapons": "tutte le armi semplici e da guerra",
-    "light armor": "armatura leggera",
-    "medium armor": "armatura media",
-    "heavy armor": "armatura pesante",
-    "all armor": "tutte le armature",
-    "tower shields": "scudi torre",
-    "shields": "scudi",
-    "shield": "scudo",
-    "hit points": "punti ferita",
-    "Hit Points": "Punti Ferita",
-    "hit point": "punto ferita",
-    "damage reduction": "riduzione del danno",
-    "Damage Reduction": "Riduzione del Danno",
-    "spell resistance": "resistenza agli incantesimi",
-    "Spell Resistance": "Resistenza agli Incantesimi",
-    "saving throw": "tiro salvezza",
-    "saving throws": "tiri salvezza",
-    "Saving Throw": "Tiro Salvezza",
-    "Fortitude": "Tempra",
-    "Reflex": "Riflessi",
-    "Will": "Volontà",
-    "Armor Class": "Classe Armatura",
-    "armor check penalty": "penalità di controllo dell'armatura",
-    "base attack bonus": "bonus di attacco base",
-    "Base Attack Bonus": "Bonus di Attacco Base",
-    "attack of opportunity": "attacco di opportunità",
-    "attacks of opportunity": "attacchi di opportunità",
-    "challenge rating": "grado di sfida",
-    "experience points": "punti esperienza",
-    "caster level": "livello dell'incantatore",
-    "Caster Level": "Livello dell'Incantatore",
-    "spell level": "livello dell'incantesimo",
-    "class level": "livello di classe",
-    "character level": "livello del personaggio",
-    "ability score": "punteggio di caratteristica",
-    "ability scores": "punteggi di caratteristica",
-    "Strength": "Forza",
-    "Dexterity": "Destrezza",
-    "Constitution": "Costituzione",
-    "Intelligence": "Intelligenza",
-    "Wisdom": "Saggezza",
-    "Charisma": "Carisma",
-    "1st level": "1° livello",
-    "2nd level": "2° livello",
-    "3rd level": "3° livello",
-    "4th level": "4° livello",
-    "5th level": "5° livello",
-    "6th level": "6° livello",
-    "7th level": "7° livello",
-    "8th level": "8° livello",
-    "9th level": "9° livello",
-    "10th level": "10° livello",
-    "11th level": "11° livello",
-    "12th level": "12° livello",
-    "13th level": "13° livello",
-    "14th level": "14° livello",
-    "15th level": "15° livello",
-    "16th level": "16° livello",
-    "17th level": "17° livello",
-    "18th level": "18° livello",
-    "19th level": "19° livello",
-    "20th level": "20° livello",
-    "1st-level": "1° livello",
-    "2nd-level": "2° livello",
-    "3rd-level": "3° livello",
-    "4th-level": "4° livello",
-    "5th-level": "5° livello",
-    "6th-level": "6° livello",
-    "7th-level": "7° livello",
-    "8th-level": "8° livello",
-    "9th-level": "9° livello",
-}
-
-# Class feature names (Special column in tables)
+# Class feature names (for table cells only)
 FEATURE_MAP = {
     "Fast movement": "Movimento veloce",
     "fast movement": "movimento veloce",
@@ -304,7 +219,6 @@ FEATURE_MAP = {
     "sneak attack": "attacco furtivo",
     "Trapfinding": "Trovare trappole",
     "trapfinding": "trovare trappole",
-    "Trap sense": "Percepire trappole",
     "Special abilities": "Capacità speciali",
     "special abilities": "capacità speciali",
     "Crippling strike": "Colpo debilitante",
@@ -320,7 +234,7 @@ FEATURE_MAP = {
     "Scribe Scroll": "Scrivere Pergamene",
 }
 
-# Class name translations for table captions and references
+# Class name translations for table captions
 CLASS_NAME_MAP = {
     "The Barbarian": "Il Barbaro",
     "The Bard": "Il Bardo",
@@ -355,88 +269,84 @@ CLASS_NAME_MAP = {
     "The Thaumaturgist": "Il Taumaturgo",
 }
 
+# Not exported: TERM_MAP removed — it caused mixed-language in prose
+
+
+def _apply_map(text, mapping):
+    """Apply a translation map to text, longer keys first."""
+    for en, it in sorted(mapping.items(), key=lambda x: -len(x[0])):
+        text = text.replace(en, it)
+    return text
+
+
+def _translate_tag_content(html, tag_pattern, translate_fn):
+    """Translate content within specific HTML tags using a callback.
+
+    tag_pattern: regex matching opening+content+closing, with group(1)=open, group(2)=content, group(3)=close
+    translate_fn: function(content_string) -> translated_string
+    """
+    def replacer(m):
+        open_tag = m.group(1)
+        content = m.group(2)
+        close_tag = m.group(3)
+        translated = translate_fn(content)
+        return f"{open_tag}{translated}{close_tag}"
+
+    return re.sub(tag_pattern, replacer, html, flags=re.DOTALL)
+
 
 def translate_class_desc_html(html):
-    """Apply formulaic translations to class desc_html."""
+    """Translate class desc_html — only structural elements, not prose."""
     if not html:
         return None
 
     result = html
 
-    # 1. Table headers (in <th> tags)
-    for en, it in sorted(TABLE_HEADER_MAP.items(), key=lambda x: -len(x[0])):
-        result = result.replace(f"<th>{en}</th>", f"<th>{it}</th>")
+    # 1. <th> tags — table headers
+    def translate_th(content):
+        return _apply_map(content, TABLE_HEADER_MAP)
+    result = _translate_tag_content(result, r'(<th[^>]*>)(.*?)(</th>)', translate_th)
 
-    # 2. Section headers (in <h3>/<h4> tags) - use regex for id attributes
-    for en, it in SECTION_MAP.items():
-        result = re.sub(
-            rf'(<h[34][^>]*>)\s*{re.escape(en)}\s*(</h[34]>)',
-            rf'\1{it}\2',
-            result
-        )
-
-    # 3. Strong/bold labels
-    for en, it in sorted(LABEL_MAP.items(), key=lambda x: -len(x[0])):
-        result = result.replace(f"<strong>{en}</strong>", f"<strong>{it}</strong>")
-
-    # 4. Class names in table captions
+    # 2. <h2>/<h3>/<h4> tags — section headers
+    all_sections = dict(SECTION_MAP)
     for en, it in CLASS_NAME_MAP.items():
-        result = result.replace(f"Table: {en}", f"Tabella: {it}")
-        result = result.replace(f"table: {en}", f"tabella: {it}")
+        all_sections[f"Table: {en}"] = f"Tabella: {it}"
+    def translate_heading(content):
+        c = content.strip()
+        return _apply_map(c, all_sections)
+    result = _translate_tag_content(result, r'(<h[2-6][^>]*>)\s*(.*?)\s*(</h[2-6]>)', translate_heading)
 
-    # 5. Feature names in table cells
-    for en, it in sorted(FEATURE_MAP.items(), key=lambda x: -len(x[0])):
-        # In <td> cells
-        result = result.replace(f">{en}<", f">{it}<")
-        result = result.replace(f">{en},", f">{it},")
-        # In regular text between tags, comma-separated in table cells
-        result = result.replace(f", {en}", f", {it}")
+    # 3. <strong> tags — bold labels
+    def translate_strong(content):
+        return _apply_map(content, LABEL_MAP)
+    result = _translate_tag_content(result, r'(<strong>)(.*?)(</strong>)', translate_strong)
 
-    # 6. Ability abbreviations
-    for en, it in ABILITY_ABBR_MAP.items():
-        result = result.replace(en, it)
+    # 4. <caption> tags
+    def translate_caption(content):
+        for en, it in CLASS_NAME_MAP.items():
+            content = content.replace(f"Table: {en}", f"Tabella: {it}")
+        return content
+    result = _translate_tag_content(result, r'(<caption[^>]*>)(.*?)(</caption>)', translate_caption)
 
-    # 7. Skill names (careful: only in skill list contexts and table references)
-    for en, it in sorted(SKILL_MAP.items(), key=lambda x: -len(x[0])):
-        # In parenthetical skill lists after "class skills"
-        result = result.replace(f"{en} (", f"{it} (")
-        # Standalone skill references
-        result = result.replace(f"{en} check", f"prova di {it}")
-        result = result.replace(f"{en} checks", f"prove di {it}")
-        result = result.replace(f"{en} skill", f"abilità {it}")
-
-    # 8. Common terms (longer first to avoid partial replacements)
-    for en, it in sorted(TERM_MAP.items(), key=lambda x: -len(x[0])):
-        result = result.replace(en, it)
+    # 5. <td> tags — table cells (feature names, ability abbreviations)
+    def translate_td(content):
+        c = content.strip()
+        if not c or c.startswith('+') or c.startswith('−') or c[0].isdigit():
+            return content  # skip numeric cells
+        c = _apply_map(c, FEATURE_MAP)
+        c = _apply_map(c, ABILITY_ABBR_MAP)
+        return c
+    result = _translate_tag_content(result, r'(<td[^>]*>)(.*?)(</td>)', translate_td)
 
     return result if result != html else None
 
 
 def translate_table_html(html):
-    """Apply formulaic translations to class table_html."""
+    """Translate class table_html (same structural approach)."""
     if not html:
         return None
-
-    result = html
-
-    # Table headers
-    for en, it in sorted(TABLE_HEADER_MAP.items(), key=lambda x: -len(x[0])):
-        result = result.replace(f"<th>{en}</th>", f"<th>{it}</th>")
-
-    # Table captions
-    for en, it in CLASS_NAME_MAP.items():
-        result = result.replace(f"Table: {en}", f"Tabella: {it}")
-
-    # Feature names in table cells
-    for en, it in sorted(FEATURE_MAP.items(), key=lambda x: -len(x[0])):
-        result = result.replace(f">{en}<", f">{it}<")
-        result = result.replace(f">{en},", f">{it},")
-        result = result.replace(f", {en}", f", {it}")
-
-    return result if result != html else None
-
-
-# hit_die is just "d12." etc. — same in Italian, no translation needed
+    # table_html is purely structural — reuse the same function
+    return translate_class_desc_html(html)
 
 
 def main():
@@ -466,6 +376,9 @@ def main():
 
     added_desc = 0
     added_table = 0
+    replaced_desc = 0
+    replaced_table = 0
+
     for cls in base:
         slug = cls["slug"]
         if slug not in overlay_map:
@@ -473,19 +386,23 @@ def main():
 
         entry = overlay_map[slug]
 
-        # Translate desc_html if not already present
-        if "desc_html" not in entry:
-            translated = translate_class_desc_html(cls.get("desc_html"))
-            if translated:
-                entry["desc_html"] = translated
+        # Always re-translate desc_html (overwrite old mixed translations)
+        translated = translate_class_desc_html(cls.get("desc_html"))
+        if translated:
+            if "desc_html" in entry:
+                replaced_desc += 1
+            else:
                 added_desc += 1
+            entry["desc_html"] = translated
 
-        # Translate table_html if not already present
-        if "table_html" not in entry:
-            translated = translate_table_html(cls.get("table_html"))
-            if translated:
-                entry["table_html"] = translated
+        # Always re-translate table_html
+        translated = translate_table_html(cls.get("table_html"))
+        if translated:
+            if "table_html" in entry:
+                replaced_table += 1
+            else:
                 added_table += 1
+            entry["table_html"] = translated
 
     result = sorted(overlay_map.values(), key=lambda x: x.get("slug", ""))
     os.makedirs(os.path.dirname(overlay_path), exist_ok=True)
@@ -493,7 +410,8 @@ def main():
         json.dump(result, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
-    print(f"Classes: {added_desc} desc_html, {added_table} table_html translations added")
+    print(f"Classes: {added_desc} new + {replaced_desc} replaced desc_html, "
+          f"{added_table} new + {replaced_table} replaced table_html")
 
 
 if __name__ == "__main__":
