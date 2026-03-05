@@ -496,6 +496,271 @@ def parse_all_classes():
 
 
 # ---------------------------------------------------------------------------
+# Monsters
+# ---------------------------------------------------------------------------
+
+MONSTERS_DIR = REPO_ROOT / "monsters"
+
+MONSTER_FILES = [
+    "monsters-intro-a.html",
+    "monsters-animals.html",
+    "monsters-b-c.html",
+    "monsters-d-de.html",
+    "monsters-di-do.html",
+    "monsters-dr-dw.html",
+    "monsters-e-f.html",
+    "monsters-g.html",
+    "monsters-h-i.html",
+    "monsters-k-l.html",
+    "monsters-m-n.html",
+    "monsters-o-r.html",
+    "monsters-s.html",
+    "monsters-t-z.html",
+    "monsters-vermin.html",
+]
+
+MONSTER_STAT_FIELDS = [
+    ("Hit Dice", "hit_dice"),
+    ("Initiative", "initiative"),
+    ("Speed", "speed"),
+    ("Armor Class", "armor_class"),
+    ("Base Attack/Grapple", "base_attack_grapple"),
+    ("Attack", "attack"),
+    ("Full Attack", "full_attack"),
+    ("Space/Reach", "space_reach"),
+    ("Special Attacks", "special_attacks"),
+    ("Special Qualities", "special_qualities"),
+    ("Saves", "saves"),
+    ("Abilities", "abilities"),
+    ("Skills", "skills"),
+    ("Feats", "feats"),
+    ("Environment", "environment"),
+    ("Organization", "organization"),
+    ("Challenge Rating", "challenge_rating"),
+    ("Treasure", "treasure"),
+    ("Alignment", "alignment"),
+    ("Advancement", "advancement"),
+    ("Level Adjustment", "level_adjustment"),
+]
+
+SKIP_MONSTER_IDS = {
+    "table-of-contents", "", "reading-the-entries",
+}
+
+
+def parse_monster_stat_table(table):
+    """Parse a monster stat block table. May contain multiple variants as columns."""
+    rows = table.find_all("tr")
+    if not rows:
+        return []
+
+    # First row: empty td + variant names in th
+    first_row = rows[0]
+    ths = first_row.find_all("th")
+    tds = first_row.find_all("td")
+
+    # Determine number of variants
+    if ths:
+        # Multi-variant: first row has th for each variant name
+        variant_names = [th.get_text(strip=True) for th in ths]
+        num_variants = len(variant_names)
+    else:
+        # Single monster: no th in first row
+        variant_names = []
+        num_variants = 1
+
+    # Second row should contain type (all td)
+    type_row_idx = 1 if ths else 0
+    variants = []
+
+    for vi in range(num_variants):
+        variants.append({"name": variant_names[vi] if variant_names else None})
+
+    # Parse remaining rows
+    for row in rows[type_row_idx:]:
+        row_ths = row.find_all("th")
+        row_tds = row.find_all("td")
+
+        if not row_tds:
+            continue
+
+        # If there's a th, it's a field label
+        if row_ths:
+            label = row_ths[0].get_text(strip=True).rstrip(":")
+            # Match to known fields
+            field_key = None
+            for html_label, key in MONSTER_STAT_FIELDS:
+                if label.lower() == html_label.lower():
+                    field_key = key
+                    break
+
+            if field_key:
+                for vi in range(min(num_variants, len(row_tds))):
+                    variants[vi][field_key] = row_tds[vi].get_text(strip=True)
+        else:
+            # No th = type row (or empty leading td + type tds)
+            real_tds = [td for td in row_tds if td.get_text(strip=True)]
+            for vi in range(min(num_variants, len(real_tds))):
+                if "type" not in variants[vi]:
+                    variants[vi]["type"] = real_tds[vi].get_text(strip=True)
+
+    return variants
+
+
+def parse_monster_entry(h_tag, stop_tags):
+    """Parse a single monster entry from its heading tag."""
+    slug = h_tag.get("id", "")
+    name = h_tag.get_text(strip=True)
+    siblings = get_siblings_until(h_tag, stop_tags)
+
+    # Find stat block table (first table after heading)
+    table = None
+    for sib in siblings:
+        if sib.name == "table":
+            table = sib
+            break
+
+    monsters = []
+    if table:
+        variants = parse_monster_stat_table(table)
+        for v in variants:
+            m = dict(v)
+            if not m.get("name"):
+                m["name"] = name
+            m["slug"] = re.sub(r"[^a-z0-9]+", "-", m["name"].lower()).strip("-")
+
+            # Build desc_html from siblings after the table
+            desc_parts = []
+            past_table = False
+            for sib in siblings:
+                if sib is table:
+                    past_table = True
+                    continue
+                if past_table:
+                    desc_parts.append(str(sib).strip())
+            m["desc_html"] = "\n".join(desc_parts) if desc_parts else None
+            monsters.append(m)
+    else:
+        # No stat table — probably a template or description-only entry
+        desc_html = siblings_to_html(siblings)
+        if desc_html:
+            monsters.append({
+                "name": name,
+                "slug": slug,
+                "type": None,
+                "desc_html": desc_html,
+            })
+
+    return monsters
+
+
+def parse_all_monsters():
+    all_monsters = []
+    seen_slugs = set()
+
+    for fname in MONSTER_FILES:
+        filepath = MONSTERS_DIR / fname
+        if not filepath.exists():
+            print(f"  Warning: {fname} not found, skipping")
+            continue
+        soup = load_soup(filepath)
+
+        for h2 in soup.find_all("h2"):
+            hid = h2.get("id", "")
+            if hid in SKIP_MONSTER_IDS:
+                continue
+            if h2.get_text(strip=True) == "Table of Contents":
+                continue
+
+            entries = parse_monster_entry(h2, {"h2"})
+            for m in entries:
+                # Deduplicate by slug
+                if m["slug"] and m["slug"] not in seen_slugs:
+                    seen_slugs.add(m["slug"])
+                    all_monsters.append(m)
+
+        print(f"  {fname}: {len(all_monsters)} total so far")
+
+    return all_monsters
+
+
+# ---------------------------------------------------------------------------
+# Rules (descriptive pages)
+# ---------------------------------------------------------------------------
+
+RULES_PAGES = [
+    ("basic-rules-and-legal", [
+        ("basics-and-ability-scores.html", "Regole Base e Punteggi Abilita"),
+        ("alignment-and-description.html", "Allineamento e Descrizione"),
+        ("carrying-movement-and-exploration.html", "Trasporto, Movimento ed Esplorazione"),
+        ("combat-i-basics.html", "Combattimento I — Basi"),
+        ("combat-ii-movement-modifiers-and-special-actions.html",
+         "Combattimento II — Movimento e Azioni Speciali"),
+        ("skills-i.html", "Abilita I"),
+        ("skills-ii.html", "Abilita II"),
+        ("special-abilities-and-conditions.html", "Abilita Speciali e Condizioni"),
+        ("special-materials.html", "Materiali Speciali"),
+        ("planes.html", "Piani"),
+        ("traps.html", "Trappole"),
+        ("treasure.html", "Tesori"),
+        ("wilderness-weather-and-environment.html", "Natura, Clima e Ambiente"),
+    ]),
+    ("magic-items", [
+        ("magic-items-i-basics-and-creation.html", "Oggetti Magici — Basi e Creazione"),
+        ("magic-items-ii-armor-and-weapons.html", "Oggetti Magici — Armature e Armi"),
+        ("magic-items-iii-potions-rings-and-rods.html",
+         "Oggetti Magici — Pozioni, Anelli e Verghe"),
+        ("magic-items-iv-scrolls-staffs-and-wands.html",
+         "Oggetti Magici — Pergamene, Bastoni e Bacchette"),
+        ("magic-items-v-wondrous-items.html", "Oggetti Magici — Oggetti Meravigliosi"),
+        ("magic-items-vi-intelligent-cursed-and-artifacts.html",
+         "Oggetti Magici — Intelligenti, Maledetti e Artefatti"),
+    ]),
+]
+
+
+def parse_all_rules():
+    rules = []
+    for directory, files in RULES_PAGES:
+        for fname, title in files:
+            fpath = REPO_ROOT / directory / fname
+            if not fpath.exists():
+                print(f"  Warning: {fpath} not found, skipping")
+                continue
+            soup = load_soup(fpath)
+            body = soup.find("body")
+            if not body:
+                continue
+
+            # Clean up: remove TOC, h1, OGL paragraph
+            toc = body.find("ul", id="table-of-contents")
+            if toc:
+                prev = toc.find_previous_sibling("h2")
+                if prev and prev.get_text(strip=True) == "Table of Contents":
+                    prev.decompose()
+                toc.decompose()
+            h1 = body.find("h1")
+            if h1:
+                h1.decompose()
+            for p in body.find_all("p"):
+                if "Open Game Content" in p.get_text():
+                    p.decompose()
+                    break
+
+            content = str(body).replace("<body>", "").replace("</body>", "").strip()
+            slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+
+            rules.append({
+                "name": title,
+                "slug": slug,
+                "source_file": f"{directory}/{fname}",
+                "desc_html": content,
+            })
+
+    return rules
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -527,6 +792,16 @@ def main():
         print("=== Parsing classes ===")
         data = parse_all_classes()
         write_json(data, "classes.json")
+
+    if what in ("all", "monsters"):
+        print("=== Parsing monsters ===")
+        data = parse_all_monsters()
+        write_json(data, "monsters.json")
+
+    if what in ("all", "rules"):
+        print("=== Parsing rules ===")
+        data = parse_all_rules()
+        write_json(data, "rules.json")
 
 
 if __name__ == "__main__":

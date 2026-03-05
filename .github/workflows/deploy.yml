@@ -28,7 +28,7 @@ jobs:
           mkdir -p _site/data _site/frontend
           cp index.html _site/
           cp frontend/style.css frontend/app.js _site/frontend/
-          cp data/spells.json data/feats.json data/races.json data/equipment.json data/classes.json _site/data/
+          cp data/spells.json data/feats.json data/races.json data/equipment.json data/classes.json data/monsters.json data/rules.json _site/data/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

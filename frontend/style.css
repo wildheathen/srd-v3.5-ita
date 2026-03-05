@@ -15,6 +15,8 @@
   --accent: #c4a35a;
   --accent-dim: #8a7340;
   --border: #2a2a4a;
+  --green: #66bb6a;
+  --red: #e57373;
 }
 
 body {
@@ -78,7 +80,7 @@ header h1 {
 
 #search-bar {
   padding: 0.75rem 1rem;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -106,6 +108,7 @@ header h1 {
   gap: 0.5rem;
   margin-top: 0.5rem;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 #filters select {
@@ -130,6 +133,63 @@ header h1 {
   align-self: center;
 }
 
+/* ── Level checkboxes ─────────────────────────────── */
+
+.level-checkboxes {
+  display: flex;
+  gap: 0.15rem;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 0.25rem;
+}
+
+.level-label {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-right: 0.3rem;
+}
+
+.level-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  font-size: 0.8rem;
+  color: var(--text);
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  transition: all 0.15s;
+}
+
+.level-check:has(input:checked) {
+  background: var(--accent-dim);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.level-check input {
+  display: none;
+}
+
+.level-toggle {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+.level-toggle:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
 /* ── Layout ───────────────────────────────────────── */
 
 main {
@@ -143,7 +203,7 @@ main {
 #results-list {
   flex: 1;
   min-width: 0;
-  max-height: calc(100vh - 220px);
+  max-height: calc(100vh - 260px);
   overflow-y: auto;
 }
 
@@ -183,6 +243,17 @@ main {
   border-left-color: var(--accent);
 }
 
+.result-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.result-text {
+  flex: 1;
+  min-width: 0;
+}
+
 .result-item .name {
   font-weight: 500;
 }
@@ -197,6 +268,135 @@ main {
   text-align: center;
   color: var(--text-dim);
   padding: 2rem;
+  line-height: 1.6;
+}
+
+/* ── Prepare button (in spell list) ───────────────── */
+
+.prep-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid var(--accent-dim);
+  background: transparent;
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+  line-height: 1;
+}
+
+.prep-btn:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.prep-btn-flash {
+  background: var(--green) !important;
+  border-color: var(--green) !important;
+  color: #fff !important;
+}
+
+/* ── Prepared spells tab ──────────────────────────── */
+
+.prepared-item {
+  cursor: default;
+  padding: 0.5rem 0.8rem;
+}
+
+.prepared-item .prep-name {
+  font-weight: 500;
+  cursor: pointer;
+  flex: 1;
+  min-width: 0;
+}
+
+.prepared-item .prep-name:hover {
+  color: var(--accent);
+}
+
+.prepared-item .prep-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.prepared-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.prepared-item.all-used {
+  opacity: 0.5;
+}
+
+.prep-counter,
+.prep-adjust {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.prep-usage {
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-width: 2.5rem;
+  text-align: center;
+  color: var(--green);
+}
+
+.prep-usage.exhausted {
+  color: var(--red);
+}
+
+.prep-label {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+}
+
+.counter-btn {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s;
+}
+
+.counter-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.remove-btn {
+  width: 22px;
+  height: 22px;
+  border: none;
+  background: none;
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-btn:hover {
+  color: var(--red);
 }
 
 /* ── Detail panel ─────────────────────────────────── */
@@ -289,5 +489,14 @@ main {
 
   #results-list {
     max-height: 40vh;
+  }
+
+  .prepared-item {
+    flex-wrap: wrap;
+  }
+
+  .prep-controls {
+    width: 100%;
+    justify-content: flex-end;
   }
 }
