@@ -1,0 +1,26 @@
+{
+  "SRD": {
+    "name_en": "System Reference Document v3.5",
+    "name_it": "System Reference Document v3.5",
+    "abbreviation": "SRD",
+    "abbreviation_it": "SRD"
+  },
+  "PHB": {
+    "name_en": "Player's Handbook",
+    "name_it": "Manuale del Giocatore",
+    "abbreviation": "PHB",
+    "abbreviation_it": "MdG"
+  },
+  "DMG": {
+    "name_en": "Dungeon Master's Guide",
+    "name_it": "Guida del Dungeon Master",
+    "abbreviation": "DMG",
+    "abbreviation_it": "GdDM"
+  },
+  "MM": {
+    "name_en": "Monster Manual",
+    "name_it": "Manuale dei Mostri",
+    "abbreviation": "MM",
+    "abbreviation_it": "MdM"
+  }
+}

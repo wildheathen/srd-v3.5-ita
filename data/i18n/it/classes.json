@@ -1,33 +1,141 @@
 [
-  {"slug": "barbarian", "name": "Barbaro"},
-  {"slug": "bard", "name": "Bardo"},
-  {"slug": "cleric", "name": "Chierico"},
-  {"slug": "druid", "name": "Druido"},
-  {"slug": "fighter", "name": "Guerriero"},
-  {"slug": "monk", "name": "Monaco"},
-  {"slug": "paladin", "name": "Paladino"},
-  {"slug": "ranger", "name": "Ranger"},
-  {"slug": "rogue", "name": "Ladro"},
-  {"slug": "sorcerer", "name": "Stregone"},
-  {"slug": "wizard", "name": "Mago"},
-  {"slug": "adept", "name": "Adepto"},
-  {"slug": "aristocrat", "name": "Aristocratico"},
-  {"slug": "commoner", "name": "Popolano"},
-  {"slug": "expert", "name": "Esperto"},
-  {"slug": "warrior", "name": "Guerriero PNG"},
-  {"slug": "arcane-archer", "name": "Arciere Arcano"},
-  {"slug": "arcane-trickster", "name": "Mistificatore Arcano"},
-  {"slug": "archmage", "name": "Arcimago"},
-  {"slug": "assassin", "name": "Assassino"},
-  {"slug": "blackguard", "name": "Cavaliere Nero"},
-  {"slug": "dragon-disciple", "name": "Discepolo del Drago"},
-  {"slug": "duelist", "name": "Duellante"},
-  {"slug": "dwarven-defender", "name": "Difensore Nanico"},
-  {"slug": "eldritch-knight", "name": "Cavaliere Mistico"},
-  {"slug": "hierophant", "name": "Ierofante"},
-  {"slug": "horizon-walker", "name": "Camminatore degli Orizzonti"},
-  {"slug": "loremaster", "name": "Maestro del Sapere"},
-  {"slug": "mystic-theurge", "name": "Teurgo Mistico"},
-  {"slug": "shadowdancer", "name": "Danzatore delle Ombre"},
-  {"slug": "thaumaturgist", "name": "Taumaturgo"}
+  {
+    "slug": "adept",
+    "name": "Adepto"
+  },
+  {
+    "slug": "arcane-archer",
+    "name": "Arciere Arcano"
+  },
+  {
+    "slug": "arcane-trickster",
+    "name": "Mistificatore Arcano",
+    "alignment": "Qualsiasi non legale."
+  },
+  {
+    "slug": "archmage",
+    "name": "Arcimago"
+  },
+  {
+    "slug": "aristocrat",
+    "name": "Aristocratico"
+  },
+  {
+    "slug": "assassin",
+    "name": "Assassino",
+    "alignment": "Qualsiasi malvagio."
+  },
+  {
+    "slug": "barbarian",
+    "name": "Barbaro",
+    "alignment": "Qualsiasi non legale."
+  },
+  {
+    "slug": "bard",
+    "name": "Bardo",
+    "alignment": "Qualsiasi non legale."
+  },
+  {
+    "slug": "blackguard",
+    "name": "Cavaliere Nero",
+    "alignment": "Qualsiasi malvagio."
+  },
+  {
+    "slug": "cleric",
+    "name": "Chierico",
+    "alignment": "A cleric’s alignment must be within one step of his deity’s (that is, it may be one\n      step away on either the legale–caotico axis or the buono–malvagio axis, but not both). A cleric may not be neutrale\n      unless his deity’s alignment is also neutrale."
+  },
+  {
+    "slug": "commoner",
+    "name": "Popolano"
+  },
+  {
+    "slug": "dragon-disciple",
+    "name": "Discepolo del Drago"
+  },
+  {
+    "slug": "druid",
+    "name": "Druido",
+    "alignment": "Neutral buono, legale neutrale, neutrale, caotico neutrale, or neutrale malvagio."
+  },
+  {
+    "slug": "duelist",
+    "name": "Duellante"
+  },
+  {
+    "slug": "dwarven-defender",
+    "name": "Difensore Nanico",
+    "alignment": "Qualsiasi legale."
+  },
+  {
+    "slug": "eldritch-knight",
+    "name": "Cavaliere Mistico"
+  },
+  {
+    "slug": "expert",
+    "name": "Esperto"
+  },
+  {
+    "slug": "fighter",
+    "name": "Guerriero",
+    "alignment": "Qualsiasi."
+  },
+  {
+    "slug": "hierophant",
+    "name": "Ierofante"
+  },
+  {
+    "slug": "horizon-walker",
+    "name": "Camminatore degli Orizzonti"
+  },
+  {
+    "slug": "loremaster",
+    "name": "Maestro del Sapere"
+  },
+  {
+    "slug": "monk",
+    "name": "Monaco",
+    "alignment": "Qualsiasi legale."
+  },
+  {
+    "slug": "mystic-theurge",
+    "name": "Teurgo Mistico"
+  },
+  {
+    "slug": "paladin",
+    "name": "Paladino",
+    "alignment": "Legale buono."
+  },
+  {
+    "slug": "ranger",
+    "name": "Ranger",
+    "alignment": "Qualsiasi."
+  },
+  {
+    "slug": "rogue",
+    "name": "Ladro",
+    "alignment": "Qualsiasi."
+  },
+  {
+    "slug": "shadowdancer",
+    "name": "Danzatore delle Ombre"
+  },
+  {
+    "slug": "sorcerer",
+    "name": "Stregone",
+    "alignment": "Qualsiasi."
+  },
+  {
+    "slug": "thaumaturgist",
+    "name": "Taumaturgo"
+  },
+  {
+    "slug": "warrior",
+    "name": "Guerriero PNG"
+  },
+  {
+    "slug": "wizard",
+    "name": "Mago",
+    "alignment": "Qualsiasi."
+  }
 ]

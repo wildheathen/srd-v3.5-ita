@@ -516,6 +516,149 @@ main {
   margin: 1rem 0 0.4rem;
 }
 
+/* ── Source badge ─────────────────────────────────── */
+
+.source-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  background: var(--accent-dim);
+  color: var(--text);
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+/* ── Translation status dashboard ────────────────── */
+
+.status-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.status-overall {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.status-overall h3 {
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.status-overall .status-pct {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.status-bar-outer {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  height: 18px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.status-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 5px;
+  transition: width 0.3s;
+}
+
+.status-bar-fill.complete {
+  background: var(--green);
+}
+
+.status-category {
+  margin-bottom: 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.status-cat-header {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.status-cat-header:hover {
+  background: var(--bg-hover);
+}
+
+.status-cat-header .cat-pct {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.status-cat-body {
+  padding: 0 1rem 0.75rem;
+  display: none;
+}
+
+.status-category.open .status-cat-body {
+  display: block;
+}
+
+.status-field-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.3rem 0;
+  font-size: 0.85rem;
+}
+
+.status-field-row .field-name {
+  width: 140px;
+  flex-shrink: 0;
+  color: var(--text-dim);
+}
+
+.status-field-row .field-bar {
+  flex: 1;
+  height: 12px;
+  background: var(--bg);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.status-field-row .field-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 4px;
+}
+
+.status-field-row .field-bar-fill.complete {
+  background: var(--green);
+}
+
+.status-field-row .field-stats {
+  width: 110px;
+  flex-shrink: 0;
+  text-align: right;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+.status-generated {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
+
 /* ── Loading ──────────────────────────────────────── */
 
 .loading {

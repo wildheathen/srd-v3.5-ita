@@ -1,0 +1,350 @@
+#!/usr/bin/env python3
+"""Generate Italian translations for D&D 3.5 SRD equipment."""
+
+import json
+import os
+
+# Official Italian D&D 3.5 equipment names
+WEAPON_MAP = {
+    "Gauntlet": "Guanto",
+    "Unarmed strike": "Colpo senz'armi",
+    "Dagger": "Pugnale",
+    "Dagger, punching": "Pugnale da presa",
+    "Gauntlet, spiked": "Guanto chiodato",
+    "Mace, light": "Mazza leggera",
+    "Sickle": "Falcetto",
+    "Club": "Randello",
+    "Mace, heavy": "Mazza pesante",
+    "Morningstar": "Stella del mattino",
+    "Shortspear": "Lancia corta",
+    "Longspear4": "Lancia lunga",
+    "Quarterstaff5": "Bastone ferrato",
+    "Spear": "Lancia",
+    "Crossbow, heavy": "Balestra pesante",
+    "Bolts, crossbow (10)": "Quadrelli da balestra (10)",
+    "Crossbow, light": "Balestra leggera",
+    "Dart": "Dardo",
+    "Javelin": "Giavellotto",
+    "Sling": "Fionda",
+    "Bullets, sling (10)": "Proiettili da fionda (10)",
+    "Axe, throwing": "Ascia da lancio",
+    "Hammer, light": "Martello leggero",
+    "Handaxe": "Accetta",
+    "Kukri": "Kukri",
+    "Pick, light": "Piccone leggero",
+    "Sap": "Manganello",
+    "Shield, light": "Scudo leggero",
+    "Spiked armor": "Armatura chiodata",
+    "Spiked shield, light": "Scudo leggero chiodato",
+    "Sword, short": "Spada corta",
+    "Battleaxe": "Ascia da battaglia",
+    "Flail": "Mazzafrusto",
+    "Longsword": "Spada lunga",
+    "Pick, heavy": "Piccone pesante",
+    "Rapier": "Stocco",
+    "Scimitar": "Scimitarra",
+    "Shield, heavy": "Scudo pesante",
+    "Spiked shield, heavy": "Scudo pesante chiodato",
+    "Trident": "Tridente",
+    "Warhammer": "Martello da guerra",
+    "Falchion": "Falcione",
+    "Glaive4": "Falcione d'armi",
+    "Greataxe": "Ascia bipenne",
+    "Greatclub": "Randello pesante",
+    "Flail, heavy": "Mazzafrusto pesante",
+    "Greatsword": "Spadone",
+    "Guisarme4": "Guisarma",
+    "Halberd": "Alabarda",
+    "Lance4": "Lancia da cavaliere",
+    "Ranseur4": "Ranseur",
+    "Scythe": "Falce",
+    "Longbow": "Arco lungo",
+    "Arrows (20)": "Frecce (20)",
+    "Longbow, composite": "Arco lungo composito",
+    "Shortbow": "Arco corto",
+    "Shortbow, composite": "Arco corto composito",
+    "Kama": "Kama",
+    "Nunchaku": "Nunchaku",
+    "Sai": "Sai",
+    "Siangham": "Siangham",
+    "Sword, bastard": "Spada bastarda",
+    "Waraxe, dwarven": "Ascia da guerra nanica",
+    "Whip4": "Frusta",
+    "Axe, orc double5": "Ascia doppia orchesca",
+    "Chain, spiked4": "Catena chiodata",
+    "Flail, dire5": "Mazzafrusto doppio",
+    "Hammer,gnome hooked5": "Martello-uncino gnomesco",
+    "Sword, two-bladed5": "Spada a due lame",
+    "Urgrosh, dwarven5": "Urgrosh nanico",
+    "Bolas": "Bolas",
+    "Crossbow, hand": "Balestra a mano",
+    "Bolts (10)": "Quadrelli (10)",
+    "Crossbow,repeating heavy": "Balestra pesante a ripetizione",
+    "Bolts (5)": "Quadrelli (5)",
+    "Crossbow,repeating light": "Balestra leggera a ripetizione",
+    "Net": "Rete",
+    "Shuriken (5)": "Shuriken (5)",
+}
+
+ARMOR_MAP = {
+    "Light armor": "Armatura leggera",
+    "Padded": "Imbottita",
+    "Leather": "Cuoio",
+    "Studded leather": "Cuoio borchiato",
+    "Chain shirt": "Giaco di maglia",
+    "Medium armor": "Armatura media",
+    "Hide": "Pelle",
+    "Scale mail": "Corazza di scaglie",
+    "Chainmail": "Cotta di maglia",
+    "Breastplate": "Corazza",
+    "Heavy armor": "Armatura pesante",
+    "Splint mail": "Corazza di bande",
+    "Banded mail": "Corazza a strisce",
+    "Half-plate": "Mezza armatura",
+    "Full plate": "Armatura completa",
+    "Shields": "Scudi",
+    "Buckler": "Brocchiere",
+    "Shield, light wooden": "Scudo leggero di legno",
+    "Shield, light steel": "Scudo leggero d'acciaio",
+    "Shield, heavy wooden": "Scudo pesante di legno",
+    "Shield, heavy steel": "Scudo pesante d'acciaio",
+    "Shield, tower": "Scudo torre",
+    "Extras": "Extra",
+    "Armor spikes": "Spuntoni per armatura",
+    "Gauntlet, locked": "Guanto bloccato",
+    "Shield spikes": "Spuntoni per scudo",
+}
+
+GOODS_MAP = {
+    "Backpack (empty)": "Zaino (vuoto)",
+    "Barrel (empty)": "Barile (vuoto)",
+    "Basket (empty)": "Cestino (vuoto)",
+    "Bedroll": "Sacco a pelo",
+    "Bell": "Campanella",
+    "Blanket, winter": "Coperta invernale",
+    "Block and tackle": "Paranco",
+    "Bottle, wine, glass": "Bottiglia di vetro per vino",
+    "Bucket (empty)": "Secchio (vuoto)",
+    "Caltrops": "Triboli",
+    "Candle": "Candela",
+    "Canvas (sq. yd.)": "Tela (mq)",
+    "Case, map or scroll": "Astuccio per mappe o pergamene",
+    "Chain (10 ft.)": "Catena (3 m)",
+    "Chalk, 1 piece": "Gesso, 1 pezzo",
+    "Chest (empty)": "Forziere (vuoto)",
+    "Crowbar": "Piede di porco",
+    "Firewood (per day)": "Legna da ardere (al giorno)",
+    "Fishhook": "Amo da pesca",
+    "Fishing net, 25 sq. ft.": "Rete da pesca, 2,5 mq",
+    "Flask (empty)": "Fiaschetta (vuota)",
+    "Flint and steel": "Acciarino e pietra focaia",
+    "Grappling hook": "Rampino",
+    "Hammer": "Martello",
+    "Ink (1 oz. vial)": "Inchiostro (fiala da 30 ml)",
+    "Inkpen": "Penna a inchiostro",
+    "Jug, clay": "Brocca di terracotta",
+    "Ladder, 10-foot": "Scala, 3 metri",
+    "Lamp, common": "Lampada comune",
+    "Lantern, bullseye": "Lanterna schermata",
+    "Lantern, hooded": "Lanterna con cappuccio",
+    "Lock": "Serratura",
+    "Very simple": "Molto semplice",
+    "Average": "Media",
+    "Good": "Buona",
+    "Amazing": "Eccezionale",
+    "Manacles": "Manette",
+    "Manacles, masterwork": "Manette di qualità superiore",
+    "Mirror, small steel": "Specchio piccolo d'acciaio",
+    "Mug/Tankard, clay": "Boccale di terracotta",
+    "Oil (1-pint flask)": "Olio (fiasca da mezzo litro)",
+    "Paper (sheet)": "Carta (foglio)",
+    "Parchment (sheet)": "Pergamena (foglio)",
+    "Pick, miner's": "Piccone da minatore",
+    "Pitcher, clay": "Brocca di terracotta",
+    "Piton": "Chiodo da roccia",
+    "Pole, 10-foot": "Pertica, 3 metri",
+    "Pot, iron": "Pentola di ferro",
+    "Pouch, belt (empty)": "Borsa da cintura (vuota)",
+    "Ram, portable": "Ariete portatile",
+    "Rations, trail (per day)": "Razioni da viaggio (al giorno)",
+    "Rope, hempen (50 ft.)": "Corda di canapa (15 m)",
+    "Rope, silk (50 ft.)": "Corda di seta (15 m)",
+    "Sack (empty)": "Sacco (vuoto)",
+    "Sealing wax": "Ceralacca",
+    "Sewing needle": "Ago da cucito",
+    "Signal whistle": "Fischietto",
+    "Signet ring": "Anello con sigillo",
+    "Sledge": "Mazza da fabbro",
+    "Soap (per lb.)": "Sapone (per libbra)",
+    "Spade or shovel": "Vanga o pala",
+    "Spyglass": "Cannocchiale",
+    "Tent": "Tenda",
+    "Torch": "Torcia",
+    "Vial, ink or potion": "Fiala per inchiostro o pozione",
+    "Waterskin": "Otre",
+    "Whetstone": "Pietra per affilare",
+    "Acid (flask)": "Acido (fiasca)",
+    "Alchemist's fire (flask)": "Fuoco dell'alchimista (fiasca)",
+    "Antitoxin (vial)": "Antitossina (fiala)",
+    "Everburning torch": "Torcia perenne",
+    "Holy water (flask)": "Acqua santa (fiasca)",
+    "Smokestick": "Bastone fumogeno",
+    "Sunrod": "Bastoncino solare",
+    "Tanglefoot bag": "Borsa intralciante",
+    "Thunderstone": "Pietra del tuono",
+    "Tindertwig": "Ramoscello incendiario",
+    "Alchemist's lab": "Laboratorio da alchimista",
+    "Artisan's tools": "Attrezzi da artigiano",
+    "Artisan's tools, masterwork": "Attrezzi da artigiano di qualità superiore",
+    "Climber's kit": "Kit da scalatore",
+    "Disguise kit": "Kit per travestimento",
+    "Healer's kit": "Kit da guaritore",
+    "Holly and mistletoe": "Agrifoglio e vischio",
+    "Holy symbol, wooden": "Simbolo sacro di legno",
+    "Holy symbol, silver": "Simbolo sacro d'argento",
+    "Hourglass": "Clessidra",
+    "Magnifying glass": "Lente d'ingrandimento",
+    "Musical instrument, common": "Strumento musicale comune",
+    "Musical instrument, masterwork": "Strumento musicale di qualità superiore",
+    "Scale, merchant's": "Bilancia da mercante",
+    "Spell component pouch": "Borsa per componenti",
+    "Spellbook, wizard's (blank)": "Libro degli incantesimi (vuoto)",
+    "Thieves' tools": "Attrezzi da scasso",
+    "Thieves' tools, masterwork": "Attrezzi da scasso di qualità superiore",
+    "Tool, masterwork": "Attrezzo di qualità superiore",
+    "Water clock": "Orologio ad acqua",
+    "Artisan's outfit": "Abito da artigiano",
+    "Cleric's vestments": "Paramenti clericali",
+    "Cold weather outfit": "Abito per climi freddi",
+    "Courtier's outfit": "Abito da cortigiano",
+    "Entertainer's outfit": "Abito da intrattenitore",
+    "Explorer's outfit": "Abito da esploratore",
+    "Monk's outfit": "Abito da monaco",
+    "Noble's outfit": "Abito da nobile",
+    "Peasant's outfit": "Abito da contadino",
+    "Royal outfit": "Abito reale",
+    "Scholar's outfit": "Abito da studioso",
+    "Traveler's outfit": "Abito da viaggio",
+    "Ale": "Birra",
+    "Gallon": "Gallone",
+    "Mug": "Boccale",
+    "Banquet (per person)": "Banchetto (a persona)",
+    "Bread, per loaf": "Pane, per pagnotta",
+    "Cheese, hunk of": "Formaggio, pezzo",
+    "Inn stay (per day)": "Soggiorno alla locanda (al giorno)",
+    "Common": "Comune",
+    "Poor": "Scadente",
+    "Meals (per day)": "Pasti (al giorno)",
+    "Meat, chunk of": "Carne, pezzo",
+    "Wine": "Vino",
+    "Common (pitcher)": "Comune (brocca)",
+    "Fine (bottle)": "Pregiato (bottiglia)",
+    "Barding": "Barda",
+    "Medium creature": "Creatura media",
+    "Large creature": "Creatura grande",
+    "Bit and bridle": "Morso e briglie",
+    "Dog, guard": "Cane da guardia",
+    "Dog, riding": "Cane da sella",
+    "Donkey or mule": "Asino o mulo",
+    "Feed (per day)": "Mangime (al giorno)",
+    "Horse": "Cavallo",
+    "Horse, heavy": "Cavallo pesante",
+    "Horse, light": "Cavallo leggero",
+    "Pony": "Pony",
+    "Warhorse, heavy": "Destriero pesante",
+    "Warhorse, light": "Destriero leggero",
+    "Warpony": "Pony da guerra",
+    "Saddle": "Sella",
+    "Military": "Militare",
+    "Pack": "Da soma",
+    "Riding": "Da cavalcatura",
+    "Saddle, Exotic": "Sella esotica",
+    "Saddlebags": "Bisacce da sella",
+    "Stabling (per day)": "Stalla (al giorno)",
+    "Carriage": "Carrozza",
+    "Cart": "Carro",
+    "Galley": "Galea",
+    "Keelboat": "Barca a chiglia",
+    "Longship": "Drakkar",
+    "Rowboat": "Barca a remi",
+    "Oar": "Remo",
+    "Sailing ship": "Veliero",
+    "Sled": "Slitta",
+    "Wagon": "Carro da trasporto",
+    "Warship": "Nave da guerra",
+    "Coach cab": "Carrozza a noleggio",
+    "Hireling, trained": "Mercenario addestrato",
+    "Hireling, untrained": "Mercenario non addestrato",
+    "Messenger": "Messaggero",
+    "Road or gate toll": "Pedaggio stradale o di porta",
+    "Ship's passage": "Passaggio su nave",
+    "Spell, 0-level": "Incantesimo, livello 0",
+    "Spell, 1st-level": "Incantesimo, livello 1",
+    "Spell, 2nd-level": "Incantesimo, livello 2",
+    "Spell, 3rd-level": "Incantesimo, livello 3",
+    "Spell, 4th-level": "Incantesimo, livello 4",
+    "Spell, 5th-level": "Incantesimo, livello 5",
+    "Spell, 6th-level": "Incantesimo, livello 6",
+    "Spell, 7th-level": "Incantesimo, livello 7",
+    "Spell, 8th-level": "Incantesimo, livello 8",
+    "Spell, 9th-level": "Incantesimo, livello 9",
+}
+
+CATEGORY_MAP = {
+    "weapon": "arma",
+    "armor": "armatura",
+    "goods": "beni",
+}
+
+# Merge all name maps
+NAME_MAP = {}
+NAME_MAP.update(WEAPON_MAP)
+NAME_MAP.update(ARMOR_MAP)
+NAME_MAP.update(GOODS_MAP)
+
+
+def main():
+    with open("data/equipment.json", encoding="utf-8") as f:
+        equipment = json.load(f)
+
+    result = []
+    missing = []
+
+    for item in equipment:
+        name_en = item["name"]
+        slug = item["slug"]
+        cat = item.get("_category") or item.get("category", "")
+
+        # Normalize curly apostrophes for lookup
+        name_lookup = name_en.replace("\u2019", "'")
+        name_it = NAME_MAP.get(name_lookup)
+        if name_it is None:
+            missing.append(name_en)
+            continue  # skip items without translation
+
+        entry = {
+            "slug": slug,
+            "name": name_it,
+        }
+
+        cat_it = CATEGORY_MAP.get(cat)
+        if cat_it:
+            entry["category"] = cat_it
+
+        result.append(entry)
+
+    if missing:
+        print(f"WARNING: {len(missing)} items without Italian translation:")
+        for m in missing:
+            print(f"  - {m}")
+
+    os.makedirs("data/i18n/it", exist_ok=True)
+    with open("data/i18n/it/equipment.json", "w", encoding="utf-8") as f:
+        json.dump(result, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+    print(f"Written {len(result)} equipment translations to data/i18n/it/equipment.json")
+
+
+if __name__ == "__main__":
+    main()

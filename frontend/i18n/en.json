@@ -88,6 +88,20 @@
 
   "meta.hit_die": "Hit Die: ${value}",
 
+  "tab.translation_status": "Translation Status",
+
+  "status.title": "Italian Translation Status",
+  "status.overall": "Overall Completion",
+  "status.category": "Category",
+  "status.field": "Field",
+  "status.translated": "Translated",
+  "status.total": "Total",
+  "status.percent": "Percent",
+  "status.generated": "Generated on",
+  "status.entries": "entries",
+
+  "source.label": "Source",
+
   "lang.it": "Italiano",
   "lang.en": "English"
 }

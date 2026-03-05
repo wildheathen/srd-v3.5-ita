@@ -10,6 +10,7 @@ const filtersDiv = document.getElementById('filters');
 let currentTab = 'spells';
 let dataCache = {};
 let debounceTimer = null;
+let sourcesData = null;
 
 // ── Prepared spells (localStorage) ───────────────────────────────────────
 
@@ -104,7 +105,7 @@ document.querySelectorAll('.tab').forEach((btn) => {
     currentTab = btn.dataset.tab;
     searchInput.value = '';
     detailPanel.classList.add('hidden');
-    searchInput.style.display = currentTab === 'prepared' ? 'none' : '';
+    searchInput.style.display = (currentTab === 'prepared' || currentTab === 'translation-status') ? 'none' : '';
     buildFilters();
     renderResults();
   });
@@ -146,6 +147,7 @@ function updateTabLabels() {
     equipment: 'tab.equipment',
     monsters: 'tab.monsters',
     rules: 'tab.rules',
+    'translation-status': 'tab.translation_status',
   };
   document.querySelectorAll('.tab').forEach((btn) => {
     const key = tabMap[btn.dataset.tab];
@@ -323,6 +325,12 @@ async function renderResults() {
   // Special handling for prepared tab
   if (currentTab === 'prepared') {
     renderPreparedList();
+    return;
+  }
+
+  // Special handling for translation status tab
+  if (currentTab === 'translation-status') {
+    renderTranslationStatus();
     return;
   }
 
@@ -592,7 +600,7 @@ function renderSpell(s) {
     [t('detail.spell.saving_throw'), s.saving_throw],
     [t('detail.spell.spell_resistance'), s.spell_resistance],
   ];
-  return `<h2>${esc(s.name)}</h2>` + renderFields(fields) + renderDesc(s.desc_html);
+  return `<h2>${esc(s.name)}${renderSourceBadge(s)}</h2>` + renderFields(fields) + renderDesc(s.desc_html);
 }
 
 function renderFeat(f) {
@@ -603,7 +611,7 @@ function renderFeat(f) {
     [t('detail.feat.normal'), f.normal],
     [t('detail.feat.special'), f.special],
   ];
-  return `<h2>${esc(f.name)}</h2>` + renderFields(fields) + renderDesc(f.desc_html);
+  return `<h2>${esc(f.name)}${renderSourceBadge(f)}</h2>` + renderFields(fields) + renderDesc(f.desc_html);
 }
 
 function renderClass(c) {
@@ -611,7 +619,7 @@ function renderClass(c) {
     [t('detail.class.hit_die'), c.hit_die],
     [t('detail.class.alignment'), c.alignment],
   ];
-  let html = `<h2>${esc(c.name)}</h2>` + renderFields(fields);
+  let html = `<h2>${esc(c.name)}${renderSourceBadge(c)}</h2>` + renderFields(fields);
   if (c.table_html) {
     html += `<div class="desc-html">${c.table_html}</div>`;
   }
@@ -620,7 +628,7 @@ function renderClass(c) {
 }
 
 function renderRace(r) {
-  let html = `<h2>${esc(r.name)}</h2>`;
+  let html = `<h2>${esc(r.name)}${renderSourceBadge(r)}</h2>`;
   if (r.traits && r.traits.length) {
     html += '<div class="desc-html"><ul>';
     html += r.traits.map((tr) => `<li>${tr}</li>`).join('');
@@ -631,12 +639,12 @@ function renderRace(r) {
 }
 
 function renderEquipment(e) {
-  let html = `<h2>${esc(e.name)}</h2>`;
+  let html = `<h2>${esc(e.name)}${renderSourceBadge(e)}</h2>`;
   const cat = e._category || e.category || '';
   const catLabel = cat === 'weapon' ? t('cat.weapon') : cat === 'armor' ? t('cat.armor') : cat === 'goods' ? t('cat.goods') : cat;
   html += `<div class="field"><span class="field-label">${t('detail.equip.category')}</span><div class="field-value">${esc(catLabel)}</div></div>`;
 
-  const skip = new Set(['name', 'slug', '_category', 'category', 'desc_html']);
+  const skip = new Set(['name', 'slug', '_category', 'category', 'desc_html', 'source']);
   const entries = Object.entries(e).filter(([k]) => !skip.has(k));
   for (const [key, val] of entries) {
     if (val) {
@@ -671,11 +679,102 @@ function renderMonster(m) {
     [t('detail.monster.advancement'), m.advancement],
     [t('detail.monster.level_adjustment'), m.level_adjustment],
   ];
-  return `<h2>${esc(m.name)}</h2>` + renderFields(fields) + renderDesc(m.desc_html);
+  return `<h2>${esc(m.name)}${renderSourceBadge(m)}</h2>` + renderFields(fields) + renderDesc(m.desc_html);
 }
 
 function renderRules(r) {
-  return `<h2>${esc(r.name)}</h2>` + renderDesc(r.desc_html);
+  return `<h2>${esc(r.name)}${renderSourceBadge(r)}</h2>` + renderDesc(r.desc_html);
+}
+
+// ── Source badge ─────────────────────────────────────────────────────────
+
+function renderSourceBadge(item) {
+  if (!item.source) return '';
+  let label = item.source;
+  if (sourcesData && sourcesData[item.source]) {
+    const lang = getCurrentLang();
+    const src = sourcesData[item.source];
+    label = src['abbreviation_' + lang] || src.abbreviation || item.source;
+  }
+  return `<span class="source-badge">${esc(label)}</span>`;
+}
+
+async function loadSources() {
+  try {
+    const res = await fetch(`${DATA_BASE}/sources.json`);
+    if (res.ok) sourcesData = await res.json();
+  } catch {}
+}
+
+// ── Translation status dashboard ────────────────────────────────────────
+
+async function renderTranslationStatus() {
+  detailPanel.classList.add('hidden');
+  resultsList.innerHTML = `<div class="loading">${t('msg.loading')}</div>`;
+
+  try {
+    const res = await fetch(`${DATA_BASE}/translation-status.json`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    renderStatusDashboard(data);
+  } catch (err) {
+    resultsList.innerHTML = `<div class="no-results">Translation status data not available.</div>`;
+  }
+}
+
+function renderStatusDashboard(data) {
+  const s = data.summary;
+  const overallPct = s.overall_percent.toFixed(1);
+  const barClass = s.overall_percent >= 100 ? 'complete' : '';
+
+  let html = `<div class="status-dashboard">`;
+  html += `<div class="status-overall">`;
+  html += `<h3>${t('status.overall')}</h3>`;
+  html += `<div class="status-pct">${overallPct}%</div>`;
+  html += `<div class="status-bar-outer"><div class="status-bar-fill ${barClass}" style="width:${overallPct}%"></div></div>`;
+  html += `<div style="margin-top:0.3rem;color:var(--text-dim);font-size:0.85rem">${s.translated_fields} / ${s.total_fields} ${t('status.field').toLowerCase()}</div>`;
+  html += `</div>`;
+
+  const cats = data.categories;
+  for (const [catName, cat] of Object.entries(cats)) {
+    const fields = cat.fields;
+    const fieldKeys = Object.keys(fields);
+    const catTranslated = fieldKeys.reduce((acc, k) => acc + fields[k].translated, 0);
+    const catTotal = fieldKeys.reduce((acc, k) => acc + fields[k].total, 0);
+    const catPct = catTotal > 0 ? ((catTranslated / catTotal) * 100).toFixed(1) : '0.0';
+
+    html += `<div class="status-category" data-cat="${esc(catName)}">`;
+    html += `<div class="status-cat-header" onclick="this.parentElement.classList.toggle('open')">`;
+    html += `<span>${esc(catName.toUpperCase())} — ${cat.total} ${t('status.entries')}</span>`;
+    html += `<span class="cat-pct">${catPct}%</span>`;
+    html += `</div>`;
+    html += `<div class="status-cat-body">`;
+
+    for (const [fieldName, f] of Object.entries(fields)) {
+      const pct = f.percent.toFixed(1);
+      const fillClass = f.percent >= 100 ? 'complete' : '';
+      html += `<div class="status-field-row">`;
+      html += `<span class="field-name">${esc(fieldName)}</span>`;
+      html += `<div class="field-bar"><div class="field-bar-fill ${fillClass}" style="width:${pct}%"></div></div>`;
+      html += `<span class="field-stats">${f.translated}/${f.total} (${pct}%)</span>`;
+      html += `</div>`;
+    }
+
+    html += `</div></div>`;
+  }
+
+  if (data.generated_at) {
+    html += `<div class="status-generated">${t('status.generated')}: ${data.generated_at}</div>`;
+  }
+
+  html += `</div>`;
+  resultsList.innerHTML = html;
+
+  // Auto-open categories with <100%
+  resultsList.querySelectorAll('.status-category').forEach((el) => {
+    const pctText = el.querySelector('.cat-pct').textContent;
+    if (parseFloat(pctText) < 100) el.classList.add('open');
+  });
 }
 
 // ── Render helpers ───────────────────────────────────────────────────────
@@ -705,6 +804,7 @@ function esc(str) {
 
 async function initApp() {
   await loadI18n();
+  await loadSources();
   updateTabLabels();
   searchInput.placeholder = t('search.placeholder');
   initLangSwitcher();

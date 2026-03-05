@@ -1,112 +1,631 @@
 [
-  {"slug": "acrobatic", "name": "Acrobatico", "type": "Generale"},
-  {"slug": "agile", "name": "Agile", "type": "Generale"},
-  {"slug": "alertness", "name": "Allerta", "type": "Generale"},
-  {"slug": "animal-affinity", "name": "Affinità Animale", "type": "Generale"},
-  {"slug": "feat-descriptions--armor-proficiency-heavy", "name": "Competenza nelle Armature Pesanti", "type": "Generale"},
-  {"slug": "feat-descriptions--armor-proficiency-light", "name": "Competenza nelle Armature Leggere", "type": "Generale"},
-  {"slug": "armor-proficiency-medium", "name": "Competenza nelle Armature Medie", "type": "Generale"},
-  {"slug": "athletic", "name": "Atletico", "type": "Generale"},
-  {"slug": "augment-summoning", "name": "Evocazione Potenziata", "type": "Generale"},
-  {"slug": "blind-fight", "name": "Combattere alla Cieca", "type": "Generale"},
-  {"slug": "brew-potion", "name": "Creare Pozioni", "type": "Creazione Oggetti"},
-  {"slug": "cleave", "name": "Fendente", "type": "Generale"},
-  {"slug": "combat-casting", "name": "Lanciare in Combattimento", "type": "Generale"},
-  {"slug": "combat-expertise", "name": "Competenza in Combattimento", "type": "Generale"},
-  {"slug": "combat-reflexes", "name": "Riflessi in Combattimento", "type": "Generale"},
-  {"slug": "craft-magic-arms-and-armor", "name": "Creare Armi e Armature Magiche", "type": "Creazione Oggetti"},
-  {"slug": "craft-rod", "name": "Creare Verghe", "type": "Creazione Oggetti"},
-  {"slug": "craft-staff", "name": "Creare Bastoni", "type": "Creazione Oggetti"},
-  {"slug": "craft-wand", "name": "Creare Bacchette", "type": "Creazione Oggetti"},
-  {"slug": "craft-wondrous-item", "name": "Creare Oggetti Meravigliosi", "type": "Creazione Oggetti"},
-  {"slug": "deceitful", "name": "Ingannevole", "type": "Generale"},
-  {"slug": "deflect-arrows", "name": "Deviare Frecce", "type": "Generale"},
-  {"slug": "deft-hands", "name": "Mani Abili", "type": "Generale"},
-  {"slug": "diehard", "name": "Duro a Morire", "type": "Generale"},
-  {"slug": "diligent", "name": "Diligente", "type": "Generale"},
-  {"slug": "dodge", "name": "Schivare", "type": "Generale"},
-  {"slug": "empower-spell", "name": "Incantesimi Potenziati", "type": "Metamagico"},
-  {"slug": "endurance", "name": "Resistenza Fisica", "type": "Generale"},
-  {"slug": "enlarge-spell", "name": "Incantesimi Estesi", "type": "Metamagico"},
-  {"slug": "eschew-materials", "name": "Senza Materiali", "type": "Generale"},
-  {"slug": "exotic-weapon-proficiency", "name": "Competenza nelle Armi Esotiche", "type": "Generale"},
-  {"slug": "extend-spell", "name": "Incantesimi Prolungati", "type": "Metamagico"},
-  {"slug": "extra-turning", "name": "Scacciare Extra", "type": "Generale"},
-  {"slug": "far-shot", "name": "Tiro Lontano", "type": "Generale"},
-  {"slug": "forge-ring", "name": "Forgiare Anelli", "type": "Creazione Oggetti"},
-  {"slug": "great-cleave", "name": "Grande Fendente", "type": "Generale"},
-  {"slug": "great-fortitude", "name": "Grande Tempra", "type": "Generale"},
-  {"slug": "greater-spell-focus", "name": "Focalizzazione Magica Superiore", "type": "Generale"},
-  {"slug": "greater-spell-penetration", "name": "Penetrazione Magica Superiore", "type": "Generale"},
-  {"slug": "greater-two-weapon-fighting", "name": "Combattere con Due Armi Superiore", "type": "Generale"},
-  {"slug": "greater-weapon-focus", "name": "Focalizzazione sull'Arma Superiore", "type": "Generale"},
-  {"slug": "greater-weapon-specialization", "name": "Specializzazione sull'Arma Superiore", "type": "Generale"},
-  {"slug": "heighten-spell", "name": "Incantesimi Intensificati", "type": "Metamagico"},
-  {"slug": "improved-bull-rush", "name": "Spinta Migliorata", "type": "Generale"},
-  {"slug": "improved-counterspell", "name": "Controincantesimo Migliorato", "type": "Generale"},
-  {"slug": "improved-critical", "name": "Critico Migliorato", "type": "Generale"},
-  {"slug": "improved-disarm", "name": "Disarmare Migliorato", "type": "Generale"},
-  {"slug": "improved-familiar", "name": "Famiglio Migliorato", "type": "Generale"},
-  {"slug": "improved-feint", "name": "Finta Migliorata", "type": "Generale"},
-  {"slug": "improved-grapple", "name": "Lottare Migliorato", "type": "Generale"},
-  {"slug": "improved-initiative", "name": "Iniziativa Migliorata", "type": "Generale"},
-  {"slug": "improved-overrun", "name": "Travolgere Migliorato", "type": "Generale"},
-  {"slug": "improved-precise-shot", "name": "Tiro Preciso Migliorato", "type": "Generale"},
-  {"slug": "improved-shield-bash", "name": "Colpo di Scudo Migliorato", "type": "Generale"},
-  {"slug": "improved-sunder", "name": "Spezzare Migliorato", "type": "Generale"},
-  {"slug": "improved-trip", "name": "Sgambetto Migliorato", "type": "Generale"},
-  {"slug": "improved-turning", "name": "Scacciare Migliorato", "type": "Generale"},
-  {"slug": "improved-two-weapon-fighting", "name": "Combattere con Due Armi Migliorato", "type": "Generale"},
-  {"slug": "improved-unarmed-strike", "name": "Colpo Senz'Armi Migliorato", "type": "Generale"},
-  {"slug": "investigator", "name": "Investigatore", "type": "Generale"},
-  {"slug": "iron-will", "name": "Volontà di Ferro", "type": "Generale"},
-  {"slug": "leadership", "name": "Autorità", "type": "Generale"},
-  {"slug": "lightning-reflexes", "name": "Riflessi Fulminei", "type": "Generale"},
-  {"slug": "magical-aptitude", "name": "Attitudine Magica", "type": "Generale"},
-  {"slug": "manyshot", "name": "Tiro Multiplo", "type": "Generale"},
-  {"slug": "martial-weapon-proficiency", "name": "Competenza nelle Armi da Guerra", "type": "Generale"},
-  {"slug": "maximize-spell", "name": "Incantesimi Massimizzati", "type": "Metamagico"},
-  {"slug": "mobility", "name": "Mobilità", "type": "Generale"},
-  {"slug": "mounted-archery", "name": "Tiro in Sella", "type": "Generale"},
-  {"slug": "mounted-combat", "name": "Combattimento in Sella", "type": "Generale"},
-  {"slug": "natural-spell", "name": "Incantesimi Naturali", "type": "Generale"},
-  {"slug": "negotiator", "name": "Negoziatore", "type": "Generale"},
-  {"slug": "nimble-fingers", "name": "Dita Agili", "type": "Generale"},
-  {"slug": "persuasive", "name": "Persuasivo", "type": "Generale"},
-  {"slug": "point-blank-shot", "name": "Tiro Ravvicinato", "type": "Generale"},
-  {"slug": "power-attack", "name": "Attacco Poderoso", "type": "Generale"},
-  {"slug": "precise-shot", "name": "Tiro Preciso", "type": "Generale"},
-  {"slug": "quick-draw", "name": "Estrazione Rapida", "type": "Generale"},
-  {"slug": "quicken-spell", "name": "Incantesimi Rapidi", "type": "Metamagico"},
-  {"slug": "rapid-reload", "name": "Ricarica Rapida", "type": "Generale"},
-  {"slug": "rapid-shot", "name": "Tiro Rapido", "type": "Generale"},
-  {"slug": "ride-by-attack", "name": "Attacco in Corsa", "type": "Generale"},
-  {"slug": "run", "name": "Correre", "type": "Generale"},
-  {"slug": "scribe-scroll", "name": "Scrivere Pergamene", "type": "Creazione Oggetti"},
-  {"slug": "self-sufficient", "name": "Autosufficiente", "type": "Generale"},
-  {"slug": "shield-proficiency", "name": "Competenza negli Scudi", "type": "Generale"},
-  {"slug": "shot-on-the-run", "name": "Tiro in Movimento", "type": "Generale"},
-  {"slug": "silent-spell", "name": "Incantesimi Silenziosi", "type": "Metamagico"},
-  {"slug": "simple-weapon-proficiency", "name": "Competenza nelle Armi Semplici", "type": "Generale"},
-  {"slug": "skill-focus", "name": "Focalizzazione sull'Abilità", "type": "Generale"},
-  {"slug": "snatch-arrows", "name": "Afferrare Frecce", "type": "Generale"},
-  {"slug": "spell-focus", "name": "Focalizzazione Magica", "type": "Generale"},
-  {"slug": "spell-mastery", "name": "Padronanza Magica", "type": "Speciale"},
-  {"slug": "spell-penetration", "name": "Penetrazione Magica", "type": "Generale"},
-  {"slug": "spirited-charge", "name": "Carica Devastante", "type": "Generale"},
-  {"slug": "spring-attack", "name": "Attacco in Movimento", "type": "Generale"},
-  {"slug": "stealthy", "name": "Furtivo", "type": "Generale"},
-  {"slug": "still-spell", "name": "Incantesimi Immobili", "type": "Metamagico"},
-  {"slug": "stunning-fist", "name": "Pugno Stordente", "type": "Generale"},
-  {"slug": "toughness", "name": "Robustezza", "type": "Generale"},
-  {"slug": "tower-shield-proficiency", "name": "Competenza nello Scudo Torre", "type": "Generale"},
-  {"slug": "track", "name": "Seguire Tracce", "type": "Generale"},
-  {"slug": "trample", "name": "Travolgere", "type": "Generale"},
-  {"slug": "two-weapon-defense", "name": "Difesa con Due Armi", "type": "Generale"},
-  {"slug": "two-weapon-fighting", "name": "Combattere con Due Armi", "type": "Generale"},
-  {"slug": "weapon-finesse", "name": "Arma Accurata", "type": "Generale"},
-  {"slug": "weapon-focus", "name": "Focalizzazione sull'Arma", "type": "Generale"},
-  {"slug": "weapon-specialization", "name": "Specializzazione sull'Arma", "type": "Generale"},
-  {"slug": "whirlwind-attack", "name": "Attacco Turbinante", "type": "Generale"},
-  {"slug": "widen-spell", "name": "Incantesimi Allargati", "type": "Metamagico"}
+  {
+    "slug": "acrobatic",
+    "name": "Acrobatico",
+    "type": "Generale"
+  },
+  {
+    "slug": "agile",
+    "name": "Agile",
+    "type": "Generale"
+  },
+  {
+    "slug": "alertness",
+    "name": "Allerta",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Ascoltare e Osservare."
+  },
+  {
+    "slug": "animal-affinity",
+    "name": "Affinità Animale",
+    "type": "Generale"
+  },
+  {
+    "slug": "armor-proficiency-medium",
+    "name": "Competenza nelle Armature Medie",
+    "type": "Generale"
+  },
+  {
+    "slug": "athletic",
+    "name": "Atletico",
+    "type": "Generale"
+  },
+  {
+    "slug": "augment-summoning",
+    "name": "Evocazione Potenziata",
+    "type": "Generale"
+  },
+  {
+    "slug": "blind-fight",
+    "name": "Combattere alla Cieca",
+    "type": "Generale",
+    "benefit": "In mischia, ogni volta che manchi a causa dell'occultamento, puoi ritirare la percentuale di mancamento per vedere se effettivamente colpisci. Un attaccante invisibile non ottiene vantaggi ai tiri per colpire contro di te in mischia. Cioè, non perdi il tuo bonus di Destrezza alla Classe Armatura, e l'attaccante non ottiene il solito bonus di +2 per l'invisibilità. Tuttavia, l'attaccante invisibile ottiene ancora il beneficio dell'occultamento totale (50% di probabilità di mancamento). Non hai bisogno di effettuare prove di Acrobazia per muoverti alla velocità piena in oscurità totale.",
+    "normal": "La mischia regolare contro un avversario con occultamento richiede una prova di mancamento. I nemici invisibili ottengono vantaggi ai tiri per colpire contro di te in mischia.",
+    "special": "Il talento Combattere alla Cieca non ha effetto contro un personaggio che è oggetto di un incantesimo di <i>intermittenza</i>."
+  },
+  {
+    "slug": "brew-potion",
+    "name": "Creare Pozioni",
+    "type": "Creazione Oggetti"
+  },
+  {
+    "slug": "cleave",
+    "name": "Fendente",
+    "type": "Generale",
+    "benefit": "Se colpisci un avversario con sufficiente danno da farlo cadere (tipicamente riducendo i suoi punti ferita sotto 0 o uccidendolo), ottieni un attacco in mischia extra immediato contro un'altra creatura nelle vicinanze. Non puoi fare un passo di 1,5 m prima di effettuare questo attacco extra. L'attacco extra è al tuo bonus di attacco completo, anche se hai già attaccato in quel round. Puoi usare questa capacità una volta per round."
+  },
+  {
+    "slug": "combat-casting",
+    "name": "Lanciare in Combattimento",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +4 alle prove di Concentrazione effettuate per lanciare un incantesimo o usare una capacità magica mentre sei sulla difensiva o mentre sei in lotta."
+  },
+  {
+    "slug": "combat-expertise",
+    "name": "Competenza in Combattimento",
+    "type": "Generale",
+    "benefit": "Quando usi l'azione di attacco o l'azione di attacco completo in mischia, puoi subire una penalità di –1 ai tiri per colpire in mischia e ottenere un bonus di schivare +1 alla Classe Armatura. Questa penalità e bonus aumentano di 1 per ogni –1 nei tiri per colpire, fino a un massimo di –5/+5. Devi scegliere di usare questa capacità prima di effettuare un tiro per colpire, e i suoi effetti durano fino alla tua prossima azione.",
+    "special": "Un guerriero può selezionare Competenza in Combattimento come uno dei suoi talenti bonus da guerriero."
+  },
+  {
+    "slug": "combat-reflexes",
+    "name": "Riflessi in Combattimento",
+    "type": "Generale",
+    "benefit": "Puoi effettuare un numero di attacchi di opportunità aggiuntivi in un round pari al tuo bonus di Destrezza. Con questo talento puoi anche effettuare attacchi di opportunità quando sei colto alla sprovvista.",
+    "normal": "Un personaggio senza questo talento può effettuare solo un attacco di opportunità per round e non può effettuare attacchi di opportunità quando è colto alla sprovvista.",
+    "special": "Il talento Riflessi in Combattimento non ti permette di effettuare più di un attacco di opportunità per la stessa circostanza."
+  },
+  {
+    "slug": "craft-magic-arms-and-armor",
+    "name": "Creare Armi e Armature Magiche",
+    "type": "Creazione Oggetti"
+  },
+  {
+    "slug": "craft-rod",
+    "name": "Creare Verghe",
+    "type": "Creazione Oggetti"
+  },
+  {
+    "slug": "craft-staff",
+    "name": "Creare Bastoni",
+    "type": "Creazione Oggetti"
+  },
+  {
+    "slug": "craft-wand",
+    "name": "Creare Bacchette",
+    "type": "Creazione Oggetti"
+  },
+  {
+    "slug": "craft-wondrous-item",
+    "name": "Creare Oggetti Meravigliosi",
+    "type": "Creazione Oggetti"
+  },
+  {
+    "slug": "deceitful",
+    "name": "Ingannevole",
+    "type": "Generale"
+  },
+  {
+    "slug": "deflect-arrows",
+    "name": "Deviare Frecce",
+    "type": "Generale"
+  },
+  {
+    "slug": "deft-hands",
+    "name": "Mani Abili",
+    "type": "Generale"
+  },
+  {
+    "slug": "diehard",
+    "name": "Duro a Morire",
+    "type": "Generale"
+  },
+  {
+    "slug": "diligent",
+    "name": "Diligente",
+    "type": "Generale"
+  },
+  {
+    "slug": "dodge",
+    "name": "Schivare",
+    "type": "Generale",
+    "benefit": "Durante la tua azione, designa un avversario e ricevi un bonus di schivare +1 alla Classe Armatura contro gli attacchi di quell'avversario. Puoi selezionare un nuovo avversario su ogni azione. Un bonus di schivare si cumula con tutti gli altri bonus di schivare che puoi avere.",
+    "special": "Un guerriero può selezionare Schivare come uno dei suoi talenti bonus da guerriero."
+  },
+  {
+    "slug": "empower-spell",
+    "name": "Incantesimi Potenziati",
+    "type": "Metamagico"
+  },
+  {
+    "slug": "endurance",
+    "name": "Resistenza Fisica",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +4 alle seguenti prove e tiri salvezza: Nuotare per resistere a danni non letali da esaurimento; prove di Costituzione per continuare a correre; prove di Costituzione per evitare danni non letali da marcia forzata; prove di Costituzione per trattenere il respiro; prove di Costituzione per evitare danni da fame o sete; tiri salvezza sulla Tempra per evitare danni non letali da ambiente caldo o freddo; e tiri salvezza sulla Tempra per resistere a danni da soffocamento. Inoltre puoi dormire in armatura leggera o media senza affaticarti.",
+    "normal": "Un personaggio senza questo talento che dorme in armatura media o più pesante è automaticamente affaticato il giorno successivo."
+  },
+  {
+    "slug": "enlarge-spell",
+    "name": "Incantesimi Estesi",
+    "type": "Metamagico"
+  },
+  {
+    "slug": "eschew-materials",
+    "name": "Senza Materiali",
+    "type": "Generale"
+  },
+  {
+    "slug": "exotic-weapon-proficiency",
+    "name": "Competenza nelle Armi Esotiche",
+    "type": "Generale"
+  },
+  {
+    "slug": "extend-spell",
+    "name": "Incantesimi Prolungati",
+    "type": "Metamagico"
+  },
+  {
+    "slug": "extra-turning",
+    "name": "Scacciare Extra",
+    "type": "Generale"
+  },
+  {
+    "slug": "far-shot",
+    "name": "Tiro Lontano",
+    "type": "Generale"
+  },
+  {
+    "slug": "feat-descriptions--armor-proficiency-heavy",
+    "name": "Competenza nelle Armature Pesanti",
+    "type": "Generale"
+  },
+  {
+    "slug": "feat-descriptions--armor-proficiency-light",
+    "name": "Competenza nelle Armature Leggere",
+    "type": "Generale"
+  },
+  {
+    "slug": "feat-name"
+  },
+  {
+    "slug": "forge-ring",
+    "name": "Forgiare Anelli",
+    "type": "Creazione Oggetti"
+  },
+  {
+    "slug": "great-cleave",
+    "name": "Grande Fendente",
+    "type": "Generale",
+    "benefit": "Questo talento funziona come Fendente, eccetto che non c'è limite al numero di volte che puoi usarlo per round."
+  },
+  {
+    "slug": "great-fortitude",
+    "name": "Grande Tempra",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Tempra."
+  },
+  {
+    "slug": "greater-spell-focus",
+    "name": "Focalizzazione Magica Superiore",
+    "type": "Generale"
+  },
+  {
+    "slug": "greater-spell-penetration",
+    "name": "Penetrazione Magica Superiore",
+    "type": "Generale"
+  },
+  {
+    "slug": "greater-two-weapon-fighting",
+    "name": "Combattere con Due Armi Superiore",
+    "type": "Generale"
+  },
+  {
+    "slug": "greater-weapon-focus",
+    "name": "Focalizzazione sull'Arma Superiore",
+    "type": "Generale"
+  },
+  {
+    "slug": "greater-weapon-specialization",
+    "name": "Specializzazione sull'Arma Superiore",
+    "type": "Generale"
+  },
+  {
+    "slug": "heighten-spell",
+    "name": "Incantesimi Intensificati",
+    "type": "Metamagico"
+  },
+  {
+    "slug": "improved-bull-rush",
+    "name": "Spinta Migliorata",
+    "type": "Generale",
+    "benefit": "Quando effettui uno spingere, non provochi un attacco di opportunità dal difensore. Ottieni anche un bonus di +4 alla prova di Forza per spingere."
+  },
+  {
+    "slug": "improved-counterspell",
+    "name": "Controincantesimo Migliorato",
+    "type": "Generale"
+  },
+  {
+    "slug": "improved-critical",
+    "name": "Critico Migliorato",
+    "type": "Generale",
+    "benefit": "Quando usi l'arma selezionata, il suo intervallo di minaccia di critico è raddoppiato.",
+    "special": "Puoi ottenere Critico Migliorato più volte. Gli effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Questo effetto non si cumula con nessun altro effetto che espande l'intervallo di minaccia di un'arma."
+  },
+  {
+    "slug": "improved-disarm",
+    "name": "Disarmare Migliorato",
+    "type": "Generale",
+    "benefit": "Non provochi un attacco di opportunità quando tenti di disarmare un avversario, né l'avversario ha la possibilità di disarmarti. Ottieni anche un bonus di +4 alla prova di attacco per disarmare il tuo avversario.",
+    "normal": "Senza questo talento, tentare di disarmare provoca un attacco di opportunità."
+  },
+  {
+    "slug": "improved-familiar",
+    "name": "Famiglio Migliorato",
+    "type": "Generale"
+  },
+  {
+    "slug": "improved-feint",
+    "name": "Finta Migliorata",
+    "type": "Generale"
+  },
+  {
+    "slug": "improved-grapple",
+    "name": "Lottare Migliorato",
+    "type": "Generale",
+    "benefit": "Non provochi un attacco di opportunità quando effettui un attacco di contatto per iniziare una lotta. Ottieni anche un bonus di +4 a tutte le prove di lotta, indipendentemente dal fatto che tu abbia iniziato la lotta o meno.",
+    "normal": "Senza questo talento, effettuare una lotta provoca un attacco di opportunità."
+  },
+  {
+    "slug": "improved-initiative",
+    "name": "Iniziativa Migliorata",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +4 alle prove di iniziativa.",
+    "special": "Un guerriero può selezionare Iniziativa Migliorata come uno dei suoi talenti bonus da guerriero."
+  },
+  {
+    "slug": "improved-overrun",
+    "name": "Travolgere Migliorato",
+    "type": "Generale",
+    "benefit": "Quando tenti di travolgere un avversario, il bersaglio non può scegliere di evitarti. Ottieni anche un bonus di +4 alla prova di Forza per abbattere il tuo avversario.",
+    "normal": "Senza questo talento, il bersaglio di un travolgimento può scegliere di farsi da parte."
+  },
+  {
+    "slug": "improved-precise-shot",
+    "name": "Tiro Preciso Migliorato",
+    "type": "Generale"
+  },
+  {
+    "slug": "improved-shield-bash",
+    "name": "Colpo di Scudo Migliorato",
+    "type": "Generale",
+    "benefit": "Quando effettui un colpo con lo scudo, puoi comunque applicare il bonus dello scudo alla CA.",
+    "normal": "Senza questo talento, un personaggio che effettua un colpo con lo scudo perde il bonus dello scudo alla CA fino alla sua prossima azione."
+  },
+  {
+    "slug": "improved-sunder",
+    "name": "Spezzare Migliorato",
+    "type": "Generale",
+    "benefit": "Quando colpisci un oggetto tenuto o indossato con un attacco per distruggere, non provochi un attacco di opportunità. Ottieni anche un bonus di +4 alla prova di attacco per distruggere.",
+    "normal": "Senza questo talento, tentare di distruggere un oggetto provoca un attacco di opportunità."
+  },
+  {
+    "slug": "improved-trip",
+    "name": "Sgambetto Migliorato",
+    "type": "Generale",
+    "benefit": "Non provochi un attacco di opportunità quando tenti di sgambettare un avversario mentre sei in mischia. Ottieni anche un bonus di +4 alla prova di Forza per sgambettare. Se sgambetti con successo un avversario, ottieni immediatamente un attacco in mischia contro quell'avversario come se non avessi usato il tuo attacco per lo sgambetto.",
+    "normal": "Senza questo talento, tentare uno sgambetto provoca un attacco di opportunità."
+  },
+  {
+    "slug": "improved-turning",
+    "name": "Scacciare Migliorato",
+    "type": "Generale",
+    "benefit": "Aggiungi un bonus di +1 al tuo livello di scacciare quando fai una prova di scacciare per determinare il Dado Vita massimo della creatura non morta che puoi influenzare."
+  },
+  {
+    "slug": "improved-two-weapon-fighting",
+    "name": "Combattere con Due Armi Migliorato",
+    "type": "Generale",
+    "benefit": "Oltre al normale attacco extra con un'arma secondaria, ottieni un secondo attacco con essa, anche se con una penalità di –5.",
+    "normal": "Senza questo talento, puoi ottenere solo un singolo attacco extra con un'arma secondaria."
+  },
+  {
+    "slug": "improved-unarmed-strike",
+    "name": "Colpo Senz'Armi Migliorato",
+    "type": "Generale",
+    "benefit": "Sei considerato armato anche quando sei disarmato—cioè, non provochi attacchi di opportunità da avversari armati quando li attacchi disarmato. Tuttavia, provochi ancora attacchi di opportunità come normale se effettui un attacco disarmato quando minacciato da un avversario che non stai attaccando.",
+    "normal": "Senza questo talento, sei considerato disarmato quando attacchi con un colpo senz'armi e provochi un attacco di opportunità da avversari armati."
+  },
+  {
+    "slug": "investigator",
+    "name": "Investigatore",
+    "type": "Generale"
+  },
+  {
+    "slug": "iron-will",
+    "name": "Volontà di Ferro",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Volontà."
+  },
+  {
+    "slug": "leadership",
+    "name": "Autorità",
+    "type": "Generale"
+  },
+  {
+    "slug": "lightning-reflexes",
+    "name": "Riflessi Fulminei",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sui Riflessi."
+  },
+  {
+    "slug": "magical-aptitude",
+    "name": "Attitudine Magica",
+    "type": "Generale"
+  },
+  {
+    "slug": "manyshot",
+    "name": "Tiro Multiplo",
+    "type": "Generale"
+  },
+  {
+    "slug": "martial-weapon-proficiency",
+    "name": "Competenza nelle Armi da Guerra",
+    "type": "Generale"
+  },
+  {
+    "slug": "maximize-spell",
+    "name": "Incantesimi Massimizzati",
+    "type": "Metamagico"
+  },
+  {
+    "slug": "mobility",
+    "name": "Mobilità",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di schivare +4 alla Classe Armatura contro attacchi di opportunità causati dal muoversi fuori da o dentro un'area minacciata. Un bonus di schivare di questo tipo non si applica se perdi il tuo bonus di Destrezza alla CA."
+  },
+  {
+    "slug": "mounted-archery",
+    "name": "Tiro in Sella",
+    "type": "Generale",
+    "benefit": "La penalità che subisci quando usi un'arma a distanza mentre sei in sella è dimezzata: –2 invece di –4 se la cavalcatura compie un doppio movimento, e –4 invece di –8 se la cavalcatura corre."
+  },
+  {
+    "slug": "mounted-combat",
+    "name": "Combattimento in Sella",
+    "type": "Generale",
+    "benefit": "Una volta per round quando la tua cavalcatura è colpita in combattimento, puoi tentare una prova di Cavalcare (come reazione) per negare il colpo. La prova di Cavalcare sostituisce la CA della cavalcatura. Se il risultato della tua prova di Cavalcare è maggiore del tiro per colpire, il colpo manca."
+  },
+  {
+    "slug": "natural-spell",
+    "name": "Incantesimi Naturali",
+    "type": "Generale",
+    "benefit": "Puoi completare le componenti verbali e somatiche degli incantesimi mentre sei in forma selvatica. Puoi anche usare qualsiasi focus materiale o focus divino che porti incorporato nella tua forma selvatica."
+  },
+  {
+    "slug": "negotiator",
+    "name": "Negoziatore",
+    "type": "Generale"
+  },
+  {
+    "slug": "nimble-fingers",
+    "name": "Dita Agili",
+    "type": "Generale"
+  },
+  {
+    "slug": "persuasive",
+    "name": "Persuasivo",
+    "type": "Generale"
+  },
+  {
+    "slug": "point-blank-shot",
+    "name": "Tiro Ravvicinato",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +1 ai tiri per colpire e ai tiri per i danni con armi a distanza a portata fino a 9 metri.",
+    "special": "Un guerriero può selezionare Tiro Ravvicinato come uno dei suoi talenti bonus da guerriero."
+  },
+  {
+    "slug": "power-attack",
+    "name": "Attacco Poderoso",
+    "type": "Generale",
+    "benefit": "Nel tuo turno, prima di effettuare tiri per colpire per un round, puoi scegliere di sottrarre un numero dal tuo tiro per colpire in mischia e aggiungere lo stesso numero al tuo tiro per i danni in mischia. Questo numero non può superare il tuo bonus di attacco base. La penalità ai tiri per colpire e il bonus ai danni si applicano fino alla tua prossima azione.",
+    "special": "Se attacchi con un'arma a due mani, aggiungi invece il doppio del numero sottratto dai tiri per colpire. Non puoi aggiungere il bonus ai danni con un'arma leggera."
+  },
+  {
+    "slug": "precise-shot",
+    "name": "Tiro Preciso",
+    "type": "Generale",
+    "benefit": "Puoi sparare o lanciare armi a distanza su un bersaglio impegnato in mischia senza subire la penalità standard di –4 al tiro per colpire."
+  },
+  {
+    "slug": "quick-draw",
+    "name": "Estrazione Rapida",
+    "type": "Generale",
+    "benefit": "Puoi estrarre un'arma come azione gratuita invece che come azione di movimento. Puoi lanciare armi alla massima velocità di attacco (molto simile alla penalità per gli attacchi in mischia).",
+    "normal": "Senza questo talento, puoi estrarre un'arma come azione di movimento, o (se il tuo bonus di attacco base è +1 o superiore) come azione gratuita come parte di un movimento."
+  },
+  {
+    "slug": "quicken-spell",
+    "name": "Incantesimi Rapidi",
+    "type": "Metamagico"
+  },
+  {
+    "slug": "rapid-reload",
+    "name": "Ricarica Rapida",
+    "type": "Generale"
+  },
+  {
+    "slug": "rapid-shot",
+    "name": "Tiro Rapido",
+    "type": "Generale",
+    "benefit": "Puoi ottenere un attacco a distanza extra per round. Tutti i tuoi tiri per colpire per il round subiscono una penalità di –2 quando usi Tiro Rapido."
+  },
+  {
+    "slug": "ride-by-attack",
+    "name": "Attacco in Corsa",
+    "type": "Generale",
+    "benefit": "Quando sei in sella e usi l'azione di carica, puoi muoverti e attaccare come con una carica standard e poi continuare a muoverti (fino al doppio della velocità della cavalcatura). Devi muoverti almeno di 3 metri prima e dopo l'attacco."
+  },
+  {
+    "slug": "run",
+    "name": "Correre",
+    "type": "Generale",
+    "benefit": "Quando corri, ti muovi a cinque volte la tua velocità normale (se indossi armatura media, leggera o nessuna e trasporti un carico non più che medio) o a quattro volte la tua velocità (se indossi armatura pesante o trasporti un carico pesante). Se effettui un salto dopo una rincorsa, ottieni un bonus di +4 alla prova di Saltare."
+  },
+  {
+    "slug": "scribe-scroll",
+    "name": "Scrivere Pergamene",
+    "type": "Creazione Oggetti"
+  },
+  {
+    "slug": "self-sufficient",
+    "name": "Autosufficiente",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Guarire e Sopravvivenza."
+  },
+  {
+    "slug": "shield-proficiency",
+    "name": "Competenza negli Scudi",
+    "type": "Generale",
+    "benefit": "Puoi usare uno scudo e non subire la penalità all'attacco associata.",
+    "normal": "Quando usi uno scudo con cui non sei competente, subisci la penalità di controllo dell'armatura dello scudo ai tiri per colpire e a tutte le prove di abilità che comportano movimento."
+  },
+  {
+    "slug": "shot-on-the-run",
+    "name": "Tiro in Movimento",
+    "type": "Generale"
+  },
+  {
+    "slug": "silent-spell",
+    "name": "Incantesimi Silenziosi",
+    "type": "Metamagico"
+  },
+  {
+    "slug": "simple-weapon-proficiency",
+    "name": "Competenza nelle Armi Semplici",
+    "type": "Generale"
+  },
+  {
+    "slug": "skill-focus",
+    "name": "Focalizzazione sull'Abilità",
+    "type": "Generale"
+  },
+  {
+    "slug": "snatch-arrows",
+    "name": "Afferrare Frecce",
+    "type": "Generale"
+  },
+  {
+    "slug": "spell-focus",
+    "name": "Focalizzazione Magica",
+    "type": "Generale",
+    "benefit": "Aggiungi +1 alla Classe Difficoltà per tutti i tiri salvezza contro gli incantesimi della scuola di magia selezionata.",
+    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia."
+  },
+  {
+    "slug": "spell-mastery",
+    "name": "Padronanza Magica",
+    "type": "Speciale"
+  },
+  {
+    "slug": "spell-penetration",
+    "name": "Penetrazione Magica",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura."
+  },
+  {
+    "slug": "spirited-charge",
+    "name": "Carica Devastante",
+    "type": "Generale",
+    "benefit": "Quando sei in sella e usi l'azione di carica, infliggi il doppio dei danni con un'arma da mischia (o il triplo dei danni con una lancia)."
+  },
+  {
+    "slug": "spring-attack",
+    "name": "Attacco in Movimento",
+    "type": "Generale",
+    "benefit": "Quando usi l'azione di attacco con un'arma da mischia, puoi muoverti sia prima che dopo l'attacco, purché la distanza totale che percorri non sia maggiore della tua velocità. Muoversi in questo modo non provoca un attacco di opportunità dal difensore che stai attaccando."
+  },
+  {
+    "slug": "stealthy",
+    "name": "Furtivo",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Nascondersi e Muoversi Silenziosamente."
+  },
+  {
+    "slug": "still-spell",
+    "name": "Incantesimi Immobili",
+    "type": "Metamagico"
+  },
+  {
+    "slug": "stunning-fist",
+    "name": "Pugno Stordente",
+    "type": "Generale",
+    "benefit": "Devi dichiarare di usare questo talento prima di effettuare il tiro per colpire (quindi un attacco mancato spreca il tentativo). Pugno Stordente costringe un avversario colpito da te con un attacco senz'armi a effettuare un tiro salvezza sulla Tempra (CD 10 + metà del tuo livello del personaggio + il tuo modificatore di Sag), oltre a subire danni normali. Se il difensore fallisce il tiro salvezza, è stordito per 1 round.",
+    "special": "Puoi tentare uno stordimento una volta al giorno per ogni quattro livelli che hai raggiunto, e non più di una volta per round."
+  },
+  {
+    "slug": "toughness",
+    "name": "Robustezza",
+    "type": "Generale",
+    "benefit": "Ottieni +3 punti ferita.",
+    "special": "Un personaggio può ottenere questo talento più volte. I suoi effetti si cumulano."
+  },
+  {
+    "slug": "tower-shield-proficiency",
+    "name": "Competenza nello Scudo Torre",
+    "type": "Generale"
+  },
+  {
+    "slug": "track",
+    "name": "Seguire Tracce",
+    "type": "Generale",
+    "benefit": "Per trovare le tracce o per seguirle per 1,5 km richiede una prova di Sopravvivenza riuscita. Devi effettuare un'altra prova di Sopravvivenza ogni volta che le tracce diventano difficili da seguire."
+  },
+  {
+    "slug": "trample",
+    "name": "Travolgere",
+    "type": "Generale"
+  },
+  {
+    "slug": "two-weapon-defense",
+    "name": "Difesa con Due Armi",
+    "type": "Generale"
+  },
+  {
+    "slug": "two-weapon-fighting",
+    "name": "Combattere con Due Armi",
+    "type": "Generale",
+    "benefit": "Le tue penalità al combattimento con due armi sono ridotte di 2 con l'arma primaria e di 6 con l'arma secondaria.",
+    "normal": "Se impugni una seconda arma nella mano secondaria, puoi ottenere un attacco extra con quell'arma al costo di una penalità di –6 ai tiri per colpire con l'arma primaria e una penalità di –10 con l'arma secondaria."
+  },
+  {
+    "slug": "weapon-finesse",
+    "name": "Arma Accurata",
+    "type": "Generale",
+    "benefit": "Con un'arma leggera, stocco, frusta o catena chiodata fatta per una creatura della tua categoria di taglia, puoi usare il tuo modificatore di Destrezza invece del tuo modificatore di Forza ai tiri per colpire in mischia.",
+    "special": "Un guerriero può selezionare Arma Accurata come uno dei suoi talenti bonus da guerriero. Le creature naturali possono selezionare questo talento."
+  },
+  {
+    "slug": "weapon-focus",
+    "name": "Focalizzazione sull'Arma",
+    "type": "Generale",
+    "benefit": "Ottieni un bonus di +1 a tutti i tiri per colpire effettuati usando l'arma selezionata.",
+    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma."
+  },
+  {
+    "slug": "weapon-specialization",
+    "name": "Specializzazione sull'Arma",
+    "type": "Generale"
+  },
+  {
+    "slug": "whirlwind-attack",
+    "name": "Attacco Turbinante",
+    "type": "Generale",
+    "benefit": "Quando usi l'azione di attacco completo, puoi rinunciare ai tuoi attacchi regolari e invece effettuare un attacco in mischia al tuo bonus di attacco base completo contro ogni avversario entro la tua portata."
+  },
+  {
+    "slug": "widen-spell",
+    "name": "Incantesimi Allargati",
+    "type": "Metamagico"
+  }
 ]

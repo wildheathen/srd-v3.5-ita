@@ -1,527 +1,786 @@
 [
   {
+    "slug": "abilities",
+    "name": "Caratteristiche"
+  },
+  {
     "slug": "aboleth",
-    "name": "Aboleth"
+    "name": "Aboleth",
+    "type": "Enorme Aberrazione (Acquatico)",
+    "alignment": "Solitamente legale malvagio",
+    "organization": "Solitario, covata (2–4),o slaver covata (1d3+1 plus 7–12 skum)"
   },
   {
     "slug": "aboleth-mage-10th-level-wizard",
-    "name": "Aboleth Mago, Mago di 10° Livello"
-  },
-  {
-    "slug": "achaierai",
-    "name": "Achaierai"
-  },
-  {
-    "slug": "allip",
-    "name": "Allip"
-  },
-  {
-    "slug": "angel",
-    "name": "Angelo"
-  },
-  {
-    "slug": "animated-object-tiny",
-    "name": "Oggetto Animato, Minuscolo"
-  },
-  {
-    "slug": "animated-object-small",
-    "name": "Oggetto Animato, Piccolo"
-  },
-  {
-    "slug": "animated-object-medium",
-    "name": "Oggetto Animato, Medio"
-  },
-  {
-    "slug": "ankheg",
-    "name": "Ankheg"
-  },
-  {
-    "slug": "aranea",
-    "name": "Aranea"
-  },
-  {
-    "slug": "archon",
-    "name": "Archon"
-  },
-  {
-    "slug": "juvenile-arrowhawk",
-    "name": "Arrowhawk Giovane"
-  },
-  {
-    "slug": "adult-arrowhawk",
-    "name": "Arrowhawk Adulto"
-  },
-  {
-    "slug": "elder-arrowhawk",
-    "name": "Arrowhawk Anziano"
-  },
-  {
-    "slug": "assassin-vine",
-    "name": "Vite Assassina"
-  },
-  {
-    "slug": "athach",
-    "name": "Athach"
-  },
-  {
-    "slug": "avoral",
-    "name": "Avoral"
-  },
-  {
-    "slug": "azer",
-    "name": "Azer"
-  },
-  {
-    "slug": "ape",
-    "name": "Scimmia"
-  },
-  {
-    "slug": "baboon",
-    "name": "Babbuino"
-  },
-  {
-    "slug": "badger",
-    "name": "Tasso"
-  },
-  {
-    "slug": "bat",
-    "name": "Pipistrello"
-  },
-  {
-    "slug": "bear-black",
-    "name": "Orso, Nero"
-  },
-  {
-    "slug": "bear-brown",
-    "name": "Orso, Bruno"
-  },
-  {
-    "slug": "bear-polar",
-    "name": "Orso, Polare"
-  },
-  {
-    "slug": "bison",
-    "name": "Bisonte"
-  },
-  {
-    "slug": "boar",
-    "name": "Cinghiale"
-  },
-  {
-    "slug": "camel",
-    "name": "Cammello"
-  },
-  {
-    "slug": "cat",
-    "name": "Gatto"
-  },
-  {
-    "slug": "cheetah",
-    "name": "Ghepardo"
-  },
-  {
-    "slug": "crocodile",
-    "name": "Coccodrillo"
-  },
-  {
-    "slug": "crocodile-giant",
-    "name": "Coccodrillo, Gigante"
-  },
-  {
-    "slug": "dog",
-    "name": "Cane"
-  },
-  {
-    "slug": "dog-riding",
-    "name": "Cane, da Sella"
-  },
-  {
-    "slug": "donkey",
-    "name": "Asino"
-  },
-  {
-    "slug": "eagle",
-    "name": "Aquila"
-  },
-  {
-    "slug": "elephant",
-    "name": "Elefante"
-  },
-  {
-    "slug": "hawk",
-    "name": "Falco"
-  },
-  {
-    "slug": "horse",
-    "name": "Cavallo"
-  },
-  {
-    "slug": "hyena",
-    "name": "Iena"
-  },
-  {
-    "slug": "leopard",
-    "name": "Leopardo"
-  },
-  {
-    "slug": "lion",
-    "name": "Leone"
-  },
-  {
-    "slug": "lizard",
-    "name": "Lucertola"
-  },
-  {
-    "slug": "lizard-monitor",
-    "name": "Lucertola, Varano"
-  },
-  {
-    "slug": "manta-ray",
-    "name": "Manta"
-  },
-  {
-    "slug": "monkey",
-    "name": "Scimmia"
-  },
-  {
-    "slug": "mule",
-    "name": "Mulo"
-  },
-  {
-    "slug": "octopus",
-    "name": "Piovra"
-  },
-  {
-    "slug": "octopus-giant",
-    "name": "Piovra, Gigante"
-  },
-  {
-    "slug": "owl",
-    "name": "Gufo"
-  },
-  {
-    "slug": "pony",
-    "name": "Pony"
-  },
-  {
-    "slug": "pony-war",
-    "name": "Pony, da Guerra"
-  },
-  {
-    "slug": "porpoise",
-    "name": "Focena"
-  },
-  {
-    "slug": "rat",
-    "name": "Ratto"
-  },
-  {
-    "slug": "raven",
-    "name": "Corvo"
-  },
-  {
-    "slug": "rhinoceros",
-    "name": "Rinoceronte"
-  },
-  {
-    "slug": "shark-medium",
-    "name": "Squalo, Medio"
-  },
-  {
-    "slug": "shark-large",
-    "name": "Squalo, Grande"
-  },
-  {
-    "slug": "shark-huge",
-    "name": "Squalo, Enorme"
-  },
-  {
-    "slug": "snake",
-    "name": "Serpente"
-  },
-  {
-    "slug": "squid",
-    "name": "Calamaro"
-  },
-  {
-    "slug": "squid-giant",
-    "name": "Calamaro, Gigante"
-  },
-  {
-    "slug": "tiger",
-    "name": "Tigre"
-  },
-  {
-    "slug": "toad",
-    "name": "Rospo"
-  },
-  {
-    "slug": "weasel",
-    "name": "Donnola"
-  },
-  {
-    "slug": "whale",
-    "name": "Balena"
-  },
-  {
-    "slug": "wolf",
-    "name": "Lupo"
-  },
-  {
-    "slug": "wolverine",
-    "name": "Ghiottone"
-  },
-  {
-    "slug": "combat",
-    "name": "Combattimento"
-  },
-  {
-    "slug": "barghest",
-    "name": "Barghest"
-  },
-  {
-    "slug": "greater-barghest",
-    "name": "Barghest Superiore"
-  },
-  {
-    "slug": "basilisk",
-    "name": "Basilisco"
+    "name": "Aboleth Mago, Mago di 10° Livello",
+    "type": "Enorme Aberrazione (Acquatico)",
+    "alignment": "Solitamente legale malvagio",
+    "organization": "Solitario"
   },
   {
     "slug": "abyssal-greater-basilisk",
-    "name": "Basilisco Superiore Abissale"
+    "name": "Basilisco Superiore Abissale",
+    "type": "Grande Esterno (Augmented Magical Beast, Extraplanare)",
+    "alignment": "Sempre caotico malvagio",
+    "environment": "Un piano caotico malvagio piano",
+    "organization": "Solitario o colonia (3–6)"
+  },
+  {
+    "slug": "achaierai",
+    "name": "Achaierai",
+    "type": "Grande Esterno (Malvagio, Extraplanare, Legale)",
+    "alignment": "Sempre legale malvagio",
+    "environment": "A lawful piano",
+    "organization": "Solitario o stomo (5–8)"
+  },
+  {
+    "slug": "adult-arrowhawk",
+    "name": "Arrowhawk Adulto",
+    "type": "Media Esterno (Aria, Extraplanare)",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario o nidiata (2–4)"
+  },
+  {
+    "slug": "adult-tojanida",
+    "name": "Tojanida Adulto",
+    "type": "Media Esterno (Extraplanare, Acqua)",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario o nidiata (2–4)"
+  },
+  {
+    "slug": "air-elemental-large",
+    "name": "Elementale dell'Aria, Grande",
+    "type": "Grande Elementale (Aria, Extraplanare)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "air-elemental-medium",
+    "name": "Elementale dell'Aria, Medio",
+    "type": "Media Elementale (Aria, Extraplanare)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "air-elemental-small",
+    "name": "Elementale dell'Aria, Piccolo",
+    "type": "Piccola Elementale (Aria, Extraplanare)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "allip",
+    "name": "Allip",
+    "type": "Media Non Morto (Incorporeo)",
+    "alignment": "Sempre neutrale malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "angel",
+    "name": "Angelo",
+    "type": "Media Esterno (Angelo, Extraplanare, Buono)",
+    "alignment": "Sempre buono (qualsiasi)",
+    "environment": "Qualsiasi good piano",
+    "organization": "Solitario, coppia, o squadra (3–5)"
+  },
+  {
+    "slug": "animated-object-medium",
+    "name": "Oggetto Animato, Medio",
+    "type": "Media Costrutto",
+    "alignment": "Sempre neutrale",
+    "environment": "Qualsiasi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "animated-object-small",
+    "name": "Oggetto Animato, Piccolo",
+    "type": "Piccola Costrutto",
+    "alignment": "Sempre neutrale",
+    "environment": "Qualsiasi",
+    "organization": "Coppia"
+  },
+  {
+    "slug": "animated-object-tiny",
+    "name": "Oggetto Animato, Minuscolo",
+    "type": "Minuta Costrutto",
+    "alignment": "Sempre neutrale",
+    "environment": "Qualsiasi"
+  },
+  {
+    "slug": "ankheg",
+    "name": "Ankheg",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo pianure",
+    "organization": "Solitario o gruppo (2–4)"
+  },
+  {
+    "slug": "ape",
+    "name": "Scimmia",
+    "type": "Grande Animale",
+    "environment": "Caldo forestae",
+    "organization": "Solitario, coppia, o compagnia (3–5)"
+  },
+  {
+    "slug": "aranea",
+    "name": "Aranea",
+    "type": "Media Bestia Magica (Mutaforma)",
+    "alignment": "Solitamente neutrale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario o colonia (3–6)"
+  },
+  {
+    "slug": "archon",
+    "name": "Archon",
+    "type": "Piccola Esterno (Arconte, Extraplanare, Buono, Legale)"
+  },
+  {
+    "slug": "assassin-vine",
+    "name": "Vite Assassina",
+    "type": "Grande Pianta",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario o patch (2–4)"
+  },
+  {
+    "slug": "athach",
+    "name": "Athach",
+    "type": "Enorme Aberrazione",
+    "alignment": "Spesso caotico malvagio",
+    "environment": "Temperato colline",
+    "organization": "Solitario, bandaa (2–4), o tribe (7–12)"
+  },
+  {
+    "slug": "average-salamander",
+    "name": "Salamandra Media",
+    "type": "Media Esterno (Extraplanare, Fuoco)",
+    "alignment": "Solitamente malvagio (qualsiasi)",
+    "organization": "Solitario, coppia, o gruppo (3–5)"
+  },
+  {
+    "slug": "average-xorn",
+    "name": "Xorn Medio",
+    "type": "Media Esterno (Extraplanare, Terra)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario, coppia, o gruppo (3–5)"
+  },
+  {
+    "slug": "avoral",
+    "name": "Avoral",
+    "type": "Media Esterno (Extraplanare, Buono)",
+    "alignment": "Sempre neutrale buono",
+    "environment": "A good piano.",
+    "organization": "Solitario, coppia, o squadra (3–5)"
+  },
+  {
+    "slug": "azer",
+    "name": "Azer",
+    "type": "Media Esterno (Extraplanare, Fuoco)",
+    "alignment": "Sempre legale neutrale",
+    "organization": "Solitario, coppia, team (3–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o clan\n            (30–100 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, and 3\n            7th-level captains)"
+  },
+  {
+    "slug": "baboon",
+    "name": "Babbuino",
+    "type": "Media Animale",
+    "environment": "Caldo pianure",
+    "organization": "Solitario o truppa (10–40)"
+  },
+  {
+    "slug": "badger",
+    "name": "Tasso",
+    "type": "Piccola Animale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario, coppia, o cete (3–5)"
+  },
+  {
+    "slug": "barghest",
+    "name": "Barghest",
+    "type": "Media Esterno (Malvagio, Extraplanare, Legale, Mutaforma)",
+    "alignment": "Sempre legale malvagio",
+    "environment": "An evil piano",
+    "organization": "Solitario o branco (3–6)"
+  },
+  {
+    "slug": "basilisk",
+    "name": "Basilisco",
+    "type": "Media Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo desertoi",
+    "organization": "Solitario o colonia (3–6)"
+  },
+  {
+    "slug": "bat",
+    "name": "Pipistrello",
+    "type": "Minuscola Animale",
+    "environment": "Temperato desertoi",
+    "organization": "Colony (10–40) o crowd (10–50)"
+  },
+  {
+    "slug": "bear-black",
+    "name": "Orso, Nero",
+    "type": "Media Animale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario o coppia"
+  },
+  {
+    "slug": "bear-brown",
+    "name": "Orso, Bruno",
+    "type": "Grande Animale",
+    "environment": "Freddo forestae",
+    "organization": "Solitario o coppia"
+  },
+  {
+    "slug": "bear-polar",
+    "name": "Orso, Polare",
+    "type": "Grande Animale",
+    "environment": "Freddo pianure",
+    "organization": "Solitario o coppia"
   },
   {
     "slug": "behir",
-    "name": "Behir"
+    "name": "Behir",
+    "type": "Enorme Bestia Magica",
+    "alignment": "Spesso neutrale",
+    "environment": "Caldo colline",
+    "organization": "Solitario o coppia"
   },
   {
     "slug": "belker",
-    "name": "Belker"
+    "name": "Belker",
+    "type": "Grande Elementale (Aria, Extraplanare)",
+    "alignment": "Solitamente neutrale malvagio",
+    "organization": "Solitario, coppia, o nidiata (3–4)"
   },
   {
-    "slug": "blink-dog",
-    "name": "Cane Intermittente"
+    "slug": "bison",
+    "name": "Bisonte",
+    "type": "Grande Animale",
+    "environment": "Temperato pianure",
+    "organization": "Solitario o mandria (6–30)"
   },
   {
-    "slug": "bodak",
-    "name": "Bodak"
-  },
-  {
-    "slug": "bralani",
-    "name": "Bralani"
-  },
-  {
-    "slug": "bugbear",
-    "name": "Bugbear"
-  },
-  {
-    "slug": "bulette",
-    "name": "Bulette"
-  },
-  {
-    "slug": "hit-dice",
-    "name": "Dadi Vita"
-  },
-  {
-    "slug": "resistance-to-acid-cold-electricity",
-    "name": "Resistenza ad Acido, Freddo, Elettricità"
-  },
-  {
-    "slug": "damage-reduction",
-    "name": "Riduzione del Danno"
-  },
-  {
-    "slug": "centaur",
-    "name": "Centauro"
-  },
-  {
-    "slug": "chaos-beast",
-    "name": "Bestia del Caos"
-  },
-  {
-    "slug": "chimera",
-    "name": "Chimera"
-  },
-  {
-    "slug": "choker",
-    "name": "Choker"
-  },
-  {
-    "slug": "chuul",
-    "name": "Chuul"
-  },
-  {
-    "slug": "cloaker",
-    "name": "Cloaker"
-  },
-  {
-    "slug": "cockatrice",
-    "name": "Coccatrice"
-  },
-  {
-    "slug": "couatl",
-    "name": "Couatl"
-  },
-  {
-    "slug": "darkmantle",
-    "name": "Darkmantle"
-  },
-  {
-    "slug": "delver",
-    "name": "Delver"
-  },
-  {
-    "slug": "demon",
-    "name": "Demone"
-  },
-  {
-    "slug": "derro",
-    "name": "Derro"
-  },
-  {
-    "slug": "destrachan",
-    "name": "Destrachan"
-  },
-  {
-    "slug": "devil",
-    "name": "Diavolo"
-  },
-  {
-    "slug": "devourer",
-    "name": "Divoratore"
-  },
-  {
-    "slug": "digester",
-    "name": "Digestore"
-  },
-  {
-    "slug": "dinosaur",
-    "name": "Dinosauro"
-  },
-  {
-    "slug": "dire-animal",
-    "name": "Animale Crudele"
-  },
-  {
-    "slug": "doppelganger",
-    "name": "Doppelganger"
-  },
-  {
-    "slug": "dragon-breath-weapons",
-    "name": "Armi a Soffio dei Draghi"
+    "slug": "bite-damage",
+    "name": "Danno da Morso"
   },
   {
     "slug": "black-dragons-by-age",
     "name": "Draghi Neri per Età"
   },
   {
+    "slug": "black-pudding",
+    "name": "Melma Nera",
+    "type": "Enorme Melma",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "blink-dog",
+    "name": "Cane Intermittente",
+    "type": "Media Bestia Magica",
+    "alignment": "Solitamente legale buono",
+    "environment": "Temperato pianure",
+    "organization": "Solitario, coppia, o branco (7–16)"
+  },
+  {
+    "slug": "boar",
+    "name": "Cinghiale",
+    "type": "Media Animale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario o mandria (5–8)"
+  },
+  {
+    "slug": "bodak",
+    "name": "Bodak",
+    "type": "Media Non Morto (Extraplanare)",
+    "alignment": "Sempre caotico malvagio",
+    "environment": "Un piano caotico malvagio piano",
+    "organization": "Solitario o bandaa (2–4)"
+  },
+  {
+    "slug": "bralani",
+    "name": "Bralani",
+    "type": "Media Esterno (Caotico, Extraplanare, Buono)",
+    "alignment": "Sempre caotico buono",
+    "environment": "Un piano caotico buono piano",
+    "organization": "Solitario, coppia, o squadra (3–5)"
+  },
+  {
     "slug": "brass-dragons-by-age",
     "name": "Draghi d'Ottone per Età"
   },
   {
+    "slug": "bugbear",
+    "name": "Bugbear",
+    "type": "Media Umanoide (Goblinoide)",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Temperato montagne",
+    "organization": "Solitario, bandaa (2–4), o banda (11–20 plus 150% noncombatants plus 2 2nd-level sergeants and 1 leader of\n            2nd–5th level)"
+  },
+  {
+    "slug": "bulette",
+    "name": "Bulette",
+    "type": "Enorme Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato colline",
+    "organization": "Solitario o coppia"
+  },
+  {
+    "slug": "camel",
+    "name": "Cammello",
+    "type": "Grande Animale",
+    "environment": "Caldo desertoi",
+    "organization": "Domesticated o mandria (6–30)"
+  },
+  {
+    "slug": "cat",
+    "name": "Gatto",
+    "type": "Minuta Animale",
+    "environment": "Temperato pianure",
+    "organization": "Domesticated o solitario"
+  },
+  {
+    "slug": "celestial-charger-7th-level-cleric",
+    "name": "Destriero Celestiale, Chierico di 7° Livello",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre caotico buono",
+    "environment": "Un piano caotico buono piano",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "centaur",
+    "name": "Centauro",
+    "type": "Grande Umanoide Mostruoso",
+    "alignment": "Solitamente neutrale buono",
+    "environment": "Temperato forestae",
+    "organization": "Solitario, compagnia (5–8), truppa (8–18 plus 1 leader of 2nd–5th level), o tribe (20–150 plus 30%\n            noncombatants plus 10 3rd-level sergeants, 5 5th-level lieutenants, and 1 leader of 5th–9th level)"
+  },
+  {
+    "slug": "chaos-beast",
+    "name": "Bestia del Caos",
+    "type": "Media Esterno (Caotico, Extraplanare)",
+    "alignment": "Sempre caotico neutrale",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "cheetah",
+    "name": "Ghepardo",
+    "type": "Media Animale",
+    "environment": "Caldo pianure",
+    "organization": "Solitario, coppia, o family (3–5)"
+  },
+  {
+    "slug": "chimera",
+    "name": "Chimera",
+    "type": "Grande Bestia Magica",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Temperato colline",
+    "organization": "Solitario, branco (3–5), o stomo (6–13)"
+  },
+  {
+    "slug": "choker",
+    "name": "Choker",
+    "type": "Piccola Aberrazione",
+    "alignment": "Solitamente caotico malvagio",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "chuul",
+    "name": "Chuul",
+    "type": "Grande Aberrazione (Acquatico)",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Temperato paludi",
+    "organization": "Solitario, coppia, o branco (3–5)"
+  },
+  {
+    "slug": "claw-damage",
+    "name": "Danno da Artiglio"
+  },
+  {
+    "slug": "cloaker",
+    "name": "Cloaker",
+    "type": "Grande Aberrazione",
+    "alignment": "Solitamente caotico neutrale",
+    "organization": "Solitario, mob (3–6), o stomo (7–12)"
+  },
+  {
+    "slug": "cockatrice",
+    "name": "Coccatrice",
+    "type": "Piccola Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato pianure",
+    "organization": "Solitario, coppia, stomo (3–5), o stomo (6–13)"
+  },
+  {
+    "slug": "combat",
+    "name": "Combattimento"
+  },
+  {
+    "slug": "couatl",
+    "name": "Couatl",
+    "type": "Grande Esterno (Nativo)",
+    "alignment": "Sempre legale buono",
+    "environment": "Caldo forestae",
+    "organization": "Solitario, coppia, o stomo (3–6)"
+  },
+  {
+    "slug": "crocodile",
+    "name": "Coccodrillo",
+    "type": "Media Animale",
+    "environment": "Caldo paludi",
+    "organization": "Solitario o colonia (6–11)"
+  },
+  {
+    "slug": "crocodile-giant",
+    "name": "Coccodrillo, Gigante",
+    "type": "Enorme Animale",
+    "environment": "Caldo paludi",
+    "organization": "Solitario o colonia (6–11)"
+  },
+  {
+    "slug": "damage",
+    "name": "Danno"
+  },
+  {
+    "slug": "damage-reduction",
+    "name": "Riduzione del Danno"
+  },
+  {
+    "slug": "darkmantle",
+    "name": "Darkmantle",
+    "type": "Piccola Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario, coppia, nidiata (3–9), o sciame (6–15)"
+  },
+  {
+    "slug": "delver",
+    "name": "Delver",
+    "type": "Enorme Aberrazione",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "demon",
+    "name": "Demone",
+    "type": "Media Esterno (Caotico, Extraplanare, Malvagio)",
+    "alignment": "Sempre caotico malvagio",
+    "environment": "Un piano caotico malvagio piano",
+    "organization": "Solitario o bandaa (3–6)"
+  },
+  {
+    "slug": "derro",
+    "name": "Derro",
+    "type": "Piccola Umanoide Mostruoso",
+    "alignment": "Solitamente caotico malvagio",
+    "organization": "Team (2–4), squadra (5–8 plus 1 3rd-level socerer), o banda (11–20 plus 30% noncombatants plus 3 3rd-level\n            socerers and 1 socerer of 5th–8th level)"
+  },
+  {
+    "slug": "destrachan",
+    "name": "Destrachan",
+    "type": "Grande Aberrazione",
+    "alignment": "Solitamente neutrale malvagio",
+    "organization": "Solitario o branco (3–5)"
+  },
+  {
+    "slug": "devil",
+    "name": "Diavolo",
+    "type": "Media Esterno (Malvagio, Extraplanare, Legale)",
+    "alignment": "Sempre legale malvagio",
+    "environment": "Un piano legale malvagio piano",
+    "organization": "Solitario, coppia, team (3–5), o squadra (6–10)"
+  },
+  {
+    "slug": "devourer",
+    "name": "Divoratore",
+    "type": "Grande Non Morto (Extraplanare)",
+    "alignment": "Sempre neutrale malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "digester",
+    "name": "Digestore",
+    "type": "Media Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo forestae",
+    "organization": "Solitario o branco (3–6)"
+  },
+  {
+    "slug": "dinosaur",
+    "name": "Dinosauro",
+    "type": "Grande Animale",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo forestae",
+    "organization": "Solitario, coppia, o branco (3–6)"
+  },
+  {
+    "slug": "dire-animal",
+    "name": "Animale Crudele",
+    "type": "Grande Animale",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo forestae",
+    "organization": "Solitario o compagnia (5–8)"
+  },
+  {
+    "slug": "dog",
+    "name": "Cane",
+    "type": "Piccola Animale",
+    "environment": "Temperato pianure",
+    "organization": "Solitario o branco (5–12)"
+  },
+  {
+    "slug": "dog-riding",
+    "name": "Cane, da Sella",
+    "type": "Media Animale",
+    "environment": "Temperato pianure",
+    "organization": "Solitario o branco (5–12)"
+  },
+  {
+    "slug": "donkey",
+    "name": "Asino",
+    "type": "Media Animale",
+    "environment": "Temperato desertoi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "doppelganger",
+    "name": "Doppelganger",
+    "type": "Media Umanoide Mostruoso (Mutaforma)",
+    "alignment": "Solitamente neutrale",
+    "environment": "Qualsiasi",
+    "organization": "Solitario, coppia, o bandaa (3–6)"
+  },
+  {
+    "slug": "dragon-breath-weapons",
+    "name": "Armi a Soffio dei Draghi"
+  },
+  {
     "slug": "dragon-turtle",
-    "name": "Drago Tartaruga"
+    "name": "Drago Tartaruga",
+    "type": "Enorme Drago (Acquatico)",
+    "alignment": "Solitamente neutrale",
+    "environment": "Temperato acquatico",
+    "organization": "Solitario"
   },
   {
     "slug": "dragonne",
-    "name": "Dragonne"
+    "name": "Dragonne",
+    "type": "Grande Bestia Magica",
+    "alignment": "Solitamente neutrale",
+    "environment": "Temperato desertoi",
+    "organization": "Solitario, coppia, o branco (5–10)"
+  },
+  {
+    "slug": "dread-wraith",
+    "name": "Wraith Terribile",
+    "type": "Grande Non Morto (Incorporeo)",
+    "alignment": "Sempre legale malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario"
   },
   {
     "slug": "drider",
-    "name": "Drider"
-  },
-  {
-    "slug": "dryad",
-    "name": "Driade"
-  },
-  {
-    "slug": "dwarf-1st-level-warrior",
-    "name": "Nano, Guerriero di 1° Livello"
-  },
-  {
-    "slug": "duergar-1st-level-warrior",
-    "name": "Duergar, Guerriero di 1° Livello"
-  },
-  {
-    "slug": "eagle-giant",
-    "name": "Aquila, Gigante"
-  },
-  {
-    "slug": "air-elemental-small",
-    "name": "Elementale dell'Aria, Piccolo"
-  },
-  {
-    "slug": "air-elemental-medium",
-    "name": "Elementale dell'Aria, Medio"
-  },
-  {
-    "slug": "air-elemental-large",
-    "name": "Elementale dell'Aria, Grande"
-  },
-  {
-    "slug": "elf-1st-level-warrior",
-    "name": "Elfo, Guerriero di 1° Livello"
+    "name": "Drider",
+    "type": "Grande Aberrazione",
+    "alignment": "Sempre caotico malvagio",
+    "organization": "Solitario, coppia, o troupe (1–2 plus 7–12 Medium monstrous spiders)"
   },
   {
     "slug": "drow-1st-level-warrior",
-    "name": "Drow, Guerriero di 1° Livello"
+    "name": "Drow, Guerriero di 1° Livello",
+    "type": "Media Umanoide (Elfo)",
+    "alignment": "Solitamente neutrale malvagio",
+    "organization": "Squad (2–4), pattuglia (5–8 plus 2 2nd-level sergeants and 1 leader of 3rd–6th level), o banda (20–50 plus 10%\n            noncombatants plus 1 2nd-level sergeant per 5 adults, 2d4 6th-level lieutenants, and 1d4 9th-level captains)"
+  },
+  {
+    "slug": "dryad",
+    "name": "Driade",
+    "type": "Media Folletto",
+    "alignment": "Solitamente caotico buono",
+    "environment": "Temperato forestae",
+    "organization": "Solitario o grove (4–7)"
+  },
+  {
+    "slug": "duergar-1st-level-warrior",
+    "name": "Duergar, Guerriero di 1° Livello",
+    "type": "Media Umanoide (Nano)",
+    "alignment": "Spesso legale malvagio",
+    "organization": "Team (2–4), squadra (9–16 plus 3 3rd-level sergeants and 1 leader of 3rd–8th level) o clan (20–80 plus 25%\n            noncombatants plus 1 3rd-level sergeant per 5 adults, 3–6 6th-level lieutenants, and 1–4 9th-level captains)"
+  },
+  {
+    "slug": "dwarf-1st-level-warrior",
+    "name": "Nano, Guerriero di 1° Livello",
+    "type": "Media Umanoide (Nano)",
+    "alignment": "Spesso legale buono(Deep: Solitamente legale neutrale or neutrale)",
+    "environment": "Temperato montagne(Deep: Underground)",
+    "organization": "Team (2–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o clan (30–100 plus 30%\n            noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level captains)"
+  },
+  {
+    "slug": "eagle",
+    "name": "Aquila",
+    "type": "Piccola Animale",
+    "environment": "Temperato montagne",
+    "organization": "Solitario o coppia"
+  },
+  {
+    "slug": "eagle-giant",
+    "name": "Aquila, Gigante",
+    "type": "Grande Bestia Magica",
+    "alignment": "Solitamente neutrale buono",
+    "environment": "Temperato montagne",
+    "organization": "Solitario, coppia, o eyrie (5–12)"
+  },
+  {
+    "slug": "elder-arrowhawk",
+    "name": "Arrowhawk Anziano",
+    "type": "Grande Esterno (Aria, Extraplanare)",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario o nidiata (2–4)"
+  },
+  {
+    "slug": "elder-black-pudding",
+    "name": "Melma Nera Anziana",
+    "type": "Mastodontica Melma",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "elder-tojanida",
+    "name": "Tojanida Anziano",
+    "type": "Grande Esterno (Extraplanare, Acqua)",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario o nidiata (2–4)"
+  },
+  {
+    "slug": "elder-xorn",
+    "name": "Xorn Anziano",
+    "type": "Grande Esterno (Extraplanare, Terra)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario, coppia, o party (6–11)"
+  },
+  {
+    "slug": "elephant",
+    "name": "Elefante",
+    "type": "Enorme Animale",
+    "environment": "Caldo pianure",
+    "organization": "Solitario o mandria (6–30)"
+  },
+  {
+    "slug": "elf-1st-level-warrior",
+    "name": "Elfo, Guerriero di 1° Livello",
+    "type": "Media Umanoide (Elfo)",
+    "alignment": "Solitamente caotico buono(Wood: Solitamente neutrale)",
+    "environment": "Temperato foresta(Half-elf: Temperato forestae)(Aquatic: Temperato acquatico)(Gray: Temperato\n            montagne)(Wild: Caldo forestae)(Wood: Temperato forestae)",
+    "organization": "Squad (2–4), compagnia (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o banda (30–100 plus\n            20% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level\n            captains)"
   },
   {
     "slug": "ethereal-filcher",
-    "name": "Ladro Etereo"
+    "name": "Ladro Etereo",
+    "type": "Media Aberrazione",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario"
   },
   {
     "slug": "ethereal-marauder",
-    "name": "Predatore Etereo"
+    "name": "Predatore Etereo",
+    "type": "Media Bestia Magica (Extraplanare)",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario"
   },
   {
     "slug": "ettercap",
-    "name": "Ettercap"
+    "name": "Ettercap",
+    "type": "Media Aberrazione",
+    "alignment": "Solitamente neutrale malvagio",
+    "environment": "Caldo forestae",
+    "organization": "Solitario, coppia, o troupe (1–2 plus 2–4 Medium monstrous spiders)"
   },
   {
     "slug": "ettin",
-    "name": "Ettin"
+    "name": "Ettin",
+    "type": "Grande Gigante",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Freddo colline",
+    "organization": "Solitario, bandaa (2–4), troupe (1–2 plus 1–2 brown bears), banda (3–5 plus 1–2 brown bears), o colonia (3–5\n            plus 1–2 brown bears and 7–12 ocs o 9–16 goblins)"
   },
   {
-    "slug": "resistance-to-cold-and-fire",
-    "name": "Resistenza a Freddo e Fuoco"
+    "slug": "five-headed-hydra",
+    "name": "Idra a Cinque Teste",
+    "type": "Enorme Bestia Magica",
+    "alignment": "Solitamente neutrale",
+    "environment": "Temperato paludi(Pyro: Caldo paludi)(Cryo: Freddo paludi)",
+    "organization": "Solitario"
   },
   {
-    "slug": "formian-worker",
-    "name": "Formian Operaio"
-  },
-  {
-    "slug": "formian-warrior",
-    "name": "Formian Guerriero"
+    "slug": "flamebrother-salamander",
+    "name": "Salamandra Fratello di Fiamma",
+    "type": "Piccola Esterno (Extraplanare, Fuoco)",
+    "alignment": "Solitamente malvagio (qualsiasi)",
+    "organization": "Solitario, coppia, o gruppo (3–5)"
   },
   {
     "slug": "formian-taskmaster",
-    "name": "Formian Sorvegliante"
+    "name": "Formian Sorvegliante",
+    "type": "Media Esterno (Legale, Extraplanare)",
+    "alignment": "Sempre legale neutrale",
+    "environment": "A lawful piano",
+    "organization": "Solitario (1 plus 1 dominated creature) o conscription team (2–4 plus 1 dominated creature per team member)"
+  },
+  {
+    "slug": "formian-warrior",
+    "name": "Formian Guerriero",
+    "type": "Media Esterno (Legale, Extraplanare)",
+    "alignment": "Sempre legale neutrale",
+    "environment": "A lawful piano",
+    "organization": "Solitario, team (2–4), o truppa (6–11)"
+  },
+  {
+    "slug": "formian-worker",
+    "name": "Formian Operaio",
+    "type": "Piccola Esterno (Legale, Extraplanare)",
+    "alignment": "Sempre legale neutrale",
+    "environment": "A lawful piano",
+    "organization": "Team (2–4) o crew (7–18)"
   },
   {
     "slug": "frost-worm",
-    "name": "Verme del Gelo"
-  },
-  {
-    "slug": "shrieker",
-    "name": "Strillone"
-  },
-  {
-    "slug": "violet-fungus",
-    "name": "Fungo Violetto"
+    "name": "Verme del Gelo",
+    "type": "Enorme Bestia Magica (Freddo)",
+    "alignment": "Solitamente neutrale",
+    "environment": "Freddo pianure",
+    "organization": "Solitario"
   },
   {
     "slug": "gargoyle",
-    "name": "Gargoyle"
+    "name": "Gargoyle",
+    "type": "Media Umanoide Mostruoso (Terra)",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario, coppia, o stomo (5–16)"
   },
   {
     "slug": "genie",
-    "name": "Genio"
+    "name": "Genio",
+    "type": "Grande Esterno (Aria, Extraplanare)",
+    "alignment": "Sempre caotico buono",
+    "organization": "Solitario, compagnia (2–4), o banda (6–15)"
   },
   {
     "slug": "ghaele",
-    "name": "Ghaele"
+    "name": "Ghaele",
+    "type": "Media Esterno (Caotico, Extraplanare, Buono)",
+    "alignment": "Sempre caotico buono",
+    "environment": "Un piano caotico buono piano",
+    "organization": "Solitario, coppia, o squadra (3–5)"
+  },
+  {
+    "slug": "ghast",
+    "name": "Ghast",
+    "type": "Media Non Morto",
+    "alignment": "Sempre caotico malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario, bandaa (2–4), o branco (2–4 plus 7–12 ghouls)"
   },
   {
     "slug": "ghost",
@@ -529,171 +788,371 @@
   },
   {
     "slug": "ghoul",
-    "name": "Ghoul"
-  },
-  {
-    "slug": "ghast",
-    "name": "Ghast"
+    "name": "Ghoul",
+    "type": "Media Non Morto",
+    "alignment": "Sempre caotico malvagio",
+    "environment": "Qualsiasi(Lacedon: Qualsiasi acquatico)",
+    "organization": "Solitario, bandaa (2–4), o branco (7–12)"
   },
   {
     "slug": "giant",
-    "name": "Gigante"
+    "name": "Gigante",
+    "type": "Enorme Gigante (Aria)",
+    "alignment": "Solitamente neutrale buono or neutrale malvagio",
+    "environment": "Temperato montagne",
+    "organization": "Solitario, bandaa (2–4), family (2–4 plus 35% noncombatants plus 1 socerer o cleric of 4th–7th level plus 2–5\n            griffons o 2–8 dire lions), o banda (6–9 plus 1 socerer o cleric of 4th–7th level plus 2–5 griffons o\n            2–8 dire lions)"
+  },
+  {
+    "slug": "giant-ant-queen",
+    "name": "Formica Gigante, Regina",
+    "type": "Grande Parassita",
+    "environment": "Temperato pianure",
+    "organization": "Hive (1 plus 10–100 wokers and 5–20 soldiers)"
+  },
+  {
+    "slug": "giant-ant-soldier",
+    "name": "Formica Gigante, Soldato",
+    "type": "Media Parassita",
+    "environment": "Temperato pianure",
+    "organization": "Solitario o bandaa (2–4)"
+  },
+  {
+    "slug": "giant-ant-worker",
+    "name": "Formica Gigante, Operaia",
+    "type": "Media Parassita",
+    "environment": "Temperato pianure",
+    "organization": "Gang (2–6) o crew (6–11 plus 1 giant ant soldier)"
+  },
+  {
+    "slug": "giant-bee",
+    "name": "Ape Gigante",
+    "type": "Media Parassita",
+    "environment": "Temperato pianure",
+    "organization": "Solitario, buzz (2–5), o hive (11–20)"
+  },
+  {
+    "slug": "giant-bombardier-beetle",
+    "name": "Scarabeo Bombardiere Gigante",
+    "type": "Media Parassita",
+    "environment": "Caldo forestae",
+    "organization": "Cluster (2–5) o click (6–11)"
+  },
+  {
+    "slug": "giant-fire-beetle",
+    "name": "Scarabeo di Fuoco Gigante",
+    "type": "Piccola Parassita",
+    "environment": "Caldo pianure",
+    "organization": "Cluster (2–5) o colonia (6–11)"
+  },
+  {
+    "slug": "giant-praying-mantis",
+    "name": "Mantide Religiosa Gigante",
+    "type": "Grande Parassita",
+    "environment": "Temperato forestae",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "giant-stag-beetle",
+    "name": "Scarabeo Cervo Gigante",
+    "type": "Grande Parassita",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato forestae",
+    "organization": "Cluster (2–5) o mass (6–11)"
+  },
+  {
+    "slug": "giant-wasp",
+    "name": "Vespa Gigante",
+    "type": "Grande Parassita",
+    "environment": "Temperato forestae",
+    "organization": "Solitario, sciame (2–5), o nido (11–20)"
   },
   {
     "slug": "gibbering-mouther",
-    "name": "Farfugliatore"
+    "name": "Farfugliatore",
+    "type": "Media Aberrazione",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario"
   },
   {
     "slug": "girallon",
-    "name": "Girallon"
+    "name": "Girallon",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo forestae",
+    "organization": "Solitario o compagnia (5–8)"
   },
   {
     "slug": "gnoll",
-    "name": "Gnoll"
+    "name": "Gnoll",
+    "type": "Media Umanoide (Gnoll)",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Caldo pianure",
+    "organization": "Solitario, coppia, gruppo di caccia (2–5 and 1–2 hyenas), banda (10–100 plus 50% noncombatants plus 1 3rd-level\n            sergeant per 20 adults and 1 leader of 4th–6th level and 5–8 hyenas), o tribe (20–200 plus 1 3rd-level\n            sergeant per 20 adults, 1 o 2 lieutenants of 4th o 5th level, 1 leader of 6th–8th level, and 7–12 hyenas;\n            underground lairs also have 1–3 trolls)"
   },
   {
     "slug": "gnome-1st-level-warrior",
-    "name": "Gnomo, Guerriero di 1° Livello"
-  },
-  {
-    "slug": "svirfneblin-1st-level-warrior",
-    "name": "Svirfneblin, Guerriero di 1° Livello"
+    "name": "Gnomo, Guerriero di 1° Livello",
+    "type": "Piccola Umanoide (Gnome)",
+    "alignment": "Solitamente neutrale buono",
+    "environment": "Temperato colline (Forest gnomes: Temperato forestae)",
+    "organization": "Company (2–4), squadra (11–20 plus 1 leader of 3rd–6th level and 2 3rd-level lieutenants), o banda (30–50 plus\n            1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, 3 7th-level captains, and 2–5 dire badgers)"
   },
   {
     "slug": "goblin",
-    "name": "Goblin"
+    "name": "Goblin",
+    "alignment": "Solitamente neutrale malvagio",
+    "environment": "Temperato pianure",
+    "organization": "Gang (4–9), banda (10–100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4th–6th level), warbanda (10–24 with wog mounts), o tribe (40–400 plus 100% noncombatants plus 1 3rd-level\n            sergeant per 20 adults, 1 o 2 lieutenants of 4th o 5th level, 1 leader of 6th–8th level, 10–24 wogs, and\n            2–4 dire wolves)"
+  },
+  {
+    "slug": "golden-protector-celestial-half-dragon-lammasu",
+    "name": "Protettore Dorato (Lammasu Celestiale Mezzo Drago)",
+    "type": "Grande Drago",
+    "alignment": "Sempre legale buono",
+    "environment": "Un piano legale buono piano",
+    "organization": "Solitario"
   },
   {
     "slug": "golem",
-    "name": "Golem"
+    "name": "Golem",
+    "type": "Grande Costrutto",
+    "alignment": "Sempre neutrale",
+    "environment": "Qualsiasi",
+    "organization": "Solitario o bandaa (2–4)"
   },
   {
     "slug": "gorgon",
-    "name": "Gorgone"
+    "name": "Gorgone",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato pianure",
+    "organization": "Solitario, coppia, branco (3–4), o mandria (5–13)"
   },
   {
     "slug": "gray-render",
-    "name": "Render Grigio"
+    "name": "Render Grigio",
+    "type": "Grande Bestia Magica",
+    "alignment": "Solitamente neutrale",
+    "environment": "Temperato paludi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "greater-barghest",
+    "name": "Barghest Superiore",
+    "type": "Grande Esterno (Malvagio, Extraplanare, Legale, Mutaforma)",
+    "alignment": "Sempre legale malvagio",
+    "environment": "An evil piano",
+    "organization": "Solitario o branco (3–6)"
+  },
+  {
+    "slug": "greater-shadow",
+    "name": "Ombra Superiore",
+    "type": "Media Non Morto (Incorporeo)",
+    "alignment": "Sempre caotico malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario"
   },
   {
     "slug": "grick",
-    "name": "Grick"
+    "name": "Grick",
+    "type": "Media Aberrazione",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario o gruppo (2–4)"
   },
   {
     "slug": "griffon",
-    "name": "Grifone"
+    "name": "Grifone",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato colline",
+    "organization": "Solitario, coppia, o branco (6–10)"
   },
   {
     "slug": "grimlock",
-    "name": "Grimlock"
+    "name": "Grimlock",
+    "type": "Media Umanoide Mostruoso",
+    "alignment": "Spesso neutrale malvagio",
+    "organization": "Gang (2–4), branco (10–20), tribe (10–60 plus 1 leader of 3rd–5th level per 10 adults)."
   },
   {
     "slug": "hag",
-    "name": "Strega"
+    "name": "Strega",
+    "type": "Grande Umanoide Mostruoso",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Freddo paludi",
+    "organization": "Solitario o covey (3 hags of any kind plus 1–8 ogres and 1–4 evil giants)"
+  },
+  {
+    "slug": "halfling-1st-level-warrior",
+    "name": "Halfling, Guerriero di 1° Livello",
+    "type": "Piccola Umanoide (Halfling)",
+    "alignment": "Solitamente neutrale",
+    "environment": "Caldo pianure(Deep halfling: Caldo colline)(Tallfellow: Temperato forestae)",
+    "organization": "Company (2–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o banda (30–100 plus\n            100% noncombatants plus 1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, 3 7th-level captains,\n            6–10 dogs, and 2–5 riding dogs)"
+  },
+  {
+    "slug": "harpy",
+    "name": "Arpia",
+    "type": "Media Umanoide Mostruoso",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Temperato paludi",
+    "organization": "Solitario, coppia, o stomo (7–12)"
+  },
+  {
+    "slug": "harpy-archer-7th-level-fighter",
+    "name": "Arpia Arciera, Guerriero di 7° Livello",
+    "type": "Media Umanoide Mostruoso",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Temperato paludi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "hawk",
+    "name": "Falco",
+    "type": "Minuta Animale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario o coppia"
   },
   {
     "slug": "hd",
     "name": "DV"
   },
   {
-    "slug": "abilities",
-    "name": "Caratteristiche"
-  },
-  {
-    "slug": "size",
-    "name": "Taglia"
-  },
-  {
-    "slug": "bite-damage",
-    "name": "Danno da Morso"
-  },
-  {
-    "slug": "claw-damage",
-    "name": "Danno da Artiglio"
-  },
-  {
-    "slug": "halfling-1st-level-warrior",
-    "name": "Halfling, Guerriero di 1° Livello"
-  },
-  {
-    "slug": "harpy",
-    "name": "Arpia"
-  },
-  {
-    "slug": "harpy-archer-7th-level-fighter",
-    "name": "Arpia Arciera, Guerriero di 7° Livello"
-  },
-  {
     "slug": "hellhound",
-    "name": "Segugio Infernale"
-  },
-  {
-    "slug": "nessian-warhound",
-    "name": "Segugio da Guerra di Nesso"
+    "name": "Segugio Infernale",
+    "type": "Media Esterno (Malvagio, Extraplanare, Fuoco, Legale)",
+    "alignment": "Sempre legale malvagio",
+    "environment": "Un piano legale malvagio piano",
+    "organization": "Solitario, coppia, o branco (5–12)"
   },
   {
     "slug": "hippogriff",
-    "name": "Ippogrifo"
+    "name": "Ippogrifo",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato colline",
+    "organization": "Solitario, coppia, o stomo (7–12)"
+  },
+  {
+    "slug": "hit-dice",
+    "name": "Dadi Vita"
   },
   {
     "slug": "hobgoblin-1st-level-warrior",
-    "name": "Hobgoblin, Guerriero di 1° Livello"
+    "name": "Hobgoblin, Guerriero di 1° Livello",
+    "type": "Media Umanoide (Goblinoide)",
+    "alignment": "Solitamente legale malvagio",
+    "environment": "Caldo colline",
+    "organization": "Gang (4–9), banda (10–100 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4th–6th level), warbanda (10–24), o tribe (30–300 plus 50% noncombatants plus 1 3rd-level sergeant per 20\n            adults, 1 o 2 lieutenants of 4th o 5th level, 1 leader of 6th–8th level, 2–4 dire wolves, and 1–4 ogres o\n            1–2 trolls)"
   },
   {
     "slug": "homunculus",
-    "name": "Homunculus"
+    "name": "Homunculus",
+    "type": "Minuta Costrutto",
+    "alignment": "Qualsiasi (uguale al creatore)",
+    "environment": "Qualsiasi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "horse",
+    "name": "Cavallo",
+    "environment": "Temperato pianure"
   },
   {
     "slug": "howler",
-    "name": "Ululatore"
+    "name": "Ululatore",
+    "type": "Grande Esterno (Caotico, Malvagio, Extraplanare)",
+    "alignment": "Sempre caotico malvagio",
+    "environment": "A chaotic piano",
+    "organization": "Solitario, bandaa (2–4), o branco (6–10)"
   },
   {
-    "slug": "five-headed-hydra",
-    "name": "Idra a Cinque Teste"
-  },
-  {
-    "slug": "six-headed-hydra",
-    "name": "Idra a Sei Teste"
-  },
-  {
-    "slug": "seven-headed-hydra",
-    "name": "Idra a Sette Teste"
+    "slug": "hyena",
+    "name": "Iena",
+    "type": "Media Animale",
+    "environment": "Caldo desertoi",
+    "organization": "Solitario, coppia, o branco (7–16)"
   },
   {
     "slug": "inevitable",
-    "name": "Inevitabile"
+    "name": "Inevitabile",
+    "type": "Media Costrutto (Extraplanare, Legale)"
   },
   {
     "slug": "invisible-stalker",
-    "name": "Segugio Invisibile"
+    "name": "Segugio Invisibile",
+    "type": "Grande Elementale (Aria, Extraplanare)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "juvenile-arrowhawk",
+    "name": "Arrowhawk Giovane",
+    "type": "Piccola Esterno (Aria, Extraplanare)",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario o nidiata (2–4)"
+  },
+  {
+    "slug": "juvenile-tojanida",
+    "name": "Tojanida Giovane",
+    "type": "Piccola Esterno (Extraplanare, Acqua)",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario o nidiata (2–4)"
   },
   {
     "slug": "kobold-1st-level-warrior",
-    "name": "Coboldo, Guerriero di 1° Livello"
+    "name": "Coboldo, Guerriero di 1° Livello",
+    "type": "Piccola Umanoide (Rettile)",
+    "alignment": "Solitamente legale malvagio",
+    "environment": "Temperato forestae",
+    "organization": "Gang (4–9), banda (10–100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4th–6th level), warbanda (10–24 plus 2–4 dire weasels), tribe (40–400 plus 1 3rd-level sergeant per 20\n            adults, 1 o 2 lieutenants of 4th o 5th level, 1 leader of 6th–8th level, and 5–8 dire weasels)"
   },
   {
     "slug": "kraken",
-    "name": "Kraken"
+    "name": "Kraken",
+    "type": "Mastodontica Bestia Magica (Acquatico)",
+    "alignment": "Solitamente neutrale malvagio",
+    "environment": "Temperato acquatico",
+    "organization": "Solitario"
   },
   {
     "slug": "krenshar",
-    "name": "Krenshar"
+    "name": "Krenshar",
+    "type": "Media Bestia Magica",
+    "alignment": "Solitamente neutrale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario, coppia, o branco (6–10)"
   },
   {
     "slug": "lamia",
-    "name": "Lamia"
+    "name": "Lamia",
+    "type": "Grande Bestia Magica",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Temperato desertoi",
+    "organization": "Solitario, coppia, o bandaa (3–4)"
   },
   {
     "slug": "lammasu",
-    "name": "Lammasu"
-  },
-  {
-    "slug": "golden-protector-celestial-half-dragon-lammasu",
-    "name": "Protettore Dorato (Lammasu Celestiale Mezzo Drago)"
+    "name": "Lammasu",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre legale buono",
+    "environment": "Temperato desertoi",
+    "organization": "Solitario"
   },
   {
     "slug": "leonal",
-    "name": "Leonal"
+    "name": "Leonal",
+    "type": "Media Esterno (Extraplanare, Buono)",
+    "alignment": "Sempre neutrale buono",
+    "environment": "A good piano.",
+    "organization": "Solitario o branco (4–9)"
+  },
+  {
+    "slug": "leopard",
+    "name": "Leopardo",
+    "type": "Media Animale",
+    "environment": "Caldo forestae",
+    "organization": "Solitario o coppia"
   },
   {
     "slug": "lich",
@@ -701,458 +1160,937 @@
   },
   {
     "slug": "lillend",
-    "name": "Lillend"
+    "name": "Lillend",
+    "type": "Grande Esterno (Caotico, Extraplanare, Buono)",
+    "alignment": "Sempre caotico buono",
+    "environment": "A chaos piano",
+    "organization": "Solitario o covey (2–4)"
+  },
+  {
+    "slug": "lion",
+    "name": "Leone",
+    "type": "Grande Animale",
+    "environment": "Caldo pianure",
+    "organization": "Solitario, coppia, o branco (6–10)"
+  },
+  {
+    "slug": "lizard",
+    "name": "Lucertola",
+    "type": "Minuta Animale",
+    "environment": "Caldo forestae",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "lizard-monitor",
+    "name": "Lucertola, Varano",
+    "type": "Media Animale",
+    "environment": "Caldo forestae",
+    "organization": "Solitario"
   },
   {
     "slug": "lizardfolk",
-    "name": "Uomini Lucertola"
+    "name": "Uomini Lucertola",
+    "type": "Media Umanoide (Rettile)",
+    "alignment": "Solitamente neutrale",
+    "environment": "Temperato paludi",
+    "organization": "Gang (2–3), banda (6–10 plus 50% noncombatants plus 1 leader of 3rd–6th level), o tribe (30–60 plus 2\n            lieutenants of 3rd–6th level and 1 leader of 4th–10th level)"
   },
   {
     "slug": "locathah",
-    "name": "Locathah"
-  },
-  {
-    "slug": "werebear-human-form",
-    "name": "Orso Mannaro, Forma Umana"
-  },
-  {
-    "slug": "werebear-bear-form",
-    "name": "Orso Mannaro, Forma d'Orso"
-  },
-  {
-    "slug": "werebear-hybrid-form",
-    "name": "Orso Mannaro, Forma Ibrida"
+    "name": "Locathah",
+    "type": "Media Umanoide (Acquatico)",
+    "alignment": "Solitamente neutrale",
+    "environment": "Caldo acquatico",
+    "organization": "Company (2–4), pattuglia (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o tribe (30–100\n            plus 100% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level\n            captains)"
   },
   {
     "slug": "magmin",
-    "name": "Magmin"
+    "name": "Magmin",
+    "type": "Piccola Elementale (Fuoco, Extraplanare)",
+    "alignment": "Sempre caotico neutrale",
+    "organization": "Solitario, bandaa (2–4), o squadra (6–10)"
+  },
+  {
+    "slug": "manta-ray",
+    "name": "Manta",
+    "type": "Grande Animale (Acquatico)",
+    "environment": "Caldo acquatico",
+    "organization": "Solitario o school (2–5)"
   },
   {
     "slug": "manticore",
-    "name": "Manticora"
+    "name": "Manticora",
+    "type": "Grande Bestia Magica",
+    "alignment": "Solitamente legale malvagio",
+    "environment": "Caldo paludi",
+    "organization": "Solitario, coppia, o branco (3–6)"
   },
   {
     "slug": "medusa",
-    "name": "Medusa"
+    "name": "Medusa",
+    "type": "Media Umanoide Mostruoso",
+    "alignment": "Solitamente legale malvagio",
+    "environment": "Temperato paludi",
+    "organization": "Solitario o covey (2–4)"
   },
   {
     "slug": "mephit",
-    "name": "Mephit"
+    "name": "Mephit",
+    "type": "Piccola Esterno (Aria, Extraplanare)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario (1), bandaa (2–4 mephits of mixed types), o mob (5–12 mephits of mixed types)"
   },
   {
     "slug": "merfolk",
-    "name": "Tritone"
+    "name": "Tritone",
+    "alignment": "Solitamente neutrale",
+    "environment": "Temperato acquatico",
+    "organization": "Company (2–4), pattuglia (11–20 plus 2 3rd-level lieutenants and 1 leader of 3rd–6th level), o banda (30–60\n            plus 1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, 3 7th-level captains, and 10 popoises)"
   },
   {
     "slug": "mimic",
-    "name": "Mimic"
-  },
-  {
-    "slug": "minotaur",
-    "name": "Minotauro"
-  },
-  {
-    "slug": "mohrg",
-    "name": "Mohrg"
-  },
-  {
-    "slug": "mummy",
-    "name": "Mummia"
-  },
-  {
-    "slug": "mummy-lord-10th-level-cleric",
-    "name": "Signore delle Mummie, Chierico di 10° Livello"
-  },
-  {
-    "slug": "naga",
-    "name": "Naga"
-  },
-  {
-    "slug": "night-hag",
-    "name": "Strega Notturna"
-  },
-  {
-    "slug": "nightmare",
-    "name": "Incubo"
-  },
-  {
-    "slug": "nightmare-cauchemar",
-    "name": "Incubo, Cauchemar"
-  },
-  {
-    "slug": "nightshade",
-    "name": "Ombra Notturna"
-  },
-  {
-    "slug": "nymph",
-    "name": "Ninfa"
-  },
-  {
-    "slug": "ogre",
-    "name": "Ogre"
-  },
-  {
-    "slug": "ogre-4th-level-barbarian",
-    "name": "Ogre, Barbaro di 4° Livello"
-  },
-  {
-    "slug": "ogre-mage",
-    "name": "Ogre Mago"
-  },
-  {
-    "slug": "black-pudding",
-    "name": "Melma Nera"
-  },
-  {
-    "slug": "elder-black-pudding",
-    "name": "Melma Nera Anziana"
-  },
-  {
-    "slug": "orc",
-    "name": "Orco"
-  },
-  {
-    "slug": "otyugh",
-    "name": "Otyugh"
-  },
-  {
-    "slug": "owl-giant",
-    "name": "Gufo, Gigante"
-  },
-  {
-    "slug": "owlbear",
-    "name": "Orsogufo"
-  },
-  {
-    "slug": "pegasus",
-    "name": "Pegaso"
-  },
-  {
-    "slug": "phantom-fungus",
-    "name": "Fungo Fantasma"
-  },
-  {
-    "slug": "phase-spider",
-    "name": "Ragno Fasico"
-  },
-  {
-    "slug": "phasm",
-    "name": "Phasm"
-  },
-  {
-    "slug": "planetouched",
-    "name": "Stirpe Planare"
-  },
-  {
-    "slug": "pseudodragon",
-    "name": "Pseudodrago"
-  },
-  {
-    "slug": "purple-worm",
-    "name": "Verme Purpureo"
-  },
-  {
-    "slug": "rakshasa",
-    "name": "Rakshasa"
-  },
-  {
-    "slug": "rast",
-    "name": "Rast"
-  },
-  {
-    "slug": "ravid",
-    "name": "Ravid"
-  },
-  {
-    "slug": "remorhaz",
-    "name": "Remorhaz"
-  },
-  {
-    "slug": "roc",
-    "name": "Roc"
-  },
-  {
-    "slug": "roper",
-    "name": "Roper"
-  },
-  {
-    "slug": "rust-monster",
-    "name": "Mostro della Ruggine"
-  },
-  {
-    "slug": "sahuagin",
-    "name": "Sahuagin"
-  },
-  {
-    "slug": "flamebrother-salamander",
-    "name": "Salamandra Fratello di Fiamma"
-  },
-  {
-    "slug": "average-salamander",
-    "name": "Salamandra Media"
-  },
-  {
-    "slug": "noble-salamander",
-    "name": "Salamandra Nobile"
-  },
-  {
-    "slug": "satyr",
-    "name": "Satiro"
-  },
-  {
-    "slug": "sea-cat",
-    "name": "Gatto Marino"
-  },
-  {
-    "slug": "shadow",
-    "name": "Ombra"
-  },
-  {
-    "slug": "greater-shadow",
-    "name": "Ombra Superiore"
-  },
-  {
-    "slug": "shadow-mastiff",
-    "name": "Mastino d'Ombra"
-  },
-  {
-    "slug": "shambling-mound",
-    "name": "Cumulo Strisciante"
-  },
-  {
-    "slug": "shield-guardian",
-    "name": "Guardiano dello Scudo"
-  },
-  {
-    "slug": "shocker-lizard",
-    "name": "Lucertola Elettrica"
-  },
-  {
-    "slug": "skeleton",
-    "name": "Scheletro"
-  },
-  {
-    "slug": "skum",
-    "name": "Skum"
-  },
-  {
-    "slug": "spectre",
-    "name": "Spettro"
-  },
-  {
-    "slug": "sphinx",
-    "name": "Sfinge"
-  },
-  {
-    "slug": "spider-eater",
-    "name": "Mangiaragni"
-  },
-  {
-    "slug": "sprite",
-    "name": "Spiritello"
-  },
-  {
-    "slug": "stirge",
-    "name": "Stirge"
-  },
-  {
-    "slug": "swarm",
-    "name": "Sciame"
-  },
-  {
-    "slug": "tarrasque",
-    "name": "Tarrasque"
-  },
-  {
-    "slug": "tendriculos",
-    "name": "Tendriculos"
-  },
-  {
-    "slug": "thoqqua",
-    "name": "Thoqqua"
-  },
-  {
-    "slug": "titan",
-    "name": "Titano"
-  },
-  {
-    "slug": "juvenile-tojanida",
-    "name": "Tojanida Giovane"
-  },
-  {
-    "slug": "adult-tojanida",
-    "name": "Tojanida Adulto"
-  },
-  {
-    "slug": "elder-tojanida",
-    "name": "Tojanida Anziano"
-  },
-  {
-    "slug": "treant",
-    "name": "Treant"
-  },
-  {
-    "slug": "triton",
-    "name": "Tritone"
-  },
-  {
-    "slug": "troglodyte",
-    "name": "Troglodita"
-  },
-  {
-    "slug": "troll",
-    "name": "Troll"
-  },
-  {
-    "slug": "troll-hunter-6th-level-ranger",
-    "name": "Troll Cacciatore, Ranger di 6° Livello"
-  },
-  {
-    "slug": "unicorn",
-    "name": "Unicorno"
-  },
-  {
-    "slug": "celestial-charger-7th-level-cleric",
-    "name": "Destriero Celestiale, Chierico di 7° Livello"
-  },
-  {
-    "slug": "damage",
-    "name": "Danno"
-  },
-  {
-    "slug": "vampire-spawn",
-    "name": "Progenie Vampirica"
-  },
-  {
-    "slug": "vargouille",
-    "name": "Vargouille"
-  },
-  {
-    "slug": "wight",
-    "name": "Wight"
-  },
-  {
-    "slug": "will-o-wisp",
-    "name": "Fuoco Fatuo"
-  },
-  {
-    "slug": "winter-wolf",
-    "name": "Lupo Invernale"
-  },
-  {
-    "slug": "worg",
-    "name": "Worg"
-  },
-  {
-    "slug": "wraith",
-    "name": "Wraith"
-  },
-  {
-    "slug": "dread-wraith",
-    "name": "Wraith Terribile"
-  },
-  {
-    "slug": "wyvern",
-    "name": "Viverna"
-  },
-  {
-    "slug": "xill",
-    "name": "Xill"
+    "name": "Mimic",
+    "type": "Grande Aberrazione (Mutaforma)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario"
   },
   {
     "slug": "minor-xorn",
-    "name": "Xorn Minore"
+    "name": "Xorn Minore",
+    "type": "Piccola Esterno (Extraplanare, Terra)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario, coppia, o gruppo (3–5)"
   },
   {
-    "slug": "average-xorn",
-    "name": "Xorn Medio"
+    "slug": "minotaur",
+    "name": "Minotauro",
+    "type": "Grande Umanoide Mostruoso",
+    "alignment": "Solitamente caotico Malvagio",
+    "organization": "Solitario, coppia, o bandaa (3–4)"
   },
   {
-    "slug": "elder-xorn",
-    "name": "Xorn Anziano"
+    "slug": "mohrg",
+    "name": "Mohrg",
+    "type": "Media Non Morto",
+    "alignment": "Sempre caotico malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario, bandaa (2–4), o mob (2–4 plus 5–10 zombies)"
   },
   {
-    "slug": "yeth-hound",
-    "name": "Segugio Yeth"
-  },
-  {
-    "slug": "yrthak",
-    "name": "Yrthak"
-  },
-  {
-    "slug": "zombie",
-    "name": "Zombi"
-  },
-  {
-    "slug": "giant-ant-worker",
-    "name": "Formica Gigante, Operaia"
-  },
-  {
-    "slug": "giant-ant-soldier",
-    "name": "Formica Gigante, Soldato"
-  },
-  {
-    "slug": "giant-ant-queen",
-    "name": "Formica Gigante, Regina"
-  },
-  {
-    "slug": "giant-bee",
-    "name": "Ape Gigante"
-  },
-  {
-    "slug": "giant-bombardier-beetle",
-    "name": "Scarabeo Bombardiere Gigante"
-  },
-  {
-    "slug": "giant-fire-beetle",
-    "name": "Scarabeo di Fuoco Gigante"
-  },
-  {
-    "slug": "giant-stag-beetle",
-    "name": "Scarabeo Cervo Gigante"
-  },
-  {
-    "slug": "giant-praying-mantis",
-    "name": "Mantide Religiosa Gigante"
-  },
-  {
-    "slug": "giant-wasp",
-    "name": "Vespa Gigante"
-  },
-  {
-    "slug": "monstrous-centipede-tiny",
-    "name": "Centopiedi Mostruoso, Minuscolo"
-  },
-  {
-    "slug": "monstrous-centipede-small",
-    "name": "Centopiedi Mostruoso, Piccolo"
+    "slug": "monkey",
+    "name": "Scimmia",
+    "type": "Minuta Animale",
+    "environment": "Caldo forestae"
   },
   {
     "slug": "monstrous-centipede-medium",
-    "name": "Centopiedi Mostruoso, Medio"
+    "name": "Centopiedi Mostruoso, Medio",
+    "type": "Media Parassita",
+    "organization": "Solitario o colonia (2–5)"
   },
   {
-    "slug": "monstrous-scorpion-tiny",
-    "name": "Scorpione Mostruoso, Minuscolo"
+    "slug": "monstrous-centipede-small",
+    "name": "Centopiedi Mostruoso, Piccolo",
+    "type": "Piccola Parassita",
+    "organization": "Colony (2–5) o sciame (6–11)"
   },
   {
-    "slug": "monstrous-scorpion-small",
-    "name": "Scorpione Mostruoso, Piccolo"
+    "slug": "monstrous-centipede-tiny",
+    "name": "Centopiedi Mostruoso, Minuscolo",
+    "type": "Minuta Parassita"
   },
   {
     "slug": "monstrous-scorpion-medium",
-    "name": "Scorpione Mostruoso, Medio"
+    "name": "Scorpione Mostruoso, Medio",
+    "type": "Media Parassita",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo desertoi",
+    "organization": "Solitario o colonia (2–5)"
   },
   {
-    "slug": "monstrous-spider-tiny",
-    "name": "Ragno Mostruoso, Minuscolo"
+    "slug": "monstrous-scorpion-small",
+    "name": "Scorpione Mostruoso, Piccolo",
+    "type": "Piccola Parassita",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo desertoi",
+    "organization": "Colony (2–5) o sciame (6–11)"
   },
   {
-    "slug": "monstrous-spider-small",
-    "name": "Ragno Mostruoso, Piccolo"
+    "slug": "monstrous-scorpion-tiny",
+    "name": "Scorpione Mostruoso, Minuscolo",
+    "type": "Minuta Parassita",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo desertoi"
   },
   {
     "slug": "monstrous-spider-medium",
-    "name": "Ragno Mostruoso, Medio"
+    "name": "Ragno Mostruoso, Medio",
+    "type": "Media Parassita",
+    "environment": "Temperato forestae",
+    "organization": "Solitario o colonia (2–5)"
+  },
+  {
+    "slug": "monstrous-spider-small",
+    "name": "Ragno Mostruoso, Piccolo",
+    "type": "Piccola Parassita",
+    "environment": "Temperato forestae",
+    "organization": "Colony (2–5) o sciame (6–11)"
+  },
+  {
+    "slug": "monstrous-spider-tiny",
+    "name": "Ragno Mostruoso, Minuscolo",
+    "type": "Minuta Parassita",
+    "environment": "Temperato forestae"
+  },
+  {
+    "slug": "mule",
+    "name": "Mulo",
+    "type": "Grande Animale",
+    "environment": "Caldo pianure"
+  },
+  {
+    "slug": "mummy",
+    "name": "Mummia",
+    "type": "Media Non Morto",
+    "alignment": "Solitamente legale malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario, warden squadra (2–4), o guardian detail (6–10)"
+  },
+  {
+    "slug": "mummy-lord-10th-level-cleric",
+    "name": "Signore delle Mummie, Chierico di 10° Livello",
+    "type": "Media Non Morto",
+    "alignment": "Solitamente legale malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario o tomb guard (1 mummy lod and 6–10 mummies)"
+  },
+  {
+    "slug": "naga",
+    "name": "Naga",
+    "type": "Grande Aberrazione",
+    "alignment": "Solitamente legale malvagio",
+    "environment": "Temperato colline",
+    "organization": "Solitario o nido (2–4)"
+  },
+  {
+    "slug": "nessian-warhound",
+    "name": "Segugio da Guerra di Nesso",
+    "type": "Grande Esterno (Malvagio, Extraplanare, Fuoco, Legale)",
+    "alignment": "Sempre legale malvagio",
+    "environment": "Un piano legale malvagio piano",
+    "organization": "Solitario, coppia, o branco (1–2 Nessian warhounds and 5–12 hell hounds)"
+  },
+  {
+    "slug": "night-hag",
+    "name": "Strega Notturna",
+    "type": "Media Esterno (Malvagio, Extraplanare)",
+    "alignment": "Sempre neutrale malvagio",
+    "environment": "A evil piano",
+    "organization": "Solitario, mounted (1, on nightmare), o covey (3, on nightmares)"
+  },
+  {
+    "slug": "nightmare",
+    "name": "Incubo",
+    "type": "Grande Esterno (Malvagio, Extraplanare)",
+    "alignment": "Sempre neutrale malvagio",
+    "environment": "A evil piano",
+    "organization": "Solitario Solitario"
+  },
+  {
+    "slug": "nightmare-cauchemar",
+    "name": "Incubo, Cauchemar",
+    "type": "Enorme Esterno (Malvagio, Extraplanare)",
+    "alignment": "Sempre neutrale malvagio",
+    "environment": "Un piano neutrale malvagio piano",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "nightshade",
+    "name": "Ombra Notturna",
+    "type": "Mastodontica Non Morto (Extraplanare)",
+    "alignment": "Sempre caotico malvagio",
+    "organization": "Solitario o coppia"
+  },
+  {
+    "slug": "noble-salamander",
+    "name": "Salamandra Nobile",
+    "type": "Grande Esterno (Extraplanare, Fuoco)",
+    "alignment": "Solitamente malvagio (qualsiasi)",
+    "organization": "Solitario, coppia, o noble party (9–14)"
+  },
+  {
+    "slug": "nymph",
+    "name": "Ninfa",
+    "type": "Media Folletto",
+    "alignment": "Solitamente caotico buono",
+    "environment": "Temperato forestae",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "octopus",
+    "name": "Piovra",
+    "type": "Piccola Animale (Acquatico)",
+    "environment": "Caldo acquatico",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "octopus-giant",
+    "name": "Piovra, Gigante",
+    "type": "Grande Animale (Acquatico)",
+    "environment": "Caldo acquatico",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "ogre",
+    "name": "Ogre",
+    "type": "Grande Gigante",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Temperato colline (Merrow: Temperato acquatico)",
+    "organization": "Solitario, coppia, bandaa (3–4), o banda (5–8)"
+  },
+  {
+    "slug": "ogre-4th-level-barbarian",
+    "name": "Ogre, Barbaro di 4° Livello",
+    "type": "Grande Gigante",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Temperato colline",
+    "organization": "Solitario, coppia, bandaa (1 plus 1–3 ogres), o banda (1 plus 4–7 ogres)"
+  },
+  {
+    "slug": "ogre-mage",
+    "name": "Ogre Mago",
+    "type": "Grande Gigante",
+    "alignment": "Solitamente legale malvagio",
+    "environment": "Freddo colline",
+    "organization": "Solitario, coppia, o troupe (1–2 plus 2–4 ogres)"
+  },
+  {
+    "slug": "orc",
+    "name": "Orco",
+    "alignment": "Spesso caotico malvagio",
+    "environment": "Temperato colline",
+    "organization": "Gang (2–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o banda (30–100 plus\n            150% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level\n            captains)"
+  },
+  {
+    "slug": "otyugh",
+    "name": "Otyugh",
+    "type": "Grande Aberrazione",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario, coppia, o gruppo (3–4)"
+  },
+  {
+    "slug": "owl",
+    "name": "Gufo",
+    "type": "Minuta Animale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "owl-giant",
+    "name": "Gufo, Gigante",
+    "type": "Grande Bestia Magica",
+    "alignment": "Solitamente neutrale buono",
+    "environment": "Temperato forestae",
+    "organization": "Solitario, coppia, o compagnia (3–5)"
+  },
+  {
+    "slug": "owlbear",
+    "name": "Orsogufo",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario, coppia, o branco (3–8)"
+  },
+  {
+    "slug": "pegasus",
+    "name": "Pegaso",
+    "type": "Grande Bestia Magica",
+    "alignment": "Solitamente caotico buono",
+    "environment": "Temperato forestae",
+    "organization": "Solitario, coppia, o mandria (6–10)"
+  },
+  {
+    "slug": "phantom-fungus",
+    "name": "Fungo Fantasma",
+    "type": "Media Pianta",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "phase-spider",
+    "name": "Ragno Fasico",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo colline",
+    "organization": "Solitario o gruppo (2–5)"
+  },
+  {
+    "slug": "phasm",
+    "name": "Phasm",
+    "type": "Media Aberrazione (Mutaforma)",
+    "alignment": "Solitamente caotico neutrale",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "planetouched",
+    "name": "Stirpe Planare",
+    "alignment": "Solitamente buono (qualsiasi)",
+    "environment": "Temperato pianure",
+    "organization": "Solitario, coppia, o team (3–4)"
+  },
+  {
+    "slug": "pony",
+    "name": "Pony",
+    "type": "Media Animale",
+    "environment": "Temperato pianure",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "pony-war",
+    "name": "Pony, da Guerra",
+    "type": "Media Animale",
+    "environment": "Temperato pianure"
+  },
+  {
+    "slug": "porpoise",
+    "name": "Focena",
+    "type": "Media Animale",
+    "environment": "Temperato acquatico",
+    "organization": "Solitario, coppia, o school (3–20)"
+  },
+  {
+    "slug": "pseudodragon",
+    "name": "Pseudodrago",
+    "type": "Minuta Drago",
+    "alignment": "Sempre neutrale buono",
+    "environment": "Temperato forestae",
+    "organization": "Solitario, coppia, o nidiata (3–5)"
+  },
+  {
+    "slug": "purple-worm",
+    "name": "Verme Purpureo",
+    "type": "Mastodontica Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "rakshasa",
+    "name": "Rakshasa",
+    "type": "Media Esterno (Nativo)",
+    "alignment": "Sempre legale malvagio",
+    "environment": "Caldo paludi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "rast",
+    "name": "Rast",
+    "type": "Media Esterno (Extraplanare, Fuoco)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario, coppia, o gruppo (3–6)"
+  },
+  {
+    "slug": "rat",
+    "name": "Ratto",
+    "type": "Minuta Animale",
+    "environment": "Qualsiasi"
+  },
+  {
+    "slug": "raven",
+    "name": "Corvo",
+    "type": "Minuta Animale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "ravid",
+    "name": "Ravid",
+    "type": "Media Esterno (Extraplanare)",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario (1 plus at least 1 animated object)"
+  },
+  {
+    "slug": "remorhaz",
+    "name": "Remorhaz",
+    "type": "Enorme Bestia Magica",
+    "alignment": "Solitamente neutrale",
+    "environment": "Freddo deserto",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "resistance-to-acid-cold-electricity",
+    "name": "Resistenza ad Acido, Freddo, Elettricità"
+  },
+  {
+    "slug": "resistance-to-cold-and-fire",
+    "name": "Resistenza a Freddo e Fuoco"
+  },
+  {
+    "slug": "rhinoceros",
+    "name": "Rinoceronte",
+    "type": "Grande Animale",
+    "environment": "Caldo pianure",
+    "organization": "Solitario o mandria (2–12)"
+  },
+  {
+    "slug": "roc",
+    "name": "Roc",
+    "type": "Mastodontica Animale",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo montagne",
+    "organization": "Solitario o coppia"
+  },
+  {
+    "slug": "roper",
+    "name": "Roper",
+    "type": "Grande Bestia Magica",
+    "alignment": "Solitamente caotico malvagio",
+    "organization": "Solitario, coppia, o gruppo (3–6)"
+  },
+  {
+    "slug": "rust-monster",
+    "name": "Mostro della Ruggine",
+    "type": "Media Aberrazione",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario o coppia"
+  },
+  {
+    "slug": "sahuagin",
+    "name": "Sahuagin",
+    "type": "Media Umanoide Mostruoso (Acquatico)",
+    "alignment": "Solitamente legale malvagio",
+    "environment": "Caldo acquatico",
+    "organization": "Solitario, coppia, team (5–8), pattuglia (11–20 plus 1 3rd-level lieutenant and 1–2 sharks), banda (20–80 plus 100%\n            noncombatants plus 1 3rd-level lieutenant and 1 4th-level chieftain per 20 adults plus 1–2 sharks), o tribe\n            (70–160 plus 100% noncombatants plus 1 3rd-level lieutenant per 20 adults, 1 4th-level chieftain per 40\n            adults, 9 4th-level guards, 1–4 underpriestesses of 3rd–6th level, 1 7th-level priestess, and 1 baron of\n            6th–8th level plus 5–8 sharks)"
+  },
+  {
+    "slug": "satyr",
+    "name": "Satiro",
+    "type": "Media Folletto",
+    "alignment": "Solitamente caotico neutrale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario, coppia, banda (3–5), o truppa (6–11)"
+  },
+  {
+    "slug": "sea-cat",
+    "name": "Gatto Marino",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato acquatico",
+    "organization": "Solitario, coppia, o branco (5–12)"
+  },
+  {
+    "slug": "seven-headed-hydra",
+    "name": "Idra a Sette Teste",
+    "type": "Enorme Bestia Magica",
+    "alignment": "Solitamente neutrale",
+    "environment": "Temperato paludi(Pyro: Caldo paludi)(Cryo: Freddo paludi)",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "shadow",
+    "name": "Ombra",
+    "type": "Media Non Morto (Incorporeo)",
+    "alignment": "Sempre caotico malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario, bandaa (2–5), o sciame (6–11)"
+  },
+  {
+    "slug": "shadow-mastiff",
+    "name": "Mastino d'Ombra",
+    "type": "Media Esterno (Extraplanare)",
+    "alignment": "Sempre neutrale malvagio",
+    "organization": "Solitario, coppia, o branco (5–12)"
+  },
+  {
+    "slug": "shambling-mound",
+    "name": "Cumulo Strisciante",
+    "type": "Grande Pianta",
+    "alignment": "Solitamente neutrale",
+    "environment": "Temperato paludi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "shark-huge",
+    "name": "Squalo, Enorme",
+    "type": "Enorme Animale (Acquatico)",
+    "environment": "Freddo acquatico",
+    "organization": "Solitario, school (2–5), o branco (6–11)"
+  },
+  {
+    "slug": "shark-large",
+    "name": "Squalo, Grande",
+    "type": "Grande Animale (Acquatico)",
+    "environment": "Freddo acquatico",
+    "organization": "Solitario, school (2–5), o branco (6–11)"
+  },
+  {
+    "slug": "shark-medium",
+    "name": "Squalo, Medio",
+    "type": "Media Animale (Acquatico)",
+    "environment": "Freddo acquatico",
+    "organization": "Solitario, school (2–5), o branco (6–11)"
+  },
+  {
+    "slug": "shield-guardian",
+    "name": "Guardiano dello Scudo",
+    "type": "Grande Costrutto",
+    "alignment": "Sempre neutrale",
+    "environment": "Qualsiasi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "shocker-lizard",
+    "name": "Lucertola Elettrica",
+    "type": "Piccola Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo paludi",
+    "organization": "Solitario, coppia, nidiata (3–5), o colonia (6–11)"
+  },
+  {
+    "slug": "shrieker",
+    "name": "Strillone",
+    "type": "Media Pianta",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario o patch (3–5)"
+  },
+  {
+    "slug": "six-headed-hydra",
+    "name": "Idra a Sei Teste",
+    "type": "Enorme Bestia Magica",
+    "alignment": "Solitamente neutrale",
+    "environment": "Temperato paludi(Pyro: Caldo paludi)(Cryo: Freddo paludi)",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "size",
+    "name": "Taglia"
+  },
+  {
+    "slug": "skeleton",
+    "name": "Scheletro",
+    "type": "Minuta or smaller"
+  },
+  {
+    "slug": "skum",
+    "name": "Skum",
+    "type": "Media Aberrazione (Acquatico)",
+    "alignment": "Solitamente legale malvagio",
+    "organization": "Brood (2–5) o branco (6–15)"
+  },
+  {
+    "slug": "snake",
+    "name": "Serpente",
+    "type": "Media Animale",
+    "environment": "Caldo forestae",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "spectre",
+    "name": "Spettro",
+    "type": "Media Non Morto (Incorporeo)",
+    "alignment": "Sempre legale malvagio",
+    "environment": "Qualsiasi terra e sotterraneo",
+    "organization": "Solitario, bandaa (2–4), o sciame (6–11)"
+  },
+  {
+    "slug": "sphinx",
+    "name": "Sfinge",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre caotico buono",
+    "environment": "Caldo desertoi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "spider-eater",
+    "name": "Mangiaragni",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "sprite",
+    "name": "Spiritello",
+    "type": "Minuta Folletto",
+    "alignment": "Sempre neutrale buono",
+    "environment": "Temperato forestae",
+    "organization": "Gang (2–4), banda (6–11), o tribe (20–80)"
+  },
+  {
+    "slug": "squid",
+    "name": "Calamaro",
+    "type": "Media Animale (Acquatico)",
+    "environment": "Temperato acquatico",
+    "organization": "Solitario o school (6–11)"
+  },
+  {
+    "slug": "squid-giant",
+    "name": "Calamaro, Gigante",
+    "type": "Enorme Animale (Acquatico)",
+    "environment": "Temperato acquatico",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "stirge",
+    "name": "Stirge",
+    "type": "Minuta Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Caldo paludi",
+    "organization": "Colony (2–4), stomo (5–8), o stom (9–14)"
+  },
+  {
+    "slug": "svirfneblin-1st-level-warrior",
+    "name": "Svirfneblin, Guerriero di 1° Livello",
+    "type": "Piccola Umanoide (Gnome)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Company (2–4), squadra (11–20 plus 1 leader of 3rd–6th level and 2 3rd-level lieutenants), o banda (30–50 plus\n            1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, 3 7th-level captains, and 2–5 Medium earth\n            elementals)"
+  },
+  {
+    "slug": "swarm",
+    "name": "Sciame",
+    "type": "Minuscola Animale (Sciame)",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato desertoi",
+    "organization": "Solitario, stomo (2–4 sciames), o colonia (11–20 sciames)"
+  },
+  {
+    "slug": "tarrasque",
+    "name": "Tarrasque",
+    "type": "Colossale Bestia Magica",
+    "alignment": "Sempre neutrale",
+    "environment": "Qualsiasi",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "tendriculos",
+    "name": "Tendriculos",
+    "type": "Enorme Pianta",
+    "alignment": "Sempre neutrale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "thoqqua",
+    "name": "Thoqqua",
+    "type": "Media Elementale (Terra, Extraplanare, Fuoco)",
+    "alignment": "Solitamente neutrale",
+    "organization": "Solitario o coppia"
+  },
+  {
+    "slug": "tiger",
+    "name": "Tigre",
+    "type": "Grande Animale",
+    "environment": "Caldo forestae",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "titan",
+    "name": "Titano",
+    "type": "Enorme Esterno (Caotico, Extraplanare)",
+    "alignment": "Sempre caotico (qualsiasi)",
+    "environment": "Un piano caotico buono piano",
+    "organization": "Solitario o coppia"
+  },
+  {
+    "slug": "toad",
+    "name": "Rospo",
+    "type": "Minuscola Animale",
+    "environment": "Temperato paludi"
+  },
+  {
+    "slug": "treant",
+    "name": "Treant",
+    "type": "Enorme Pianta",
+    "alignment": "Solitamente neutrale buono",
+    "environment": "Temperato forestae",
+    "organization": "Solitario o grove (4–7)"
+  },
+  {
+    "slug": "triton",
+    "name": "Tritone",
+    "type": "Media Esterno (Nativo, Acqua)",
+    "alignment": "Solitamente neutrale buono",
+    "environment": "Temperato acquatico",
+    "organization": "Company (2–5), squadra (6–11), o banda (20–80)"
+  },
+  {
+    "slug": "troglodyte",
+    "name": "Troglodita",
+    "type": "Media Umanoide (Rettile)",
+    "alignment": "Solitamente caotico malvagio",
+    "organization": "Clutch (2–5), squadra (6–11 plus 1–2 monito lizards), o banda (20–80 plus 20% noncombatants plus 3–13 monito\n            lizards)"
+  },
+  {
+    "slug": "troll",
+    "name": "Troll",
+    "type": "Grande Gigante",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Freddo montagne(Scrag: Freddo acquatico)",
+    "organization": "Solitario o bandaa (2–4)"
+  },
+  {
+    "slug": "troll-hunter-6th-level-ranger",
+    "name": "Troll Cacciatore, Ranger di 6° Livello",
+    "type": "Grande Gigante",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Freddo montagne",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "unicorn",
+    "name": "Unicorno",
+    "type": "Grande Bestia Magica",
+    "alignment": "Sempre caotico buono",
+    "environment": "Temperato forestae",
+    "organization": "Solitario, coppia, o grace (3–6)"
+  },
+  {
+    "slug": "vampire-spawn",
+    "name": "Progenie Vampirica",
+    "type": "Media Non Morto",
+    "alignment": "Sempre malvagio (qualsiasi)",
+    "environment": "Qualsiasi",
+    "organization": "Solitario o branco (2–5)"
+  },
+  {
+    "slug": "vargouille",
+    "name": "Vargouille",
+    "type": "Piccola Esterno (Malvagio, Extraplanare)",
+    "alignment": "Sempre neutrale malvagio",
+    "environment": "An evil piano",
+    "organization": "Cluster (2–5) o mob (6–11)"
+  },
+  {
+    "slug": "violet-fungus",
+    "name": "Fungo Violetto",
+    "type": "Media Pianta",
+    "alignment": "Sempre neutrale",
+    "organization": "Solitario, patch (2–4), o mixed patch (2–4 violet fungi and 3–5 shriekers)"
+  },
+  {
+    "slug": "weasel",
+    "name": "Donnola",
+    "type": "Minuta Animale",
+    "environment": "Temperato colline",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "werebear-bear-form",
+    "name": "Orso Mannaro, Forma d'Orso",
+    "type": "Grande Umanoide (Umano, Mutaforma)",
+    "alignment": "Sempre legale buono",
+    "environment": "Freddo forestae",
+    "organization": "(same as human fom)"
+  },
+  {
+    "slug": "werebear-human-form",
+    "name": "Orso Mannaro, Forma Umana",
+    "type": "Media Umanoide (Umano, Mutaforma)",
+    "alignment": "Sempre legale buono",
+    "environment": "Freddo forestae",
+    "organization": "Solitario, coppia, family (3–4), o troupe (2–4 plus 1–4 brown bears)"
+  },
+  {
+    "slug": "werebear-hybrid-form",
+    "name": "Orso Mannaro, Forma Ibrida",
+    "type": "Grande Umanoide (Umano, Mutaforma)",
+    "alignment": "Sempre legale buono",
+    "environment": "Freddo forestae",
+    "organization": "(same as human fom)"
+  },
+  {
+    "slug": "whale",
+    "name": "Balena",
+    "environment": "Caldo acquatico",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "wight",
+    "name": "Wight",
+    "type": "Media Non Morto",
+    "alignment": "Sempre legale malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario, coppia, bandaa (3–5), o branco (6–11)"
+  },
+  {
+    "slug": "will-o-wisp",
+    "name": "Fuoco Fatuo",
+    "type": "Piccola Aberrazione (Aria)",
+    "alignment": "Solitamente caotico malvagio",
+    "environment": "Temperato paludi",
+    "organization": "Solitario, coppia, o string (3–4)"
+  },
+  {
+    "slug": "winter-wolf",
+    "name": "Lupo Invernale",
+    "type": "Grande Bestia Magica (Freddo)",
+    "alignment": "Solitamente neutrale malvagio",
+    "environment": "Freddo forestae",
+    "organization": "Solitario, coppia, o branco (3–5)"
+  },
+  {
+    "slug": "wolf",
+    "name": "Lupo",
+    "type": "Media Animale",
+    "environment": "Temperato forestae",
+    "organization": "Solitario, coppia, o branco (7–16)"
+  },
+  {
+    "slug": "wolverine",
+    "name": "Ghiottone",
+    "type": "Media Animale",
+    "environment": "Freddo forestae",
+    "organization": "Solitario"
+  },
+  {
+    "slug": "worg",
+    "name": "Worg",
+    "type": "Media Bestia Magica",
+    "alignment": "Solitamente neutrale malvagio",
+    "environment": "Temperato pianure",
+    "organization": "Solitario, coppia, o branco (6–11)"
+  },
+  {
+    "slug": "wraith",
+    "name": "Wraith",
+    "type": "Media Non Morto (Incorporeo)",
+    "alignment": "Sempre legale malvagio",
+    "environment": "Qualsiasi",
+    "organization": "Solitario, bandaa (2–5), o branco (6–11)"
+  },
+  {
+    "slug": "wyvern",
+    "name": "Viverna",
+    "type": "Grande Drago",
+    "alignment": "Solitamente neutrale",
+    "environment": "Caldo colline",
+    "organization": "Solitario, coppia, o stomo (3–6)"
+  },
+  {
+    "slug": "xill",
+    "name": "Xill",
+    "type": "Media Esterno (Extraplanare)",
+    "alignment": "Sempre legale malvagio",
+    "organization": "Solitario o bandaa (2–5)"
+  },
+  {
+    "slug": "yeth-hound",
+    "name": "Segugio Yeth",
+    "type": "Media Esterno (Extraplanare, Malvagio)",
+    "alignment": "Sempre neutrale malvagio",
+    "environment": "An evil piano",
+    "organization": "Solitario, coppia, o branco (6–11)"
+  },
+  {
+    "slug": "yrthak",
+    "name": "Yrthak",
+    "type": "Enorme Bestia Magica",
+    "alignment": "Spesso neutrale",
+    "environment": "Temperato montagne",
+    "organization": "Solitario o nidiata (2–4)"
+  },
+  {
+    "slug": "zombie",
+    "name": "Zombi",
+    "type": "Minuta or smaller"
   }
 ]

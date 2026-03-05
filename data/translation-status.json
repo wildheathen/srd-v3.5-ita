@@ -1,0 +1,239 @@
+{
+  "lang": "it",
+  "generated_at": "2026-03-05T11:18:10Z",
+  "categories": {
+    "spells": {
+      "total": 608,
+      "overlay_count": 608,
+      "fields": {
+        "name": {
+          "translated": 608,
+          "total": 608,
+          "percent": 100.0
+        },
+        "school": {
+          "translated": 608,
+          "total": 608,
+          "percent": 100.0
+        },
+        "subschool": {
+          "translated": 212,
+          "total": 212,
+          "percent": 100.0
+        },
+        "descriptor": {
+          "translated": 234,
+          "total": 234,
+          "percent": 100.0
+        },
+        "level": {
+          "translated": 605,
+          "total": 605,
+          "percent": 100.0
+        },
+        "components": {
+          "translated": 505,
+          "total": 505,
+          "percent": 100.0
+        },
+        "casting_time": {
+          "translated": 490,
+          "total": 490,
+          "percent": 100.0
+        },
+        "range": {
+          "translated": 502,
+          "total": 502,
+          "percent": 100.0
+        },
+        "target_area_effect": {
+          "translated": 0,
+          "total": 533,
+          "percent": 0.0
+        },
+        "duration": {
+          "translated": 497,
+          "total": 502,
+          "percent": 99.0
+        },
+        "saving_throw": {
+          "translated": 449,
+          "total": 449,
+          "percent": 100.0
+        },
+        "spell_resistance": {
+          "translated": 440,
+          "total": 440,
+          "percent": 100.0
+        },
+        "desc_html": {
+          "translated": 0,
+          "total": 605,
+          "percent": 0.0
+        }
+      }
+    },
+    "feats": {
+      "total": 111,
+      "overlay_count": 111,
+      "fields": {
+        "name": {
+          "translated": 110,
+          "total": 111,
+          "percent": 99.1
+        },
+        "type": {
+          "translated": 110,
+          "total": 111,
+          "percent": 99.1
+        },
+        "prerequisites": {
+          "translated": 0,
+          "total": 64,
+          "percent": 0.0
+        },
+        "benefit": {
+          "translated": 49,
+          "total": 111,
+          "percent": 44.1
+        },
+        "normal": {
+          "translated": 14,
+          "total": 32,
+          "percent": 43.8
+        },
+        "special": {
+          "translated": 13,
+          "total": 65,
+          "percent": 20.0
+        },
+        "desc_html": {
+          "translated": 0,
+          "total": 111,
+          "percent": 0.0
+        }
+      }
+    },
+    "classes": {
+      "total": 31,
+      "overlay_count": 31,
+      "fields": {
+        "name": {
+          "translated": 31,
+          "total": 31,
+          "percent": 100.0
+        },
+        "hit_die": {
+          "translated": 0,
+          "total": 31,
+          "percent": 0.0
+        },
+        "alignment": {
+          "translated": 15,
+          "total": 15,
+          "percent": 100.0
+        },
+        "table_html": {
+          "translated": 0,
+          "total": 30,
+          "percent": 0.0
+        },
+        "desc_html": {
+          "translated": 0,
+          "total": 31,
+          "percent": 0.0
+        }
+      }
+    },
+    "races": {
+      "total": 7,
+      "overlay_count": 7,
+      "fields": {
+        "name": {
+          "translated": 7,
+          "total": 7,
+          "percent": 100.0
+        },
+        "traits": {
+          "translated": 7,
+          "total": 7,
+          "percent": 100.0
+        },
+        "desc_html": {
+          "translated": 7,
+          "total": 7,
+          "percent": 100.0
+        }
+      }
+    },
+    "monsters": {
+      "total": 289,
+      "overlay_count": 289,
+      "fields": {
+        "name": {
+          "translated": 289,
+          "total": 289,
+          "percent": 100.0
+        },
+        "type": {
+          "translated": 267,
+          "total": 286,
+          "percent": 93.4
+        },
+        "environment": {
+          "translated": 207,
+          "total": 269,
+          "percent": 77.0
+        },
+        "organization": {
+          "translated": 259,
+          "total": 269,
+          "percent": 96.3
+        },
+        "alignment": {
+          "translated": 205,
+          "total": 205,
+          "percent": 100.0
+        },
+        "desc_html": {
+          "translated": 0,
+          "total": 288,
+          "percent": 0.0
+        }
+      }
+    },
+    "equipment": {
+      "total": 288,
+      "overlay_count": 276,
+      "fields": {
+        "name": {
+          "translated": 276,
+          "total": 288,
+          "percent": 95.8
+        }
+      }
+    },
+    "rules": {
+      "total": 19,
+      "overlay_count": 19,
+      "fields": {
+        "name": {
+          "translated": 19,
+          "total": 19,
+          "percent": 100.0
+        },
+        "desc_html": {
+          "translated": 0,
+          "total": 19,
+          "percent": 0.0
+        }
+      }
+    }
+  },
+  "summary": {
+    "total_entries": 1353,
+    "total_fields": 8989,
+    "translated_fields": 7035,
+    "overall_percent": 78.3
+  }
+}
