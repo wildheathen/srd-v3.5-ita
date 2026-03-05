@@ -30,6 +30,27 @@ header {
   text-align: center;
   padding: 1.5rem 1rem 0.5rem;
   position: relative;
+  transition: padding 0.2s;
+}
+
+#header-toggle {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-dim);
+  font-size: 0.7rem;
+  cursor: pointer;
+  padding: 0.15rem 0.4rem;
+  line-height: 1;
+  transition: all 0.15s;
+}
+
+#header-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 #lang-switcher {
@@ -53,12 +74,37 @@ header h1 {
   font-size: 1.8rem;
   color: var(--accent);
   letter-spacing: 0.05em;
+  transition: all 0.2s;
 }
 
 .subtitle {
   color: var(--text-dim);
   font-size: 0.85rem;
   margin-top: 0.25rem;
+  transition: all 0.2s;
+}
+
+/* Collapsed header */
+header.collapsed {
+  padding: 0.3rem 1rem;
+}
+
+header.collapsed h1 {
+  font-size: 1rem;
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+header.collapsed .subtitle {
+  display: none;
+}
+
+header.collapsed #lang-switcher {
+  top: 0.3rem;
+}
+
+header.collapsed #header-toggle {
+  top: 0.3rem;
 }
 
 /* ── Tabs ─────────────────────────────────────────── */
@@ -221,7 +267,7 @@ main {
 #results-list {
   flex: 1;
   min-width: 0;
-  max-height: calc(100vh - 260px);
+  max-height: var(--content-height, calc(100vh - 260px));
   overflow-y: auto;
 }
 
@@ -231,7 +277,7 @@ main {
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 1.5rem;
-  max-height: calc(100vh - 200px);
+  max-height: var(--content-height, calc(100vh - 260px));
   overflow-y: auto;
   position: sticky;
   top: 1rem;
@@ -715,7 +761,7 @@ main {
   }
 
   #results-list {
-    max-height: 40vh;
+    max-height: var(--content-height, 40vh);
   }
 
   .prepared-item {
