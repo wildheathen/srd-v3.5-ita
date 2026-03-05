@@ -180,12 +180,12 @@
   },
   {
     "slug": "bears-endurance",
-    "name": "Bear’s Endurance",
+    "name": "Resistenza dell'Orso",
     "school": "Trasmutazione"
   },
   {
     "slug": "bears-endurance-mass",
-    "name": "Bear’s Endurance, Mass",
+    "name": "Resistenza dell'Orso di Massa",
     "school": "Trasmutazione"
   },
   {
@@ -259,12 +259,12 @@
   },
   {
     "slug": "bulls-strength",
-    "name": "Bull’s Strength",
+    "name": "Forza del Toro",
     "school": "Trasmutazione"
   },
   {
     "slug": "bulls-strength-mass",
-    "name": "Bull’s Strength, Mass",
+    "name": "Forza del Toro di Massa",
     "school": "Trasmutazione"
   },
   {
@@ -296,12 +296,12 @@
   },
   {
     "slug": "cats-grace",
-    "name": "Cat’s Grace",
+    "name": "Grazia del Gatto",
     "school": "Trasmutazione"
   },
   {
     "slug": "cats-grace-mass",
-    "name": "Cat’s Grace, Mass",
+    "name": "Grazia del Gatto di Massa",
     "school": "Trasmutazione"
   },
   {
@@ -887,12 +887,12 @@
   },
   {
     "slug": "eagles-splendor",
-    "name": "Eagle’s Splendor",
+    "name": "Splendore dell'Aquila",
     "school": "Trasmutazione"
   },
   {
     "slug": "eagles-splendor-mass",
-    "name": "Eagle’s Splendor, Mass",
+    "name": "Splendore dell'Aquila di Massa",
     "school": "Trasmutazione"
   },
   {
@@ -1123,12 +1123,12 @@
   },
   {
     "slug": "foxs-cunning",
-    "name": "Fox’s Cunning",
+    "name": "Astuzia della Volpe",
     "school": "Trasmutazione"
   },
   {
     "slug": "foxs-cunning-mass",
-    "name": "Fox’s Cunning, Mass",
+    "name": "Astuzia della Volpe di Massa",
     "school": "Trasmutazione"
   },
   {
@@ -1246,7 +1246,7 @@
   {
     "slug": "greater",
     "name": "Superiore (Nome Incantesimo)",
-    "school": "Any spell whose name begins withgreateris alphabetized in this chapter according to the second word of\n      the spell name. Thus, the description of agreaterspell appears near the description of the spell on which\n      it is based. Spell chains that havegreaterspells in them include those based on the spellsarcane sight, command, dispel magic, glyph of warding, invisibility, magic fang, magic weapon, planar ally,\n        planar binding, prying eyes, restoration, scrying, shadow conjuration, shadow evocation, shout,andteleport."
+    "school": "Vedi descrizione"
   },
   {
     "slug": "guards-and-wards",
@@ -1319,7 +1319,7 @@
   },
   {
     "slug": "heroes-feast",
-    "name": "Heroes’ Feast",
+    "name": "Banchetto degli Eroi",
     "school": "Evocazione"
   },
   {
@@ -1606,7 +1606,7 @@
   {
     "slug": "lesser",
     "name": "Minore (Nome Incantesimo)",
-    "school": "Any spell whose name begins withlesseris alphabetized in this chapter according to the second word of the\n      spell name. Thus, the description of alesserspell appears near the description of the spell on which it\n      is based. Spell chains that havelesserspells in them include those based on the spellsconfusion, geas, globe of invulnerability, planar ally, planar binding,andrestoration."
+    "school": "Vedi descrizione"
   },
   {
     "slug": "levitate",
@@ -1667,34 +1667,34 @@
   },
   {
     "slug": "mages-disjunction",
-    "name": "Mage’s Disjunction",
+    "name": "Disgiunzione del Mago",
     "school": "Abiurazione"
   },
   {
     "slug": "mages-faithful-hound",
-    "name": "Mage’s Faithful Hound",
+    "name": "Segugio Fedele del Mago",
     "school": "Evocazione",
     "subschool": "Creazione"
   },
   {
     "slug": "mages-lucubration",
-    "name": "Mage’s Lucubration",
+    "name": "Lucubrazione del Mago",
     "school": "Trasmutazione"
   },
   {
     "slug": "mages-magnificent-mansion",
-    "name": "Mage’s Magnificent Mansion",
+    "name": "Magione Magnifica del Mago",
     "school": "Evocazione",
     "subschool": "Creazione"
   },
   {
     "slug": "mages-private-sanctum",
-    "name": "Mage’s Private Sanctum",
+    "name": "Santuario Privato del Mago",
     "school": "Abiurazione"
   },
   {
     "slug": "mages-sword",
-    "name": "Mage’s Sword",
+    "name": "Spada del Mago",
     "school": "Invocazione"
   },
   {
@@ -1794,7 +1794,7 @@
   {
     "slug": "mass",
     "name": "Di Massa (Nome Incantesimo)",
-    "school": "Any spell whose name begins withmassis alphabetized in this chapter according to the second word of the\n      spell name. Thus, the description of amassspell appears near the description of the spell on which it is\n      based. Spell chains that havemassspells in them include those based on the spellsbear’s endurance, bull’s strength, cat’s grace, charm monster, cure critical wounds, cure light wounds, cure\n        moderate wounds, cure serious wounds, eagle’s splendor, enlarge person, fox’s cunning, heal, hold monster, hold\n        person, inflict critical wounds, inflict light wounds, inflict moderate wounds, inflict serious wounds,\n        invisibility, owl’s wisdom, reduce person,andsuggestion."
+    "school": "Vedi descrizione"
   },
   {
     "slug": "maze",
@@ -1936,7 +1936,7 @@
   },
   {
     "slug": "orders-wrath",
-    "name": "Order’s Wrath",
+    "name": "Collera dell'Ordine",
     "school": "Invocazione"
   },
   {
@@ -1946,12 +1946,12 @@
   },
   {
     "slug": "owls-wisdom",
-    "name": "Owl’s Wisdom",
+    "name": "Saggezza del Gufo",
     "school": "Trasmutazione"
   },
   {
     "slug": "owls-wisdom-mass",
-    "name": "Owl’s Wisdom, Mass",
+    "name": "Saggezza del Gufo di Massa",
     "school": "Trasmutazione"
   },
   {
@@ -2813,55 +2813,55 @@
   },
   {
     "slug": "summon-natures-ally-i",
-    "name": "Summon Nature’s Ally I",
+    "name": "Evocare Alleato Naturale I",
     "school": "Evocazione",
     "subschool": "Convocazione"
   },
   {
     "slug": "summon-natures-ally-ii",
-    "name": "Summon Nature’s Ally II",
+    "name": "Evocare Alleato Naturale II",
     "school": "Evocazione",
     "subschool": "Convocazione"
   },
   {
     "slug": "summon-natures-ally-iii",
-    "name": "Summon Nature’s Ally III",
+    "name": "Evocare Alleato Naturale III",
     "school": "Evocazione",
     "subschool": "Convocazione"
   },
   {
     "slug": "summon-natures-ally-iv",
-    "name": "Summon Nature’s Ally IV",
+    "name": "Evocare Alleato Naturale IV",
     "school": "Evocazione",
     "subschool": "Convocazione"
   },
   {
     "slug": "summon-natures-ally-v",
-    "name": "Summon Nature’s Ally V",
+    "name": "Evocare Alleato Naturale V",
     "school": "Evocazione",
     "subschool": "Convocazione"
   },
   {
     "slug": "summon-natures-ally-vi",
-    "name": "Summon Nature’s Ally VI",
+    "name": "Evocare Alleato Naturale VI",
     "school": "Evocazione",
     "subschool": "Convocazione"
   },
   {
     "slug": "summon-natures-ally-vii",
-    "name": "Summon Nature’s Ally VII",
+    "name": "Evocare Alleato Naturale VII",
     "school": "Evocazione",
     "subschool": "Convocazione"
   },
   {
     "slug": "summon-natures-ally-viii",
-    "name": "Summon Nature’s Ally VIII",
+    "name": "Evocare Alleato Naturale VIII",
     "school": "Evocazione",
     "subschool": "Convocazione"
   },
   {
     "slug": "summon-natures-ally-ix",
-    "name": "Summon Nature’s Ally IX",
+    "name": "Evocare Alleato Naturale IX",
     "school": "Evocazione",
     "subschool": "Convocazione"
   },
