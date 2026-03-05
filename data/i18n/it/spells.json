@@ -11,7 +11,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "1 round + 1 round ogni tre livelli",
     "level": "Str/Mag 2",
-    "components": "V, S, M, F"
+    "components": "V, S, M, F",
+    "target_area_effect": "Una arrow of acid"
   },
   {
     "slug": "acid-fog",
@@ -25,7 +26,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello",
     "components": "V, S, M/FD",
-    "level": "Str/Mag 6, Acqua 7"
+    "level": "Str/Mag 6, Acqua 7",
+    "target_area_effect": "Nebbia si diffonde in 6 m radius, 6 m di altezza"
   },
   {
     "slug": "acid-splash",
@@ -39,7 +41,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Str/Mag 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una missile of acid"
   },
   {
     "slug": "aid",
@@ -53,7 +56,8 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 2, Bene 2, Fortuna 2"
+    "level": "Chr 2, Bene 2, Fortuna 2",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "air-walk",
@@ -66,7 +70,8 @@
     "range": "Contatto",
     "duration": "10 min./livello",
     "components": "V, S, FD",
-    "level": "Aria 4, Chr 4, Drd 4"
+    "level": "Aria 4, Chr 4, Drd 4",
+    "target_area_effect": "Creature (Gargantuan o smaller) touched"
   },
   {
     "slug": "alarm",
@@ -78,7 +83,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "2 oe/livello (C)",
     "components": "V, S, F/FD",
-    "level": "Brd 1, Rgr 1, Str/Mag 1"
+    "level": "Brd 1, Rgr 1, Str/Mag 1",
+    "target_area_effect": "6 m emanaziuna con raggio centrata su un punto nello spazio"
   },
   {
     "slug": "align-weapon",
@@ -91,7 +97,8 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 2"
+    "level": "Chr 2",
+    "target_area_effect": "Weapon touched o fifty projectiles (all of which must be in contact with each other at\n      the time of casting)"
   },
   {
     "slug": "alter-self",
@@ -101,7 +108,8 @@
     "range": "Personale",
     "duration": "10 min./livello (C)",
     "level": "Brd 2, Str/Mag 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "analyze-dweomer",
@@ -113,7 +121,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello (C)",
     "level": "Brd 6, Str/Mag 6",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una oggetto o creatura /livello dell'incantatore"
   },
   {
     "slug": "animal-growth",
@@ -125,7 +134,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 min./livello",
     "level": "Drd 5, Rgr 4, Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Fino a una animal (Gargantuan o smaller) per two levels, no two of which can be more\n      than 9 m l'una dall'altra"
   },
   {
     "slug": "animal-messenger",
@@ -139,7 +149,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Un giono/livello",
     "level": "Brd 2, Drd 2, Rgr 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una Tiny animal"
   },
   {
     "slug": "animal-shapes",
@@ -151,7 +162,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa/livello (C)",
     "components": "V, S, FD",
-    "level": "Animale 7, Drd 8"
+    "level": "Animale 7, Drd 8",
+    "target_area_effect": "Fino a una creatura consenziente/livello, tutte entro 9 m l'una dall'altra"
   },
   {
     "slug": "animal-trance",
@@ -165,7 +177,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Concentrazione",
     "level": "Brd 2, Drd 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Animals o magical beasts with Intelligence 1 o 2"
   },
   {
     "slug": "animate-dead",
@@ -178,7 +191,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 3, Morte 3, Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una o more corpses touched"
   },
   {
     "slug": "animate-objects",
@@ -190,7 +204,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello",
     "level": "Brd 6, Caos 6, Chr 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una Small oggetto /livello dell'incantatore; vedi testo"
   },
   {
     "slug": "animate-plants",
@@ -202,7 +217,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello o 1 oa/livello; vedi testo",
     "level": "Drd 7, Pianta 7",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una Large plant per three caster levels o all plants within range; vedi testo"
   },
   {
     "slug": "animate-rope",
@@ -214,7 +230,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello",
     "level": "Brd 1, Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una ropelike oggetto, length fino a 15 m + 1,5 m/livello; vedi testo"
   },
   {
     "slug": "antilife-shell",
@@ -226,7 +243,8 @@
     "range": "3.0 m",
     "duration": "10 min./livello (C)",
     "components": "V, S, FD",
-    "level": "Animale 6, Chr 6, Drd 6"
+    "level": "Animale 6, Chr 6, Drd 6",
+    "target_area_effect": "3 m emanaziuna con raggio, centrata su di te"
   },
   {
     "slug": "antimagic-field",
@@ -238,7 +256,8 @@
     "range": "3.0 m",
     "duration": "10 min./livello (C)",
     "components": "V, S, M/FD",
-    "level": "Chr 8, Magia 6, Protezione 6, Str/Mag 6"
+    "level": "Chr 8, Magia 6, Protezione 6, Str/Mag 6",
+    "target_area_effect": "3 m emanaziuna con raggio, centrata su di te"
   },
   {
     "slug": "antipathy",
@@ -252,7 +271,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "2 oe/livello (C)",
     "components": "V, S, M/FD",
-    "level": "Drd 9, Str/Mag 8"
+    "level": "Drd 9, Str/Mag 8",
+    "target_area_effect": "Una location (fino a a 3 m cubo/livello) o una oggetto"
   },
   {
     "slug": "antiplant-shell",
@@ -264,7 +284,8 @@
     "range": "3.0 m",
     "duration": "10 min./livello (C)",
     "components": "V, S, FD",
-    "level": "Drd 4"
+    "level": "Drd 4",
+    "target_area_effect": "3 m emanaziuna con raggio, centrata su di te"
   },
   {
     "slug": "arcane-eye",
@@ -277,7 +298,8 @@
     "range": "Illimitato",
     "duration": "1 min./livello (C)",
     "level": "Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Sensore magico"
   },
   {
     "slug": "arcane-lock",
@@ -289,7 +311,8 @@
     "range": "Contatto",
     "duration": "Permanente",
     "level": "Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "The door, chest, o portal touched, fino a 30 sq. ft./livello in size"
   },
   {
     "slug": "arcane-mark",
@@ -301,7 +324,8 @@
     "range": "0.0 m",
     "duration": "Permanente",
     "level": "Str/Mag 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una personal rune o mark, all of which must fit within 1 sq. ft."
   },
   {
     "slug": "arcane-sight",
@@ -311,7 +335,8 @@
     "range": "Personale",
     "duration": "1 min./livello (C)",
     "level": "Str/Mag 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "arcane-sight-greater",
@@ -329,7 +354,8 @@
     "range": "Contatto",
     "duration": "Vedi testo",
     "level": "Chr 9, Str/Mag 9, Viaggio 9",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "You plus una additional willing creatura toccata per two caster levels"
   },
   {
     "slug": "atonement",
@@ -341,7 +367,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "components": "V, S, M, F, FD, PE",
-    "level": "Chr 5, Drd 5"
+    "level": "Chr 5, Drd 5",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "augury",
@@ -351,7 +378,8 @@
     "range": "Personale",
     "duration": "Istantaneo",
     "level": "Chr 2",
-    "components": "V, S, M, F"
+    "components": "V, S, M, F",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "awaken",
@@ -363,7 +391,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "components": "V, S, FD, PE",
-    "level": "Drd 5"
+    "level": "Drd 5",
+    "target_area_effect": "Animal o tree touched"
   },
   {
     "slug": "baleful-polymorph",
@@ -375,7 +404,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Permanente",
     "level": "Drd 5, Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "bane",
@@ -389,7 +419,8 @@
     "range": "15.0 m",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 1"
+    "level": "Chr 1",
+    "target_area_effect": "All enemies within 15 m"
   },
   {
     "slug": "banishment",
@@ -401,7 +432,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Chr 6, Str/Mag 7",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una o more extraplanar creatura,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "barkskin",
@@ -413,7 +445,8 @@
     "range": "Contatto",
     "duration": "10 min./livello",
     "components": "V, S, FD",
-    "level": "Drd 2, Rgr 2, Pianta 2"
+    "level": "Drd 2, Rgr 2, Pianta 2",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "bears-endurance",
@@ -425,14 +458,16 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 2, Drd 2, Rgr 2, Str/Mag 2"
+    "level": "Chr 2, Drd 2, Rgr 2, Str/Mag 2",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "bears-endurance-mass",
     "name": "Resistenza dell'Orso di Massa",
     "school": "Trasmutazione",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
-    "level": "Chr 6, Drd 6, Str/Mag 6"
+    "level": "Chr 6, Drd 6, Str/Mag 6",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "bestow-curse",
@@ -444,7 +479,8 @@
     "range": "Contatto",
     "duration": "Permanente",
     "level": "Chr 3, Str/Mag 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "binding",
@@ -458,7 +494,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Vedi testo (C)",
     "level": "Str/Mag 8",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "black-tentacles",
@@ -471,7 +508,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello (C)",
     "level": "Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "6 m diffusiuna con raggio"
   },
   {
     "slug": "blade-barrier",
@@ -484,7 +522,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 min./livello (C)",
     "level": "Chr 6, Bene 6, Guerra 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Muro of whirling blades fino a 6 m di lunghezza/ level, o a ringed muro of whirling blades\n      with a radius of fino a 1,5 m per two levels; either form 6 m di altezza"
   },
   {
     "slug": "blasphemy",
@@ -497,7 +536,8 @@
     "range": "12.0 m",
     "duration": "Istantaneo",
     "level": "Chr 7, Male 7",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Nunavil creatura in a 12 m diffusiuna con raggio centrata su di te"
   },
   {
     "slug": "bless",
@@ -511,7 +551,8 @@
     "range": "15.0 m",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 1, Pal 1"
+    "level": "Chr 1, Pal 1",
+    "target_area_effect": "The caster e all allies within a 15 m scoppio, centered on the caster"
   },
   {
     "slug": "bless-water",
@@ -524,7 +565,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 1, Pal 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Fiasca d'acqua toccata"
   },
   {
     "slug": "bless-weapon",
@@ -536,7 +578,8 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "level": "Pal 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Arma toccata"
   },
   {
     "slug": "blight",
@@ -560,7 +603,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Permanente (C)",
     "level": "Brd 2, Chr 3, Str/Mag 2",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "blink",
@@ -570,7 +614,8 @@
     "range": "Personale",
     "duration": "1 round/livello (C)",
     "level": "Brd 3, Str/Mag 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "blur",
@@ -583,7 +628,8 @@
     "range": "Contatto",
     "duration": "1 min./livello (C)",
     "level": "Brd 2, Str/Mag 2",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "break-enchantment",
@@ -595,7 +641,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Brd 4, Chr 5, Fortuna 5, Pal 4, Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Fino a una creatura /livello, all within 9 m of each other"
   },
   {
     "slug": "bulls-strength",
@@ -607,14 +654,16 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, M/FD",
-    "level": "Chr 2, Drd 2, Pal 2, Str/Mag 2, Forza 2"
+    "level": "Chr 2, Drd 2, Pal 2, Str/Mag 2, Forza 2",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "bulls-strength-mass",
     "name": "Forza del Toro di Massa",
     "school": "Trasmutazione",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
-    "level": "Chr 6, Drd 6, Str/Mag 6"
+    "level": "Chr 6, Drd 6, Str/Mag 6",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "burning-hands",
@@ -627,7 +676,8 @@
     "range": "4.5 m",
     "duration": "Istantaneo",
     "level": "Fuoco 1, Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Scoppio a cono"
   },
   {
     "slug": "call-lightning",
@@ -640,7 +690,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 min./livello",
     "level": "Drd 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una o more 9 m-di lunghezza vertical lineas of lightning"
   },
   {
     "slug": "call-lightning-storm",
@@ -662,7 +713,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello",
     "level": "Animale 1, Drd 1, Rgr 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Animals within 9 m of each other"
   },
   {
     "slug": "calm-emotions",
@@ -676,7 +728,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Concentrazione, fino a 1 round/livello (C)",
     "components": "V, S, FD",
-    "level": "Brd 2, Chr 2, Legge 2"
+    "level": "Brd 2, Chr 2, Legge 2",
+    "target_area_effect": "Creatures in a 6 m diffusiuna con raggio"
   },
   {
     "slug": "cats-grace",
@@ -688,14 +741,16 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "level": "Brd 2, Drd 2, Rgr 2, Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "cats-grace-mass",
     "name": "Grazia del Gatto di Massa",
     "school": "Trasmutazione",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
-    "level": "Brd 6, Drd 6, Str/Mag 6"
+    "level": "Brd 6, Drd 6, Str/Mag 6",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "cause-fear",
@@ -708,7 +763,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1d4 rounds o 1 round; vedi testo",
     "level": "Brd 1, Chr 1, Morte 1, Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura vivente with 5 o fewer HD"
   },
   {
     "slug": "chain-lightning",
@@ -721,7 +777,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Istantaneo",
     "level": "Aria 6, Str/Mag 6",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una primary target, plus una secondary target/livello (each of which must be within 9 m\n      of the primary target)"
   },
   {
     "slug": "changestaff",
@@ -733,7 +790,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello (C)",
     "level": "Drd 7",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Il tuo bastone toccato"
   },
   {
     "slug": "chaos-hammer",
@@ -746,7 +804,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo (1d6 rounds); vedi testo",
     "level": "Caos 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "6 m scoppio con raggio"
   },
   {
     "slug": "charm-animal",
@@ -754,7 +813,8 @@
     "school": "Ammaliamento",
     "subschool": "Charme",
     "descriptor": "Influenza Mentale",
-    "level": "Drd 1, Rgr 1"
+    "level": "Drd 1, Rgr 1",
+    "target_area_effect": "Un animale"
   },
   {
     "slug": "charm-monster",
@@ -763,7 +823,8 @@
     "subschool": "Charme",
     "descriptor": "Influenza Mentale",
     "duration": "Un giono/livello",
-    "level": "Brd 3, Str/Mag 4"
+    "level": "Brd 3, Str/Mag 4",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "charm-monster-mass",
@@ -773,7 +834,8 @@
     "descriptor": "Influenza Mentale",
     "duration": "Un giono/livello",
     "level": "Brd 6, Str/Mag 8",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "charm-person",
@@ -787,7 +849,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa/livello",
     "level": "Brd 1, Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura umanoide"
   },
   {
     "slug": "chill-metal",
@@ -799,7 +862,8 @@
     "casting_time": "1 azione standard",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "components": "V, S, FD",
-    "level": "Drd 2"
+    "level": "Drd 2",
+    "target_area_effect": "Metal equipment of una creatura per two levels,, non più di 9 m\n      l'una dall'altra; o 25 lb. of metal/livello, nuna of which can be more than 9 m away from any of the rest"
   },
   {
     "slug": "chill-touch",
@@ -811,7 +875,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura o creature toccate (fino a una/livello)"
   },
   {
     "slug": "circle-of-death",
@@ -824,7 +889,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "level": "Str/Mag 6",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Several creatura viventes within a 12 m scoppio con raggio"
   },
   {
     "slug": "clairaudience-clairvoyance",
@@ -837,7 +903,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "1 min./livello (C)",
     "components": "V, S, F/FD",
-    "level": "Brd 3, Conoscenza 3, Str/Mag 3"
+    "level": "Brd 3, Conoscenza 3, Str/Mag 3",
+    "target_area_effect": "Sensore magico"
   },
   {
     "slug": "clenched-fist",
@@ -858,7 +925,8 @@
     "range": "6.0 m",
     "duration": "1 round/livello (C)",
     "level": "Caos 8, Chr 8",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una creatura/livello in a 6 m scoppio con raggio centrata su di te"
   },
   {
     "slug": "clone",
@@ -870,7 +938,8 @@
     "range": "0.0 m",
     "duration": "Istantaneo",
     "level": "Str/Mag 8",
-    "components": "V, S, M, F"
+    "components": "V, S, M, F",
+    "target_area_effect": "Una cluna"
   },
   {
     "slug": "cloudkill",
@@ -883,7 +952,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 min./livello",
     "level": "Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Nube si diffonde in 6 m radius, 6 m di altezza"
   },
   {
     "slug": "color-spray",
@@ -897,7 +967,8 @@
     "range": "4.5 m",
     "duration": "Istantaneo; vedi testo",
     "level": "Str/Mag 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Scoppio a cono"
   },
   {
     "slug": "command",
@@ -911,7 +982,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round",
     "level": "Chr 1",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "command-greater",
@@ -920,7 +992,8 @@
     "subschool": "Compulsione",
     "descriptor": "Linguaggio-Dipendente, Influenza Mentale",
     "duration": "1 round/livello",
-    "level": "Chr 5"
+    "level": "Chr 5",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "command-plants",
@@ -932,7 +1005,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Un giono/livello",
     "level": "Drd 4, Pianta 4, Rgr 3",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Fino a 2 HD/livello of plant creatura,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "command-undead",
@@ -944,7 +1018,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Un giono/livello",
     "level": "Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura non morta"
   },
   {
     "slug": "commune",
@@ -954,7 +1029,8 @@
     "range": "Personale",
     "duration": "1 round/livello",
     "components": "V, S, M, FD, PE",
-    "level": "Chr 5"
+    "level": "Chr 5",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "commune-with-nature",
@@ -964,7 +1040,8 @@
     "range": "Personale",
     "duration": "Istantaneo",
     "level": "Animale 5, Drd 5, Rgr 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "comprehend-languages",
@@ -974,7 +1051,8 @@
     "range": "Personale",
     "duration": "10 min./livello",
     "components": "V, S, M/FD",
-    "level": "Brd 1, Chr 1, Str/Mag 1"
+    "level": "Brd 1, Chr 1, Str/Mag 1",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "cone-of-cold",
@@ -987,7 +1065,8 @@
     "range": "18.0 m",
     "duration": "Istantaneo",
     "components": "V, S, M/FD",
-    "level": "Str/Mag 5, Acqua 6"
+    "level": "Str/Mag 5, Acqua 6",
+    "target_area_effect": "Scoppio a cono"
   },
   {
     "slug": "confusion",
@@ -1001,7 +1080,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello",
     "components": "V, S, M/FD",
-    "level": "Brd 3, Str/Mag 4, Inganno 4"
+    "level": "Brd 3, Str/Mag 4, Inganno 4",
+    "target_area_effect": "All creatura in a 4,5 m scoppio con raggio"
   },
   {
     "slug": "confusion-lesser",
@@ -1012,7 +1092,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round",
     "components": "V, S, FD",
-    "level": "Brd 1"
+    "level": "Brd 1",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "consecrate",
@@ -1025,7 +1106,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "2 oe/livello",
     "components": "V, S, M, FD",
-    "level": "Chr 2"
+    "level": "Chr 2",
+    "target_area_effect": "6 m emanaziuna con raggio"
   },
   {
     "slug": "contact-other-plane",
@@ -1035,7 +1117,8 @@
     "range": "Personale",
     "duration": "Concentrazione",
     "level": "Str/Mag 5",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "contagion",
@@ -1048,7 +1131,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 3, Distruzione 3, Drd 3, Str/Mag 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "contingency",
@@ -1058,7 +1142,8 @@
     "range": "Personale",
     "duration": "Un giono/livello (C) o finché non viene scaricato",
     "level": "Str/Mag 6",
-    "components": "V, S, M, F"
+    "components": "V, S, M, F",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "continual-flame",
@@ -1071,7 +1156,8 @@
     "range": "Contatto",
     "duration": "Permanente",
     "level": "Chr 3, Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Oggetto toccato"
   },
   {
     "slug": "control-plants",
@@ -1083,7 +1169,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Drd 8, Pianta 8"
+    "level": "Drd 8, Pianta 8",
+    "target_area_effect": "Fino a 2 HD/livello of plant creatura,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "control-undead",
@@ -1095,7 +1182,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello",
     "level": "Str/Mag 7",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Fino a 2 HD/livello of undead creatura,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "control-water",
@@ -1108,7 +1196,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "10 min./livello (C)",
     "components": "V, S, M/FD",
-    "level": "Chr 4, Drd 4, Str/Mag 6, Acqua 4"
+    "level": "Chr 4, Drd 4, Str/Mag 6, Acqua 4",
+    "target_area_effect": "Water in a volume of 3 m/livello by 3 m/livello by 0,6 m/livello (S)"
   },
   {
     "slug": "control-weather",
@@ -1120,7 +1209,8 @@
     "range": "3.0 km",
     "duration": "4d12 oe; vedi testo",
     "level": "Aria 7, Chr 7, Drd 7, Str/Mag 7",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "2-mile-radius circle, centrata su di te; vedi testo"
   },
   {
     "slug": "control-winds",
@@ -1133,7 +1223,8 @@
     "range": "12.0 m/livello",
     "duration": "10 min./livello",
     "level": "Aria 5, Drd 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "12 m/livello radius cilindro 12 m di altezza"
   },
   {
     "slug": "create-food-and-water",
@@ -1146,7 +1237,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "24 oe; vedi testo",
     "level": "Chr 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Food e water to sustain three humans o una horse/livello for 24 hours"
   },
   {
     "slug": "create-greater-undead",
@@ -1166,7 +1258,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Chr 6, Morte 6, Male 6, Str/Mag 6",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una corpse"
   },
   {
     "slug": "create-water",
@@ -1180,7 +1273,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Chr 0, Drd 0, Pal 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Fino a 2 gallons of water/livello"
   },
   {
     "slug": "creeping-doom",
@@ -1193,7 +1287,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli) / 30 m; vedi testo",
     "duration": "1 min./livello",
     "level": "Drd 7",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una swarm of centipedes per two levels"
   },
   {
     "slug": "crushing-despair",
@@ -1207,7 +1302,8 @@
     "range": "9.0 m",
     "duration": "1 min./livello",
     "level": "Brd 3, Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Scoppio a cono"
   },
   {
     "slug": "crushing-hand",
@@ -1242,7 +1338,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Brd 1, Chr 1, Drd 1, Guarigione 1, Pal 1, Rgr 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "cure-light-wounds-mass",
@@ -1255,7 +1352,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Brd 5, Chr 5, Drd 6, Guarigione 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "cure-minor-wounds",
@@ -1303,7 +1401,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Fiasca d'acqua toccata"
   },
   {
     "slug": "dancing-lights",
@@ -1316,7 +1415,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 minuto (C)",
     "level": "Brd 0, Str/Mag 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Fino a four lights, all within a 10- ft.-radius area"
   },
   {
     "slug": "darkness",
@@ -1329,7 +1429,8 @@
     "range": "Contatto",
     "duration": "10 min./livello (C)",
     "components": "V, M/FD",
-    "level": "Brd 2, Chr 2, Str/Mag 2"
+    "level": "Brd 2, Chr 2, Str/Mag 2",
+    "target_area_effect": "Oggetto toccato"
   },
   {
     "slug": "darkvision",
@@ -1341,7 +1442,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello",
     "level": "Rgr 3, Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "daylight",
@@ -1354,7 +1456,8 @@
     "range": "Contatto",
     "duration": "10 min./livello (C)",
     "level": "Brd 3, Chr 3, Drd 3, Pal 3, Str/Mag 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Oggetto toccato"
   },
   {
     "slug": "daze",
@@ -1368,7 +1471,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round",
     "level": "Brd 0, Str/Mag 0",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una humanoid creatura of 4 HD o less"
   },
   {
     "slug": "daze-monster",
@@ -1377,7 +1481,8 @@
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
     "range": "Medio (30 m + 3 m/livello)",
-    "level": "Brd 2, Str/Mag 2"
+    "level": "Brd 2, Str/Mag 2",
+    "target_area_effect": "Una creatura vivente of 6 HD o less"
   },
   {
     "slug": "death-knell",
@@ -1390,7 +1495,8 @@
     "range": "Contatto",
     "duration": "Istantaneo/10 minuti per HD of subject; vedi testo",
     "level": "Chr 2, Morte 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "death-ward",
@@ -1402,7 +1508,8 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 4, Morte 4, Drd 5, Pal 4"
+    "level": "Chr 4, Morte 4, Drd 5, Pal 4",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "deathwatch",
@@ -1415,7 +1522,8 @@
     "range": "9.0 m",
     "duration": "10 min./livello",
     "level": "Chr 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Emanazione a cono"
   },
   {
     "slug": "deep-slumber",
@@ -1445,7 +1553,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello",
     "components": "V, S, FD",
-    "level": "Brd 2, Chr 2, Drd 2, Pal 2, Rgr 1"
+    "level": "Brd 2, Chr 2, Drd 2, Pal 2, Rgr 1",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "delayed-blast-fireball",
@@ -1476,7 +1585,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "2 oe/livello",
     "components": "V, S, M, FD",
-    "level": "Chr 2, Male 2"
+    "level": "Chr 2, Male 2",
+    "target_area_effect": "6 m emanaziuna con raggio"
   },
   {
     "slug": "destruction",
@@ -1489,7 +1599,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Chr 7, Morte 7",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "detect-animals-or-plants",
@@ -1501,7 +1612,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Concentrazione, fino a 10 min./livello (C)",
     "level": "Drd 1, Rgr 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Emanazione a cono"
   },
   {
     "slug": "detect-chaos",
@@ -1519,7 +1631,8 @@
     "range": "18.0 m",
     "duration": "Concentrazione, fino a 10 min./ level (C)",
     "components": "V, S, FD",
-    "level": "Chr 1"
+    "level": "Chr 1",
+    "target_area_effect": "Emanazione a cono"
   },
   {
     "slug": "detect-good",
@@ -1543,7 +1656,8 @@
     "range": "18.0 m",
     "duration": "Concentrazione, fino a 1 min./livello (C)",
     "level": "Brd 0, Chr 0, Drd 0, Str/Mag 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Emanazione a cono"
   },
   {
     "slug": "detect-poison",
@@ -1555,7 +1669,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Chr 0, Drd 0, Pal 1, Rgr 1, Str/Mag 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura, una oggetto, o a 1,5 m cubo"
   },
   {
     "slug": "detect-scrying",
@@ -1567,7 +1682,8 @@
     "range": "12.0 m",
     "duration": "24 oe",
     "level": "Brd 4, Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "12 m emanaziuna con raggio centrata su di te"
   },
   {
     "slug": "detect-secret-doors",
@@ -1579,7 +1695,8 @@
     "range": "18.0 m",
     "duration": "Concentrazione, fino a 1 min./livello (C)",
     "level": "Brd 1, Conoscenza 1, Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Emanazione a cono"
   },
   {
     "slug": "detect-snares-and-pits",
@@ -1591,7 +1708,8 @@
     "range": "18.0 m",
     "duration": "Concentrazione, fino a 10 min./livello (C)",
     "level": "Drd 1, Rgr 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Emanazione a cono"
   },
   {
     "slug": "detect-thoughts",
@@ -1604,7 +1722,8 @@
     "range": "18.0 m",
     "duration": "Concentrazione, fino a 1 min./livello (C)",
     "components": "V, S, F/FD",
-    "level": "Brd 2, Conoscenza 2, Str/Mag 2"
+    "level": "Brd 2, Conoscenza 2, Str/Mag 2",
+    "target_area_effect": "Emanazione a cono"
   },
   {
     "slug": "detect-undead",
@@ -1616,7 +1735,8 @@
     "range": "18.0 m",
     "duration": "Concentrazione, fino a 1 minuto/ level (C)",
     "components": "V, S, M/FD",
-    "level": "Chr 1, Pal 1, Str/Mag 1"
+    "level": "Chr 1, Pal 1, Str/Mag 1",
+    "target_area_effect": "Emanazione a cono"
   },
   {
     "slug": "dictum",
@@ -1629,7 +1749,8 @@
     "range": "12.0 m",
     "duration": "Istantaneo",
     "level": "Chr 7, Legge 7",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Nonlawful creatura in a 12 m diffusiuna con raggio centrata su di te"
   },
   {
     "slug": "dimension-door",
@@ -1642,7 +1763,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Istantaneo",
     "level": "Brd 4, Str/Mag 4, Viaggio 4",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Te stesso e oggetti toccati o altre creature consenzienti toccate"
   },
   {
     "slug": "dimensional-anchor",
@@ -1654,7 +1776,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 min./livello",
     "level": "Chr 4, Str/Mag 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Raggio"
   },
   {
     "slug": "dimensional-lock",
@@ -1666,7 +1789,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Un giono/livello",
     "level": "Chr 8, Str/Mag 8",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "6 m emanaziuna con raggio centrata su un punto nello spazio"
   },
   {
     "slug": "diminish-plants",
@@ -1678,7 +1802,8 @@
     "range": "Vedi testo",
     "duration": "Istantaneo",
     "components": "V, S, FD",
-    "level": "Drd 3, Rgr 3"
+    "level": "Drd 3, Rgr 3",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "discern-lies",
@@ -1690,7 +1815,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Concentrazione, fino a 1 round/livello",
     "components": "V, S, FD",
-    "level": "Chr 4, Pal 3"
+    "level": "Chr 4, Pal 3",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "discern-location",
@@ -1702,7 +1828,8 @@
     "range": "Illimitato",
     "duration": "Istantaneo",
     "components": "V, S, FD",
-    "level": "Chr 8, Conoscenza 8, Str/Mag 8"
+    "level": "Chr 8, Conoscenza 8, Str/Mag 8",
+    "target_area_effect": "Una creatura od oggetto"
   },
   {
     "slug": "disguise-self",
@@ -1713,7 +1840,8 @@
     "range": "Personale",
     "duration": "10 min./livello (C)",
     "level": "Brd 1, Str/Mag 1, Inganno 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "disintegrate",
@@ -1725,7 +1853,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "components": "V, S, M/FD",
-    "level": "Distruzione 7, Str/Mag 6"
+    "level": "Distruzione 7, Str/Mag 6",
+    "target_area_effect": "Raggio"
   },
   {
     "slug": "dismissal",
@@ -1737,7 +1866,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "components": "V, S, FD",
-    "level": "Chr 4, Str/Mag 5"
+    "level": "Chr 4, Str/Mag 5",
+    "target_area_effect": "Una extraplanar creatura"
   },
   {
     "slug": "dispel-chaos",
@@ -1757,7 +1887,8 @@
     "range": "Contatto",
     "duration": "1 round/livello o finché non viene scaricato, qualunque avvenga prima",
     "components": "V, S, FD",
-    "level": "Chr 5, Bene 5, Pal 4"
+    "level": "Chr 5, Bene 5, Pal 4",
+    "target_area_effect": "You e a touched evil creatura from another plane; o you e an enchantment\n      o evil spell on a touched creatura o oggetto"
   },
   {
     "slug": "dispel-good",
@@ -1783,7 +1914,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "level": "Brd 3, Chr 3, Drd 4, Magia 3, Pal 3, Str/Mag 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una spellcaster, creatura, o oggetto; o 6 m scoppio con raggio"
   },
   {
     "slug": "dispel-magic-greater",
@@ -1802,7 +1934,8 @@
     "range": "Contatto",
     "duration": "1 round/livello (C)",
     "level": "Brd 3, Str/Mag 3",
-    "components": "V, M"
+    "components": "V, M",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "disrupt-undead",
@@ -1814,7 +1947,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Str/Mag 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Raggio"
   },
   {
     "slug": "disrupting-weapon",
@@ -1826,7 +1960,8 @@
     "range": "Contatto",
     "duration": "1 round/livello",
     "level": "Chr 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una melee weapon"
   },
   {
     "slug": "divination",
@@ -1836,7 +1971,8 @@
     "range": "Personale",
     "duration": "Istantaneo",
     "level": "Chr 4, Conoscenza 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "divine-favor",
@@ -1846,7 +1982,8 @@
     "range": "Personale",
     "duration": "1 minuto",
     "components": "V, S, FD",
-    "level": "Chr 1, Pal 1"
+    "level": "Chr 1, Pal 1",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "divine-power",
@@ -1856,7 +1993,8 @@
     "range": "Personale",
     "duration": "1 round/livello",
     "components": "V, S, FD",
-    "level": "Chr 4, Guerra 4"
+    "level": "Chr 4, Guerra 4",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "dominate-animal",
@@ -1870,7 +2008,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello",
     "level": "Animale 3, Drd 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Un animale"
   },
   {
     "slug": "dominate-monster",
@@ -1878,7 +2017,8 @@
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
-    "level": "Str/Mag 9"
+    "level": "Str/Mag 9",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "dominate-person",
@@ -1892,7 +2032,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Un giono/livello",
     "level": "Brd 4, Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una humanoid"
   },
   {
     "slug": "doom",
@@ -1905,7 +2046,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 1"
+    "level": "Chr 1",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "dream",
@@ -1919,7 +2061,8 @@
     "range": "Illimitato",
     "duration": "Vedi testo",
     "level": "Brd 5, Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura vivente toccata"
   },
   {
     "slug": "eagles-splendor",
@@ -1931,14 +2074,16 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, M/FD",
-    "level": "Brd 2, Chr 2, Pal 2, Str/Mag 2"
+    "level": "Brd 2, Chr 2, Pal 2, Str/Mag 2",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "eagles-splendor-mass",
     "name": "Splendore dell'Aquila di Massa",
     "school": "Trasmutazione",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
-    "level": "Brd 6, Chr 6, Str/Mag 6"
+    "level": "Brd 6, Chr 6, Str/Mag 6",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "earthquake",
@@ -1951,7 +2096,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "1 round",
     "components": "V, S, FD",
-    "level": "Chr 8, Distruzione 8, Drd 8, Terra 7"
+    "level": "Chr 8, Distruzione 8, Drd 8, Terra 7",
+    "target_area_effect": "24 m diffusiuna con raggio (S)"
   },
   {
     "slug": "elemental-swarm",
@@ -1965,7 +2111,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "10 min./livello (C)",
     "level": "Aria 9, Drd 9, Terra 9, Fuoco 9, Acqua 9",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Two o more summunad creatura,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "endure-elements",
@@ -1977,7 +2124,8 @@
     "range": "Contatto",
     "duration": "24 oe",
     "level": "Chr 1, Drd 1, Pal 1, Rgr 1, Str/Mag 1, Sole 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "energy-drain",
@@ -1996,7 +2144,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Str/Mag 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Raggio di energia negativa"
   },
   {
     "slug": "enlarge-person",
@@ -2008,13 +2157,15 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello (C)",
     "level": "Str/Mag 1, Forza 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura umanoide"
   },
   {
     "slug": "enlarge-person-mass",
     "name": "Ingrandire Persone di Massa",
     "school": "Trasmutazione",
-    "level": "Str/Mag 4"
+    "level": "Str/Mag 4",
+    "target_area_effect": "Una humanoid creatura/livello,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "entangle",
@@ -2026,7 +2177,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "1 min./livello (C)",
     "components": "V, S, FD",
-    "level": "Drd 1, Pianta 1, Rgr 1"
+    "level": "Drd 1, Pianta 1, Rgr 1",
+    "target_area_effect": "Plants in a 12 m diffusiuna con raggio"
   },
   {
     "slug": "enthrall",
@@ -2040,7 +2192,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 oa o meno",
     "level": "Brd 2, Chr 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Any number of creatura"
   },
   {
     "slug": "entropic-shield",
@@ -2050,7 +2203,8 @@
     "range": "Personale",
     "duration": "1 min./livello (C)",
     "level": "Chr 1, Fortuna 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "erase",
@@ -2062,7 +2216,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Brd 1, Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una scroll o two pages"
   },
   {
     "slug": "ethereal-jaunt",
@@ -2072,7 +2227,8 @@
     "range": "Personale",
     "duration": "1 round/livello (C)",
     "level": "Chr 7, Str/Mag 7",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "etherealness",
@@ -2081,7 +2237,8 @@
     "spell_resistance": "Sì",
     "range": "Contatto; vedi testo",
     "duration": "1 min./livello (C)",
-    "level": "Chr 9, Str/Mag 9"
+    "level": "Chr 9, Str/Mag 9",
+    "target_area_effect": "You e una other touched creatura per three levels"
   },
   {
     "slug": "expeditious-retreat",
@@ -2091,7 +2248,8 @@
     "range": "Personale",
     "duration": "1 min./livello (C)",
     "level": "Brd 1, Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "explosive-runes",
@@ -2104,7 +2262,8 @@
     "range": "Contatto",
     "duration": "Permanente finché non viene scaricato (C)",
     "level": "Str/Mag 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una touched oggetto weighing no more than 10 lb."
   },
   {
     "slug": "eyebite",
@@ -2117,7 +2276,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round ogni tre livelli; vedi testo",
     "level": "Brd 6, Str/Mag 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "fabricate",
@@ -2129,7 +2289,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Str/Mag 5",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Fino a 10 cu. ft./livello; vedi testo"
   },
   {
     "slug": "faerie-fire",
@@ -2142,7 +2303,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "1 min./livello (C)",
     "components": "V, S, FD",
-    "level": "Drd 1"
+    "level": "Drd 1",
+    "target_area_effect": "Creatures e oggetti within a 1,5 m scoppio con raggio"
   },
   {
     "slug": "false-life",
@@ -2152,7 +2314,8 @@
     "range": "Personale",
     "duration": "1 oa/livello o finché non viene scaricato; vedi testo",
     "level": "Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "false-vision",
@@ -2165,7 +2328,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello (C)",
     "level": "Brd 5, Str/Mag 5, Inganno 5",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "12 m emanaziuna con raggio"
   },
   {
     "slug": "fear",
@@ -2178,7 +2342,8 @@
     "range": "9.0 m",
     "duration": "1 round/livello o 1 round; vedi testo",
     "level": "Brd 3, Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Scoppio a cono"
   },
   {
     "slug": "feather-fall",
@@ -2190,7 +2355,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Until leing o 1 round/livello",
     "level": "Brd 1, Str/Mag 1",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una Medium o smaller freefalling oggetto o creatura/livello, no two of which may be more\n      than 6 m l'una dall'altra"
   },
   {
     "slug": "feeblemind",
@@ -2204,7 +2370,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "level": "Str/Mag 5",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "find-the-path",
@@ -2216,7 +2383,8 @@
     "range": "Personale o contatto",
     "duration": "10 min./livello",
     "level": "Brd 6, Chr 6, Drd 6, Conoscenza 6, Viaggio 6",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Te stesso o creatura toccata"
   },
   {
     "slug": "find-traps",
@@ -2226,7 +2394,8 @@
     "range": "Personale",
     "duration": "1 min./livello",
     "level": "Chr 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "finger-of-death",
@@ -2239,7 +2408,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Drd 8, Str/Mag 7",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "fire-seeds",
@@ -2253,7 +2423,8 @@
     "range": "Contatto",
     "duration": "10 min./livello o until used",
     "level": "Drd 6, Fuoco 6, Sole 6",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Fino a four touched acorns o fino a eight touched holly berries"
   },
   {
     "slug": "fire-shield",
@@ -2264,7 +2435,8 @@
     "range": "Personale",
     "duration": "1 round/livello (C)",
     "components": "V, S, M/FD",
-    "level": "Fuoco 5, Str/Mag 4, Sole 4"
+    "level": "Fuoco 5, Str/Mag 4, Sole 4",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "fire-storm",
@@ -2277,7 +2449,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "level": "Chr 8, Drd 7, Fuoco 7",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Two 3 m cubos /livello (S)"
   },
   {
     "slug": "fire-trap",
@@ -2290,7 +2463,8 @@
     "range": "Contatto",
     "duration": "Permanente finché non viene scaricato (C)",
     "level": "Drd 2, Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Oggetto toccato"
   },
   {
     "slug": "fireball",
@@ -2303,7 +2477,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Istantaneo",
     "level": "Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "6 m diffusiuna con raggio"
   },
   {
     "slug": "flame-arrow",
@@ -2316,7 +2491,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "10 min./livello",
     "level": "Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Cinquanta proiettili, tutti in contatto l'uno con l'altro al momento del lancio"
   },
   {
     "slug": "flame-blade",
@@ -2329,7 +2505,8 @@
     "range": "0.0 m",
     "duration": "1 min./livello (C)",
     "components": "V, S, FD",
-    "level": "Drd 2"
+    "level": "Drd 2",
+    "target_area_effect": "Raggio a forma di spada"
   },
   {
     "slug": "flame-strike",
@@ -2342,7 +2519,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "components": "V, S, FD",
-    "level": "Chr 5, Drd 4, Sole 5, Guerra 5"
+    "level": "Chr 5, Drd 4, Sole 5, Guerra 5",
+    "target_area_effect": "Cylinder (3 m radius, 12 m di altezza)"
   },
   {
     "slug": "flaming-sphere",
@@ -2355,7 +2533,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello",
     "components": "V, S, M/FD",
-    "level": "Drd 2, Str/Mag 2"
+    "level": "Drd 2, Str/Mag 2",
+    "target_area_effect": "1,5 m-diameter sphere"
   },
   {
     "slug": "flare",
@@ -2368,7 +2547,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Brd 0, Drd 0, Str/Mag 0",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Scoppio di luce"
   },
   {
     "slug": "flesh-to-stone",
@@ -2380,7 +2560,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "level": "Str/Mag 6",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "floating-disk",
@@ -2393,7 +2574,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa/livello",
     "level": "Str/Mag 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Disco di forza di 90 cm di diametro"
   },
   {
     "slug": "fly",
@@ -2405,7 +2587,8 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, F/FD",
-    "level": "Str/Mag 3, Viaggio 3"
+    "level": "Str/Mag 3, Viaggio 3",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "fog-cloud",
@@ -2418,7 +2601,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "10 min./livello",
     "level": "Drd 2, Str/Mag 2, Acqua 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Nebbia si diffonde in 6 m radius, 6 m di altezza"
   },
   {
     "slug": "forbiddance",
@@ -2430,7 +2614,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Permanente",
     "components": "V, S, M, FD",
-    "level": "Chr 6"
+    "level": "Chr 6",
+    "target_area_effect": "18 m cubo/livello (S)"
   },
   {
     "slug": "forcecage",
@@ -2443,7 +2628,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "2 oe/livello (C)",
     "level": "Str/Mag 7",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Barred cage (6 m cubo) o windowless cell (3 m cubo)"
   },
   {
     "slug": "forceful-hand",
@@ -2463,7 +2649,8 @@
     "range": "Personale o contatto",
     "duration": "10 min./livello",
     "components": "V, S, M/FD",
-    "level": "Drd 9, Conoscenza 9, Str/Mag 9"
+    "level": "Drd 9, Conoscenza 9, Str/Mag 9",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "foxs-cunning",
@@ -2475,14 +2662,16 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, M/FD",
-    "level": "Brd 2, Str/Mag 2"
+    "level": "Brd 2, Str/Mag 2",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "foxs-cunning-mass",
     "name": "Astuzia della Volpe di Massa",
     "school": "Trasmutazione",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
-    "level": "Brd 6, Str/Mag 6"
+    "level": "Brd 6, Str/Mag 6",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "freedom",
@@ -2494,7 +2683,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli) o vedi testo",
     "duration": "Istantaneo",
     "level": "Str/Mag 9",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "freedom-of-movement",
@@ -2506,7 +2696,8 @@
     "range": "Personale o contatto",
     "duration": "10 min./livello",
     "components": "V, S, M, FD",
-    "level": "Brd 4, Chr 4, Drd 4, Fortuna 4, Rgr 4"
+    "level": "Brd 4, Chr 4, Drd 4, Fortuna 4, Rgr 4",
+    "target_area_effect": "Te stesso o creatura toccata"
   },
   {
     "slug": "freezing-sphere",
@@ -2519,7 +2710,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Istantaneo o 1 round/livello; vedi testo",
     "level": "Str/Mag 6",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "gaseous-form",
@@ -2531,7 +2723,8 @@
     "range": "Contatto",
     "duration": "2 min./livello (C)",
     "components": "S, M/FD",
-    "level": "Aria 3, Brd 3, Str/Mag 3"
+    "level": "Aria 3, Brd 3, Str/Mag 3",
+    "target_area_effect": "Willing corporeal creatura toccata"
   },
   {
     "slug": "gate",
@@ -2544,7 +2737,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo o concentration (fino a 1 round/livello); vedi testo",
     "components": "V, S, PE; vedi testo",
-    "level": "Chr 9, Str/Mag 9"
+    "level": "Chr 9, Str/Mag 9",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "geas-lesser",
@@ -2558,7 +2752,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Un giono/livello o finché non viene scaricato (C)",
     "level": "Brd 3, Str/Mag 4",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una creatura vivente with 7 HD o less"
   },
   {
     "slug": "geas-quest",
@@ -2568,7 +2763,8 @@
     "descriptor": "Linguaggio-Dipendente, Influenza Mentale",
     "saving_throw": "Nessuno",
     "casting_time": "10 minuti",
-    "level": "Brd 6, Chr 6, Str/Mag 6"
+    "level": "Brd 6, Chr 6, Str/Mag 6",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "gentle-repose",
@@ -2580,7 +2776,8 @@
     "range": "Contatto",
     "duration": "Un giono/livello",
     "components": "V, S, M/FD",
-    "level": "Chr 2, Str/Mag 3"
+    "level": "Chr 2, Str/Mag 3",
+    "target_area_effect": "Cadavere toccato"
   },
   {
     "slug": "ghost-sound",
@@ -2593,7 +2790,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello (C)",
     "level": "Brd 0, Str/Mag 0",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Suoni illusori"
   },
   {
     "slug": "ghoul-touch",
@@ -2604,7 +2802,8 @@
     "casting_time": "1 azione standard",
     "range": "Contatto",
     "level": "Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Umanoide vivente toccato"
   },
   {
     "slug": "giant-vermin",
@@ -2616,7 +2815,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 4, Drd 4"
+    "level": "Chr 4, Drd 4",
+    "target_area_effect": "Fino a three vermin,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "glibness",
@@ -2626,7 +2826,8 @@
     "range": "Personale",
     "duration": "10 min./livello (C)",
     "level": "Brd 3",
-    "components": "S"
+    "components": "S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "glitterdust",
@@ -2639,7 +2840,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello",
     "level": "Brd 2, Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creatures e oggetti within 3 m diffusiuna con raggio"
   },
   {
     "slug": "globe-of-invulnerability",
@@ -2657,7 +2859,8 @@
     "range": "3.0 m",
     "duration": "1 round/livello (C)",
     "level": "Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "3 m-radius spherical emanaziuna, centrata su di te"
   },
   {
     "slug": "glyph-of-warding",
@@ -2669,7 +2872,8 @@
     "range": "Contatto",
     "duration": "Permanente finché non viene scaricato (C)",
     "level": "Chr 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Object touched o fino a 5 sq. ft./livello"
   },
   {
     "slug": "glyph-of-warding-greater",
@@ -2689,7 +2893,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 min./livello",
     "level": "Brd 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura vivente/livello, no two of which may be more than 9 m l'una dall'altra"
   },
   {
     "slug": "goodberry",
@@ -2701,7 +2906,8 @@
     "range": "Contatto",
     "duration": "Un giono/livello",
     "components": "V, S, FD",
-    "level": "Drd 1"
+    "level": "Drd 1",
+    "target_area_effect": "2d4 bacche fresche toccate"
   },
   {
     "slug": "grasping-hand",
@@ -2722,7 +2928,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello (C)",
     "level": "Brd 1, Str/Mag 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una oggetto o a 3 m square"
   },
   {
     "slug": "greater",
@@ -2739,7 +2946,8 @@
     "range": "Ovunque nell'area da proteggere",
     "duration": "2 oe/livello (C)",
     "level": "Str/Mag 6",
-    "components": "V, S, M, F"
+    "components": "V, S, M, F",
+    "target_area_effect": "Fino a 200 sq. ft./livello (S)"
   },
   {
     "slug": "guidance",
@@ -2751,7 +2959,8 @@
     "range": "Contatto",
     "duration": "1 minuto o finché non viene scaricato",
     "level": "Chr 0, Drd 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "gust-of-wind",
@@ -2764,7 +2973,8 @@
     "range": "18.0 m",
     "duration": "1 round",
     "level": "Drd 2, Str/Mag 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Linea-shaped gust of severe wind emanating out from you to the extreme of the range"
   },
   {
     "slug": "hallow",
@@ -2777,7 +2987,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "components": "V, S, M, FD",
-    "level": "Chr 5, Drd 5"
+    "level": "Chr 5, Drd 5",
+    "target_area_effect": "12 m radius emanating from the touched point"
   },
   {
     "slug": "hallucinatory-terrain",
@@ -2790,7 +3001,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "2 oe/livello (C)",
     "level": "Brd 4, Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una 9 m cubo/livello (S)"
   },
   {
     "slug": "halt-undead",
@@ -2802,7 +3014,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello",
     "level": "Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Fino a three undead creatura,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "harm",
@@ -2814,7 +3027,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 6, Distruzione 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "haste",
@@ -2826,7 +3040,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello",
     "level": "Brd 3, Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "heal",
@@ -2839,7 +3054,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 6, Drd 7, Guarigione 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "heal-mass",
@@ -2847,7 +3063,8 @@
     "school": "Evocazione",
     "subschool": "Guarigione",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
-    "level": "Chr 9, Guarigione 9"
+    "level": "Chr 9, Guarigione 9",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "heal-mount",
@@ -2860,7 +3077,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Pal 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "La tua cavalcatura toccata"
   },
   {
     "slug": "heat-metal",
@@ -2872,7 +3090,8 @@
     "casting_time": "1 azione standard",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "components": "V, S, FD",
-    "level": "Drd 2, Sole 2"
+    "level": "Drd 2, Sole 2",
+    "target_area_effect": "Metal equipment of una creatura per two levels,, non più di 9 m\n      l'una dall'altra; o 25 lb. of metal/livello, all of which must be within a 9 m circle"
   },
   {
     "slug": "helping-hand",
@@ -2884,7 +3103,8 @@
     "range": "7.5 km",
     "duration": "1 oa/livello",
     "components": "V, S, FD",
-    "level": "Chr 3"
+    "level": "Chr 3",
+    "target_area_effect": "Mano spettrale"
   },
   {
     "slug": "heroes-feast",
@@ -2897,7 +3117,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa più 12 oe; vedi testo",
     "components": "V, S, FD",
-    "level": "Brd 6, Chr 6"
+    "level": "Brd 6, Chr 6",
+    "target_area_effect": "Feast for una creatura/livello"
   },
   {
     "slug": "heroism",
@@ -2911,7 +3132,8 @@
     "range": "Contatto",
     "duration": "10 min./livello",
     "level": "Brd 2, Str/Mag 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "heroism-greater",
@@ -2932,7 +3154,8 @@
     "range": "Contatto",
     "duration": "10 min./livello (C)",
     "components": "S, FD",
-    "level": "Drd 1, Rgr 1"
+    "level": "Drd 1, Rgr 1",
+    "target_area_effect": "Una creatura toccata/livello"
   },
   {
     "slug": "hide-from-undead",
@@ -2944,7 +3167,8 @@
     "range": "Contatto",
     "duration": "10 min./livello (C)",
     "components": "V, S, FD",
-    "level": "Chr 1"
+    "level": "Chr 1",
+    "target_area_effect": "Una touched creatura/livello"
   },
   {
     "slug": "hideous-laughter",
@@ -2958,7 +3182,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello",
     "level": "Brd 1, Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura; vedi testo"
   },
   {
     "slug": "hold-animal",
@@ -2967,7 +3192,8 @@
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
     "level": "Animale 2, Drd 2, Rgr 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Un animale"
   },
   {
     "slug": "hold-monster",
@@ -2976,7 +3202,8 @@
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
     "components": "V, S, M/FD",
-    "level": "Brd 4, Legge 6, Str/Mag 5"
+    "level": "Brd 4, Legge 6, Str/Mag 5",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "hold-monster-mass",
@@ -2984,7 +3211,8 @@
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
-    "level": "Str/Mag 9"
+    "level": "Str/Mag 9",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "hold-person",
@@ -2998,7 +3226,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello (C); vedi testo",
     "components": "V, S, F/FD",
-    "level": "Brd 2, Chr 2, Str/Mag 3"
+    "level": "Brd 2, Chr 2, Str/Mag 3",
+    "target_area_effect": "Una creatura umanoide"
   },
   {
     "slug": "hold-person-mass",
@@ -3006,7 +3235,8 @@
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
-    "level": "Str/Mag 7"
+    "level": "Str/Mag 7",
+    "target_area_effect": "Una o more humanoid creatura,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "hold-portal",
@@ -3018,7 +3248,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 min./livello (C)",
     "level": "Str/Mag 1",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una portal, fino a 20 sq. ft./livello"
   },
   {
     "slug": "holy-aura",
@@ -3031,7 +3262,8 @@
     "range": "6.0 m",
     "duration": "1 round/livello (C)",
     "level": "Chr 8, Bene 8",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una creatura/livello in a 6 m scoppio con raggio centrata su di te"
   },
   {
     "slug": "holy-smite",
@@ -3044,7 +3276,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo (1 round); vedi testo",
     "level": "Bene 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "6 m scoppio con raggio"
   },
   {
     "slug": "holy-sword",
@@ -3057,7 +3290,8 @@
     "range": "Contatto",
     "duration": "1 round/livello",
     "level": "Pal 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Arma da mischia toccata"
   },
   {
     "slug": "holy-word",
@@ -3070,7 +3304,8 @@
     "range": "12.0 m",
     "duration": "Istantaneo",
     "level": "Chr 7, Bene 7",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Nongood creatura in a 12 m diffusiuna con raggio centrata su di te"
   },
   {
     "slug": "horrid-wilting",
@@ -3082,7 +3317,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Istantaneo",
     "components": "V, S, M/FD",
-    "level": "Str/Mag 8, Acqua 8"
+    "level": "Str/Mag 8, Acqua 8",
+    "target_area_effect": "Living creatura,, non più di 18 m l'una dall'altra"
   },
   {
     "slug": "hypnotic-pattern",
@@ -3096,7 +3332,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Concentrazione + 2 rounds",
     "components": "V (solo Brd), S, M; vedi testo",
-    "level": "Brd 2, Str/Mag 2"
+    "level": "Brd 2, Str/Mag 2",
+    "target_area_effect": "Colorful lights in a 3 m diffusiuna con raggio"
   },
   {
     "slug": "hypnotism",
@@ -3110,7 +3347,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "2d4 rounds (C)",
     "level": "Brd 1, Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Several creatura viventes, no two of which may be more than 9 m l'una dall'altra"
   },
   {
     "slug": "ice-storm",
@@ -3122,7 +3360,8 @@
     "casting_time": "1 azione standard",
     "range": "Lungo (120 m + 12 m/livello)",
     "components": "V, S, M/FD",
-    "level": "Drd 4, Str/Mag 4, Acqua 5"
+    "level": "Drd 4, Str/Mag 4, Acqua 5",
+    "target_area_effect": "Cylinder (6 m radius, 12 m di altezza)"
   },
   {
     "slug": "identify",
@@ -3134,7 +3373,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "components": "V, S, M/FD",
-    "level": "Brd 1, Magia 2, Str/Mag 1"
+    "level": "Brd 1, Magia 2, Str/Mag 1",
+    "target_area_effect": "Una touched oggetto"
   },
   {
     "slug": "illusory-script",
@@ -3148,7 +3388,8 @@
     "range": "Contatto",
     "duration": "Un giono/livello (C)",
     "level": "Brd 3, Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una touched oggetto weighing no more than 10 lb."
   },
   {
     "slug": "illusory-wall",
@@ -3161,7 +3402,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Permanente",
     "level": "Str/Mag 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Image 0,3 m by 3 m by 3 m"
   },
   {
     "slug": "imbue-with-spell-ability",
@@ -3173,7 +3415,8 @@
     "range": "Contatto",
     "duration": "Permanente finché non viene scaricato (C)",
     "components": "V, S, FD",
-    "level": "Chr 4, Magia 4"
+    "level": "Chr 4, Magia 4",
+    "target_area_effect": "Creatura toccata; vedi testo"
   },
   {
     "slug": "implosion",
@@ -3185,7 +3428,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Concentrazione (fino a 4 rounds)",
     "level": "Chr 9, Distruzione 9",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una corporeal creatura/round"
   },
   {
     "slug": "imprisonment",
@@ -3197,7 +3441,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Str/Mag 9",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "incendiary-cloud",
@@ -3211,7 +3456,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello",
     "level": "Fuoco 8, Str/Mag 8",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Nube si diffonde in 6 m radius, 6 m di altezza"
   },
   {
     "slug": "inflict-critical-wounds",
@@ -3235,7 +3481,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 1, Distruzione 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "inflict-light-wounds-mass",
@@ -3247,7 +3494,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Chr 5, Distruzione 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "inflict-minor-wounds",
@@ -3292,7 +3540,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "level": "Str/Mag 7",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "insect-plague",
@@ -3305,7 +3554,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 5, Drd 5"
+    "level": "Chr 5, Drd 5",
+    "target_area_effect": "Una swarm of locusts per three levels, each of which must be adjacent to at least una\n      other swarm"
   },
   {
     "slug": "instant-summons",
@@ -3318,7 +3568,8 @@
     "range": "Vedi testo",
     "duration": "Permanente finché non viene scaricato",
     "level": "Str/Mag 7",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una oggetto weighing 10 lb. o less whose di lunghezzaest dimension is 1,8 m o less"
   },
   {
     "slug": "interposing-hand",
@@ -3331,7 +3582,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello (C)",
     "level": "Str/Mag 5",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "3 m hand"
   },
   {
     "slug": "invisibility",
@@ -3344,7 +3596,8 @@
     "range": "Personale o contatto",
     "duration": "1 min./livello (C)",
     "components": "V, S, M/FD",
-    "level": "Brd 2, Str/Mag 2, Inganno 2"
+    "level": "Brd 2, Str/Mag 2, Inganno 2",
+    "target_area_effect": "You o a creatura o oggetto weighing no more than 100 lb./livello"
   },
   {
     "slug": "invisibility-greater",
@@ -3354,7 +3607,8 @@
     "saving_throw": "Volontà nega (innocuo)",
     "duration": "1 round/livello (C)",
     "level": "Brd 4, Str/Mag 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso o creatura toccata"
   },
   {
     "slug": "invisibility-mass",
@@ -3363,7 +3617,8 @@
     "subschool": "Mascheramento",
     "range": "Lungo (120 m + 12 m/livello)",
     "level": "Str/Mag 7",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Any number of creatura,, non più di 54 m l'una dall'altra"
   },
   {
     "slug": "invisibility-purge",
@@ -3373,7 +3628,8 @@
     "range": "Personale",
     "duration": "1 min./livello (C)",
     "level": "Chr 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "invisibility-sphere",
@@ -3381,7 +3637,8 @@
     "school": "Illusione",
     "subschool": "Mascheramento",
     "level": "Brd 3, Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "3 m emanaziuna con raggio around the creatura o oggetto toccato"
   },
   {
     "slug": "iron-body",
@@ -3391,7 +3648,8 @@
     "range": "Personale",
     "duration": "1 min./livello (C)",
     "components": "V, S, M/FD",
-    "level": "Terra 8, Str/Mag 8"
+    "level": "Terra 8, Str/Mag 8",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "ironwood",
@@ -3403,7 +3661,8 @@
     "range": "0.0 m",
     "duration": "Un giono/livello (C)",
     "level": "Drd 6",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Anironwoodoggetto weighing fino a 5 lb./livello"
   },
   {
     "slug": "irresistible-dance",
@@ -3416,7 +3675,8 @@
     "casting_time": "1 azione standard",
     "range": "Contatto",
     "level": "Brd 6, Str/Mag 8",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "jump",
@@ -3428,7 +3688,8 @@
     "range": "Contatto",
     "duration": "1 min./livello (C)",
     "level": "Drd 1, Rgr 1, Str/Mag 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "keen-edge",
@@ -3440,7 +3701,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "10 min./livello",
     "level": "Str/Mag 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una weapon o fifty projectiles, all of which must be in contact with each other at the\n      time of casting"
   },
   {
     "slug": "knock",
@@ -3452,7 +3714,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo; vedi testo",
     "level": "Str/Mag 2",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una door, box, o chest with an area of fino a 10 sq. ft./livello"
   },
   {
     "slug": "know-direction",
@@ -3462,7 +3725,8 @@
     "range": "Personale",
     "duration": "Istantaneo",
     "level": "Brd 0, Drd 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "legend-lore",
@@ -3472,7 +3736,8 @@
     "range": "Personale",
     "duration": "Vedi testo",
     "level": "Brd 4, Conoscenza 7, Str/Mag 6",
-    "components": "V, S, M, F"
+    "components": "V, S, M, F",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "lesser",
@@ -3489,7 +3754,8 @@
     "range": "Personale o corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello (C)",
     "level": "Str/Mag 2",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "You o una creatura consenziente o una oggetto (total weight fino a 100 lb./livello)"
   },
   {
     "slug": "light",
@@ -3502,7 +3768,8 @@
     "range": "Contatto",
     "duration": "10 min./livello (C)",
     "components": "V, M/FD",
-    "level": "Brd 0, Chr 0, Drd 0, Str/Mag 0"
+    "level": "Brd 0, Chr 0, Drd 0, Str/Mag 0",
+    "target_area_effect": "Oggetto toccato"
   },
   {
     "slug": "lightning-bolt",
@@ -3515,7 +3782,8 @@
     "range": "36.0 m",
     "duration": "Istantaneo",
     "level": "Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "36 m linea"
   },
   {
     "slug": "limited-wish",
@@ -3527,7 +3795,8 @@
     "range": "Vedi testo",
     "duration": "Vedi testo",
     "components": "V, S, PE",
-    "level": "Str/Mag 7"
+    "level": "Str/Mag 7",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "liveoak",
@@ -3539,7 +3808,8 @@
     "range": "Contatto",
     "duration": "Un giono/livello (C)",
     "level": "Drd 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Albero toccato"
   },
   {
     "slug": "locate-creature",
@@ -3559,7 +3829,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "1 min./livello",
     "components": "V, S, F/FD",
-    "level": "Brd 2, Chr 3, Str/Mag 2, Viaggio 2"
+    "level": "Brd 2, Chr 3, Str/Mag 2, Viaggio 2",
+    "target_area_effect": "Circle, centrata su di te, with a radius of 120 m + 12 m/livello"
   },
   {
     "slug": "longstrider",
@@ -3569,7 +3840,8 @@
     "range": "Personale",
     "duration": "1 oa/livello (C)",
     "level": "Drd 1, Rgr 1, Viaggio 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "lullaby",
@@ -3583,7 +3855,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Concentrazione + 1 round/livello (C)",
     "level": "Brd 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Living creatura within a 3 m scoppio con raggio"
   },
   {
     "slug": "mage-armor",
@@ -3597,7 +3870,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello (C)",
     "level": "Str/Mag 1",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "mage-hand",
@@ -3609,7 +3883,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Concentrazione",
     "level": "Brd 0, Str/Mag 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una nonmagical, unattended oggetto weighing fino a 5 lb."
   },
   {
     "slug": "mages-disjunction",
@@ -3621,7 +3896,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Magia 9, Str/Mag 9",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "All magical effects e magic items within a 12 m scoppio con raggio"
   },
   {
     "slug": "mages-faithful-hound",
@@ -3634,7 +3910,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa/livello dell'incantatoe o finché non viene scaricato, poi 1 round/livello dell'incantatoe; vedi testo",
     "level": "Str/Mag 5",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Cane da guardia fantasma"
   },
   {
     "slug": "mages-lucubration",
@@ -3644,7 +3921,8 @@
     "range": "Personale",
     "duration": "Istantaneo",
     "level": "Mag 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "mages-magnificent-mansion",
@@ -3657,7 +3935,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "2 oe/livello (C)",
     "level": "Str/Mag 7",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Extradimensional mansion, fino a three 3 m cubos/livello (S)"
   },
   {
     "slug": "mages-private-sanctum",
@@ -3669,7 +3948,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "24 oe (C)",
     "level": "Str/Mag 5",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "9 m cubo/livello (S)"
   },
   {
     "slug": "mages-sword",
@@ -3682,7 +3962,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello (C)",
     "level": "Str/Mag 7",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una sword"
   },
   {
     "slug": "magic-aura",
@@ -3695,7 +3976,8 @@
     "range": "Contatto",
     "duration": "Un giono/livello (C)",
     "level": "Brd 1, Magia 1, Str/Mag 1",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Un oggetto toccato del peso fino a 2,5 kg/livello"
   },
   {
     "slug": "magic-circle-against-chaos",
@@ -3715,7 +3997,8 @@
     "range": "Contatto",
     "duration": "10 min./livello",
     "components": "V, S, M/FD",
-    "level": "Chr 3, Bene 3, Pal 3, Str/Mag 3"
+    "level": "Chr 3, Bene 3, Pal 3, Str/Mag 3",
+    "target_area_effect": "3 m emanaziuna con raggio from touched creatura"
   },
   {
     "slug": "magic-circle-against-good",
@@ -3741,7 +4024,8 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Drd 1, Rgr 1"
+    "level": "Drd 1, Rgr 1",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "magic-fang-greater",
@@ -3749,7 +4033,8 @@
     "school": "Trasmutazione",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa/livello",
-    "level": "Drd 3, Rgr 3"
+    "level": "Drd 3, Rgr 3",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "magic-jar",
@@ -3761,7 +4046,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 oa/livello o until you return to your body",
     "level": "Str/Mag 5",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "magic-missile",
@@ -3774,7 +4060,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "level": "Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Fino a five creatura,, non più di 4,5 m l'una dall'altra"
   },
   {
     "slug": "magic-mouth",
@@ -3787,7 +4074,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Permanente finché non viene scaricato",
     "level": "Brd 1, Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura od oggetto"
   },
   {
     "slug": "magic-stone",
@@ -3799,7 +4087,8 @@
     "range": "Contatto",
     "duration": "30 minuti o finché non viene scaricato",
     "components": "V, S, FD",
-    "level": "Chr 1, Drd 1, Terra 1"
+    "level": "Chr 1, Drd 1, Terra 1",
+    "target_area_effect": "Fino a three pebbles touched"
   },
   {
     "slug": "magic-vestment",
@@ -3811,7 +4100,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello",
     "components": "V, S, FD",
-    "level": "Chr 3, Forza 3, Guerra 3"
+    "level": "Chr 3, Forza 3, Guerra 3",
+    "target_area_effect": "Armor o shield touched"
   },
   {
     "slug": "magic-weapon",
@@ -3823,7 +4113,8 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 1, Pal 1, Str/Mag 1, Guerra 1"
+    "level": "Chr 1, Pal 1, Str/Mag 1, Guerra 1",
+    "target_area_effect": "Arma toccata"
   },
   {
     "slug": "magic-weapon-greater",
@@ -3835,7 +4126,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa/livello",
     "components": "V, S, M/FD",
-    "level": "Chr 4, Pal 3, Str/Mag 3"
+    "level": "Chr 4, Pal 3, Str/Mag 3",
+    "target_area_effect": "Una weapon o fifty projectiles (all of which must be in contact with each other at the\n      time of casting)"
   },
   {
     "slug": "major-creation",
@@ -3861,7 +4153,8 @@
     "school": "Trasmutazione",
     "casting_time": "1 azione standard",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
-    "level": "Chr 2"
+    "level": "Chr 2",
+    "target_area_effect": "Una oggetto of fino a 10 cu. ft./ level"
   },
   {
     "slug": "mark-of-justice",
@@ -3873,7 +4166,8 @@
     "range": "Contatto",
     "duration": "Permanente; vedi testo",
     "components": "V, S, FD",
-    "level": "Chr 5, Pal 4"
+    "level": "Chr 5, Pal 4",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "mass",
@@ -3891,7 +4185,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Vedi testo",
     "level": "Str/Mag 8",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "meld-into-stone",
@@ -3902,7 +4197,8 @@
     "range": "Personale",
     "duration": "10 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 3, Drd 3"
+    "level": "Chr 3, Drd 3",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "mending",
@@ -3914,7 +4210,8 @@
     "range": "3.0 m",
     "duration": "Istantaneo",
     "level": "Brd 0, Chr 0, Drd 0, Str/Mag 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una oggetto of fino a 1 lb."
   },
   {
     "slug": "message",
@@ -3927,7 +4224,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "10 min./livello",
     "level": "Brd 0, Str/Mag 0",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una creatura/livello"
   },
   {
     "slug": "meteor-swarm",
@@ -3940,7 +4238,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Istantaneo",
     "level": "Str/Mag 9",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Four 12 m diffusiuna con raggios; vedi testo"
   },
   {
     "slug": "mind-blank",
@@ -3952,7 +4251,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "24 oe",
     "level": "Protezione 8, Str/Mag 8",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "mind-fog",
@@ -3966,7 +4266,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "30 minuti e 2d6 rounds; vedi testo",
     "level": "Brd 5, Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Nebbia si diffonde in 6 m radius, 6 m di altezza"
   },
   {
     "slug": "minor-creation",
@@ -3979,7 +4280,8 @@
     "range": "0.0 m",
     "duration": "1 oa/livello (C)",
     "level": "Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Unattended, nonmagical oggetto of nonliving plant matter, fino a 1 cu. ft./livello"
   },
   {
     "slug": "minor-image",
@@ -3999,7 +4301,8 @@
     "range": "Vedi testo",
     "duration": "Vedi testo",
     "components": "V, S, PE; vedi testo",
-    "level": "Chr 9, Fortuna 9"
+    "level": "Chr 9, Fortuna 9",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "mirage-arcana",
@@ -4009,7 +4312,8 @@
     "casting_time": "1 azione standard",
     "duration": "Concentrazione +1 oa/ level (C)",
     "level": "Brd 5, Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una 6 m cubo/livello (S)"
   },
   {
     "slug": "mirror-image",
@@ -4020,7 +4324,8 @@
     "range": "Personale; vedi testo",
     "duration": "1 min./livello (C)",
     "level": "Brd 2, Str/Mag 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "misdirection",
@@ -4033,7 +4338,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa/livello",
     "level": "Brd 2, Str/Mag 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura o oggetto, fino a a 3 m cubo in size"
   },
   {
     "slug": "mislead",
@@ -4046,7 +4352,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello (C) e concentration + 3 rounds; vedi testo",
     "level": "Brd 5, Fortuna 6, Str/Mag 6, Inganno 6",
-    "components": "S"
+    "components": "S",
+    "target_area_effect": "You/una illusory double"
   },
   {
     "slug": "mnemonic-enhancer",
@@ -4056,7 +4363,8 @@
     "range": "Personale",
     "duration": "Istantaneo",
     "level": "Mag 4",
-    "components": "V, S, M, F"
+    "components": "V, S, M, F",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "modify-memory",
@@ -4070,7 +4378,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Permanente",
     "level": "Brd 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "moment-of-prescience",
@@ -4080,7 +4389,8 @@
     "range": "Personale",
     "duration": "1 oa/livello o finché non viene scaricato",
     "level": "Fortuna 8, Str/Mag 8",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "mount",
@@ -4093,7 +4403,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "2 oe/livello (C)",
     "level": "Str/Mag 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una mount"
   },
   {
     "slug": "move-earth",
@@ -4106,7 +4417,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Istantaneo",
     "level": "Drd 6, Str/Mag 6",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Dirt in an area fino a 225 m square e fino a 3 m deep (S)"
   },
   {
     "slug": "neutralize-poison",
@@ -4119,7 +4431,8 @@
     "range": "Contatto",
     "duration": "10 min./livello",
     "components": "V, S, M/FD",
-    "level": "Brd 4, Chr 4, Drd 3, Pal 4, Rgr 3"
+    "level": "Brd 4, Chr 4, Drd 3, Pal 4, Rgr 3",
+    "target_area_effect": "Creature o oggetto of fino a 1 cu. ft./livello touched"
   },
   {
     "slug": "nightmare",
@@ -4133,7 +4446,8 @@
     "range": "Illimitato",
     "duration": "Istantaneo",
     "level": "Brd 5, Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "nondetection",
@@ -4145,7 +4459,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello",
     "level": "Rgr 4, Str/Mag 3, Inganno 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creature o oggetto toccato"
   },
   {
     "slug": "obscure-object",
@@ -4157,7 +4472,8 @@
     "range": "Contatto",
     "duration": "8 oe (C)",
     "components": "V, S, M/FD",
-    "level": "Brd 1, Chr 3, Str/Mag 2"
+    "level": "Brd 1, Chr 3, Str/Mag 2",
+    "target_area_effect": "Una oggetto toccato of fino a 100 lb./livello"
   },
   {
     "slug": "obscuring-mist",
@@ -4170,7 +4486,8 @@
     "range": "6.0 m",
     "duration": "1 min./livello",
     "level": "Aria 1, Chr 1, Drd 1, Str/Mag 1, Acqua 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Nube si diffonde in 6 m radius from you, 6 m di altezza"
   },
   {
     "slug": "open-close",
@@ -4182,7 +4499,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Brd 0, Str/Mag 0",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Object weighing fino a 30 lb. o portal that can be opened o closed"
   },
   {
     "slug": "orders-wrath",
@@ -4195,7 +4513,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo (1 round); vedi testo",
     "level": "Legge 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Nonlawful creatura within a scoppio that fills a 9 m cubo"
   },
   {
     "slug": "overland-flight",
@@ -4204,7 +4523,8 @@
     "range": "Personale",
     "duration": "1 oa/livello",
     "level": "Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "owls-wisdom",
@@ -4216,14 +4536,16 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, M/FD",
-    "level": "Chr 2, Drd 2, Pal 2, Rgr 2, Str/Mag 2"
+    "level": "Chr 2, Drd 2, Pal 2, Rgr 2, Str/Mag 2",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "owls-wisdom-mass",
     "name": "Saggezza del Gufo di Massa",
     "school": "Trasmutazione",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
-    "level": "Chr 6, Drd 6, Str/Mag 6"
+    "level": "Chr 6, Drd 6, Str/Mag 6",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "pass-without-trace",
@@ -4235,7 +4557,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello (C)",
     "components": "V, S, FD",
-    "level": "Drd 1, Rgr 1"
+    "level": "Drd 1, Rgr 1",
+    "target_area_effect": "Una creatura/livello touched"
   },
   {
     "slug": "passwall",
@@ -4247,7 +4570,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello (C)",
     "level": "Str/Mag 5",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "1,5 m by 2,4 m opening, 3 m deep plus 1,5 m deep per three additional levels"
   },
   {
     "slug": "permanency",
@@ -4259,7 +4583,8 @@
     "range": "Vedi testo",
     "duration": "Permanente; vedi testo",
     "components": "V, S, PE",
-    "level": "Str/Mag 5"
+    "level": "Str/Mag 5",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "permanent-image",
@@ -4267,7 +4592,8 @@
     "school": "Illusione",
     "subschool": "Finzione",
     "duration": "Permanente (C)",
-    "level": "Brd 6, Str/Mag 6"
+    "level": "Brd 6, Str/Mag 6",
+    "target_area_effect": "Figment that cannot extend beyond a 6 m cubo + una 3 m cubo/livello (S)"
   },
   {
     "slug": "persistent-image",
@@ -4289,7 +4615,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "level": "Str/Mag 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "phantom-steed",
@@ -4302,7 +4629,8 @@
     "range": "0.0 m",
     "duration": "1 oa/livello (C)",
     "level": "Brd 3, Str/Mag 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una quasi-real, horselike creatura"
   },
   {
     "slug": "phantom-trap",
@@ -4315,7 +4643,8 @@
     "range": "Contatto",
     "duration": "Permanente (C)",
     "level": "Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Oggetto toccato"
   },
   {
     "slug": "phase-door",
@@ -4328,7 +4657,8 @@
     "range": "0.0 m",
     "duration": "Un usage ogni due livelli",
     "level": "Str/Mag 7, Viaggio 8",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Ethereal 1,5 m by 2,4 m opening, 3 m deep + 1,5 m deep per three levels"
   },
   {
     "slug": "planar-ally",
@@ -4336,7 +4666,8 @@
     "school": "Evocazione",
     "subschool": "Richiamo",
     "descriptor": "vedi testo",
-    "level": "Chr 6"
+    "level": "Chr 6",
+    "target_area_effect": "Una o two called elementals o outsiders, totaling no more than 12 HD, which cannot be\n      more than 9 m l'una dall'altra when they appear"
   },
   {
     "slug": "planar-ally-greater",
@@ -4344,7 +4675,8 @@
     "school": "Evocazione",
     "subschool": "Richiamo",
     "descriptor": "vedi testo",
-    "level": "Chr 8"
+    "level": "Chr 8",
+    "target_area_effect": "Fino a three called elementals o outsiders, totaling no more than 18 HD, no two of which\n      can be more than 9 m l'una dall'altra when they appear."
   },
   {
     "slug": "planar-ally-lesser",
@@ -4358,7 +4690,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "components": "V, S, FD, PE",
-    "level": "Chr 4"
+    "level": "Chr 4",
+    "target_area_effect": "Una called elemental o outsider of 6 HD o less"
   },
   {
     "slug": "planar-binding",
@@ -4367,7 +4700,8 @@
     "subschool": "Richiamo",
     "descriptor": "vedi testo",
     "level": "Str/Mag 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Fino a three elementals o outsiders, totaling no more than 12 HD, no two of which can be\n      more than 9 m l'una dall'altra when they appear"
   },
   {
     "slug": "planar-binding-greater",
@@ -4376,7 +4710,8 @@
     "subschool": "Richiamo",
     "descriptor": "vedi testo",
     "level": "Str/Mag 8",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Fino a three elementals o outsiders, totaling no more than 18 HD, no two of which can be\n      more than 9 m l'una dall'altra when they appear."
   },
   {
     "slug": "planar-binding-lesser",
@@ -4390,7 +4725,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli); vedi testo",
     "duration": "Istantaneo",
     "level": "Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una elemental o outsider with 6 HD o less"
   },
   {
     "slug": "plane-shift",
@@ -4403,7 +4739,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 5, Str/Mag 7",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Creature touched, o fino a eight creatura consenzientes joining hands"
   },
   {
     "slug": "plant-growth",
@@ -4415,7 +4752,8 @@
     "range": "Vedi testo",
     "duration": "Istantaneo",
     "components": "V, S, FD",
-    "level": "Drd 3, Pianta 3, Rgr 3"
+    "level": "Drd 3, Pianta 3, Rgr 3",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "poison",
@@ -4427,7 +4765,8 @@
     "range": "Contatto",
     "duration": "Istantaneo; vedi testo",
     "components": "V, S, FD",
-    "level": "Chr 4, Drd 3"
+    "level": "Chr 4, Drd 3",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "polar-ray",
@@ -4440,7 +4779,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Str/Mag 8",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Raggio"
   },
   {
     "slug": "polymorph",
@@ -4452,7 +4792,8 @@
     "range": "Contatto",
     "duration": "1 min./livello (C)",
     "level": "Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Willing living creatura toccata"
   },
   {
     "slug": "polymorph-any-object",
@@ -4464,7 +4805,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Vedi testo",
     "components": "V, S, M/FD",
-    "level": "Str/Mag 8, Inganno 8"
+    "level": "Str/Mag 8, Inganno 8",
+    "target_area_effect": "Una creatura, o una nonmagical oggetto of fino a 100 cu. ft./livello"
   },
   {
     "slug": "power-word-blind",
@@ -4478,7 +4820,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Vedi testo",
     "level": "Str/Mag 7, Guerra 7",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una creatura with 200 hp o less"
   },
   {
     "slug": "power-word-kill",
@@ -4492,7 +4835,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Str/Mag 9, Guerra 9",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una creatura vivente with 100 hp o less"
   },
   {
     "slug": "power-word-stun",
@@ -4506,7 +4850,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Vedi testo",
     "level": "Str/Mag 8, Guerra 8",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una creatura with 150 hp o less"
   },
   {
     "slug": "prayer",
@@ -4520,7 +4865,8 @@
     "range": "12.0 m",
     "duration": "1 round/livello",
     "components": "V, S, FD",
-    "level": "Chr 3, Pal 3"
+    "level": "Chr 3, Pal 3",
+    "target_area_effect": "All allies e foes within a 12 m scoppio con raggio centrata su di te"
   },
   {
     "slug": "prestidigitation",
@@ -4532,7 +4878,8 @@
     "range": "3.0 m",
     "duration": "1 ora",
     "level": "Brd 0, Str/Mag 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "prismatic-sphere",
@@ -4540,7 +4887,8 @@
     "school": "Abiurazione",
     "range": "3.0 m",
     "level": "Protezione 9, Str/Mag 9, Sole 9",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "3 m-radius sphere centrata su di te"
   },
   {
     "slug": "prismatic-spray",
@@ -4552,7 +4900,8 @@
     "range": "18.0 m",
     "duration": "Istantaneo",
     "level": "Str/Mag 7",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Scoppio a cono"
   },
   {
     "slug": "prismatic-wall",
@@ -4564,7 +4913,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "10 min./livello (C)",
     "level": "Str/Mag 8",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Muro 1,2 m/livello wide, 0,6 m/livello di altezza"
   },
   {
     "slug": "produce-flame",
@@ -4577,7 +4927,8 @@
     "range": "0.0 m",
     "duration": "1 min./livello (C)",
     "level": "Drd 1, Fuoco 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Fiamma nel tuo palmo"
   },
   {
     "slug": "programmed-image",
@@ -4585,7 +4936,8 @@
     "school": "Illusione",
     "subschool": "Finzione",
     "duration": "Permanente finché non viene attivato, poi 1 round/livello",
-    "level": "Brd 6, Str/Mag 6"
+    "level": "Brd 6, Str/Mag 6",
+    "target_area_effect": "Visual figment that cannot extend beyond a 6 m cubo + una 3 m cubo/livello (S)"
   },
   {
     "slug": "project-image",
@@ -4598,7 +4950,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello (C)",
     "level": "Brd 6, Str/Mag 7",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una shadow duplicate"
   },
   {
     "slug": "protection-from-arrows",
@@ -4610,7 +4963,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello o finché non viene scaricato",
     "level": "Str/Mag 2",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "protection-from-chaos",
@@ -4629,7 +4983,8 @@
     "range": "Contatto",
     "duration": "10 min./livello o finché non viene scaricato",
     "components": "V, S, FD",
-    "level": "Chr 3, Drd 3, Fortuna 3, Protezione 3, Rgr 2, Str/Mag 3"
+    "level": "Chr 3, Drd 3, Fortuna 3, Protezione 3, Rgr 2, Str/Mag 3",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "protection-from-evil",
@@ -4642,7 +4997,8 @@
     "range": "Contatto",
     "duration": "1 min./livello (C)",
     "components": "V, S, M/FD",
-    "level": "Chr 1, Bene 1, Pal 1, Str/Mag 1"
+    "level": "Chr 1, Bene 1, Pal 1, Str/Mag 1",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "protection-from-good",
@@ -4668,7 +5024,8 @@
     "range": "Contatto",
     "duration": "10 min./livello",
     "level": "Magia 8, Str/Mag 8",
-    "components": "V, S, M, F"
+    "components": "V, S, M, F",
+    "target_area_effect": "Fino a una creatura toccata per four levels"
   },
   {
     "slug": "prying-eyes",
@@ -4680,7 +5037,8 @@
     "range": "1,5 km",
     "duration": "1 oa/livello; vedi testo (C)",
     "level": "Str/Mag 5",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Ten o more levitating eyes"
   },
   {
     "slug": "prying-eyes-greater",
@@ -4698,7 +5056,8 @@
     "range": "3.0 m",
     "duration": "Istantaneo",
     "level": "Chr 0, Drd 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "1 cu. ft./livello of contaminated food e water"
   },
   {
     "slug": "pyrotechnics",
@@ -4710,7 +5069,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "1d4+1 rounds, o 1d4+1 rounds after creatures leave the smoke cloud; vedi testo",
     "level": "Brd 2, Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una fire source, fino a a 6 m cubo"
   },
   {
     "slug": "quench",
@@ -4722,7 +5082,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "components": "V, S, FD",
-    "level": "Drd 3"
+    "level": "Drd 3",
+    "target_area_effect": "Una 6 m cubo/livello (S) o una fire-based magic item"
   },
   {
     "slug": "rage",
@@ -4736,7 +5097,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Concentrazione + 1 round/livello (C)",
     "level": "Brd 2, Str/Mag 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una willing creatura vivente per three levels, no two of which may be more than 9 m\n      l'una dall'altra"
   },
   {
     "slug": "rainbow-pattern",
@@ -4750,7 +5112,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Concentrazione +1 round/ level (C)",
     "components": "V (solo Brd), S, M, F; vedi testo",
-    "level": "Brd 4, Str/Mag 4"
+    "level": "Brd 4, Str/Mag 4",
+    "target_area_effect": "Colorful lights with a 6 m diffusiuna con raggio"
   },
   {
     "slug": "raise-dead",
@@ -4763,7 +5126,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "components": "V, S, M, FD",
-    "level": "Chr 5"
+    "level": "Chr 5",
+    "target_area_effect": "Dead creatura toccata"
   },
   {
     "slug": "ray-of-enfeeblement",
@@ -4775,7 +5139,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello",
     "level": "Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Raggio"
   },
   {
     "slug": "ray-of-exhaustion",
@@ -4787,7 +5152,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello",
     "level": "Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Raggio"
   },
   {
     "slug": "ray-of-frost",
@@ -4800,7 +5166,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Str/Mag 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Raggio"
   },
   {
     "slug": "read-magic",
@@ -4810,7 +5177,8 @@
     "range": "Personale",
     "duration": "10 min./livello",
     "level": "Brd 0, Chr 0, Drd 0, Pal 1, Rgr 1, Str/Mag 0",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "reduce-animal",
@@ -4822,7 +5190,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello (C)",
     "level": "Drd 2, Rgr 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una willing animal of Small, Medium, Large, o Huge size"
   },
   {
     "slug": "reduce-person",
@@ -4834,13 +5203,15 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello (C)",
     "level": "Str/Mag 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura umanoide"
   },
   {
     "slug": "reduce-person-mass",
     "name": "Ridurre Persone di Massa",
     "school": "Trasmutazione",
-    "level": "Str/Mag 4"
+    "level": "Str/Mag 4",
+    "target_area_effect": "Una humanoid creatura/livello,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "refuge",
@@ -4853,7 +5224,8 @@
     "range": "Contatto",
     "duration": "Permanente finché non viene scaricato",
     "level": "Chr 7, Str/Mag 9",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Oggetto toccato"
   },
   {
     "slug": "regenerate",
@@ -4866,7 +5238,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "components": "V, S, FD",
-    "level": "Chr 7, Drd 9, Guarigione 7"
+    "level": "Chr 7, Drd 9, Guarigione 7",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "reincarnate",
@@ -4878,7 +5251,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "components": "V, S, M, FD",
-    "level": "Drd 4"
+    "level": "Drd 4",
+    "target_area_effect": "Dead creatura toccata"
   },
   {
     "slug": "remove-blindness-deafness",
@@ -4891,7 +5265,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 3, Pal 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "remove-curse",
@@ -4903,7 +5278,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Brd 3, Chr 3, Pal 3, Str/Mag 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creature o item touched"
   },
   {
     "slug": "remove-disease",
@@ -4916,7 +5292,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 3, Drd 3, Rgr 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "remove-fear",
@@ -4928,7 +5305,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "10 minuti; vedi testo",
     "level": "Brd 1, Chr 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura plus una additional creatura per four levels, no two of which can be more\n      than 9 m l'una dall'altra"
   },
   {
     "slug": "remove-paralysis",
@@ -4941,7 +5319,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Chr 2, Pal 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Fino a four creatura,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "repel-metal-or-stone",
@@ -4954,7 +5333,8 @@
     "range": "18.0 m",
     "duration": "1 round/livello (C)",
     "level": "Drd 8",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "18 m linea from you"
   },
   {
     "slug": "repel-vermin",
@@ -4966,7 +5346,8 @@
     "range": "3.0 m",
     "duration": "10 min./livello (C)",
     "components": "V, S, FD",
-    "level": "Brd 4, Chr 4, Drd 4, Rgr 3"
+    "level": "Brd 4, Chr 4, Drd 4, Rgr 3",
+    "target_area_effect": "3 m emanaziuna con raggio centrata su di te"
   },
   {
     "slug": "repel-wood",
@@ -4978,7 +5359,8 @@
     "range": "18.0 m",
     "duration": "1 min./livello (C)",
     "level": "Drd 6, Pianta 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "18 m linea-shaped emanaziuna from you"
   },
   {
     "slug": "repulsion",
@@ -4990,7 +5372,8 @@
     "range": "Fino a 3.0 m/livello",
     "duration": "1 round/livello (C)",
     "components": "V, S, F/FD",
-    "level": "Chr 7, Protezione 7, Str/Mag 6"
+    "level": "Chr 7, Protezione 7, Str/Mag 6",
+    "target_area_effect": "Fino a 3 m-radius/livello emanaziuna centrata su di te"
   },
   {
     "slug": "resilient-sphere",
@@ -5003,7 +5386,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello (C)",
     "level": "Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "1-ft.-diameter/livello sphere, centered around a creatura"
   },
   {
     "slug": "resist-energy",
@@ -5015,7 +5399,8 @@
     "range": "Contatto",
     "duration": "10 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 2, Drd 2, Fuoco 3, Pal 2, Rgr 1, Str/Mag 2"
+    "level": "Chr 2, Drd 2, Fuoco 3, Pal 2, Rgr 1, Str/Mag 2",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "resistance",
@@ -5027,7 +5412,8 @@
     "range": "Contatto",
     "duration": "1 minuto",
     "components": "V, S, M/FD",
-    "level": "Brd 0, Chr 0, Drd 0, Pal 1, Str/Mag 0"
+    "level": "Brd 0, Chr 0, Drd 0, Pal 1, Str/Mag 0",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "restoration",
@@ -5057,7 +5443,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 2, Drd 2, Pal 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "resurrection",
@@ -5077,7 +5464,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello (C)",
     "components": "V, S, M/FD",
-    "level": "Drd 8, Str/Mag 7"
+    "level": "Drd 8, Str/Mag 7",
+    "target_area_effect": "Fino a una 3 m cubo per two levels (S)"
   },
   {
     "slug": "righteous-might",
@@ -5087,7 +5475,8 @@
     "range": "Personale",
     "duration": "1 round/livello (C)",
     "components": "V, S, FD",
-    "level": "Chr 5, Forza 5"
+    "level": "Chr 5, Forza 5",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "rope-trick",
@@ -5099,7 +5488,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello (C)",
     "level": "Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una touched piece of rope from 1,5 m to 9 m di lunghezza"
   },
   {
     "slug": "rusting-grasp",
@@ -5111,7 +5501,8 @@
     "range": "Contatto",
     "duration": "Vedi testo",
     "components": "V, S, FD",
-    "level": "Drd 4"
+    "level": "Drd 4",
+    "target_area_effect": "Una nonmagical ferrous oggetto (or the volume of the oggetto within 0,9 m of the touched\n      point) o una ferrous creatura"
   },
   {
     "slug": "sanctuary",
@@ -5123,7 +5514,8 @@
     "range": "Contatto",
     "duration": "1 round/livello",
     "components": "V, S, FD",
-    "level": "Chr 1, Protezione 1"
+    "level": "Chr 1, Protezione 1",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "scare",
@@ -5136,7 +5528,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello o 1 round; vedi testo focause fear",
     "level": "Brd 2, Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura vivente per three levels,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "scintillating-pattern",
@@ -5150,7 +5543,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Concentrazione + 2 rounds",
     "level": "Str/Mag 8",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Colorful lights in a 6 m diffusiuna con raggio"
   },
   {
     "slug": "scorching-ray",
@@ -5163,7 +5557,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Str/Mag 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una o more rays"
   },
   {
     "slug": "screen",
@@ -5176,7 +5571,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "24 oe",
     "level": "Str/Mag 8, Inganno 7",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "9 m cubo/livello (S)"
   },
   {
     "slug": "scrying",
@@ -5189,7 +5585,8 @@
     "range": "Vedi testo",
     "duration": "1 min./livello",
     "components": "V, S, M/FD, F",
-    "level": "Brd 3, Chr 5, Drd 4, Str/Mag 4"
+    "level": "Brd 3, Chr 5, Drd 4, Str/Mag 4",
+    "target_area_effect": "Sensore magico"
   },
   {
     "slug": "scrying-greater",
@@ -5211,7 +5608,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa/livello (C)",
     "level": "Brd 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura od oggetto/livello, non più di 9 m l'uno dall'altro"
   },
   {
     "slug": "searing-light",
@@ -5223,7 +5621,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "level": "Chr 3, Sole 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Raggio"
   },
   {
     "slug": "secret-chest",
@@ -5236,7 +5635,8 @@
     "range": "Vedi testo",
     "duration": "Sixty gioni o finché non viene scaricato",
     "level": "Str/Mag 5",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una chest e fino a 1 cu. ft. of goods/livello dell'incantatore"
   },
   {
     "slug": "secret-page",
@@ -5248,7 +5648,8 @@
     "range": "Contatto",
     "duration": "Permanente",
     "level": "Brd 3, Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Page touched, fino a 3 sq. ft. in size"
   },
   {
     "slug": "secure-shelter",
@@ -5261,7 +5662,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "2 oe/livello (C)",
     "components": "V, S, M, F; vedi testo",
-    "level": "Brd 4, Str/Mag 4"
+    "level": "Brd 4, Str/Mag 4",
+    "target_area_effect": "6 m-square structure"
   },
   {
     "slug": "see-invisibility",
@@ -5271,7 +5673,8 @@
     "range": "Personale",
     "duration": "10 min./livello (C)",
     "level": "Brd 3, Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "seeming",
@@ -5284,7 +5687,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "12 oe (C)",
     "level": "Brd 5, Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura per two levels,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "sending",
@@ -5296,7 +5700,8 @@
     "range": "Vedi testo",
     "duration": "1 round; vedi testo",
     "components": "V, S, M/FD",
-    "level": "Chr 4, Str/Mag 5"
+    "level": "Chr 4, Str/Mag 5",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "sepia-snake-sigil",
@@ -5310,7 +5715,8 @@
     "range": "Contatto",
     "duration": "Permanente o finché non viene scaricato; until released o 1d4 gioni + one giono/livello; vedi testo",
     "level": "Brd 3, Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una touched book o written work"
   },
   {
     "slug": "sequester",
@@ -5322,7 +5728,8 @@
     "range": "Contatto",
     "duration": "Un giono/livello (C)",
     "level": "Str/Mag 7",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura consenziente o oggetto (fino a a 2-ft. cubo/livello) touched"
   },
   {
     "slug": "shades",
@@ -5342,7 +5749,8 @@
     "range": "Vedi testo",
     "duration": "Vedi testo",
     "level": "Brd 4, Str/Mag 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "shadow-conjuration-greater",
@@ -5362,7 +5770,8 @@
     "range": "Vedi testo",
     "duration": "Vedi testo",
     "level": "Brd 5, Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "shadow-evocation-greater",
@@ -5382,7 +5791,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello (C)",
     "level": "Brd 5, Str/Mag 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Fino a una touched creatura/ level"
   },
   {
     "slug": "shambler",
@@ -5395,7 +5805,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Seven gioni o seven months (C); vedi testo",
     "level": "Drd 9, Pianta 9",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Three o more shambling mounds,, non più di 9 m l'una dall'altra; vedi testo"
   },
   {
     "slug": "shapechange",
@@ -5405,7 +5816,8 @@
     "range": "Personale",
     "duration": "10 min./livello (C)",
     "level": "Animale 9, Drd 9, Str/Mag 9",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "shatter",
@@ -5418,7 +5830,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "components": "V, S, M/FD",
-    "level": "Brd 2, Caos 2, Chr 2, Distruzione 2, Str/Mag 2"
+    "level": "Brd 2, Caos 2, Chr 2, Distruzione 2, Str/Mag 2",
+    "target_area_effect": "1,5 m diffusiuna con raggio; o una solid oggetto o una crystallinea creatura"
   },
   {
     "slug": "shield",
@@ -5429,7 +5842,8 @@
     "range": "Personale",
     "duration": "1 min./livello (C)",
     "level": "Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "shield-of-faith",
@@ -5441,7 +5855,8 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "level": "Chr 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "shield-of-law",
@@ -5454,7 +5869,8 @@
     "range": "6.0 m",
     "duration": "1 round/livello (C)",
     "level": "Chr 8, Legge 8",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una creatura/livello in a 6 m scoppio con raggio centrata su di te"
   },
   {
     "slug": "shield-other",
@@ -5466,7 +5882,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa/livello (C)",
     "level": "Chr 2, Pal 2, Protezione 2",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "shillelagh",
@@ -5478,7 +5895,8 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Drd 1"
+    "level": "Drd 1",
+    "target_area_effect": "Una touched nonmagical oak club o quarterstaff"
   },
   {
     "slug": "shocking-grasp",
@@ -5491,7 +5909,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Str/Mag 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creature o oggetto toccato"
   },
   {
     "slug": "shout",
@@ -5504,7 +5923,8 @@
     "range": "9.0 m",
     "duration": "Istantaneo",
     "level": "Brd 4, Str/Mag 4",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Scoppio a cono"
   },
   {
     "slug": "shout-greater",
@@ -5526,7 +5946,8 @@
     "range": "Contatto",
     "duration": "Un giono/livello; vedi testo",
     "level": "Str/Mag 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Un oggetto toccato fino a 0,06 m³/livello"
   },
   {
     "slug": "silence",
@@ -5539,7 +5960,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "1 min./livello (C)",
     "level": "Brd 2, Chr 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "6 m emanaziuna con raggio centrata su una creatura, oggetto, o point in space"
   },
   {
     "slug": "silent-image",
@@ -5552,7 +5974,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Concentrazione",
     "level": "Brd 1, Str/Mag 1",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Visual figment that cannot extend beyond four 3 m cubos + una 3 m cubo/livello (S)"
   },
   {
     "slug": "simulacrum",
@@ -5565,7 +5988,8 @@
     "range": "0.0 m",
     "duration": "Istantaneo",
     "components": "V, S, M, PE",
-    "level": "Str/Mag 7"
+    "level": "Str/Mag 7",
+    "target_area_effect": "Una duplicate creatura"
   },
   {
     "slug": "slay-living",
@@ -5578,7 +6002,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 5, Morte 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "sleep",
@@ -5592,7 +6017,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 min./livello",
     "level": "Brd 1, Str/Mag 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una o più creature viventi entro scoppio con raggio di 3 m"
   },
   {
     "slug": "sleet-storm",
@@ -5606,7 +6032,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "1 round/livello",
     "components": "V, S, M/FD",
-    "level": "Drd 3, Str/Mag 3"
+    "level": "Drd 3, Str/Mag 3",
+    "target_area_effect": "Cylinder (12 m radius, 6 m di altezza)"
   },
   {
     "slug": "slow",
@@ -5618,7 +6045,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello",
     "level": "Brd 3, Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "snare",
@@ -5630,7 +6058,8 @@
     "range": "Contatto",
     "duration": "Until triggered o broken",
     "components": "V, S, FD",
-    "level": "Rgr 2, Drd 3"
+    "level": "Rgr 2, Drd 3",
+    "target_area_effect": "Touched nonmagical circle of vine, rope, o thong with a 0,6 m diameter + 0,6 m/livello"
   },
   {
     "slug": "soften-earth-and-stone",
@@ -5643,7 +6072,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "components": "V, S, FD",
-    "level": "Drd 2, Terra 2"
+    "level": "Drd 2, Terra 2",
+    "target_area_effect": "3 m square/livello; vedi testo"
   },
   {
     "slug": "solid-fog",
@@ -5667,7 +6097,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello",
     "level": "Brd 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatures within a 6 m diffusiuna con raggio"
   },
   {
     "slug": "soul-bind",
@@ -5679,7 +6110,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Permanente",
     "level": "Chr 9, Str/Mag 9",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Cadavere"
   },
   {
     "slug": "sound-burst",
@@ -5692,7 +6124,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "components": "V, S, F/FD",
-    "level": "Brd 2, Chr 2"
+    "level": "Brd 2, Chr 2",
+    "target_area_effect": "3 m diffusiuna con raggio"
   },
   {
     "slug": "speak-with-animals",
@@ -5702,7 +6135,8 @@
     "range": "Personale",
     "duration": "1 min./livello",
     "level": "Brd 3, Drd 1, Rgr 1",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "speak-with-dead",
@@ -5715,7 +6149,8 @@
     "range": "3.0 m",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 3"
+    "level": "Chr 3",
+    "target_area_effect": "Una dead creatura"
   },
   {
     "slug": "speak-with-plants",
@@ -5725,7 +6160,8 @@
     "range": "Personale",
     "duration": "1 min./livello",
     "level": "Brd 4, Drd 3, Rgr 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "spectral-hand",
@@ -5737,7 +6173,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 min./livello (C)",
     "level": "Str/Mag 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una spectral hand"
   },
   {
     "slug": "spell-immunity",
@@ -5749,7 +6186,8 @@
     "range": "Contatto",
     "duration": "10 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 4, Protezione 4, Forza 4"
+    "level": "Chr 4, Protezione 4, Forza 4",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "spell-immunity-greater",
@@ -5767,7 +6205,8 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 5, Magia 5, Protezione 5"
+    "level": "Chr 5, Magia 5, Protezione 5",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "spell-turning",
@@ -5777,7 +6216,8 @@
     "range": "Personale",
     "duration": "Until expended o 10 min./livello",
     "components": "V, S, M/FD",
-    "level": "Fortuna 7, Magia 7, Str/Mag 7"
+    "level": "Fortuna 7, Magia 7, Str/Mag 7",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "spellstaff",
@@ -5789,7 +6229,8 @@
     "range": "Contatto",
     "duration": "Permanente finché non viene scaricato (C)",
     "level": "Drd 6",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Bastone di legno toccato"
   },
   {
     "slug": "spider-climb",
@@ -5801,7 +6242,8 @@
     "range": "Contatto",
     "duration": "10 min./livello",
     "level": "Drd 2, Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "spike-growth",
@@ -5813,7 +6255,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 oa/livello (C)",
     "components": "V, S, FD",
-    "level": "Drd 3, Rgr 2"
+    "level": "Drd 3, Rgr 2",
+    "target_area_effect": "Una 6 m square/livello"
   },
   {
     "slug": "spike-stones",
@@ -5826,7 +6269,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 oa/livello (C)",
     "components": "V, S, FD",
-    "level": "Drd 4, Terra 4"
+    "level": "Drd 4, Terra 4",
+    "target_area_effect": "Una 6 m square/livello"
   },
   {
     "slug": "spiritual-weapon",
@@ -5839,7 +6283,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello (C)",
     "components": "V, S, FD",
-    "level": "Chr 2, Guerra 2"
+    "level": "Chr 2, Guerra 2",
+    "target_area_effect": "Arma magica di forza"
   },
   {
     "slug": "statue",
@@ -5851,7 +6296,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello (C)",
     "level": "Str/Mag 7",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "status",
@@ -5863,7 +6309,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello",
     "level": "Chr 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una living creatura toccata per three levels"
   },
   {
     "slug": "stinking-cloud",
@@ -5876,7 +6323,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello",
     "level": "Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Nube si diffonde in 6 m radius, 6 m di altezza"
   },
   {
     "slug": "stone-shape",
@@ -5889,7 +6337,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "components": "V, S, M/FD",
-    "level": "Chr 3, Drd 3, Terra 3, Str/Mag 4"
+    "level": "Chr 3, Drd 3, Terra 3, Str/Mag 4",
+    "target_area_effect": "Stuna o stuna oggetto toccato, fino a 10 cu. ft. + 1 cu. ft./livello"
   },
   {
     "slug": "stone-tell",
@@ -5899,7 +6348,8 @@
     "range": "Personale",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Drd 6"
+    "level": "Drd 6",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "stone-to-flesh",
@@ -5911,7 +6361,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "level": "Str/Mag 6",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una petrified creatura o a cilindro of stuna from 0,3 m to 0,9 m in diameter e fino a\n      3 m di lunghezza"
   },
   {
     "slug": "stoneskin",
@@ -5923,7 +6374,8 @@
     "range": "Contatto",
     "duration": "10 min./livello o finché non viene scaricato",
     "level": "Drd 5, Terra 6, Str/Mag 4, Forza 6",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "storm-of-vengeance",
@@ -5936,7 +6388,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Concentrazione (massimo 10 rounds) (C)",
     "level": "Drd 9, Chr 9",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "318 m-radius storm cloud"
   },
   {
     "slug": "suggestion",
@@ -5950,7 +6403,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa/livello o fino al completamento",
     "level": "Brd 2, Str/Mag 3",
-    "components": "V, M"
+    "components": "V, M",
+    "target_area_effect": "Una creatura vivente"
   },
   {
     "slug": "suggestion-mass",
@@ -5959,7 +6413,8 @@
     "subschool": "Compulsione",
     "descriptor": "Linguaggio-Dipendente, Influenza Mentale",
     "range": "Medio (30 m + 3 m/livello)",
-    "level": "Brd 5, Str/Mag 6"
+    "level": "Brd 5, Str/Mag 6",
+    "target_area_effect": "Una creatura/livello, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-instrument",
@@ -5972,7 +6427,8 @@
     "range": "0.0 m",
     "duration": "1 min./livello (C)",
     "level": "Brd 0",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una summunad handheld musical instrument"
   },
   {
     "slug": "summon-monster-i",
@@ -5986,7 +6442,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello (C)",
     "components": "V, S, F/FD",
-    "level": "Brd 1, Chr 1, Str/Mag 1"
+    "level": "Brd 1, Chr 1, Str/Mag 1",
+    "target_area_effect": "Una summunad creatura"
   },
   {
     "slug": "summon-monster-ii",
@@ -5994,7 +6451,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Brd 2, Chr 2, Str/Mag 2"
+    "level": "Brd 2, Chr 2, Str/Mag 2",
+    "target_area_effect": "Una o più creature evocate, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-monster-iii",
@@ -6002,7 +6460,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Brd 3, Chr 3, Str/Mag 3"
+    "level": "Brd 3, Chr 3, Str/Mag 3",
+    "target_area_effect": "Una o più creature evocate, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-monster-iv",
@@ -6010,7 +6469,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Brd 4, Chr 4, Str/Mag 4"
+    "level": "Brd 4, Chr 4, Str/Mag 4",
+    "target_area_effect": "Una o più creature evocate, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-monster-ix",
@@ -6026,7 +6486,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Brd 5, Chr 5, Str/Mag 5"
+    "level": "Brd 5, Chr 5, Str/Mag 5",
+    "target_area_effect": "Una o più creature evocate, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-monster-vi",
@@ -6034,7 +6495,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Brd 6, Chr 6, Str/Mag 6"
+    "level": "Brd 6, Chr 6, Str/Mag 6",
+    "target_area_effect": "Una o più creature evocate, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-monster-vii",
@@ -6063,14 +6525,16 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round/livello (C)",
     "components": "V, S, FD",
-    "level": "Drd 1, Rgr 1"
+    "level": "Drd 1, Rgr 1",
+    "target_area_effect": "Una summunad creatura"
   },
   {
     "slug": "summon-natures-ally-ii",
     "name": "Evocare Alleato Naturale II",
     "school": "Evocazione",
     "subschool": "Convocazione",
-    "level": "Drd 2, Rgr 2"
+    "level": "Drd 2, Rgr 2",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-natures-ally-iii",
@@ -6078,7 +6542,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Drd 3, Rgr 3"
+    "level": "Drd 3, Rgr 3",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-natures-ally-iv",
@@ -6086,7 +6551,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Animale 4, Drd 4, Rgr 4"
+    "level": "Animale 4, Drd 4, Rgr 4",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-natures-ally-ix",
@@ -6094,7 +6560,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Drd 9"
+    "level": "Drd 9",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-natures-ally-v",
@@ -6102,7 +6569,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Drd 5"
+    "level": "Drd 5",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-natures-ally-vi",
@@ -6110,7 +6578,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Drd 6"
+    "level": "Drd 6",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-natures-ally-vii",
@@ -6118,7 +6587,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Drd 7"
+    "level": "Drd 7",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-natures-ally-viii",
@@ -6126,7 +6596,8 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "descriptor": "vedi testo",
-    "level": "Animale 8, Drd 8"
+    "level": "Animale 8, Drd 8",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "summon-swarm",
@@ -6139,7 +6610,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Concentrazione + 2 rounds",
     "components": "V, S, M/FD",
-    "level": "Brd 2, Drd 2, Str/Mag 2"
+    "level": "Brd 2, Drd 2, Str/Mag 2",
+    "target_area_effect": "Una swarm of bats, rats, o spiders"
   },
   {
     "slug": "sunbeam",
@@ -6152,7 +6624,8 @@
     "range": "18.0 m",
     "duration": "1 round/livello o until all beams are exhausted",
     "components": "V, S, FD",
-    "level": "Drd 7, Sole 7"
+    "level": "Drd 7, Sole 7",
+    "target_area_effect": "Linea from your hand"
   },
   {
     "slug": "sunburst",
@@ -6165,7 +6638,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Istantaneo",
     "components": "V, S, M/FD",
-    "level": "Drd 8, Str/Mag 8, Sole 8"
+    "level": "Drd 8, Str/Mag 8, Sole 8",
+    "target_area_effect": "24 m scoppio con raggio"
   },
   {
     "slug": "symbol-of-death",
@@ -6178,7 +6652,8 @@
     "range": "0.0 m; vedi testo",
     "duration": "Vedi testo",
     "level": "Chr 8, Str/Mag 8",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una symbol"
   },
   {
     "slug": "symbol-of-fear",
@@ -6248,7 +6723,8 @@
     "range": "Contatto",
     "duration": "Up to 1 round/livello",
     "level": "Brd 6",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una freestanding structure"
   },
   {
     "slug": "sympathy",
@@ -6262,7 +6738,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "2 oe/livello (C)",
     "level": "Drd 9, Str/Mag 8",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una location (fino a a 3 m cubo/livello) o una oggetto"
   },
   {
     "slug": "telekinesis",
@@ -6274,7 +6751,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Concentrazione (fino a 1 round/ level) o instantaneous; vedi testo",
     "level": "Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "telekinetic-sphere",
@@ -6287,7 +6765,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello (C)",
     "level": "Str/Mag 8",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "1-ft.-diameter/livello sphere, centered around creatura o oggetti"
   },
   {
     "slug": "telepathic-bond",
@@ -6299,7 +6778,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "10 min./livello (C)",
     "level": "Str/Mag 5",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "You plus una creatura consenziente per three levels,, non più di 9 m\n      l'una dall'altra"
   },
   {
     "slug": "teleport",
@@ -6312,7 +6792,8 @@
     "range": "Personale e contatto",
     "duration": "Istantaneo",
     "level": "Str/Mag 5, Viaggio 5",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Te stesso e oggetti toccati o altre creature consenzienti toccate"
   },
   {
     "slug": "teleport-greater",
@@ -6329,7 +6810,8 @@
     "spell_resistance": "Sì (oggetto)",
     "saving_throw": "Volontà nega (oggetto)",
     "range": "Contatto",
-    "level": "Str/Mag 7"
+    "level": "Str/Mag 7",
+    "target_area_effect": "Una touched oggetto of fino a 50 lb./livello e 3 cu. ft./livello"
   },
   {
     "slug": "teleportation-circle",
@@ -6342,7 +6824,8 @@
     "range": "0.0 m",
     "duration": "10 min./livello (C)",
     "level": "Str/Mag 9",
-    "components": "V, M"
+    "components": "V, M",
+    "target_area_effect": "1,5 m-radius circle that teleports those who activate it"
   },
   {
     "slug": "temporal-stasis",
@@ -6354,7 +6837,8 @@
     "range": "Contatto",
     "duration": "Permanente",
     "level": "Str/Mag 8",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "time-stop",
@@ -6364,7 +6848,8 @@
     "range": "Personale",
     "duration": "1d4+1 rounds (apparent time); vedi testo",
     "level": "Str/Mag 9, Inganno 9",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "tiny-hut",
@@ -6377,7 +6862,8 @@
     "range": "6.0 m",
     "duration": "2 oe/livello (C)",
     "level": "Brd 3, Str/Mag 3",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "6 m-radius sphere centrata su di ter location"
   },
   {
     "slug": "tongues",
@@ -6389,7 +6875,8 @@
     "range": "Contatto",
     "duration": "10 min./livello",
     "components": "V, M/FD",
-    "level": "Brd 2, Chr 4, Str/Mag 3"
+    "level": "Brd 2, Chr 4, Str/Mag 3",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "touch-of-fatigue",
@@ -6401,7 +6888,8 @@
     "range": "Contatto",
     "duration": "1 round/livello",
     "level": "Str/Mag 0",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "touch-of-idiocy",
@@ -6415,7 +6903,8 @@
     "range": "Contatto",
     "duration": "10 min./livello",
     "level": "Str/Mag 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "transformation",
@@ -6425,7 +6914,8 @@
     "range": "Personale",
     "duration": "1 round/livello",
     "level": "Str/Mag 6",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "transmute-metal-to-wood",
@@ -6437,7 +6927,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Istantaneo",
     "components": "V, S, FD",
-    "level": "Drd 7"
+    "level": "Drd 7",
+    "target_area_effect": "All metal oggetti within a 12 m scoppio con raggio"
   },
   {
     "slug": "transmute-mud-to-rock",
@@ -6450,7 +6941,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Permanente",
     "components": "V, S, M/FD",
-    "level": "Drd 5, Str/Mag 5"
+    "level": "Drd 5, Str/Mag 5",
+    "target_area_effect": "Fino a two 3 m cubos/livello (S)"
   },
   {
     "slug": "transmute-rock-to-mud",
@@ -6463,7 +6955,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Permanente; vedi testo",
     "components": "V, S, M/FD",
-    "level": "Drd 5, Str/Mag 5"
+    "level": "Drd 5, Str/Mag 5",
+    "target_area_effect": "Fino a two 3 m cubos/livello (S)"
   },
   {
     "slug": "transport-via-plants",
@@ -6476,7 +6969,8 @@
     "range": "Illimitato",
     "duration": "1 round",
     "level": "Drd 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Te stesso e oggetti toccati o altre creature consenzienti toccate"
   },
   {
     "slug": "trap-the-soul",
@@ -6489,7 +6983,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Permanente; vedi testo",
     "components": "V, S, M, (F); vedi testo",
-    "level": "Str/Mag 8"
+    "level": "Str/Mag 8",
+    "target_area_effect": "Una creatura"
   },
   {
     "slug": "tree-shape",
@@ -6499,7 +6994,8 @@
     "range": "Personale",
     "duration": "1 oa/livello (C)",
     "components": "V, S, FD",
-    "level": "Drd 2, Rgr 3"
+    "level": "Drd 2, Rgr 3",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "tree-stride",
@@ -6510,7 +7006,8 @@
     "range": "Personale",
     "duration": "1 oa/livello o until expended; vedi testo",
     "components": "V, S, FD",
-    "level": "Drd 5, Rgr 4"
+    "level": "Drd 5, Rgr 4",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "true-resurrection",
@@ -6530,7 +7027,8 @@
     "range": "Contatto",
     "duration": "1 min./livello",
     "level": "Chr 5, Drd 7, Conoscenza 5, Str/Mag 6",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "true-strike",
@@ -6540,7 +7038,8 @@
     "range": "Personale",
     "duration": "Vedi testo",
     "level": "Str/Mag 1",
-    "components": "V, F"
+    "components": "V, F",
+    "target_area_effect": "Te stesso"
   },
   {
     "slug": "undeath-to-death",
@@ -6548,7 +7047,8 @@
     "school": "Necromanzia",
     "saving_throw": "Volontà nega",
     "components": "V, S, M/FD",
-    "level": "Chr 6, Str/Mag 6"
+    "level": "Chr 6, Str/Mag 6",
+    "target_area_effect": "Several undead creatura within a 12 m scoppio con raggio"
   },
   {
     "slug": "undetectable-alignment",
@@ -6560,7 +7060,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "24 oe",
     "level": "Brd 1, Chr 2, Pal 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una creatura od oggetto"
   },
   {
     "slug": "unhallow",
@@ -6573,7 +7074,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "level": "Chr 5, Drd 5",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "12 m radius emanating from the touched point"
   },
   {
     "slug": "unholy-aura",
@@ -6586,7 +7088,8 @@
     "range": "6.0 m",
     "duration": "1 round/livello (C)",
     "level": "Chr 8, Male 8",
-    "components": "V, S, F"
+    "components": "V, S, F",
+    "target_area_effect": "Una creatura/livello in a 6 m scoppio con raggio centrata su di te"
   },
   {
     "slug": "unholy-blight",
@@ -6599,7 +7102,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo (1d4 rounds); vedi testo",
     "level": "Male 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "6 m diffusiuna con raggio"
   },
   {
     "slug": "unseen-servant",
@@ -6612,7 +7116,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 oa/livello",
     "level": "Brd 1, Str/Mag 1",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Una invisible, mindless, shapeless servant"
   },
   {
     "slug": "vampiric-touch",
@@ -6624,7 +7129,8 @@
     "range": "Contatto",
     "duration": "Istantaneo/1 oa; vedi testo",
     "level": "Str/Mag 3",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Creatura vivente toccata"
   },
   {
     "slug": "veil",
@@ -6637,7 +7143,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "Concentrazione + 1 oa/livello (C)",
     "level": "Brd 6, Str/Mag 6",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Una o più creature, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "ventriloquism",
@@ -6650,7 +7157,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello (C)",
     "level": "Brd 1, Str/Mag 1",
-    "components": "V, F"
+    "components": "V, F",
+    "target_area_effect": "Suono intelligibile, solitamente parlato"
   },
   {
     "slug": "virtue",
@@ -6662,7 +7170,8 @@
     "range": "Contatto",
     "duration": "1 min.",
     "components": "V, S, FD",
-    "level": "Chr 0, Drd 0, Pal 1"
+    "level": "Chr 0, Drd 0, Pal 1",
+    "target_area_effect": "Creatura toccata"
   },
   {
     "slug": "vision",
@@ -6683,7 +7192,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Morte 9, Str/Mag 9",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Una creatura vivente/livello within a 12 m diffusiuna con raggio"
   },
   {
     "slug": "wall-of-fire",
@@ -6696,7 +7206,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Concentrazione + 1 round/livello",
     "components": "V, S, M/FD",
-    "level": "Drd 5, Fuoco 4, Str/Mag 4"
+    "level": "Drd 5, Fuoco 4, Str/Mag 4",
+    "target_area_effect": "Opaque sheet of flame fino a 6 m di lunghezza/livello o a ring of fire with a radius of fino a 1,5 m per two levels; either form 6 m di altezza"
   },
   {
     "slug": "wall-of-force",
@@ -6709,7 +7220,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 round /livello (C)",
     "level": "Str/Mag 5",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Muro whose area is fino a una 3 m square/livello"
   },
   {
     "slug": "wall-of-ice",
@@ -6722,7 +7234,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 min./livello",
     "level": "Str/Mag 4",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Anchored plane of ice, fino a una 3 m square/livello, o hemisphere of ice with a radius\n      of fino a 0,9 m + 0,3 m/livello"
   },
   {
     "slug": "wall-of-iron",
@@ -6735,7 +7248,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "level": "Str/Mag 6",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Iron muro whose area is fino a una 1,5 m square/livello; vedi testo"
   },
   {
     "slug": "wall-of-stone",
@@ -6749,7 +7263,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "Istantaneo",
     "components": "V, S, M/FD",
-    "level": "Chr 5, Drd 6, Terra 5, Str/Mag 5"
+    "level": "Chr 5, Drd 6, Terra 5, Str/Mag 5",
+    "target_area_effect": "Stuna muro whose area is fino a una 1,5 m square/livello (S)"
   },
   {
     "slug": "wall-of-thorns",
@@ -6762,7 +7277,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "10 min./livello (C)",
     "level": "Drd 5, Pianta 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Muro of thorny brush, fino a una 3 m cubo/livello (S)"
   },
   {
     "slug": "warp-wood",
@@ -6774,7 +7290,8 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "Istantaneo",
     "level": "Drd 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "1 Small wooden oggetto/livello, all within a 6 m radius"
   },
   {
     "slug": "water-breathing",
@@ -6786,7 +7303,8 @@
     "range": "Contatto",
     "duration": "2 oe/livello; vedi testo",
     "components": "V, S, M/FD",
-    "level": "Chr 3, Drd 3, Str/Mag 3, Acqua 3"
+    "level": "Chr 3, Drd 3, Str/Mag 3, Acqua 3",
+    "target_area_effect": "Living creatura touched"
   },
   {
     "slug": "water-walk",
@@ -6799,7 +7317,8 @@
     "range": "Contatto",
     "duration": "10 min./livello (C)",
     "components": "V, S, FD",
-    "level": "Chr 3, Rgr 3"
+    "level": "Chr 3, Rgr 3",
+    "target_area_effect": "Una touched creatura/livello"
   },
   {
     "slug": "waves-of-exhaustion",
@@ -6811,7 +7330,8 @@
     "range": "18.0 m",
     "duration": "Istantaneo",
     "level": "Str/Mag 7",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Scoppio a cono"
   },
   {
     "slug": "waves-of-fatigue",
@@ -6823,7 +7343,8 @@
     "range": "9.0 m",
     "duration": "Istantaneo",
     "level": "Str/Mag 5",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "Scoppio a cono"
   },
   {
     "slug": "web",
@@ -6836,7 +7357,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "10 min./livello (C)",
     "level": "Str/Mag 2",
-    "components": "V, S, M"
+    "components": "V, S, M",
+    "target_area_effect": "Webs in a 6 m diffusiuna con raggio"
   },
   {
     "slug": "weird",
@@ -6844,7 +7366,8 @@
     "school": "Illusione",
     "subschool": "Fantasma",
     "descriptor": "Paura, Influenza Mentale",
-    "level": "Str/Mag 9"
+    "level": "Str/Mag 9",
+    "target_area_effect": "Any number of creatura,, non più di 9 m l'una dall'altra"
   },
   {
     "slug": "whirlwind",
@@ -6857,7 +7380,8 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "duration": "1 round/livello (C)",
     "components": "V, S, FD",
-    "level": "Aria 8, Drd 8"
+    "level": "Aria 8, Drd 8",
+    "target_area_effect": "Cycluna 3 m wide at base, 9 m wide at top, e 9 m tall"
   },
   {
     "slug": "whispering-wind",
@@ -6870,7 +7394,8 @@
     "range": "1 miglia/livello",
     "duration": "No moe than 1 oa/livello o finché non viene scaricato (destination is reached)",
     "level": "Brd 2, Str/Mag 2",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "3 m diffusiuna con raggio"
   },
   {
     "slug": "wind-walk",
@@ -6883,7 +7408,8 @@
     "range": "Contatto",
     "duration": "1 oa/livello (C); vedi testo",
     "components": "V, S, FD",
-    "level": "Chr 6, Drd 7"
+    "level": "Chr 6, Drd 7",
+    "target_area_effect": "You e una touched creatura per three levels"
   },
   {
     "slug": "wind-wall",
@@ -6896,7 +7422,8 @@
     "range": "Medio (30 m + 3 m/livello)",
     "duration": "1 round/livello",
     "components": "V, S, M/FD",
-    "level": "Aria 2, Chr 3, Drd 3, Rgr 2, Str/Mag 3"
+    "level": "Aria 2, Chr 3, Drd 3, Rgr 2, Str/Mag 3",
+    "target_area_effect": "Muro fino a 3 m/livello di lunghezza e 1,5 m/livello di altezza (S)"
   },
   {
     "slug": "wish",
@@ -6908,7 +7435,8 @@
     "range": "Vedi testo",
     "duration": "Vedi testo",
     "components": "V, PE",
-    "level": "Str/Mag 9"
+    "level": "Str/Mag 9",
+    "target_area_effect": "Vedi testo"
   },
   {
     "slug": "wood-shape",
@@ -6920,7 +7448,8 @@
     "range": "Contatto",
     "duration": "Istantaneo",
     "components": "V, S, FD",
-    "level": "Drd 2"
+    "level": "Drd 2",
+    "target_area_effect": "Una touched piece of wood no larger than 10 cu. ft. + 1 cu. ft./livello"
   },
   {
     "slug": "word-of-chaos",
@@ -6933,7 +7462,8 @@
     "range": "12.0 m",
     "duration": "Istantaneo",
     "level": "Caos 7, Chr 7",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "Nonchaotic creatura in a 12 m- diffusiuna con raggio centrata su di te"
   },
   {
     "slug": "word-of-recall",
@@ -6946,7 +7476,8 @@
     "range": "Illimitato",
     "duration": "Istantaneo",
     "level": "Chr 6, Drd 8",
-    "components": "V"
+    "components": "V",
+    "target_area_effect": "You e touched oggetti o other creatura consenzientes"
   },
   {
     "slug": "zone-of-silence",
@@ -6957,7 +7488,8 @@
     "range": "Personale",
     "duration": "1 oa/livello (C)",
     "level": "Brd 4",
-    "components": "V, S"
+    "components": "V, S",
+    "target_area_effect": "1,5 m emanaziuna con raggio centrata su di te"
   },
   {
     "slug": "zone-of-truth",
@@ -6971,6 +7503,7 @@
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "duration": "1 min./livello",
     "components": "V, S, FD",
-    "level": "Chr 2, Pal 2"
+    "level": "Chr 2, Pal 2",
+    "target_area_effect": "6 m emanaziuna con raggio"
   }
 ]

@@ -12,6 +12,12 @@ let dataCache = {};
 let debounceTimer = null;
 let sourcesData = null;
 
+// Known spellcasting class abbreviations (EN + IT)
+const SPELL_CLASSES = new Set([
+  'Brd', 'Clr', 'Drd', 'Pal', 'Rgr', 'Sor/Wiz', 'Sor', 'Wiz',
+  'Chr', 'Str/Mag', 'Str', 'Mag',
+]);
+
 // ── Prepared spells (localStorage) ───────────────────────────────────────
 
 const PREPARED_KEY = 'crystalball_prepared';
@@ -176,6 +182,7 @@ function buildFilters() {
     filtersDiv.innerHTML = `
       <select id="filter-school"><option value="">${t('filter.all_schools')}</option></select>
       <select id="filter-class"><option value="">${t('filter.all_classes')}</option></select>
+      <select id="filter-domain"><option value="">${t('filter.all_domains')}</option></select>
       <div class="level-checkboxes" id="filter-levels">
         <span class="level-label">${t('filter.level_label')}</span>
         ${[0,1,2,3,4,5,6,7,8,9].map((n) =>
@@ -188,7 +195,18 @@ function buildFilters() {
     `;
     populateSpellFilters();
     filtersDiv.querySelector('#filter-school').addEventListener('change', renderResults);
-    filtersDiv.querySelector('#filter-class').addEventListener('change', renderResults);
+    filtersDiv.querySelector('#filter-class').addEventListener('change', () => {
+      if (document.getElementById('filter-class').value) {
+        document.getElementById('filter-domain').value = '';
+      }
+      renderResults();
+    });
+    filtersDiv.querySelector('#filter-domain').addEventListener('change', () => {
+      if (document.getElementById('filter-domain').value) {
+        document.getElementById('filter-class').value = '';
+      }
+      renderResults();
+    });
     filtersDiv.querySelectorAll('#filter-levels input').forEach((cb) =>
       cb.addEventListener('change', renderResults)
     );
@@ -251,14 +269,27 @@ async function populateSpellFilters() {
     schoolSel.innerHTML += `<option value="${esc(s)}">${esc(s)}</option>`;
   });
 
-  // Classes/domains
-  const classes = new Set();
+  // Split classes and domains
+  const classSet = new Set();
+  const domainSet = new Set();
   data.forEach((s) => {
-    parseSpellLevels(s.level).forEach((l) => classes.add(l.cls));
+    parseSpellLevels(s.level).forEach((l) => {
+      if (SPELL_CLASSES.has(l.cls)) {
+        classSet.add(l.cls);
+      } else {
+        domainSet.add(l.cls);
+      }
+    });
   });
+
   const classSel = document.getElementById('filter-class');
-  [...classes].sort().forEach((c) => {
+  [...classSet].sort().forEach((c) => {
     classSel.innerHTML += `<option value="${esc(c)}">${esc(c)}</option>`;
+  });
+
+  const domainSel = document.getElementById('filter-domain');
+  [...domainSet].sort().forEach((d) => {
+    domainSel.innerHTML += `<option value="${esc(d)}">${esc(d)}</option>`;
   });
 }
 
@@ -351,6 +382,8 @@ async function renderResults() {
   if (currentTab === 'spells') {
     const school = document.getElementById('filter-school')?.value;
     const cls = document.getElementById('filter-class')?.value;
+    const domain = document.getElementById('filter-domain')?.value;
+    const filterCls = cls || domain; // use whichever is set (mutually exclusive)
     const levels = getSelectedLevels();
 
     if (school) filtered = filtered.filter((s) => s.school === school);
@@ -359,20 +392,20 @@ async function renderResults() {
     filtered = filtered.filter((s) => {
       const parsed = parseSpellLevels(s.level);
       if (parsed.length === 0) return levels.size === 10; // show unknown-level if all selected
-      if (cls) {
-        // Must have this class AND level in selected set
-        return parsed.some((l) => l.cls === cls && levels.has(l.lvl));
+      if (filterCls) {
+        // Must have this class/domain AND level in selected set
+        return parsed.some((l) => l.cls === filterCls && levels.has(l.lvl));
       }
       // Any class at a selected level
       return parsed.some((l) => levels.has(l.lvl));
     });
 
-    // Sort by level (lowest first within the selected class)
+    // Sort by level (lowest first within the selected class/domain)
     filtered.sort((a, b) => {
       const aLevels = parseSpellLevels(a.level);
       const bLevels = parseSpellLevels(b.level);
-      const aMin = Math.min(...aLevels.map((l) => cls ? (l.cls === cls ? l.lvl : 99) : l.lvl));
-      const bMin = Math.min(...bLevels.map((l) => cls ? (l.cls === cls ? l.lvl : 99) : l.lvl));
+      const aMin = Math.min(...aLevels.map((l) => filterCls ? (l.cls === filterCls ? l.lvl : 99) : l.lvl));
+      const bMin = Math.min(...bLevels.map((l) => filterCls ? (l.cls === filterCls ? l.lvl : 99) : l.lvl));
       if (aMin !== bMin) return aMin - bMin;
       return a.name.localeCompare(b.name);
     });
@@ -464,6 +497,12 @@ async function renderPreparedList() {
     detailPanel.classList.add('hidden');
     return;
   }
+
+  // Resolve names in current language
+  const spells = await loadData('spells');
+  const nameMap = {};
+  if (spells) spells.forEach((s) => { nameMap[s.slug] = s.name; });
+  entries.forEach((p) => { p.name = nameMap[p.slug] || p.name; });
 
   // Sort by name
   entries.sort((a, b) => a.name.localeCompare(b.name));
@@ -708,26 +747,56 @@ async function loadSources() {
 
 // ── Translation status dashboard ────────────────────────────────────────
 
-async function renderTranslationStatus() {
+async function renderTranslationStatus(selectedLang) {
   detailPanel.classList.add('hidden');
   resultsList.innerHTML = `<div class="loading">${t('msg.loading')}</div>`;
 
   try {
-    const res = await fetch(`${DATA_BASE}/translation-status.json`);
+    // Fetch index to discover available languages
+    const indexRes = await fetch(`${DATA_BASE}/translation-status-index.json`);
+    let langs = [];
+    if (indexRes.ok) {
+      const index = await indexRes.json();
+      langs = index.languages || [];
+    }
+
+    // Determine which language to show
+    const lang = selectedLang || (langs.includes(getCurrentLang()) ? getCurrentLang() : langs[0]) || 'it';
+
+    // Fetch per-language status
+    const statusUrl = langs.length > 0
+      ? `${DATA_BASE}/translation-status-${lang}.json`
+      : `${DATA_BASE}/translation-status.json`;
+    const res = await fetch(statusUrl);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    renderStatusDashboard(data);
+    renderStatusDashboard(data, langs, lang);
   } catch (err) {
     resultsList.innerHTML = `<div class="no-results">Translation status data not available.</div>`;
   }
 }
 
-function renderStatusDashboard(data) {
+function renderStatusDashboard(data, langs, activeLang) {
   const s = data.summary;
   const overallPct = s.overall_percent.toFixed(1);
   const barClass = s.overall_percent >= 100 ? 'complete' : '';
 
   let html = `<div class="status-dashboard">`;
+
+  // Language selector (if multiple languages available)
+  if (langs && langs.length > 1) {
+    html += `<div class="status-lang-selector">`;
+    langs.forEach((lng) => {
+      const label = t(`lang.${lng}`) || lng.toUpperCase();
+      const active = lng === activeLang ? ' active' : '';
+      html += `<button class="status-lang-btn${active}" data-status-lang="${lng}">${esc(label)}</button>`;
+    });
+    html += `</div>`;
+  } else if (langs && langs.length === 1) {
+    const label = t(`lang.${langs[0]}`) || langs[0].toUpperCase();
+    html += `<div class="status-lang-label">${esc(label)}</div>`;
+  }
+
   html += `<div class="status-overall">`;
   html += `<h3>${t('status.overall')}</h3>`;
   html += `<div class="status-pct">${overallPct}%</div>`;
@@ -774,6 +843,13 @@ function renderStatusDashboard(data) {
   resultsList.querySelectorAll('.status-category').forEach((el) => {
     const pctText = el.querySelector('.cat-pct').textContent;
     if (parseFloat(pctText) < 100) el.classList.add('open');
+  });
+
+  // Language selector buttons
+  resultsList.querySelectorAll('.status-lang-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      renderTranslationStatus(btn.dataset.statusLang);
+    });
   });
 }
 

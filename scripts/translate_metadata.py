@@ -379,6 +379,171 @@ def translate_level(val):
     return None
 
 
+# Target / Area / Effect
+TARGET_DIRECT_MAP = {
+    "You": "Te stesso",
+    "Creature touched": "Creatura toccata",
+    "One creature": "Una creatura",
+    "One living creature": "Una creatura vivente",
+    "Living creature touched": "Creatura vivente toccata",
+    "One creature/level, no two of which can be more than 30 ft. apart": "Una creatura/livello, non più di 9 m l'una dall'altra",
+    "See text": "Vedi testo",
+    "see text": "vedi testo",
+    "Cone-shaped burst": "Scoppio a cono",
+    "Cone-shaped emanation": "Emanazione a cono",
+    "Ray": "Raggio",
+    "Object touched": "Oggetto toccato",
+    "One humanoid creature": "Una creatura umanoide",
+    "One animal": "Un animale",
+    "One creature or object": "Una creatura od oggetto",
+    "You or creature touched": "Te stesso o creatura toccata",
+    "Magical sensor": "Sensore magico",
+    "Weapon touched": "Arma toccata",
+    "Flask of water touched": "Fiasca d'acqua toccata",
+    "One touched creature": "Una creatura toccata",
+    "One creature/level": "Una creatura/livello",
+    "One living creature touched": "Una creatura vivente toccata",
+    "One willing creature": "Una creatura consenziente",
+    "One willing creature touched": "Una creatura consenziente toccata",
+    "One touched object weighing up to 5 lb./level": "Un oggetto toccato del peso fino a 2,5 kg/livello",
+    "One creature or object/level, no two of which can be more than 30 ft. apart": "Una creatura od oggetto/livello, non più di 9 m l'uno dall'altro",
+    "You and touched objects or other touched willing creatures": "Te stesso e oggetti toccati o altre creature consenzienti toccate",
+    "One willing creature/level, no two of which can be more than 30 ft. apart": "Una creatura consenziente/livello, non più di 9 m l'una dall'altra",
+    "One undead creature": "Una creatura non morta",
+    "Up to one touched creature/level": "Fino a una creatura toccata/livello",
+    "One creature touched/level": "Una creatura toccata/livello",
+    "One or more creatures, no two of which can be more than 30 ft. apart": "Una o più creature, non più di 9 m l'una dall'altra",
+    "One or more summoned creatures, no two of which can be more than 30 ft. apart": "Una o più creature evocate, non più di 9 m l'una dall'altra",
+    "One plant creature": "Una creatura vegetale",
+    "One creature or unattended object": "Una creatura od oggetto incustodito",
+    "Creature or creatures touched (up to one/level)": "Creatura o creature toccate (fino a una/livello)",
+    "One creature initially, then special; see text": "Una creatura inizialmente, poi speciale; vedi testo",
+    "One or more living creatures within a 10-ft.-radius burst": "Una o più creature viventi entro scoppio con raggio di 3 m",
+    "One Small or Medium humanoid": "Un umanoide Piccolo o Medio",
+    "Up to one willing creature per level, all within 30 ft. of each other": "Fino a una creatura consenziente/livello, tutte entro 9 m l'una dall'altra",
+    "One touched object of up to 2 cu. ft./level": "Un oggetto toccato fino a 0,06 m³/livello",
+    "Creatures and objects within 40-ft.-radius spread centered on you": "Creature e oggetti entro diffusione con raggio di 12 m centrata su di te",
+    "One creature; see text": "Una creatura; vedi testo",
+    "Creature touched; see text": "Creatura toccata; vedi testo",
+    "One creature or object of up to 1 cu. ft./level": "Una creatura od oggetto fino a 0,03 m³/livello",
+    "Your touched staff": "Il tuo bastone toccato",
+    "Ray of negative energy": "Raggio di energia negativa",
+    "Fifty projectiles, all of which must be in contact with each other at the time of casting": "Cinquanta proiettili, tutti in contatto l'uno con l'altro al momento del lancio",
+    "Sword-like beam": "Raggio a forma di spada",
+    "Burst of light": "Scoppio di luce",
+    "3-ft.-diameter disk of force": "Disco di forza di 90 cm di diametro",
+    "Corpse touched": "Cadavere toccato",
+    "Illusory sounds": "Suoni illusori",
+    "Living humanoid touched": "Umanoide vivente toccato",
+    "2d4 fresh berries touched": "2d4 bacche fresche toccate",
+    "Your mount touched": "La tua cavalcatura toccata",
+    "Ghostly hand": "Mano spettrale",
+    "Melee weapon touched": "Arma da mischia toccata",
+    "Tree touched": "Albero toccato",
+    "Phantom watchdog": "Cane da guardia fantasma",
+    "Flame in your palm": "Fiamma nel tuo palmo",
+    "Corpse": "Cadavere",
+    "Wooden quarterstaff touched": "Bastone di legno toccato",
+    "Magic weapon of force": "Arma magica di forza",
+    "Intelligible sound, usually speech": "Suono intelligibile, solitamente parlato",
+}
+
+TARGET_TOKEN_MAP = {
+    # Shape/geometry
+    "radius spread": "diffusione con raggio",
+    "radius burst": "scoppio con raggio",
+    "radius emanation": "emanazione con raggio",
+    "-radius spread": " diffusione con raggio",
+    "-radius burst": " scoppio con raggio",
+    "-radius emanation": " emanazione con raggio",
+    "Cone-shaped": "A cono",
+    "cone-shaped": "a cono",
+    "centered on you": "centrata su di te",
+    "centered on a point in space": "centrata su un punto nello spazio",
+    "centered on a creature": "centrata su una creatura",
+    "spread": "diffusione",
+    "burst": "scoppio",
+    "emanation": "emanazione",
+    # Size references (ft → m)
+    "5-ft.": "1,5 m",
+    "10-ft.": "3 m",
+    "15-ft.": "4,5 m",
+    "20-ft.": "6 m",
+    "30-ft.": "9 m",
+    "40-ft.": "12 m",
+    "50-ft.": "15 m",
+    "60-ft.": "18 m",
+    "80-ft.": "24 m",
+    "100-ft.": "30 m",
+    "120-ft.": "36 m",
+    # Creature vocabulary
+    "creature touched": "creatura toccata",
+    "living creature": "creatura vivente",
+    "willing creature": "creatura consenziente",
+    "creature": "creatura",
+    "creatures": "creature",
+    "One": "Una",
+    "one": "una",
+    "object touched": "oggetto toccato",
+    "object": "oggetto",
+    "objects": "oggetti",
+    "per level": "/livello",
+    "/level": "/livello",
+    "per caster level": "/livello dell'incantatore",
+    "/caster level": "/livello dell'incantatore",
+    "see text": "vedi testo",
+    "See text": "Vedi testo",
+    " or ": " o ",
+    " and ": " e ",
+    " no two of which can be more than ": ", non più di ",
+    " apart": " l'una dall'altra",
+    "up to": "fino a",
+    "Up to": "Fino a",
+    "Cloud spreads in": "Nube si diffonde in",
+    "Fog spreads in": "Nebbia si diffonde in",
+    " high": " di altezza",
+    "long": "di lunghezza",
+    "Wall": "Muro",
+    "wall": "muro",
+    "Cube": "Cubo",
+    "cube": "cubo",
+    "cylinder": "cilindro",
+    "Line": "Linea",
+    "line": "linea",
+    "Personal": "Personale",
+}
+
+
+def convert_ft_in_string(val):
+    """Convert X ft. patterns to X m in a string."""
+    def repl(m):
+        feet = int(m.group(1))
+        meters = round(feet * 0.3, 1)
+        # Use comma for Italian decimal separator
+        meters_str = str(meters).replace('.', ',')
+        if meters_str.endswith(',0'):
+            meters_str = meters_str[:-2]
+        return f"{meters_str} m"
+    return re.sub(r'(\d+)\s*ft\.', repl, val)
+
+
+def translate_target_area_effect(val):
+    if not val:
+        return None
+    # Direct match
+    if val in TARGET_DIRECT_MAP:
+        return TARGET_DIRECT_MAP[val]
+    # Token replacement
+    result = val
+    # Replace tokens (longer first)
+    ordered = sorted(TARGET_TOKEN_MAP.items(), key=lambda x: -len(x[0]))
+    for en, it in ordered:
+        result = result.replace(en, it)
+    # Convert remaining ft. to m
+    result = convert_ft_in_string(result)
+    return result if result != val else None
+
+
 # ── Monster field mappings ───────────────────────────────────────────────
 
 SIZE_MAP = {
@@ -709,6 +874,11 @@ def translate_spells(data_dir):
         # Level
         t = translate_level(spell.get("level"))
         if merge_field(entry, "level", t):
+            added += 1
+
+        # Target/Area/Effect
+        t = translate_target_area_effect(spell.get("target_area_effect"))
+        if merge_field(entry, "target_area_effect", t):
             added += 1
 
     # Rebuild overlay as list sorted by slug
