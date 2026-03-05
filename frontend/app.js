@@ -470,6 +470,11 @@ async function renderResults() {
     if (mtype) filtered = filtered.filter((m) => m.type && m.type.replace(/\s*\(.*\)/, '').trim() === mtype);
   }
 
+  // Sort non-spell tabs alphabetically by (translated) name
+  if (currentTab !== 'spells') {
+    filtered.sort((a, b) => a.name.localeCompare(b.name));
+  }
+
   // Update count
   const countEl = document.getElementById('result-count');
   if (countEl) countEl.textContent = t('msg.results_count', { count: filtered.length });
