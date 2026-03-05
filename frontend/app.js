@@ -58,10 +58,40 @@ function updatePreparedCount(slug, field, delta) {
   savePrepared(p);
 }
 
+// ── Learned feats (localStorage) ──────────────────────────────────────────
+
+const LEARNED_KEY = 'crystalball_learned';
+
+function loadLearned() {
+  try {
+    return JSON.parse(localStorage.getItem(LEARNED_KEY)) || {};
+  } catch { return {}; }
+}
+
+function saveLearned(learned) {
+  localStorage.setItem(LEARNED_KEY, JSON.stringify(learned));
+}
+
+function toggleLearned(feat) {
+  const l = loadLearned();
+  if (l[feat.slug]) {
+    delete l[feat.slug];
+  } else {
+    l[feat.slug] = { name: feat.name, slug: feat.slug };
+  }
+  saveLearned(l);
+}
+
+function removeLearned(slug) {
+  const l = loadLearned();
+  delete l[slug];
+  saveLearned(l);
+}
+
 // ── Data loading (static JSON + i18n overlay) ────────────────────────────
 
 async function loadData(category) {
-  if (category === 'prepared') return null; // handled separately
+  if (category === 'prepared' || category === 'learned') return null; // handled separately
   const lang = getCurrentLang();
   const cacheKey = `${category}_${lang}`;
 
@@ -111,7 +141,7 @@ document.querySelectorAll('.tab').forEach((btn) => {
     currentTab = btn.dataset.tab;
     searchInput.value = '';
     detailPanel.classList.add('hidden');
-    searchInput.style.display = (currentTab === 'prepared' || currentTab === 'translation-status') ? 'none' : '';
+    searchInput.style.display = (currentTab === 'prepared' || currentTab === 'learned' || currentTab === 'translation-status') ? 'none' : '';
     buildFilters();
     renderResults();
   });
@@ -148,6 +178,7 @@ function updateTabLabels() {
     spells: 'tab.spells',
     prepared: 'tab.prepared',
     feats: 'tab.feats',
+    learned: 'tab.learned',
     classes: 'tab.classes',
     races: 'tab.races',
     equipment: 'tab.equipment',
@@ -250,6 +281,17 @@ function buildFilters() {
     filtersDiv.querySelector('#clear-prepared').addEventListener('click', () => {
       if (confirm(t('msg.confirm_clear'))) {
         savePrepared({});
+        renderResults();
+      }
+    });
+  } else if (currentTab === 'learned') {
+    filtersDiv.innerHTML = `
+      <button id="clear-learned" class="level-toggle" style="color: #e57373;">${t('btn.clear_learned')}</button>
+      <span id="result-count"></span>
+    `;
+    filtersDiv.querySelector('#clear-learned').addEventListener('click', () => {
+      if (confirm(t('msg.confirm_clear_learned'))) {
+        saveLearned({});
         renderResults();
       }
     });
@@ -359,6 +401,12 @@ async function renderResults() {
     return;
   }
 
+  // Special handling for learned feats tab
+  if (currentTab === 'learned') {
+    renderLearnedList();
+    return;
+  }
+
   // Special handling for translation status tab
   if (currentTab === 'translation-status') {
     renderTranslationStatus();
@@ -432,28 +480,33 @@ async function renderResults() {
   }
 
   const prepared = currentTab === 'spells' ? loadPrepared() : {};
+  const learned = currentTab === 'feats' ? loadLearned() : {};
 
   resultsList.innerHTML = filtered.map((item, idx) => {
     const meta = getMeta(item);
-    let prepHtml = '';
+    let actionHtml = '';
     if (currentTab === 'spells') {
       const p = prepared[item.slug];
       if (p) {
         const allUsed = p.used >= p.prepared;
-        prepHtml = `<span class="prep-badge ${allUsed ? 'exhausted' : ''}">${p.used}/${p.prepared}</span>`
+        actionHtml = `<span class="prep-badge ${allUsed ? 'exhausted' : ''}">${p.used}/${p.prepared}</span>`
           + `<button class="prep-btn prep-btn-active" data-idx="${idx}" title="${t('btn.add_prep')}">+</button>`;
       } else {
-        prepHtml = `<button class="prep-btn" data-idx="${idx}" title="${t('btn.prepare_spell')}">+</button>`;
+        actionHtml = `<button class="prep-btn" data-idx="${idx}" title="${t('btn.prepare_spell')}">+</button>`;
       }
+    } else if (currentTab === 'feats') {
+      const isLearned = !!learned[item.slug];
+      actionHtml = `<button class="learn-btn ${isLearned ? 'learn-btn-active' : ''}" data-idx="${idx}" title="${isLearned ? t('btn.unlearn_feat') : t('btn.learn_feat')}">\u2713</button>`;
     }
     const isPrepared = currentTab === 'spells' && prepared[item.slug];
-    return `<div class="result-item ${isPrepared ? 'is-prepared' : ''}" data-index="${idx}" data-slug="${item.slug || ''}">
+    const isLearned = currentTab === 'feats' && learned[item.slug];
+    return `<div class="result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}" data-index="${idx}" data-slug="${item.slug || ''}">
       <div class="result-row">
         <div class="result-text">
           <div class="name">${esc(item.name)}</div>
           ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
         </div>
-        ${prepHtml}
+        ${actionHtml}
       </div>
     </div>`;
   }).join('');
@@ -463,7 +516,7 @@ async function renderResults() {
 
   resultsList.querySelectorAll('.result-item').forEach((el) => {
     el.addEventListener('click', (e) => {
-      if (e.target.classList.contains('prep-btn')) return;
+      if (e.target.classList.contains('prep-btn') || e.target.classList.contains('learn-btn')) return;
       resultsList.querySelectorAll('.selected').forEach((s) => s.classList.remove('selected'));
       el.classList.add('selected');
       const item = resultsList._filtered[parseInt(el.dataset.index)];
@@ -477,7 +530,16 @@ async function renderResults() {
       e.stopPropagation();
       const item = resultsList._filtered[parseInt(btn.dataset.idx)];
       addPrepared(item);
-      // Re-render to show updated badge
+      renderResults();
+    });
+  });
+
+  // Learn feat buttons
+  resultsList.querySelectorAll('.learn-btn').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const item = resultsList._filtered[parseInt(btn.dataset.idx)];
+      toggleLearned(item);
       renderResults();
     });
   });
@@ -576,6 +638,57 @@ async function renderPreparedList() {
     btn.addEventListener('click', () => {
       removePrepared(btn.dataset.slug);
       renderPreparedList();
+    });
+  });
+}
+
+// ── Learned feats tab ─────────────────────────────────────────────────────
+
+async function renderLearnedList() {
+  const learned = loadLearned();
+  const entries = Object.values(learned);
+
+  const countEl = document.getElementById('result-count');
+  if (countEl) countEl.textContent = t('msg.learned_count', { count: entries.length });
+
+  if (entries.length === 0) {
+    resultsList.innerHTML = `<div class="no-results">${t('msg.no_learned')}</div>`;
+    detailPanel.classList.add('hidden');
+    return;
+  }
+
+  // Resolve names in current language
+  const feats = await loadData('feats');
+  const nameMap = {};
+  if (feats) feats.forEach((f) => { nameMap[f.slug] = f.name; });
+  entries.forEach((l) => { l.name = nameMap[l.slug] || l.name; });
+
+  // Sort by name
+  entries.sort((a, b) => a.name.localeCompare(b.name));
+
+  resultsList.innerHTML = entries.map((l) => {
+    return `<div class="result-item learned-item" data-slug="${esc(l.slug)}">
+      <div class="learned-name">${esc(l.name)}</div>
+      <button class="remove-btn" data-slug="${esc(l.slug)}" title="${t('btn.remove')}">&times;</button>
+    </div>`;
+  }).join('');
+
+  // Click name to show detail
+  resultsList.querySelectorAll('.learned-name').forEach((el) => {
+    el.addEventListener('click', async () => {
+      const slug = el.parentElement.dataset.slug;
+      const feats = await loadData('feats');
+      if (!feats) return;
+      const feat = feats.find((f) => f.slug === slug);
+      if (feat) showDetail(feat, 'feats');
+    });
+  });
+
+  // Remove buttons
+  resultsList.querySelectorAll('.remove-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      removeLearned(btn.dataset.slug);
+      renderLearnedList();
     });
   });
 }

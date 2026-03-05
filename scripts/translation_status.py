@@ -11,6 +11,7 @@ Uso:
 import json
 import sys
 import os
+from difflib import SequenceMatcher
 
 # Campi traducibili per categoria (esclusi slug e campi puramente numerici)
 TRANSLATABLE_FIELDS = {
@@ -43,6 +44,40 @@ TRANSLATABLE_FIELDS = {
 
 BAR_WIDTH = 20
 
+SIMILARITY_THRESHOLD = 0.85  # Above this = too similar to EN, likely untranslated
+
+
+def is_genuinely_translated(overlay_value, base_value):
+    """Return True if the overlay value is meaningfully different from the base."""
+    if not overlay_value or not base_value:
+        return bool(overlay_value)
+    # For non-string values (lists, dicts), compare directly
+    if not isinstance(overlay_value, str) or not isinstance(base_value, str):
+        return overlay_value != base_value
+    # Exact match — not translated
+    if overlay_value == base_value:
+        return False
+    # Normalized whitespace match
+    if " ".join(overlay_value.split()) == " ".join(base_value.split()):
+        return False
+    # Similarity check for medium strings (100-5000 chars)
+    if 100 < len(base_value) <= 5000:
+        ratio = SequenceMatcher(None, base_value, overlay_value).ratio()
+        if ratio > SIMILARITY_THRESHOLD:
+            return False
+    # For very large strings, use a faster heuristic: compare length + sample
+    elif len(base_value) > 5000:
+        # If lengths are very close, likely untranslated
+        len_ratio = min(len(overlay_value), len(base_value)) / max(len(overlay_value), len(base_value))
+        if len_ratio > 0.95:
+            # Sample: compare first 2000 and last 2000 chars
+            sample_base = base_value[:2000] + base_value[-2000:]
+            sample_overlay = overlay_value[:2000] + overlay_value[-2000:]
+            ratio = SequenceMatcher(None, sample_base, sample_overlay).ratio()
+            if ratio > SIMILARITY_THRESHOLD:
+                return False
+    return True
+
 
 def load_json(path):
     if not os.path.exists(path):
@@ -68,12 +103,14 @@ def report_category(category, lang, data_dir):
         print(f"  (nessun dato base trovato in {base_path})")
         return
 
-    # Index overlay by slug
+    # Index overlay and base by slug
     overlay_map = {}
     for entry in overlay:
         slug = entry.get("slug")
         if slug:
             overlay_map[slug] = entry
+
+    base_map = {e.get("slug"): e for e in base if e.get("slug")}
 
     fields = TRANSLATABLE_FIELDS.get(category, ["name"])
     total = len(base)
@@ -92,10 +129,18 @@ def report_category(category, lang, data_dir):
         if base_with_field == 0:
             continue
 
-        # Count how many overlay entries have this field
+        # Count how many overlay entries have this field AND are genuinely translated
         translated = sum(
             1 for slug, e in overlay_map.items()
             if field in e and e[field] is not None and e[field] != ""
+            and is_genuinely_translated(e[field], base_map.get(slug, {}).get(field, ""))
+        )
+
+        # Count suspicious (present but identical/too similar to EN)
+        suspicious = sum(
+            1 for slug, e in overlay_map.items()
+            if field in e and e[field] is not None and e[field] != ""
+            and not is_genuinely_translated(e[field], base_map.get(slug, {}).get(field, ""))
         )
 
         ratio = translated / base_with_field if base_with_field > 0 else 0
@@ -103,6 +148,8 @@ def report_category(category, lang, data_dir):
         bar = make_bar(ratio)
 
         print(f"  {field:<20s} {translated:>4d}/{base_with_field:<4d} {bar} {pct:5.1f}%")
+        if suspicious > 0:
+            print(f"    \u26a0 {suspicious} entries have overlay \u2248 EN base (>{SIMILARITY_THRESHOLD*100:.0f}% similar)")
 
     print()
 
@@ -133,6 +180,8 @@ def generate_json_report(lang, data_dir, categories):
             if slug:
                 overlay_map[slug] = entry
 
+        base_map = {e.get("slug"): e for e in base if e.get("slug")}
+
         fields = TRANSLATABLE_FIELDS.get(cat, ["name"])
         cat_data = {"total": len(base), "overlay_count": len(overlay_map), "fields": {}}
 
@@ -147,11 +196,19 @@ def generate_json_report(lang, data_dir, categories):
             translated = sum(
                 1 for slug, e in overlay_map.items()
                 if field in e and e[field] is not None and e[field] != ""
+                and is_genuinely_translated(e[field], base_map.get(slug, {}).get(field, ""))
+            )
+
+            suspicious = sum(
+                1 for slug, e in overlay_map.items()
+                if field in e and e[field] is not None and e[field] != ""
+                and not is_genuinely_translated(e[field], base_map.get(slug, {}).get(field, ""))
             )
 
             pct = (translated / base_with_field * 100) if base_with_field > 0 else 0
             cat_data["fields"][field] = {
                 "translated": translated,
+                "suspicious": suspicious,
                 "total": base_with_field,
                 "percent": round(pct, 1),
             }

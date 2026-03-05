@@ -494,6 +494,71 @@ main {
   color: var(--red);
 }
 
+/* ── Learned feats (in feat list) ────────────────── */
+
+.learn-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid var(--accent-dim);
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+  line-height: 1;
+}
+
+.learn-btn:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.learn-btn-active {
+  border-color: var(--green);
+  color: var(--green);
+  background: rgba(102, 187, 106, 0.15);
+}
+
+.learn-btn-active:hover {
+  background: var(--green);
+  color: var(--bg);
+}
+
+.result-item.is-learned {
+  border-left-color: var(--green);
+}
+
+.result-item.is-learned .name {
+  color: var(--green);
+}
+
+/* ── Learned feats tab ───────────────────────────── */
+
+.learned-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  cursor: default;
+}
+
+.learned-item .learned-name {
+  font-weight: 500;
+  cursor: pointer;
+  flex: 1;
+  min-width: 0;
+}
+
+.learned-item .learned-name:hover {
+  color: var(--accent);
+}
+
 /* ── Detail panel ─────────────────────────────────── */
 
 #detail-panel h2 {
