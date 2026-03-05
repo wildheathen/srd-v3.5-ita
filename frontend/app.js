@@ -18,6 +18,23 @@ const SPELL_CLASSES = new Set([
   'Chr', 'Str/Mag', 'Str', 'Mag',
 ]);
 
+// School-of-magic color map (EN + IT names)
+const SCHOOL_COLORS = {
+  'abjuration': '#4fc3f7', 'abiurazione': '#4fc3f7',
+  'conjuration': '#81c784', 'evocazione': '#81c784',
+  'divination': '#90caf9', 'divinazione': '#90caf9',
+  'enchantment': '#f48fb1', 'ammaliamento': '#f48fb1',
+  'evocation': '#ff8a65', 'invocazione': '#ff8a65',
+  'illusion': '#ce93d8', 'illusione': '#ce93d8',
+  'necromancy': '#ef5350', 'necromanzia': '#ef5350',
+  'transmutation': '#ffd54f', 'trasmutazione': '#ffd54f',
+  'universal': '#b0bec5', 'universale': '#b0bec5',
+};
+
+function getSchoolColor(school) {
+  return school ? (SCHOOL_COLORS[school.toLowerCase()] || '') : '';
+}
+
 // ── Prepared spells (localStorage) ───────────────────────────────────────
 
 const PREPARED_KEY = 'crystalball_prepared';
@@ -505,7 +522,8 @@ async function renderResults() {
     }
     const isPrepared = currentTab === 'spells' && prepared[item.slug];
     const isLearned = currentTab === 'feats' && learned[item.slug];
-    return `<div class="result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}" data-index="${idx}" data-slug="${item.slug || ''}">
+    const schoolStyle = currentTab === 'spells' && item.school ? ` style="--school-clr: ${getSchoolColor(item.school)}"` : '';
+    return `<div class="result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}" data-index="${idx}" data-slug="${item.slug || ''}"${schoolStyle}>
       <div class="result-row">
         <div class="result-text">
           <div class="name">${esc(item.name)}</div>
@@ -974,12 +992,13 @@ function renderStatusDashboard(data, langs, activeLang) {
 // ── Render helpers ───────────────────────────────────────────────────────
 
 function renderFields(fields) {
-  return fields
+  const rows = fields
     .filter(([, v]) => v)
     .map(([label, value]) =>
       `<div class="field"><span class="field-label">${esc(label)}</span><div class="field-value">${esc(String(value))}</div></div>`
     )
     .join('');
+  return rows ? `<div class="fields-grid">${rows}</div>` : '';
 }
 
 function renderDesc(html) {
