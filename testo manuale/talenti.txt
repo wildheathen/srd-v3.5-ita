@@ -1,0 +1,1649 @@
+TABELLA 5-1 : TALENTI
+Talenti general i
+Abilità Focalizzata
+Acrobatic o
+Affinità Animale
+Agil e
+Allerta
+Arma Accurata "
+Arma Focalizzata '
+Arma Specializzata' '
+Arma Focalizzata Superiore' '
+Arma Specializzata Superiore' '
+Atletico
+Attacco Poderoso'
+Incalzare'
+Incalzare Potenziato '
+Oltrepassare Migliorato'
+Spezzare Migliorato'
+Spingere Migliorato`
+Aumentare Evocazion e
+Autorità
+Autosufficient e
+Colpo Senz'Armi Migliorato '
+Deviare Frecce'
+Afferrare Frecce'
+Lottare Migliorato'
+Pugno Stordente'
+Prerequisiti
+Competenza nell'arma, bonus di attacco base +1
+Benefici
+Bonus di +3 alle prove dell'abilità prescelta
+Bonus di +2 alle prove di Acrobazia e Saltare
+Bonus di +2 alle prove di Addestrare Animali e Cavalcar e
+Bonus di +2 alle prove di Artista della Fuga e Equilibri o
+Bonus di +2 alle prove di Ascoltare e Osservare
+Utilizza il modificatore di Des invece di quello di For ai tiri
+per colpire con le armi legger e
+Bonus di +1 ai tiri per colpire con l'arma prescelta
+Bonus di +2 ai danni con l'arma prescelta
+Bonus di +2 ai tiri per colpire con l'arma prescelta
+Bonus di +4 ai danni con l'arma prescelta
+Combattere alla Cieca '
+Combattere con Due Armi '
+Combattere con Due Arm i
+Migliorato '
+Combattere con Due Arm i
+Superiore'
+Difendere con Due Armi '
+Combattere in Sella '
+Attacco in Sella `
+Carica Devastante'
+Tirare in Sella'
+Travolgere'
+Escludere Material i
+. Estrazione Rapida'
+. Furtivo
+Incantare in Combattiment o
+Incantesimi Focalizzati
+'
+Competenza nell'arma prescelta, bonus di attacco base + 1
+Competenza nell'arma prescelta, Arma Focalizzat a
+nell'arma prescelta, guerriero di 4° livell o
+Competenza nell'arma prescelta, Arma Focalizzat a
+nell'arma prescelta, guerriero di 8° livell o
+Competenza nell'arma prescelta, Arma Focalizzata nell'arma
+prescelta, Arma Focalizzata Superiore nell'arma prescelta ,
+Arma Specializzata nell'arma prescelta, guerriero di 12° livello
+Bonus di +2 alle prove di Nuotare e Scalare
+Scambia il bonus all'attacco con i dann i
+(fino al bonus di attacco base )
+For 13, Attacco Poderoso Un attacco in mischia extra per un avversario abbattut o
+For 13, Attacco Poderoso, Incalzare, bonus di attacco base +4 Nessun limite agli attacchi di incalzare per ogni roun d
+For 13, Attacco Poderoso Bonus di +4 ai tentativi di buttare a terra
+For 13, Attacco Poderoso Bonus di +4 ai tentativi di colpire un oggetto ;
+nessun attacco di opportunit à
+Bonus di +4 ai tentativi di spingere; nessun attacc o
+di opportunit à
+Le creature evocate ottengono +4 For, +4 Co s
+Chiama a raccolta gregari e seguac i
+Bonus di +2 alle prove di Guarire e Sopravvivenz a
+È considerato armato anche senz'arm i
+Devia un attacco a distanza al round
+Afferra un attacco a distanza deviato
+Bonus di +4 alle prove di lottare; nessun attacco
+di opportunit à
+Stordisce l'avversario con un attacco senz'arm i
+bonus di attacco base +8
+Ripete il tiro percentuale fallito contro l'occultament o
+Riduce di 2 le penalità per combattere con due armi
+Ottiene un secondo attacco con la mano secondari a
+Ottiene un terzo attacco con la mano secondari a
+La mano secondaria conferisce un bonus di scudo +1 alla CA
+Nega gli attacchi alla cavalcatura con una prova di Cavalcar e
+Si muove prima e dopo una carica in sell a
+Raddoppia i danni con una carica in sell a
+Dimezza le penalità per gli attacchi a distanza in sella
+L'avversario viene travolto dal personaggio in sell a
+Nessuna penalità di armatura alla prova ai tiri per colpire
+Nessuna penalità di armatura alla prova ai tiri per colpire
+Nessuna penalità di armatura alla prova ai tiri per colpire
+Nessuna penalità agli attacchi con un'arma esotica
+Nessuna penalità agli attacchi con un'arma da guerr a
+Nega la penalità di -4 agli attacchi con un'arma semplic e
+Nessuna penalità di armatura alla prova al tiro per colpire
+Mantiene il bonus alla CA quando colpisce con lo scud o
+Nessuna penalità di armatura alla prova al tiro per colpire
+Contrasta incantesimo con un incantesimo della stessa scuola
+Corre 5 volte più veloce della velocità normale ,
+bonus di +4 alle prove di Saltare dopo una rincors a
+Raddoppia l'intervallo di minaccia dell'arm a
+Bonus di +2 alle prove di Decifrare Scritture e Valutar e
+Bonus di +2 alle prove di Disattivare Congegni e
+Scassinare Serratur e
+Lancia incantesimi senza le componenti material i
+Estrae un'arma come azione gratuit a
+Bonus di +2 alle prove di Muoversi Silenziosament e
+e Nasconders i
+Bonus di +4 alle prove di Concentrazione per lanciar e
+incantesimi sulla difensiva
+Bonus di +1 alla CD di tutti i tiri salvezza contro l a
+scuola di magia prescelta
+For 1 3
+For 13, Attacco Poderoso
+Incantesimi Focalizzati (evocazione )
+Personaggio di 6° livello
+Des 13, Colpo Senz'Armi Migliorat o
+Des 15, Colpo Senz'Armi Migliorato, Deviare Frecc e
+Des 13, Colpo Senz'Armi Migliorato
+Des 13, Sag 13, Colpo Senz'Armi Migliorato,
+Des 1 5
+Des 17, Combattere con Due Armi ,
+bonus di attacco base +6
+Des 19, Combattere con Due Armi, Combattere con Due
+Armi Migliorato, bonus di attacco base +1 1
+Des 15, Combattere con Due Arm i
+Cavalcare 1 grado
+Cavalcare 1 grado, Combattere in Sell a
+Cavalcare 1 grado, Attacco in Sella, Combattere in Sell a
+Cavalcare 1 grado, Combattere in Sell a
+Cavalcare 1 grado, Combattere in Sell a
+Competenza nelle Armature (leggere) -
+Competenza nelle Armature (medie) Competenza nelle Armature (leggere )
+Competenza nelle Armature (pesanti) Competenza nelle Armature (medie )
+Competenza nelle Armi Esotiche" Bonus di attacco base + 1
+Competenza nelle Armi da Guerra' -
+Competenza nelle Armi Semplici -
+Competenza negli Scud i
+Attacco con lo Scudo Migliorato' Competenza negli Scud i
+Competenza negli Scudi Torre Competenza negli Scud i
+Controincantesimo Migliorato
+Correre
+Critico Migliorato' Competenza nell'arma, bonus di attacco base + 8
+Diligente
+Dita Sottili
+Bonus di attacco base +1
+Incantesimi Focalizzati Superiore' Incantesimi Focalizzat i
+Incantesimi Inarrestabili -
+Incantesimi Inarrestabili Superiore Incantesimi Inarrestabil i
+Incantesimi Natural i
+Indagatore
+Ingannevole
+Iniziativa Migliorata '
+Maestria in Combattimento'
+Disarmare Migliorato '
+Fintare Migliorato '
+Sbilanciare Migliorato'
+Attacco Turbinante'
+Sag 13, Capacità di forma selvatica
+Int 1 3
+Int 13, Maestria in Combattiment o
+Int 13, Maestria in Combattiment o
+Int 13, Maestria in Combattiment o
+Des 13, Int 13, Attacco Rapido, Maestria i n
+Combattimento, Mobilità, Schivare ,
+bonus di attacco base +4
+Bonus di +1 alla CD di tutti i tiri salvezza contro l a
+scuola di magia prescelt a
+Bonus di +2 alle prove di livello dell'incantatore pe r
+superare la resistenza agli incantesimi
+Bonus di +4 alle prove di livello dell'incantatore pe r
+superare la resistenza agli incantesim i
+Lancia incantesimi informa selvatica
+Bonus di +2 alle prove di Cercare e Raccogliere Informazion i
+Bonus di +2 alle prove di Camuffare e Falsificar e
+Bonus di +4 ai tiri di iniziativ a
+Scambia il bonus di attacco con il bonus alla CA (fino a 5 punti)
+Bonus di +4 alle prove per disarmare : nessun attacco di opportunit à
+Effettua una finta in mischia come azione di moviment o
+Bonus di +4 per i tentativi di sbilanciare; nessun attacco di opportunit à
+Un attacco in mischia contro tutti gli avversar i
+entro la portata
+n
+Manolesta
+Negoziator e
+Padronanza degli Incantesimi '
+Persuasiv o
+Resistenza Fisica
+Duro a Morire
+Ricarica Rapida'
+. Riflessi in Combattimento -
+. Riflessi Fulmine i
+.Robustezza '
+. Scacciare Extra '
+. Scacciare Migliorato
+Schivare '
+Mobilità'
+Attacco Rapido '
+Seguire Tracce
+Tempra Possent e
+Tiro Ravvicinato '
+Tiro Lontano '
+Tiro Preciso '
+Tiro Rapido '
+Tiro in Movimento'
+Tiro Multiplo '
+Tiro Preciso Migliorato '
+Vocazione Magica
+Volontà di Ferr o
+. Talenti di creazione oggetto
+Scrivere Pergamen e
+. Mescere Pozion i
+. Creare Oggetti Meravigliosi
+Creare Bacchette
+Creare Armi e Armature Magich e
+Creare Vergh e
+Creare Baston i
+Forgiare Anell i
+Talenti di metamagia
+Incantesimi Ampliat i
+Incantesimi Estes i
+Incantesimi Immobil i
+Incantesimi Ingrandit i
+Incantesimi Intensificati
+Incantesimi Massimizzat i
+Incantesimi Potenziati
+Incantesimi Rapid i
+Incantesimi Silenziosi
+Bonus di +2 alle prove di Rapidità di Mano e Utilizzare Cord e
+Bonus di +2 alle prove di Diplomazia e Percepire Intenzion i
+Prepara alcuni incantesimi senza il libro degli incantesim i
+Bonus di +2 alle prove di Intimidire e Raggirar e
+Bonus di +4 alle prove o ai tiri salvezza per evitare i danni non letal i
+Rimane cosciente tra -1 e -9 p f
+Ricarica una balestra più velocemente
+Attacchi di opportunità aggiuntiv i
+Bonus di +2 ai tiri salvezza sui Rifless i
++3 punti ferit a
+Può scacciare o intimorire quattro volte in più al giorn o
++l per livello alle prove di scacciare
+Bonus di schivare +l alla CA contro un avversario prescelt o
+Bonus di schivare +4 alla CA contro alcuni attacch i
+di opportunità
+Des 13, Mobilità, Schivare, bonus attacco base +4 Si muove prima e dopo l'attacco in mischi a
+Utilizza l'abilità Sopravvivenza per trovare tracc e
+Bonus di +2 ai tiri salvezza sulla Tempr a
+Bonus di +1 agli attacchi a distanza e ai danni entro 9 m
+Aumenta l'incremento di gittata del 50% o del 100%
+Nega la penalità di -4 per tirare in mischi a
+Un attacco a distanza extra per round
+Si muove prima e dopo un attacco a distanz a
+Scaglia due o più frecce contemporaneamente
+Ignora copertura/occultamento minori di quell i
+totali sugli attacchi a distanz a
+Bonus di +2 alle prove di Sapienza Magica e Utilizzare Oggetti Magic i
+Bonus di +2 ai tiri salvezza sulla Volontà
+Benefici
+Crea pergamene magich e
+Crea pozioni magiche
+Crea oggetti magic i
+Crea bacchette magich e
+Crea armi, armature e scudi magic i
+Crea verghe magich e
+Crea bastoni magici
+Crea anelli magic i
+Benefici
+Raddoppia l'area dell'incantesim o
+Raddoppia la durata dell'incantesim o
+Lancia gli incantesimi senza le componenti somatich e
+Raddoppia il raggio di azione dell'incantesimo
+Lancia un incantesimo come se fosse di un livello più alt o
+Massimizza gli effetti numerici variabili di un incantesimo
+Aumenta gli effetti numerici variabili di un incantesimo del 50 %
+Lancia gli incantesimi come azione gratuit a
+Lancia gli incantesimi senza le componenti verbal i
+Mago di 1° livell o
+Resistenza Fisica
+Competenza nella balestra
+Capacità di scacciare o intimorire creature
+Capacità di scacciare o intimorire creature
+Des 1 3
+Des 13 . Schivar e
+Tiro Rawicinat o
+Tiro Rawicinat o
+Des 13, Tiro Ravvicinat o
+Des 13, Mobilità, Schivare, Tiro Ravvicinato,
+bonus di attacco base +4
+Des 17, Tiro Rapido, Tiro Ravvicinato,
+bonus di attacco base +6
+Des 19, Tiro Preciso, Tiro Ravvicinato ,
+bonus di attacco base +1 1
+Prerequisit i
+Incantatore di 1° livell o
+Incantatore di 3° livell o
+Incantatore di 3° livell o
+Incantatore di 5° livell o
+Incantatore di 5° livell o
+Incantatore di 9° livell o
+Incantatore di 12°livello
+Incantatore di 12° livell o
+Prerequisiti
+1 II personaggio può acquisire questo talento più volte . I suoi effetti_non sono cumulabili. Ogni volta che il personaggio acquisisce il talento, lo deve applicar e
+a una nuova abilità, arma, scuola di magia o selezione di incantesimi .
+2 Un guerriero può selezionare questo talento come uno dei suoi talenti bonus dei guerrieri .
+3 II personaggio può acquisire questo talento più volte. I suoi effetti sono cumulabili . V
+0
+inflitti con l'arma prescelta .
+Speciale : il personaggio può acquisire Arma Specializzata piìt vol -
+te .1 suoi effetti non sono cumulabili. Ogni volta che il personaggio
+acquisisce il talento, lo deve applicare a un nuovo tipo di arma.
+Un guerriero può selezionare Arma Specializzata come uno deir
+suoi talenti bonus dei guerrieri (vedi pagina 38).
+ARMA SPECIALIZZATA SUPERIORE
+[GENERALE ]
+. Il personaggio sceglie un tipo di arma, come ad esempio l'ascia bi-_
+. penne, per il quale ha già acquisito il talento Arma Specializzata .
+Egli può altresì scegliere "colpo sen z 'armi " o "lottare" come armi d a
+utilizzare ai fini di questo talento. 11 personaggio infligge danni extra, quando impugna quest'arma .
+Prerequisiti: Competenza nell'arma prescelta, Arma Focalizzata
+nell'arma prescelta, Arma Focalizzata Superiore nell'arma prescelta ,
+Arma Specializzata nell'arma prescelta, guerriero di 12° livello.
+
+.
+Beneficio: Il personaggio ottiene un bonus di +2 a tutti i danni ;
+inflitti con l'arma prescelta. Questo bonus è cumulabile con gli altri:
+bonus ai danni, compreso quello derivante da Arma Specializzata, .
+(vedi sopra).
+Speciale: Il personaggio può acquisire Arma Specializzata Superiore più volte. I suoi effetti non sono cumulabili. Ogni volta che il
+personaggio acquisisce il talento, lo deve applicare a un nuovo tip o
+di arma .
+Un guerriero può selezionare Arma Specializzata Superiore come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+ATLETICO [GENERALE ]
+11 personaggio è in forma smagliante ; adora le attività all'aria aperta .
+Beneficio: Il personaggio ottiene un bonus di +2 a tutte le prov e
+. di Nuotare e di Scalare.
+ATTACCO CON LO SCUDO MIGLIORAT O
+[GENERALE ]
+11 personaggio può percuotere con lo scudo senza perdere il propri o
+bonus di scudo alla Classe Armatura .
+Prerequisito: Competenza negli Scudi .
+Beneficio: Quando il personaggio percuote con lo scudo, continua ad applicare il suo bonus di scudo alla Classe Armatura .
+Normale: Un personaggio privo di questo talento che percuote con lo scudo, perde il suo bonus di scudo alla CA fino al turno
+successivo.
+Speciale : Un guerriero può selezionare Attacco con lo Scud o
+Migliorato come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+ATTACCO PODEROSO [GENERALE]
+11 personaggio può compiere attacchi in mischia straordinariamente potenti .
+Prerequisito: For 13 .
+Beneficio : Al proprio turno, il personaggio, prima di effettuare i tiri per colpire per il round, può decidere di sottrarre un numero da tutti i suoi tiri per colpire in mischia e sommare quello stesso numero a
+tutti i suoi tiri dei danni in mischia . Questo numero non può superare il bonus di attacco base del personaggio. La penalità agli attacchi e i
+. bonus ai danni si applicano fino all'azione successiva del personaggio .
+Speciale : Se il personaggio impugna un'arma a due mani, o unar-
+, ma a una mano ma impugnata a due mani, aggiunge ai danni il dop-
+, pio del numero sottratto ai rispettivi tiri per colpire . Il personaggio
+. non può sommare il bonus di Attacco Poderoso ai danni inflitti da .
+un'arma leggera (escluse le armi naturali o i colpi senz'armi), non-
+. ostante la penalità ai tiri per colpire si applichi ugualmente. (In generale, si consideri un'arma doppia come un'arma leggera a una ma- .
+no . Se il personaggio decide di impugnarla a due mani, attaccando,
+in un round con una sola delle sue due estremità, la si consideri al-r
+fora un'arma a due mani) .
+Un guerriero può selezionare Attacco Poderosn ..4ane_uno dei
+suoi talenti bonus dei guerrieri (vedi pagina 38). . t
+Prerequisiti : Des 13, Mobilità, Schivare, bonus di attacco base +4 .
+Beneficio: Quando il personaggio compie un'azione di attacc o
+con un'arma da mischia, può muoversi sia prima sia dopo l'attacco ,
+purché la distanza totale percorsa non superi quella consentita dal -
+.+la propria velocità . Muoversi in questo modo non conferisce alcu n
++attacco di opportunità a chi si deve difendere da questo attacco, an-.
+oche se potrebbe provocare attacchi di opportunità da parte di altre.
++creature, come appropriato. Il personaggio non può utilizzare que-.
+.t.sto talento se indossa un'armatura pesante .
+Il personaggio, per sfruttare i benefici di Attacco Rapido, deve ,
+muoversi di almeno 1,5 metri sia prima che dopo aver portato l'at-.
+tacco.
+Speciale : Un guerriero può selezionare Attacco Rapido com e
+uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+11 personaggio è in grado di effettuare attacchi veloci in sella .
+Prerequisiti : Cavalcare 1 grado, Combattere in Sella.
+* Beneficio: Quando il personaggio è in sella e utilizza l'azione di ,
+. carica, può muoversi e attaccare con una carica standard e poi muo -
+versi ancora (continuando la linea retta della carica) . Il moviment o
+totale per quel round non può superare il doppio della propria velocità in sella . Il personaggio e la sua cavalcatura non subiscono alcun
+attacco di opportunità da parte dell'avversario attaccato .
+Speciale : Un guerriero può selezionare Attacco in Sella come
+uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+ATTACCO TURBINANTE [GENERALE ]
+Il personaggio può colpire avversari adiacenti con un attacco rapido.
+e travolgente .
+Prerequisiti : Des 13, Int 13, Attacco Rapido, Maestria in Com-,
+battimento, Mobilità, Schivare, bonus di attacco base +4 .
+Beneficio : Quando il personaggio compie un'azione di attacco.
+completo, può rinunciare agli attacchi normali ed effettuare un at -
+tacco in mischia con il bonus di attacco base intero contro ciascu n
+avversario che si trovi entro la portata .
+. Quando il personaggio utilizza il talento Attacco Turbinante, no n
+può applicare i bonus o gli attacchi extra conferiti da altri talenti o
+$capacità (come il talento Incalzare o l'incantesimo velocità).
+* Speciale : Un guerriero può selezionare Attacco Turbinante come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+AUMENTARE EVOCAZIONE [GENERALE]
+Le creature evocate sono sopra la media .
+Prerequisiti : Incantesimi Focalizzati (evocazione) .
+Beneficio: Ogni creatura evocata dal personaggio con un qualsiasi incantesimo di evocazione ottiene un bonus di potenziamento.
++4 alla Forza e alla Costituzione perla durata dell'incantesimo che la .
+ha evocata .
+AUTORITA [GENERALE ]
+Il personaggio fa parte di quel genere di individui che gli altri vogliono seguire, e si è messo all'opera per radunare gregari e seguaci .
+Prerequisito: Personaggio di 6° livello.
+Beneficio : Il personaggio può chiamare a sé compagni leali, seguaci devoti e subordinati che lo aiutino . Il DM possiede le informazioni sul tipo e sul numero di gregari che il personaggio è in grado di radunare .
+Speciale: Si consulti il DM prima di selezionare questo talento, e .
+poi si collabori con il DM per definire gregari e seguaci adatti al pro ,
+prio personaggio (la Guida del DUNGEON MAcrza contiene ulteriori
+informazioni su gregari e seguaci) .
+ATTACCO IN SELLA [GENERALE]
+AUTOSUFFICIENTE [GENERALE ]
+t
+Il personaggio sa badare a se stesso in climi rigidi e situazioni estreme .
+Beneficio : Il personaggio ottiene un bonus di +2 a tutte le .prove
+t di Guarire e Sopravvivenza .
+CARICA DEVASTANTE [GENERALE]
+ATTACCO RAPIDO [GENERALE]
+
+__	1
+
+Il personaggio è in grado di compiere una devastante carica in sella . ,
+Il personaggio è in grado di compiere veloci attacchi in mischia ed :
+
+Prerequisiti: Cavalcare 1 grado, Attacco in Sella, Combattere i n
+elaborati giochi di gambe .
+
+. Sella .
+COMBATTERE CON DUE ARMI
+MIGLIORATO [GENERALE ]
+11 personaggio è un esperto nel combattere con due armi.
+Prerequisiti : Des 17, Combattere con Due Armi, bonus di attac- .
+co base +6.
+Beneficio: Quando il personaggio è in sella e utilizza l'azione d i
+carica, infligge danni raddoppiati con un'arma da mischia (o dann i
+triplicati con una lancia da cavaliere) .
+Speciale : Un guerriero può selezionare Carica Devastante com e
+uno dei suoi talenti bonus dei guerrieri (vedi pagina 38). T
+COLPO SENZ'ARMI MIGLIORATO [GENERALE4
+,11 personaggio è in grado di combattere senz'armi .
+Beneficio: 1l personaggio è considerato armato anche quando 1
+, trova senz'armi ; in altre parole, un personaggio senz'armi che attac - }
+. ca avversari armati, non subisce alcun attacco di opportunità da par- .
+.te di questi ultimi. Tuttavia, questi può ancora effettuare un attacco
+. di opportunità contro qualsiasi avversario che lo attacchi senz'armi .
+In aggiunta, i colpi senz 'armi possono infliggere danni letali oppure danni non letali, a discrezione del personaggio .
+Normale: Un personaggio privo di questo talento viene considerato senz'armi quando combatte a mani nude, e può solo inflig-
+,gere danni non letali con questo tipo di attacco .
+Speciale : Un monaco riceve automaticamente Colpo Senz'Armi
+, Migliorato come talento bonus al 1° livello (vedi pagina 46). Non de-,
+ve selezionarlo .
+Un guerriero può selezionare Colpo Senz'Armi Migliorato come
+uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+Alla velocità del personaggio si applica soltanto la metà della nor
+male penalità, se questi non è in grado di vedere . L'oscurità e la scarsa visibilità in generale riducono la velocità a tre quarti del nonn a
+le, invece che a metà (vedi Tabella 9-4: "Movimento ostacolato", pagina 163).
+Normale : Si applicano i modificatori al tiro per colpire standard
+per gli attaccanti invisibili che cercano di colpire il personaggi o
+(vedi Tabella 8-5 : "Modificatori al tiro per colpire', pagina 151); quest'ultimo perde anche il bonus di Destrezza alla CA . Si applica inoltre la riduzione della velocità per l'oscurità e la scarsa visibilità (ved i
+Tabella 9-4 : "Movimento ostacolato", pagina 163).
+Speciale: Il talento Combattere alla Cieca non ha alcuna utilit à
+. contro un personaggio influenzato dall'incantesimo intermittenza.
+Un guerriero può selezionare Combattere alla Cieca come un o
+dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+i Beneficio : In aggiunta al normale attacco extra che possiede con
+la mano secondaria, il personaggio ottiene un secondo attacco con
+la mano secondaria, seppure con una penalità di -5 (vedi Tabella 8-8 :
+"Penalità al combattere con due armi ", pagina 154).
+. Normale : Un personaggio privo di questo talento, può solo dis- _
+. porre di un unico attacco extra con la mano secondaria .
+Speciale : Un ranger di 6° livello che ha scelto lo stile di combattimento con due armi, può attaccare come se possedesse Combatte -
+re con Due Armi Migliorato, persino se non soddisfa i suoi prere- .
+quisiti, purché indossi un'armatura leggera o nessuna armatura (ve- -
+di pagina 53).
+, Un guerriero può selezionare Combattere con Due Armi Miglio -
+rato come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+COMBATTERE CON DUE ARMI SUPERIOR E
+[GENERALE ]
+Il personaggio è un maestro nel combattere con due armi .
+Prerequisiti: Des 19, Combattere con Due Armi, Combatter e
+con Due Armi Migliorato, bonus di attacco base +11 .
+Beneficio: Il personaggio ottiene un terzo attacco con l'arma ch e
+impugna nella mano secondaria, seppure con una penalità di -10.
+Speciale : Un ranger di 11° livello che ha scelto lo stile di corn-,
+battimento con due armi, può attaccare come se possedesse Com-'
+battere con Due Armi Superiore, persino se non soddisfa i prere-,
+quisiti, purché indossi u n'armatura leggera o nessuna armatura (ve- .
+di pagina 53).
+Un guerriero può selezionare Combattere con Due Armi Su- ,
+periore come uno dei suoi talenti bonus dei guerrieri (vedi pagi- .
+na 38).
+COMBATTERE IN SELLA [GENERALE]	-
+Il personaggio è in grado di combattere in sella
+Prerequisito
+Beneficio: Una volta per round, quando la propria cavalcatur
+: Cavalcare 1 grado.
+.	
+a
+viene colpita in battaglia, il personaggio ottiene una prova di Cavalcare (come reazione) per negare il colpo. 11 colpo viene negato se la
+prova di Cavalcare è maggiore del tiro per colpire dell'avversario . (I n
+altre parole, la prova di Cavalcare si sostituisce alla Classe Armatur a
+della cavalcatura, sempre che questa risulti migliore della CA normale della cavalcatura) .
+Speciale : Un guerriero può selezionare Combattere in Sella come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+OMPETENZA NELLE ARMATURE
+(LEGGERE) [GENERALE ]
+Il personaggio è competente nell'uso delle armature leggere (ved i
+Tabella 7-6: "Armature e scudi", pagina 122).
+Beneficio : Quando il personaggio utilizza un tipo di armatura
+in cui è competente, la penalità di armatura alla prova si applica solo alle seguenti abilità : Acrobazia, Artista della Fuga, Equilibrio,
+Muoversi Silenziosamente, Nascondersi, Rapidità di Mano, Salta -
+re e Scalare .
+Normale : Un personaggio che indossa un'armatura in cui non è .,
+competente subisce la penalità di armatura alla prova al tiro per colo
+pire e a tutte le prove di abilità che riguardano il movimento, corn-.
+. prese le prove di Cavalcare .
+COMBATTERE ALLA CIECA [GENERALE ]
+Il personaggio sa come combattere in mischia pur non essendo i n
+_grado di vedere i nemici .
+Beneficio: In mischia, ogni volta che il personaggio manca l'avversano a causa dell'occultamento, può ripetere una volta il tiro per-
+, centuale fallito per vedere se è riuscito a colpire comunque (ved i
+, "Occultamento", pagina 151).
+Un attaccante invisibile non ottiene alcun vantaggio derivant e
+. dal colpire il personaggio in mischia . Cioè, il personaggio non per-
+, de il bonus positivo di Destrezza alla Classe Armatura e l'avversario
+non guadagna il normale bonus di +2 di invisibilità (vedi Tabella 8-
+5: "Modificatori al tiro per colpire" e Tabella 8-6 : "Modificatori all a
+Classe Armatura", pagina 151).Tuttavia, i bonus dell'attaccanteinvi- .
+sibilo si applicano lo stesso agli attacchi a distanza.
+COMBATTERE CON DUE ARMI [GENERALE]
+1l personaggio può combattere con un'arma in ogni mano . Può compiere un attacco extra ogni round con la seconda arma.
+Prerequisito : Des 15 .
+Beneficio: Si riducono le penalità del personaggio al tiro pe r
+. colpire nel combattimento con due armi . La penalità-della ma -
+,no primaria si riduce di 2 e quella della mano secondaria si ri -
+,duce di6
+Normale
+._	
+: Si veda "Combattere con due armi", pagina 154, e la Ta -
+, bella 8-8 : " Penalità al combattere con due armi", pagina 154.
+Speciale : Un ranger di 2° livello che ha scelto lo stile di combat -
+timento con due armi, può attaccare come se possedesse Combatte-, COMPETENZA NELLE ARMATURE (MEDIE )
+re con Due Armi, persino se non soddisfa i suoi prerequisiti, ma so
+
+[GENERALE]
+lo quando indossa un'armatura leggera o nessuna armatura (vedi pa- Il personaggio è competente nell'uso delle armature medie (vedi Ta
+4gina 53). . bella 7-6: "Armature e scudi", pagina 122).
+Un guerriero può selezionare Combattere con Due Armi come ;_ Prerequisito: Competenza nelle Armature (leggere).
+uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+.
+4
+	
+Beneficio: Vedi Competenza nelle Armature (leggere).
+Normale : Vedi Competenza nelle Armature (leggere) .
+_ Speciale : Barbari, bardi, chierici, druidi, guerrieri e paladini pos -
+Speciale : Tutte le classi tranne maghi, monatto stregoni, possie ,
+dono Competenza nelle Armature (leggere) come talento bonus . ,
+Non devono selezionarlo.
+r oz
+siedono Competenza nelle Armature (medie) come talentobonus.
+Non devono selezionarlo.
+-O
+Prerequisito: Bonus di attacco base +1 (più For t 3 per la spada
+bastarda o l'ascia da guerra nanica) .
+Beneficio: Il personaggio effettua normalmente il tiro per colpi -
+re con un'arma esotica.
+Normale : Un personaggio che utilizza m'arma in cui non è
+competente subisce una penalità di -4 al tiro per colpire .
+Speciale: Il personaggio può acquisire
+Competenza nelle Armi Esotiche più volte .
+Ogni volta che acquisisce il talento, lo dev e
+applicare a un nuovo tipo di arma esotica.
+Si noti che la competenza nell'uso della
+spada bastarda o dell'ascia da guerra nanic a
+richiede un prerequisito aggiuntivo di Fo r
+13 .
+Un guerriero può selezionare Competenz a
+nelle Armi Esotiche come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+COMPETENZA NELLE ARM I
+DA GUERRA [GENERALE]
+11 personaggio sceglie un tipo di arma d a
+. guerra, come l'arco lungo (vedi Tabella 7-5 : "Ar-
+- mi", pagina 116, per la lista delle armi da guerra).
+Egli sa come brandire quel tipo di arma da guerr a
+in battaglia .
+Questo talento serve per espandere la lista di armi
+in tutte le anni da guerra. Non devono selezionare questo talento .
+11 personaggio può acquisire Competenza nelle Armi da Guerr a
+più volte . Ogni volta che acquisisce il talento, lo deve applicare a u n
+nuovo tipo di arma .
+'
+
+Un chierico che sceglie il dominio della Guerra, automaticamen -
+te ottiene come talento bonus la Competenza nelle Armi da Guerra
++per l'arma preferita della propria divinità, purché quest'arma sia da .
+_guerra . Non deve selezionarlo.
+Un mago o uno stregone che lancia l'incantesimo trasformazione .
+.+tiLTenser su se stesso diventa competente in tutte le armi da guerra .
+per l'intera durata dell'incantesimo .
+COMPETENZA NELLE ARMI SEMPLIC I
+[GENERALE ]
+Il personaggio sa come brandire tutti i tipi di armi semplici in bat -
+taglia (vedi Tabella 7-5 : "Armi", pagina 116, per la lista delle arm i
+semplici).
+4
+Beneficio: Il personaggio effettua normalmente il tiro per colpi- ,
+	recon le armi semplici.
+4 Normale: Un personaggio che utilizza un'arma in cui non è com-.
+petente subisce una penalità di -4 al tiro per colpire .
+Speciale: Tutti i personaggi, tranne druidi, ladri, maghi e monaci, sono automaticamente competenti in tutte le armi semplici . No n
+devono selezionare questo talento .
+Un mago o uno stregone che lancia l'incantesimo trasformazione
+di Tenser su se stesso diventa competente in tutte le armi semplic i
+per l'intera durata dell'incantesimo .
+COMPETENZA NEGLI SCUDI [GENERALE]
+Il personaggio_é competente nell'uso dei buckler, degli scudi legge- .
+ri e degli scudi pesanti .
+Beneficio: 11 personaggio può imbracciare uno scudo e subire,
+soltanto le penalità standard (vedi Tabella 7-6 : "Armature e scudi" „
+pagina 122).
+Normale : Un personaggio che utilizza uno scudo in cui non è
+competente subisce la penalità di armatura alla prova dello scudo a l
+tiro per colpire e a tutti i tiri di abilità che riguardano il movimento,
+, comprese le prove di Cavalcare .
+Speciale : Barbari, bardi, chierici, druidi, guerrieri, paladini e ran -
+- +ger possiedono automaticamente Competenza negli Scudi come ta -
+4. lento bonus. Non devono selezionarlo.
+COMPETENZA NEGLI SCUDI TORRE
+[GENERALE]
+Il personaggio è competente nell'uso degli scudi torre.
+Prerequisito : Competenza negli Scudi.
+Beneficio: 11 personaggio può imbrac -
+. ciare uno scudo torre e subire soltant o
+le penalità standard (vedi Tabella 7-6 : ,
+r J
+
+o "Armature e scudi", pagina 122).
+Normale: Un personaggio che utilizza
+uno scudo in cui non è competente subisce la penalità di armatura alla prova del -
+lo scudo al tiro per colpire e a tutti i tiri d i
+abilità che riguardano il movimento,
+comprese le prove di Cavalcare .
+Speciale: I guerrieri possiedono auto - maticamente Competenza negli Scudi Torre come talento bonus. Non devono sele -
+zionarlo.
+CONTROINCANTESIMO
+W MIGLIORATO [GENERALE]
+Il personaggio riesce a cogliere le più picco-,
+le sfumature nella magia, al punto di riuscire a
++contrastare gli incantesimi degli avversari con grande efficacia .
+4 Beneficio : Quando il personaggio contrasta una magia, può lan -
+tiare un incantesimo della stessa scuola che è superiore di uno o più ,
+. livelli di quello dell'incantesimo contrastato .
+Normale : Un personaggio privo di questo talento può contrasta- ,
+. re solo incantesimi che hanno lo stesso livello dell'incantesimo ore -
++spingere incantesimi che vengono specificatamente contrastati da
+t un certo incantesimo (vedi pagina 170).
+COMPETENZA NELLE ARMATURE
+Il personaggio è competente nell'uso delle armature pesanti (vedi.
+Tabella 7-6: "Armature e scudi" , pagina 122).
+Prerequisiti : Competenza nelle Armature (leggere), Competenza nelle Armature (medie).
+Beneficio: Vedi Competenza nelle Armature (leggere) .
+Normale : Vedi Competenza nelle Armature (leggere) .
+Speciale : Chierici, guerrieri e paladini possiedono Competenz a
+nelle Armature (pesanti) come talento bonus. Non devono selezionarlo.
+COMPETENZA NELLE ARMI ESOTICH E
+[GENERALE]
+11 personaggio sceglie un tipo di arma esotica, come il mazzafrusto ,
+doppio o le shuriken (vedi Tabella 7-5 : 'Armi", pagina 116, per lali 4
+sta delle armi esotiche). Egli sa come brandire quel tipo di arma eso-.
+fica in battaglia.
+i
+ad. o
+- -t
+in cui si è competenti, oltre a quella base riportata nelle rispettive
+descrizioni delle classi dei personaggi.
+Beneficio: il personaggio effettua normalmente il tiro per colpi- ,
+re con un'arma da guerra .
+Normale : Un personaggio che utilizza m'arma in cui non è-com-t
+petente subisce una penalità di -4 al tiro per colpire .
+Speciale : Barbari, guerrieri, paladini e ranger sono competenti '
+1
+P
+o
+F
+in
+Beneficio : Un personaggio che va di corsa, è cinque volt e
+più veloce della sua normale velocità (se indossa un'armatur a
+leggera o nessuna armatura e trasporta al massimo un carico leg- _
+gero) o quattro volte più veloce (se indossa un'armatura media o ,
+, pesante e trasporta un carico medio o pesante). Se il personag- ,
+,gio fa un salto con rincorsa (vedi la descrizione dell'abilità Sal- .
+,tare, pagina 81), ottiene un bonus di +4 alla prova di Saltare . Il ,
+.personaggio che va di corsa, non perde il proprio bonus di De- ,
+strezza alla CA.
+Normale : Un personaggio che va di corsa, è quattro volte più ve -
+. loce della sua normale velocità (se indossa un'armatura leggera o
+nessuna armatura e trasporta al massimo un carico leggero) o tre
+volte più veloce (se indossa un'armatura media o pesante e trasporta un carico medio o pesante), e perde inoltre il proprio bonus d i
+.Destrezza alla CA.
+CREARE ARMI E ARMATURE MAGICHE
+[CREAZIONE OGGETTO] •
+Il personaggio può creare armi, armature e scudi magici .
+Prerequisito: Incantatore di 5°livello.
+Beneficio: Il personaggio può creare qualsiasi arma, armatura o
+scudo magico di cui si soddisfino i prerequisiti (vedi la Guida de l
+DuNGWON MASTER per i prerequisiti e le altre informazioni su quest i
+oggetti) . Il potenziamento di un'arma, di un'armatura completa o d i
+,uno scudo richiede un giorno per ogni 1 .000 mo del costo delle ri-
+, spettive caratteristiche magiche . Per potenziare un'arma, un'armatu-
+, ra o uno scudo il personaggio deve spendere 1/25 del prezzo totale
+. delle sue caratteristiche magiche in PE e consumare materie prim e
+, per un costo pari alla metà di questo prezzo totale.
+L'arma, l'armatura o lo scudo da potenziare deve essere un ogget-
+, to perfetto, fornito dal personaggio. Il suo costo non è incluso ne l
+, costo descritto sopra .
+E inoltre possibile riparare un'arma, un'armatura completa o uno
+scudo magico rotto, purché si tratti di uno di quelli che il personaggio è in grado di creare. In questo modo la riparazione costa met à
+dei PE, delle materie prime e del tempo che altrimenti servirebbero ,
+per incantare l'arma, l'armatura o lo scudo la prima volta .
+CREARE BASTONI [CREAZIONE OGGETTO ]
+Il personaggio può creare bastoni magici, ciascuno dei quali possie -
+. de molteplici effetti magici.
+Prerequisito : Incantatore di 12° livello.
+Beneficio: Il personaggio può creare qualsiasi bastone di cui si
+, soddisfino i prerequisiti (vedi la Guida del DUNGEON MASTER per i
+prerequisiti e le altre informazioni su questi oggetti). La creazione d i
+un bastone richiede un giorno per ogni 1 .000 mo del suo prezzo ba--t
+se. Per creare un bastone il personaggio deve spendere 1/25 di quetsto prezzo base in PE e consumare materie prime per un costo pari
+alla metà del prezzo base . Un bastone di nuova creazione contiene ,
+, 50 cariche .
+Alcuni bastoni richiedono un costo extra in componenti mate- ,
+riali o in PE come riportato nelle rispettive descrizioni . Questi costit
+sono in aggiunta a quelli derivanti dal prezzo base del bastone .
+CREARE OGGETTI MERAVIGLIOS I
+[CREAZIONE OGGETTO]
+11 personaggio può creare u n'ampia varietà di oggetti magici, come .
+sfere di c ristallo e tappeti volanti .
+Prerequisito: Incantatore di 3' livello.
+, Beneficio: Il personaggio può creare qualsiasi oggetto meraviglio -
+. sodi cui si soddisfino i prerequisiti (vedi la Guida del DUNGEON MASTE R
+per i prerequisiti e le altre informazioni sugli oggetti meravigliosi).
+I:incantamento di un oggetto meraviglioso richiede un giorno per .
+. ogni 1 .000 mo del suo prezzo. Per incantare un oggetto meraviglioso ,
+il personaggio deve spendere 1/25 del suo prezzo in PE e consumare .
+materie prime per un costo pari alla metà del prezzo base .
+E inoltre possibile riparare un oggetto meraviglioso, purché si trat -
+ti di uno di quelli che il personaggio è in grado di creare. In questo mo- .
+do la riparazione costa metà dei PE, delle materie prime e del tempo .
+che altrimenti servirebbero per incantare quell'oggetto la prima volta .
+. Alcuni oggetti meravigliosi richiedono un costo extra in compo -
+, nenti materiali o in PE come riportato nelle rispettive descrizioni. .
+Questi costi sono in aggiunta a quelli derivanti dal prezzo base del- ,
+_l'oggetto. Il personaggio deve affrontare questi costi per creare u n
+oggetto o per ripararne uno rotto .
+CREARE VERGHE [CREAZIONE OGGETTO]
+11 personaggio può creare verghe magiche che possiedono i più sva -
+riati effetti magici .
+Prerequisito : Incantatore di 9' livello.
+Beneficio: Il personaggio può creare qualsiasi verga di cui si sod-,
+disfino i prerequisiti (vedi la Guida del DUNGEON MASTER peri prece- .
+quisiti e le altre informazioni su questi oggetti) . La creazione di un a
+verga richiede un giorno per ogni 1 .000 mo del suo prezzo base . Pe r
+creare una verga il personaggio deve spendere 1/25 di questo prez- .
+zo base in PE e consumare materie prime per un costo pari alla me - .
+tà del prezzo base .
+Alcune verghe richiedono un costo extra in componenti materiali o in PE come riportato nelle rispettive descrizioni . Questi costi
+sono in aggiunta a quelli derivanti dal prezzo base della verga .
+CRITICO MIGLIORATO [GENERALE ]
+Il personaggio sceglie un tipo di arma, come la spada lunga o l'asci a
+bipenne . Con quest 'arma, egli sa come colpire nei punti dove fa male .
+Prerequisiti: Competenza nell'arma, bonus di attacco base +8 .
+Beneficio: Quando il personaggio impugna l'arma prescelta, l'intervallo di minaccia di quell'arma viene raddoppiato. Ad esempio ,
+una spada lunga normalmente segna una minaccia di critico con un
+tiro di 19 o di 20 (due numeri). Se il personaggio, che utilizza la spa -
+da lunga, possiede Critico Migliorato (spada lunga), allora l'interval -
+lo di minaccia si estende da 17 a 20 (quattro numeri).
+Speciale : Il personaggio può acquisire Critico Migliorato più volte . I suoi effetti non sono cumulabili . Ogni volta che il personaggi o
+acquisisce il talento, lo deve applicare a un nuovo tipo di arma .
+Questo bonus non è cumulabile con alcun altro effetto che esten -
+de l'intervallo di minaccia (come l'incantesimo estremità affilata) .
+Un guerriero può selezionare Critico Migliorato come uno de i
+suoi talenti bonus dei guerrieri (vedi pagina 38).
+DEVIARE FRECCE [GENERALE ]
+Il personaggio è in grado di deviare le frecce in arrivo, così come i ,
+quadrelli delle balestre, le lance e le altre armi da tiro o da lancio.
+Prerequisiti : Des 13, Colpo Senz'Armi Migliorato.
+Beneficio: Il personaggio deve avere almeno una mano libera ,
+, (che non impugna niente) per utilizzare questo talento . Una volta ,
+per round, quando il personaggio sarebbe normalmente colpito da .
+un'arma a distanza, può deviarla in modo da non subire danni . 11 .
+. personaggio deve essere consapevole dell'attacco e non essere colto
+. alla sprovvista . Il tentativo di deviare u n'arma a distanza non va con-
+, teggiato come azione . Lanci eccezionali, come macigni scagliati d a
+giganti o attacchi a distanza derivanti da effetti degli incantesimi ,
+come la
+Speciale
+freccia
+: Un monaco può selezionare Deviare Frecce come taacida di Melf, non possono essere deviati._	
+,
+. lento bonus al 2' livello (vedi pagina 47), anche se non soddisfa i
+. prerequisiti .
+. Un guerriero può selezionare Deviare Frecce come uno dei suo i
+talenti bonus dei guerrieri (vedi pagina 38).
+CORRERE [GENERALE ]
+Il personaggio corre velocemente.
+CREARE BACCHETTE [CREAZIONE OGGETTO ]
+Il personaggio può creare bacchette che lanciano incantesimi (ved i
+la Guida del DUNGEON MASTER perle regole sulle bacchette).
+Prerequisito: Incantatore di 5' livello .
+Beneficio: È creare una bacchetta di qualsiasi incantesimo di 4'
+livello o inferiore che il personaggio conosce . La creazione di una
+bacchetta richiede un giorno per ogni 1 .000 mo del suo prezzo ba-
+. se . Il prezzo base di una bacchetta è il livello dell'incantesimo x il livello dell'incantatore x 750 mo . Per creare una bacchetta il personaggio deve spendere 1/25 di questo prezzo base in PE e consuma-
+. re materie prime per un costo pari alla metà del prezzo base . Una
+bacchetta di nuova creazione possiede 50 cariche .
+Qualsiasi bacchetta che racchiude un incantesimo con componente materiale costosa o con un costo in PE comporta anche un costo extra in proporzione . In aggiunta al costo derivante dal prezzo
+base, il personaggio deve consumare cinquanta copie della componente materiale oppure pagare cinquanta volte il costo in PE.
+r1 i
+~
+'s
+s .64'
+DIFENDERE CON DUE ARMI [GENERALE]
+. 11 personaggio adotta il proprio stile di combattimento con due ar -
+mi tanto in difesa quanto in attacco .
+Prerequisiti: Des 15, Combattere con Due Armi .
+Beneficio: Quando il personaggio impugna un'arma doppia o}
+due armi (escluse le armi naturali_o i colpi senz'armi), ottiene uni_
+bonus di +1 alla propria CA.
+Quando il personaggio combatte sulla difensiva o compie un'a -
+zione di difesa totale, tale bonus di scudo aumenta a +2 .
+Speciale : Un guerriero può selezionare Difendere con Due ,
+Armi come uno dei suoi talenti bonus dei guerrieri (vedi pagin a
+38).
+DISARMARE MIGLIORATO [GENERALE]
+11 personaggio sa come disarmare gli avversari negli scontri in mi-
+. schia .
+Prerequisiti: lnt 13, Maestria in Combattimento .
+Beneficio: Il personaggio non provoca alcun attacco di oppor-
+. tunità quando tenta di disarmare un avversario, né può venire a
+, sua volta disarmatola quest'ultimo . Il personaggio inoltre ottien e
+}} un bonus di i4_ alle prove contrapposte di Forza effettuate per dis -
+larmare il proprio avversario .
+Ir Normale: Vedi le regole generali per disarmare, pagina 155 .
+Speciale : Un monaco può selezionare Disarmare Migliorat o
+come talento bonus al 6' livello (vedi pagina 47), anche se non sod -
+disfa i prerequisiti .
+Un guerriero può selezionare Disarmare Migliorato come un o
+dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+DITA SOTTILI [GENERALE]
+11 personaggio manipola con molta cura gli oggetti minuscoli e
+fragili .
+Beneficio: Il personaggio ottiene tin bonus di +2 a tutte le prove di Disattivare Congegni e Scassinare Serrature .
+DURO A MORIRE [GENERALE]
+Il personaggio può resistere ad attacchi che normalmente farebbero cadere a terra privi di sensi.
+Prerequisito: Resistenza Fisica .
+Beneficio: Se i punti ferita diminuiscono fino a raggiunger e
+valori compresi tra -1 e -9, il personaggio si stabilizza automatica -
+mente . In altre parole, il personaggio non tira il d% per arrestare l a
+perdita di 1 punto ferita al round .
+Se i punti ferita del personaggio diminuiscono fino a raggiungere un valore negativo, questi può scegliere di agire come se fosse inabile invece che morente . Tale scelta va compiuta nel preciso
+istante in cui i punti ferita del personaggio scendono sotto lo 0
+(anche se non è il suo turno). Se non compie questa scelta, il personaggio cade subito a terra privo di sensi .
+Quando utilizza questo talento, il personaggio può compiere
+. una sola azione ogni turno, a scelta tra azioni di movimento e azio-
+. ni standard, ma non entrambe, e non può compiere un'azione d i
+round completo. Il personaggio può compiere un' azione di movi-
+. mento senza subire alcun danno, ma se esegue una qualsiasi azio -
+, ne standard (o qualsiasi altra azione che il DM giudichi stancante, ,
+, comprese alcune azioni gratuite come lanciare incantesimi rapidi), egli subisce 1 danno dopo averla completata . Se i punti ferita .
+diventano minori o uguali a -10, il personaggio muore sul colpo
+Normale: Un personaggio privo di questo talento, i citi punti,
+ferita diminuiscono fino a raggiungere valori compresi tra - .Le :9„
+è privo di sensi e morente, come descritto nel_ Capitolo 8 : "Com-
+. battimento.'. .
+ESCLUDERE MATERIALI [GENERALE1
+Il personaggio può lanciare incantesimi facendo a meno delle ,
+componenti materiali.
+Beneficio: II personaggio può lanciare qualsiasi incantesimo
+che necessiti di_una componente materiale del costo di 1 mo o
+meno, senza aver bisogno di quella componente (lanciare l'incan -
+tesimo provoca comunque un attacco di opportunità, come di norma). Se l'incantesimo richiede una componente il cui costo è mag -
+-
+giore di 1 mo, il personaggio deve avere a portata di mano quella
+, componente per lanciare l'incantesimo, proprio come di norma .
+ESTRAZIONE RAPIDA [GENERALE]
+▪
+Il personaggio può estrarre le armi a velocità impressionante .
+Prerequisito : Bonus di attacco base +1 .
+Beneficio: Il personaggio può estrarre un'arma come azione ,
+gratuita invece che come azione di movimento. Può estrarre un'ar-.
+ma nascosta (vedi l'abilità Rapidità di Mano, pagina 81) come azio -.
+ne di movimento .
+Un personaggio che ha scelto questo talento può lanciare arm i
+al suo normale numero completo di attacchi (proprio come u n
+personaggio con l' arco).
+Normale : Un personaggio privo di questo talento, può estrar-,
+reun'arma come azione di movimento, o (se il personaggio habo- ,
+nus di attacco base pari o superiore a +1) come azione gratuita, in-,
+clusa nel movimento (vedi pagina 142). Un personaggio privo d i
+questo talento, può estrarre un'arma nascosta soltanto come azio -
+ne standard.
+Speciale : Un guerriero può selezionare Estrazione Rapida co -
+me uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+FINTARE MIGLIORATO [GENERALE]
+Il personaggio è_ingrado di confondere le idee agli avversari con- ,
+tro cui combatte.
+Prerequisiti: int 13, Maestria in Combattimento.
+Beneficio: Il personaggio può effettuare una finta nel corso,
+della battaglia, come se fosse un'azione di movimento .
+Normale : Fare una finta in mischia è un'azione standard (vedi
+.
+pagina 156).
+Speciale : Un guerriero può selezionare Fintare Migliorato co -
+me tino dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+FORGIARE ANELLI [CREAZIONE OGGETTO ]
+_.ILpersonaggio può creare anelli magici che possiedono i più sva -
+_, -iati effetti magici .
+_ Prerequisito : Incantatore di 12° livello .
+Beneficio: Il personaggio può creare qualsiasi anello di cui si
+soddisfino i prerequisiti (vedi la Guida del DUNGEON MASTER per i
+prerequisiti e le altre informazioni sugli anelli). La forgiatura di ti n
+anello richiede un giorno per ogni_1 .000 mo del sito prezzo base .
+Per forgiare un anello il personaggio deve spendere 1/25 di quest o
+prezzo base in PE e consumare materie prime per un costo pari al -
+la metà del suo prezzo base
+È inoltre possibile riparare un anello rotto, purché si tratti di ,
+uno di quelli che il personaggio è in grado di forgiare . In questo,
+modo la riparazione costa metà dei PE, delle materie prime e del .
+tempo che altrimenti servirebbero per forgiare quell'anello la prima volta.
+Alcuni anelli magici richiedono un costo extra in component i
+materiali o in PE come riportatonelle rispettive descrizioni . Ad
+esempio, tin anello dei tre desideri costa 15.000 PE oltre al costo legato al suo prezzo base (lo stesso costo in PE per lanciare tre volt e
+desiderio). Questi costi sono in aggiunta a quelli derivanti dal prez -
+zo base dell'oggetto.. il personaggio deve affrontare questi costi pe r
+creare un anello o per ripararne uno rotto.
+FURTIVO [GENERALE]
+11 personaggio è talmente impercettibile da passare inosservato ;
+Beneficio: Il personaggio ottiene un bonus_di±2 atuttelepro-
+. ve di Muoversi Silenziosamente e Nascondersi.
+Beneficio: Se il personaggio infligge un numero di danni sufficienti per atterrare una creatura (in genere riducendola a 0 pun-.
+. ti ferita o uccidendola), egli ottiene all'istante un attacco in mi-
+, schia extra contro un'altra creatura che si trovi entro la portata . I l
+DILIGENTE [GENERALE]
+il personaggio, grazie alla sua meticolosità, riesce a cogliere detta -
+gli nascosti che sfuggono ai più .
+Beneficio: Il personaggio ottiene un bonus di +2 a tutte le pr ot
+ve di Decifrare Scrittore e Valutare .
+INCALZARE [GENERALE]
+Il personaggio può proseguire l'attacco concolpi portenti.
+Prerequisiti : For 13, Attacco Poderoso .
+personaggio non può fare un passo di 1,5 metri se prima non ha
+compiuto questo attacco extra . Lattacco extra avviene con la stessa arma e con lo stesso bonus di attacco che ha atterrato la creatura precedente . Il personaggio può utilizzare questa capacità sol o
+una volta per round .
+Speciale : Un guerriero può selezionare Incalzare come uno
+
+	tiei J
+. suoi talenti bonus dei guerrieri (vedi pagina 38).
+INCALZARE POTENZIATO [GENERALE]
+-~
+. Il personaggio può brandire un'arma da mischia con una potenza ta-_
+. le da attaccare più volte quando i nemici cadono sotto i suoi colpi . .
+Prerequisiti : For 13, Attacco_Poderoso, Incalzare, bonus di attacco base +4 .
+Beneficio: Questo talento funziona come Incalzare, tranne pe r
+il fatto che il personaggio non ha un numero massimo di volte ch e
+può utilizzarlo a ogni round .
+Speciale: Un guerriero può selezionare Incalzare Potenziat o
+.come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+t
+INCANTARE IN COMBATTIMENTO
+[GENERALE ]
+Il personaggio è in grado di lanciare incantesimi in combattimento .
+Beneficio: Il personaggio ottiene un bonus di +4 alle prove d i
+Concentrazione effettuate per lanciare un incantesimo o utilizza -
+re una capacità magica mentre è sulla difensiva (vedi "Incantar e
+sulla difensiva", pagina 140) o quando si è in lotta o immobilizzat i
+(vedi "Lottare", pagina 156).
+INCANTESIMI AMPLIATI [METAMAGIA]
+. Il personaggio può aumentare l'area dei suoi incantesimi .
+Beneficio: 11 personaggio modifica la linea, l'emanazione, l'e -
+.splosione o la propagazione di un incantesimo per aumentare l 'a -
+. rea influenzata . Qualsiasi estensione numerica dell'area dell'in-
+. cantesimo, aumenta del 100% . Ad esempio, una palla di fuoco (in ge -
+nere essa produce una propagazione del raggio di 6 metri) che vie -
+ne ampliata, occupa una propagazione del raggio di 12 metri . Un
+incantesimo ingrandito occupa uno slot incantesimo di tre livelli
+superiore a quello effettivo dell'incantesimo .
+Gli incantesimi la cui area non rientri in alcuna delle quattro	ca- ,
+tegorie sopra riportate non sono influenzati da questo talento,
+INCANTESIMI ESTESI [METAMAGIA]
+11 personaggio può lanciare incantesimi che durano più a lungo
+del normale .
+Beneficio: Un incantesimo esteso dura il doppio del normale .
+Gli incantesimi la cui durata è concentrazione, istantanea o permanente non sono influenzati da questo talento. Un incantesimo
+.esteso occupa uno slot incantesimo di un livello superiore a quel -
+lo effettivo dell'incantesimo.
+INCANTESIMI FOCALIZZATI [GENERALE]
+Il personaggio sceglie una scuola di magia, come ad esempio illusione . Gli incantesimidi quella scuola diventano più potenti de l
+nonnale.
+
+_
+Beneficio: Aggiunge +1 alla Classe Difficoltà di tutti i tiri salvezza contro gli incantesimi della scuola selezionata dal personaggio .
+Speciale: Il personaggio può acquisire Incantesimi Focalizzat i
+piìt volte . I suoi effetti non sono cumulabili. Ogni volta che il per-
+. sonaggio acquisisce il talento, lo deve applicare a una nuova scuola di magia .
+INCANTESIMI FOCALIZZATI SUPERIORE
+[GENERALE]
+Il personaggio sceglie una scuola di magia, cui ha già applicato il
+talento Incantesimi Focalizzati . Gli incantesimi di quella scuola .
+lanciati dal personaggio diventano più potenti che mai .
+Prerequisito: Incantesimi Focalizzati.
+. Beneficio: Aggiunge +1 alla Classe Difficoltà di tutti i tiri salvezza contro gli incantesimi della scuola selezionata dal personaggio. Questo bonus è cumulabile con quello derivante da Incantesimi .Focalizzati.
+Speciale: 11 personaggio può acquisire Incantesimi Focalizzati
+Superiore più volte . 1 suoi effetti non sono cumulabili . Ogni volta .
+che il personaggio acquisisce il talento, lo deve applicare a una .
+nuova scuola di magia, cui ha già applicato il talento Incantesimi .
+Focalizzati .
+INCANTESIMI IMMOBILI [METAMAGIA]
+.11 personaggio può lanciare incantesimi senza compiere gesti .
+Beneficio: 11 personaggio può lanciare un incantesimo immobile senza le componenti somatiche . Gli incantesimi privi di corn- .
+. ponenti somatiche non sono influenzati . Un incantesimo immo-_
+bile occupa uno slot incantesimo di un livello superiore a quello .
+effettivo dell'incantesimo .
+INCANTESIMI INARRESTABILI [GENERALE] _ Gli incantesimi del personaggio sono molto potenti e penetrano .
+attraverso la resistenza agli incantesimi con più facilità del nor-
+, male .
+Beneficio: 11 personaggio ottiene un bonus di +2 alle prove d i
+.livello dell'incantatore (1d20 + livello dell'incantatore) effettuat e
+_per superare la resistenza agli incantesimi di una creatura.
+INCANTESIMI INARRESTABILI SUPERIORE
+[GENERALE]
+Gli incantesimi del personaggio sono oltremodo potenti e penetrano attraverso la resistenza agli incantesimi con più facilità de l
+normale .
+Prerequisito: Incantesimi Inarrestabili .	_
+Beneficio : Il personaggio ottiene un bonus di +2 alle prove di .
+livello dell'incantatore (1d20 + livello dell'incantatore) effettuate .
+per superare la resistenza agli incantesimi di una creatura . Questo,
+bonus è cumulabile con quello derivante da Incantesimi lnarrstabili .
+INCANTESIMI INGRANDITI [METAMAGIA]
+Il personaggio può lanciare incantesimi più lontano del normale .
+Beneficio: il personaggio può modificare un incantesimo con
+raggio di azione vicino, medio o lungo per ingrandirlo del 100%.
+Un incantesimo ingrandito con raggio di azione vicino vien e
+quindi ad avere un raggio di azione di 15 m + 1,5 m per livello,
+mentre gli incantesimi con .raggio di azione medio ottengono u n
+raggio di azione di 60 m + 6m per livello e infine quelli con raggio di azione lungo arrivano a un raggio di azione di 240 m + 24 m
+per livello . Un incantesimo ingrandito occupa uno slot incantesimo di un livello superiore a quello effettivo dell'incantesimo .
+Gli incantesimi i cui raggi di azione non sono definiti dalla distanza, e allo stesso modo gli incantesimi i cui raggi di azione no n
+sono vicino, medio o lontano, non possono essere ingranditi .
+INCANTESIMI INTENSIFICATI
+[METAMAGIA]
+Il personaggio può lanciare un incantesimo come se quest'ultim o
+fosse di un livello superiore a quello effettivo .
+Beneficio: Un incantesimo intensificato ha un livello di incantesimo più alto del normale (fino a un massimo del 9° livello).
+A differenza di altri talenti di metamagia, Incantesimi intensifica -
+ti aumenta a tutti gli effetti il vero e proprio livello dell'incantesimo su cui viene applicato. Tutti gli effetti dipendenti dal livello .
+dell'incantesimo (come la CD dei tiri salvezza e la capacità di pe- .
+netrare un globo minore di invulnerabilità) sono calcolati sulla base .
+del livello intensificato. L'.incantesimo intensificato è difficile da_
+. preparare e da lanciare, proprio come se fosse un incantesimo di.
+quel livello effettivo. Ad esempio, un chierico potrebbe preparare.
+blocca persone come incantesimo di 4° livello (invece che come in-_
+. cantesimo di 2° livello) e quest'ultimo sarebbe identico sotto ogni
+punto di vista a un vero e proprio incantesimo di 4° livello .
+INCANTESIMI MASSIMIZZATI [METAMAGIA]
+11 personaggio può lanciare incantesimi al massimo effetto pos4 _
+sibile .
+Beneficio: Tutti gli effetti numerici variabili di un incantesimo
+. modificato da questo talento, sono elevati alla massima potenza . U n
+incantesimo massimizzato infligge il danno massimo, cura il numero massimo di punti ferita, ha effetto sul numero massimo di bersa -
+x
+Li)
+O
+O W
+— Q
+Q
+V
+gli ecc ., come appropriato. Ad esempio, un incantesimo palla di fuoco massimizzato infligge 6 danni per ogni livello dell'incantatore (fi -
+no a un massimo di 60 danni al 10° livello dell'incantatore). Non ha
+alcun effetto sui tiri salvezza e sui tiri contrapposti (come quelli ch e
+si effettuano con un dissolvi magie), né sugli incantesimi privi di va -
+riabili casuali. Un incantesimo massimizzato occupa uno slot incantesimo di tre livelli superiore a quello effettivo dell'incantesimo.
+Un incantesimo sia potenziato che massimizzato, ottiene i benefici separati di ciascun talento: il risultato massimo più la metà
+del risultato che normalmente si otterrebbe . Una palla di fuoco potenziata e massimizzata lanciata da un mago di 15° livello infligge
+60 danni più la metà di 10d6 .
+INCANTESIMI NATURALI [GENERALE]
+Il personaggio può lanciare incantesimi in forma selvatica .
+Prerequisiti : Sag 13, capacità di forma selvatica ,
+Beneficio: Il personaggio può sostituire le componenti verbali e
+somatiche degli incantesimi mentre è in forma selvatica . Ad esempio,
+mentre è in forma di falco, può sostituire le normali component i
+verbali e somatiche di un incantesimo con stridii e movimenti degl i
+artigli . Il personaggio può utilizzare tutte le componenti materiali o
+focus che riesce a tenere in un'estremità della sua forma attuale, m a
+non può utilizzare tutti quegli oggetti fusi in quella forma. Questo
+talento non consente l'uso di oggetti magici mentre si è in una forma che non potrebbe normalmente utilizzarli, e il personaggio no n
+ottiene la capacità di parlare mentre è in forma selvatica .
+INCANTESIMI POTENZIATI [METAMAGIA]
+Il personaggio può lanciare incantesimi con effetti superiori.
+Beneficio: Tutti gli effetti numerici variabili di un incantesim o
+potenziato aumentano del 50%. Un incantesimo potenziato infligge il 50% in più del danno, cura il 50% in più dei punti ferita, ha effetto sul 50% in più di bersagli, e così via, come appropriato. Ad
+esempio, un incantesimo dardo incantato potenziato infligge il 50%
+in più dei danni normali (per ogni dardo occorre tirare 1d4+1 e poi
+moltiplicare ciascun risultato per 1,5). Questo talento non si applica ai tiri salvezza e ai tiri contrapposti (come quello che il personaggio effettua quando lancia dissolvi magie) né agli incantesimi
+privi di variabili casuali. Un incantesimo potenziato occupa uno
+slot di due livelli superiore a quello effettivo dell'incantesimo.
+INCANTESIMI RAPIDI [METAMAGIA]
+11 personaggio può lanciare un incantesimo alla velocità del pen -
+siero .
+Beneficio : 11 lancio di un incantesimo rapido è un'azione gratui -
+ta . Il personaggio può compiere un'altra azione, persino lanciare u n
+altro incantesimo, nello stesso round in cui lancia un incantesim o
+rapido. Il personaggio può lanciare soltanto un incantesimo rapid o
+per round. Un incantesimo il cui tempo di lancio sia più lungo di 1
+azione di round completo non si può rapidizzare . Un incantesimo
+rapido occupa uno slot incantesimo di quattro livelli superiore a
+quello effettivo dell'incantesimo. Lanciare un incantesimo rapid o
+non provoca alcun attacco di opportunità .
+Speciale : Questo talento non può essere applicato agli incantesimi lanciati spontaneamente (compresi quelli di bardi, chierici,
+druidi e stregoni), poiché usare un talento di metamagia per lanciare un incantesimo in questo modo aumenta automaticamente i l
+tempo di lancio a un'azione di round completo .
+INCANTESIMI SILENZIOSI [METAMAGIA]
+Il personaggio può lanciare incantesimi silenziosamente .
+Beneficio: Il personaggio può lanciare un incantesimo silenzioso senza le componenti verbali . Gli incantesimi privi di componenti verbali non sono influenzati. Un incantesimo silenzioso
+occupa uno slot incantesimo di un livello superiore a quello effettivo dell'incantesimo .
+Speciale : Gli incantesimi da bardo non possono essere potenziati da questo talento.
+INDAGATORE [GENERALE]
+11 personaggio sa come scovare le informazioni .
+Beneficio : Il personaggio ottiene un bonus di +2 a tutte le prove di Cercare e Raccogliere Informazioni .
+INGANNEVOLE [GENERALE]
+Il personaggio sa come mascherare la verità .
+Beneficio: Il personaggio ottiene un bonus di +2 a tutte le prove di Camuffare e Falsificare .
+INIZIATIVA MIGLIORATA [GENERALE]
+Il personaggio reagisce molto più velocemente del normale in
+combattimento.
++ Beneficio: Il personaggio ottiene un bonus di +4 ai tiri di imi- .
+ziativa .
+Speciale: Un guerriero può selezionare Iniziativa Migliorat a
+come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+LOTTARE MIGLIORATO [GENERALE]
+Il personaggio è esperto nel lottare con gli avversari .
+Prerequisiti: Des 13, Colpo Senz'Armi Migliorato.
+Beneficio: Il personaggio non provoca alcun attacco di oppor-
+. tunità, quando effettua un attacco di contatto per dare inizio a una
+lotta . Il personaggio inoltre ottiene un bonus di +4 a tutte le pro- ,
+ve di lottare, a prescindere che abbia iniziato o meno la lotta .
+
+.
+Normale : Un personaggio privo di questo talento, provoca u n
+attacco di opportunità quando effettua un attacco di contatto pe r
+dare inizio a una lotta .
+Speciale: Un monaco può selezionare Lottare Migliorato com e
+talento bonus al 1° livello (vedi pagina 47), anche se non soddisfa
+i prerequisiti .
+Un guerriero può selezionare Lottare Migliorato come uno de i
+suoi talenti bonus dei guerrieri (vedi pagina 38).
+MAESTRIA IN COMBATTIMENTO
+[GENERALE]
+Il personaggio è in grado di utilizzare la propria abilità in combat-.
+timento tanto per la difesa quanto per l'attacco .
+Prerequisito : Int 13.
+Beneficio: Quando il personaggio usa un'azione di attacco o
+un'azione di attacco completo in mischia, egli può prendere un a
+penalità fino a -5 all'attacco e sommare lo stesso numero (fino a +5 )
+come bonus di schivare alla propria Classe Armatura . Questo numero non può superare il proprio bonus di attacco base . Le modi-
+. fiche al tiro per colpire e alla Classe Armatura si applicano fino all'azione successiva del personaggio.
+Normale : Un personaggio che non possiede il talento Maestri a
+in Combattimento può combattere sulla difensiva mentre utilizz a
+un'azione di attacco odi attacco completo, subendo una penalità d i
+-4 all'attacco e ottenendo un bonus di schivare +2 alla Classe Armatura.
+Speciale: Un guerriero può selezionare Maestria in Combattimento come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+MANOLESTA [GENERALE]
+Il personaggio dimostra una straordinaria manualità .
+Beneficio: Il personaggio ottiene un bonus di +2 a tutte le pro -
+ve di Rapidità di Mano e Utilizzare Corde .
+MESCERE POZIONI [CREAZIONE OGGETTO ]
+Il personaggio può creare pozioni che contengono al loro intern o
+incantesimi. Vedi la Guida del DUNGEON MASTER per le regole sulle
+pozioni .
+Prerequisito : Incantatore di 3° livello .
+Beneficio: Il personaggio può creare una pozione di qualsias i
+incantesimo di 3° livello o inferiore conosciuto, che abbia come ,
+bersaglio una o più creature . La mescita di una pozione richiede,
+un giorno. Quando si crea una pozione, si stabilisce il livello del-.
+l'incantatore, che deve essere sufficiente per lanciare lincantesimo in questione e non superiore al livello del personaggio. Il prezzo base di una pozione è il livello dell'incantesimo x il livello del -
+l'incantatore x 50 mo . Per mescere una pozione il personaggio de-.
+ve spendere 1/25 di questo prezzo base in PE e consumare mate-.
+rie prime per un costo pari alla metà del prezzo base .
+Quando si crea una pozione, si devono effettuare tutte le scelt e
+che si prenderebbero normalmente all'atto del lancio dell'incantesimo. Chiunque beva la pozione diventa il bersaglio dell'incantesimo .
+Qualsiasi pozione che racchiude un incantesimo con componente materiale costosa o con un costo in PE comporta anche un costo
+extra in proporzione . In aggiunta al costo derivante dal prezzo base ,
+il personaggio deve consumare la componente materiale oppure pa -
+gare il costo extra in PE al momento della creazione della pozione. _
+MOBILITÀ [GENERALE]
+.11 personaggio è abile nello schivare gli avversari e nell'evitare i,
+, colpi .
+Prerequisiti: Des 13, Schivare .
+Beneficio: Il personaggio ottiene un bonus di schivare +4 alla .
+.Classe Armatura contro gli attacchi di opportunità provocati dal -
+.l'uscire o dal muoversi entro un'area minacciata. Qualsiasi condizione che fa perdere il bonus di Destrezza alla Classe Armatura (se
+posseduto), fa inoltre perdere i bonus di schivare. Si noti che i bonus di schivare (come questo e il bonus razziale dei nani per schi-
+. vare i colpi dei giganti) sono cumulabili, a differenza di altri tipi d i
+.bonus.
+, Speciale : Un guerriero può selezionare Mobilità come uno_ dei,
+.suoi talenti bonus dei guerrieri (vedi pagina 38).
+NEGOZIATORE [GENERALE]
+Il personaggio è in grado di valutare e di influenzare gli atteggia -
+menti .
+Beneficio: 11 personaggio ottiene un bonus di +2 a tutte le pro -
+ve di Diplomazia e Percepire Intenzioni.
+OLTREPASSARE MIGLIORATO [GENERALE]
+.11 personaggio è esperto nel buttare a terra gli avversari .
+. Prerequisiti : For 13, Attacco Poderoso .
+Beneficio: Quando il personaggio tenta di oltrepassare un av -
+. versarlo, quest'ultimo non può spostarsi . Il personaggio inoltre ot-
+, tiene un bonus di +4 alle prove contrapposte di Forza per buttare
+,a terra l'avversario.
+Normale : La vittima che si vuole oltrepassare può decidere s e
+evitare o bloccare un personaggio privo di questo talento .
+Speciale : Un guerriero può selezionare Oltrepassare Migliorat o
+come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+PADRONANZA DEGLI INCANTESIM I
+[GENERALE ]
+Il mago conosce così bene un certo numero di incantesimi da no n
+avere più bisogno del libro degli incantesimi per prepararli .
+Prerequisito: Mago di 1° livello.
+Beneficio: Ogni volta che il mago sceglie questo talento, dev e
+anche scegliere un numero di incantesimi pari al suo modificato -
+re di Intelligenza (devono essere incantesimi che il mago conosc e
+già). Da quel momento, il mago prepara gli incantesimi prescelt i
+senza consultare il libro degli incantesimi .
+Normale : Un mago privo di questo talento, deve consultare u n
+libro degli incantesimi per preparare tutti i suoi incantesimi, co n
+la sola eccezione di lettura del magico.
+PERSUASIVO [GENERALE]
+Il personaggio riesce a controllarele parole e il linguaggio no n
+verbale .
+Beneficio: Il personaggio ottiene un bonus di +2 a tutte le prove di Intimidire e Raggirare. _
+PUGNO STORDENTE [GENERALE]
+. Il personaggio è in grado di colpire gli avversari in zone vulnerabili.
+Beneficio: ii personaggio, prima di aver effettuato il tiro per col-.
+pire, deve dichiarare che utilizzerà questo talento (quindi, un tiro : _
+per colpire fallito spreca il tentativo). Pugno Stordente, in aggiunta .
+. ai danni inflitti normalmente, costringe l'avversario colpito a effet-
+.tuare un tirosalvezza sulla Tempra (CD 10 + 1/2 del livello del per-
+. sonaggio + il modificatore di Sag del personaggio). L'avversario ch e
+fallisce questo tiro salvezza, rimane stordito per 1 round (fino all'inizio_della prossima azione del personaggio) . Un avversario stordi-.
+to non può agire, perde qualsiasi bonus di Destrezza alla CA e sub -
+isce una penalità di -2 alla CA. Un personaggio può tentare un attacco stordente soltanto una volta al giorno per ogni quattro livell i
+conseguiti (ma vedi "Speciale"), e non più di una volta per round.
+Costrutti, melme, non morti, vegetali, creature incorporee e creata -
+_ re immuni ai colpi critici non possono rimanere storditi .
+Speciale : Un monaco può selezionare Pugno Stordente com e
+. talento bonus al I° livello (vedi pagina 47), anche se non soddisfa
+i prerequisiti. Un monaco che sceglie questo talento, può tentare
+un Pugno Stordente tante volte al giorno quanti sono i suoi livel- .
+. lo da monaco, più una volta al giorno per ogni quattro livelli con- .
+. seguiti in altre classi, diverse da quella del monaco .
+Un guerriero può selezionare Pugno Stordente come uno de i
+suoi talenti bonus dei guerrieri (vedi pagina 38).
+RESISTENZA FISICA [GENERALE]
+Il personaggio possiede sorprendenti capacità di resistenza.
+Beneficio: II personaggio ottiene un bonus di +4 alle prove e a i
+. tiri sa lvezza elencati di seguito. Prove di Nuotare effettuate per evi-
+. tare i danni non letali (vedi pagina 78), prove di Costituzione effet- .
+. tunte per non smettere di correre (vedi pagina 144), prove di Costi -
+tuzione effettuate per evitare i danni non letali causati da marce forzate (vidi pagina 164), prove di Costituzione effettuate per trattene -
+re il fiato (vedi pagina 78), prove di Costituzione effettuate per resi -
+stere alla fame o alla sete (vedi Guida del DUNGEON MASttx), tiri salvezza sulla Tempra per evitare i danni non letali causati da ambienti caldi o freddi (vedi Guida del DUNGEON MAsn t) e tiri salvezza sulla Tempra per evitare i danni causati da soffocamento (vedi Guida de l
+DUNGEON MASntR).11 personaggio può inoltre dormire con indosso .
+armature medie senza svegliarsi affaticato.
+Normale: Un personaggio privo di questo talento, che dorma
+con indosso armature medie o più pesanti è automaticamente af- .
+faticato il giorno seguente .
+Speciale: Un ranger ottiene automaticamente Resistenza Fisica .
+come talento bonus al 3'
+livello (vedi pagina 53). Non deve selezionarlo.
+RICARICA RAPIDA [GENERALE]
+Il personaggio sceglie un tipo di balestra (a mano, leggera o pesante). Il personaggio può caricare una balestra di quel tipo più ve -
+locemente del normale .
+Prerequisito : Competenza nell'Arma (tipo di balestra selezionato).
+Beneficio: Il tempo per caricare una balestra del tipo prescelto
+si riduce a un'azione gratuita (per le balestre a mano o leggere) o a
+un'azione di movimento (per le balestre pesanti). Si noti che cari -
+care una balestra provoca comunque attacchi di opportunità .
+Se il personaggio ha applicato questo talento sulle balestre a mano
+o leggere, in un'azione di attacco completo, può scagliare tanti qua -
+drelli al round quanti ne lancerebbe se scagliasse frecce con un arco.
+Normale: Un personaggio privo di questo talento impiega un'a -
+zione di movimento per caricare una balestra a mano o leggera, e
+un'azione di round completo per caricare una balestra pesante.
+Speciale : Il personaggio può acquisire Ricarica Rapida più volte . Ogni volta che acquisisce il talento, lo deve applicare a un nuovo tipo di balestra .
+Un guerriero può selezionare Ricarica Rapida come uno dei .
+suoi talenti bonus dei guerrieri (vedi pagina 38). _—4-
+RIFLESSI IN COMBATTIMENTO [GENERALE] .
+Il personaggio può rispondere velocemente e ripetutamente a d
+. avversari che abbassano le loro difese .
+Beneficio: Quando i nemici abbassano la guardia, il personag -
+Prerequisiti: Des 13, Sag 13, Colpo Senz'Armi Migliorato, bo- . . gio può compiere un numero di attacchi di opportunità aggiunti- .
+. nus di attacco base +8. . vi pari al proprio bonus di Destrezza . Ad esempio, un guerriero
+. con Destrezza 15 può compiere un totale di tre attacchi di oppor-
+. tunità in 1 round: l'attacco di opportunità a disposizione di tutti i
+personaggi, più altri due attacchi per il suo bonus di Destrezza +2 .
+Se quattro goblin escono dai quadretti minacciati dal personaggio ,
+questi può compiere un attacco di opportunità contro tre delle .
+. quattro creature . 11 personaggio può effettuare soltanto un attacc o
+di opportunità per ogni opportunità .
+. Con questo talento il personaggio è in grado di effettuare attacchi di opportunità anche se colto alla sprovvista .
+Normale : Un personaggio privo di questo talento può compie -
+I re solo un attacco di opportunità per round e non può effettuar e
+attacchi di opportunità se colto alla sprovvista .
+Speciale: Il talento Riflessi in Combattimento non consente a
+un ladro di utilizzare la sua capacità di opportunismo (vedi pagina .
+41) più di una volta per round .
+Un monaco può selezionare Riflessi in Combattimento com e
+talento bonus al 2° livello (vedi pagina 47).
+Un guerriero può selezionare Riflessi in Combattimento com e
+uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+RIFLESSI FULMINEI [GENERALE]
+Il personaggio possiede riflessi più veloci del normale .
+Beneficio: Il personaggio ottiene un bonus di +2 a tutti i tiri
+salvezza sui Riflessi.
+ROBUSTEZZA [GENERALE]
+Il personaggio è più robusto della norma .
+Beneficio: Il personaggio guadagna +3 punti ferita .
+Speciale : Un personaggio può acquisire questo talento più vol _
+te . 1 suoi effetti sono cumulabili.
+SBILANCIARE MIGLIORATO [GENERALE ]
+11 personaggio è addestrato tanto a sbilanciare gli avversari quanto a
+proseguire l'attacco.
+Prerequisiti: lnt 13, Maestria in Combattimento .
+Beneficio: 11 personaggio senz'armi non provoca alcun attacc o
+t di opportunità quando tenta di sbilanciare un avversario in mischia .
+11 personaggio inoltre ottiene un bonus di +4 alla prova di Forza pe r
+sbilanciare l'avversario.
+Se il personaggio sbilancia un avversario in mischia, ottiene all'i -
+stante un attacco in mischia contro quell'avversario, come se no n
+avesse mai utilizzato l'attacco nel tentativo di sbilanciarlo . Ad esempio, all'11° livello, Tordek ottiene tre attacchi con bonus +11, +6 e +1 ,
+rispettivamente. Nel corso del round, egli tenta di sbilanciare il su o
+avversario. Il suo primo tentativo fallisce (consumando così il su o
+primo attacco). Il suo secondo tentativo riesce, e questi può subito
+compiere un attacco in mischia contro il suo avversario con un bonus di +6 . Infine, effettua il suo ultimo attacco con un bonus di +l .
+Normale : Un personaggio senz'armi privo di questo talento in -
+corre in un attacco di opportunità quando tenta di sbilanciare un avversario in mischia . Vedi "Sbilanciare", pagina 159 .
+Speciale: Un monaco può selezionare Sbilanciare Migliorato come talento bonus al 6° livello (vedi pagina 47), anche se non soddisfa i prerequisiti.
+Un guerriero può selezionare Sbilanciare Migliorato come uno
+dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+Beneficio: Un personaggio può scacciare o intimorire le creature come se fosse di un livello superiore a quello effettivo nella classe che gli conferisce tale capacità .
+Beneficio: Nel corso della propria azione, il personaggio può de -
+signare un avversario e ricevere un bonus di +1 alla Classe Armatu -.
+. ra per schivare gli attacchi di quell'avversario . È possibile designare
+un nuovo avversario per ogni azione .
+Qualsiasi condizione che fa perdere il bonus di Destrezza all a
+Classe Armatura (se presente), fa inoltre perdere i bonus di schiva -
+re. Si noti che i bonus di schivare (come questo e il bonus razzial e
+dei nani per schivare i colpi dei giganti) sono cumulabili, a differenza di altri tipi di bonus.
+Speciale: Un guerriero può selezionare Schivare come uno dei.
+. suoi talenti bonus dei guerrieri (vedi pagina 38).
+SCRIVERE PERGAMEN E
+[CREAZIONE OGGETTO ]
+Il personaggio può creare pergamene, da cui egli stesso o altri incantatori possono lanciare gli incantesimi trascritti. Vedi la Guida de l
+DvN<a :ON MVfASIEF per le regole sulle pergamene.
+Prerequisito: Incantatore di 1° livello.
+Beneficio: È possibile creare una pergamena di qualsiasi incantesimo conosciuto dal personaggio. La scrittura di una pergamena ri-.
+chiede un giorno per ogni 1 .000 mo del suo prezzo base . Il prezzo ba-.
+se di una pergamena è il livello dell'incantesimo x il livello dell'in- .
+cantatore x 25 mo. Per scrivere una pergamena il personaggio deve .
+spendere 1/25 di questo prezzo base in PE e consumare ma -
+terie prime per un costo pari alla metà del prezzo base .
+Qualsiasi pergamena che racchiude u n
+incantesimo con componente materiale costosa o con un costo in PE -
+comporta anche un costo extra in
+proporzione . In aggiunta al cost o
+derivante dal prezzo base, il personaggio deve consumare cinquanta copie della compo -
+nente materiale oppure pagare cinquanta volte il costo in PE .
+In aggiunta al costo derivante dal prez -
+'lì
+zo base, il personaggio deve consu -
+mare la componente mate -
+riale oppure pagare il cost o
+extra in PE al momento dell a
+scrittura della pergamena.
+ii
+SCHIVARE [GENERALE ]
+. Il personaggio è in grado di schivare i colpi.
+Prerequisito: Des 13 .
+SCACCIARE EXTRA [GENERALE ]
+11 personaggio può scacciare o intimorire le creature con maggiore SEGUIRE TRACCE
+frequenza. [GENERALE ]
+Prerequisito: Capacità di scacciare o intimorire creature . Il personaggio può seguire le tracce di creature e di personaggi at -
+Beneficio: Ogni volta che il personaggio acquisisce questo ta- traverso la maggior parte dei tipi di terreno.
+lento, può scacciare o intimorire le creature quattro volte in più al Beneficio: Trovare tracce o seguirle per 1,5 km richiede una progiorno del normale . va di Sopravvivenza . Il personaggio deve effettuare un'altra prova d i
+Se il personaggio possiede la capacità di scacciare più di un tipo Sopravvivenza ogni volta che le tracce diventano difficili da seguire ,
+di creature (come un chierico di allineamento buono con accesso al come quando si incrociano con altre tracce o quando tornano in-
+, dominio del Fuoco, in grado quindi sia di scacciare non morti e le dietro e si separano .
+creature dell'acqua sia di intimorire le creature del fuoco), ciascuna Il personaggio deve muoversi alla metà della sua velocità normadelle rispettive capacità di scacciare o di intimorire ottiene quattro le (o alla sua velocità normale, ma con una penalità di -5 alla prova, .
+_utilizzi aggiuntivi al giorno. o fino al doppio della sua velocità normale con una penalità di -2 0
+Normale : Un personaggio privo di questo talento può in genere alla prova). La CD dipende dalla superficie e dalle_condizioni domi-.
+scacciare o intimorire non morti (o le altre creature) un numero di nanti, come riportato nella seguente tabella : -
+volte al giorno pari a 3 + il suo modificatore di Carisma.
+Speciale : Il personaggio può acquisire Scacciare Extra più volte . CD di CD di
+I suoi effetti sono cumulabili . Ogni volta che il personaggio acqui- Superficie Sopravvivenza Superficie Sopravvivenza
+sisce il talento, può utilizzare ciascuna delle proprie capacità di stat- Terreno molto soffice 5 Terreno compatto 1 5
+4 ciare o di intimorire quattro volte in più al giorno . Terreno soffice 10 Terreno duro 2 0
+SCACCIARE MIGLIORATO [GENERALE] Terreno molto soffice: Qualsiasi superficie (neve fresca, spesso stra-.
+11 personaggio scaccia o intimorisce le creature con più potenza del, to di polvere, fango umido) che conservi profondi e chiari segni d i
+normale . . impronte .
+Prerequisito: Capacità di scacciare o intimorire creature . Terreno soffice: Qualsiasi superficie abbastanza soffice da cedere alidda schiva il raggio di
+un incantesimo lanciato
+da un chierico malvagio.
+la pressione, ma più compatta del fango umido o della neve fresca ,
+in cui la creatura lascia impronte frequenti, ma poco profonde .
+'l'areno contpnito : La maggior parte delle normali superfici all' aperto (come prati, campi, boschi e simili), o superfici al chiuso molto sporche o soffici (spessi tappeti, pavimenti alquanto sporchi o im -
+polverati). La creatura potrebbe lasciare alcune tracce (rami spezza -
+ti o ciuffi di capelli), ma solo impronte occasionali e parziali .
+Terreno duro : Qualsiasi superficie che non conserva affatto le impronte, come la nuda roccia o i pavimenti delle abitazioni . 1 letti dit
+fiumi per lo più rientrano in questa categoria, poiché le impronte la- +
+sciate sono confuse o vengono lavate via . La creatura lascia solo tracce (segni di piedi trascinati o ciottoli spostati) . Esistono numerosi
+modificatori che si possono applicare alla prova di Sopravvivenza ,
+come riportato nella seguente tabella .
+Modificatore CD
+.Condizione di Sopravvivenz a
+,Ogni tre creature incluse nel gruppo seguito
+.Taglia della creatura o delle creature seguite : '
+Piccolissima +8
+Minuta + 4
+Minuscola + 2
+Piccola + 1
+Media + 0
+Grande - 1
+Enorme - 2
+Mastodontica - 4
+Colossale - 8
+Ogni 24 ore trascorse da quando sono state lasciate le tracce + 1
+Ogni ora di pioggia da quando sono state lasciate le tracce + 1
+Tracce coperte da neve fresca da quando sono state lasciate +1 0
+Scarsa visibilità :
+Notte senza luna o nuvolosa + 6
+Luce lunare + 3
+Nebbia o precipitazioni + 3
+Gruppo seguito che nasconde le proprie tracce + 5
+(e si muove alla metà della velocità)
+1 Per un gruppo di taglie miste, si applichi soltanto il modificatore per l a
+categoria di taglia più grande .
+2 Si applichi soltanto il peggiore modificatore di questa categoria .
+Sc il personaggio fallisce una prova di Sopravvivenza, può ritentare
+dopo 1 ora (all'aperto) o 10 minuti (all'interno) di ricerche .
+Normale: Un personaggio privo di questo talento, può utilizzare
+l'abilità Cercare per trovare le tracce, ma può seguirle soltanto se l a
+CD della prova è 10 o meno. In alternativa, il personaggio può milizzare l'abilità Cercare per trovare un'impronta o una traccia del pas -
+saggio di una creatura, secondo le CD assegnate sopra, ma non pu ò
+_comunque utilizzare Cercare per seguire le tracce, persino se qual -
+-cun altro le ha già individuate .
+Speciale : Un ranger ottiene automaticamente SeguireTcacce co -
+me talento bonus. Non deve selezionarlo.
+Questo talento non permette di trovare o di seguire le tracce la -
+sciate da una creatura influenzata dall'incantesimo passare senza tracce.
+SPEZZARE MIGLIORATO [GENERALE ]
+Il personaggio è in grado di colpire le armi e gli scudi degli altri, co -
+sì come gli altri oggetti .
+Prerequisiti : For 13, Attacco Poderoso.
+Beneficio: Quando il personaggio colpisce un oggetto impugnat o
+o trasportato da un avversario (come un'arma o uno scudo), non pro-
+, voca alcun attacco di opportunità (vedi "Spezzare", pagina 159) .
+ll personaggio inoltre ottiene un bonus di +4 al tiro per colpire .
+. un oggetto impugnato o trasportato da qualcun altro .
+Normale : Un personaggio privo di questo talento quando colpi- .
+sce un oggetto impugnato o trasportato da un avversario provoca un+
+attacco di opportunità.
+Speciale: Un guerriero può selezionare Spezzare Migliorato co-
+.me uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+SPINGERE MIGLIORATO [GENERALE ]
+Il personaggio sa come spingere indietro gli avversari.
+Prerequisiti : For 13, Attacco Poderoso.
+Beneficio: Quando il personaggio dà una spinta (vedi pagin a
+159), non subisce alcun attacco di opportunità da parte del difensore .11 personaggio inoltre ottiene un bonus di +4 alle prove contrapposte di Forza per spingere indietro il difensore .
+Speciale : Un guerriero può selezionare Spingere Migliorato come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+TEMPRA POSSENTE [GENERALE ]
+Il personaggio è più vigoroso del normale .
+Beneficio : Il personaggio ottiene un bonus di +2 a tutti i tiri salvezza sulla Tempra .
+TIRARE IN SELLA [GENERALE ]
+Il personaggio è in grado di utilizzare armi a distanza in sella.__+
+Prerequisiti : Cavalcare t grado, Combattere in Sella . -4
+Beneficio : Le penalità che il personaggio subisce quando utilizza un'arma a distanza in sella si dimezzano; -2 invece di -4 se la cavalcatura compie due azioni di movimento, e -4 invece di -8 se la cavalcatura sta correndo. (Vedi "Combattere in sella", pagina 154). .
+Speciale : Un guerriero può selezionare Tirare in Sella come un o
+dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+TIRO LONTANO [GENERALE]
+Il personaggio può coprire uno spazio maggiore con un'arma a distanza .
+Prerequisito: Tiro Ravvicinato .
+Beneficio : Quando il personaggio utilizza un'arma da tiro, come .
+un arco, il suo incremento di gittata aumenta di una volta e mezzo .
+(moltiplicare per 1,5). Quando utilizza un'arma da lancio, il suo incremento di gittata raddoppia .
+Speciale : Un guerriero può selezionare Tiro Lontano come uno .
+dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+TIRO IN MOVIMENTO [GENERALE]
+Il personaggio è ben addestrato in strategie di schermaglia con arm i
+a distanza .
+Prerequisiti: Des 13, Mobilità, Schivare, Tiro Ravvicinato . bonu s
+di attacco base +4
+Beneficio : Quando il personaggio utilizza l'azione di attacco co n
+un'arma a distanza, può muoversi sia prima che dopo l'attacco, purché la distanza totale percorsa non superi quella consentita dall a
+propria velocità.
+Speciale : Un guerriero può selezionare Tiro in Movimento come
+uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+TIRO MULTIPLO [GENERALE]
+Il personaggio può scagliare più frecce
+assieme contro lo stesso avversario.
+Prerequisiti : Des 17, Tiro Rapido ,
+Tiro Ravvicinato, bonus
+- 4
+/..
+di attacco base +6 .
+Beneficio: Il personaggio, co -
+me azione standard, può scagliare due frecce assieme
+contro lo stesso avversario _
+entro un raggio di 9 metri. En -
+.trambe le frecce utili-rnM0 l o
+.stesso tiro per colpire (con
+.una penalità di -4) ai fin i
+di valutare il success o
+dell'attacco e infliggere danni di conse -
+guenza (vedi "Spe-
+•ciale " , sotto).
+. Per ogni cinque punti di
+y t
+;v1
+3
+~ra
+A
+. bonus di attacco base posseduti oltre +6, il personaggio può aggiun -
+. gere unaltra freccia a questo attacco, fino a un massimo di quattr o
+frecce a un bonus di attacco base +16. Tuttavia, per ogni freccia oltre
+la seconda, si applica al tiro per colpire una penalità cumulabile di -
+2 (ossia, una penalità totale di -6 per tre frecce e di -8 per quattro). .
+La riduzione del danno e le altre resistenze, di volta in volta, si ap- ,
+plicano tutte separatamente a ogni freccia scagliata .
+Speciale: A prescindere dal numero di frecce scagliate, il personaggio può applicare danni di precisione (come i danni dell'attacc o
+. furtivo) soltanto una volta . Se il personaggio mette a segno un col-.
+po critico, soltanto la prima freccia scagliata infligge danni critici ;
+tutte le altre infliggono danni normali .
+Un ranger di 6° livello, che ha scelto lo stile di combattimento co n
+, l'arco, può attaccare come se possedesse Tiro Multiplo, per-
+. sino se non soddisfa i prerequisiti, purché indossi un'arma -
+tura leggera o nessuna armatura (vedi pagina 54).
+Un guerriero può selezionare Tiro Multiplo come
+
+—
+uno dei suoi talenti bonus dei guerrieri
+(vedi pagina 38).
+I'
+TIRO PRECISO [GENERALE ]
+11 personaggio dimostra un tempismo e una mira perfetti nei propri
+attacchi a distanza .
+Prerequisito: Tiro Ravvicinato.
+Beneficio: 11 personaggio può tirare o lanciare armi a distanz a
+contro un avversario impegnato in mischia senza subire la normal e
+penalità di -4 (vedi "Tirare o lanciare in mischia", pagina 140).
+Speciale : Un guerriero può selezionare Tiro Preciso come un o
+dei suoi talenti bonus dei guerrieri (ved i
+pagina 38).
+TIRO PRECISO
+MIGLIORATO [GENERALE]
+. Gli attacchi a distanza del personag -
+. gio possono ignorare gli effetti di coper-
+. tura o di occultamento .
+Prerequisiti: Des 19, Tiro Preciso, Tiro
+Ravvicinato, bonus di attacco base +11 .
+Beneficio: Gli attacchi a distanza
+del personaggio ignorano sia il bonu s
+alla CA offerta da una qualsiasi coper -
+tura inferiore a quella totale sia la proba-
+
+7
+. bilità di essere mancati conferita da qualsiasi occultamento inferiore a quello ics
+totale. Si noti che la copertura totale e
+l'occultamento totale conferiscono ugualmen -
+te i rispettivi benefici contro gli attacchi a distanza del personaggio .
+In aggiunta, quando il personaggio tira o lancia armi a distanza
+contro un avversario in lotta, colpisce automaticamente l'avversari o
+designato .
+Normale : Vedi pagine 150 e 152 per le regole relative agli effetti
+.
+. di copertura e di occultamento. Un personaggio privo di questo ta-
++lento quando tira o lancia armi a distanza contro un avversario in .
+iJotta, deve effettuare un tiro per determinare in maniera casuale .
+quale tra i combattenti in lotta sia stato effettivamente colpito.
+Speciale : Un ranger di 11` livello, che ha scelto Io stile di combat- .
+timento con l'arco, può attaccare come se possedesse Tiro Preciso Mi -
+gliorato persino se non soddisfa i prerequisiti, purché indossi unir- .
+matura leggera o nessuna armatura (vedi pagina 54).
+Un guerriero può selezionare Tiro Preciso Migliorato come un o
+dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+TIRO RAPIDO [GENERALE ]
+II personaggio può utilizzare armi a distanza conecceziona-,
+tI
+
+v le velocità .		1
+Prerequisiti: Des 13, Tiro Ravvicinato.
+Beneficio: 11 personaggio ottiene un attacco extr a
+per round con un'arma a distanza . L'attacco viene effettuato al proprio bonus di attacco base massimo ,
+ma ogni attacco effettuato dal personaggio in que l
+round (quello extra e quelli normali) subisce un a
+penalità di -2. Il personaggio
+deve compiere un'a-,
+zione di attacco,
+completo (vedi pagina ,
+143) per utilizzare questo talento.
+Speciale : Un ranger di 2` livello, che ha scelto lo ,
+stile di combattimento con l'arco, può attaccare ,
+come se possedesse Tiro Rapido, persino se non sod-.
+disfa i prerequisiti, purché indossi un'armatura leg- .
+gera o nessuna armatura (vedi pagina 53).
+Un guerriero può selezionare Tiro Rapido come uno
+dei suoi talenti bonus dei guerrieri (vedi pagina 38).
+TIRO RAVVICINATO [GENERALE ]
+Il personaggio è in grado di effettuare tiri ben piazzati
+con armi a distanza anche contro bersagli ravvicinati .
+Beneficio: Il personaggio ottiene un bonus di +1 al tiro pe r
+colpire e ai danni con armi a distanza con gittata fino a 9 metri.
+Speciale : Un guerriero può selezionare Tiro Ravvicinato com e
+uno dei suoi talenti bonus dei guerrieri (vedi pagina 38) .
+VOCAZIONE MAGICA
+[GENERALE ]
+il personaggio sa come darsi_da fare_con lai
+magia.
+
+i
+Beneficio: 1l personaggio ottiene uri
+bonus di +2 a tutte le prove di Sapienza .
+Magica e Utilizzare Oggetti Magici.
+VOLONTÀ D1 FERRO _
+
+,
+[GENERALE] _ -4--
+Il personaggio possiede una.volontà_piìt forte,
+W
+del normale .
+Beneficio : Il personaggio ottiene unbonus di + 2
+a tutti i tiri salvezza stilla Volontà .
