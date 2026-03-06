@@ -1,88 +1,1351 @@
 {
   "lang": "it",
-  "generated_at": "2026-03-05T17:08:07Z",
+  "generated_at": "2026-03-06T11:33:55Z",
   "categories": {
     "spells": {
       "total": 608,
-      "overlay_count": 608,
+      "overlay_count": 609,
       "fields": {
         "name": {
-          "translated": 605,
+          "translated": 606,
           "suspicious": 3,
-          "total": 608,
-          "percent": 99.5
+          "total": 609,
+          "percent": 99.5,
+          "identical_to_en": 3,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "clone",
+              "type": "identical",
+              "value": "Clone"
+            },
+            {
+              "slug": "shillelagh",
+              "type": "identical",
+              "value": "Shillelagh"
+            },
+            {
+              "slug": "status",
+              "type": "identical",
+              "value": "Status"
+            }
+          ]
         },
         "school": {
-          "translated": 608,
+          "translated": 609,
           "suspicious": 0,
-          "total": 608,
-          "percent": 100.0
+          "total": 609,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
         },
         "subschool": {
-          "translated": 212,
+          "translated": 214,
           "suspicious": 0,
-          "total": 212,
-          "percent": 100.0
+          "total": 214,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
         },
         "descriptor": {
           "translated": 234,
           "suspicious": 0,
           "total": 234,
-          "percent": 100.0
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
         },
         "level": {
           "translated": 544,
           "suspicious": 61,
           "total": 605,
-          "percent": 89.9
+          "percent": 89.9,
+          "identical_to_en": 61,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "animal-messenger",
+              "type": "identical",
+              "value": "Brd 2, Drd 2, Rgr 1"
+            },
+            {
+              "slug": "animal-trance",
+              "type": "identical",
+              "value": "Brd 2, Drd 2"
+            },
+            {
+              "slug": "antiplant-shell",
+              "type": "identical",
+              "value": "Drd 4"
+            },
+            {
+              "slug": "awaken",
+              "type": "identical",
+              "value": "Drd 5"
+            },
+            {
+              "slug": "bless-weapon",
+              "type": "identical",
+              "value": "Pal 1"
+            },
+            {
+              "slug": "call-lightning",
+              "type": "identical",
+              "value": "Drd 3"
+            },
+            {
+              "slug": "call-lightning-storm",
+              "type": "identical",
+              "value": "Drd 5"
+            },
+            {
+              "slug": "changestaff",
+              "type": "identical",
+              "value": "Drd 7"
+            },
+            {
+              "slug": "charm-animal",
+              "type": "identical",
+              "value": "Drd 1, Rgr 1"
+            },
+            {
+              "slug": "chill-metal",
+              "type": "identical",
+              "value": "Drd 2"
+            },
+            {
+              "slug": "confusion-lesser",
+              "type": "identical",
+              "value": "Brd 1"
+            },
+            {
+              "slug": "creeping-doom",
+              "type": "identical",
+              "value": "Drd 7"
+            },
+            {
+              "slug": "detect-animals-or-plants",
+              "type": "identical",
+              "value": "Drd 1, Rgr 1"
+            },
+            {
+              "slug": "detect-snares-and-pits",
+              "type": "identical",
+              "value": "Drd 1, Rgr 1"
+            },
+            {
+              "slug": "diminish-plants",
+              "type": "identical",
+              "value": "Drd 3, Rgr 3"
+            },
+            {
+              "slug": "faerie-fire",
+              "type": "identical",
+              "value": "Drd 1"
+            },
+            {
+              "slug": "flame-blade",
+              "type": "identical",
+              "value": "Drd 2"
+            },
+            {
+              "slug": "glibness",
+              "type": "identical",
+              "value": "Brd 3"
+            },
+            {
+              "slug": "good-hope",
+              "type": "identical",
+              "value": "Brd 3"
+            },
+            {
+              "slug": "goodberry",
+              "type": "identical",
+              "value": "Drd 1"
+            },
+            {
+              "slug": "heal-mount",
+              "type": "identical",
+              "value": "Pal 3"
+            },
+            {
+              "slug": "hide-from-animals",
+              "type": "identical",
+              "value": "Drd 1, Rgr 1"
+            },
+            {
+              "slug": "holy-sword",
+              "type": "identical",
+              "value": "Pal 4"
+            },
+            {
+              "slug": "ironwood",
+              "type": "identical",
+              "value": "Drd 6"
+            },
+            {
+              "slug": "know-direction",
+              "type": "identical",
+              "value": "Brd 0, Drd 0"
+            },
+            {
+              "slug": "liveoak",
+              "type": "identical",
+              "value": "Drd 6"
+            },
+            {
+              "slug": "lullaby",
+              "type": "identical",
+              "value": "Brd 0"
+            },
+            {
+              "slug": "magic-fang",
+              "type": "identical",
+              "value": "Drd 1, Rgr 1"
+            },
+            {
+              "slug": "magic-fang-greater",
+              "type": "identical",
+              "value": "Drd 3, Rgr 3"
+            },
+            {
+              "slug": "modify-memory",
+              "type": "identical",
+              "value": "Brd 4"
+            },
+            {
+              "slug": "pass-without-trace",
+              "type": "identical",
+              "value": "Drd 1, Rgr 1"
+            },
+            {
+              "slug": "quench",
+              "type": "identical",
+              "value": "Drd 3"
+            },
+            {
+              "slug": "reduce-animal",
+              "type": "identical",
+              "value": "Drd 2, Rgr 3"
+            },
+            {
+              "slug": "reincarnate",
+              "type": "identical",
+              "value": "Drd 4"
+            },
+            {
+              "slug": "repel-metal-or-stone",
+              "type": "identical",
+              "value": "Drd 8"
+            },
+            {
+              "slug": "rusting-grasp",
+              "type": "identical",
+              "value": "Drd 4"
+            },
+            {
+              "slug": "sculpt-sound",
+              "type": "identical",
+              "value": "Brd 3"
+            },
+            {
+              "slug": "shillelagh",
+              "type": "identical",
+              "value": "Drd 1"
+            },
+            {
+              "slug": "snare",
+              "type": "identical",
+              "value": "Rgr 2, Drd 3"
+            },
+            {
+              "slug": "song-of-discord",
+              "type": "identical",
+              "value": "Brd 5"
+            },
+            {
+              "slug": "speak-with-animals",
+              "type": "identical",
+              "value": "Brd 3, Drd 1, Rgr 1"
+            },
+            {
+              "slug": "speak-with-plants",
+              "type": "identical",
+              "value": "Brd 4, Drd 3, Rgr 2"
+            },
+            {
+              "slug": "spellstaff",
+              "type": "identical",
+              "value": "Drd 6"
+            },
+            {
+              "slug": "spike-growth",
+              "type": "identical",
+              "value": "Drd 3, Rgr 2"
+            },
+            {
+              "slug": "stone-tell",
+              "type": "identical",
+              "value": "Drd 6"
+            },
+            {
+              "slug": "summon-instrument",
+              "type": "identical",
+              "value": "Brd 0"
+            },
+            {
+              "slug": "summon-natures-ally-i",
+              "type": "identical",
+              "value": "Drd 1, Rgr 1"
+            },
+            {
+              "slug": "summon-natures-ally-ii",
+              "type": "identical",
+              "value": "Drd 2, Rgr 2"
+            },
+            {
+              "slug": "summon-natures-ally-iii",
+              "type": "identical",
+              "value": "Drd 3, Rgr 3"
+            },
+            {
+              "slug": "summon-natures-ally-ix",
+              "type": "identical",
+              "value": "Drd 9"
+            }
+          ]
         },
         "components": {
           "translated": 164,
           "suspicious": 341,
           "total": 505,
-          "percent": 32.5
+          "percent": 32.5,
+          "identical_to_en": 341,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "acid-arrow",
+              "type": "identical",
+              "value": "V, S, M, F"
+            },
+            {
+              "slug": "acid-splash",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "alter-self",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "analyze-dweomer",
+              "type": "identical",
+              "value": "V, S, F"
+            },
+            {
+              "slug": "animal-growth",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "animal-messenger",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "animal-trance",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "animate-dead",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "animate-objects",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "animate-plants",
+              "type": "identical",
+              "value": "V"
+            },
+            {
+              "slug": "animate-rope",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "arcane-eye",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "arcane-lock",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "arcane-mark",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "arcane-sight",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "astral-projection",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "augury",
+              "type": "identical",
+              "value": "V, S, M, F"
+            },
+            {
+              "slug": "baleful-polymorph",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "banishment",
+              "type": "identical",
+              "value": "V, S, F"
+            },
+            {
+              "slug": "bestow-curse",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "binding",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "black-tentacles",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "blade-barrier",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "blasphemy",
+              "type": "identical",
+              "value": "V"
+            },
+            {
+              "slug": "bless-water",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "bless-weapon",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "blindness-deafness",
+              "type": "identical",
+              "value": "V"
+            },
+            {
+              "slug": "blink",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "blur",
+              "type": "identical",
+              "value": "V"
+            },
+            {
+              "slug": "break-enchantment",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "burning-hands",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "call-lightning",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "calm-animals",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "cats-grace",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "cause-fear",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "chain-lightning",
+              "type": "identical",
+              "value": "V, S, F"
+            },
+            {
+              "slug": "changestaff",
+              "type": "identical",
+              "value": "V, S, F"
+            },
+            {
+              "slug": "chaos-hammer",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "charm-monster-mass",
+              "type": "identical",
+              "value": "V"
+            },
+            {
+              "slug": "charm-person",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "chill-touch",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "circle-of-death",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "cloak-of-chaos",
+              "type": "identical",
+              "value": "V, S, F"
+            },
+            {
+              "slug": "clone",
+              "type": "identical",
+              "value": "V, S, M, F"
+            },
+            {
+              "slug": "cloudkill",
+              "type": "identical",
+              "value": "V, S"
+            },
+            {
+              "slug": "color-spray",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "command",
+              "type": "identical",
+              "value": "V"
+            },
+            {
+              "slug": "command-plants",
+              "type": "identical",
+              "value": "V"
+            },
+            {
+              "slug": "command-undead",
+              "type": "identical",
+              "value": "V, S, M"
+            },
+            {
+              "slug": "commune-with-nature",
+              "type": "identical",
+              "value": "V, S"
+            }
+          ]
         },
         "casting_time": {
           "translated": 468,
           "suspicious": 22,
           "total": 490,
-          "percent": 95.5
+          "percent": 95.5,
+          "identical_to_en": 22,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "antilife-shell",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "call-lightning",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "changestaff",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "creeping-doom",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "dominate-animal",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "dominate-person",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "enlarge-person",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "enthrall",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "fire-storm",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "geas-lesser",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "hypnotism",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "insect-plague",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "mount",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "reduce-person",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "sleep",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "statue",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "storm-of-vengeance",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "summon-instrument",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "summon-monster-i",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "summon-natures-ally-i",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "summon-swarm",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "zone-of-silence",
+              "type": "identical",
+              "value": "1 round"
+            }
+          ]
         },
         "range": {
           "translated": 502,
           "suspicious": 0,
           "total": 502,
-          "percent": 100.0
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
         },
         "target_area_effect": {
-          "translated": 522,
-          "suspicious": 11,
-          "total": 533,
-          "percent": 97.9
+          "translated": 537,
+          "suspicious": 0,
+          "total": 537,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
         },
         "duration": {
           "translated": 495,
           "suspicious": 7,
           "total": 502,
-          "percent": 98.6
+          "percent": 98.6,
+          "identical_to_en": 7,
+          "ocr_issues": 0,
+          "english_residue": 11,
+          "issues": [
+            {
+              "slug": "command",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "confusion-lesser",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "daze",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "death-knell",
+              "type": "english",
+              "value": "Istantaneo/10 minuti per HD of subject; vedi testo",
+              "words": [
+                "subject"
+              ]
+            },
+            {
+              "slug": "earthquake",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "feather-fall",
+              "type": "english",
+              "value": "Until leing o 1 round/livello",
+              "words": [
+                "Until"
+              ]
+            },
+            {
+              "slug": "fire-seeds",
+              "type": "english",
+              "value": "10 min./livello o until used",
+              "words": [
+                "until"
+              ]
+            },
+            {
+              "slug": "gust-of-wind",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "magic-jar",
+              "type": "english",
+              "value": "1 oa/livello o until you return to your body",
+              "words": [
+                "until",
+                "you",
+                "your"
+              ]
+            },
+            {
+              "slug": "pyrotechnics",
+              "type": "english",
+              "value": "1d4+1 rounds, o 1d4+1 rounds after creatures leave the smoke cloud; vedi testo",
+              "words": [
+                "the"
+              ]
+            },
+            {
+              "slug": "sepia-snake-sigil",
+              "type": "english",
+              "value": "Permanente o finché non viene scaricato; until released o 1d4 gioni + one giono/livello; vedi testo",
+              "words": [
+                "until"
+              ]
+            },
+            {
+              "slug": "snare",
+              "type": "english",
+              "value": "Until triggered o broken",
+              "words": [
+                "Until"
+              ]
+            },
+            {
+              "slug": "spell-turning",
+              "type": "english",
+              "value": "Until expended o 10 min./livello",
+              "words": [
+                "Until"
+              ]
+            },
+            {
+              "slug": "sunbeam",
+              "type": "english",
+              "value": "1 round/livello o until all beams are exhausted",
+              "words": [
+                "until",
+                "are"
+              ]
+            },
+            {
+              "slug": "transport-via-plants",
+              "type": "identical",
+              "value": "1 round"
+            },
+            {
+              "slug": "tree-stride",
+              "type": "english",
+              "value": "1 oa/livello o until expended; vedi testo",
+              "words": [
+                "until"
+              ]
+            },
+            {
+              "slug": "virtue",
+              "type": "identical",
+              "value": "1 min."
+            },
+            {
+              "slug": "whispering-wind",
+              "type": "english",
+              "value": "No moe than 1 oa/livello o finché non viene scaricato (destination is reached)",
+              "words": [
+                "is"
+              ]
+            }
+          ]
         },
         "saving_throw": {
           "translated": 446,
           "suspicious": 3,
           "total": 449,
-          "percent": 99.3
+          "percent": 99.3,
+          "identical_to_en": 3,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "touch-of-idiocy",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "waves-of-exhaustion",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "waves-of-fatigue",
+              "type": "identical",
+              "value": "No"
+            }
+          ]
         },
         "spell_resistance": {
           "translated": 292,
           "suspicious": 148,
           "total": 440,
-          "percent": 66.4
+          "percent": 66.4,
+          "identical_to_en": 148,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "acid-arrow",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "acid-fog",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "acid-splash",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "alarm",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "analyze-dweomer",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "animate-dead",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "animate-objects",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "animate-plants",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "animate-rope",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "arcane-eye",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "arcane-lock",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "arcane-mark",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "black-tentacles",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "bless-weapon",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "break-enchantment",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "changestaff",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "clairaudience-clairvoyance",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "clone",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "cloudkill",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "consecrate",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "continual-flame",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "control-plants",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "control-water",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "control-weather",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "control-winds",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "create-food-and-water",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "create-undead",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "create-water",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "creeping-doom",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "dancing-lights",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "darkness",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "daylight",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "deathwatch",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "detect-animals-or-plants",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "detect-evil",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "detect-magic",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "detect-poison",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "detect-scrying",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "detect-secret-doors",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "detect-snares-and-pits",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "detect-thoughts",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "detect-undead",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "diminish-plants",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "discern-lies",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "discern-location",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "dispel-magic",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "earthquake",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "elemental-swarm",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "entangle",
+              "type": "identical",
+              "value": "No"
+            },
+            {
+              "slug": "erase",
+              "type": "identical",
+              "value": "No"
+            }
+          ]
         },
         "desc_html": {
-          "translated": 605,
+          "translated": 606,
           "suspicious": 0,
-          "total": 605,
-          "percent": 100.0
+          "total": 606,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "contact-other-plane",
+              "type": "length_anomaly",
+              "en_len": 3699,
+              "it_len": 588
+            },
+            {
+              "slug": "control-weather",
+              "type": "length_anomaly",
+              "en_len": 1669,
+              "it_len": 469
+            },
+            {
+              "slug": "control-winds",
+              "type": "length_anomaly",
+              "en_len": 1990,
+              "it_len": 505
+            },
+            {
+              "slug": "detect-evil",
+              "type": "length_anomaly",
+              "en_len": 3423,
+              "it_len": 854
+            },
+            {
+              "slug": "detect-undead",
+              "type": "length_anomaly",
+              "en_len": 2203,
+              "it_len": 491
+            },
+            {
+              "slug": "enthrall",
+              "type": "length_anomaly",
+              "en_len": 2046,
+              "it_len": 537
+            },
+            {
+              "slug": "forbiddance",
+              "type": "length_anomaly",
+              "en_len": 2151,
+              "it_len": 606
+            },
+            {
+              "slug": "gate",
+              "type": "length_anomaly",
+              "en_len": 4807,
+              "it_len": 522
+            },
+            {
+              "slug": "guards-and-wards",
+              "type": "length_anomaly",
+              "en_len": 3473,
+              "it_len": 590
+            },
+            {
+              "slug": "helping-hand",
+              "type": "length_anomaly",
+              "en_len": 2801,
+              "it_len": 547
+            },
+            {
+              "slug": "imbue-with-spell-ability",
+              "type": "length_anomaly",
+              "en_len": 1930,
+              "it_len": 532
+            },
+            {
+              "slug": "magic-circle-against-evil",
+              "type": "length_anomaly",
+              "en_len": 4205,
+              "it_len": 995
+            },
+            {
+              "slug": "permanency",
+              "type": "length_anomaly",
+              "en_len": 4398,
+              "it_len": 1305
+            },
+            {
+              "slug": "prismatic-wall",
+              "type": "length_anomaly",
+              "en_len": 3435,
+              "it_len": 656
+            },
+            {
+              "slug": "reincarnate",
+              "type": "length_anomaly",
+              "en_len": 4362,
+              "it_len": 839
+            },
+            {
+              "slug": "secure-shelter",
+              "type": "length_anomaly",
+              "en_len": 1809,
+              "it_len": 504
+            },
+            {
+              "slug": "shadow-conjuration",
+              "type": "length_anomaly",
+              "en_len": 2338,
+              "it_len": 587
+            },
+            {
+              "slug": "shadow-walk",
+              "type": "length_anomaly",
+              "en_len": 2437,
+              "it_len": 654
+            },
+            {
+              "slug": "speak-with-dead",
+              "type": "length_anomaly",
+              "en_len": 1521,
+              "it_len": 426
+            },
+            {
+              "slug": "spell-turning",
+              "type": "length_anomaly",
+              "en_len": 1647,
+              "it_len": 485
+            },
+            {
+              "slug": "spiritual-weapon",
+              "type": "length_anomaly",
+              "en_len": 3162,
+              "it_len": 821
+            },
+            {
+              "slug": "summon-monster-ix",
+              "type": "length_anomaly",
+              "en_len": 7394,
+              "it_len": 259
+            },
+            {
+              "slug": "summon-natures-ally-ix",
+              "type": "length_anomaly",
+              "en_len": 4613,
+              "it_len": 232
+            },
+            {
+              "slug": "symbol-of-death",
+              "type": "length_anomaly",
+              "en_len": 5386,
+              "it_len": 555
+            },
+            {
+              "slug": "telekinetic-sphere",
+              "type": "length_anomaly",
+              "en_len": 1692,
+              "it_len": 496
+            },
+            {
+              "slug": "teleport",
+              "type": "length_anomaly",
+              "en_len": 3988,
+              "it_len": 773
+            },
+            {
+              "slug": "transmute-rock-to-mud",
+              "type": "length_anomaly",
+              "en_len": 1706,
+              "it_len": 473
+            },
+            {
+              "slug": "transport-via-plants",
+              "type": "length_anomaly",
+              "en_len": 1574,
+              "it_len": 449
+            },
+            {
+              "slug": "tree-stride",
+              "type": "length_anomaly",
+              "en_len": 1584,
+              "it_len": 450
+            },
+            {
+              "slug": "wall-of-iron",
+              "type": "length_anomaly",
+              "en_len": 1688,
+              "it_len": 506
+            },
+            {
+              "slug": "wall-of-thorns",
+              "type": "length_anomaly",
+              "en_len": 2225,
+              "it_len": 513
+            },
+            {
+              "slug": "wish",
+              "type": "length_anomaly",
+              "en_len": 4418,
+              "it_len": 1152
+            }
+          ]
         }
       }
     },
@@ -94,103 +1357,344 @@
           "translated": 109,
           "suspicious": 1,
           "total": 111,
-          "percent": 98.2
+          "percent": 98.2,
+          "identical_to_en": 1,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "agile",
+              "type": "identical",
+              "value": "Agile"
+            },
+            {
+              "slug": "feat-name",
+              "type": "missing",
+              "en_value": "Feat Name"
+            }
+          ]
         },
         "type": {
           "translated": 110,
           "suspicious": 0,
           "total": 111,
-          "percent": 99.1
+          "percent": 99.1,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "feat-name",
+              "type": "missing",
+              "en_value": "Type of Feat"
+            }
+          ]
         },
         "prerequisites": {
-          "translated": 63,
+          "translated": 66,
           "suspicious": 1,
-          "total": 64,
-          "percent": 98.4
+          "total": 67,
+          "percent": 98.5,
+          "identical_to_en": 1,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "combat-expertise",
+              "type": "identical",
+              "value": "Int 13."
+            }
+          ]
         },
         "benefit": {
           "translated": 111,
           "suspicious": 0,
           "total": 111,
-          "percent": 100.0
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
         },
         "normal": {
-          "translated": 32,
+          "translated": 33,
           "suspicious": 0,
-          "total": 32,
-          "percent": 100.0
+          "total": 33,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
         },
         "special": {
-          "translated": 65,
+          "translated": 66,
           "suspicious": 0,
-          "total": 65,
-          "percent": 100.0
+          "total": 66,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
         },
         "desc_html": {
-          "translated": 0,
+          "translated": 51,
           "suspicious": 0,
           "total": 111,
-          "percent": 0.0
-        }
-      }
-    },
-    "classes": {
-      "total": 31,
-      "overlay_count": 31,
-      "fields": {
-        "name": {
-          "translated": 30,
-          "suspicious": 1,
-          "total": 31,
-          "percent": 96.8
-        },
-        "hit_die": {
-          "translated": 0,
-          "suspicious": 0,
-          "total": 31,
-          "percent": 0.0
-        },
-        "alignment": {
-          "translated": 14,
-          "suspicious": 1,
-          "total": 15,
-          "percent": 93.3
-        },
-        "table_html": {
-          "translated": 11,
-          "suspicious": 19,
-          "total": 30,
-          "percent": 36.7
-        },
-        "desc_html": {
-          "translated": 7,
-          "suspicious": 24,
-          "total": 31,
-          "percent": 22.6
-        }
-      }
-    },
-    "races": {
-      "total": 7,
-      "overlay_count": 7,
-      "fields": {
-        "name": {
-          "translated": 7,
-          "suspicious": 0,
-          "total": 7,
-          "percent": 100.0
-        },
-        "traits": {
-          "translated": 7,
-          "suspicious": 0,
-          "total": 7,
-          "percent": 100.0
-        },
-        "desc_html": {
-          "translated": 7,
-          "suspicious": 0,
-          "total": 7,
-          "percent": 100.0
+          "percent": 45.9,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "agile",
+              "type": "missing",
+              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Balance checks and Escape Artist checks.</p>"
+            },
+            {
+              "slug": "animal-affinity",
+              "type": "missing",
+              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Handle Animal checks and Ride checks.</p>"
+            },
+            {
+              "slug": "armor-proficiency-medium",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Armor Proficiency (light).</p>\n<p><strong>Benefit:</strong> See Armor Proficiency (lig"
+            },
+            {
+              "slug": "augment-summoning",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Spell Focus (conjuration).</p>\n<p>\n<strong>Benefit:</strong> Each creature you conjure"
+            },
+            {
+              "slug": "brew-potion",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Caster level 3rd.</p>\n<p>\n<strong>Benefit:</strong> You can create a potion of any 3rd"
+            },
+            {
+              "slug": "cleave",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisites:</strong> Str 13, Power Attack.</p>\n<p>\n<strong>Benefit:</strong> If you deal a creature enough"
+            },
+            {
+              "slug": "combat-casting",
+              "type": "missing",
+              "en_value": "<p>\n<strong>Benefit:</strong> You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like\n      "
+            },
+            {
+              "slug": "combat-expertise",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Int 13.</p>\n<p>\n<strong>Benefit:</strong> When you use the attack action or the full a"
+            },
+            {
+              "slug": "combat-reflexes",
+              "type": "missing",
+              "en_value": "<p>\n<strong>Benefit:</strong> You may make a number of additional attacks of opportunity equal to your Dexterity\n      b"
+            },
+            {
+              "slug": "craft-magic-arms-and-armor",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Caster level 5th.</p>\n<p>\n<strong>Benefit:</strong> You can create any magic weapon, a"
+            },
+            {
+              "slug": "craft-wondrous-item",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Caster level 3rd.</p>\n<p>\n<strong>Benefit:</strong> You can create any wondrous item w"
+            },
+            {
+              "slug": "deft-hands",
+              "type": "missing",
+              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Sleight of Hand checks and Use Rope checks.</p>"
+            },
+            {
+              "slug": "dodge",
+              "type": "length_anomaly",
+              "en_len": 572,
+              "it_len": 76
+            },
+            {
+              "slug": "eschew-materials",
+              "type": "missing",
+              "en_value": "<p>\n<strong>Benefit:</strong> You can cast any spell that has a material component costing 1 gp or less without\n      ne"
+            },
+            {
+              "slug": "exotic-weapon-proficiency",
+              "type": "missing",
+              "en_value": "<p>Choose a type of exotic weapon. You understand how to use that type of exotic weapon in combat.</p>\n<p><strong>Prereq"
+            },
+            {
+              "slug": "extend-spell",
+              "type": "missing",
+              "en_value": "<p>\n<strong>Benefit:</strong> An extended spell lasts twice as long as normal. A spell with a duration of\n      concentr"
+            },
+            {
+              "slug": "feat-descriptions--armor-proficiency-heavy",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisites:</strong> Armor Proficiency (light), Armor Proficiency (medium).</p>\n<p><strong>Benefit:</stron"
+            },
+            {
+              "slug": "feat-descriptions--armor-proficiency-light",
+              "type": "missing",
+              "en_value": "<p>\n<strong>Benefit:</strong> When you wear a type of armor with which you are proficient, the armor check penalty for\n "
+            },
+            {
+              "slug": "feat-name",
+              "type": "missing",
+              "en_value": "<p>\n<strong>Prerequisite:</strong> A minimum ability score, another feat or feats, a minimum base attack bonus, a\n      "
+            },
+            {
+              "slug": "great-cleave",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisites:</strong> Str 13, Cleave, Power Attack, base attack bonus +4.</p>\n<p>\n<strong>Benefit:</strong>"
+            },
+            {
+              "slug": "great-fortitude",
+              "type": "missing",
+              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Fortitude saving throws.</p>"
+            },
+            {
+              "slug": "greater-spell-focus",
+              "type": "missing",
+              "en_value": "<p>Choose a school of magic to which you already have applied the Spell Focus feat.</p>\n<p>\n<strong>Benefit:</strong> Ad"
+            },
+            {
+              "slug": "greater-spell-penetration",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Spell Penetration.</p>\n<p>\n<strong>Benefit:</strong> You get a +2 bonus on caster leve"
+            },
+            {
+              "slug": "greater-two-weapon-fighting",
+              "type": "missing",
+              "en_value": "<p>\n<strong>Prerequisites:</strong> Dex 19, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11.\n  "
+            },
+            {
+              "slug": "greater-weapon-focus",
+              "type": "missing",
+              "en_value": "<p>\n      Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike"
+            },
+            {
+              "slug": "greater-weapon-specialization",
+              "type": "missing",
+              "en_value": "<p>\n      Choose one type of weapon for which you have already selected Weapon Specialization. You can also choose unarm"
+            },
+            {
+              "slug": "heighten-spell",
+              "type": "missing",
+              "en_value": "<p>\n<strong>Benefit:</strong> A heightened spell has a higher spell level than normal (up to a maximum of 9th level).\n  "
+            },
+            {
+              "slug": "improved-bull-rush",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisites:</strong> Str 13, Power Attack.</p>\n<p>\n<strong>Benefit:</strong> When you perform a bull rush "
+            },
+            {
+              "slug": "improved-counterspell",
+              "type": "missing",
+              "en_value": "<p>\n<strong>Benefit:</strong> When counterspelling, you may use a spell of the same school that is one or more spell\n   "
+            },
+            {
+              "slug": "improved-familiar",
+              "type": "missing",
+              "en_value": "<p>\n      This feat allows spellcasters to acquire a new familiar from a nonstandard list, but only when they could norm"
+            },
+            {
+              "slug": "improved-feint",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisites:</strong> Int 13, Combat Expertise.</p>\n<p><strong>Benefit:</strong> You can make a Bluff check"
+            },
+            {
+              "slug": "improved-overrun",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisites:</strong> Str 13, Power Attack.</p>\n<p>\n<strong>Benefit:</strong> When you attempt to overrun a"
+            },
+            {
+              "slug": "improved-precise-shot",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisites:</strong> Dex 19, Point Blank Shot, Precise Shot, base attack bonus +11.</p>\n<p>\n<strong>Benefi"
+            },
+            {
+              "slug": "improved-shield-bash",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Shield Proficiency.</p>\n<p>\n<strong>Benefit:</strong> When you perform a shield bash, "
+            },
+            {
+              "slug": "improved-trip",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisites:</strong> Int 13, Combat Expertise.</p>\n<p>\n<strong>Benefit:</strong> You do not provoke an att"
+            },
+            {
+              "slug": "improved-turning",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Ability to turn or rebuke creatures.</p>\n<p>\n<strong>Benefit:</strong> You turn or reb"
+            },
+            {
+              "slug": "improved-two-weapon-fighting",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisites:</strong> Dex 17, Two-Weapon Fighting, base attack bonus +6.</p>\n<p>\n<strong>Benefit:</strong> "
+            },
+            {
+              "slug": "improved-unarmed-strike",
+              "type": "missing",
+              "en_value": "<p>\n<strong>Benefit:</strong> You are considered to be armed even when unarmed —that is, you do not provoke attacks or\n "
+            },
+            {
+              "slug": "investigator",
+              "type": "missing",
+              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Gather Information checks and Search checks.</p>"
+            },
+            {
+              "slug": "iron-will",
+              "type": "missing",
+              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Will saving throws.</p>"
+            },
+            {
+              "slug": "leadership",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Character level 6th.</p>\n<p>\n<strong>Benefits:</strong> Having this feat enables the c"
+            },
+            {
+              "slug": "magical-aptitude",
+              "type": "missing",
+              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Spellcraft checks and Use Magic Device checks.</p>"
+            },
+            {
+              "slug": "martial-weapon-proficiency",
+              "type": "missing",
+              "en_value": "<p>Choose a type of martial weapon. You understand how to use that type of martial weapon in combat.</p>\n<p><strong>Bene"
+            },
+            {
+              "slug": "mounted-archery",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisites:</strong> Ride 1 rank, Mounted Combat.</p>\n<p>\n<strong>Benefit:</strong> The penalty you take w"
+            },
+            {
+              "slug": "mounted-combat",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Ride 1 rank.</p>\n<p>\n<strong>Benefit:</strong> Once per round when your mount is hit i"
+            },
+            {
+              "slug": "nimble-fingers",
+              "type": "missing",
+              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Disable Device checks and Open Lock checks.</p>"
+            },
+            {
+              "slug": "ride-by-attack",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisites:</strong> Ride 1 rank, Mounted Combat.</p>\n<p>\n<strong>Benefit:</strong> When you are mounted a"
+            },
+            {
+              "slug": "run",
+              "type": "length_anomaly",
+              "en_len": 726,
+              "it_len": 40
+            },
+            {
+              "slug": "scribe-scroll",
+              "type": "missing",
+              "en_value": "<p><strong>Prerequisite:</strong> Caster level 1st.</p>\n<p>\n<strong>Benefit:</strong> You can create a scroll of any spe"
+            },
+            {
+              "slug": "simple-weapon-proficiency",
+              "type": "missing",
+              "en_value": "<p><strong>Benefit:</strong> You make attack rolls with simple weapons normally.</p>\n<p>\n<strong>Normal:</strong> When u"
+            }
+          ]
         }
       }
     },
@@ -202,49 +1706,850 @@
           "translated": 210,
           "suspicious": 79,
           "total": 289,
-          "percent": 72.7
+          "percent": 72.7,
+          "identical_to_en": 79,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "aboleth",
+              "type": "identical",
+              "value": "Aboleth"
+            },
+            {
+              "slug": "achaierai",
+              "type": "identical",
+              "value": "Achaierai"
+            },
+            {
+              "slug": "allip",
+              "type": "identical",
+              "value": "Allip"
+            },
+            {
+              "slug": "ankheg",
+              "type": "identical",
+              "value": "Ankheg"
+            },
+            {
+              "slug": "aranea",
+              "type": "identical",
+              "value": "Aranea"
+            },
+            {
+              "slug": "archon",
+              "type": "identical",
+              "value": "Archon"
+            },
+            {
+              "slug": "athach",
+              "type": "identical",
+              "value": "Athach"
+            },
+            {
+              "slug": "avoral",
+              "type": "identical",
+              "value": "Avoral"
+            },
+            {
+              "slug": "azer",
+              "type": "identical",
+              "value": "Azer"
+            },
+            {
+              "slug": "barghest",
+              "type": "identical",
+              "value": "Barghest"
+            },
+            {
+              "slug": "behir",
+              "type": "identical",
+              "value": "Behir"
+            },
+            {
+              "slug": "belker",
+              "type": "identical",
+              "value": "Belker"
+            },
+            {
+              "slug": "bodak",
+              "type": "identical",
+              "value": "Bodak"
+            },
+            {
+              "slug": "bralani",
+              "type": "identical",
+              "value": "Bralani"
+            },
+            {
+              "slug": "bugbear",
+              "type": "identical",
+              "value": "Bugbear"
+            },
+            {
+              "slug": "bulette",
+              "type": "identical",
+              "value": "Bulette"
+            },
+            {
+              "slug": "chimera",
+              "type": "identical",
+              "value": "Chimera"
+            },
+            {
+              "slug": "choker",
+              "type": "identical",
+              "value": "Choker"
+            },
+            {
+              "slug": "chuul",
+              "type": "identical",
+              "value": "Chuul"
+            },
+            {
+              "slug": "cloaker",
+              "type": "identical",
+              "value": "Cloaker"
+            },
+            {
+              "slug": "couatl",
+              "type": "identical",
+              "value": "Couatl"
+            },
+            {
+              "slug": "darkmantle",
+              "type": "identical",
+              "value": "Darkmantle"
+            },
+            {
+              "slug": "delver",
+              "type": "identical",
+              "value": "Delver"
+            },
+            {
+              "slug": "derro",
+              "type": "identical",
+              "value": "Derro"
+            },
+            {
+              "slug": "destrachan",
+              "type": "identical",
+              "value": "Destrachan"
+            },
+            {
+              "slug": "doppelganger",
+              "type": "identical",
+              "value": "Doppelganger"
+            },
+            {
+              "slug": "dragonne",
+              "type": "identical",
+              "value": "Dragonne"
+            },
+            {
+              "slug": "drider",
+              "type": "identical",
+              "value": "Drider"
+            },
+            {
+              "slug": "ettercap",
+              "type": "identical",
+              "value": "Ettercap"
+            },
+            {
+              "slug": "ettin",
+              "type": "identical",
+              "value": "Ettin"
+            },
+            {
+              "slug": "gargoyle",
+              "type": "identical",
+              "value": "Gargoyle"
+            },
+            {
+              "slug": "ghaele",
+              "type": "identical",
+              "value": "Ghaele"
+            },
+            {
+              "slug": "ghast",
+              "type": "identical",
+              "value": "Ghast"
+            },
+            {
+              "slug": "ghoul",
+              "type": "identical",
+              "value": "Ghoul"
+            },
+            {
+              "slug": "girallon",
+              "type": "identical",
+              "value": "Girallon"
+            },
+            {
+              "slug": "gnoll",
+              "type": "identical",
+              "value": "Gnoll"
+            },
+            {
+              "slug": "goblin",
+              "type": "identical",
+              "value": "Goblin"
+            },
+            {
+              "slug": "golem",
+              "type": "identical",
+              "value": "Golem"
+            },
+            {
+              "slug": "grick",
+              "type": "identical",
+              "value": "Grick"
+            },
+            {
+              "slug": "grimlock",
+              "type": "identical",
+              "value": "Grimlock"
+            },
+            {
+              "slug": "homunculus",
+              "type": "identical",
+              "value": "Homunculus"
+            },
+            {
+              "slug": "kraken",
+              "type": "identical",
+              "value": "Kraken"
+            },
+            {
+              "slug": "krenshar",
+              "type": "identical",
+              "value": "Krenshar"
+            },
+            {
+              "slug": "lamia",
+              "type": "identical",
+              "value": "Lamia"
+            },
+            {
+              "slug": "lammasu",
+              "type": "identical",
+              "value": "Lammasu"
+            },
+            {
+              "slug": "leonal",
+              "type": "identical",
+              "value": "Leonal"
+            },
+            {
+              "slug": "lich",
+              "type": "identical",
+              "value": "Lich"
+            },
+            {
+              "slug": "lillend",
+              "type": "identical",
+              "value": "Lillend"
+            },
+            {
+              "slug": "locathah",
+              "type": "identical",
+              "value": "Locathah"
+            },
+            {
+              "slug": "magmin",
+              "type": "identical",
+              "value": "Magmin"
+            }
+          ]
         },
         "type": {
           "translated": 267,
           "suspicious": 0,
           "total": 286,
-          "percent": 93.4
-        },
-        "environment": {
-          "translated": 268,
-          "suspicious": 1,
-          "total": 269,
-          "percent": 99.6
-        },
-        "organization": {
-          "translated": 245,
-          "suspicious": 24,
-          "total": 269,
-          "percent": 91.1
+          "percent": 93.4,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 2,
+          "issues": [
+            {
+              "slug": "abilities",
+              "type": "missing",
+              "en_value": "Protection from evil3/day,bless"
+            },
+            {
+              "slug": "bite-damage",
+              "type": "missing",
+              "en_value": "1"
+            },
+            {
+              "slug": "black-dragons-by-age",
+              "type": "missing",
+              "en_value": "Wyrmling"
+            },
+            {
+              "slug": "brass-dragons-by-age",
+              "type": "missing",
+              "en_value": "Wyrmling"
+            },
+            {
+              "slug": "claw-damage",
+              "type": "missing",
+              "en_value": "—"
+            },
+            {
+              "slug": "damage",
+              "type": "missing",
+              "en_value": "1"
+            },
+            {
+              "slug": "damage-reduction",
+              "type": "missing",
+              "en_value": "—"
+            },
+            {
+              "slug": "dragon-breath-weapons",
+              "type": "missing",
+              "en_value": "Tiny"
+            },
+            {
+              "slug": "goblin",
+              "type": "missing",
+              "en_value": "Goblin, 1st-Level Warrior"
+            },
+            {
+              "slug": "hd",
+              "type": "missing",
+              "en_value": "1–2"
+            },
+            {
+              "slug": "hit-dice",
+              "type": "missing",
+              "en_value": "1–3"
+            },
+            {
+              "slug": "horse",
+              "type": "missing",
+              "en_value": "Horse, Heavy"
+            },
+            {
+              "slug": "merfolk",
+              "type": "missing",
+              "en_value": "Merfolk, 1st-Level Warrior"
+            },
+            {
+              "slug": "orc",
+              "type": "missing",
+              "en_value": "Orc, 1st-Level Warrior"
+            },
+            {
+              "slug": "planetouched",
+              "type": "missing",
+              "en_value": "Aasimar, 1st-Level Warrior"
+            },
+            {
+              "slug": "resistance-to-acid-cold-electricity",
+              "type": "missing",
+              "en_value": "5"
+            },
+            {
+              "slug": "resistance-to-cold-and-fire",
+              "type": "missing",
+              "en_value": "5"
+            },
+            {
+              "slug": "size",
+              "type": "missing",
+              "en_value": "Fine"
+            },
+            {
+              "slug": "skeleton",
+              "type": "english",
+              "value": "Minuta or smaller",
+              "words": [
+                "or"
+              ]
+            },
+            {
+              "slug": "whale",
+              "type": "missing",
+              "en_value": "Baleen Whale"
+            },
+            {
+              "slug": "zombie",
+              "type": "english",
+              "value": "Minuta or smaller",
+              "words": [
+                "or"
+              ]
+            }
+          ]
         },
         "alignment": {
           "translated": 205,
           "suspicious": 0,
           "total": 205,
-          "percent": 100.0
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 2,
+          "issues": [
+            {
+              "slug": "dwarf-1st-level-warrior",
+              "type": "english",
+              "value": "Spesso legale buono(Deep: Solitamente legale neutrale or neutrale)",
+              "words": [
+                "or"
+              ]
+            },
+            {
+              "slug": "giant",
+              "type": "english",
+              "value": "Solitamente neutrale buono or neutrale malvagio",
+              "words": [
+                "or"
+              ]
+            }
+          ]
+        },
+        "environment": {
+          "translated": 269,
+          "suspicious": 0,
+          "total": 269,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
+        },
+        "organization": {
+          "translated": 269,
+          "suspicious": 0,
+          "total": 269,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 25,
+          "issues": [
+            {
+              "slug": "azer",
+              "type": "english",
+              "value": "Solitario, coppia, team (3–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o clan\n        ",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "bugbear",
+              "type": "english",
+              "value": "Solitario, bandaa (2–4), o banda (11–20 plus 150% noncombatants plus 2 2nd-level sergeants and 1 leader of\n            2",
+              "words": [
+                "and"
+              ]
+            },
+            {
+              "slug": "centaur",
+              "type": "english",
+              "value": "Solitario, compagnia (5–8), truppa (8–18 plus 1 leader of 2nd–5th level), o tribe (20–150 plus 30%\n            noncombat",
+              "words": [
+                "and"
+              ]
+            },
+            {
+              "slug": "derro",
+              "type": "english",
+              "value": "Team (2–4), squadra (5–8 plus 1 3rd-level socerer), o banda (11–20 plus 30% noncombatants plus 3 3rd-level\n            s",
+              "words": [
+                "and"
+              ]
+            },
+            {
+              "slug": "drow-1st-level-warrior",
+              "type": "english",
+              "value": "Squad (2–4), pattuglia (5–8 plus 2 2nd-level sergeants and 1 leader of 3rd–6th level), o banda (20–50 plus 10%\n         ",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "duergar-1st-level-warrior",
+              "type": "english",
+              "value": "Team (2–4), squadra (9–16 plus 3 3rd-level sergeants and 1 leader of 3rd–8th level) o clan (20–80 plus 25%\n            n",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "dwarf-1st-level-warrior",
+              "type": "english",
+              "value": "Team (2–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o clan (30–100 plus 30%\n          ",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "elf-1st-level-warrior",
+              "type": "english",
+              "value": "Squad (2–4), compagnia (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o banda (30–100 plus\n          ",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "ettin",
+              "type": "english",
+              "value": "Solitario, bandaa (2–4), troupe (1–2 plus 1–2 brown bears), banda (3–5 plus 1–2 brown bears), o colonia (3–5\n           ",
+              "words": [
+                "and"
+              ]
+            },
+            {
+              "slug": "giant-ant-queen",
+              "type": "english",
+              "value": "Hive (1 plus 10–100 wokers and 5–20 soldiers)",
+              "words": [
+                "and"
+              ]
+            },
+            {
+              "slug": "gnoll",
+              "type": "english",
+              "value": "Solitario, coppia, gruppo di caccia (2–5 and 1–2 hyenas), banda (10–100 plus 50% noncombatants plus 1 3rd-level\n        ",
+              "words": [
+                "and",
+                "and",
+                "and",
+                "and",
+                "have"
+              ]
+            },
+            {
+              "slug": "gnome-1st-level-warrior",
+              "type": "english",
+              "value": "Company (2–4), squadra (11–20 plus 1 leader of 3rd–6th level and 2 3rd-level lieutenants), o banda (30–50 plus\n         ",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "goblin",
+              "type": "english",
+              "value": "Gang (4–9), banda (10–100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4t",
+              "words": [
+                "and",
+                "with",
+                "and"
+              ]
+            },
+            {
+              "slug": "hag",
+              "type": "english",
+              "value": "Solitario o covey (3 hags of any kind plus 1–8 ogres and 1–4 evil giants)",
+              "words": [
+                "any",
+                "and"
+              ]
+            },
+            {
+              "slug": "halfling-1st-level-warrior",
+              "type": "english",
+              "value": "Company (2–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o banda (30–100 plus\n          ",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "hobgoblin-1st-level-warrior",
+              "type": "english",
+              "value": "Gang (4–9), banda (10–100 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4th",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "kobold-1st-level-warrior",
+              "type": "english",
+              "value": "Gang (4–9), banda (10–100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4t",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "lizardfolk",
+              "type": "english",
+              "value": "Gang (2–3), banda (6–10 plus 50% noncombatants plus 1 leader of 3rd–6th level), o tribe (30–60 plus 2\n            lieute",
+              "words": [
+                "and"
+              ]
+            },
+            {
+              "slug": "locathah",
+              "type": "english",
+              "value": "Company (2–4), pattuglia (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o tribe (30–100\n            p",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "merfolk",
+              "type": "english",
+              "value": "Company (2–4), pattuglia (11–20 plus 2 3rd-level lieutenants and 1 leader of 3rd–6th level), o banda (30–60\n            ",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "mummy-lord-10th-level-cleric",
+              "type": "english",
+              "value": "Solitario o tomb guard (1 mummy lod and 6–10 mummies)",
+              "words": [
+                "and"
+              ]
+            },
+            {
+              "slug": "nessian-warhound",
+              "type": "english",
+              "value": "Solitario, coppia, o branco (1–2 Nessian warhounds and 5–12 hell hounds)",
+              "words": [
+                "and"
+              ]
+            },
+            {
+              "slug": "orc",
+              "type": "english",
+              "value": "Gang (2–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o banda (30–100 plus\n            1",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "svirfneblin-1st-level-warrior",
+              "type": "english",
+              "value": "Company (2–4), squadra (11–20 plus 1 leader of 3rd–6th level and 2 3rd-level lieutenants), o banda (30–50 plus\n         ",
+              "words": [
+                "and",
+                "and"
+              ]
+            },
+            {
+              "slug": "violet-fungus",
+              "type": "english",
+              "value": "Solitario, patch (2–4), o mixed patch (2–4 violet fungi and 3–5 shriekers)",
+              "words": [
+                "and"
+              ]
+            }
+          ]
         },
         "desc_html": {
-          "translated": 6,
-          "suspicious": 278,
+          "translated": 284,
+          "suspicious": 0,
           "total": 288,
-          "percent": 2.1
+          "percent": 98.6,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "crocodile-giant",
+              "type": "missing",
+              "en_value": "<p>These huge creatures usually live in salt water and can be more than 20 feet long.</p>\n<p>Giant crocodiles fight and "
+            },
+            {
+              "slug": "giant-fire-beetle",
+              "type": "missing",
+              "en_value": "<p>\n      These luminous nocturnal insects are prized by miners and adventurers. They have two glands, one above each ey"
+            },
+            {
+              "slug": "raven",
+              "type": "missing",
+              "en_value": "<p>\n      These glossy black birds are about 2 feet long and have wingspans of about 4 feet. They combine both claws int"
+            },
+            {
+              "slug": "wolverine",
+              "type": "missing",
+              "en_value": "<p>These creatures are similar to badgers but are bigger, stronger, and even more ferocious.</p>"
+            }
+          ]
+        }
+      }
+    },
+    "classes": {
+      "total": 31,
+      "overlay_count": 31,
+      "fields": {
+        "name": {
+          "translated": 30,
+          "suspicious": 1,
+          "total": 31,
+          "percent": 96.8,
+          "identical_to_en": 1,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "ranger",
+              "type": "identical",
+              "value": "Ranger"
+            }
+          ]
+        },
+        "alignment": {
+          "translated": 15,
+          "suspicious": 0,
+          "total": 15,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 2,
+          "issues": [
+            {
+              "slug": "cleric",
+              "type": "english",
+              "value": "A cleric’s alignment must be within one step of his deity’s (that is, it may be one\n      step away on either the legale",
+              "words": [
+                "must",
+                "within",
+                "that",
+                "is",
+                "may",
+                "the",
+                "or",
+                "the",
+                "not",
+                "may",
+                "not",
+                "is"
+              ]
+            },
+            {
+              "slug": "druid",
+              "type": "english",
+              "value": "Neutral buono, legale neutrale, neutrale, caotico neutrale, or neutrale malvagio.",
+              "words": [
+                "or"
+              ]
+            }
+          ]
+        },
+        "table_html": {
+          "translated": 30,
+          "suspicious": 0,
+          "total": 30,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
+        },
+        "desc_html": {
+          "translated": 31,
+          "suspicious": 0,
+          "total": 31,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
+        }
+      }
+    },
+    "races": {
+      "total": 7,
+      "overlay_count": 7,
+      "fields": {
+        "name": {
+          "translated": 7,
+          "suspicious": 0,
+          "total": 7,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
+        },
+        "traits": {
+          "translated": 7,
+          "suspicious": 0,
+          "total": 7,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
+        },
+        "desc_html": {
+          "translated": 7,
+          "suspicious": 0,
+          "total": 7,
+          "percent": 100.0,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0
         }
       }
     },
     "equipment": {
       "total": 288,
-      "overlay_count": 276,
+      "overlay_count": 288,
       "fields": {
         "name": {
           "translated": 268,
           "suspicious": 8,
-          "total": 288,
-          "percent": 93.1
+          "total": 276,
+          "percent": 97.1,
+          "identical_to_en": 8,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "bolas",
+              "type": "identical",
+              "value": "Bolas"
+            },
+            {
+              "slug": "kama",
+              "type": "identical",
+              "value": "Kama"
+            },
+            {
+              "slug": "kukri",
+              "type": "identical",
+              "value": "Kukri"
+            },
+            {
+              "slug": "nunchaku",
+              "type": "identical",
+              "value": "Nunchaku"
+            },
+            {
+              "slug": "pony",
+              "type": "identical",
+              "value": "Pony"
+            },
+            {
+              "slug": "sai",
+              "type": "identical",
+              "value": "Sai"
+            },
+            {
+              "slug": "shuriken-5",
+              "type": "identical",
+              "value": "Shuriken (5)"
+            },
+            {
+              "slug": "siangham",
+              "type": "identical",
+              "value": "Siangham"
+            }
+          ]
         }
       }
     },
@@ -256,21 +2561,111 @@
           "translated": 4,
           "suspicious": 15,
           "total": 19,
-          "percent": 21.1
+          "percent": 21.1,
+          "identical_to_en": 15,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "allineamento-e-descrizione",
+              "type": "identical",
+              "value": "Allineamento e Descrizione"
+            },
+            {
+              "slug": "combattimento-i-basi",
+              "type": "identical",
+              "value": "Combattimento I — Basi"
+            },
+            {
+              "slug": "combattimento-ii-movimento-e-azioni-speciali",
+              "type": "identical",
+              "value": "Combattimento II — Movimento e Azioni Speciali"
+            },
+            {
+              "slug": "materiali-speciali",
+              "type": "identical",
+              "value": "Materiali Speciali"
+            },
+            {
+              "slug": "natura-clima-e-ambiente",
+              "type": "identical",
+              "value": "Natura, Clima e Ambiente"
+            },
+            {
+              "slug": "oggetti-magici-armature-e-armi",
+              "type": "identical",
+              "value": "Oggetti Magici — Armature e Armi"
+            },
+            {
+              "slug": "oggetti-magici-basi-e-creazione",
+              "type": "identical",
+              "value": "Oggetti Magici — Basi e Creazione"
+            },
+            {
+              "slug": "oggetti-magici-intelligenti-maledetti-e-artefatti",
+              "type": "identical",
+              "value": "Oggetti Magici — Intelligenti, Maledetti e Artefatti"
+            },
+            {
+              "slug": "oggetti-magici-oggetti-meravigliosi",
+              "type": "identical",
+              "value": "Oggetti Magici — Oggetti Meravigliosi"
+            },
+            {
+              "slug": "oggetti-magici-pergamene-bastoni-e-bacchette",
+              "type": "identical",
+              "value": "Oggetti Magici — Pergamene, Bastoni e Bacchette"
+            },
+            {
+              "slug": "oggetti-magici-pozioni-anelli-e-verghe",
+              "type": "identical",
+              "value": "Oggetti Magici — Pozioni, Anelli e Verghe"
+            },
+            {
+              "slug": "piani",
+              "type": "identical",
+              "value": "Piani"
+            },
+            {
+              "slug": "tesori",
+              "type": "identical",
+              "value": "Tesori"
+            },
+            {
+              "slug": "trappole",
+              "type": "identical",
+              "value": "Trappole"
+            },
+            {
+              "slug": "trasporto-movimento-ed-esplorazione",
+              "type": "identical",
+              "value": "Trasporto, Movimento ed Esplorazione"
+            }
+          ]
         },
         "desc_html": {
-          "translated": 0,
-          "suspicious": 18,
+          "translated": 18,
+          "suspicious": 0,
           "total": 19,
-          "percent": 0.0
+          "percent": 94.7,
+          "identical_to_en": 0,
+          "ocr_issues": 0,
+          "english_residue": 0,
+          "issues": [
+            {
+              "slug": "materiali-speciali",
+              "type": "missing",
+              "en_value": "<p>In addition to magic items created with spells, some substances have innate special properties.</p>\n<p>\n      If you "
+            }
+          ]
         }
       }
     }
   },
   "summary": {
     "total_entries": 1353,
-    "total_fields": 8989,
-    "translated_fields": 7743,
-    "overall_percent": 86.1
+    "total_fields": 8960,
+    "translated_fields": 8184,
+    "overall_percent": 91.3
   }
 }

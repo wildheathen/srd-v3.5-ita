@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \":*)",
+      "Bash(wc -l data/i18n/it/*.json)",
+      "Bash(python -c \":*)",
+      "Bash(ls -lh /c/Users/Davide/Documents/srd-v3.5-ita/data/i18n/it/*.json)",
+      "Bash(ls -lh /c/Users/Davide/Documents/srd-v3.5-ita/data/*.json)",
+      "Bash(python3:*)"
+    ]
+  }
+}
