@@ -1,6 +1,6 @@
 {
   "lang": "it",
-  "generated_at": "2026-03-06T12:45:34Z",
+  "generated_at": "2026-03-06T12:52:38Z",
   "categories": {
     "spells": {
       "total": 608,
@@ -114,93 +114,7 @@
           "percent": 100.0,
           "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 9,
-          "issues": [
-            {
-              "slug": "death-knell",
-              "type": "english",
-              "value": "Istantaneo/10 minuti per HD of subject; vedi testo",
-              "en_value": "Instantaneous/10 minutes per HD of subject; see text",
-              "words": [
-                "subject"
-              ]
-            },
-            {
-              "slug": "feather-fall",
-              "type": "english",
-              "value": "Until leing o 1 round/livello",
-              "en_value": "Until landing or 1 round/level",
-              "words": [
-                "Until"
-              ]
-            },
-            {
-              "slug": "fire-seeds",
-              "type": "english",
-              "value": "10 min./livello o until used",
-              "en_value": "10 min./level or until used",
-              "words": [
-                "until"
-              ]
-            },
-            {
-              "slug": "magic-jar",
-              "type": "english",
-              "value": "1 ora/livello o until you return to your body",
-              "en_value": "1 hour/level or until you return to your body",
-              "words": [
-                "until",
-                "you",
-                "your"
-              ]
-            },
-            {
-              "slug": "pyrotechnics",
-              "type": "english",
-              "value": "1d4+1 rounds, o 1d4+1 rounds after creatures leave the smoke cloud; vedi testo",
-              "en_value": "1d4+1 rounds, or 1d4+1 rounds after creatures leave the smoke cloud; see text",
-              "words": [
-                "the"
-              ]
-            },
-            {
-              "slug": "snare",
-              "type": "english",
-              "value": "Until triggered o broken",
-              "en_value": "Until triggered or broken",
-              "words": [
-                "Until"
-              ]
-            },
-            {
-              "slug": "spell-turning",
-              "type": "english",
-              "value": "Until expended o 10 min./livello",
-              "en_value": "Until expended or 10 min./level",
-              "words": [
-                "Until"
-              ]
-            },
-            {
-              "slug": "sunbeam",
-              "type": "english",
-              "value": "1 round/livello o until all beams are exhausted",
-              "en_value": "1 round/level or until all beams are exhausted",
-              "words": [
-                "until",
-                "are"
-              ]
-            },
-            {
-              "slug": "tree-stride",
-              "type": "english",
-              "value": "1 ora/livello o until expended; vedi testo",
-              "en_value": "1 hour/level or until expended; see text",
-              "words": [
-                "until"
-              ]
-            }
-          ]
+          "english_residue": 0
         },
         "saving_throw": {
           "translated": 449,
