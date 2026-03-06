@@ -89,7 +89,7 @@
     "duration": "2 oe/livello (C)",
     "components": "V, S, F/FD",
     "level": "Brd 1, Rgr 1, Str/Mag 1",
-    "target_area_effect": "6 m emanaziuna con raggio centrata su un punto nello spazio",
+    "target_area_effect": "6 m emanazione con raggio centrata su un punto nello spazio",
     "desc_html": "<p><i>Allarme</i> emette un allarme mentale o sonoro ogni volta che una creatura di taglia Minuscola o superiore entra nell'area protetta o la tocca. Una creatura che pronuncia la parola d'ordine (determinata da te al momento del lancio) non fa scattare l'<i>allarme</i>. Decidi al momento del lancio se l'<i>allarme</i> sarà mentale o sonoro.</p>\n<p><em>Allarme Mentale:</em> Un <i>allarme</i> mentale ti avverte (e solo te) fintanto che rimani entro 1,5 km dall'area protetta. Percepisci un singolo \"ping\" mentale che ti sveglia dal sonno normale ma non disturba altrimenti la concentrazione. Un incantesimo <i>silenzio</i> non ha effetto su un <i>allarme</i> mentale.</p>\n<p><em>Allarme Sonoro:</em> Un <i>allarme</i> sonoro produce il suono di un campanello a mano, e chiunque entro 18 metri dall'area protetta può sentirlo chiaramente. Riduci la distanza di 3 metri per ogni porta chiusa interposta e di 6 metri per ogni muro consistente interposto.</p>\n<p>In condizioni di silenzio, il suono può essere udito debolmente fino a 54 metri di distanza. Il suono dura per 1 round. Le creature all'interno di un incantesimo <i>silenzio</i> non possono udire il suono.</p>\n<p>Le creature eteree o astrali non attivano l'<i>allarme</i>.</p>\n<p><i>Allarme</i> può essere reso permanente con un incantesimo <i>permanenza</i>.</p>\n<p><em>Focus Arcano:</em> Un campanellino e un pezzo di filo d'argento molto sottile.</p>"
   },
   {
@@ -138,7 +138,7 @@
     "name": "Crescita Animale",
     "school": "Trasmutazione",
     "desc_html": "<p>Un certo numero di animali crescono fino al doppio della loro taglia normale e otto volte il loro peso normale. Questa alterazione cambia la categoria di taglia di ogni animale alla successiva più grande, conferisce un bonus di taglia di +8 alla Forza e un bonus di taglia di +4 alla Costituzione (e quindi 2 punti ferita extra per DV), e impone una penalità di taglia di –2 alla Destrezza. Il bonus di armatura naturale esistente della creatura aumenta di 2. Il cambiamento di taglia influenza anche il modificatore della creatura alla CA e ai tiri per colpire e il suo danno base. Lo spazio e la portata dell'animale cambiano come appropriato per la nuova taglia, ma la sua velocità non cambia.</p>\n<p>L'incantesimo conferisce inoltre a ogni soggetto riduzione del danno 10/magia e un bonus di resistenza di +4 ai tiri salvezza. Se non c'è spazio sufficiente per la crescita desiderata, la creatura raggiunge la taglia massima possibile e può effettuare una prova di Forza (usando la sua Forza aumentata) per sfondare qualsiasi struttura che la racchiude. Se fallisce, è trattenuta senza danno dai materiali che la racchiudono — l'incantesimo non può essere usato per schiacciare una creatura aumentandone la taglia.</p>\n<p>Tutto l'equipaggiamento indossato o trasportato da un animale viene similmente ingrandito dall'incantesimo, sebbene questo cambiamento non abbia effetto sulle proprietà magiche di tale equipaggiamento.</p>\n<p>Qualsiasi oggetto ingrandito che lascia il possesso della creatura ingrandita torna istantaneamente alla sua taglia normale.</p>\n<p>L'incantesimo non conferisce alcun mezzo di comando o influenza sugli animali ingranditi.</p>\n<p>Effetti magici multipli che aumentano la taglia non si cumulano.</p>",
-    "target_area_effect": "Fino a un animal e (Mastodontico o più piccolo) per ogn i due livelli, che non possono trovarsi a più di 9 m l'uno dall'altro",
+    "target_area_effect": "Fino a un animal e (Mastodontico o più piccolo) per ogni due livelli, che non possono trovarsi a più di 9 m l'uno dall'altro",
     "spell_resistance": "Sì",
     "saving_throw": "Tempra nega",
     "casting_time": "1 azione standard",
@@ -160,7 +160,7 @@
     "duration": "Un giono/livello",
     "components": "V, S, M",
     "level": "Brd 2, Drd 2, Rgr 1",
-    "target_area_effect": "Una Minuta animale",
+    "target_area_effect": "Un animale Minuto",
     "desc_html": "<p>Costringi un animale Minuscolo ad andare in un luogo da te designato. L'uso più comune di questo incantesimo è far portare un messaggio ai tuoi alleati da un animale. L'animale non può essere uno addomesticato o addestrato da qualcun altro, incluse creature come famigli e compagni animali.</p>\n<p>Usando come esca un tipo di cibo gradito all'animale, lo chiami a te. Si avvicina e attende i tuoi ordini. Puoi imprimere mentalmente nell'animale un certo luogo a te ben noto o un punto di riferimento evidente. Le indicazioni devono essere semplici, poiché l'animale dipende dalla tua conoscenza e non può trovare una destinazione da solo. Puoi attaccare qualche piccolo oggetto o biglietto al messaggero. L'animale poi si reca nella località designata e attende lì fino alla scadenza della durata dell'incantesimo, dopodiché riprende le sue normali attività.</p>\n<p>Durante questo periodo di attesa, il messaggero permette ad altri di avvicinarsi e rimuovere qualsiasi pergamena o oggetto che trasporta. Il destinatario previsto non ottiene alcuna capacità speciale di comunicare con l'animale o di leggere qualsiasi messaggio allegato (se è scritto in una lingua che non conosce, per esempio).</p>\n<p><em>Componente Materiale:</em> Un boccone di cibo gradito all'animale.</p>"
   },
   {
@@ -233,7 +233,7 @@
     "duration": "1 round/livello o 1 oa/livello; vedi testo",
     "components": "V",
     "level": "Drd 7, Pianta 7",
-    "target_area_effect": "Una Grande vegetale per tre incantatore livelli o all vegetali entro raggio di aziuna; vedi testo",
+    "target_area_effect": "Una vegetale Grande per ogni tre livelli o tutti i vegetali entro raggio d'azione; vedi testo",
     "desc_html": "<p>Infondesti mobilità e una parvenza di vita in piante inanimate. Ogni pianta animata attacca immediatamente chiunque o qualsiasi cosa tu indichi inizialmente come se fosse un oggetto animato della categoria di taglia appropriata. Puoi animare una pianta Grande o più piccola, o un numero equivalente di piante più grandi, per ogni tre livelli dell'incantatore. Una pianta Enorme conta come due piante Grandi o più piccole, una pianta Mastodontica come quattro e una pianta Colossale come otto. Puoi cambiare il bersaglio o i bersagli designati come azione di movimento, come se dirigessi un incantesimo attivo.</p>\n<p>Usa le statistiche per gli oggetti animati, eccetto che le piante più piccole di Grande di solito non hanno durezza.</p>\n<p><i>Animare piante</i> non può influenzare creature vegetali, né influenza materiale vegetale non vivente.</p>\n<p><em>Intralciare:</em> In alternativa, puoi infondere a tutte le piante entro gittata un grado di mobilità, che permette loro di avvilupparsi attorno alle creature nell'area. Questo uso dell'incantesimo replica l'effetto di un incantesimo <i>intralciare</i>. La resistenza agli incantesimi non impedisce alle creature di essere intralciate. Questo effetto dura 1 ora per livello dell'incantatore.</p>"
   },
   {
@@ -247,7 +247,7 @@
     "duration": "1 round/livello",
     "components": "V, S",
     "level": "Brd 1, Str/Mag 1",
-    "target_area_effect": "Una ropelike oggetto, length fino a 15 m + 1,5 m/livello; vedi testo",
+    "target_area_effect": "Un oggetto simile a una corda, lungo fino a 15 m + 1,5 m/livello; vedi testo",
     "desc_html": "<p>Puoi animare un oggetto inanimato simile a una corda. La lunghezza massima presume una corda con un diametro di 2,5 cm.</p>\n<p>Riduci la lunghezza massima del 50% per ogni 2,5 cm aggiuntivi di spessore, e aumentala del 50% per ogni riduzione alla metà del diametro della corda.</p>\n<p>I comandi possibili sono \"arrotolare\" (formare una pila ordinata e arrotolata), \"arrotolare e annodare\", \"fare un cappio\", \"fare un cappio e annodare\", \"legare e annodare\", e i contrari di tutti i precedenti (\"srotolare\" e così via). Puoi dare un comando ogni round come azione di movimento, come se dirigessi un incantesimo attivo.</p>\n<p>La corda può avvolgere solo una creatura o un oggetto entro 30 cm da essa — non si muove sinuosamente verso l'esterno — quindi deve essere lanciata vicino al bersaglio previsto. Farlo richiede un tiro per colpire di contatto a distanza riuscito (incremento di gittata 3 metri). Una tipica corda di canapa dal diametro di 2,5 cm ha 2 punti ferita, CA 10, e richiede una prova di Forza con CD 23 per spezzarla. La corda non infligge danni, ma può essere usata come filo da inciampo o per far sì che un singolo avversario che fallisce un tiro salvezza sui Riflessi diventi intralciato. Una creatura capace di lanciare incantesimi che è legata da questo incantesimo deve superare una prova di Concentrazione con CD 15 per lanciare un incantesimo. Una creatura intralciata può liberarsi con una prova di Artista della Fuga con CD 20.</p>\n<p>La corda stessa e qualsiasi nodo in essa legato non sono magici.</p>\n<p>Questo incantesimo conferisce un bonus di +2 a qualsiasi prova di Usare Corde che effettui quando usi la corda trasmutata.</p>\n<p>L'incantesimo non può animare oggetti trasportati o indossati da una creatura.</p>"
   },
   {
@@ -261,7 +261,7 @@
     "duration": "10 min./livello (C)",
     "components": "V, S, FD",
     "level": "Animale 6, Chr 6, Drd 6",
-    "target_area_effect": "3 m emanaziuna con raggio, centrata su di te",
+    "target_area_effect": "3 m emanazione con raggio, centrata su di te",
     "desc_html": "<p>Crei un campo di energia mobile ed emisferico che impedisce l'ingresso alla maggior parte dei tipi di creature viventi.</p>\n<p>L'effetto tiene lontani animali, aberrazioni, draghi, fatati, giganti, umanoidi, bestie magiche, umanoidi mostruosi, melme, piante e parassiti, ma non costrutti, elementali, esterni o non morti.</p>\n<p>Questo incantesimo può essere usato solo in modo difensivo, non aggressivo. Forzare una barriera di abiurazione contro creature che l'incantesimo tiene a bada fa collassare la barriera.</p>"
   },
   {
@@ -284,7 +284,7 @@
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "desc_html": "<p>Fai sì che un oggetto o una località emani vibrazioni magiche che respingono un tipo specifico di creatura intelligente o creature di un allineamento particolare, come da te definito. Il tipo di creatura da influenzare deve essere specificato in modo preciso. Un sottotipo di creatura non è sufficientemente specifico. Allo stesso modo, l'allineamento specifico da respingere deve essere specificato.</p>\n<p>Le creature del tipo o allineamento designato provano un impulso irresistibile ad abbandonare l'area o ad evitare l'oggetto influenzato.</p>\n<p>Una compulsione le costringe ad abbandonare l'area o l'oggetto, evitandolo e non tornandovi mai volontariamente finché l'incantesimo è in effetto. Una creatura che supera un tiro salvezza può restare nell'area o toccare l'oggetto ma si sente a disagio nel farlo. Questo disagio distraente riduce il punteggio di Destrezza della creatura di 4 punti.</p>\n<p><i>Antipatia</i> contrasta e dissolve <i>simpatia</i>.</p>\n<p><em>Componente Materiale Arcana:</em> Un grumo di allume immerso nell'aceto.</p>",
-    "target_area_effect": "Un'arma o cinquanta proiettil i (tutti in contatto tra loro al moment o del lancio)",
+    "target_area_effect": "Un'arma o cinquanta proiettili (tutti in contatto tra loro al momento del lancio)",
     "descriptor": "Influenza Mentale",
     "spell_resistance": "Sì",
     "saving_throw": "Volontà parziale",
@@ -305,7 +305,7 @@
     "duration": "10 min./livello (C)",
     "components": "V, S, FD",
     "level": "Drd 4",
-    "target_area_effect": "3 m emanaziuna con raggio, centrata su di te",
+    "target_area_effect": "3 m emanazione con raggio, centrata su di te",
     "desc_html": "<p>L'incantesimo <i>guscio anti-piante</i> crea una barriera invisibile e mobile che protegge tutte le creature all'interno del guscio dagli attacchi di creature vegetali o piante animate. Come per molti incantesimi di abiurazione, forzare la barriera contro creature che l'incantesimo tiene a bada mette sotto sforzo e fa collassare il campo.</p>"
   },
   {
@@ -328,7 +328,7 @@
     "name": "Serratura Arcana",
     "school": "Abiurazione",
     "desc_html": "<p>Una <i>serratura arcana</i> lanciata su una porta, forziere o portale incanta magicamente il dispositivo di chiusura. Puoi aprire liberamente la serratura senza influenzare l'incantesimo (la <i>serratura</i> \"riconosce\" te come proprietario nel momento del lancio), ma il CD per forzarla o scassinarla aumenta di 10. Un incantesimo <i>scassinare</i> non rimuove una <i>serratura arcana</i>; sopprime semplicemente l'incantesimo per 10 minuti.</p>",
-    "target_area_effect": "La porta, il forziere o il portale toccato, fino a una taglia di 2,7 m' pe r livello",
+    "target_area_effect": "La porta, il forziere o il portale toccato, fino a una taglia di 2,7 m' per livello",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -473,7 +473,7 @@
     "name": "Pelle Coriacea",
     "school": "Trasmutazione",
     "desc_html": "<p><i>Pelle coriacea</i> indurisce la pelle di una creatura. L'effetto conferisce un bonus di potenziamento di +2 al bonus di armatura naturale esistente della creatura. Questo bonus di potenziamento aumenta di 1 per ogni tre livelli dell'incantatore oltre il 3°, fino a un massimo di +5 al 12° livello dell'incantatore.</p>\n<p>Il bonus di potenziamento fornito da <i>pelle coriacea</i> si cumula con il bonus di armatura naturale del bersaglio, ma non con altri bonus di potenziamento all'armatura naturale. Una creatura senza armatura naturale ha un bonus di armatura naturale effettivo di +0.</p>",
-    "target_area_effect": "Creatura viventetoscata",
+    "target_area_effect": "Creatura vivente toccata",
     "spell_resistance": "Sì (innocuo)",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -547,7 +547,7 @@
     "duration": "1 round/livello (C)",
     "components": "V, S, M",
     "level": "Str/Mag 4",
-    "target_area_effect": "6 m diffusiuna con raggio",
+    "target_area_effect": "6 m diffusione con raggio",
     "desc_html": "<p>Questo incantesimo evoca un campo di tentacoli neri e gommosi, ciascuno lungo 3 metri. Questi appendici ondeggianti sembrano scaturire dalla terra, dal pavimento o da qualsiasi superficie sottostante — inclusa l'acqua. Afferrano e si avvolgono attorno alle creature che entrano nell'area, trattenendole saldamente e schiacciandole con grande forza.</p>\n<p>Ogni creatura all'interno dell'area dell'incantesimo deve effettuare una prova di lotta, contrastata dalla prova di lotta dei tentacoli. Tratta i tentacoli che attaccano un particolare bersaglio come una creatura Grande con un bonus di attacco base pari al tuo livello dell'incantatore e un punteggio di Forza di 19. Pertanto, il suo modificatore alla prova di lotta è pari al tuo livello dell'incantatore +8. I tentacoli sono immuni a tutti i tipi di danno.</p>\n<p>Una volta che i tentacoli afferrano in lotta un avversario, possono effettuare una prova di lotta ogni round durante il tuo turno per infliggere 1d6+4 danni contundenti. I tentacoli continuano a schiacciare l'avversario fino al termine dell'incantesimo o fino a quando l'avversario non si libera.</p>\n<p>Qualsiasi creatura che entra nell'area dell'incantesimo viene immediatamente attaccata dai tentacoli. Anche le creature che non sono in lotta con i tentacoli possono muoversi attraverso l'area solo a metà della velocità normale.</p>\n<p><em>Componente Materiale:</em> Un pezzo di tentacolo di piovra gigante o di calamaro gigante.</p>"
   },
   {
@@ -556,7 +556,7 @@
     "school": "Invocazione",
     "desc_html": "<p>Una cortina immobile e verticale di lame rotanti fatte di pura forza appare all'esistenza. Qualsiasi creatura che attraversa il muro subisce 1d6 danni per livello dell'incantatore (massimo 15d6), con un tiro salvezza sui Riflessi per dimezzare i danni.</p>\n<p>Se evochi la barriera in modo che appaia dove si trovano delle creature, ciascuna creatura subisce danni come se attraversasse il muro. Ciascuna di tali creature può evitare il muro (finendo sul lato di sua scelta) e quindi non subire danni superando un tiro salvezza sui Riflessi.</p>\n<p>Una <i>barriera di lame</i> fornisce copertura (bonus di +4 alla CA, bonus di +2 ai tiri salvezza sui Riflessi) contro gli attacchi effettuati attraverso di essa.</p>",
     "descriptor": "Forza",
-    "target_area_effect": "Muro di lame rotanti lungo fino a 6 m per livello, o muro ad anello d i lame rotanti con un raggio fino a 1,5 m per ogni due livelli ; entrambe le form e alte 6m",
+    "target_area_effect": "Muro di lame rotanti lungo fino a 6 m per livello, o muro ad anello di lame rotanti con un raggio fino a 1,5 m per ogni due livelli ; entrambe le form e alte 6m",
     "spell_resistance": "Sì",
     "saving_throw": "Riflessi dimezza o Riflessi nega; vedi testo",
     "casting_time": "1 azione standard",
@@ -571,7 +571,7 @@
     "school": "Invocazione",
     "desc_html": "<p>Qualsiasi creatura non malvagia entro l'area di un incantesimo <i>blasfemia</i> subisce i seguenti effetti negativi.</p>\n<table class=\"half-width-table\" data-debug=\"no-caption\">\n<tbody>\n<tr>\n<th>DV</th>\n<th>Effetto</th>\n</tr>\n<tr>\n<td>Pari al livello dell'incantatore</td>\n<td>Frastornato</td>\n</tr>\n<tr>\n<td>Fino a livello dell'incantatore –1</td>\n<td>Indebolito, frastornato</td>\n</tr>\n<tr>\n<td>Fino a livello dell'incantatore –5</td>\n<td>Paralizzato, indebolito, frastornato</td>\n</tr>\n<tr>\n<td>Fino a livello dell'incantatore –10</td>\n<td>Ucciso, paralizzato, indebolito, frastornato</td>\n</tr>\n</tbody>\n</table>\n<p>Gli effetti sono cumulativi e simultanei.</p>\n<p>Non è consentito alcun tiro salvezza contro questi effetti.</p>\n<p><em>Frastornato:</em> La creatura non può compiere azioni per 1 round, sebbene si difenda normalmente.</p>\n<p><em>Indebolito:</em> Il punteggio di Forza della creatura diminuisce di 2d6 punti per 2d4 round.</p>\n<p><em>Paralizzato:</em> La creatura è paralizzata e indifesa per 1d10 minuti.</p>\n<p><em>Ucciso:</em> Le creature viventi muoiono. Le creature non morte vengono distrutte.</p>\n<p>Inoltre, se ti trovi sul tuo piano natale quando lanci questo incantesimo, le creature extraplanari non malvagie entro l'area vengono istantaneamente esiliate nei loro piani natali. Le creature così esiliate non possono tornare per almeno 24 ore. Questo effetto ha luogo indipendentemente dal fatto che le creature sentano la <i>blasfemia</i>. L'effetto di esilio consente un tiro salvezza su Volontà (con penalità di –4) per negare.</p>\n<p>Le creature i cui Dadi Vita superano il tuo livello dell'incantatore non sono influenzate da <i>blasfemia</i>.</p>",
     "descriptor": "Male, Sonoro",
-    "target_area_effect": "Creature non malvagie entro un a propagazione con raggio di 12 m centrata sull'incantatore",
+    "target_area_effect": "Creature non malvagie entro una propagazione con raggio di 12 m centrata sull'incantatore",
     "spell_resistance": "Sì",
     "saving_throw": "Nessuno o Volontà nega; vedi testo",
     "casting_time": "1 azione standard",
@@ -722,7 +722,7 @@
     "school": "Invocazione",
     "desc_html": "<p>Un cono di fiamme brucianti scaturisce dalle tue dita. Qualsiasi creatura nell'area delle fiamme subisce 1d4 danni da fuoco per livello dell'incantatore (massimo 5d4). I materiali infiammabili bruciano se le fiamme li toccano. Un personaggio può spegnere oggetti in fiamme come azione di round completo.</p>",
     "descriptor": "Fuoco",
-    "target_area_effect": "Mano fantasma",
+    "target_area_effect": "Esplosione a forma di cono",
     "spell_resistance": "Sì",
     "saving_throw": "Riflessi dimezza",
     "casting_time": "1 azione standard",
@@ -959,7 +959,7 @@
     "duration": "Istantaneo",
     "components": "V, S, M",
     "level": "Str/Mag 6",
-    "target_area_effect": "Diverse creatura viventes entro a 12 m scoppio con raggio",
+    "target_area_effect": "Diverse creature viventi entro un'esplosione del raggio di 12 m",
     "desc_html": "<p>Un <i>cerchio della morte</i> spegne la forza vitale delle creature viventi, uccidendole istantaneamente.</p>\n<p>L'incantesimo uccide 1d4 DV di creature viventi per livello dell'incantatore (massimo 20d4). Le creature con meno DV sono influenzate per prime; tra creature con DV uguali, quelle più vicine al punto d'origine dell'esplosione sono influenzate per prime. Nessuna creatura di 9 o più DV può essere influenzata, e i Dadi Vita che non sono sufficienti a influenzare una creatura sono sprecati.</p>\n<p><em>Componente Materiale:</em> La polvere di una perla nera frantumata del valore minimo di 500 mo.</p>"
   },
   {
@@ -1006,7 +1006,7 @@
     "duration": "1 round/livello (C)",
     "components": "V, S, F",
     "level": "Caos 8, Chr 8",
-    "target_area_effect": "Una creatura/livello in a 6 m scoppio con raggio centrata su di te",
+    "target_area_effect": "Una creatura per livello entro un'esplosione del raggio di 6 m centrata su di te",
     "desc_html": "<p>Un motivo casuale di colori circonda i soggetti, proteggendoli dagli attacchi, conferendo loro resistenza agli incantesimi lanciati da creature legali e facendo sì che le creature legali che colpiscono i soggetti diventino <i>confuse</i>. Questa abiurazione ha quattro effetti.</p>\n<p>Primo, ogni creatura protetta ottiene un bonus di deviazione di +4 alla CA e un bonus di resistenza di +4 ai tiri salvezza. A differenza di <i>protezione dalla legge</i>, il beneficio di questo incantesimo si applica contro tutti gli attacchi, non solo contro gli attacchi di creature legali.</p>\n<p>Secondo, ogni creatura protetta ottiene resistenza agli incantesimi 25 contro incantesimi legali e incantesimi lanciati da creature legali.</p>\n<p>Terzo, l'abiurazione blocca il possesso e l'influenza mentale, proprio come <i>protezione dalla legge</i>.</p>\n<p>Infine, se una creatura legale riesce in un attacco in mischia contro una creatura protetta, l'attaccante è <i>confuso</i> per 1 round (tiro salvezza su Volontà nega, come per l'incantesimo <i>confusione</i>, ma contro la CD di <i>manto del caos</i>).</p>\n<p><em>Focus:</em> Un minuscolo reliquiario contenente una reliquia sacra, come un pezzo di pergamena da un testo caotico. Il reliquiario costa almeno 500 mo.</p>"
   },
   {
@@ -1020,7 +1020,7 @@
     "duration": "Istantaneo",
     "components": "V, S, M, F",
     "level": "Str/Mag 8",
-    "target_area_effect": "Una cluna",
+    "target_area_effect": "Un clone",
     "desc_html": "<p>Questo incantesimo crea un duplicato inerte di una creatura. Se l'individuo originale è stato ucciso, la sua anima si trasferisce immediatamente nel clone, creando un sostituto (a condizione che l'anima sia libera e desideri tornare). I resti fisici dell'originale, se esistono ancora, diventano inerti e non possono più essere riportati in vita. Se la creatura originale ha raggiunto il termine della sua durata naturale di vita (cioè è morta di cause naturali), qualsiasi tentativo di clonazione fallisce.</p>\n<p>Per creare il duplicato, devi avere un pezzo di carne (non capelli, unghie, scaglie o simili) con un volume di almeno 16 cm³ prelevato dal corpo vivente della creatura originale. Il pezzo di carne non deve essere fresco, ma deve essere preservato dalla decomposizione. Una volta lanciato l'incantesimo, il duplicato deve essere fatto crescere in un laboratorio per 2d4 mesi.</p>\n<p>Quando il clone è completato, l'anima dell'originale vi entra immediatamente, se quella creatura è già morta. Il clone è fisicamente identico all'originale e possiede la stessa personalità e gli stessi ricordi dell'originale. Per ogni altro aspetto, tratta il clone come se fosse il personaggio originale riportato dalla morte, inclusa la perdita di un livello o 2 punti di Costituzione (se l'originale era un personaggio di 1° livello). Se questo aggiustamento alla Costituzione darebbe al clone un punteggio di Costituzione di 0, l'incantesimo fallisce. Se la creatura originale ha perso livelli dopo che il campione di carne è stato prelevato ed è morta a un livello inferiore a quello che il clone avrebbe altrimenti, il clone è di un livello inferiore al livello al quale l'originale è morto.</p>\n<p>L'incantesimo duplica solo il corpo e la mente dell'originale, non il suo equipaggiamento.</p>\n<p>Un duplicato può essere fatto crescere mentre l'originale è ancora vivo, o quando l'anima originale non è disponibile, ma il corpo risultante è semplicemente un pezzo di carne inerte senz'anima, che marcisce se non preservato.</p>\n<p><em>Componente Materiale:</em> Il pezzo di carne e varie forniture da laboratorio (costo 1.000 mo).</p>\n<p><em>Focus:</em> Attrezzatura da laboratorio speciale (costo 500 mo).</p>"
   },
   {
@@ -1092,7 +1092,7 @@
     "duration": "Un giono/livello",
     "components": "V",
     "level": "Drd 4, Pianta 4, Rgr 3",
-    "target_area_effect": "Fino a 2 DV/livello of vegetale creatura,, non più di 9 m l'una dall'altra",
+    "target_area_effect": "Fino a 2 DV/livello di creature vegetali, non più di 9 m l'una dall'altra",
     "desc_html": "<p>Questo incantesimo ti consente un certo grado di controllo su una o più creature vegetali. Le creature vegetali influenzate possono capirti, e percepiscono le tue parole e azioni nel modo più favorevole (tratta il loro atteggiamento come amichevole). Non ti attaccheranno mentre l'incantesimo dura. Puoi tentare di dare ordini a un soggetto, ma devi vincere una prova contrapposta di Carisma per convincerlo a fare qualcosa che non farebbe normalmente. (Non sono consentiti nuovi tentativi.) Una pianta comandata non obbedisce mai a ordini suicidi o manifestamente dannosi, ma potrebbe essere convinta che qualcosa di molto pericoloso valga la pena di essere fatto.</p>\n<p>Puoi influenzare un numero di creature vegetali i cui livelli o DV combinati non superano il doppio del tuo livello.</p>"
   },
   {
@@ -1100,7 +1100,7 @@
     "name": "Comandare Non Morti",
     "school": "Necromanzia",
     "desc_html": "<p>Questo incantesimo ti consente un certo grado di controllo su una creatura non morta. Ammesso che il soggetto sia intelligente, percepisce le tue parole e azioni nel modo più favorevole (tratta il suo atteggiamento come amichevole). Non ti attaccherà mentre l'incantesimo dura. Puoi tentare di dare ordini al soggetto, ma devi vincere una prova contrapposta di Carisma per convincerlo a fare qualcosa che non farebbe normalmente. (Non sono consentiti nuovi tentativi.) Un non morto intelligente comandato non obbedisce mai a ordini suicidi o manifestamente dannosi, ma potrebbe essere convinto che qualcosa di molto pericoloso valga la pena di essere fatto.</p>\n<p>Una creatura non morta non intelligente non ha diritto a un tiro salvezza contro questo incantesimo. Quando controlli un essere senza mente, puoi comunicare solo comandi basilari, come \"vieni qui\", \"vai là\", \"combatti\", \"stai fermo\" e così via. I non morti non intelligenti non resisteranno a ordini suicidi o manifestamente dannosi.</p>\n<p>Qualsiasi atto da parte tua o dei tuoi apparenti alleati che minacci il non morto comandato (indipendentemente dalla sua Intelligenza) spezza l'incantesimo.</p>\n<p>I tuoi comandi non sono telepatici. La creatura non morta deve essere in grado di sentirti.</p>\n<p><em>Componente Materiale:</em> Un pezzo di carne cruda e una scheggia d'osso.</p>",
-    "target_area_effect": "tma creatura non morta",
+    "target_area_effect": "Una creatura non morta",
     "spell_resistance": "Sì",
     "saving_throw": "Volontà nega; vedi testo",
     "casting_time": "1 azione standard",
@@ -1269,7 +1269,7 @@
     "duration": "1 min./livello",
     "components": "V, S, FD",
     "level": "Drd 8, Pianta 8",
-    "target_area_effect": "Fino a 2 DV/livello of vegetale creatura,, non più di 9 m l'una dall'altra",
+    "target_area_effect": "Fino a 2 DV/livello di creature vegetali, non più di 9 m l'una dall'altra",
     "desc_html": "<p>Questo incantesimo ti consente di controllare le azioni di una o più creature vegetali per un breve periodo di tempo. Comandi le creature a voce e ti capiscono, indipendentemente dalla lingua che parli. Anche se la comunicazione vocale è impossibile, le piante controllate non ti attaccano. Alla fine dell'incantesimo, i soggetti tornano al loro comportamento normale.</p>\n<p>Comandi suicidi o auto-distruttivi vengono semplicemente ignorati.</p>"
   },
   {
@@ -1277,7 +1277,7 @@
     "name": "Controllare Non Morti",
     "school": "Necromanzia",
     "desc_html": "<p>Questo incantesimo ti consente di comandare creature non morte per un breve periodo di tempo. Comandi a voce e ti capiscono, indipendentemente dalla lingua che parli. Anche se la comunicazione vocale è impossibile, i non morti controllati non ti attaccano. Alla fine dell'incantesimo, i soggetti tornano al loro comportamento normale.</p>\n<p>I non morti intelligenti ricordano che li hai controllati e possono cercare vendetta dopo che l'incantesimo termina.</p>",
-    "target_area_effect": "Fino a 2 DV di creature non morte per livello, che non posson o trovarsi a una distanza superiore a 9 rn l'una dall'altra",
+    "target_area_effect": "Fino a 2 DV di creature non morte per livello, che non possono trovarsi a una distanza superiore a 9 m l'una dall'altra",
     "spell_resistance": "Sì",
     "saving_throw": "Volontà nega",
     "casting_time": "1 azione standard",
@@ -1306,7 +1306,7 @@
     "name": "Controllare Tempo Atmosferico",
     "school": "Trasmutazione",
     "desc_html": "<p>Cambi il tempo meteorologico nell'area locale. Ci vogliono 10 minuti per lanciare l'incantesimo e altri 10 minuti perché gli effetti si manifestino. Puoi invocare condizioni meteorologiche appropriate al clima e alla stagione dell'area in cui ti trovi.</p>\n<p>Puoi controllare il tempo generale: pioggia, neve, grandine, nebbia, vento, tempesta. Puoi cambiare il tempo al momento del lancio e poi di nuovo una volta ogni 10 minuti per la durata dell'incantesimo.</p>",
-    "target_area_effect": "Fino a 2 DV per livello di creature vegetali che non possono essere a più di 9 m l'una dall'altra",
+    "target_area_effect": "Cerchio con raggio di 3 km centrato su di te; vedi testo",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "10 minuti; vedi testo",
@@ -1321,7 +1321,7 @@
     "school": "Trasmutazione",
     "desc_html": "<p>Alteri la forza del vento nell'area circostante. Puoi far soffiare il vento in una certa direzione o modo, aumentarne la forza o diminuirla. La nuova direzione e forza del vento persistono fino al termine dell'incantesimo o fino a quando scegli di alterarle, il che richiede concentrazione.</p>\n<p>Puoi aumentare o diminuire la forza del vento di una categoria ogni tre livelli dell'incantatore. Ogni round che mantieni l'incantesimo dopo il primo, puoi cambiare la direzione del vento di 45 gradi.</p>",
     "descriptor": "Aria",
-    "target_area_effect": "Un cilindro del raggio di 12 m pe r livello e alto 12m",
+    "target_area_effect": "Un cilindro del raggio di 12 m per livello e alto 12m",
     "spell_resistance": "No",
     "saving_throw": "Tempra nega",
     "casting_time": "1 azione standard",
@@ -1396,7 +1396,7 @@
     "duration": "1 min./livello",
     "components": "V, S",
     "level": "Drd 7",
-    "target_area_effect": "Uno sciame di centopiedi per ogni due livelli",
+    "target_area_effect": "Tre o più sciami striscianti, che non possono trovarsi a più di 9 m l'uno dall'altro; vedi testo",
     "desc_html": "<p>Quando pronunci l'incantesimo di <i>rovina strisciante</i>, evochi una massa di sciami di centopiedi (uno ogni due livelli dell'incantatore, fino a un massimo di dieci sciami al 20° livello), che non devono necessariamente apparire adiacenti l'uno all'altro.</p>\n<p>Puoi evocare gli sciami di centopiedi in modo che condividano l'area di altre creature. L'effetto degli sciami è identico a quello di uno sciame di centopiedi.</p>\n<p>Puoi comandare gli sciami con un'azione di movimento, e gli sciami seguono le tue indicazioni. Sono completamente sotto il tuo controllo per la durata dell'incantesimo.</p>"
   },
   {
@@ -1438,7 +1438,7 @@
     "school": "Evocazione",
     "subschool": "Guarigione",
     "desc_html": "<p>Questo incantesimo funziona come <i>cura ferite leggere di massa</i>, eccetto che cura 4d8 danni +1 punto per livello dell'incantatore (massimo +40).</p>",
-    "target_area_effect": "1 oggetto di legno Piccolo per livello, tutti entro un raggio di 6m",
+    "target_area_effect": "Una creatura per livello, non più di 9 m l'una dall'altra",
     "level": "Chr 8, Drd 9, Guarigione 8"
   },
   {
@@ -1815,7 +1815,7 @@
     "duration": "Istantaneo",
     "components": "V, S",
     "level": "Chr 0, Drd 0, Pal 1, Rgr 1, Str/Mag 0",
-    "target_area_effect": "Una creatura, una oggetto, o a 1,5 m cubo",
+    "target_area_effect": "Una creatura, un oggetto, o un cubo con spigolo di 1,5 m",
     "desc_html": "<p>Determini se una creatura, un oggetto o un'area è stata avvelenata o è velenosa. Puoi determinare il tipo esatto di veleno con una prova di Saggezza con CD 20. Un personaggio con l'abilità Artigianato (alchimia) può tentare una prova di Artigianato (alchimia) con CD 20 al posto della prova di Saggezza.</p>\n<p>L'incantesimo può penetrare le barriere, ma 30 cm di pietra, 2,5 cm di metallo comune, un sottile strato di piombo o 90 cm di legno o terra lo bloccano.</p>"
   },
   {
@@ -1829,7 +1829,7 @@
     "duration": "24 oe",
     "components": "V, S, M",
     "level": "Brd 4, Str/Mag 4",
-    "target_area_effect": "12 m emanaziuna con raggio centrata su di te",
+    "target_area_effect": "12 m emanazione con raggio centrata su di te",
     "desc_html": "<p>Diventi immediatamente consapevole di qualsiasi tentativo di osservarti tramite un incantesimo o effetto di divinazione (scrutamento). L'area dell'incantesimo irradia da te e si muove con te. Conosci la posizione di ogni sensore magico entro l'area dell'incantesimo.</p>\n<p>Se il tentativo di scrutamento ha origine entro l'area dell'incantesimo, conosci anche la sua posizione; altrimenti, conosci solo la sua direzione ma non la sua esatta posizione.</p>"
   },
   {
@@ -1901,7 +1901,7 @@
     "duration": "Istantaneo",
     "components": "V",
     "level": "Chr 7, Legge 7",
-    "target_area_effect": "Nonlawful creatura in a 12 m diffusiuna con raggio centrata su di te",
+    "target_area_effect": "Creature non legali entro una propagazione con raggio di 12 m centrata su di te",
     "desc_html": "<p>Qualsiasi creatura non legale entro l'area di un incantesimo <i>editto</i> subisce i seguenti effetti negativi.</p>\n<table class=\"half-width-table\" data-debug=\"no-caption\">\n<tbody>\n<tr>\n<th>DV</th>\n<th>Effetto</th>\n</tr>\n<tr>\n<td>Pari al livello dell'incantatore</td>\n<td>Assordato</td>\n</tr>\n<tr>\n<td>Fino a livello dell'incantatore –1</td>\n<td>Rallentato, assordato</td>\n</tr>\n<tr>\n<td>Fino a livello dell'incantatore –5</td>\n<td>Paralizzato, rallentato, assordato</td>\n</tr>\n<tr>\n<td>Fino a livello dell'incantatore –10</td>\n<td>Ucciso, paralizzato, rallentato, assordato</td>\n</tr>\n</tbody>\n</table>\n<p>Gli effetti sono cumulativi e simultanei.</p>\n<p>Non è consentito alcun tiro salvezza contro questi effetti.</p>\n<p><em>Assordato:</em> La creatura è assordata per 1d4 round.</p>\n<p><em>Rallentato:</em> La creatura è rallentata, come dall'incantesimo <i>lentezza</i>, per 2d4 round.</p>\n<p><em>Paralizzato:</em> La creatura è paralizzata e indifesa per 1d10 minuti.</p>\n<p><em>Ucciso:</em> Le creature viventi muoiono. I non morti vengono distrutti.</p>\n<p>Le creature i cui Dadi Vita superano il tuo livello dell'incantatore non sono influenzate da <i>editto</i>.</p>"
   },
   {
@@ -1910,7 +1910,7 @@
     "school": "Evocazione",
     "subschool": "Teletrasporto",
     "desc_html": "<p>Ti trasferisci istantaneamente dalla tua posizione attuale a qualsiasi altro punto entro la gittata. Arrivi sempre esattamente nel punto desiderato — sia visualizzando l'area sia dichiarando una direzione. Dopo aver usato questo incantesimo, non puoi compiere altre azioni fino al tuo turno successivo.</p>\n<p>Se arrivi in un luogo già occupato da un oggetto solido o da una creatura, tu e chiunque viaggi con te subite 1d6 danni e venite sbalzati in una superficie libera casuale entro 30 metri dal punto previsto di arrivo.</p>\n<p>Se non c'è spazio libero entro 30 metri, tu e ogni creatura che viaggia con te subite 2d6 danni aggiuntivi e venite sbalzati nel più vicino spazio libero disponibile.</p>\n<p>Puoi portare con te oggetti purché il loro peso non superi il tuo carico massimo. Puoi anche portare una creatura consenziente di taglia Media o inferiore (che porta equipaggiamento fino al suo carico massimo) o il suo equivalente per ogni tre livelli dell'incantatore.</p>",
-    "target_area_effect": "Incantatore e oggetti toccat i oppure altre creature toccate consenzienti",
+    "target_area_effect": "Incantatore e oggetti toccati oppure altre creature toccate consenzienti",
     "spell_resistance": "No e Sì (oggetto)",
     "saving_throw": "Nessuno e Volontà nega (oggetto)",
     "casting_time": "1 azione standard",
@@ -1944,7 +1944,7 @@
     "duration": "Un giono/livello",
     "components": "V, S",
     "level": "Chr 8, Str/Mag 8",
-    "target_area_effect": "6 m emanaziuna con raggio centrata su un punto nello spazio",
+    "target_area_effect": "6 m emanazione con raggio centrata su un punto nello spazio",
     "desc_html": "<p>Crei una barriera luccicante color smeraldo che blocca completamente il viaggio extradimensionale. Le forme di movimento bloccate includono <i>proiezione astrale</i>, <i>sbattere</i>, <i>porta dimensionale</i>, <i>viaggio etereo</i>, <i>etereità</i>, <i>portale</i>, <i>labirinto</i>, <i>spostamento tra i piani</i>, <i>camminare nelle ombre</i>, <i>teletrasporto</i> e capacità simili per lancio di incantesimi e per oggetti magici. L'area influenzata è permeata da una luminescenza violacea fioca.</p>\n<p>Una volta fissato il <i>blocco dimensionale</i> in posizione, non può essere spostato.</p>"
   },
   {
@@ -2044,7 +2044,7 @@
     "school": "Abiurazione",
     "desc_html": "<p>Un'energia bianca, luminosa e sacra ti circonda. Questo potere ha tre effetti.</p>\n<p>Primo, ottieni un bonus di deviazione di +4 alla CA contro gli attacchi di creature malvagie.</p>\n<p>Secondo, al riuscire di un attacco di contatto in mischia contro una creatura malvagia proveniente da un altro piano, puoi scegliere di scacciare quella creatura nel suo piano natale. La creatura non ottiene un tiro salvezza contro questo effetto. Questo uso scarica e termina l'incantesimo.</p>\n<p>Terzo, con un tocco puoi automaticamente dissolvere qualsiasi incantesimo lanciato da una creatura malvagia o qualsiasi incantesimo con il descrittore del male. Gli incantesimi che non possono essere dissolti da <i>dissolvi magie</i> non possono essere dissolti nemmeno da <i>dissolvi il male</i>. Anche il tiro salvezza su Volontà e la resistenza agli incantesimi si applicano normalmente. Questo uso scarica e termina l'incantesimo.</p>",
     "descriptor": "Bene",
-    "target_area_effect": "L'incantatore e un a creatura malvagia di un altro pian o toccata ; oppure l'incantatore e un",
+    "target_area_effect": "L'incantatore e una creatura malvagia di un altro piano toccata; oppure l'incantatore e un incantesimo malvagio su una creatura toccata",
     "spell_resistance": "Vedi testo",
     "saving_throw": "Vedi testo",
     "casting_time": "1 azione standard",
@@ -2130,7 +2130,7 @@
     "duration": "1 round/livello",
     "components": "V, S",
     "level": "Chr 5",
-    "target_area_effect": "Una melee arma",
+    "target_area_effect": "Un'arma da mischia",
     "desc_html": "<p>Questo incantesimo rende un'arma da mischia letale per i non morti. Qualsiasi creatura non morta con DV pari o inferiori al tuo livello dell'incantatore deve superare un tiro salvezza su Volontà o essere distrutta completamente se colpita in combattimento con quest'arma. La resistenza agli incantesimi non si applica contro l'effetto di distruzione.</p>"
   },
   {
@@ -2288,7 +2288,7 @@
     "subschool": "Convocazione",
     "desc_html": "<p>Questo incantesimo apre un portale verso un Piano Elementale ed evoca elementali da esso. Un druido può scegliere il piano (Aria, Terra, Fuoco o Acqua); un chierico apre un portale verso il piano corrispondente al suo dominio.</p>\n<p>Quando l'incantesimo viene completato, 2d4 elementali Grandi appaiono. Dieci minuti dopo, 1d4 elementali Enormi appaiono. Dieci minuti dopo quello, un elementale Anziano appare. Ogni elementale ha pieni punti ferita e obbedisce implicitamente ai tuoi comandi. Gli elementali evocati tornano indietro se uccisi o quando l'incantesimo termina.</p>",
     "descriptor": "vedi testo",
-    "target_area_effect": "Due o più creature convocate, ch e non possono trovarsi a più di 9 m l'un a dall'altra",
+    "target_area_effect": "Due o più creature convocate, che non possono trovarsi a più di 9 m l'una dall'altra",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "10 minuti",
@@ -2408,7 +2408,7 @@
     "duration": "Istantaneo",
     "components": "V, S",
     "level": "Brd 1, Str/Mag 1",
-    "target_area_effect": "Una scroll o due pages",
+    "target_area_effect": "Una pergamena o due pagine",
     "desc_html": "<p><i>Cancellare</i> rimuove scritte di natura magica o ordinaria da una pergamena o da una o due pagine di carta, pergamena o superfici simili. Con questo incantesimo, puoi rimuovere <i>rune esplosive</i>, un <i>glifo di interdizione</i>, un <i>sigillo del serpente</i> o una <i>scrittura illusoria</i>. Non rimuovi gli <i>emblemi dei folli</i> o i <i>glifi di interdizione superiori</i>.</p>\n<p>Le scritte non magiche vengono automaticamente cancellate se le tocchi. Per cancellare scritte magiche, devi riuscire in una prova del livello dell'incantatore (1d20 + livello dell'incantatore, massimo +10) contro CD 15.</p>"
   },
   {
@@ -2451,7 +2451,7 @@
     "name": "Rune Esplosive",
     "school": "Abiurazione",
     "desc_html": "<p>Tracci queste rune mistiche su un libro, mappa, pergamena o oggetto simile che porta informazioni scritte. Le <i>rune</i> detonano quando vengono lette, infliggendo 6d6 danni da forza. Chiunque si trovi accanto alle <i>rune</i> (abbastanza vicino da leggerle) subisce i danni pieni; qualsiasi altra creatura entro 3 metri dal punto dell'esplosione subisce metà dei danni. Un tiro salvezza sui Riflessi riuscito dimezza i danni di un'ulteriore metà. L'oggetto su cui erano le rune subisce anch'esso i danni pieni.</p>\n<p>Le <i>rune esplosive</i> possono essere individuate e disattivate come una trappola magica (prova di Cercare con CD 28, prova di Disattivare Congegni con CD 28).</p>",
-    "target_area_effect": "Un oggetto toccato che no n pesi più di S kg",
+    "target_area_effect": "Un oggetto toccato che non pesi più di 5 kg",
     "descriptor": "Forza",
     "spell_resistance": "Sì",
     "saving_throw": "Vedi testo",
@@ -2502,7 +2502,7 @@
     "duration": "1 min./livello (C)",
     "components": "V, S, FD",
     "level": "Drd 1",
-    "target_area_effect": "Creature e oggetti entro a 1,5 m scoppio con raggio",
+    "target_area_effect": "Creature e oggetti entro una diffusione con raggio di 1,5 m",
     "desc_html": "<p>Un pallido bagliore circonda e delinea i soggetti. I soggetti delineati emettono luce come candele. Le creature delineate non beneficiano dell'occultamento normalmente fornito dall'oscurità (sebbene un incantesimo magico di <i>oscurità</i> di 2° livello o superiore funzioni normalmente).</p>\n<p>Le creature delineate non possono beneficiare dell'occultamento per essere invisibili.</p>"
   },
   {
@@ -2552,7 +2552,7 @@
     "name": "Caduta Morbida",
     "school": "Trasmutazione",
     "desc_html": "<p>Le creature od oggetti influenzati cadono lentamente. <i>Caduta morbida</i> cambia istantaneamente la velocità di caduta dei bersagli a soli 18 metri per round (equivalente alla fine di una caduta da pochi piedi), e i soggetti non subiscono danni all'atterraggio finché l'incantesimo è in effetto. Tuttavia, quando l'incantesimo termina, una caduta normale riprende.</p>\n<p>L'incantesimo influenza uno o più oggetti o creature di taglia Media o inferiore (incluso il loro equipaggiamento fino al carico massimo di ciascuno), o l'equivalente in oggetti o creature più grandi.</p>\n<p>Puoi lanciare questo incantesimo con un'azione immediata, abbastanza rapidamente da salvare te stesso se cadi inaspettatamente.</p>",
-    "target_area_effect": "Calappio di corda o di arbust i non magico toccato, oppure una cinghi a del diametro di 60 cm + 60 cm pe r livello",
+    "target_area_effect": "Un oggetto o creatura in caduta libera di taglia Media o inferiore per livello, non più di 6 m l'uno dall'altro",
     "spell_resistance": "Sì (oggetto)",
     "saving_throw": "Volontà nega (innocuo) o Volontà nega (oggetto)",
     "casting_time": "1 azione gratuita",
@@ -2689,7 +2689,7 @@
     "duration": "Istantaneo",
     "components": "V, S, M",
     "level": "Str/Mag 3",
-    "target_area_effect": "6 m diffusiuna con raggio",
+    "target_area_effect": "6 m diffusione con raggio",
     "desc_html": "<p>Un incantesimo <i>palla di fuoco</i> è un'esplosione di fiamme che detona con un rombo basso e infligge 1d6 danni da fuoco per livello dell'incantatore (massimo 10d6) a ogni creatura nell'area. Anche gli oggetti incustoditi subiscono questi danni. L'esplosione non crea quasi nessuna pressione.</p>\n<p>Punti il dito e determini la gittata (distanza e altezza) alla quale la <i>palla di fuoco</i> deve esplodere. Una perla luminosa delle dimensioni di un pisello sfreccia dal dito puntato e, a meno che non colpisca una barriera solida prima di raggiungere il punto prescritto, sboccia in un'esplosione di fiamme al punto determinato. (Un bersaglio precoce sul percorso della perla la fa detonare prematuramente.) Se desideri, puoi far esplodere la perla in anticipo. La perla luminosa viaggia alla velocità di 120 m per round.</p>\n<p>La <i>palla di fuoco</i> accende i materiali combustibili e danneggia gli oggetti nell'area. Può sciogliere metalli con un basso punto di fusione, come piombo, oro, rame, argento e bronzo. Se i danni causati a una barriera interposta la frantumano o la sfondano, la <i>palla di fuoco</i> può proseguire oltre la barriera se l'area lo permette; altrimenti, si ferma alla barriera come qualsiasi altra esplosione.</p>\n<p><em>Componente Materiale Arcana:</em> Un piccolo grumo di zolfo e fosforo.</p>"
   },
   {
@@ -2816,7 +2816,7 @@
     "school": "Evocazione",
     "subschool": "Creazione",
     "desc_html": "<p>Una massa di nebbia si leva dal punto che designi. La nebbia oscura ogni vista, inclusa la scurovisione, oltre 1,5 metri. Una creatura entro 1,5 metri ha occultamento (gli attacchi hanno il 20% di probabilità di mancare). Le creature più lontane hanno occultamento totale (50% di probabilità di mancare, e l'attaccante non può usare la vista per localizzare il bersaglio).</p>\n<p>Un vento moderato (più di 15 km/h) disperde la nebbia in 4 round. Un vento forte (più di 30 km/h) la disperde in 1 round. L'incantesimo non funziona sott'acqua.</p>",
-    "target_area_effect": "Nebbia in una propagazione de l raggio di 6 m, altezza di 6m",
+    "target_area_effect": "Nebbia in una propagazione del raggio di 6 m, altezza di 6m",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -2845,7 +2845,7 @@
     "school": "Invocazione",
     "desc_html": "<p>Questo potente incantesimo fa apparire una prigione cubica immobile e invisibile composta da sbarre di forza o pareti solide di forza (a tua scelta).</p>\n<p>Le creature nell'area sono catturate e contenute a meno che non siano troppo grandi per entrare nello spazio. Teletrasportarsi o viaggiare astralmente fuori dalla gabbia è l'unico modo di uscire. Le sbarre della versione a sbarre sono distanziate di mezza larghezza di dito l'una dall'altra — qualsiasi creatura più grande non può passare attraverso.</p>\n<p>La versione a muro non ha aperture: è una cella completamente chiusa. <i>Dissolvi magie</i> non dissolve una <i>gabbia di forza</i>, ma <i>disgiunzione arcana</i> sì.</p>",
     "descriptor": "Forza",
-    "target_area_effect": "Gabbia di sbarre (cubo con spigolo di 6 m) o cella senza finestre (cubo co n spigolo di 3 m)",
+    "target_area_effect": "Gabbia di sbarre (cubo con spigolo di 6 m) o cella senza finestre (cubo con spigolo di 3 m)",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -3292,7 +3292,7 @@
     "name": "Velocità",
     "school": "Trasmutazione",
     "desc_html": "<p>Le creature trasmudate si muovono e agiscono più rapidamente del normale. Questa velocità extra ha diversi effetti.</p>\n<p>Quando effettua un'azione di attacco completo, una creatura accelerata può effettuare un attacco aggiuntivo con qualsiasi arma stia impugnando. L'attacco viene effettuato usando il bonus di attacco base completo della creatura, più qualsiasi modificatore appropriato alla situazione.</p>\n<p>Una creatura accelerata ottiene un bonus di +1 ai tiri per colpire e un bonus di schivare di +1 alla CA e ai tiri salvezza sui Riflessi.</p>\n<p>Tutti i modi di movimento della creatura (inclusi movimento sul terreno, scavare, scalare, volare e nuotare) aumentano di 9 metri, fino a un massimo del doppio della velocità normale del soggetto in quel modo di movimento.</p>\n<p><i>Velocità</i> dissolve e contrasta <i>lentezza</i>.</p>",
-    "target_area_effect": "Una creatura per livello, ch e non può trovarsi a più di 9 metri l'un a da un'altra",
+    "target_area_effect": "Una creatura per livello, che non può trovarsi a più di 9 metri l'una da un'altra",
     "spell_resistance": "Sì (innocuo)",
     "saving_throw": "Tempra nega (innocuo)",
     "casting_time": "1 azione standard",
@@ -3322,7 +3322,7 @@
     "school": "Evocazione",
     "subschool": "Guarigione",
     "desc_html": "<p>Questo incantesimo funziona come <i>guarigione</i>, eccetto come indicato sopra. Il numero massimo di punti ferita ripristinati a ciascuna creatura è 250.</p>",
-    "target_area_effect": "Una o più creature, che non possono trovarsi a più di 9 m l'un a dall'altra",
+    "target_area_effect": "Una o più creature, che non possono trovarsi a più di 9 m l'una dall'altra",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "level": "Chr 9, Guarigione 9"
   },
@@ -3382,7 +3382,7 @@
     "duration": "1 oa più 12 oe; vedi testo",
     "components": "V, S, FD",
     "level": "Brd 6, Chr 6",
-    "target_area_effect": "Feast for una creatura/livello",
+    "target_area_effect": "Banchetto per una creatura per livello",
     "desc_html": "<p>Fai apparire un grande banchetto, incluso un tavolo magnifico, sedie, servizio, cibo e bevande. Il banchetto richiede 1 ora per essere consumato, e gli effetti benefici non entrano in vigore fino al termine di quest'ora. Ogni creatura che partecipa al banchetto è curata di 1d4+4 danni, diventa immune al veleno per 12 ore, ottiene immunità alla paura, e ottiene 1d8 punti ferita temporanei + 1 per ogni due livelli dell'incantatore (massimo +10). L'effetto completo dura 12 ore.</p>"
   },
   {
@@ -3533,7 +3533,7 @@
     "school": "Abiurazione",
     "desc_html": "<p>Uno splendore divino brillante circonda i soggetti, proteggendoli dagli attacchi, conferendo loro resistenza agli incantesimi lanciati da creature malvagie, e facendo sì che le creature malvagie diventino accecate quando colpiscono i soggetti. Questa abiurazione ha quattro effetti.</p>\n<p>Primo, ogni creatura protetta ottiene un bonus di deviazione di +4 alla CA e un bonus di resistenza di +4 ai tiri salvezza.</p>\n<p>Secondo, ogni creatura protetta ottiene resistenza agli incantesimi 25 contro incantesimi malvagi e incantesimi lanciati da creature malvagie.</p>\n<p>Terzo, l'abiurazione blocca il possesso e l'influenza mentale, proprio come <i>protezione dal male</i>.</p>\n<p>Infine, se una creatura malvagia riesce in un attacco in mischia contro una creatura protetta, l'attaccante è accecato (tiro salvezza su Tempra nega, come per l'incantesimo <i>cecità/sordità</i>, ma contro la CD di <i>aura sacra</i>).</p>\n<p><em>Focus:</em> Un minuscolo reliquiario contenente una reliquia sacra. Il reliquiario costa almeno 500 mo.</p>",
     "descriptor": "Bene",
-    "target_area_effect": "Una creatura per livello entro un'esplosione delraggio di 6 m centrat a sull'incantatore",
+    "target_area_effect": "Una creatura per livello entro un'esplosione del raggio di 6 m centrata sull'incantatore",
     "spell_resistance": "Sì (innocuo)",
     "saving_throw": "Vedi testo",
     "casting_time": "1 azione standard",
@@ -3675,7 +3675,7 @@
     "duration": "Un giono/livello (C)",
     "components": "V, S, M",
     "level": "Brd 3, Str/Mag 3",
-    "target_area_effect": "Una toccata oggetto del peso di non più di 5 kg",
+    "target_area_effect": "Un oggetto toccato del peso non superiore a 5 kg",
     "desc_html": "<p>Scrivi istruzioni o altre informazioni su pergamena, carta o qualsiasi superficie adatta. La <i>scrittura illusoria</i> appare come un testo incomprensibile o in una lingua sconosciuta a chiunque tranne te specifichi come lettore designato. Il lettore designato legge la scrittura normalmente. Qualsiasi altro lettore che tenti di leggere il testo attiva un effetto di <i>suggestione</i> che colpisce solo chi tenta di leggere, con un tiro salvezza su Volontà per negare.</p>\n<p><em>Componente Materiale:</em> Un inchiostro a base di piombo (costo non inferiore a 50 mo).</p>"
   },
   {
@@ -3684,7 +3684,7 @@
     "school": "Illusione",
     "subschool": "Finzione",
     "desc_html": "<p>Questo incantesimo crea l'illusione di un muro, pavimento, soffitto o simile superficie. È permanente fino a quando non viene dissolto. Non blocca alcunché. Le creature possono passare attraverso la parete senza ostacoli, sebbene il muro appaia come una superficie solida se toccato.</p>",
-    "target_area_effect": "Muro di arbusti spinosi, fino a u n cubo con spigolo di 3 m per livello (F)",
+    "target_area_effect": "Immagine di 30 cm x 3 m x 3 m",
     "spell_resistance": "No",
     "saving_throw": "Volontà incredulità (se si interagisce)",
     "casting_time": "1 azione standard",
@@ -3718,7 +3718,7 @@
     "duration": "Concentrazione (fino a 4 rounds)",
     "components": "V, S",
     "level": "Chr 9, Distruzione 9",
-    "target_area_effect": "Una corporeal creatura/round",
+    "target_area_effect": "Una creatura corporea per round",
     "desc_html": "<p>Crei una grave distorsione nello spazio, causando il collasso interno di una creatura per round. Puoi scegliere un nuovo bersaglio ogni round come azione standard per la durata dell'incantesimo. Se il bersaglio fallisce un tiro salvezza su Tempra, subisce 10 danni per livello dell'incantatore. Se il tiro salvezza riesce, il bersaglio subisce 5d6 danni.</p>"
   },
   {
@@ -3851,7 +3851,7 @@
     "school": "Evocazione",
     "subschool": "Convocazione",
     "desc_html": "<p>Evochi un certo numero di sciami di vespe (uno sciame ogni tre livelli, fino a un massimo di sei sciami al 18° livello). Gli sciami devono essere evocati in modo che ciascuno sia adiacente ad almeno un altro sciame (ovvero, gli sciami devono riempire un'area contigua). Puoi evocare gli sciami in modo che condividano l'area di altre creature. Ogni sciame attacca ogni creatura vivente nell'area. I punti ferita degli sciami sono determinati come per gli sciami normali.</p>",
-    "target_area_effect": "Uno sciame di locuste per ogn i tre livelli, ognuno dei quali deve esser e adiacente ad almeno tin altro sciame",
+    "target_area_effect": "Uno sciame di locuste per ogni tre livelli, ognuno dei quali deve essere adiacente ad almeno tin altro sciame",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "1 round",
@@ -3872,7 +3872,7 @@
     "duration": "Permanente finché non viene scaricato",
     "components": "V, S, M",
     "level": "Str/Mag 7",
-    "target_area_effect": "Una oggetto del peso di 5 kg o meno whose di lunghezzaest dimension is 1,8 m o meno",
+    "target_area_effect": "Un oggetto del peso di 2,5 kg o meno la cui dimensione maggiore è 1,8 m o meno",
     "desc_html": "<p>Prepari un oggetto specifico, non vivente e non più grande di quanto possa essere contenuto in una mano, per un futuro teletrasporto. Incidi lo zaffiro con il nome dell'oggetto. In qualsiasi momento successivo, puoi frantumare il gioiello speciale e l'oggetto appare nella tua mano. L'oggetto può essere teletrasportato attraverso qualsiasi distanza, ma non attraverso i piani.</p>\n<p><em>Componente Materiale:</em> Uno zaffiro del valore di almeno 1.000 mo.</p>"
   },
   {
@@ -3925,7 +3925,7 @@
     "range": "Lungo (120 m + 12 m/livello)",
     "components": "V, S, M",
     "level": "Str/Mag 7",
-    "target_area_effect": "Un numero qualsiasi di creatura,, non più di 54 m l'una dall'altra",
+    "target_area_effect": "Un numero qualsiasi di creature, non più di 54 m l'una dall'altra",
     "desc_html": "<p>Questo incantesimo funziona come <i>invisibilità</i>, eccetto che l'effetto si muove con il gruppo e si applica a tutti. Quelli influenzati possono vedere ciascuno degli altri, ma non se stessi. Qualsiasi membro del gruppo influenzato che attacca diventa individualmente visibile.</p>"
   },
   {
@@ -3973,7 +3973,7 @@
     "duration": "Un giono/livello (C)",
     "components": "V, S, M",
     "level": "Drd 6",
-    "target_area_effect": "Anironwoodoggetto del peso fino a 2,5 kg/livello",
+    "target_area_effect": "Un oggetto di legno di ferro del peso fino a 2,5 kg/livello",
     "desc_html": "<p><i>Legno di ferro</i> è un incantesimo che rende il legno altrettanto resistente dell'acciaio. Questo incantesimo può essere usato per creare armature di legno, scudi e armi che funzionano come se fossero d'acciaio. L'incantesimo influenza un volume di legno sufficiente a produrre un oggetto che pesi fino a 2,5 kg per livello dell'incantatore. Il legno di ferro dura per un giorno per livello dell'incantatore.</p>"
   },
   {
@@ -4075,7 +4075,7 @@
     "duration": "1 min./livello (C)",
     "components": "V, S, F",
     "level": "Str/Mag 2",
-    "target_area_effect": "Te stesso o una creatura consenziente o una oggetto (total wotto fino a 50 kg/livello)",
+    "target_area_effect": "Te stesso o una creatura consenziente o un oggetto (peso totale fino a 50 kg/livello)",
     "desc_html": "<p><i>Levitare</i> ti consente di muovere te stesso, un'altra creatura o un oggetto su e giù come desideri. Una creatura deve essere consenziente e un oggetto deve essere incustodito o posseduto da una creatura consenziente. Puoi mentalmente dirigere il destinatario a muoversi su o giù fino a 6 metri ogni round.</p>\n<p>Non puoi muovere il destinatario orizzontalmente, ma il destinatario potrebbe arrampicarsi lungo una scogliera, per esempio, o spingersi contro un soffitto per muoversi lateralmente.</p>"
   },
   {
@@ -4156,7 +4156,7 @@
     "duration": "1 min./livello",
     "components": "V, S, F/FD",
     "level": "Brd 2, Chr 3, Str/Mag 2, Viaggio 2",
-    "target_area_effect": "Circle, centrata su di te, con a raggio of 120 m + 12 m/livello",
+    "target_area_effect": "Cerchio centrato su di te, con un raggio di 120 m + 12 m/livello",
     "desc_html": "<p>Percepisci la direzione di un oggetto ben noto o chiaramente visualizzato. Puoi cercare un tipo generale di oggetto, nel qual caso localizzi il più vicino di quel tipo. Tentare di trovare un certo oggetto richiede un'immagine mentale specifica; se l'immagine non è vicina all'aspetto reale dell'oggetto, l'incantesimo fallisce. Non puoi specificare un oggetto unico (come \"la spada del barone\") a meno che tu non lo abbia osservato da vicino (entro 9 metri).</p>\n<p>Il piombo blocca l'incantesimo.</p>"
   },
   {
@@ -4177,7 +4177,7 @@
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "desc_html": "<p>Qualsiasi creatura all'interno dell'area dell'incantesimo diventa sonnolenta e distratta. Le creature influenzate subiscono una penalità di –5 alle prove di Ascoltare e Osservare e una penalità di –2 ai tiri salvezza su Volontà contro incantesimi di <i>sonno</i>.</p>",
-    "target_area_effect": "Le creature viventiinstliesplosione del raggio di 3m",
+    "target_area_effect": "Creature viventi entro un'esplosione del raggio di 3 m",
     "descriptor": "Influenza Mentale",
     "spell_resistance": "Sì",
     "saving_throw": "Volontà nega",
@@ -4214,7 +4214,7 @@
     "duration": "Concentrazione",
     "components": "V, S",
     "level": "Brd 0, Str/Mag 0",
-    "target_area_effect": "Una non magico, unatdiecided oggetto del peso fino a 2,5 kg",
+    "target_area_effect": "Un oggetto non magico incustodito del peso fino a 2,5 kg",
     "desc_html": "<p>Punti il dito verso un oggetto e puoi sollevarlo e muoverlo a distanza. Come azione di movimento, puoi sospingere l'oggetto fino a 4,5 metri in qualsiasi direzione, ma l'incantesimo termina se la distanza tra te e l'oggetto supera la gittata dell'incantesimo.</p>"
   },
   {
@@ -4270,7 +4270,7 @@
     "duration": "2 oe/livello (C)",
     "components": "V, S, F",
     "level": "Str/Mag 7",
-    "target_area_effect": "Extradimensional mansion, fino a tre 3 m cubos/livello (S)",
+    "target_area_effect": "Magione extradimensionale, fino a tre cubi con spigolo di 3 m per livello (F)",
     "desc_html": "<p>Evochi una dimora extradimensionale che ha un singolo ingresso sul piano da cui l'incantesimo è stato lanciato. Il punto d'ingresso appare come un debole luccichio nell'aria, largo 1,2 metri e alto 2,4 metri. Solo coloro che tu designi possono entrare nella dimora, e il portale si chiude e diventa invisibile dietro di te quando entri. Puoi riaprirlo dal tuo lato a volontà.</p>\n<p>Puoi creare qualsiasi planimetria tu desideri fino al limite dell'effetto dell'incantesimo. Il luogo è arredato e contiene cibo sufficiente per servire un banchetto di nove portate a una dozzina di persone per livello dell'incantatore. Uno staff di quasi-reali servitori attende tutti coloro che entrano.</p>"
   },
   {
@@ -4299,7 +4299,7 @@
     "duration": "1 round/livello (C)",
     "components": "V, S, F",
     "level": "Str/Mag 7",
-    "target_area_effect": "Una sword",
+    "target_area_effect": "Una spada",
     "desc_html": "<p>Questo incantesimo crea un piano di forza luccicante a forma di spada. La spada colpisce qualsiasi avversario entro la sua gittata, come desideri, a partire dal round in cui lanci l'incantesimo. La spada attacca il bersaglio designato una volta per round nel tuo turno. Il suo bonus di attacco è uguale al tuo livello dell'incantatore + il tuo bonus di Intelligenza o Carisma (per maghi o stregoni, rispettivamente) con un bonus di potenziamento addizionale di +3. Come effetto di forza, può colpire creature eteree e incorporee. Infligge 4d6+3 danni da forza, con un intervallo di minaccia di 19-20 e un moltiplicatore critico di x2.</p>\n<p>La spada colpisce sempre dalla tua direzione. Non ottiene un bonus per il fiancheggiamento e non aiuta un combattente a ottenerne uno. Ogni round dopo il primo, puoi usare un'azione standard per cambiare il bersaglio della spada.</p>\n<p>La spada non può essere attaccata o danneggiata da armi fisiche, ma <i>dissolvi magie</i>, <i>disintegrazione</i>, una <i>sfera di annullamento</i> o un <i>verga dell'annullamento</i> la influenzano. La CA della spada è 13.</p>"
   },
   {
@@ -4337,7 +4337,7 @@
     "duration": "10 min./livello",
     "components": "V, S, M/FD",
     "level": "Chr 3, Bene 3, Pal 3, Str/Mag 3",
-    "target_area_effect": "3 m emanaziuna con raggio da toccata creatura",
+    "target_area_effect": "3 m emanazione con raggio da toccata creatura",
     "desc_html": "<p>Tutte le creature nell'area ottengono gli effetti di un incantesimo <i>protezione dal male</i>, e nessuna creatura evocata non buona può entrare nell'area. Devi superare la resistenza agli incantesimi di una creatura per tenerla a bada (come nella terza funzione di <i>protezione dal male</i>), ma i bonus di deviazione e resistenza e la protezione dal controllo mentale si applicano indipendentemente dalla resistenza agli incantesimi dei nemici.</p>\n<p>Questo incantesimo ha una versione alternativa che puoi scegliere quando lo lanci. Un <i>cerchio magico contro il male</i> può essere focalizzato verso l'interno invece che verso l'esterno. Quando focalizzato verso l'interno, l'incantesimo lega una creatura evocata non buona per un massimo di 24 ore per livello dell'incantatore (a condizione che lanci l'incantesimo entro 1 round dall'evocazione della creatura e che la creatura sia rimasta nel cerchio durante tutto il lancio). La creatura non può varcare la barriera del cerchio.</p>"
   },
   {
@@ -4435,7 +4435,7 @@
     "duration": "30 minuti o finché non viene scaricato",
     "components": "V, S, FD",
     "level": "Chr 1, Drd 1, Terra 1",
-    "target_area_effect": "Fino a tre pebbles toccata",
+    "target_area_effect": "Fino a tre ciottoli toccati",
     "desc_html": "<p>Transmuti fino a tre ciottoli, non più grandi di proiettili per fionda, in modo che colpiscano con grande forza quando lanciati o fiondati. Se lanciati a mano, hanno un incremento di gittata di 6 metri. Se fiondati, trattali come proiettili per fionda (incremento di gittata 15 metri). L'incantesimo conferisce loro un bonus di potenziamento +1 ai tiri per colpire e ai danni. Ogni pietra che colpisce infligge 1d6+1 danni, o 2d6+2 danni contro i non morti.</p>"
   },
   {
@@ -4577,7 +4577,7 @@
     "school": "Trasmutazione",
     "desc_html": "<p>Puoi sussurrare messaggi e ricevere risposte sussurrate con poche possibilità di essere udito. Punti il dito verso ogni creatura a cui vuoi far arrivare il messaggio. Quando sussurri, il messaggio sussurrato è udibile a tutte le creature bersaglio entro la gittata. Il <i>silenzio</i> magico, 30 cm di pietra, 2,5 cm di metallo comune (o una sottile lamina di piombo), o 90 cm di legno o terra bloccano l'incantesimo. Il messaggio non deve viaggiare in linea retta. Le creature che ricevono il messaggio possono sussurrare una risposta che tu senti. L'incantesimo trasmette il suono, non il significato. Non trascende le barriere linguistiche.</p>\n<p><em>Focus:</em> Un piccolo pezzo di filo di rame.</p>",
     "descriptor": "Dipendente dal linguaggio",
-    "target_area_effect": "Creatura vivente consenzient e toccata",
+    "target_area_effect": "Creatura vivente consenziente toccata",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -4592,7 +4592,7 @@
     "school": "Invocazione",
     "desc_html": "<p><i>Sciame di meteore</i> è un incantesimo molto potente e spettacolare simile a <i>palla di fuoco</i> per molti aspetti. Quando lo lanci, quattro sfere dal diametro di 60 cm scaturiscono dalla tua mano tesa e sfrecciando in linea retta verso i punti che selezioni.</p>\n<p>Se miri una sfera a una creatura specifica, puoi effettuare un attacco di contatto a distanza per colpire il bersaglio con la meteora. Qualsiasi creatura colpita da una di queste sfere subisce 2d6 danni contundenti (nessun tiro salvezza) e non ottiene tiro salvezza contro i danni da fuoco della sfera. Se una sfera mirata manca il bersaglio, esplode semplicemente nell'angolo più vicino dello spazio del bersaglio. Puoi mirare più di una meteora allo stesso bersaglio.</p>\n<p>Ogni sfera esplode in un raggio di 12 metri all'impatto, infliggendo 6d6 danni da fuoco a ogni creatura nell'area. Se una creatura si trova nell'area di più di una sfera, deve effettuare un tiro salvezza per ciascuna e subire danni per ciascuna.</p>",
     "descriptor": "Fuoco",
-    "target_area_effect": "Un pezzo di legno toccato, non più grande di 270 dm3 +27dm3 pe r livello",
+    "target_area_effect": "Quattro propagazioni del raggio di 12 m; vedi testo",
     "spell_resistance": "Sì",
     "saving_throw": "Nessuno o Riflessi dimezza; vedi testo",
     "casting_time": "1 azione standard",
@@ -4637,7 +4637,7 @@
     "school": "Evocazione",
     "subschool": "Creazione",
     "desc_html": "<p>Crei un oggetto non magico e incustodito di materia vegetale non vivente. Il volume dell'oggetto creato non può superare 30 cm cubici per livello dell'incantatore. Devi riuscire in una prova di abilità appropriata per creare un oggetto complesso.</p>\n<p>Tentare di usare un oggetto creato come componente materiale causa il fallimento dell'incantesimo.</p>\n<p><em>Componente Materiale:</em> Un piccolo pezzo di materia dello stesso tipo di oggetto che intendi creare con <i>creazione minore</i>.</p>",
-    "target_area_effect": "Oggetto non magico incustodito di materia vegetale inanimata fino a 2 7 dm' per livello",
+    "target_area_effect": "Oggetto non magico di materia vegetale inanimata fino a 27 dm³ per livello",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "1 minuto",
@@ -4675,7 +4675,7 @@
     "school": "Illusione",
     "subschool": "Mascheramento",
     "desc_html": "<p>Questo incantesimo funziona come <i>terreno illusorio</i>, tranne che ti permette di far apparire qualsiasi area come qualcosa di diverso da ciò che è. L'illusione include elementi uditivi, visivi, tattili e olfattivi. A differenza di <i>terreno illusorio</i>, l'incantesimo può alterare l'aspetto delle strutture (o aggiungerne dove non ce ne sono). Tuttavia, non può camuffare, nascondere o aggiungere creature.</p>",
-    "target_area_effect": "Una creatura o un oggetto pe r livello, che non possono trovarsi a più d i 9 m l'uno dall'altro",
+    "target_area_effect": "Una creatura o un oggetto per livello, che non possono trovarsi a più di 9 m l'uno dall'altro",
     "casting_time": "1 azione standard",
     "duration": "Concentrazione +1 oa/ level (C)",
     "components": "V, S",
@@ -4715,7 +4715,7 @@
     "school": "Illusione",
     "subschool": "Finzione, Mascheramento",
     "desc_html": "<p>Diventi invisibile (come per <i>invisibilità superiore</i>, un'illusione), e allo stesso tempo un doppio illusorio di te (come per <i>immagine maggiore</i>, una figurazione) appare. Sei quindi libero di andare altrove mentre il tuo doppio si allontana. Il doppio appare entro la gittata ma in seguito si muove come lo dirigi tu (il che richiede concentrazione a partire dal primo round dopo il lancio). Il doppio si muove alla tua velocità e può parlare e gesticolare come se fosse reale, ma non può attaccare o lanciare incantesimi, anche se può fingere di farlo.</p>\n<p>Il doppio scompare se colpito.</p>",
-    "target_area_effect": "Incantatore/tm dupli- . cato illusorio",
+    "target_area_effect": "Incantatore/duplicato illusorio",
     "spell_resistance": "No",
     "saving_throw": "Nessuno o Volontà incredulità (se si interagisce); vedi testo",
     "casting_time": "1 azione standard",
@@ -4791,7 +4791,7 @@
     "duration": "Istantaneo",
     "components": "V, S, M",
     "level": "Drd 6, Str/Mag 6",
-    "target_area_effect": "Dirt in an area fino a 225 m quadrato con lato e fino a 3 m di profondità (S)",
+    "target_area_effect": "Terra in un'area fino a un quadrato con lato di 225 m e fino a 3 m di profondità (F)",
     "desc_html": "<p><i>Muovere terra</i> muove la terra (argilla, terriccio, sabbia), possibilmente facendo crollare argini, spostando collinette, muovendo dune e così via.</p>\n<p>Tuttavia, in nessun caso le formazioni rocciose possono essere fatte crollare o spostate. L'area da influenzare determina il tempo di lancio. Per ogni quadrato di 45 metri (fino a 3 metri di profondità), il lancio richiede 10 minuti. L'area massima, 225 metri per 225 metri, richiede 4 ore e 10 minuti per essere mossa.</p>\n<p>Questo incantesimo non rompe violentemente la superficie del terreno. Invece, crea creste e avvallamenti simili a onde, con la terra che reagisce con fluidità glaciale fino a raggiungere il risultato desiderato. Alberi, strutture, formazioni rocciose e simili rimangono per lo più inalterati tranne per i cambiamenti di elevazione e topografia relativa.</p>"
   },
   {
@@ -4806,7 +4806,7 @@
     "duration": "10 min./livello",
     "components": "V, S, M/FD",
     "level": "Brd 4, Chr 4, Drd 3, Pal 4, Rgr 3",
-    "target_area_effect": "Creature o oggetto of fino a 1 m³/livello toccata",
+    "target_area_effect": "Creatura o oggetto di fino a 0,03 m³/livello toccato",
     "desc_html": "<p>Disintossichi qualsiasi tipo di veleno nella creatura o nell'oggetto toccato. Una creatura avvelenata non subisce ulteriori effetti dal veleno, e qualsiasi effetto temporaneo viene terminato, ma l'incantesimo non inverte effetti istantanei, come danni ai punti ferita, danni temporanei alle caratteristiche o effetti che non scompaiono da soli.</p>\n<p>La creatura è immune a qualsiasi veleno a cui viene esposta durante la durata dell'incantesimo. A differenza di <i>ritardare veleno</i>, tali effetti non vengono posticipati al termine della durata — la creatura non deve effettuare alcun tiro salvezza contro il veleno durante questo periodo.</p>\n<p>Questo incantesimo può essere usato anche per disintossicare un veleno trovato in una creatura o in un oggetto, rendendolo innocuo.</p>"
   },
   {
@@ -4836,7 +4836,7 @@
     "duration": "1 oa/livello",
     "components": "V, S, M",
     "level": "Rgr 4, Str/Mag 3, Inganno 3",
-    "target_area_effect": "Creature o oggetto toccato",
+    "target_area_effect": "Creatura o oggetto toccato",
     "desc_html": "<p>La creatura o l'oggetto protetto diventa difficile da individuare tramite incantesimi di divinazione come <i>chiaroudienza/chiaroveggenza</i>, <i>localizza oggetto</i> e incantesimi di <i>individuazione</i>. La <i>non-individuazione</i> impedisce anche la localizzazione tramite oggetti magici come le <i>sfere di cristallo</i>. Se viene tentata una divinazione contro la creatura o l'oggetto protetto, l'incantatore della divinazione deve riuscire in una prova di livello dell'incantatore (1d20 + livello dell'incantatore) contro una CD di 11 + il livello dell'incantatore di chi ha lanciato <i>non-individuazione</i>. Se lanci <i>non-individuazione</i> su te stesso o su un oggetto attualmente in tuo possesso, la CD è 15 + il tuo livello dell'incantatore.</p>\n<p>Se lanciato su una creatura, <i>non-individuazione</i> protegge l'equipaggiamento della creatura oltre alla creatura stessa.</p>\n<p><em>Componente Materiale:</em> Una spolverata di polvere di diamante del valore di 50 mo.</p>"
   },
   {
@@ -4850,7 +4850,7 @@
     "duration": "8 oe (C)",
     "components": "V, S, M/FD",
     "level": "Brd 1, Chr 3, Str/Mag 2",
-    "target_area_effect": "Una oggetto toccato of fino a 50 kg/livello",
+    "target_area_effect": "Un oggetto toccato del peso fino a 50 kg/livello",
     "desc_html": "<p>Questo incantesimo nasconde un oggetto dalla localizzazione tramite effetti di divinazione (scrutamento), come l'incantesimo <i>scrutamento</i> o una <i>sfera di cristallo</i>. Tale tentativo fallisce automaticamente (se la divinazione è mirata sull'oggetto) o non riesce a percepire l'oggetto (se la divinazione è mirata su un luogo, oggetto o persona nelle vicinanze).</p>\n<p><em>Componente Materiale Arcana:</em> Un pezzo di pelle di camaleonte.</p>"
   },
   {
@@ -4894,7 +4894,7 @@
     "duration": "Istantaneo (1 round); vedi testo",
     "components": "V, S",
     "level": "Legge 4",
-    "target_area_effect": "Nonlawful creatura entro a scoppio that fills a 9 m cubo",
+    "target_area_effect": "Creature non legali entro un'esplosione che riempie un cubo con spigolo di 9 m",
     "desc_html": "<p>Incanali il potere della legge per colpire i nemici. Il potere prende la forma di una griglia tridimensionale di energia. Solo le creature caotiche e neutrali (non legali) vengono danneggiate dall'incantesimo.</p>\n<p>L'incantesimo infligge 1d8 danni per ogni due livelli dell'incantatore (massimo 5d8) alle creature caotiche (o 1d6 danni per livello dell'incantatore, massimo 10d6, agli esterni caotici) e le rende frastornate per 1 round. Un tiro salvezza sulla Volontà riuscito dimezza i danni e nega l'effetto di frastornamento.</p>\n<p>L'incantesimo infligge solo metà danni alle creature che non sono né caotiche né legali, e non le frastorna. Possono dimezzare ulteriormente i danni (fino a un quarto) con un tiro salvezza sulla Volontà riuscito.</p>"
   },
   {
@@ -4927,7 +4927,7 @@
     "name": "Saggezza del Gufo di Massa",
     "school": "Trasmutazione",
     "desc_html": "<p>Questo incantesimo funziona come <i>saggezza del gufo</i>, tranne che influenza più creature.</p>",
-    "target_area_effect": "Unacreatura per livello, ch e non possono trovarsi apiìtdi9 m l' una- dall'altra",
+    "target_area_effect": "Una creatura per livello, che non possono trovarsi a più di 9 m l'una dall'altra",
     "range": "Corto (7,5 m + 1,5 m/2 livelli)",
     "level": "Chr 6, Drd 6, Str/Mag 6"
   },
@@ -4979,7 +4979,7 @@
     "school": "Illusione",
     "subschool": "Finzione",
     "desc_html": "<p>Questo incantesimo funziona come <i>immagine silenziosa</i>, tranne che la figurazione include elementi visivi, uditivi, olfattivi e termici, e l'incantesimo è permanente. Concentrandoti, puoi muovere l'immagine entro i limiti della gittata, ma è statica quando non ti concentri.</p>\n<p><em>Componente Materiale:</em> Un pezzo di vello più giada in polvere del valore di 100 mo.</p>",
-    "target_area_effect": "Finzione che non può estendersi oltre un cubo con spigolo di 6 m + u n cubo con spigolo di 3 m per livello (F )",
+    "target_area_effect": "Finzione che non può estendersi oltre un cubo con spigolo di 6 m + un cubo con spigolo di 3 m per livello (F )",
     "duration": "Permanente (C)",
     "level": "Brd 6, Str/Mag 6"
   },
@@ -5020,7 +5020,7 @@
     "duration": "1 oa/livello (C)",
     "components": "V, S",
     "level": "Brd 3, Str/Mag 3",
-    "target_area_effect": "Una quasi-real, horselike creatura",
+    "target_area_effect": "Una creatura quasi-reale simile a un cavallo",
     "desc_html": "<p>Evochi una creatura Grande, quasi-reale, simile a un cavallo. La cavalcatura può essere cavalcata solo da te o dalla persona per la quale hai specificamente creato la cavalcatura. Un <i>destriero fantasma</i> ha testa e corpo neri, criniera e coda grigie e zoccoli incorporei color fumo che non fanno rumore. Ha quella che sembra una sella, un morso e delle briglie. Non combatte, ma gli animali lo evitano e rifiutano di attaccarlo.</p>\n<p>La cavalcatura ha una CA di 18 (-1 taglia, +4 armatura naturale, +5 Destrezza) e 7 punti ferita +1 per livello dell'incantatore. Se perde tutti i punti ferita, il <i>destriero fantasma</i> scompare. Ha una velocità di 6 metri per livello dell'incantatore, fino a un massimo di 72 metri. Può portare il suo cavaliere più il normale carico per un cavallo della sua taglia.</p>"
   },
   {
@@ -5044,7 +5044,7 @@
     "school": "Evocazione",
     "subschool": "Creazione",
     "desc_html": "<p>Questo incantesimo crea un passaggio etereo attraverso muri di legno, intonaco o pietra, ma non altri materiali. La <i>porta di fase</i> è invisibile e inaccessibile a tutte le creature tranne te, e solo tu puoi usare il passaggio. Scompari quando entri nella <i>porta di fase</i> e riappari quando esci. Se lo desideri, puoi portare un'altra creatura (Media o più piccola) attraverso la porta. Questo conta come un uso della porta. La porta esiste per un uso per due livelli dell'incantatore.</p>",
-    "target_area_effect": "Apertura eterea di 1,5 m x 2,4 m, profonda 3 m + 1,5 metri per ogni tr e livelli",
+    "target_area_effect": "Apertura eterea di 1,5 m x 2,4 m, profonda 3 m + 1,5 metri per ogni tre livelli",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -5059,7 +5059,7 @@
     "school": "Evocazione",
     "subschool": "Richiamo",
     "desc_html": "<p>Questo incantesimo funziona come <i>alleato planare minore</i>, tranne che puoi evocare una singola creatura di 12 DV o meno, o due creature dello stesso tipo i cui Dadi Vita totali non superino 12. Le creature accettano di aiutarti e richiedono il tuo pagamento insieme.</p>\n<p><em>Costo in PE:</em> 250 PE.</p>",
-    "target_area_effect": "Uno o due elementali o esterni richiamati, per un totale di non più d i 12 DV, che non possono comparire a pi ù di 9 m l'uno dall'altro",
+    "target_area_effect": "Uno o due elementali o esterni richiamati, per un totale di non più di 12 DV, che non possono comparire a più di 9 m l'uno dall'altro",
     "descriptor": "vedi testo",
     "level": "Chr 6"
   },
@@ -5210,7 +5210,7 @@
     "duration": "Vedi testo",
     "components": "V, S, M/FD",
     "level": "Str/Mag 8, Inganno 8",
-    "target_area_effect": "Una creatura, o una non magico oggetto of fino a 100 m³/livello",
+    "target_area_effect": "Una creatura, o un oggetto non magico di fino a 2,7 m³/livello",
     "desc_html": "<p>Questo incantesimo funziona come <i>metamorfosi</i>, tranne che trasforma un oggetto o una creatura in un altro. La durata dell'incantesimo dipende da quanto è radicale il cambiamento apportato dallo stato originale al suo stato incantato. La durata viene determinata usando le seguenti linee guida.</p>\n<table class=\"full-width-table\" data-debug=\"no-caption\">\n<tbody>\n<tr>\n<th>Soggetto Trasformato</th>\n<th>Aumento della Durata</th>\n</tr>\n<tr>\n<td>Stesso regno (animale, vegetale, minerale)</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>Stessa classe (mammiferi, funghi, metalli, ecc.)</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>Stessa taglia</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>Relativo intelligenza</td>\n<td>+2</td>\n</tr>\n</tbody>\n</table>\n<p>Se il risultato è 0 o meno, la durata è di 1 round. Se 1-3, la durata è di 10 minuti per livello. Se 4-6, la durata è di 1 ora per livello. Se 7+, la durata è permanente.</p>"
   },
   {
@@ -5296,7 +5296,7 @@
     "name": "Sfera Prismatica",
     "school": "Abiurazione",
     "desc_html": "<p>Questo incantesimo funziona come <i>muro prismatico</i>, tranne che evochi un globo immobile e opaco di luce scintillante e multicolore che ti circonda e ti protegge da tutte le forme di attacco. La sfera lampeggia in tutti i colori dello spettro visibile.</p>\n<p>L'effetto di <i>cecità</i> della sfera sulle creature con meno di 8 DV dura 2d4x10 minuti.</p>\n<p>Puoi passare dentro e fuori dalla <i>sfera prismatica</i> e rimanere vicino ad essa senza danni. Tuttavia, quando sei dentro di essa, la sfera ti blocca qualsiasi tentativo di proiettare incantesimi o effetti fuori dalla sfera (inclusi gli incantesimi che mirano a creature al di fuori).</p>",
-    "target_area_effect": "Sfera del raggio di 3 m centrat a sull'incantatore",
+    "target_area_effect": "Sfera del raggio di 3 m centrata sull'incantatore",
     "range": "3.0 m",
     "components": "V",
     "level": "Protezione 9, Str/Mag 9, Sole 9"
@@ -5335,7 +5335,7 @@
     "school": "Invocazione",
     "desc_html": "<p>Fiamme luminose come una torcia appaiono nella tua mano aperta. Le fiamme non danneggiano né te né il tuo equipaggiamento.</p>\n<p>Oltre a fornire illuminazione, le fiamme possono essere scagliate o usate per toccare i nemici. Puoi colpire un avversario con un attacco di contatto in mischia, infliggendo danni da fuoco pari a 1d6 +1 per livello dell'incantatore (massimo +5). In alternativa, puoi scagliare le fiamme fino a 36 metri come un'arma da lancio. Quando lo fai, effettui un attacco a distanza (senza penalità di gittata) e infliggi gli stessi danni di un attacco di contatto in mischia. Non appena scagli le fiamme, queste nella tua mano si esauriscono.</p>",
     "descriptor": "Fuoco",
-    "target_area_effect": "Fiamma nel palmo della man o dell'incantatore",
+    "target_area_effect": "Fiamma nel palmo della mano dell'incantatore",
     "spell_resistance": "Sì",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -5350,7 +5350,7 @@
     "school": "Illusione",
     "subschool": "Finzione",
     "desc_html": "<p>Questo incantesimo funziona come <i>immagine silenziosa</i>, tranne che la figurazione di questo incantesimo si attiva quando si verifica una condizione specifica. La figurazione include elementi visivi, uditivi, olfattivi e termici, incluso un linguaggio comprensibile.</p>\n<p>Imposti la condizione di attivazione (che può essere una parola speciale) quando lanci l'incantesimo. L'evento che attiva l'illusione può essere generale come \"il primo umanoide che tocca lo specchio\" o specifico come \"me che parlo la parola di comando Abracadabra\".</p>\n<p><em>Componente Materiale:</em> Un pezzo di vello e polvere di giada del valore di 25 mo.</p>",
-    "target_area_effect": "Finzione visiva che non può estendersi oltre un cubo con spigolo d i 6 m + un cubo con spigolo di 3 m per livello (F)",
+    "target_area_effect": "Finzione visiva che non può estendersi oltre un cubo con spigolo di 6 m + un cubo con spigolo di 3 m per livello (F)",
     "duration": "Permanente finché non viene attivato, poi 1 round/livello",
     "level": "Brd 6, Str/Mag 6"
   },
@@ -5366,7 +5366,7 @@
     "duration": "1 round/livello (C)",
     "components": "V, S, M",
     "level": "Brd 6, Str/Mag 7",
-    "target_area_effect": "Una shadow duplicate",
+    "target_area_effect": "Un duplicato d'ombra",
     "desc_html": "<p>Attingi energia dal Piano delle Ombre per creare una versione quasi-reale e illusoria di te stesso. L'immagine proiettata ha il tuo aspetto, il tuo suono e il tuo odore, ma è intangibile. L'immagine proiettata imita le tue azioni (incluso il parlare) a meno che tu non la diriga ad agire diversamente (il che è un'azione di movimento).</p>\n<p>Puoi vedere attraverso i suoi occhi e sentire attraverso le sue orecchie come se ti trovassi al suo posto. Nella tua posizione reale, sei cieco e sordo. Il tuo doppio usa le tue abilità e il tuo livello dell'incantatore. Può lanciare incantesimi per tuo conto, ma devono provenire dalla tua dotazione di incantesimi preparati o giornalieri.</p>"
   },
   {
@@ -5441,7 +5441,7 @@
     "name": "Protezione dagli Incantesimi",
     "school": "Abiurazione",
     "desc_html": "<p>Il soggetto ottiene un bonus di resistenza +8 ai tiri salvezza contro incantesimi e capacità simili a incantesimi (ma non contro capacità soprannaturali e straordinarie).</p>\n<p><em>Componente Materiale:</em> Un diamante del valore di almeno 500 mo, che deve essere frantumato e cosparso sui bersagli.</p>\n<p><em>Focus:</em> Un diamante del valore di 1.000 mo per creatura a cui conferire la protezione.</p>",
-    "target_area_effect": "Fino a una creatura toccata pe r ogni quattro livelli",
+    "target_area_effect": "Fino a una creatura toccata per ogni quattro livelli",
     "spell_resistance": "Sì (innocuo)",
     "saving_throw": "Volontà nega (innocuo)",
     "casting_time": "1 azione standard",
@@ -5496,7 +5496,7 @@
     "duration": "1d4+1 rounds, o 1d4+1 rounds after creatures leave the smoke cloud; vedi testo",
     "components": "V, S, M",
     "level": "Brd 2, Str/Mag 2",
-    "target_area_effect": "Una fire source, fino a a 6 m cubo",
+    "target_area_effect": "Una fonte di fuoco, fino a un cubo con spigolo di 6 m",
     "desc_html": "<p><i>Pirotecnica</i> trasforma un fuoco in un'esplosione di fuochi d'artificio accecanti o in una densa nube di fumo soffocante, a seconda della versione scelta.</p>\n<p><em>Fuochi d'artificio:</em> I fuochi d'artificio sono un'esplosione momentanea e lampeggiante di luci aeree luminose e colorate. Questo effetto fa sì che le creature entro 36 metri dalla sorgente di fuoco vengano accecate per 1d4+1 round (tiro salvezza sulla Volontà nega). Queste creature devono avere linea di vista verso il fuoco per essere influenzate. Gli incantesimi che negano la luce e la vista proteggono da questo effetto.</p>\n<p><em>Nube di fumo:</em> Un flusso di fumo si riversa dal fuoco, formando una nube soffocante che si diffonde 6 metri in tutte le direzioni e dura 1 round per livello dell'incantatore. Tutte le creature sulla traiettoria della nube devono riuscire in un tiro salvezza sulla Tempra o diventare nauseate. Questa nausea dura finché la creatura rimane nella nube e per 1d4+1 round dopo esserne uscita. La nube oscura la vista come un incantesimo <i>nebbia</i>.</p>"
   },
   {
@@ -5542,7 +5542,7 @@
     "duration": "Concentrazione +1 round/ level (C)",
     "components": "V (solo Brd), S, M, F; vedi testo",
     "level": "Brd 4, Str/Mag 4",
-    "target_area_effect": "Colorful lights con a 6 m diffusiuna con raggio",
+    "target_area_effect": "Luci colorate con una diffusione del raggio di 6 m",
     "desc_html": "<p>Un motivo luminoso e iridescente di colori intrecciati affascina coloro che vi si trovano. <i>Motivo dell'arcobaleno</i> affascina un massimo di 24 Dadi Vita di creature. Le creature con meno DV vengono influenzate per prime. Tra creature con DV uguali, quelle più vicine al punto d'origine dell'incantesimo vengono influenzate per prime. Una creatura influenzata che fallisce i tiri salvezza è affascinata dal motivo.</p>\n<p>Con concentrazione, puoi far muovere il motivo dell'arcobaleno fino a 9 metri per round (muovendolo lontano da te). Dirigerlo come azione di movimento. Le creature affascinate seguono il motivo mobile, cercando di restare al suo interno. Le creature che non sono in grado di seguire il motivo (per esempio, se incontra un muro) rompono l'effetto per loro.</p>"
   },
   {
@@ -5648,7 +5648,7 @@
     "name": "Ridurre Persone di Massa",
     "school": "Trasmutazione",
     "desc_html": "<p>Questo incantesimo funziona come <i>ridurre persone</i>, tranne che influenza più creature.</p>",
-    "target_area_effect": "Una creatura umanoide pe r livello, che non possonotrovarsi a più di 9 m l'unadataltra",
+    "target_area_effect": "Una creatura umanoide per livello, che non possono trovarsi a più di 9 m l'una dall'altra",
     "level": "Str/Mag 4"
   },
   {
@@ -5692,7 +5692,7 @@
     "duration": "Istantaneo",
     "components": "V, S, M, FD",
     "level": "Drd 4",
-    "target_area_effect": "Dead creatura toccata",
+    "target_area_effect": "Creatura morta toccata",
     "desc_html": "<p>Con questo incantesimo, riporti in vita una creatura morta in un altro corpo, a condizione che la sua morte sia avvenuta non più di una settimana prima del lancio dell'incantesimo e che l'anima del soggetto sia libera e desiderosa di tornare. Se l'anima del soggetto non desidera tornare, l'incantesimo non funziona; pertanto, un soggetto che vuole tornare non ottiene tiro salvezza.</p>\n<p>Poiché l'incantesimo forma un corpo completamente nuovo, tutti i danni fisici e le malattie sono curati. La creatura reincarnata richiama la maggior parte della sua vita precedente, ma la sua classe, la sua razza e le sue abilità possono essere diverse.</p>\n<p>Il soggetto della <i>reincarnazione</i> perde un livello (o 1 DV) come se fosse morto e riportato in vita. Se il soggetto era di 1° livello, perde 2 punti di Costituzione al posto.</p>"
   },
   {
@@ -5765,7 +5765,7 @@
     "duration": "Istantaneo",
     "components": "V, S",
     "level": "Chr 2, Pal 2",
-    "target_area_effect": "Fino a quattro creatura,, non più di 9 m l'una dall'altra",
+    "target_area_effect": "Fino a quattro creature, non più di 9 m l'una dall'altra",
     "desc_html": "<p>Puoi liberare una o più creature dagli effetti di qualsiasi paralisi temporanea o magia correlata, incluso il tocco di un ghoul o un incantesimo <i>lentezza</i>. Se l'incantesimo viene lanciato su una creatura, la paralisi viene negata. Se lanciato su due creature, ciascuna riceve un altro tiro salvezza con un bonus di resistenza +4 contro l'effetto che la affligge. Se lanciato su tre o quattro creature, ciascuna riceve un altro tiro salvezza con un bonus di resistenza +2 contro l'effetto che la affligge.</p>\n<p>L'incantesimo non ripristina i punteggi di caratteristica ridotti da penalità, danni o risucchio.</p>"
   },
   {
@@ -5822,7 +5822,7 @@
     "duration": "1 round/livello (C)",
     "components": "V, S, F/FD",
     "level": "Chr 7, Protezione 7, Str/Mag 6",
-    "target_area_effect": "Fino a 3 m-raggio/livello emanaziuna centrata su di te",
+    "target_area_effect": "Fino a 3 m-raggio/livello emanazione centrata su di te",
     "desc_html": "<p>Un campo invisibile e mobile ti circonda e impedisce alle creature di avvicinarsi. Decidi quanto è grande il campo al momento del lancio (fino al limite consentito dal tuo livello). Qualsiasi creatura all'interno o che entra nel campo deve tentare un tiro salvezza. Se fallisce, diventa incapace di muoversi verso di te per la durata dell'incantesimo. Le azioni delle creature respinte non sono altrimenti limitate. Possono comunque lanciare incantesimi, attaccare o tentare altri modi per raggiungerti.</p>"
   },
   {
@@ -5837,7 +5837,7 @@
     "duration": "1 min./livello (C)",
     "components": "V, S, M",
     "level": "Str/Mag 4",
-    "target_area_effect": "1-ft.-diametro/livello sfera, centrata su a creatura",
+    "target_area_effect": "Sfera di 30 cm di diametro per livello, centrata su una creatura",
     "desc_html": "<p>Un globo di forza scintillante racchiude una creatura, a condizione che la creatura sia abbastanza piccola da stare all'interno del diametro della sfera. La sfera contiene il suo soggetto per la durata dell'incantesimo. La sfera non è soggetta a danni di alcun tipo tranne che da una <i>verga dell'annullamento</i>, una <i>verga della negazione</i>, un incantesimo <i>disintegrazione</i> o un incantesimo <i>dissolvi magie</i> mirato. Questi effetti distruggono la sfera senza danneggiare chi vi è all'interno.</p>\n<p>Nulla può passare attraverso la sfera, dentro o fuori, anche se il soggetto può respirare normalmente. Il soggetto può lottare, ma la sfera non può essere rotta fisicamente né spostata dal soggetto.</p>"
   },
   {
@@ -5949,7 +5949,7 @@
     "duration": "1 oa/livello (C)",
     "components": "V, S, M",
     "level": "Str/Mag 2",
-    "target_area_effect": "Una toccata pezzo di corda da 1,5 m to 9 m di lunghezza",
+    "target_area_effect": "Un pezzo di corda toccato lungo da 1,5 m a 9 m",
     "desc_html": "<p>Quando questo incantesimo viene lanciato su un pezzo di corda lungo da 1,5 a 9 metri, un'estremità della corda si alza in aria finché l'intera corda pende perpendicolare al suolo, come se fosse fissata all'estremità superiore. L'estremità superiore è, in effetti, fissata a uno spazio extradimensionale. Le creature nello spazio extradimensionale sono nascoste, al di fuori della portata degli incantesimi (incluse le divinazioni), a meno che quegli effetti non funzionino attraverso i piani.</p>\n<p>Lo spazio contiene fino a otto creature (di qualsiasi taglia). La corda non può essere rimossa o nascosta, anche se può essere staccata dal basso. Chi si trova all'interno può tirare su la corda, il che rende il rifugio praticamente non individuabile. Gli incantesimi non possono essere lanciati attraverso il portale extradimensionale, né è possibile il passaggio degli effetti delle aree. Chi si trova all'interno può vedere fuori come se guardasse attraverso una finestra larga 90 cm e alta 1,5 m centrata sulla corda.</p>"
   },
   {
@@ -5985,7 +5985,7 @@
     "name": "Spaventare",
     "school": "Necromanzia",
     "desc_html": "<p>Questo incantesimo funziona come <i>causare paura</i>, tranne che fa sì che tutte le creature bersaglio con meno di 6 DV diventino spaventate.</p>\n<p><em>Componente Materiale:</em> Un pezzo di osso di un non morto scheletro, zombi, ghoul, ghast o mummia.</p>",
-    "target_area_effect": "Una creatura vivente per ogn i tre livelli, che non possono trovarsi a pi ù di 9 l'una dall'alt ra",
+    "target_area_effect": "Una creatura vivente per ogni tre livelli, che non possono trovarsi a più di 9 l'una dall'altra",
     "descriptor": "Paura, Influenza Mentale",
     "spell_resistance": "Sì",
     "saving_throw": "Volontà parziale",
@@ -6002,7 +6002,7 @@
     "subschool": "Trama",
     "desc_html": "<p>Un motivo vorticoso di colori discordanti e corruschi si tesse nell'aria, influenzando le creature al suo interno. L'incantesimo influenza un numero totale di Dadi Vita di creature uguale al tuo livello dell'incantatore (massimo 20). Le creature con meno DV vengono influenzate per prime; e, tra creature con DV uguali, quelle più vicine al punto d'origine dell'incantesimo vengono influenzate per prime.</p>\n<p>Le creature con 1-5 DV diventano <i>prive di sensi</i> per 2d4 round e poi <i>stordite</i> per 1d4 round e poi <i>confuse</i> per 1d4 round. Le creature con 6-10 DV vengono <i>stordite</i> per 1d4 round e poi <i>confuse</i> per 1d4 round. Le creature con 11-15 DV diventano <i>confuse</i> per 1d4 round. Le creature con 16 o più DV non sono influenzate.</p>",
     "descriptor": "Influenza mentale",
-    "target_area_effect": "Luci colorate in una propagazion e del raggio di 6m",
+    "target_area_effect": "Luci colorate in una propagazione del raggio di 6m",
     "spell_resistance": "Sì",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -6032,7 +6032,7 @@
     "school": "Illusione",
     "subschool": "Mascheramento",
     "desc_html": "<p>Questo incantesimo combina diversi elementi per creare una potente protezione dallo scrutamento e dall'osservazione diretta. Quando lanci l'incantesimo, stabilisci cosa sarà e cosa non sarà osservato nell'area dell'incantesimo. L'illusione creata deve essere dichiarata in termini generali. Una volta stabilite le condizioni, non possono essere cambiate.</p>\n<p>I tentativi di scrutare l'area automaticamente individuano l'immagine stabilita dal lancio dell'incantesimo. I tentativi di divinazione di qualsiasi tipo producono risultati in accordo con le condizioni stabilite. Se <i>visione del vero</i> viene lanciata nell'area, l'osservatore ottiene un tiro salvezza sulla Volontà (CD uguale a quella dell'<i>inganno</i>) per riconoscere l'illusione.</p>",
-    "target_area_effect": "Un cubo con spigolo di 9 m pe r livello (F)",
+    "target_area_effect": "Un cubo con spigolo di 9 m per livello (F)",
     "spell_resistance": "No",
     "saving_throw": "Nessuno o Volontà incredulità (se si interagisce); vedi testo",
     "casting_time": "10 minuti",
@@ -6115,7 +6115,7 @@
     "name": "Pagina Segreta",
     "school": "Trasmutazione",
     "desc_html": "<p><i>Pagina segreta</i> altera il contenuto di una pagina in modo che appaia come qualcosa di completamente diverso. Il testo di un incantesimo può essere cambiato per mostrare anche un altro incantesimo. <i>Rune esplosive</i> o <i>sigillo del serpente seppia</i> possono essere lanciati sulla <i>pagina segreta</i>.</p>\n<p>Un incantesimo <i>comprensione dei linguaggi</i> da solo non può rivelare una <i>pagina segreta</i>. <i>Visione del vero</i> rivela la vera natura della pagina.</p>",
-    "target_area_effect": "Pagina toccata, fino a 0,27 m' di dimensione",
+    "target_area_effect": "Pagina toccata, fino a 0,27 m² di dimensione",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "10 minuti",
@@ -6136,7 +6136,7 @@
     "duration": "2 oe/livello (C)",
     "components": "V, S, M, F; vedi testo",
     "level": "Brd 4, Str/Mag 4",
-    "target_area_effect": "6 m-quadrato con lato structure",
+    "target_area_effect": "Struttura con lato di 6 m",
     "desc_html": "<p>Evochi un robusto cottage o rifugio fatto di materiale comune nell'area in cui l'incantesimo viene lanciato. Il pavimento è livellato, pulito e asciutto. Sotto tutti gli aspetti l'alloggio assomiglia a un normale cottage, con una robusta porta, due finestre con imposte e un piccolo camino.</p>\n<p>Il rifugio non ha alcuna fonte di riscaldamento o raffreddamento oltre al camino. Il rifugio deve essere posizionato su terreno ragionevolmente livellato e non può essere creato in aria o sull'acqua.</p>"
   },
   {
@@ -6163,7 +6163,7 @@
     "duration": "12 oe (C)",
     "components": "V, S",
     "level": "Brd 5, Str/Mag 5",
-    "target_area_effect": "Una creatura per ogni due livelli,, non più di 9 m l'una dall'altra",
+    "target_area_effect": "Una creatura per ogni due livelli, non più di 9 m l'una dall'altra",
     "desc_html": "<p>Questo incantesimo funziona come <i>camuffare se stessi</i>, tranne che puoi cambiare l'aspetto anche di altre persone. Le creature influenzate riprendono il loro aspetto normale se uccise.</p>\n<p>I bersagli non consenzienti possono negare l'effetto dell'incantesimo su di loro effettuando un tiro salvezza sulla Volontà o con la resistenza agli incantesimi.</p>"
   },
   {
@@ -6193,7 +6193,7 @@
     "duration": "Permanente o finché non viene scaricato; until released o 1d4 gioni + one giono/livello; vedi testo",
     "components": "V, S, M",
     "level": "Brd 3, Str/Mag 3",
-    "target_area_effect": "Una toccata book o writdieci work",
+    "target_area_effect": "Un libro o un'opera scritta toccata",
     "desc_html": "<p>Quando lanci <i>sigillo del serpente seppia</i>, un piccolo simbolo appare nel testo di un'opera scritta come un libro, una pergamena o una mappa. Il testo contenente il simbolo deve essere lungo almeno venticinque parole. Quando qualcuno legge il testo contenente il simbolo, il <i>serpente seppia</i> prende vita e colpisce il lettore, a condizione che ci sia una linea d'effetto chiara verso il lettore.</p>\n<p>Il bersaglio colpito dal serpente è imprigionato in una bolla di forza ambrata per 1d4 giorni + 1 giorno per livello dell'incantatore. La creatura intrappolata non ha bisogno di mangiare, bere, respirare o dormire mentre è in stasi, ma non può intraprendere alcuna azione. Non può nemmeno essere danneggiata dagli attacchi.</p>\n<p><em>Componente Materiale:</em> 500 mo di polvere d'ambra e un serpente vivo.</p>"
   },
   {
@@ -6207,7 +6207,7 @@
     "duration": "Un giono/livello (C)",
     "components": "V, S, M",
     "level": "Str/Mag 7",
-    "target_area_effect": "Una creatura consenziente o oggetto (fino a a 2-ft. cubo/livello) toccata",
+    "target_area_effect": "Una creatura consenziente o oggetto (fino a un cubo con spigolo di 60 cm per livello) toccato",
     "desc_html": "<p>Quando lanciato, questo incantesimo non solo impedisce agli incantesimi di divinazione di funzionare per individuare o localizzare la creatura o l'oggetto influenzato da <i>segregare</i>, ma rende anche la creatura o l'oggetto influenzato invisibile a qualsiasi forma di vista o percezione (come l'incantesimo <i>invisibilità</i>). L'incantesimo non impedisce al soggetto di essere scoperto tramite mezzi tattili. Il soggetto è posto in una sorta di stasi sospesa: è cieco e sordo e non percepisce il proprio ambiente.</p>"
   },
   {
@@ -6276,7 +6276,7 @@
     "duration": "1 oa/livello (C)",
     "components": "V, S",
     "level": "Brd 5, Str/Mag 6",
-    "target_area_effect": "Fino a una toccata creatura/ level",
+    "target_area_effect": "Fino a una creatura toccata per livello",
     "desc_html": "<p>Per usare l'incantesimo <i>camminare nell'ombra</i>, devi trovarti in un'area di illuminazione fioca. Tu e qualsiasi creatura che tocchi siete poi trasportati lungo un sentiero sinuoso di materia d'ombra fino al confine del Piano Materiale dove confina con il Piano delle Ombre. L'effetto è in gran parte illusorio, ma il sentiero è quasi-reale. Puoi portare più di una creatura con te, a condizione che ognuna sia a contatto con un'altra.</p>\n<p>Nel Piano delle Ombre, ti muovi a una velocità di 50 miglia all'ora, il che significa che puoi coprire circa 7 miglia per ogni 10 minuti. Il GM determina dove emergi nello spazio reale corrispondente.</p>"
   },
   {
@@ -6285,7 +6285,7 @@
     "school": "Evocazione",
     "subschool": "Creazione",
     "desc_html": "<p>L'incantesimo <i>errante</i> crea 1d4+2 cumuli striscianti con 11 DV ciascuno. Le creature ti aiutano volentieri in combattimento o battaglia, eseguono una missione specifica o servono come guardie del corpo. Le creature restano con te per sette giorni a meno che tu non le congedi. Se gli erranti vengono creati solo per compiti di guardia, tuttavia, la durata dell'incantesimo è di sette mesi. In tal caso, gli erranti possono essere posti solo per sorvegliare una specifica area, come un passaggio, un sentiero nella foresta o simili.</p>",
-    "target_area_effect": "Tre o più cumuli striscianti, ch e non possono trovarsi a più di 9 m l'un o dall'altro; vedi testo",
+    "target_area_effect": "Tre o più cumuli striscianti, che non possono trovarsi a più di 9 m l'uno dall'altro; vedi testo",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -6312,7 +6312,7 @@
     "school": "Invocazione",
     "desc_html": "<p><i>Frantumare</i> crea un forte rumore squillante che spezza oggetti fragili e non magici; distrugge un singolo oggetto solido e non magico; o danneggia una creatura cristallina.</p>\n<p>Usato come attacco ad area, <i>frantumare</i> distrugge oggetti non magici di cristallo, vetro, ceramica o porcellana. Tutti questi oggetti entro un raggio di 1,5 metri dal punto da te designato vengono distrutti. Oggetti che pesano più di 500 grammi per livello dell'incantatore non sono influenzati, ma tutti gli altri oggetti del tipo appropriato vengono frantumati.</p>\n<p>In alternativa, puoi puntare <i>frantumare</i> contro un singolo oggetto solido e non magico, indipendentemente dalla sua composizione, e distruggerlo.</p>",
     "descriptor": "Sonoro",
-    "target_area_effect": "Propagazione del raggi o di 1,5 m; oppure un oggetto„solido o una creatura cristallina",
+    "target_area_effect": "Propagazione del raggio di 1,5 m; oppure un oggetto„solido o una creatura cristallina",
     "spell_resistance": "Sì (oggetto)",
     "saving_throw": "Volontà nega (oggetto); Volontà nega (oggetto) o Tempra dimezza; vedi testo",
     "casting_time": "1 azione standard",
@@ -6388,7 +6388,7 @@
     "duration": "1 min./livello",
     "components": "V, S, FD",
     "level": "Drd 1",
-    "target_area_effect": "Una toccata non magico oak club o quarterstaff",
+    "target_area_effect": "Un randello o bastone di quercia non magico toccato",
     "desc_html": "<p>Il tuo randello o bastone ferrato non magico diventa un'arma con un bonus di potenziamento +1 ai tiri per colpire e ai danni. (Un bastone ferrato ottiene questo potenziamento per entrambe le estremità dell'arma.) Infligge danni come se fosse di due categorie di taglia più grandi (un randello o bastone ferrato Piccolo così trasmutato infligge 1d8 danni, uno Medio 2d6, uno Grande 3d6). Queste modifiche cessano quando la durata scade, quando l'arma lascia la tua presa o quando lanci un altro <i>shillelagh</i>.</p>"
   },
   {
@@ -6403,7 +6403,7 @@
     "duration": "Istantaneo",
     "components": "V, S",
     "level": "Str/Mag 1",
-    "target_area_effect": "Creature o oggetto toccato",
+    "target_area_effect": "Creatura o oggetto toccato",
     "desc_html": "<p>Il tuo attacco di contatto in mischia riuscito infligge 1d6 danni da elettricità per livello dell'incantatore (massimo 5d6). Quando scarichi la scossa, ottieni un bonus di +3 ai tiri per colpire se l'avversario indossa un'armatura di metallo (o è fatto di metallo, trasporta molto metallo o simili).</p>"
   },
   {
@@ -6572,7 +6572,7 @@
     "school": "Trasmutazione",
     "desc_html": "<p>Quando questo incantesimo viene lanciato, tutta la terra o la pietra naturale e non lavorata nell'area dell'incantesimo viene ammorbidita. La terra bagnata diventa fango denso, la terra asciutta diventa sabbia o terriccio sciolto, e la pietra diventa argilla morbida che può essere facilmente modellata o tagliata. Influenzi un'area quadrata di 3 metri fino a una profondità da 30 cm a 1,2 metri, a seconda della durezza o della resilienza del terreno.</p>\n<p><i>Ammorbidire terra e pietra</i> non influenza la terra o la pietra lavorata.</p>",
     "descriptor": "Terra",
-    "target_area_effect": "Un oggetto o una creatura pe r livello dell'incantatore",
+    "target_area_effect": "Un oggetto o una creatura per livello dell'incantatore",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -6598,7 +6598,7 @@
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "desc_html": "<p>Questo incantesimo fa sì che coloro nell'area si rivoltino l'uno contro l'altro piuttosto che attaccare i loro nemici. Ogni creatura influenzata ha una probabilità del 50% di attaccare il bersaglio più vicino ogni round. (Tira per determinare il comportamento di ogni creatura all'inizio del suo turno.) Una creatura che non attacca il suo vicino più prossimo è libera di agire normalmente per quel round.</p>",
-    "target_area_effect": "Creature in una propagazione de l raggio di 6m",
+    "target_area_effect": "Creature in una propagazione del raggio di 6m",
     "descriptor": "Influenza Mentale, Sonoro",
     "spell_resistance": "Sì",
     "saving_throw": "Volontà nega",
@@ -6634,7 +6634,7 @@
     "duration": "Istantaneo",
     "components": "V, S, F/FD",
     "level": "Brd 2, Chr 2",
-    "target_area_effect": "3 m diffusiuna con raggio",
+    "target_area_effect": "3 m diffusione con raggio",
     "desc_html": "<p>Colpisci un'area con una tremenda cacofonia. Ogni creatura nell'area subisce 1d8 danni sonori e deve riuscire in un tiro salvezza sulla Tempra per evitare di essere stordita per 1 round.</p>\n<p>Le creature che non possono sentire non vengono stordite ma subiscono comunque i danni.</p>\n<p><em>Focus Arcano:</em> Uno strumento musicale.</p>"
   },
   {
@@ -6661,7 +6661,7 @@
     "duration": "1 min./livello",
     "components": "V, S, FD",
     "level": "Chr 3",
-    "target_area_effect": "Una dead creatura",
+    "target_area_effect": "Una creatura morta",
     "desc_html": "<p>Conferisci la parvenza di vita e intelletto a un cadavere, permettendogli di rispondere a diverse domande che gli poni. Puoi fare una domanda per ogni due livelli dell'incantatore. Le domande non poste vengono sprecate se la durata scade. La conoscenza del cadavere è limitata a ciò che la creatura sapeva in vita, incluse le lingue che parlava (se presenti). Le risposte sono solitamente brevi, criptiche o ripetitive.</p>"
   },
   {
@@ -6770,7 +6770,7 @@
     "name": "Crescita di Spine",
     "school": "Trasmutazione",
     "desc_html": "<p>Qualsiasi vegetazione che copre il terreno nell'area dell'incantesimo diventa molto dura e appuntita senza cambiare il suo aspetto.</p>\n<p>Nelle aree di terra nuda, le radici e le radichette agiscono allo stesso modo. <i>Crescita di spine</i> può tipicamente essere lanciato in qualsiasi ambiente esterno tranne acqua aperta, ghiaccio, neve pesante, deserto sabbioso o roccia nuda.</p>\n<p>Qualsiasi creatura che si muove nell'area subisce 1d4 danni perforanti per ogni 1,5 metri di movimento attraverso la vegetazione spinosa. Qualsiasi creatura che subisce danni dalla <i>crescita di spine</i> deve anche riuscire in un tiro salvezza sui Riflessi o subire danni alle gambe che riducono la velocità della creatura a metà. Questa penalità alla velocità dura 24 ore o finché la creatura ferita non riceve cure magiche.</p>",
-    "target_area_effect": "Un quadrato con lato di 6 m pe r livello",
+    "target_area_effect": "Un quadrato con lato di 6 m per livello",
     "spell_resistance": "Sì",
     "saving_throw": "Riflessi parziale",
     "casting_time": "1 azione standard",
@@ -6791,7 +6791,7 @@
     "duration": "1 oa/livello (C)",
     "components": "V, S, FD",
     "level": "Drd 4, Terra 4",
-    "target_area_effect": "Una 6 m quadrato con lato/livello",
+    "target_area_effect": "Un quadrato con lato di 6 m per livello",
     "desc_html": "<p>Il terreno roccioso, i pavimenti in pietra e superfici simili si modellano in punte lunghe e affilate che si mimetizzano con lo sfondo.</p>\n<p><i>Pietre appuntite</i> ostacolano il progresso attraverso un'area e infliggono danni. Qualsiasi creatura che si muove a piedi nell'area dell'incantesimo o attraverso di essa si muove a metà velocità.</p>\n<p>Inoltre, ogni creatura che si muove attraverso l'area subisce 1d8 danni perforanti per ogni 1,5 metri di movimento. Qualsiasi creatura che subisce danni deve anche riuscire in un tiro salvezza sui Riflessi o subire ferite ai piedi e alle gambe che riducono la velocità della creatura di un terzo.</p>"
   },
   {
@@ -6843,7 +6843,7 @@
     "school": "Evocazione",
     "subschool": "Creazione",
     "desc_html": "<p><i>Nube maleodorante</i> crea una coltre di nebbia come quella creata da <i>nube di nebbia</i>, tranne che i vapori sono nauseanti. Le creature viventi nella nube diventano nauseate. Questa condizione dura finché la creatura è nella nube e per 1d4+1 round dopo esserne uscita. (Tira separatamente per ogni personaggio nauseato.) Qualsiasi creatura che riesce nel tiro salvezza ma rimane nella nube deve continuare a effettuare tiri salvezza ogni round.</p>",
-    "target_area_effect": "Nube in una propagazione de l raggio di 6 m, altezza di 6m",
+    "target_area_effect": "Nube in una propagazione del raggio di 6 m, altezza di 6m",
     "spell_resistance": "No",
     "saving_throw": "Tempra nega; vedi testo",
     "casting_time": "1 azione standard",
@@ -6858,7 +6858,7 @@
     "school": "Trasmutazione",
     "desc_html": "<p>Puoi modellare un pezzo di pietra esistente in qualsiasi forma che si addice al tuo scopo. Sebbene sia possibile creare forzieri grezzi, porte e così via con <i>modellare pietra</i>, i dettagli fini non sono possibili. C'è una probabilità del 30% che qualsiasi forma che includa parti mobili semplicemente non funzioni.</p>\n<p><em>Componente Materiale Arcana:</em> Argilla morbida, che deve essere lavorata in approssimativamente la forma desiderata per l'oggetto di pietra.</p>",
     "descriptor": "Terra",
-    "target_area_effect": "Pietra od oggetto di pietra toccato, fino a 270 tini' -t- 27 dm' per livello",
+    "target_area_effect": "Pietra od oggetto di pietra toccato, fino a 270 dm³ + 27 dm³ per livello",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -6944,7 +6944,7 @@
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "desc_html": "<p>Questo incantesimo funziona come <i>suggestione</i>, tranne che può influenzare più creature. La stessa <i>suggestione</i> si applica a tutte queste creature.</p>",
-    "target_area_effect": "Una creatura per livello, che non possono trovarsi a più di 9 m l'un a dall'altra",
+    "target_area_effect": "Una creatura per livello, che non possono trovarsi a più di 9 m l'una dall'altra",
     "descriptor": "Linguaggio-Dipendente, Influenza Mentale",
     "range": "Medio (30 m + 3 m/livello)",
     "level": "Brd 5, Str/Mag 6"
@@ -6961,7 +6961,7 @@
     "duration": "1 min./livello (C)",
     "components": "V, S",
     "level": "Brd 0",
-    "target_area_effect": "Una evocata manoheld musical instrument",
+    "target_area_effect": "Uno strumento musicale tenuto in mano evocato",
     "desc_html": "<p>Questo incantesimo evoca uno strumento musicale portatile a tua scelta. Questo strumento appare nelle tue mani o ai tuoi piedi (a tua scelta). Lo strumento è tipico per il suo tipo. Appare solo uno strumento per lancio e suonerà solo per te. Non puoi evocare uno strumento troppo grande per essere tenuto con due mani.</p>"
   },
   {
@@ -7287,7 +7287,7 @@
     "duration": "Up to 1 round/livello",
     "components": "V, S, F",
     "level": "Brd 6",
-    "target_area_effect": "Una freestanding structure",
+    "target_area_effect": "Una struttura autoportante",
     "desc_html": "<p>Sintonizzandoti su una struttura indipendente puoi creare una vibrazione dannosa al suo interno. Una volta iniziata, la vibrazione infligge 2d10 danni per round alla struttura bersaglio. (La durezza non ha effetto sui danni dell'incantesimo.) Puoi scegliere al momento del lancio di limitare la durata dell'incantesimo; altrimenti dura fino a 1 round per livello. Non puoi influenzare una struttura che hai già danneggiato con questo incantesimo.</p>"
   },
   {
@@ -7381,7 +7381,7 @@
     "saving_throw": "Volontà nega (oggetto)",
     "range": "Contatto",
     "level": "Str/Mag 7",
-    "target_area_effect": "Una toccata oggetto of fino a 25 kg/livello e 3 m³/livello",
+    "target_area_effect": "Un oggetto toccato del peso fino a 25 kg/livello e 0,08 m³/livello",
     "desc_html": "<p>Questo incantesimo funziona come <i>teletrasporto</i>, tranne che teletrasporta un oggetto, non te. Creature e forze magiche non possono essere teletrasportate.</p>\n<p>Se lo desideri, l'oggetto bersaglio può essere inviato in una posizione distante nel Piano Etereo. In questo caso, il punto dal quale l'oggetto è stato mandato mantiene un debole collegamento magico. Un incantesimo <i>dissolvi magie</i> lanciato su quel punto riporta l'oggetto.</p>"
   },
   {
@@ -7437,7 +7437,7 @@
     "duration": "2 oe/livello (C)",
     "components": "V, S, M",
     "level": "Brd 3, Str/Mag 3",
-    "target_area_effect": "6 m-raggio sfera centrata su di ter location",
+    "target_area_effect": "Sfera del raggio di 6 m centrata sulla tua posizione",
     "desc_html": "<p>Crei una sfera di forza immobile e opaca del colore che desideri intorno a te. Metà della sfera si proietta sopra il terreno, e l'emisfero inferiore passa attraverso il terreno. Fino a nove altre creature di taglia Media possono stare nel campo con te; possono passare libermente dentro e fuori dalla capanna senza danneggiarla. Tuttavia, se esci dalla sfera, l'incantesimo termina.</p>\n<p>La temperatura all'interno della capanna è confortevole, indipendentemente dalla temperatura esterna. La capanna fornisce anche protezione contro gli elementi.</p>"
   },
   {
@@ -7489,7 +7489,7 @@
     "name": "Trasformazione",
     "school": "Trasmutazione",
     "desc_html": "<p>Diventi una vera macchina da combattimento — più forte, più resistente, più veloce e più abile in combattimento. La tua mentalità cambia così che ti piace il combattimento e non puoi lanciare incantesimi, nemmeno da oggetti magici.</p>\n<p>Ottieni un bonus di potenziamento +4 a Forza, Destrezza e Costituzione, un bonus di armatura naturale +4, un bonus di competenza +5 ai tiri salvezza sulla Tempra e bonus base all'attacco uguale al tuo livello (che può darti attacchi multipli). Perdi la tua capacità di incantatore per la durata dell'incantesimo.</p>",
-    "target_area_effect": "Inca n tatore",
+    "target_area_effect": "Incantatore",
     "casting_time": "1 azione standard",
     "range": "Personale",
     "duration": "1 round/livello",
@@ -7537,7 +7537,7 @@
     "duration": "Permanente; vedi testo",
     "components": "V, S, M/FD",
     "level": "Drd 5, Str/Mag 5",
-    "target_area_effect": "Fino a due 3 m cubos/livello (S)",
+    "target_area_effect": "Fino a due cubi con spigolo di 3 m per livello (F)",
     "desc_html": "<p>Questo incantesimo trasforma roccia naturale, non tagliata o non lavorata di qualsiasi tipo in un uguale volume di fango. La pietra magica non è influenzata dall'incantesimo. La profondità del fango creato non può superare 3 metri. Una creatura incapace di levitare, volare o altrimenti liberarsi dal fango affonda fino ai fianchi o alla vita ed è incapace di muoversi.</p>\n<p><i>Trasmutare roccia in fango</i> contrasta e dissolve <i>trasmutare fango in roccia</i>.</p>"
   },
   {
@@ -7681,7 +7681,7 @@
     "duration": "1 round/livello (C)",
     "components": "V, S, F",
     "level": "Chr 8, Male 8",
-    "target_area_effect": "Una creatura/livello in a 6 m scoppio con raggio centrata su di te",
+    "target_area_effect": "Una creatura per livello entro un'esplosione del raggio di 6 m centrata su di te",
     "desc_html": "<p>Un'oscurità malevola circonda i soggetti, proteggendoli dagli attacchi, conferendo loro resistenza agli incantesimi lanciati da creature buone e indebolendo le creature buone quando colpiscono i soggetti. Questa abiurazione ha quattro effetti.</p>\n<p>Primo, ogni creatura protetta ottiene un bonus di deviazione +4 alla CA e un bonus di resistenza +4 ai tiri salvezza. Questi bonus si applicano contro tutti gli attacchi.</p>\n<p>Secondo, una creatura protetta ottiene resistenza agli incantesimi 25 contro gli incantesimi buoni e gli incantesimi lanciati da creature buone.</p>\n<p>Terzo, l'abiurazione blocca i tentativi di possessione e influenza mentale.</p>\n<p>Infine, se una creatura buona riesce in un attacco in mischia contro una creatura protetta, l'attaccante deve riuscire in un tiro salvezza sulla Volontà o la sua Forza è ridotta a 1 per 10 minuti per livello dell'incantatore.</p>"
   },
   {
@@ -7696,7 +7696,7 @@
     "duration": "Istantaneo (1d4 rounds); vedi testo",
     "components": "V, S",
     "level": "Male 4",
-    "target_area_effect": "6 m diffusiuna con raggio",
+    "target_area_effect": "6 m diffusione con raggio",
     "desc_html": "<p>Richiami un potere empio per colpire i tuoi nemici. Il potere prende la forma di un miasma freddo e appiccicoso di oscurità untuosa.</p>\n<p>Solo le creature buone e neutrali (non malvagie) vengono danneggiate dall'incantesimo.</p>\n<p>L'incantesimo infligge 1d8 danni per ogni due livelli dell'incantatore (massimo 5d8) alle creature buone (o 1d6 danni per livello dell'incantatore, massimo 10d6, agli esterni buoni) e le rende nauseate per 1d4 round. Un tiro salvezza sulla Volontà riuscito dimezza i danni e nega l'effetto di nausea.</p>\n<p>L'incantesimo infligge solo metà danni alle creature che non sono né buone né malvagie, e non le rende nauseate.</p>"
   },
   {
@@ -7787,7 +7787,7 @@
     "school": "Necromanzia",
     "desc_html": "<p>Emetti un urlo terribile che uccide le creature che lo sentono (tranne te stesso). Le creature più vicine al punto d'origine vengono influenzate per prime.</p>",
     "descriptor": "Morte, Sonoro",
-    "target_area_effect": "Una creatura vivente per livello entro una propagazione del raggio d i 12m",
+    "target_area_effect": "Una creatura vivente per livello entro una propagazione del raggio di 12m",
     "spell_resistance": "Sì",
     "saving_throw": "Tempra nega",
     "casting_time": "1 azione standard",
@@ -7802,7 +7802,7 @@
     "school": "Invocazione",
     "desc_html": "<p>Una cortina di fuoco viola scintillante, immobile e ardente, appare. Un lato del muro, da te selezionato, emette onde di calore, infliggendo 2d4 danni da fuoco alle creature entro 3 metri e 1d4 danni da fuoco a quelle oltre 3 metri ma entro 6 metri. Il muro infligge questi danni quando appare e in ogni round al tuo turno a tutte le creature nelle aree indicate. Inoltre, il muro infligge 2d6 danni da fuoco +1 per livello dell'incantatore (massimo +20) a qualsiasi creatura che lo attraversa. Il muro infligge danni doppi ai non morti.</p>",
     "descriptor": "Fuoco",
-    "target_area_effect": "Un velo di fiamme opache lungo fino a 6 m per livello oppure un anello di fuoco con un raggio fino a 1,5 m pe r ogni due livelli; entrambe le forme dell'altezza di 6m",
+    "target_area_effect": "Un velo di fiamme opache lungo fino a 6 m per livello oppure un anello di fuoco con un raggio fino a 1,5 m per ogni due livelli; entrambe le forme dell'altezza di 6m",
     "spell_resistance": "Sì",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -7817,7 +7817,7 @@
     "school": "Invocazione",
     "desc_html": "<p>Un incantesimo <i>muro di forza</i> crea un muro invisibile di forza. Il muro non può muoversi, è immune a danni di qualsiasi tipo e non è influenzato dalla maggior parte degli incantesimi, incluso <i>dissolvi magie</i>. Tuttavia, <i>disintegrazione</i> lo distrugge immediatamente, così come una <i>verga dell'annullamento</i>, una <i>verga della negazione</i> o una <i>sfera di annullamento</i>. Gli incantesimi del respiro e gli incantesimi di sguardo non possono passare attraverso un <i>muro di forza</i>.</p>\n<p>Il muro non può essere creato in uno spazio occupato da un oggetto o una creatura.</p>",
     "descriptor": "Forza",
-    "target_area_effect": "Muro la cui area è fino a u n quadrato con lato di 3 m per livello",
+    "target_area_effect": "Muro la cui area è fino a un quadrato con lato di 3 m per livello",
     "spell_resistance": "No",
     "saving_throw": "Nessuno",
     "casting_time": "1 azione standard",
@@ -7832,7 +7832,7 @@
     "school": "Invocazione",
     "desc_html": "<p>Questo incantesimo crea un piano ancorato di ghiaccio o un emisfero di ghiaccio, a seconda della versione selezionata. Un <i>muro di ghiaccio</i> non può formarsi in un'area occupata da oggetti fisici o creature. La sua superficie deve essere liscia e ininterrotta quando viene creata. Qualsiasi creatura adiacente al muro quando viene creato può tentare un tiro salvezza sui Riflessi per interrompere il muro mentre si forma.</p>\n<p>Ogni segmento di 3 metri del muro ha 3 punti ferita per livello dell'incantatore. Una creatura può spezzare il muro colpendo un singolo segmento. Se una creatura cerca di sfondare il muro con un singolo attacco, la CD per la prova di Forza è 15 + livello dell'incantatore.</p>",
     "descriptor": "Freddo",
-    "target_area_effect": "Un piano di ghiaccio ancorato, fino a un quadrato con lato di 3 m pe r livello o una semisfera di ghiaccio co n un raggio fino a 90 cm + 30 cm per livello",
+    "target_area_effect": "Un piano di ghiaccio ancorato, fino a un quadrato con lato di 3 m per livello o una semisfera di ghiaccio con un raggio fino a 90 cm + 30 cm per livello",
     "spell_resistance": "Sì",
     "saving_throw": "Riflessi nega; vedi testo",
     "casting_time": "1 azione standard",
@@ -7863,7 +7863,7 @@
     "subschool": "Creazione",
     "desc_html": "<p>Questo incantesimo crea un muro di roccia che si fonde con le superfici rocciose adiacenti. Un <i>muro di pietra</i> ha uno spessore di 2,5 cm per ogni quattro livelli dell'incantatore ed è composto da fino a un quadrato di 1,5 m per livello. Puoi raddoppiare l'area del muro dimezzandone lo spessore. Il muro non può essere evocato in modo che occupi lo stesso spazio di una creatura o un altro oggetto.</p>\n<p>A differenza di un <i>muro di ferro</i>, puoi creare un <i>muro di pietra</i> in quasi qualsiasi forma desideri. Il muro creato non ha bisogno di essere verticale, né di poggiare su una base solida. Tuttavia, deve fondersi con e essere ancorato a roccia esistente.</p>",
     "descriptor": "Terra",
-    "target_area_effect": "Muro di pietra la cui area è fino a un quadrato con lato di 1,5 tn per livello (F )",
+    "target_area_effect": "Muro di pietra la cui area è fino a un quadrato con lato di 1,5 m per livello (F )",
     "spell_resistance": "No",
     "saving_throw": "Vedi testo",
     "casting_time": "1 azione standard",
@@ -7885,7 +7885,7 @@
     "duration": "10 min./livello (C)",
     "components": "V, S",
     "level": "Drd 5, Pianta 5",
-    "target_area_effect": "Muro di arbusti spinosi, fino a un cubo di 3 m/livello (F)"
+    "target_area_effect": "Muro di arbusti spinosi, fino a un cubo con spigolo di 3 m per livello (F)"
   },
   {
     "slug": "warp-wood",
@@ -7898,7 +7898,7 @@
     "duration": "Istantaneo",
     "components": "V, S",
     "level": "Drd 2",
-    "target_area_effect": "1 Piccola di legno oggetto/livello, all entro a 6 m raggio",
+    "target_area_effect": "1 oggetto di legno Piccolo per livello, tutti entro un raggio di 6 m",
     "desc_html": "<p>Fai piegare e deformare il legno, distruggendo permanentemente la sua rettilineità, forma e resistenza. Una porta deformata si apre di scatto (o rimane bloccata, richiedendo una prova di Forza per aprirla, a tua scelta). Una barca o una nave apre una falla. Le armi a distanza deformate sono inutili. Un'arma da mischia deformata causa una penalità di -4 ai tiri per colpire.</p>\n<p>In alternativa, puoi raddrizzare il legno (anziché deformarlo), raddrizzando legno che è stato deformato da questo incantesimo o da altri mezzi.</p>"
   },
   {
@@ -7964,7 +7964,7 @@
     "school": "Evocazione",
     "subschool": "Creazione",
     "desc_html": "<p><i>Ragnatela</i> crea una massa di fili forti e appiccicosi a più strati. Questi fili intrappolano coloro che vi rimangono catturati. I fili sono simili a ragnatele ma molto più grandi e resistenti. Queste masse devono essere ancorate a due o più punti solidi e diametralmente opposti o la ragnatela collassa su se stessa e svanisce.</p>\n<p>Le creature catturate nella ragnatela, o che semplicemente vi toccano, rimangono incollate tra i fili appiccicosi. Occorre una prova di Forza con CD 20 o una prova di Artista della Fuga con CD 25 per liberarsi dalla ragnatela. Chi riesce può muoversi a metà velocità; in alternativa, può semplicemente strappare i fili come azione di round completo.</p>",
-    "target_area_effect": "Ragnatele in una propagazion e del raggio di 6 tn",
+    "target_area_effect": "Ragnatele in una propagazione del raggio di 6 m",
     "spell_resistance": "No",
     "saving_throw": "Riflessi nega; vedi testo",
     "casting_time": "1 azione standard",
@@ -8034,7 +8034,7 @@
     "school": "Invocazione",
     "desc_html": "<p>Appare una cortina verticale invisibile di vento. È spessa 60 cm e di considerevole forza. È una raffica fragorosa sufficiente a spazzare via qualsiasi uccello più piccolo di un'aquila, o a strappare fogli e materiali simili dalle mani di chi non li tiene saldamente. (Un tiro salvezza sui Riflessi permette a una creatura di mantenere la presa su un oggetto.) Le frecce e i quadrelli piccoli vengono deviati verso l'alto e mancano, mentre i proiettili grandi come il giavellotto non sono influenzati. I gas, la maggior parte degli attacchi con il respiro e le creature in <i>forma gassosa</i> non possono passare attraverso il muro (anche se è possibile trattenere il respiro e attraversarlo).</p>",
     "descriptor": "Aria",
-    "target_area_effect": "Muro lungo fino a 3 m per livell o e alto 1,5 m per livello (F )",
+    "target_area_effect": "Muro lungo fino a 3 m per livello e alto 1,5 m per livello (F )",
     "spell_resistance": "Sì",
     "saving_throw": "Nessuno; vedi testo",
     "casting_time": "1 azione standard",
