@@ -385,6 +385,15 @@ main {
   font-weight: 500;
 }
 
+.name-en {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  opacity: 0.6;
+  margin-left: 0.5rem;
+  font-style: italic;
+}
+
 .result-item .meta {
   font-size: 0.8rem;
   margin-top: 0.15rem;

@@ -526,7 +526,7 @@ async function renderResults() {
     return `<div class="result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}" data-index="${idx}" data-slug="${item.slug || ''}"${schoolStyle}>
       <div class="result-row">
         <div class="result-text">
-          <div class="name">${esc(item.name)}</div>
+          <div class="name">${esc(item.name)}${item._name_en ? `<span class="name-en">${esc(item._name_en)}</span>` : ''}</div>
           ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
         </div>
         ${actionHtml}
@@ -591,6 +591,7 @@ async function renderPreparedList() {
     const sp = spellMap[p.slug];
     if (sp) {
       p.name = sp.name;
+      p._name_en = sp._name_en || '';
       p.school = sp.school || '';
       p.level = sp.level || '';
     }
@@ -612,7 +613,7 @@ async function renderPreparedList() {
     const meta = [p.school, p.level].filter(Boolean).join(' — ');
     return `<div class="result-item prepared-item ${allUsed ? 'all-used' : ''}" data-slug="${esc(p.slug)}"${schoolStyle}>
       <div class="prep-info">
-        <div class="prep-name">${esc(p.name)}</div>
+        <div class="prep-name">${esc(p.name)}${p._name_en ? `<span class="name-en">${esc(p._name_en)}</span>` : ''}</div>
         ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
       </div>
       <div class="prep-controls">
@@ -702,15 +703,16 @@ async function renderLearnedList() {
   // Resolve names in current language
   const feats = await loadData('feats');
   const nameMap = {};
-  if (feats) feats.forEach((f) => { nameMap[f.slug] = f.name; });
-  entries.forEach((l) => { l.name = nameMap[l.slug] || l.name; });
+  const enNameMap = {};
+  if (feats) feats.forEach((f) => { nameMap[f.slug] = f.name; enNameMap[f.slug] = f._name_en || ''; });
+  entries.forEach((l) => { l.name = nameMap[l.slug] || l.name; l._name_en = enNameMap[l.slug] || ''; });
 
   // Sort by name
   entries.sort((a, b) => a.name.localeCompare(b.name));
 
   resultsList.innerHTML = entries.map((l) => {
     return `<div class="result-item learned-item" data-slug="${esc(l.slug)}">
-      <div class="learned-name">${esc(l.name)}</div>
+      <div class="learned-name">${esc(l.name)}${l._name_en ? `<span class="name-en">${esc(l._name_en)}</span>` : ''}</div>
       <button class="remove-btn" data-slug="${esc(l.slug)}" title="${t('btn.remove')}">&times;</button>
     </div>`;
   }).join('');

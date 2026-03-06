@@ -66,8 +66,12 @@ function applyOverlay(data, overlayMap) {
   return data.map((item) => {
     const trans = overlayMap[item.slug];
     if (!trans) return item;
-    // Merge translated fields over original (shallow)
-    return { ...item, ...trans, slug: item.slug };
+    // Preserve original EN name for cross-reference display
+    const merged = { ...item, ...trans, slug: item.slug };
+    if (trans.name && trans.name !== item.name) {
+      merged._name_en = item.name;
+    }
+    return merged;
   });
 }
 
