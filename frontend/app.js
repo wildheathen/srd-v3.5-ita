@@ -605,7 +605,27 @@ async function renderResults() {
 
 async function renderPreparedList() {
   const prepared = loadPrepared();
-  const entries = Object.values(prepared);
+  let entries = Object.values(prepared);
+
+  // Resolve names, school, level in current language
+  const spells = await loadData('spells');
+  const spellMap = {};
+  if (spells) spells.forEach((s) => { spellMap[s.slug] = s; });
+  // Remove stale entries that no longer match any spell (renamed slugs, etc.)
+  let cleaned = false;
+  const keys = Object.keys(prepared);
+  for (let i = keys.length - 1; i >= 0; i--) {
+    const key = keys[i];
+    const slug = prepared[key].slug || key;
+    if (!spellMap[slug] || !prepared[key].prepared) {
+      delete prepared[key];
+      cleaned = true;
+    }
+  }
+  if (cleaned) {
+    savePrepared(prepared);
+    entries = Object.values(prepared);
+  }
 
   const countEl = document.getElementById('result-count');
   if (countEl) countEl.textContent = t('msg.prepared_count', { count: entries.length });
@@ -616,10 +636,6 @@ async function renderPreparedList() {
     return;
   }
 
-  // Resolve names, school, level in current language
-  const spells = await loadData('spells');
-  const spellMap = {};
-  if (spells) spells.forEach((s) => { spellMap[s.slug] = s; });
   entries.forEach((p) => {
     const sp = spellMap[p.slug];
     if (sp) {
@@ -668,7 +684,7 @@ async function renderPreparedList() {
   // Event: click on name to show spell detail
   resultsList.querySelectorAll('.prep-name').forEach((el) => {
     el.addEventListener('click', async () => {
-      const slug = el.parentElement.dataset.slug;
+      const slug = el.closest('[data-slug]').dataset.slug;
       const spells = await loadData('spells');
       if (!spells) return;
       const spell = spells.find((s) => s.slug === slug);
