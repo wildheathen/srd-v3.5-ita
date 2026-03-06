@@ -997,11 +997,17 @@ function renderStatusDashboard(data, langs, activeLang) {
       if (hasIssues) {
         html += `<div class="field-issues-list" id="${fieldId}">`;
         for (const issue of f.issues) {
-          const val = issue.value || issue.en_value || '';
+          const itVal = issue.value || '';
+          const enVal = issue.en_value || '';
           const detail = issue.details || issue.words || '';
           const typeLabel = { missing: 'mancante', identical: 'identico EN', ocr: 'OCR', english: 'inglese', length_anomaly: 'lunghezza' }[issue.type] || issue.type;
-          html += `<div class="issue-item"><span class="issue-slug">${esc(issue.slug)}</span><span class="issue-type issue-${issue.type}">${typeLabel}</span>`;
-          if (val) html += `<span class="issue-value">${esc(val.substring(0, 80))}</span>`;
+          html += `<div class="issue-item">`;
+          html += `<span class="issue-slug">${esc(issue.slug)}</span>`;
+          html += `<span class="issue-type issue-${issue.type}">${typeLabel}</span>`;
+          html += `<span class="issue-values">`;
+          if (enVal) html += `<span class="issue-en"><b>EN:</b> ${esc(enVal.substring(0, 100))}</span>`;
+          if (itVal && itVal !== enVal) html += `<span class="issue-it"><b>IT:</b> ${esc(itVal.substring(0, 100))}</span>`;
+          html += `</span>`;
           if (detail) html += `<span class="issue-detail">${esc(String(detail).substring(0, 80))}</span>`;
           html += `</div>`;
         }

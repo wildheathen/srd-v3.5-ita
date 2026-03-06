@@ -160,6 +160,7 @@ def analyze_field(en_entries, it_entries, field):
                 "slug": slug,
                 "type": "identical",
                 "value": str(it_val)[:120],
+                "en_value": str(en_val)[:120],
             })
             continue
 
@@ -172,6 +173,7 @@ def analyze_field(en_entries, it_entries, field):
                     "slug": slug,
                     "type": "ocr",
                     "value": str(it_val)[:120],
+                    "en_value": str(en_val)[:120],
                     "details": ocr,
                 })
 
@@ -182,6 +184,7 @@ def analyze_field(en_entries, it_entries, field):
                     "slug": slug,
                     "type": "english",
                     "value": str(it_val)[:120],
+                    "en_value": str(en_val)[:120],
                     "words": eng,
                 })
         else:
