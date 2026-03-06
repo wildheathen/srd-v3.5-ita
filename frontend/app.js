@@ -1074,7 +1074,7 @@ function renderFields(fields) {
   const rows = fields
     .filter(([, v]) => v)
     .map(([label, value]) =>
-      `<div class="field"><span class="field-label">${esc(label)}</span><div class="field-value">${esc(String(value))}</div></div>`
+      `<div class="field"><span class="field-label">${esc(label)}</span><div class="field-value">${escAllowInline(String(value))}</div></div>`
     )
     .join('');
   return rows ? `<div class="fields-grid">${rows}</div>` : '';
@@ -1083,6 +1083,12 @@ function renderFields(fields) {
 function renderDesc(html) {
   if (!html) return '';
   return `<div class="desc-html">${html}</div>`;
+}
+
+function escAllowInline(str) {
+  if (!str) return '';
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/&lt;(\/?(?:i|em|b|strong))&gt;/g, '<$1>');
 }
 
 function esc(str) {
