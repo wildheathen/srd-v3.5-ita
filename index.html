@@ -34,7 +34,10 @@
   </nav>
 
   <div id="search-bar">
-    <input type="text" id="search" placeholder="Cerca per nome..." autocomplete="off" />
+    <div class="search-wrapper">
+      <input type="text" id="search" placeholder="Cerca per nome..." autocomplete="off" />
+      <button id="search-clear" class="search-clear hidden" type="button" aria-label="Svuota ricerca">&times;</button>
+    </div>
     <div id="filters"></div>
   </div>
 

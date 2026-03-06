@@ -5,6 +5,7 @@ const DATA_BASE = 'data';
 const resultsList = document.getElementById('results-list');
 const detailPanel = document.getElementById('detail-panel');
 const searchInput = document.getElementById('search');
+const searchClear = document.getElementById('search-clear');
 const filtersDiv = document.getElementById('filters');
 
 let currentTab = 'spells';
@@ -157,8 +158,10 @@ document.querySelectorAll('.tab').forEach((btn) => {
     btn.classList.add('active');
     currentTab = btn.dataset.tab;
     searchInput.value = '';
+    searchClear.classList.add('hidden');
     detailPanel.classList.add('hidden');
-    searchInput.style.display = (currentTab === 'prepared' || currentTab === 'learned' || currentTab === 'translation-status') ? 'none' : '';
+    const hideSearch = currentTab === 'prepared' || currentTab === 'learned' || currentTab === 'translation-status';
+    searchInput.parentElement.style.display = hideSearch ? 'none' : '';
     buildFilters();
     renderResults();
   });
@@ -169,6 +172,14 @@ document.querySelectorAll('.tab').forEach((btn) => {
 searchInput.addEventListener('input', () => {
   clearTimeout(debounceTimer);
   debounceTimer = setTimeout(renderResults, 150);
+  searchClear.classList.toggle('hidden', !searchInput.value);
+});
+
+searchClear.addEventListener('click', () => {
+  searchInput.value = '';
+  searchClear.classList.add('hidden');
+  searchInput.focus();
+  renderResults();
 });
 
 // ── Language switcher ────────────────────────────────────────────────────
@@ -780,7 +791,7 @@ function renderDetail(item, tab) {
     case 'equipment': return renderEquipment(item);
     case 'monsters': return renderMonster(item);
     case 'rules': return renderRules(item);
-    default: return `<h2>${esc(item.name)}</h2>`;
+    default: return renderDetailTitle(item);
   }
 }
 
@@ -796,7 +807,7 @@ function renderSpell(s) {
     [t('detail.spell.saving_throw'), s.saving_throw],
     [t('detail.spell.spell_resistance'), s.spell_resistance],
   ];
-  return `<h2>${esc(s.name)}${renderSourceBadge(s)}</h2>` + renderFields(fields) + renderDesc(s.desc_html);
+  return renderDetailTitle(s) + renderFields(fields) + renderDesc(s.desc_html);
 }
 
 function renderFeat(f) {
@@ -807,7 +818,7 @@ function renderFeat(f) {
     [t('detail.feat.normal'), f.normal],
     [t('detail.feat.special'), f.special],
   ];
-  return `<h2>${esc(f.name)}${renderSourceBadge(f)}</h2>` + renderFields(fields);
+  return renderDetailTitle(f) + renderFields(fields);
 }
 
 function renderClass(c) {
@@ -815,7 +826,7 @@ function renderClass(c) {
     [t('detail.class.hit_die'), c.hit_die],
     [t('detail.class.alignment'), c.alignment],
   ];
-  let html = `<h2>${esc(c.name)}${renderSourceBadge(c)}</h2>` + renderFields(fields);
+  let html = renderDetailTitle(c) + renderFields(fields);
   if (c.table_html) {
     html += `<div class="desc-html">${c.table_html}</div>`;
   }
@@ -824,7 +835,7 @@ function renderClass(c) {
 }
 
 function renderRace(r) {
-  let html = `<h2>${esc(r.name)}${renderSourceBadge(r)}</h2>`;
+  let html = renderDetailTitle(r);
   if (r.traits && r.traits.length) {
     html += '<div class="desc-html"><ul>';
     html += r.traits.map((tr) => `<li>${tr}</li>`).join('');
@@ -835,7 +846,7 @@ function renderRace(r) {
 }
 
 function renderEquipment(e) {
-  let html = `<h2>${esc(e.name)}${renderSourceBadge(e)}</h2>`;
+  let html = renderDetailTitle(e);
   const cat = e._category || e.category || '';
   const catLabel = cat === 'weapon' ? t('cat.weapon') : cat === 'armor' ? t('cat.armor') : cat === 'goods' ? t('cat.goods') : cat;
   html += `<div class="field"><span class="field-label">${t('detail.equip.category')}</span><div class="field-value">${esc(catLabel)}</div></div>`;
@@ -875,11 +886,21 @@ function renderMonster(m) {
     [t('detail.monster.advancement'), m.advancement],
     [t('detail.monster.level_adjustment'), m.level_adjustment],
   ];
-  return `<h2>${esc(m.name)}${renderSourceBadge(m)}</h2>` + renderFields(fields) + renderDesc(m.desc_html);
+  return renderDetailTitle(m) + renderFields(fields) + renderDesc(m.desc_html);
 }
 
 function renderRules(r) {
-  return `<h2>${esc(r.name)}${renderSourceBadge(r)}</h2>` + renderDesc(r.desc_html);
+  return renderDetailTitle(r) + renderDesc(r.desc_html);
+}
+
+// ── Detail title with EN subtitle ────────────────────────────────────────
+
+function renderDetailTitle(item) {
+  let html = `<h2>${esc(item.name)}${renderSourceBadge(item)}</h2>`;
+  if (item._name_en) {
+    html += `<div class="detail-name-en">${esc(item._name_en)}</div>`;
+  }
+  return html;
 }
 
 // ── Source badge ─────────────────────────────────────────────────────────

@@ -206,9 +206,14 @@ header.collapsed #header-toggle {
   margin: 0 auto;
 }
 
+.search-wrapper {
+  position: relative;
+  width: 100%;
+}
+
 #search {
   width: 100%;
-  padding: 0.6rem 1rem;
+  padding: 0.6rem 2.2rem 0.6rem 1rem;
   border-radius: 6px;
   border: 1px solid var(--border);
   background: var(--bg-card);
@@ -219,6 +224,30 @@ header.collapsed #header-toggle {
 
 #search:focus {
   border-color: var(--accent);
+}
+
+.search-clear {
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+  line-height: 1;
+  border-radius: 3px;
+}
+
+.search-clear:hover {
+  color: var(--text);
+  background: var(--bg-hover);
+}
+
+.search-clear.hidden {
+  display: none;
 }
 
 #search::placeholder {
@@ -644,9 +673,17 @@ main {
 #detail-panel h2 {
   font-family: var(--font-display);
   color: var(--accent);
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
   font-size: 1.4rem;
   letter-spacing: 0.04em;
+}
+
+.detail-name-en {
+  font-style: italic;
+  color: var(--text-dim);
+  opacity: 0.6;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
   text-shadow: 0 0 15px rgba(196, 163, 90, 0.15);
   padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--border);
