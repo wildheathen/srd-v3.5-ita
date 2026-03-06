@@ -1105,15 +1105,42 @@ function renderStatusDashboard(data, langs, activeLang) {
       for (const [srcName, srcData] of srcEntries) {
         const sPct = srcData.percent;
         const sFillClass = sPct >= 100 ? 'complete' : '';
-        html += `<div class="source-row">`;
+        const srcId = `src-${catName}-${srcName}`.replace(/[^a-z0-9-]/gi, '-');
+        const hasEntries = srcData.entries && srcData.entries.length > 0;
+        const nDesc = hasEntries ? srcData.entries.filter(e => e.desc).length : 0;
+        const nNoDesc = hasEntries ? srcData.entries.length - nDesc : 0;
+        html += `<div class="source-row${hasEntries ? ' clickable' : ''}"${hasEntries ? ` onclick="document.getElementById('${srcId}').classList.toggle('open')"` : ''}>`;
         html += `<span class="source-name">${esc(srcName)}</span>`;
         html += `<span class="source-count">${srcData.total}</span>`;
         html += `<div class="field-bar"><div class="field-bar-fill ${sFillClass}" style="width:${sPct}%"></div></div>`;
-        html += `<span class="field-stats">${srcData.translated_fields}/${srcData.total_fields} (${sPct}%)</span>`;
+        html += `<span class="field-stats">${srcData.translated_fields}/${srcData.total_fields} (${sPct}%)`;
+        if (hasEntries) html += ` <span class="source-desc-badge" title="desc_html">📖 ${nDesc}/${srcData.total}</span>`;
+        html += `</span>`;
         html += `</div>`;
+        // Expandable spell list
+        if (hasEntries) {
+          html += `<div class="source-spell-list" id="${srcId}">`;
+          for (const entry of srcData.entries) {
+            const name = entry.it || entry.en;
+            const descClass = entry.desc ? 'has-desc' : 'no-desc';
+            html += `<div class="source-spell-entry ${descClass}">`;
+            html += `<span class="desc-dot" title="${entry.desc ? 'desc_html ✓' : 'desc_html ✗'}"></span>`;
+            html += `<span class="spell-entry-name">${esc(name)}</span>`;
+            if (entry.it && entry.en) html += `<span class="spell-entry-en">${esc(entry.en)}</span>`;
+            html += `</div>`;
+          }
+          html += `</div>`;
+        }
       }
       html += `</div></div>`;
     }
+
+    // ── CSV export button ──
+    html += `<div class="status-export">`;
+    html += `<button class="export-csv-btn" data-cat="${esc(catName)}" title="Esporta CSV mancanti">`;
+    html += `📥 CSV`;
+    html += `</button>`;
+    html += `</div>`;
 
     html += `</div></div>`;
   }
@@ -1137,6 +1164,83 @@ function renderStatusDashboard(data, langs, activeLang) {
       renderTranslationStatus(btn.dataset.statusLang);
     });
   });
+
+  // CSV export buttons
+  resultsList.querySelectorAll('.export-csv-btn').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      exportStatusCSV(btn.dataset.cat, data);
+    });
+  });
+}
+
+// ── CSV export for translation status ──────────────────────────────────
+
+async function exportStatusCSV(catName, statusData) {
+  const FIELDS_MAP = {
+    spells: ['name','school','subschool','descriptor','level','components',
+             'casting_time','range','target_area_effect','duration',
+             'saving_throw','spell_resistance','short_description','desc_html'],
+    feats: ['name','type','prerequisites','benefit','normal','special','desc_html'],
+    monsters: ['name','type','alignment','environment','organization','desc_html'],
+    classes: ['name','alignment','table_html','desc_html'],
+    races: ['name','traits','desc_html'],
+    equipment: ['name'],
+    rules: ['name','desc_html'],
+  };
+
+  try {
+    const cb = `v=${Date.now()}`;
+    const [enRes, itRes] = await Promise.all([
+      fetch(`${DATA_BASE}/${catName}.json?${cb}`),
+      fetch(`${DATA_BASE}/i18n/it/${catName}.json?${cb}`),
+    ]);
+    if (!enRes.ok) throw new Error(`Cannot load ${catName}.json`);
+    const enData = await enRes.json();
+    const itData = itRes.ok ? await itRes.json() : [];
+
+    const itMap = {};
+    for (const e of itData) { if (e.slug) itMap[e.slug] = e; }
+
+    const fields = FIELDS_MAP[catName] || ['name','desc_html'];
+    const header = ['slug','name_en','name_it','source', ...fields.map(f => f + '_status')];
+    const rows = [header.join(',')];
+
+    for (const en of enData) {
+      const slug = en.slug || '';
+      const it = itMap[slug] || {};
+      const nameEn = (en.name || '').replace(/"/g, '""');
+      const nameIt = (it.name || '').replace(/"/g, '""');
+      const source = (en.source || '').replace(/"/g, '""');
+
+      const statuses = fields.map(f => {
+        const enVal = en[f] || '';
+        const itVal = it[f] || '';
+        if (!enVal && !itVal) return 'manca';
+        if (!itVal && enVal) return 'manca';
+        if (itVal && enVal && itVal === enVal) return 'uguale_EN';
+        if (itVal) return 'ok';
+        return 'manca';
+      });
+
+      rows.push([
+        `"${slug}"`,`"${nameEn}"`,`"${nameIt}"`,`"${source}"`,
+        ...statuses
+      ].join(','));
+    }
+
+    const csv = rows.join('\n');
+    const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `translation-missing-${catName}.csv`;
+    a.click();
+    URL.revokeObjectURL(url);
+  } catch (err) {
+    console.error('CSV export error:', err);
+    alert('Errore export CSV: ' + err.message);
+  }
 }
 
 // ── Render helpers ───────────────────────────────────────────────────────

@@ -115,6 +115,17 @@ CLASS_NAMES = {
     "Sor/Wiz": ("Sorcerer/Wizard", "Str/Mag", "Stregone/Mago"),
 }
 
+# Fields that EVERY entry should have.  When both EN and IT are empty,
+# these still count as "missing" instead of being silently skipped.
+REQUIRED_FIELDS = {
+    "spells":    {"desc_html"},
+    "feats":     {"desc_html"},
+    "monsters":  {"desc_html"},
+    "classes":   {"desc_html"},
+    "races":     {"desc_html"},
+    "rules":     {"desc_html"},
+}
+
 # --- Detect functions ---
 
 OCR_PATTERNS = [
@@ -261,8 +272,12 @@ def estimate_html_translation_pct(en_html, it_html):
     return max(0, min(100, pct))
 
 
-def analyze_field(en_entries, it_entries, field):
-    """Analyze a single field across all entries."""
+def analyze_field(en_entries, it_entries, field, is_required=False):
+    """Analyze a single field across all entries.
+
+    If *is_required* is True, entries where both EN and IT are empty still
+    count as "missing" (the field *should* exist for every entry).
+    """
     en_by_slug = {e["slug"]: e for e in en_entries}
     it_by_slug = {e["slug"]: e for e in it_entries}
 
@@ -289,7 +304,9 @@ def analyze_field(en_entries, it_entries, field):
             it_val = json.dumps(it_val, ensure_ascii=False)
 
         if not en_val and not it_val:
-            continue  # field doesn't exist in either
+            if is_required:
+                stats["missing"] += 1  # field should exist but doesn't
+            continue
 
         if not it_val and en_val:
             stats["missing"] += 1
@@ -383,6 +400,7 @@ def analyze_category(category, lang="it"):
         it_data = json.load(f)
 
     fields = TRANSLATABLE_FIELDS.get(category, [])
+    required = REQUIRED_FIELDS.get(category, set())
     result = {
         "category": category,
         "lang": lang,
@@ -392,7 +410,9 @@ def analyze_category(category, lang="it"):
     }
 
     for field in fields:
-        result["fields"][field] = analyze_field(en_data, it_data, field)
+        result["fields"][field] = analyze_field(
+            en_data, it_data, field, is_required=(field in required)
+        )
 
     return result
 
@@ -626,8 +646,28 @@ def generate_frontend_json(results, lang):
                         src_trans_f += trans
 
                     src_pct = round(src_trans_f / src_total_f * 100, 1) if src_total_f > 0 else 0.0
+
+                    # Build per-entry list with translation status
+                    src_entries_list = []
+                    for slug in sorted(src_slugs):
+                        en_e = en_by_slug.get(slug, {})
+                        it_e = it_by_slug.get(slug, {})
+                        it_name = it_e.get("name", "")
+                        en_name = en_e.get("name", slug)
+                        # desc_html status
+                        it_desc = it_e.get("desc_html", "")
+                        en_desc = en_e.get("desc_html", "")
+                        has_desc = bool(it_desc and it_desc != en_desc) or bool(it_desc and not en_desc)
+                        src_entries_list.append({
+                            "slug": slug,
+                            "en": en_name,
+                            "it": it_name if it_name and it_name != en_name else "",
+                            "desc": has_desc,
+                        })
+
                     by_source[src] = {
                         "total": len(src_slugs),
+                        "entries": src_entries_list,
                         "fields": src_fields,
                         "total_fields": src_total_f,
                         "translated_fields": src_trans_f,
