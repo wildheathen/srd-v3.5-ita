@@ -174,7 +174,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      A magical arrow of acid springs from your hand and speeds to its target. You must succeed on a ranged touch attack\n      to hit your target. The arrow deals 2d4 points of acid damage with no splash damage. For every three caster levels\n      (to a maximum of 18th), the acid, unless somehow neutralized, lasts for another round, dealing another 2d4 points\n      of damage in that round.\n    </p>\n<p><em>Material Component:</em> Powdered rhubarb leaf and an adder’s stomach.</p>\n<p><em>Focus:</em> A dart.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 237",
+    "summary_it": "Scaglia una freccia di acido contro il bersaglio."
   },
   {
     "name": "Acid Fog",
@@ -1854,46 +1857,6 @@
     "summary_it": "Blocca tutti gli incantesimi fino ad un certo livello proteggendo anche dagli assalti delle creature malvage."
   },
   {
-    "name": "Bear's Endurance",
-    "slug": "bear-s-endurance",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 278",
-    "summary_it": "Aumenta la robustezza il soggetto bersaglio."
-  },
-  {
-    "name": "Bear's Endurance, Mass",
-    "slug": "bear-s-endurance-mass",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 278",
-    "summary_it": "Aumenta la robustezza dei soggetti bersaglio."
-  },
-  {
     "name": "Bear’s Endurance",
     "slug": "bears-endurance",
     "school": "Transmutation",
@@ -1908,7 +1871,10 @@
     "saving_throw": "Will negates (harmless)",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n      The affected creature gains greater vitality and stamina. The spell grants the subject a +4 enhancement bonus to\n      Constitution, which adds the usual benefits to hit points, Fortitude saves, Constitution checks, and so forth.\n    </p>\n<p>\n      Hit points gained by a temporary increase in Constitution score are not temporary hit points. They go away when\n      the subject’s Constitution drops back to normal. They are not lost first as temporary hit points are.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 278",
+    "summary_it": "Aumenta la robustezza il soggetto bersaglio."
   },
   {
     "name": "Bear’s Endurance, Mass",
@@ -1925,7 +1891,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p><i>Mass bear ’s endurance</i> works like <i>bear ’s endurance</i>, except that it affects multiple creatures.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 278",
+    "summary_it": "Aumenta la robustezza dei soggetti bersaglio."
   },
   {
     "name": "Beast Claws",
@@ -2168,106 +2137,6 @@
     "summary_it": "La deflagrazione mistica confonde il bersaglio."
   },
   {
-    "name": "Bigby's Clenched Fist",
-    "slug": "bigby-s-clenched-fist",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 275",
-    "summary_it": "Crea un grosso pugno per attaccare il bersaglio."
-  },
-  {
-    "name": "Bigby's Crushing Hand",
-    "slug": "bigby-s-crushing-hand",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 256",
-    "summary_it": "Crea una grossa mano per stritolare il bersaglio."
-  },
-  {
-    "name": "Bigby's Forceful Hand",
-    "slug": "bigby-s-forceful-hand",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 255",
-    "summary_it": "Evoca una mano per spintonare il bersaglio."
-  },
-  {
-    "name": "Bigby's Grasping Hand",
-    "slug": "bigby-s-grasping-hand",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 256",
-    "summary_it": "Crea una grossa mano per afferrare il bersaglio."
-  },
-  {
-    "name": "Bigby's Interposing Hand",
-    "slug": "bigby-s-interposing-hand",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 255",
-    "summary_it": "Crea una grossa mano a protezione dell'incantatore."
-  },
-  {
     "name": "Binding",
     "slug": "binding",
     "school": "Enchantment",
@@ -2342,7 +2211,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      This spell conjures a field of rubbery black tentacles, each 10 feet long. These waving members seem to spring\n      forth from the earth, floor, or whatever surface is underfoot—including water. They grasp and entwine around\n      creatures that enter the area, holding them fast and crushing them with great strength.\n    </p>\n<p>\n      Every creature within the area of the spell must make a grapple check, opposed by the grapple check of the\n      tentacles. Treat the tentacles attacking a particular target as a Large creature with a base attack bonus equal to\n      your caster level and a Strength score of 19. Thus, its grapple check modifier is equal to your caster level +8.\n      The tentacles are immune to all types of damage.\n    </p>\n<p>\n      Once the tentacles grapple an opponent, they may make a grapple check each round on your turn to deal 1d6+4 points\n      of bludgeoning damage. The tentacles continue to crush the opponent until the spell ends or the opponent escapes.\n    </p>\n<p>\n      Any creature that enters the area of the spell is immediately attacked by the tentacles. Even creatures who aren’t\n      grappling with the tentacles may move through the area at only half normal speed.\n    </p>\n<p><em>Material Component:</em> A piece of tentacle from a giant octopus or a giant squid.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 300",
+    "summary_it": "Tentacoli neri compaiono nell'area attaccando chi vi si trova."
   },
   {
     "name": "Blackfire",
@@ -3245,46 +3117,6 @@
     "summary_it": "La deflagrazione mistica brucia il bersaglio."
   },
   {
-    "name": "Bull's Strength",
-    "slug": "bull-s-strength",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 236",
-    "summary_it": "Incrementa la forza del bersaglio per un certo periodo."
-  },
-  {
-    "name": "Bull's Strength, Mass",
-    "slug": "bull-s-strength-mass",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 236",
-    "summary_it": "Incrementa la forza di più bersagli per un certo periodo."
-  },
-  {
     "name": "Bull’s Strength",
     "slug": "bulls-strength",
     "school": "Transmutation",
@@ -3299,7 +3131,10 @@
     "saving_throw": "Will negates (harmless)",
     "spell_resistance": "Yes (harmless)",
     "desc_html": "<p>\n      The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to\n      melee attack rolls, melee damage rolls, and other uses of the Strength modifier.\n    </p>\n<p><em>Arcane Material Component:</em> A few hairs, or a pinch of dung, from a bull.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 236",
+    "summary_it": "Incrementa la forza del bersaglio per un certo periodo."
   },
   {
     "name": "Bull’s Strength, Mass",
@@ -3316,7 +3151,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>This spell functions like <i>bull’s strength</i>, except that it affects multiple creatures.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 236",
+    "summary_it": "Incrementa la forza di più bersagli per un certo periodo."
   },
   {
     "name": "Burning Blood",
@@ -3639,46 +3477,6 @@
     "summary_it": "L'incantatore infligge danni sonori ai nemici che odono la sua voce."
   },
   {
-    "name": "Cat's Grace",
-    "slug": "cat-s-grace",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 240",
-    "summary_it": "Rende il bersaglio molto più agile."
-  },
-  {
-    "name": "Cat's Grace, Mass",
-    "slug": "cat-s-grace-mass",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 240",
-    "summary_it": "Rende numerosi bersagli molto più agili."
-  },
-  {
     "name": "Cat’s Grace",
     "slug": "cats-grace",
     "school": "Transmutation",
@@ -3693,7 +3491,10 @@
     "saving_throw": "Will negates (harmless)",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n      The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to\n      Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier.\n    </p>\n<p><em>Material Component:</em> A pinch of cat fur.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 240",
+    "summary_it": "Rende il bersaglio molto più agile."
   },
   {
     "name": "Cat’s Grace, Mass",
@@ -3710,7 +3511,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>This spell functions like <i>cat’s grace</i>, except that it affects multiple creatures.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 240",
+    "summary_it": "Rende numerosi bersagli molto più agili."
   },
   {
     "name": "Cause Fear",
@@ -4307,7 +4111,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>interposing hand,</i> except that the hand can interpose itself, push, or strike one\n      opponent that you select. The floating hand can move as far as 60 feet and can attack in the same round. Since\n      this hand is directed by you, its ability to notice or attack invisible or concealed creatures is no better than\n      yours.\n    </p>\n<p>\n      The hand attacks once per round, and its attack bonus equals your caster level + your Intelligence, Wisdom, or\n      Charisma modifier (for a wizard, cleric, or sorcerer, respectively), +11 for the hand’s Strength score (33), –1\n      for being Large. The hand deals 1d8+11 points of damage on each attack, and any creature struck must make a\n      Fortitude save (against this spell’s save DC) or be stunned for 1 round. Directing the spell to a new target is a\n      move action.\n    </p>\n<p>\n      The <i>clenched fist</i> can also interpose itself as <i>interposing hand</i> does, or it can bull rush an\n      opponent as <i>forceful hand</i> does, but at a +15 bonus on the Strength check.\n    </p>\n<p>Clerics who cast this spell name it for their deities.</p>\n<p><em>Arcane Focus:</em> A leather glove.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 275",
+    "summary_it": "Crea un grosso pugno per attaccare il bersaglio."
   },
   {
     "name": "Cloak of Bravery",
@@ -5515,7 +5322,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>interposing hand,</i> except that the hand can interpose itself, push, or crush one\n      opponent that you select.\n    </p>\n<p>\n      The <i>crushing hand</i> can grapple an opponent like <i>grasping hand</i> does. Its grapple bonus equals your\n      caster level + your Intelligence, Wisdom, or Charisma modifier (for a wizard, cleric, or sorcerer, respectively),\n      +12 for the hand’s Strength score (35), +4 for being Large. The hand deals 2d6+12 points of damage (lethal, not\n      nonlethal) on each successful grapple check against an opponent.\n    </p>\n<p>\n      The <i>crushing hand</i> can also interpose itself as <i>interposing hand</i> does, or it can bull rush an\n      opponent as <i>forceful hand</i> does, but at a +18 bonus.\n    </p>\n<p>Directing the spell to a new target is a move action.</p>\n<p>Clerics who cast this spell name it for their deities.</p>\n<p><em>Arcane Material Component:</em> The shell of an egg.</p>\n<p><em>Arcane Focus:</em> A glove of snakeskin.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 256",
+    "summary_it": "Crea una grossa mano per stritolare il bersaglio."
   },
   {
     "name": "Cry of Ysgard",
@@ -8018,26 +7828,6 @@
     "summary_it": "Fornisce al soggetto una pelle robusta come quella di un drago."
   },
   {
-    "name": "Drawmij's Instant Summons",
-    "slug": "drawmij-s-instant-summons",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 234",
-    "summary_it": "Evoca un oggetto inanimato fra le mani dell'incantatore."
-  },
-  {
     "name": "Dream",
     "slug": "dream",
     "school": "Illusion",
@@ -8056,46 +7846,6 @@
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 295",
     "summary_it": "Invia un messaggio ad una creatura dormiente."
-  },
-  {
-    "name": "Dream Sight",
-    "slug": "dream-sight",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "CD",
-    "manual_name": "Perfetto Sacerdote",
-    "reference": "pag. 188",
-    "summary_it": "Permette di avere visioni di posti lontani mentre si dorme."
-  },
-  {
-    "name": "Dream Sight",
-    "slug": "dream-sight",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "HoH",
-    "manual_name": "Eroi dell'Orrore",
-    "reference": "pag. 135",
-    "summary_it": "Permette di esplorare il mondo mentre si dorme."
   },
   {
     "name": "Dream Walk",
@@ -8158,46 +7908,6 @@
     "summary_it": "Rafforza le difese contro gli incantesimi ostili."
   },
   {
-    "name": "Eagle's Splendor",
-    "slug": "eagle-s-splendor",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 296",
-    "summary_it": "Accresce il magnetismo personale del soggetto."
-  },
-  {
-    "name": "Eagle's Splendor, Mass",
-    "slug": "eagle-s-splendor-mass",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 297",
-    "summary_it": "Accresce il magnetismo personale dei soggetti."
-  },
-  {
     "name": "Eagle’s Splendor",
     "slug": "eagles-splendor",
     "school": "Transmutation",
@@ -8212,7 +7922,10 @@
     "saving_throw": "Will negates (harmless)",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n      The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4\n      enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the\n      Charisma modifier. Sorcerers and bards (and other spellcasters who rely on Charisma) affected by this spell do not\n      gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under\n      this spell’s effect do increase.\n    </p>\n<p><em>Arcane Material Component:</em> A few feathers or a pinch of droppings from an eagle.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 296",
+    "summary_it": "Accresce il magnetismo personale del soggetto."
   },
   {
     "name": "Eagle’s Splendor, Mass",
@@ -8229,7 +7942,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>This spell functions like <i>eagle’s splendor</i>, except that it affects multiple creatures.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 297",
+    "summary_it": "Accresce il magnetismo personale dei soggetti."
   },
   {
     "name": "Earth Glide",
@@ -9250,26 +8966,6 @@
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 236",
     "summary_it": "Rende etereo il corpo del bersaglio."
-  },
-  {
-    "name": "Evard's Black Tentacles",
-    "slug": "evard-s-black-tentacles",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 300",
-    "summary_it": "Tentacoli neri compaiono nell'area attaccando chi vi si trova."
   },
   {
     "name": "Evil Glare",
@@ -10486,7 +10182,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      You create a slightly concave, circular plane of force that follows you about and carries loads for you. The disk\n      is 3 feet in diameter and 1 inch deep at its center. It can hold 100 pounds of weight per caster level. (If used\n      to transport a liquid, its capacity is 2 gallons.) The disk floats approximately 3 feet above the ground at all\n      times and remains level. It floats along horizontally within spell range and will accompany you at a rate of no\n      more than your normal speed each round. If not otherwise directed, it maintains a constant interval of 5 feet\n      between itself and you. The disk winks out of existence when the spell duration expires. The disk also winks out\n      if you move beyond range or try to take the disk more than 3 feet away from the surface beneath it. When the disk\n      winks out, whatever it was supporting falls to the surface beneath it.\n    </p>\n<p><em>Material Component:</em> A drop of mercury.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 225",
+    "summary_it": "Crea un disco di energia che può trasportare un certo carico."
   },
   {
     "name": "Fly",
@@ -10703,7 +10402,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>interposing hand,</i> except that the <i>forceful hand</i> pursues and pushes away\n      the opponent that you designate. Treat this attack as a bull rush with a +14 bonus on the Strength check (+8 for\n      Strength 27, +4 for being Large, and a +2 bonus for charging, which it always gets). The hand always moves with\n      the opponent to push that target back the full distance allowed, and it has no speed limit. Directing the spell to\n      a new target is a move action.\n    </p>\n<p>\n      A very strong creature could not push the hand out of its way because the latter would instantly reposition itself\n      between the creature and you, but an opponent could push the hand up against you by successfully bull rushing it.\n    </p>\n<p><em>Focus:</em> A sturdy glove made of leather or heavy cloth.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 255",
+    "summary_it": "Evoca una mano per spintonare il bersaglio."
   },
   {
     "name": "Foresight",
@@ -10766,46 +10468,6 @@
     "summary_it": "Rende più resistente il famiglio dell'incantatore."
   },
   {
-    "name": "Fox?s Cunning",
-    "slug": "fox-s-cunning",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 206",
-    "summary_it": "Incrementa le doti intellettive per un certo periodo di tempo."
-  },
-  {
-    "name": "Fox?s Cunning, Mass",
-    "slug": "fox-s-cunning-mass",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del giocatore 3.5",
-    "reference": "pag. 206",
-    "summary_it": "Incrementa le doti intellettive di più soggetti per un certo periodo di tempo."
-  },
-  {
     "name": "Fox’s Cunning",
     "slug": "foxs-cunning",
     "school": "Transmutation",
@@ -10820,7 +10482,10 @@
     "saving_throw": "Will negates (harmless)",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n      The transmuted creature becomes smarter. The spell grants a +4 enhancement bonus to Intelligence, adding the usual\n      benefits to Intelligence-based skill checks and other uses of the Intelligence modifier. Wizards (and other\n      spellcasters who rely on Intelligence) affected by this spell do not gain any additional bonus spells for the\n      increased Intelligence, but the save DCs for spells they cast while under this spell’s effect do increase. This\n      spell doesn’t grant extra skill points.\n    </p>\n<p><em>Arcane Material Component:</em> A few hairs, or a pinch of dung, from a fox.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 206",
+    "summary_it": "Incrementa le doti intellettive per un certo periodo di tempo."
   },
   {
     "name": "Fox’s Cunning, Mass",
@@ -10837,7 +10502,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>This spell functions like <i>fox’s cunning</i>, except that it affects multiple creatures.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del giocatore 3.5",
+    "reference": "pag. 206",
+    "summary_it": "Incrementa le doti intellettive di più soggetti per un certo periodo di tempo."
   },
   {
     "name": "Freedom",
@@ -10914,7 +10582,10 @@
     "saving_throw": "Reflex half; see text",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n<i>Freezing sphere</i> creates a frigid globe of cold energy that streaks from your fingertips to the location you\n      select, where it explodes in a 10-foot-radius burst, dealing 1d6 points of cold damage per caster level (maximum\n      15d6) to each creature in the area. An elemental (water) creature instead takes 1d8 points of cold damage per\n      caster level (maximum 15d8).\n    </p>\n<p>\n      If the <i>freezing sphere</i> strikes a body of water or a liquid that is principally water (not including\n      water-based creatures), it freezes the liquid to a depth of 6 inches over an area equal to 100 square feet (a 10-\n      foot square) per caster level (maximum 1,500 square feet). This ice lasts for 1 round per caster level. Creatures\n      that were swimming on the surface of frozen water become trapped in the ice. Attempting to break free is a\n      full-round action. A trapped creature must make a DC 25 Strength check or a DC 25 Escape Artist check to do so.\n    </p>\n<p>\n      You can refrain from firing the globe after completing the spell, if you wish. Treat this as a touch spell for\n      which you are holding the charge. You can hold the charge for as long as 1 round per level, at the end of which\n      time the <i>freezing sphere</i> bursts centered on you (and you receive no saving throw to resist its effect).\n      Firing the globe in a later round is a standard action.\n    </p>\n<p><em>Focus:</em> A small crystal sphere.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 290",
+    "summary_it": "Congela l'acqua o infligge danni da freddo."
   },
   {
     "name": "Friendly Face",
@@ -11588,7 +11259,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>interposing hand,</i> except the hand can also grapple one opponent that you select.\n      The <i>grasping hand</i> gets one grapple attack per round.\n    </p>\n<p>\n      Its attack bonus to make contact equals your caster level + your Intelligence, Wisdom, or Charisma modifier (for\n      wizards, clerics, and sorcerers, respectively), +10 for the hand’s Strength score (31), –1 for being Large. Its\n      grapple bonus is this same figure, except with a +4 modifier for being Large instead of –1. The hand holds but\n      does not harm creatures it grapples.\n    </p>\n<p>Directing the spell to a new target is a move action.</p>\n<p>\n      The <i>grasping hand</i> can also bull rush an opponent as <i>forceful hand</i> does, but at a +16 bonus on the\n      Strength check (+10 for Strength 35, +4 for being Large, and a +2 bonus for charging, which it always gets), or\n      interpose itself as <i>interposing hand</i> does.\n    </p>\n<p>Clerics who cast this spell name it for their deities.</p>\n<p><em>Arcane Focus:</em> A leather glove.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 256",
+    "summary_it": "Crea una grossa mano per afferrare il bersaglio."
   },
   {
     "name": "Grave Strike",
@@ -11633,7 +11307,7 @@
   {
     "name": "Greater (Spell Name)",
     "slug": "greater",
-    "school": "Any spell whose name begins withgreateris alphabetized in this chapter according to the second word of\n      the spell name. Thus, the description of agreaterspell appears near the description of the spell on which\n      it is based. Spell chains that havegreaterspells in them include those based on the spellsarcane sight, command, dispel magic, glyph of warding, invisibility, magic fang, magic weapon, planar ally,\n        planar binding, prying eyes, restoration, scrying, shadow conjuration, shadow evocation, shout,andteleport.",
+    "school": "",
     "subschool": null,
     "descriptor": null,
     "level": null,
@@ -11644,7 +11318,7 @@
     "duration": null,
     "saving_throw": null,
     "spell_resistance": null,
-    "desc_html": null,
+    "desc_html": "Any spell whose name begins withgreateris alphabetized in this chapter according to the second word of\n      the spell name. Thus, the description of agreaterspell appears near the description of the spell on which\n      it is based. Spell chains that havegreaterspells in them include those based on the spellsarcane sight, command, dispel magic, glyph of warding, invisibility, magic fang, magic weapon, planar ally,\n        planar binding, prying eyes, restoration, scrying, shadow conjuration, shadow evocation, shout,andteleport.",
     "source": "SRD"
   },
   {
@@ -12428,26 +12102,6 @@
     "summary_it": "Un urlo rallenta chi l'ode."
   },
   {
-    "name": "Heroes' Feast",
-    "slug": "heroes-feast-2",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 207",
-    "summary_it": "Crea una splendida tavola imbandita le cui bivande rinfrancano sia l'anima che il corpo."
-  },
-  {
     "name": "Heroes’ Feast",
     "slug": "heroes-feast",
     "school": "Conjuration",
@@ -12462,7 +12116,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      You bring forth a great feast, including a magnificent table, chairs, service, and food and drink. The feast takes\n      1 hour to consume, and the beneficial effects do not set in until this hour is over. Every creature partaking of\n      the feast is cured of all diseases, sickness, and nausea; becomes immune to poison for 12 hours; and gains 1d8\n      temporary hit points +1 point per two caster levels (maximum +10) after imbibing the nectar-like beverage that is\n      part of the feast. The ambrosial food that is consumed grants each creature that partakes a +1 morale bonus on\n      attack rolls and Will saves and immunity to fear effects for 12 hours.\n    </p>\n<p>If the feast is interrupted for any reason, the spell is ruined and all effects of the spell are negated.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 207",
+    "summary_it": "Crea una splendida tavola imbandita le cui bivande rinfrancano sia l'anima che il corpo."
   },
   {
     "name": "Heroism",
@@ -12599,7 +12256,10 @@
     "saving_throw": "Will negates",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n      This spell afflicts the subject with uncontrollable laughter. It collapses into gales of manic laughter, falling\n      prone. The subject can take no actions while laughing, but is not considered helpless. After the spell ends, it\n      can act normally.\n    </p>\n<p>\n      A creature with an Intelligence score of 2 or lower is not affected. A creature whose type is different from the\n      caster’s receives a +4 bonus on its saving throw, because humor doesn’t “translate” well.\n    </p>\n<p><em>Material Component:</em> Tiny tarts that are thrown at the target and a feather that is waved in the air.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 282",
+    "summary_it": "Il bersaglio scoppia in un'incontrollabile risata."
   },
   {
     "name": "Hindsight",
@@ -13876,7 +13536,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>You call some nonliving item from virtually any location directly to your hand.</p>\n<p>\n      First, you must place your <i>arcane mark</i> on the item. Then you cast this spell, which magically and invisibly\n      inscribes the name of the item on a sapphire worth at least 1,000 gp. Thereafter, you can summon the item by\n      speaking a special word (set by you when the spell is cast) and crushing the gem. The item appears instantly in\n      your hand. Only you can use the gem in this way.\n    </p>\n<p>\n      If the item is in the possession of another creature, the spell does not work, but you know who the possessor is\n      and roughly where that creature is located when the summons occurs.\n    </p>\n<p>\n      The inscription on the gem is invisible. It is also unreadable, except by means of a <i>read magic</i> spell, to\n      anyone but you.\n    </p>\n<p>The item can be summoned from another plane, but only if no other creature has claimed ownership of it.</p>\n<p><em>Material Component:</em> A sapphire worth at least 1,000 gp.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 234",
+    "summary_it": "Evoca un oggetto inanimato fra le mani dell'incantatore."
   },
   {
     "name": "Internal Fire",
@@ -13913,7 +13576,10 @@
     "saving_throw": "None",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n<i>Interposing hand</i> creates a Large magic hand that appears between you and one opponent. This floating,\n      disembodied hand then moves to remain between the two of you, regardless of where you move or how the opponent\n      tries to get around it, providing cover (+4 AC) for you against that opponent. Nothing can fool the hand—it sticks\n      with the selected opponent in spite of darkness, invisibility, polymorphing, or any other attempt at hiding or\n      disguise. The hand does not pursue an opponent, however.\n    </p>\n<p>\n      An <i>interposing hand</i> is 10 feet long and about that wide with its fingers outstretched. It has as many hit\n      points as you do when you’re undamaged, and its AC is 20 (–1 size, +11 natural). It takes damage as a normal\n      creature, but most magical effects that don’t cause damage do not affect it.\n    </p>\n<p>\n      The hand never provokes attacks of opportunity from opponents. It cannot push through a <i>wall of force</i> or\n      enter an <i>antimagic field</i>, but it suffers the full effect of a <i>prismatic wall</i> or\n      <i>prismatic sphere.</i> The hand makes saving throws as its caster.\n    </p>\n<p><i>Disintegrate</i> or a successful <i>dispel magic</i> destroys it.</p>\n<p>\n      Any creature weighing 2,000 pounds or less that tries to push past the hand is slowed to half its normal speed.\n      The hand cannot reduce the speed of a creature weighing more than 2,000 pounds, but it still affects the\n      creature’s attacks.\n    </p>\n<p>Directing the spell to a new target is a move action.</p>\n<p><em>Focus:</em> A soft glove.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 255",
+    "summary_it": "Crea una grossa mano a protezione dell'incantatore."
   },
   {
     "name": "Invisibility",
@@ -14170,7 +13836,10 @@
     "saving_throw": "None",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n      The subject feels an undeniable urge to dance and begins doing so, complete with foot shuffling and tapping. The\n      spell effect makes it impossible for the subject to do anything other than caper and prance in place. The effect\n      imposes a –4 penalty to Armor Class and a –10 penalty on Reflex saves, and it negates any AC bonus granted by a\n      shield the target holds. The dancing subject provokes attacks of opportunity each round on its turn.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 222",
+    "summary_it": "Il bersaglio sente l'impulso irrefrenabile di danzare."
   },
   {
     "name": "Joyful Noise",
@@ -14513,66 +14182,6 @@
     "summary_it": "Crea un capanno mimetizzato con l'ambiente circostante."
   },
   {
-    "name": "Leomund's Secret Chest",
-    "slug": "leomund-s-secret-chest",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 287",
-    "summary_it": "Nasconde un pregiato forziere sul Piano Etereo."
-  },
-  {
-    "name": "Leomund's Secure Shelter",
-    "slug": "leomund-s-secure-shelter",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 282",
-    "summary_it": "Crea un accogliente riparo dove poter riposare."
-  },
-  {
-    "name": "Leomund's Tiny Hut",
-    "slug": "leomund-s-tiny-hut",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 212",
-    "summary_it": "Crea un rifugio per un numero ridotto di creature."
-  },
-  {
     "name": "Leomund's Trap",
     "slug": "leomund-s-trap",
     "school": "",
@@ -14615,7 +14224,7 @@
   {
     "name": "Lesser (Spell Name)",
     "slug": "lesser",
-    "school": "Any spell whose name begins withlesseris alphabetized in this chapter according to the second word of the\n      spell name. Thus, the description of alesserspell appears near the description of the spell on which it\n      is based. Spell chains that havelesserspells in them include those based on the spellsconfusion, geas, globe of invulnerability, planar ally, planar binding,andrestoration.",
+    "school": "",
     "subschool": null,
     "descriptor": null,
     "level": null,
@@ -14626,7 +14235,7 @@
     "duration": null,
     "saving_throw": null,
     "spell_resistance": null,
-    "desc_html": null,
+    "desc_html": "Any spell whose name begins withlesseris alphabetized in this chapter according to the second word of the\n      spell name. Thus, the description of alesserspell appears near the description of the spell on which it\n      is based. Spell chains that havelesserspells in them include those based on the spellsconfusion, geas, globe of invulnerability, planar ally, planar binding,andrestoration.",
     "source": "SRD"
   },
   {
@@ -15161,7 +14770,10 @@
     "saving_throw": "Will negates (object)",
     "spell_resistance": "No",
     "desc_html": "<p>\n      All magical effects and magic items within the radius of the spell, except for those that you carry or touch, are\n      disjoined. That is, spells and spell-like effects are separated into their individual components (ending the\n      effect as a <i>dispel magic</i> spell does), and each permanent magic item must make a successful Will save or be\n      turned into a normal item. An item in a creature’s possession uses its own Will save bonus or its possessor’s Will\n      save bonus, whichever is higher.\n    </p>\n<p>\n      You also have a 1% chance per caster level of destroying an\n      <i>antimagic field.</i> If the <i>antimagic field</i> survives the <i>disjunction,</i> no items within it are\n      disjoined.\n    </p>\n<p>\n      Even artifacts are subject to <i>disjunction,</i> though there is only a 1% chance per caster level of actually\n      affecting such powerful items. Additionally, if an artifact is destroyed, you must make a DC 25 Will save or\n      permanently lose all spellcasting abilities. (These abilities cannot be recovered by mortal magic, not even\n      <i>miracle</i> or <i>wish</i>.)\n    </p>\n<p>\n<em>Note:</em> Destroying artifacts is a dangerous business, and it is 95% likely to attract the attention of some\n      powerful being who has an interest in or connection with the device.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 225",
+    "summary_it": "Dissolve incantesimi e proprietà magiche degli oggetti."
   },
   {
     "name": "Mage’s Faithful Hound",
@@ -15178,7 +14790,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      You conjure up a phantom watchdog that is invisible to everyone but yourself. It then guards the area where it was\n      conjured (it does not move). The hound immediately starts barking loudly if any Small or larger creature\n      approaches within 30 feet of it. (Those within 30 feet of the hound when it is conjured may move about in the\n      area, but if they leave and return, they activate the barking.) The hound sees invisible and ethereal creatures.\n      It does not react to figments, but it does react to shadow illusions.\n    </p>\n<p>\n      If an intruder approaches to within 5 feet of the hound, the dog stops barking and delivers a vicious bite (+10\n      attack bonus, 2d6+3 points of piercing damage) once per round. The dog also gets the bonuses appropriate to an\n      invisible creature.\n    </p>\n<p>\n      The dog is considered ready to bite intruders, so it delivers its first bite on the intruder’s turn. Its bite is\n      the equivalent of a magic weapon for the purpose of damage reduction. The hound cannot be attacked, but it can be\n      dispelled.\n    </p>\n<p>\n      The spell lasts for 1 hour per caster level, but once the hound begins barking, it lasts only 1 round per caster\n      level. If you are ever more than 100 feet distant from the hound, the spell ends.\n    </p>\n<p><em>Material Component:</em> A tiny silver whistle, a piece of bone, and a thread.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 289",
+    "summary_it": "Un cane invisibile fa la guardia e attacca gli intrusi."
   },
   {
     "name": "Mage’s Lucubration",
@@ -15195,7 +14810,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      You instantly recall any one spell of 5th level or lower that you have used during the past 24 hours. The spell\n      must have been actually cast during that period. The recalled spell is stored in your mind as through prepared in\n      the normal fashion.\n    </p>\n<p>\n      If the recalled spell requires material components, you must provide them. The recovered spell is not usable until\n      the material components are available.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 228",
+    "summary_it": "Richiama un incantesimo già lanciato nella mente del mago."
   },
   {
     "name": "Mage’s Magnificent Mansion",
@@ -15212,7 +14830,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      You conjure up an extradimensional dwelling that has a single entrance on the plane from which the spell was cast.\n      The entry point looks like a faint shimmering in the air that is 4 feet wide and 8 feet high. Only those you\n      designate may enter the mansion, and the portal is shut and made invisible behind you when you enter. You may open\n      it again from your own side at will. Once observers have passed beyond the entrance, they are in a magnificent\n      foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.\n    </p>\n<p>\n      You can create any floor plan you desire to the limit of the spell’s effect. The place is furnished and contains\n      sufficient foodstuffs to serve a nine-course banquet to a dozen people per caster level. A staff of\n      near-transparent servants (as many as two per caster level), liveried and obedient, wait upon all who enter. The\n      servants function as\n      <i>unseen servant</i> spells except that they are visible and can go anywhere in the mansion.\n    </p>\n<p>\n      Since the place can be entered only through its special portal, outside conditions do not affect the mansion, nor\n      do conditions inside it pass to the plane beyond.\n    </p>\n<p>\n<em>Focus:</em> A miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon\n      (each item worth 5 gp).\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 277",
+    "summary_it": "Crea uno spazio extradimensionale in grado di ospitare molte persone."
   },
   {
     "name": "Mage’s Private Sanctum",
@@ -15229,7 +14850,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      This spell ensures privacy. Anyone looking into the area from outside sees only a dark, foggy mass. Darkvision\n      cannot penetrate it. No sounds, no matter how loud, can escape the area, so nobody can eavesdrop from outside.\n      Those inside can see out normally.\n    </p>\n<p>\n      Divination (scrying) spells cannot perceive anything within the area, and those within are immune to\n      <i>detect thoughts</i>. The ward prevents speech between those inside and those outside (because it blocks sound),\n      but it does not prevent other communication, such as a <i>sending</i> or <i>message</i> spell, or telepathic\n      communication, such as that between a wizard and her familiar.\n    </p>\n<p>The spell does not prevent creatures or objects from moving into and out of the area.</p>\n<p><i>Mage’s private sanctum</i> can be made permanent with a <i>permanency</i> spell.</p>\n<p>\n<em>Material Component:</em> A thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered\n      chrysolite.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 285",
+    "summary_it": "Protegge un'area da sguardi ed effetti di divinazione."
   },
   {
     "name": "Mage’s Sword",
@@ -15246,7 +14870,10 @@
     "saving_throw": "None",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n      This spell brings into being a shimmering, swordlike plane of force. The sword strikes at any opponent within its\n      range, as you desire, starting in the round that you cast the spell. The sword attacks its designated target once\n      each round on your turn. Its attack bonus is equal to your caster level + your Int bonus or your Cha bonus (for\n      wizards or sorcerers, respectively) with an additional +3 enhancement bonus. As a force effect, it can strike\n      ethereal and incorporeal creatures. It deals 4d6+3 points of force damage, with a threat range of 19–20 and a\n      critical multiplier of x2.\n    </p>\n<p>\n      The sword always strikes from your direction. It does not get a bonus for flanking or help a combatant get one. If\n      the sword goes beyond the spell range from you, if it goes out of your sight, or if you are not directing it, the\n      sword returns to you and hovers.\n    </p>\n<p>\n      Each round after the first, you can use a standard action to switch the sword to a new target. If you do not, the\n      sword continues to attack the previous round’s target.\n    </p>\n<p>\n      The sword cannot be attacked or harmed by physical attacks, but\n      <i>dispel magic</i>, <i>disintegrate</i>, a <i>sphere of annihilation</i>, or a <i>rod of cancellation</i> affects\n      it. The sword’s AC is 13 (10, +0 size bonus for Medium object, +3 deflection bonus).\n    </p>\n<p>\n      If an attacked creature has spell resistance, the resistance is checked the first time <i>Mage’s sword</i> strikes\n      it. If the sword is successfully resisted, the spell is dispelled. If not, the sword has its normal full effect on\n      that creature for the duration of the spell.\n    </p>\n<p>\n<em>Focus:</em> A miniature platinum sword with a grip and pommel of copper and zinc. It costs 250 gp to\n      construct.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 296",
+    "summary_it": "Una spada fluttuante colpisce gli avversari."
   },
   {
     "name": "Magic Armor",
@@ -15283,7 +14910,10 @@
     "saving_throw": "None; see text",
     "spell_resistance": "No",
     "desc_html": "<p>\n      You alter an item’s aura so that it registers to <i>detect</i> spells (and spells with similar capabilities) as\n      though it were nonmagical, or a magic item of a kind you specify, or the subject of a spell you specify.\n    </p>\n<p>\n      If the object bearing <i>magic aura</i> has <i>identify</i> cast on it or is similarly examined, the examiner\n      recognizes that the aura is false and detects the object’s actual qualities if he succeeds on a Will save.\n      Otherwise, he believes the aura and no amount of testing reveals what the true magic is.\n    </p>\n<p>\n      If the targeted item’s own aura is exceptionally powerful (if it is an artifact, for instance),\n      <i>magic aura</i> doesn’t work.\n    </p>\n<p>\n<em>Note:</em> A magic weapon, shield, or suit of armor must be a masterwork item, so a sword of average make, for\n      example, looks suspicious if it has a magical aura.\n    </p>\n<p><em>Focus:</em> A small square of silk that must be passed over the object that receives the aura.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 206",
+    "summary_it": "Fa sì che un oggetto normale sembri magico."
   },
   {
     "name": "Magic Circle Against Chaos",
@@ -15848,7 +15478,7 @@
   {
     "name": "Mass (Spell Name)",
     "slug": "mass",
-    "school": "Any spell whose name begins withmassis alphabetized in this chapter according to the second word of the\n      spell name. Thus, the description of amassspell appears near the description of the spell on which it is\n      based. Spell chains that havemassspells in them include those based on the spellsbear’s endurance, bull’s strength, cat’s grace, charm monster, cure critical wounds, cure light wounds, cure\n        moderate wounds, cure serious wounds, eagle’s splendor, enlarge person, fox’s cunning, heal, hold monster, hold\n        person, inflict critical wounds, inflict light wounds, inflict moderate wounds, inflict serious wounds,\n        invisibility, owl’s wisdom, reduce person,andsuggestion.",
+    "school": "",
     "subschool": null,
     "descriptor": null,
     "level": null,
@@ -15859,7 +15489,7 @@
     "duration": null,
     "saving_throw": null,
     "spell_resistance": null,
-    "desc_html": null,
+    "desc_html": "Any spell whose name begins withmassis alphabetized in this chapter according to the second word of the\n      spell name. Thus, the description of amassspell appears near the description of the spell on which it is\n      based. Spell chains that havemassspells in them include those based on the spellsbear’s endurance, bull’s strength, cat’s grace, charm monster, cure critical wounds, cure light wounds, cure\n        moderate wounds, cure serious wounds, eagle’s splendor, enlarge person, fox’s cunning, heal, hold monster, hold\n        person, inflict critical wounds, inflict light wounds, inflict moderate wounds, inflict serious wounds,\n        invisibility, owl’s wisdom, reduce person,andsuggestion.",
     "source": "SRD"
   },
   {
@@ -15961,26 +15591,6 @@
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 235",
     "summary_it": "Permette di diventare tutt'uno con superfici fatte di pietra."
-  },
-  {
-    "name": "Melf's Acid Arrow",
-    "slug": "melf-s-acid-arrow",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 237",
-    "summary_it": "Scaglia una freccia di acido contro il bersaglio."
   },
   {
     "name": "Melt",
@@ -16437,7 +16047,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      Casting this spell allows you to prepare additional spells or retain spells recently cast. Pick one of these two\n      versions when the spell is cast.\n    </p>\n<p>\n<em>Prepare:</em> You prepare up to three additional levels of spells. A cantrip counts as 1/2 level for this\n      purpose. You prepare and cast these spells normally.\n    </p>\n<p>\n<em>Retain:</em> You retain any spell of 3rd level or lower that you had cast up to 1 round before you started\n      casting the <i>mnemonic enhancer</i>. This restores the previously cast spell to your mind.\n    </p>\n<p>In either event, the spell or spells prepared or retained fade after 24 hours (if not cast).</p>\n<p>\n<em>Material Component:</em> A piece of string, and ink consisting of squid secretion with black dragon’s blood.\n    </p>\n<p><em>Focus:</em> An ivory plaque of at least 50 gp value.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 272",
+    "summary_it": "Potenzia la capacità di lanciare incantesimi dei maghi."
   },
   {
     "name": "Modify Memory",
@@ -16538,126 +16151,6 @@
     "manual_name": "Signori della Follia",
     "reference": "pag. 212",
     "summary_it": "Rende malvagio chi non lo è."
-  },
-  {
-    "name": "Mordenkainen's Disjunction",
-    "slug": "mordenkainen-s-disjunction",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 225",
-    "summary_it": "Dissolve incantesimi e proprietà magiche degli oggetti."
-  },
-  {
-    "name": "Mordenkainen's Faithful Hound",
-    "slug": "mordenkainen-s-faithful-hound",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 289",
-    "summary_it": "Un cane invisibile fa la guardia e attacca gli intrusi."
-  },
-  {
-    "name": "Mordenkainen's Lucubration",
-    "slug": "mordenkainen-s-lucubration",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 228",
-    "summary_it": "Richiama un incantesimo già lanciato nella mente del mago."
-  },
-  {
-    "name": "Mordenkainen's Magnificent Mansion",
-    "slug": "mordenkainen-s-magnificent-mansion",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 277",
-    "summary_it": "Crea uno spazio extradimensionale in grado di ospitare molte persone."
-  },
-  {
-    "name": "Mordenkainen's Private Sanctum",
-    "slug": "mordenkainen-s-private-sanctum",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 285",
-    "summary_it": "Protegge un'area da sguardi ed effetti di divinazione."
-  },
-  {
-    "name": "Mordenkainen's Sword",
-    "slug": "mordenkainen-s-sword",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 296",
-    "summary_it": "Una spada fluttuante colpisce gli avversari."
   },
   {
     "name": "Mount",
@@ -17160,26 +16653,6 @@
     "summary_it": "La deflagrazione mistica nausea il bersaglio."
   },
   {
-    "name": "Nystul's Magic Aura",
-    "slug": "nystul-s-magic-aura",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 206",
-    "summary_it": "Fa sì che un oggetto normale sembri magico."
-  },
-  {
     "name": "Oath of Blood",
     "slug": "oath-of-blood",
     "school": "",
@@ -17560,26 +17033,6 @@
     "summary_it": "Una sfera sonora danneggia il bersaglio."
   },
   {
-    "name": "Order's Wrath",
-    "slug": "order-s-wrath",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 250",
-    "summary_it": "Danneggia le creature non legali nell'area."
-  },
-  {
     "name": "Order’s Wrath",
     "slug": "orders-wrath",
     "school": "Evocation",
@@ -17594,7 +17047,10 @@
     "saving_throw": "Will partial; see text",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n      You channel lawful power to smite enemies. The power takes the form of a three-dimensional grid of energy. Only\n      chaotic and neutral (not lawful) creatures are harmed by the spell.\n    </p>\n<p>\n      The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to chaotic creatures (or 1d6 points of\n      damage per caster level, maximum 10d6, to chaotic outsiders) and causes them to be dazed for 1 round. A successful\n      Will save reduces the damage to half and negates the daze effect.\n    </p>\n<p>\n      The spell deals only half damage to creatures who are neither chaotic nor lawful, and they are not dazed. They can\n      reduce the damage in half again (down to one-quarter of the roll) with a successful Will save.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 250",
+    "summary_it": "Danneggia le creature non legali nell'area."
   },
   {
     "name": "Otiluke's Dissolving Screen",
@@ -17637,86 +17093,6 @@
     "summary_it": "Uno schermo dissolve incantesimi potenti posti su oggetti e creature."
   },
   {
-    "name": "Otiluke's Freezing Sphere",
-    "slug": "otiluke-s-freezing-sphere",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 290",
-    "summary_it": "Congela l'acqua o infligge danni da freddo."
-  },
-  {
-    "name": "Otiluke's Resilient Sphere",
-    "slug": "otiluke-s-resilient-sphere",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 291",
-    "summary_it": "Una sfera di forza protegge e blocca un soggetto."
-  },
-  {
-    "name": "Otiluke's Telekinetic Sphere",
-    "slug": "otiluke-s-telekinetic-sphere",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 291",
-    "summary_it": "Una sfera di forza protegge e blocca un soggetto, e può essere spostata col pensiero."
-  },
-  {
-    "name": "Otto's Irresistible Dance",
-    "slug": "otto-s-irresistible-dance",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 222",
-    "summary_it": "Il bersaglio sente l'impulso irrefrenabile di danzare."
-  },
-  {
     "name": "Otyugh Swarm",
     "slug": "otyugh-swarm",
     "school": "",
@@ -17757,46 +17133,6 @@
     "summary_it": "Permette di volare magicamente."
   },
   {
-    "name": "Owl's Wisdom",
-    "slug": "owl-s-wisdom",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 284",
-    "summary_it": "Infonde maggiore saggezza nel bersaglio."
-  },
-  {
-    "name": "Owl's Wisdom, Mass",
-    "slug": "owl-s-wisdom-mass",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 285",
-    "summary_it": "Infonde maggiore saggezza nei bersagli."
-  },
-  {
     "name": "Owl’s Wisdom",
     "slug": "owls-wisdom",
     "school": "Transmutation",
@@ -17811,7 +17147,10 @@
     "saving_throw": "Will negates (harmless)",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n      The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the usual benefit\n      to Wisdom-related skills. Clerics, druids, paladins, and rangers (and other Wisdom-based spellcasters) who receive\n      <i>owl’s wisdom</i> do not gain any additional bonus spells for the increased Wisdom, but the save DCs for their\n      spells increase.\n    </p>\n<p><em>Arcane Material Component:</em> A few feathers, or a pinch of droppings, from an owl.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 284",
+    "summary_it": "Infonde maggiore saggezza nel bersaglio."
   },
   {
     "name": "Owl’s Wisdom, Mass",
@@ -17828,7 +17167,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>This spell functions like <i>owl’s wisdom</i>, except that it affects multiple creatures.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 285",
+    "summary_it": "Infonde maggiore saggezza nei bersagli."
   },
   {
     "name": "Pact of Return",
@@ -19368,46 +18710,6 @@
     "summary_it": "Protegge dagli effetti dell'energia negativa."
   },
   {
-    "name": "Protection from Positive Energy",
-    "slug": "protection-from-positive-energy",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "LM",
-    "manual_name": "Liber Mortis",
-    "reference": "pag. 69",
-    "summary_it": "Protegge dagli effetti dell'energia positiva."
-  },
-  {
-    "name": "Protection from Positive Energy",
-    "slug": "protection-from-positive-energy",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PlH",
-    "manual_name": "Atlante Planare",
-    "reference": "pag. 101",
-    "summary_it": "Protegge dagli effetti dell'energia positiva."
-  },
-  {
     "name": "Protection From Spells",
     "slug": "protection-from-spells",
     "school": "Abjuration",
@@ -19806,46 +19108,6 @@
     "manual_name": "Atlante Planare",
     "reference": "pag. 98",
     "summary_it": "Stipula un legame che consente agli alleati di comunicare telepaticamente anche attraverso i piani."
-  },
-  {
-    "name": "Rary's Mnemonic Enhancer",
-    "slug": "rary-s-mnemonic-enhancer",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 272",
-    "summary_it": "Potenzia la capacità di lanciare incantesimi dei maghi."
-  },
-  {
-    "name": "Rary's Telepathic Bond",
-    "slug": "rary-s-telepathic-bond",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 252",
-    "summary_it": "Stipula un legame che consente agli alleati di comunicare telepaticamente."
   },
   {
     "name": "Ray of Enfeeblement",
@@ -20642,7 +19904,10 @@
     "saving_throw": "Reflex negates",
     "spell_resistance": "Yes",
     "desc_html": "<p>\n      A globe of shimmering force encloses a creature, provided the creature is small enough to fit within the diameter\n      of the sphere. The sphere contains its subject for the spell’s duration. The sphere is not subject to damage of\n      any sort except from a <i>rod of cancellation</i>, a rod <i>of negation</i>, a <i>disintegrate</i> spell, or a\n      targeted <i>dispel magic</i> spell. These effects destroy the sphere without harm to the subject. Nothing can pass\n      through the sphere, inside or out, though the subject can breathe normally.\n    </p>\n<p>\n      The subject may struggle, but the sphere cannot be physically moved either by people outside it or by the\n      struggles of those within.\n    </p>\n<p>\n<em>Material Component:</em> A hemispherical piece of clear crystal and a matching hemispherical piece of gum\n      arabic.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 291",
+    "summary_it": "Una sfera di forza protegge e blocca un soggetto."
   },
   {
     "name": "Resist Energy",
@@ -21639,7 +20904,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      You hide a chest on the Ethereal Plane for as long as sixty days and can retrieve it at will. The chest can\n      contain up to 1 cubic foot of material per caster level (regardless of the chest’s actual size, which is about 3\n      feet by 2 feet by 2 feet). If any living creatures are in the chest, there is a 75% chance that the spell simply\n      fails. Once the chest is hidden, you can retrieve it by concentrating (a standard action), and it appears next to\n      you.\n    </p>\n<p>\n      The chest must be exceptionally well crafted and expensive, constructed for you by master crafters. The cost of\n      such a chest is never less than 5,000 gp. Once it is constructed, you must make a tiny replica (of the same\n      materials and perfect in every detail), so that the miniature of the chest appears to be a perfect copy. (The\n      replica costs 50 gp.) You can have but one pair of these chests at any given time—even a\n      <i>wish</i> spell does not allow more. The chests are nonmagical and can be fitted with locks, wards, and so on,\n      just as any normal chest can be.\n    </p>\n<p>\n      To hide the chest, you cast the spell while touching both the chest and the replica. The chest vanishes into the\n      Ethereal Plane. You need the replica to recall the chest. After sixty days, there is a cumulative chance of 5% per\n      day that the chest is irretrievably lost. If the miniature of the chest is lost or destroyed, there is no way, not\n      even with a <i>wish</i> spell, that the large chest can be summoned back, although an extraplanar expedition might\n      be mounted to find it.\n    </p>\n<p>\n      Living things in the chest eat, sleep, and age normally, and they die if they run out of food, air, water, or\n      whatever they need to survive.\n    </p>\n<p><em>Focus:</em> The chest and its replica.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 287",
+    "summary_it": "Nasconde un pregiato forziere sul Piano Etereo."
   },
   {
     "name": "Secret Page",
@@ -21716,7 +20984,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      You conjure a sturdy cottage or lodge made of material that is common in the area where the spell is cast. The\n      floor is level, clean, and dry. In all respects the lodging resembles a normal cottage, with a sturdy door, two\n      shuttered windows, and a small fireplace.\n    </p>\n<p>\n      The shelter has no heating or cooling source (other than natural insulation qualities). Therefore, it must be\n      heated as a normal dwelling, and extreme heat adversely affects it and its occupants. The dwelling does, however,\n      provide considerable security otherwise—it is as strong as a normal stone building, regardless of its material\n      composition. The dwelling resists flames and fire as if it were stone. It is impervious to normal missiles (but\n      not the sort cast by siege engines or giants).\n    </p>\n<p>\n      The door, shutters, and even chimney are secure against intrusion, the former two being <i>arcane locked</i> and\n      the latter secured by an iron grate at the top and a narrow flue. In addition, these three areas are protected by\n      an <i>alarm</i> spell. Finally, an <i>unseen servant</i> is conjured to provide service to you for the duration of\n      the shelter.\n    </p>\n<p>\n      The <i>secure shelter</i> contains rude furnishings —eight bunks, a trestle table, eight stools, and a writing\n      desk.\n    </p>\n<p>\n<em>Material Component:</em> A square chip of stone, crushed lime, a few grains of sand, a sprinkling of water,\n      and several splinters of wood. These must be augmented by the components of the <i>unseen servant</i> spell\n      (string and a bit of wood) if this benefit is to be included.\n    </p>\n<p>\n<em>Focus:</em> The focus of the <i>alarm</i> spell (silver wire and a tiny bell) if this benefit is to be\n      included.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 282",
+    "summary_it": "Crea un accogliente riparo dove poter riposare."
   },
   {
     "name": "See Invisibility",
@@ -22377,46 +21648,6 @@
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 279",
     "summary_it": "Riduce la dimensioni di un oggetto normale."
-  },
-  {
-    "name": "Shun the Dark Chaos",
-    "slug": "shun-the-dark-chaos",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "FC1",
-    "manual_name": "Codex Immondo I: Orde dell'Abisso",
-    "reference": "pag. 90",
-    "summary_it": "Il soggetto acquisisce una nuova oscura capacità."
-  },
-  {
-    "name": "Shun the Dark Chaos",
-    "slug": "shun-the-dark-chaos",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "FC1",
-    "manual_name": "Codex Immondo I: Orde dell'Abisso",
-    "reference": "pag. 95",
-    "summary_it": "Il soggetto perde una capacità legata al suo retaggio abissale, se ne aveva."
   },
   {
     "name": "Sicken Evil",
@@ -24456,186 +23687,6 @@
     "summary_it": "Evoca un esterno che combatte per l'incantatore."
   },
   {
-    "name": "Summon Nature's Ally I",
-    "slug": "summon-nature-s-ally-i",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 230",
-    "summary_it": "Evoca una creatura che combatte per l'incantatore."
-  },
-  {
-    "name": "Summon Nature's Ally II",
-    "slug": "summon-nature-s-ally-ii",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 230",
-    "summary_it": "Evoca una creatura che combatte per l'incantatore."
-  },
-  {
-    "name": "Summon Nature's Ally III",
-    "slug": "summon-nature-s-ally-iii",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 230",
-    "summary_it": "Evoca una creatura che combatte per l'incantatore."
-  },
-  {
-    "name": "Summon Nature's Ally IV",
-    "slug": "summon-nature-s-ally-iv",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 230",
-    "summary_it": "Evoca una creatura che combatte per l'incantatore."
-  },
-  {
-    "name": "Summon Nature's Ally IX",
-    "slug": "summon-nature-s-ally-ix",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 231",
-    "summary_it": "Evoca una creatura che combatte per l'incantatore."
-  },
-  {
-    "name": "Summon Nature's Ally V",
-    "slug": "summon-nature-s-ally-v",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 231",
-    "summary_it": "Evoca una creatura che combatte per l'incantatore."
-  },
-  {
-    "name": "Summon Nature's Ally VI",
-    "slug": "summon-nature-s-ally-vi",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 231",
-    "summary_it": "Evoca una creatura che combatte per l'incantatore."
-  },
-  {
-    "name": "Summon Nature's Ally VII",
-    "slug": "summon-nature-s-ally-vii",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 231",
-    "summary_it": "Evoca una creatura che combatte per l'incantatore."
-  },
-  {
-    "name": "Summon Nature's Ally VIII",
-    "slug": "summon-nature-s-ally-viii",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 231",
-    "summary_it": "Evoca una creatura che combatte per l'incantatore."
-  },
-  {
     "name": "Summon Nature’s Ally I",
     "slug": "summon-natures-ally-i",
     "school": "Conjuration",
@@ -24650,7 +23701,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      This spell summons a natural creature. It appears where you designate and acts immediately, on your turn. It\n      attacks your opponents to the best of its ability. If you can communicate with the creature, you can direct it not\n      to attack, to attack particular enemies, or to perform other actions.\n    </p>\n<p>\n      A summoned monster cannot summon or otherwise conjure another creature, nor can it use any teleportation or planar\n      travel abilities. Creatures cannot be summoned into an environment that cannot support them.\n    </p>\n<p>\n      The spell conjures one of the creatures from the 1st-level list on the accompanying Summon Nature’s Ally table.\n      You choose which kind of creature to summon, and you can change that choice each time you cast the spell. All the\n      creatures on the table are neutral unless otherwise noted.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 230",
+    "summary_it": "Evoca una creatura che combatte per l'incantatore."
   },
   {
     "name": "Summon Nature’s Ally II",
@@ -24667,7 +23721,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>summon nature’s ally I,</i> except that you can summon one 2nd-level creature or 1d3\n      1st-level creatures of the same kind.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 230",
+    "summary_it": "Evoca una creatura che combatte per l'incantatore."
   },
   {
     "name": "Summon Nature’s Ally III",
@@ -24684,7 +23741,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>summon nature’s ally I,</i> except that you can summon one 3rd-level creature, 1d3\n      2nd-level creatures of the same kind, or 1d4+1 1st-level creatures of the same kind.\n    </p>\n<p>\n      When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it\n      is a spell of that type.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 230",
+    "summary_it": "Evoca una creatura che combatte per l'incantatore."
   },
   {
     "name": "Summon Nature’s Ally IV",
@@ -24701,7 +23761,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>summon nature’s ally I,</i> except that you can summon one 4th-level creature, 1d3\n      3rd-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.\n    </p>\n<p>\n      When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it\n      is a spell of that type.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 230",
+    "summary_it": "Evoca una creatura che combatte per l'incantatore."
   },
   {
     "name": "Summon Nature’s Ally IX",
@@ -24718,7 +23781,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>summon nature’s ally I,</i> except that you can summon one 9th-level creature, 1d3\n      8th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.\n    </p>\n<p>\n      When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it\n      is a spell of that type.\n    </p>\n<table class=\"half-width-table\" data-debug=\"no-caption\">\n<tbody>\n<tr>\n<th>Summon Nature’s Ally</th>\n</tr>\n<tr>\n<th>1st Level</th>\n</tr>\n<tr>\n<td>Dire rat</td>\n</tr>\n<tr>\n<td>Eagle (animal)</td>\n</tr>\n<tr>\n<td>Monkey (animal)</td>\n</tr>\n<tr>\n<td>Octopus<sup>1</sup>(animal)</td>\n</tr>\n<tr>\n<td>Owl (animal)</td>\n</tr>\n<tr>\n<td>Porpoise<sup>1</sup>(animal)</td>\n</tr>\n<tr>\n<td>Snake, Small viper (animal)</td>\n</tr>\n<tr>\n<td>Wolf (animal)</td>\n</tr>\n<tr>\n<th>2nd Level</th>\n</tr>\n<tr>\n<td>Bear, black (animal)</td>\n</tr>\n<tr>\n<td>Crocodile (animal)</td>\n</tr>\n<tr>\n<td>Dire badger</td>\n</tr>\n<tr>\n<td>Dire bat</td>\n</tr>\n<tr>\n<td>Elemental, Small (any)</td>\n</tr>\n<tr>\n<td>Hippogriff</td>\n</tr>\n<tr>\n<td>Shark, Medium<sup>1</sup>(animal)</td>\n</tr>\n<tr>\n<td>Snake, Medium viper (animal)</td>\n</tr>\n<tr>\n<td>Squid<sup>1</sup>(animal)</td>\n</tr>\n<tr>\n<td>Wolverine (animal)</td>\n</tr>\n<tr>\n<th>3rd Level</th>\n</tr>\n<tr>\n<td>Ape (animal)</td>\n</tr>\n<tr>\n<td>Dire weasel</td>\n</tr>\n<tr>\n<td>Dire wolf</td>\n</tr>\n<tr>\n<td>Eagle, giant [NG]</td>\n</tr>\n<tr>\n<td>Lion</td>\n</tr>\n<tr>\n<td>Owl, giant [NG]</td>\n</tr>\n<tr>\n<td>Satyr [CN; without pipes]</td>\n</tr>\n<tr>\n<td>Shark, Large<sup>1</sup>(animal)</td>\n</tr>\n<tr>\n<td>Snake, constrictor (animal)</td>\n</tr>\n<tr>\n<td>Snake, Large viper (animal)</td>\n</tr>\n<tr>\n<td>Thoqqua</td>\n</tr>\n<tr>\n<th>4th Level</th>\n</tr>\n<tr>\n<td>Arrowhawk, juvenile</td>\n</tr>\n<tr>\n<td>Bear, brown (animal)</td>\n</tr>\n<tr>\n<td>Crocodile, giant (animal)</td>\n</tr>\n<tr>\n<td>Deinonychus (dinosaur)</td>\n</tr>\n<tr>\n<td>Dire ape</td>\n</tr>\n<tr>\n<td>Dire boar</td>\n</tr>\n<tr>\n<td>Dire wolverine</td>\n</tr>\n<tr>\n<td>Elemental, Medium (any)</td>\n</tr>\n<tr>\n<td>Salamander, flamebrother [NE]</td>\n</tr>\n<tr>\n<td>Sea cat<sup>1</sup></td>\n</tr>\n<tr>\n<td>Shark, Huge<sup>1</sup>(animal)</td>\n</tr>\n<tr>\n<td>Snake, Huge viper (animal)</td>\n</tr>\n<tr>\n<td>Tiger (animal)</td>\n</tr>\n<tr>\n<td>Tojanida, juvenile<sup>1</sup></td>\n</tr>\n<tr>\n<td>Unicorn [CG]</td>\n</tr>\n<tr>\n<td>Xorn, minor</td>\n</tr>\n<tr>\n<th>5th Level</th>\n</tr>\n<tr>\n<td>Arrowhawk, adult</td>\n</tr>\n<tr>\n<td>Bear, polar (animal)</td>\n</tr>\n<tr>\n<td>Dire lion</td>\n</tr>\n<tr>\n<td>Elasmosaurus<sup>1</sup>(dinosaur)</td>\n</tr>\n<tr>\n<td>Elemental, Large (any)</td>\n</tr>\n<tr>\n<td>Griffon</td>\n</tr>\n<tr>\n<td>Janni (genie)</td>\n</tr>\n<tr>\n<td>Rhinoceros (animal)</td>\n</tr>\n<tr>\n<td>Satyr [CN; with pipes]</td>\n</tr>\n<tr>\n<td>Snake, giant constrictor (animal)</td>\n</tr>\n<tr>\n<td>Nixie (sprite)</td>\n</tr>\n<tr>\n<td>Tojanida, adult<sup>1</sup></td>\n</tr>\n<tr>\n<td>Whale, orca<sup>1</sup>(animal)</td>\n</tr>\n<tr>\n<th>6th Level</th>\n</tr>\n<tr>\n<td>Dire bear</td>\n</tr>\n<tr>\n<td>Elemental, Huge (any)</td>\n</tr>\n<tr>\n<td>Elephant (animal)</td>\n</tr>\n<tr>\n<td>Girallon</td>\n</tr>\n<tr>\n<td>Megaraptor (dinosaur)</td>\n</tr>\n<tr>\n<td>Octopus, giant<sup>1</sup>(animal)</td>\n</tr>\n<tr>\n<td>Pixie* (sprite) [NG; no special arrows]</td>\n</tr>\n<tr>\n<td>Salamander, average [NE]</td>\n</tr>\n<tr>\n<td>Whale, baleen<sup>1</sup></td>\n</tr>\n<tr>\n<td>Xorn, average</td>\n</tr>\n<tr>\n<td>*Can’t cast <i>irresistible dance</i></td>\n</tr>\n<tr>\n<th>7th Level</th>\n</tr>\n<tr>\n<td>Arrowhawk, elder</td>\n</tr>\n<tr>\n<td>Dire tiger</td>\n</tr>\n<tr>\n<td>Elemental, greater (any)</td>\n</tr>\n<tr>\n<td>Djinni (genie) [NG]</td>\n</tr>\n<tr>\n<td>Invisible stalker</td>\n</tr>\n<tr>\n<td>Pixie* (sprite) [NG; with sleep arrows]</td>\n</tr>\n<tr>\n<td>Squid, giant<sup>1</sup>(animal)</td>\n</tr>\n<tr>\n<td>Triceratops (dinosaur)</td>\n</tr>\n<tr>\n<td>Tyrannosaurus (dinosaur)</td>\n</tr>\n<tr>\n<td>Whale, cachalot<sup>1</sup>(animal)</td>\n</tr>\n<tr>\n<td>Xorn, elder</td>\n</tr>\n<tr>\n<td>*Can’t cast <i>irresistible dance</i></td>\n</tr>\n<tr>\n<th>8th Level</th>\n</tr>\n<tr>\n<td>Dire shark<sup>1</sup></td>\n</tr>\n<tr>\n<td>Roc</td>\n</tr>\n<tr>\n<td>Salamander, noble [NE]</td>\n</tr>\n<tr>\n<td>Tojanida, elder</td>\n</tr>\n<tr>\n<th>9th Level</th>\n</tr>\n<tr>\n<td>Elemental, elder</td>\n</tr>\n<tr>\n<td>Grig [NG; with fiddle] (sprite)</td>\n</tr>\n<tr>\n<td>Pixie* (sprite) [NG; with sleep and memory loss arrows]</td>\n</tr>\n<tr>\n<td>Unicorn, celestial charger</td>\n</tr>\n<tr>\n<td>*Can cast <i>irresistible dance</i></td>\n</tr>\n<tr>\n<td>1 May be summoned only into an aquatic or watery environment.</td>\n</tr>\n</tbody>\n</table>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 231",
+    "summary_it": "Evoca una creatura che combatte per l'incantatore."
   },
   {
     "name": "Summon Nature’s Ally V",
@@ -24735,7 +23801,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>summon nature’s ally I,</i> except that you can summon one 5th-level creature, 1d3\n      4th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.\n    </p>\n<p>\n      When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it\n      is a spell of that type.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 231",
+    "summary_it": "Evoca una creatura che combatte per l'incantatore."
   },
   {
     "name": "Summon Nature’s Ally VI",
@@ -24752,7 +23821,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>summon nature’s ally I,</i> except that you can summon one 6th-level creature, 1d3\n      5th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.\n    </p>\n<p>\n      When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it\n      is a spell of that type.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 231",
+    "summary_it": "Evoca una creatura che combatte per l'incantatore."
   },
   {
     "name": "Summon Nature’s Ally VII",
@@ -24769,7 +23841,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>summon nature’s ally I,</i> except that you can summon one 7th-level creature, 1d3\n      6th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.\n    </p>\n<p>\n      When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it\n      is a spell of that type.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 231",
+    "summary_it": "Evoca una creatura che combatte per l'incantatore."
   },
   {
     "name": "Summon Nature’s Ally VIII",
@@ -24786,7 +23861,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      This spell functions like <i>summon nature’s ally I,</i> except that you can summon one 8th-level creature, 1d3\n      7th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.\n    </p>\n<p>\n      When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it\n      is a spell of that type.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 231",
+    "summary_it": "Evoca una creatura che combatte per l'incantatore."
   },
   {
     "name": "Summon Swarm",
@@ -25349,26 +24427,6 @@
     "summary_it": "Permette di effettuare attacchi coordinati con gli alleati."
   },
   {
-    "name": "Tasha's Hideous Laughter",
-    "slug": "tasha-s-hideous-laughter",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 282",
-    "summary_it": "Il bersaglio scoppia in un'incontrollabile risata."
-  },
-  {
     "name": "Telekinesis",
     "slug": "telekinesis",
     "school": "Transmutation",
@@ -25403,7 +24461,10 @@
     "saving_throw": "Reflex negates (object)",
     "spell_resistance": "Yes (object)",
     "desc_html": "<p>\n      This spell functions like <i>resilient sphere,</i> with the addition that the creatures or objects inside the\n      globe are nearly weightless. Anything contained within an <i>telekinetic sphere</i> weighs only one-sixteenth of\n      its normal weight. You can telekinetically lift anything in the sphere that normally weighs 5,000 pounds or less.\n      The telekinetic control extends from you out to medium range (100 feet + 10 feet per caster level) after the\n      sphere has succeeded in encapsulating its contents.\n    </p>\n<p>\n      You can move objects or creatures in the sphere that weigh a total of 5,000 pounds or less by concentrating on the\n      sphere. You can begin moving a sphere in the round after casting the spell. If you concentrate on doing so (a\n      standard action), you can move the sphere as much as 30 feet in a round. If you cease concentrating, the sphere\n      does not move in that round (if on a level surface) or descends at its falling rate (if aloft) until it reaches a\n      level surface, or the spell’s duration expires, or you begin concentrating again. If you cease concentrating\n      (voluntarily or due to failing a Concentration check), you can resume concentrating on your next turn or any later\n      turn during the spell’s duration.\n    </p>\n<p>\n      The sphere falls at a rate of only 60 feet per round, which is not fast enough to cause damage to the contents of\n      the sphere.\n    </p>\n<p>You can move the sphere telekinetically even if you are in it.</p>\n<p>\n<em>Material Component:</em> A hemispherical piece of clear crystal, a matching hemispherical piece of gum arabic,\n      and a pair of small bar magnets.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 291",
+    "summary_it": "Una sfera di forza protegge e blocca un soggetto, e può essere spostata col pensiero."
   },
   {
     "name": "Telepathic Bond",
@@ -25420,7 +24481,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      You forge a telepathic bond among yourself and a number of willing creatures, each of which must have an\n      Intelligence score of 3 or higher. Each creature included in the link is linked to all the others. The creatures\n      can communicate telepathically through the bond regardless of language. No special power or influence is\n      established as a result of the bond. Once the bond is formed, it works over any distance (although not from one\n      plane to another).\n    </p>\n<p>\n      If desired, you may leave yourself out of the telepathic bond forged. This decision must be made at the time of\n      casting.\n    </p>\n<p>\n<i>Telepathic bond</i> can be made permanent with a <i>permanency</i> spell, though it only bonds two creatures\n      per casting of <i>permanency</i>.\n    </p>\n<p><em>Material Component:</em> Pieces of eggshell from two different kinds of creatures.</p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 252",
+    "summary_it": "Stipula un legame che consente agli alleati di comunicare telepaticamente."
   },
   {
     "name": "Telepathic Bond, Lesser",
@@ -25603,46 +24667,6 @@
     "summary_it": "Evoca uno sciame di insetti fastidiosi che occupano un'area disturbano e colpiscono chi vi si trova."
   },
   {
-    "name": "Tenser's Floating Disk",
-    "slug": "tenser-s-floating-disk",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 225",
-    "summary_it": "Crea un disco di energia che può trasportare un certo carico."
-  },
-  {
-    "name": "Tenser's Transformation",
-    "slug": "tenser-s-transformation",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "PHB",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 304",
-    "summary_it": "Trasforma in possenti guerrieri."
-  },
-  {
     "name": "Terra Cotta Lion",
     "slug": "terra-cotta-lion",
     "school": "",
@@ -25777,7 +24801,10 @@
     "saving_throw": "None",
     "spell_resistance": "No",
     "desc_html": "<p>\n      You create an unmoving, opaque sphere of force of any color you desire around yourself. Half the sphere projects\n      above the ground, and the lower hemisphere passes through the ground. As many as nine other Medium creatures can\n      fit into the field with you; they can freely pass into and out of the hut without harming it. However, if you\n      remove yourself from the hut, the spell ends.\n    </p>\n<p>\n      The temperature inside the hut is 70° F if the exterior temperature is between 0° and 100° F. An exterior\n      temperature below 0° or above 100° lowers or raises the interior temperature on a 1-degree-for-1 basis. The hut\n      also provides protection against the elements, such as rain, dust, and sandstorms. The hut withstands any wind of\n      less than hurricane force, but a hurricane (75+ mph wind speed) or greater force destroys it.\n    </p>\n<p>\n      The interior of the hut is a hemisphere. You can illuminate it dimly upon command or extinguish the light as\n      desired. Although the force field is opaque from the outside, it is transparent from within. Missiles, weapons,\n      and most spell effects can pass through the hut without affecting it, although the occupants cannot be seen from\n      outside the hut (they have total concealment).\n    </p>\n<p>\n<em>Material Component:</em> A small crystal bead that shatters when the spell duration expires or the\n      <i>hut</i> is dispelled.\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 212",
+    "summary_it": "Crea un rifugio per un numero ridotto di creature."
   },
   {
     "name": "Tomb of Light",
@@ -25994,7 +25021,10 @@
     "saving_throw": null,
     "spell_resistance": null,
     "desc_html": "<p>\n      You become a virtual fighting machine— stronger, tougher, faster, and more skilled in combat. Your mind-set\n      changes so that you relish combat and you can’t cast spells, even from magic items.\n    </p>\n<p>\n      You gain a +4 enhancement bonus to Strength, Dexterity, and Constitution, a +4 natural armor bonus to AC, a +5\n      competence bonus on Fortitude saves, and proficiency with all simple and martial weapons. Your base attack bonus\n      equals your character level (which may give you multiple attacks).\n    </p>\n<p>\n      You lose your spellcasting ability, including your ability to use spell activation or spell completion magic\n      items, just as if the spells were no longer on your class list.\n    </p>\n<p>\n<em>Material Component:</em> A <i>potion of bull’s strength</i>, which you drink (and whose effects are subsumed\n      by the spell effects).\n    </p>",
-    "source": "SRD"
+    "source": "PHB",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 304",
+    "summary_it": "Trasforma in possenti guerrieri."
   },
   {
     "name": "Transmute Metal to Wood",
