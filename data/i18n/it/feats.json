@@ -3,30 +3,26 @@
     "slug": "acrobatic",
     "name": "Acrobatico",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Saltare e Acrobazia.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Saltare e Acrobazia.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Saltare e Acrobazia."
   },
   {
     "slug": "agile",
     "name": "Agile",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Equilibrio e Artista della Fuga.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Equilibrio e Artista della Fuga.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Equilibrio e Artista della Fuga."
   },
   {
     "slug": "alertness",
     "name": "Allerta",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Ascoltare e Osservare.",
-    "special": "Il padrone di un famiglio ottiene il beneficio del talento Allerta ogni volta che il famiglio è entro portata di braccio.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Ascoltare e Osservare.</p>\n<p><strong>Speciale:</strong> Il padrone di un famiglio ottiene il beneficio del talento Allerta ogni volta che il famiglio è entro portata di braccio.</p>"
+    "special": "Il padrone di un famiglio ottiene il beneficio del talento Allerta ogni volta che il famiglio è entro portata di braccio."
   },
   {
     "slug": "animal-affinity",
     "name": "Affinità Animale",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Addestrare Animali e Cavalcare.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Addestrare Animali e Cavalcare.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Addestrare Animali e Cavalcare."
   },
   {
     "slug": "armor-proficiency-medium",
@@ -35,15 +31,13 @@
     "benefit": "Vedi Competenza nelle Armature (leggere).",
     "normal": "Vedi Competenza nelle Armature (leggere).",
     "special": "Guerrieri, barbari, paladini, chierici, druidi e bardi hanno automaticamente Competenza nelle Armature (medie) come talento bonus. Non hanno bisogno di selezionarlo.",
-    "prerequisites": "Competenza nelle Armature (leggere).",
-    "desc_html": "<p><strong>Prerequisito:</strong> Competenza nelle Armature (leggere).</p>\n<p><strong>Beneficio:</strong> Vedi Competenza nelle Armature (leggere).</p>\n<p><strong>Normale:</strong> Vedi Competenza nelle Armature (leggere).</p>\n<p><strong>Speciale:</strong> Guerrieri, barbari, paladini, chierici, druidi e bardi hanno automaticamente Competenza nelle Armature (medie) come talento bonus. Non hanno bisogno di selezionarlo.</p>"
+    "prerequisites": "Competenza nelle Armature (leggere)."
   },
   {
     "slug": "athletic",
     "name": "Atletico",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Scalare e Nuotare.",
-    "desc_html": "<p>Il personaggio è in forma smagliante ; adora le attività all'aria aperta . Beneficio: Il personaggio ottiene un bonus di +2 a tutte le prov e di Nuotare e di Scalare.</p>\n<p>ATTACCO CON LO SCUDO MIGLIORAT O</p>\n<p>[GENERALE ] Il personaggio può percuotere con lo scudo senza perdere il propri o bonus di scudo alla Classe Armatura . Prerequisito: Competenza negli Scudi . Beneficio: Quando il personaggio percuote con lo scudo, continua ad applicare il suo bonus di scudo alla Classe Armatura . Normale: Un personaggio privo di questo talento che percuote con lo scudo, perde il suo bonus di scudo alla CA fino al turno successivo. Speciale : Un guerriero può selezionare Attacco con lo Scud o Migliorato come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).</p>",
     "prerequisites": "Competenza negli Scudi .",
     "normal": "Un personaggio privo di questo talento che percuote con lo scudo, perde il suo bonus di scudo alla CA fino al turno successivo.",
     "special": "Un guerriero può selezionare Attacco con lo Scud o Migliorato come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38)."
@@ -53,8 +47,7 @@
     "name": "Evocazione Potenziata",
     "type": "Generale",
     "benefit": "Ogni creatura che evochi con qualsiasi incantesimo di evocazione ottiene un bonus di potenziamento di +4 a Forza e Costituzione per la durata dell'incantesimo che l'ha evocata.",
-    "prerequisites": "Focalizzazione Magica (evocazione).",
-    "desc_html": "<p><strong>Prerequisito:</strong> Focalizzazione Magica (evocazione).</p>\n<p><strong>Beneficio:</strong> Ogni creatura che evochi con qualsiasi incantesimo di evocazione ottiene un bonus di potenziamento di +4 a Forza e Costituzione per la durata dell'incantesimo che l'ha evocata.</p>"
+    "prerequisites": "Focalizzazione Magica (evocazione)."
   },
   {
     "slug": "blind-fight",
@@ -62,16 +55,14 @@
     "type": "Generale",
     "benefit": "In mischia, ogni volta che manchi a causa dell'occultamento, puoi ritirare la percentuale di mancamento per vedere se effettivamente colpisci. Un attaccante invisibile non ottiene vantaggi ai tiri per colpire contro di te in mischia. Cioè, non perdi il tuo bonus di Destrezza alla Classe Armatura, e l'attaccante non ottiene il solito bonus di +2 per l'invisibilità. Tuttavia, l'attaccante invisibile ottiene ancora il beneficio dell'occultamento totale (50% di probabilità di mancamento). Non hai bisogno di effettuare prove di Acrobazia per muoverti alla velocità piena in oscurità totale.",
     "normal": "La mischia regolare contro un avversario con occultamento richiede una prova di mancamento. I nemici invisibili ottengono vantaggi ai tiri per colpire contro di te in mischia.",
-    "special": "Il talento Combattere alla Cieca non ha effetto contro un personaggio che è oggetto di un incantesimo di <i>intermittenza</i>.",
-    "desc_html": "<p><strong>Beneficio:</strong> In mischia, ogni volta che manchi a causa dell'occultamento, puoi ritirare la percentuale di mancamento per vedere se effettivamente colpisci. Un attaccante invisibile non ottiene vantaggi ai tiri per colpire contro di te in mischia. Cioè, non perdi il tuo bonus di Destrezza alla Classe Armatura, e l'attaccante non ottiene il solito bonus di +2 per l'invisibilità. Tuttavia, l'attaccante invisibile ottiene ancora il beneficio dell'occultamento totale (50% di probabilità di mancamento). Non hai bisogno di effettuare prove di Acrobazia per muoverti alla velocità piena in oscurità totale.</p>\n<p><strong>Normale:</strong> La mischia regolare contro un avversario con occultamento richiede una prova di mancamento. I nemici invisibili ottengono vantaggi ai tiri per colpire contro di te in mischia.</p>\n<p><strong>Speciale:</strong> Il talento Combattere alla Cieca non ha effetto contro un personaggio che è oggetto di un incantesimo di <i>intermittenza</i>.</p>"
+    "special": "Il talento Combattere alla Cieca non ha effetto contro un personaggio che è oggetto di un incantesimo di <i>intermittenza</i>."
   },
   {
     "slug": "brew-potion",
     "name": "Mescere Pozioni",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare una pozione di qualsiasi incantesimo di 3° livello o inferiore che conosci e che ha come bersaglio una o più creature. Preparare una pozione richiede un giorno. Quando crei una pozione, stabilisci il livello dell'incantatore, che deve essere sufficiente per lanciare l'incantesimo in questione e non superiore al tuo livello. Il prezzo base di una pozione è il suo livello dell'incantesimo × il livello dell'incantesimo × 50 mo. Per preparare una pozione, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà di questo prezzo base.",
-    "prerequisites": "Livello dell'incantatore 3°.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Livello dell'incantatore 3°.</p>\n<p><strong>Beneficio:</strong> Puoi creare una pozione di qualsiasi incantesimo di 3° livello o inferiore che conosci e che ha come bersaglio una o più creature. Preparare una pozione richiede un giorno. Quando crei una pozione, stabilisci il livello dell'incantatore, che deve essere sufficiente per lanciare l'incantesimo in questione e non superiore al tuo livello. Il prezzo base di una pozione è il suo livello dell'incantesimo × il livello dell'incantesimo × 50 mo. Per preparare una pozione, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà di questo prezzo base.</p>"
+    "prerequisites": "Livello dell'incantatore 3°."
   },
   {
     "slug": "cleave",
@@ -79,15 +70,13 @@
     "type": "Generale",
     "benefit": "Se colpisci un avversario con sufficiente danno da farlo cadere (tipicamente riducendo i suoi punti ferita sotto 0 o uccidendolo), ottieni un attacco in mischia extra immediato contro un'altra creatura nelle vicinanze. Non puoi fare un passo di 1,5 m prima di effettuare questo attacco extra. L'attacco extra è al tuo bonus di attacco completo, anche se hai già attaccato in quel round. Puoi usare questa capacità una volta per round.",
     "special": "Un guerriero può selezionare Fendente come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "For 13, Attacco Poderoso.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> For 13, Attacco Poderoso.</p>\n<p><strong>Beneficio:</strong> Se colpisci un avversario con sufficiente danno da farlo cadere (tipicamente riducendo i suoi punti ferita sotto 0 o uccidendolo), ottieni un attacco in mischia extra immediato contro un'altra creatura nelle vicinanze. Non puoi fare un passo di 1,5 m prima di effettuare questo attacco extra. L'attacco extra è al tuo bonus di attacco completo, anche se hai già attaccato in quel round. Puoi usare questa capacità una volta per round.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Fendente come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "For 13, Attacco Poderoso."
   },
   {
     "slug": "combat-casting",
     "name": "Incantare in Combattimento",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +4 alle prove di Concentrazione effettuate per lanciare un incantesimo o usare una capacità magica mentre sei sulla difensiva o mentre sei in lotta.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +4 alle prove di Concentrazione effettuate per lanciare un incantesimo o usare una capacità magica mentre sei sulla difensiva o mentre sei in lotta.</p>"
+    "benefit": "Ottieni un bonus di +4 alle prove di Concentrazione effettuate per lanciare un incantesimo o usare una capacità magica mentre sei sulla difensiva o mentre sei in lotta."
   },
   {
     "slug": "combat-expertise",
@@ -96,8 +85,7 @@
     "benefit": "Quando usi l'azione di attacco o l'azione di attacco completo in mischia, puoi subire una penalità di –1 ai tiri per colpire in mischia e ottenere un bonus di schivare +1 alla Classe Armatura. Questa penalità e bonus aumentano di 1 per ogni –1 nei tiri per colpire, fino a un massimo di –5/+5. Devi scegliere di usare questa capacità prima di effettuare un tiro per colpire, e i suoi effetti durano fino alla tua prossima azione.",
     "special": "Un guerriero può selezionare Competenza in Combattimento come uno dei suoi talenti bonus da guerriero.",
     "normal": "Un personaggio senza il talento Competenza in Combattimento può combattere sulla difensiva mentre usa l'azione di attacco o l'azione di attacco completo per subire una penalità di –4 ai tiri per colpire e ottenere un bonus di schivare +2 alla Classe Armatura.",
-    "prerequisites": "Int 13.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Int 13.</p>\n<p><strong>Beneficio:</strong> Quando usi l'azione di attacco o l'azione di attacco completo in mischia, puoi subire una penalità di –1 ai tiri per colpire in mischia e ottenere un bonus di schivare +1 alla Classe Armatura. Questa penalità e bonus aumentano di 1 per ogni –1 nei tiri per colpire, fino a un massimo di –5/+5. Devi scegliere di usare questa capacità prima di effettuare un tiro per colpire, e i suoi effetti durano fino alla tua prossima azione.</p>\n<p><strong>Normale:</strong> Un personaggio senza il talento Competenza in Combattimento può combattere sulla difensiva mentre usa l'azione di attacco o l'azione di attacco completo per subire una penalità di –4 ai tiri per colpire e ottenere un bonus di schivare +2 alla Classe Armatura.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Competenza in Combattimento come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Int 13."
   },
   {
     "slug": "combat-reflexes",
@@ -105,55 +93,48 @@
     "type": "Generale",
     "benefit": "Puoi effettuare un numero di attacchi di opportunità aggiuntivi in un round pari al tuo bonus di Destrezza. Con questo talento puoi anche effettuare attacchi di opportunità quando sei colto alla sprovvista.",
     "normal": "Un personaggio senza questo talento può effettuare solo un attacco di opportunità per round e non può effettuare attacchi di opportunità quando è colto alla sprovvista.",
-    "special": "Il talento Riflessi in Combattimento non ti permette di effettuare più di un attacco di opportunità per la stessa circostanza.",
-    "desc_html": "<p><strong>Beneficio:</strong> Puoi effettuare un numero di attacchi di opportunità aggiuntivi in un round pari al tuo bonus di Destrezza. Con questo talento puoi anche effettuare attacchi di opportunità quando sei colto alla sprovvista.</p>\n<p><strong>Normale:</strong> Un personaggio senza questo talento può effettuare solo un attacco di opportunità per round e non può effettuare attacchi di opportunità quando è colto alla sprovvista.</p>\n<p><strong>Speciale:</strong> Il talento Riflessi in Combattimento non ti permette di effettuare più di un attacco di opportunità per la stessa circostanza.</p>"
+    "special": "Il talento Riflessi in Combattimento non ti permette di effettuare più di un attacco di opportunità per la stessa circostanza."
   },
   {
     "slug": "craft-magic-arms-and-armor",
     "name": "Creare Armi e Armature Magiche",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare qualsiasi arma, armatura o scudo magico di cui soddisfi i prerequisiti. Potenziare un'arma, un'armatura o uno scudo richiede un giorno per ogni 1.000 mo nel prezzo delle sue caratteristiche magiche. Per potenziare un'arma, un'armatura o uno scudo, devi spendere 1/25 del prezzo totale delle sue caratteristiche in PE e usare materie prime per un costo pari alla metà del prezzo.",
-    "prerequisites": "Livello dell'incantatore 5°.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Livello dell'incantatore 5°.</p>\n<p><strong>Beneficio:</strong> Puoi creare qualsiasi arma, armatura o scudo magico di cui soddisfi i prerequisiti. Potenziare un'arma, un'armatura o uno scudo richiede un giorno per ogni 1.000 mo nel prezzo delle sue caratteristiche magiche. Per potenziare un'arma, un'armatura o uno scudo, devi spendere 1/25 del prezzo totale delle sue caratteristiche in PE e usare materie prime per un costo pari alla metà del prezzo.</p>"
+    "prerequisites": "Livello dell'incantatore 5°."
   },
   {
     "slug": "craft-rod",
     "name": "Creare Verghe",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare qualsiasi verga di cui soddisfi i prerequisiti. Creare una verga richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare una verga, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base.",
-    "prerequisites": "Livello dell'incantatore 9°.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Livello dell'incantatore 9°.</p>\n<p><strong>Beneficio:</strong> Puoi creare qualsiasi verga di cui soddisfi i prerequisiti. Creare una verga richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare una verga, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base.</p>"
+    "prerequisites": "Livello dell'incantatore 9°."
   },
   {
     "slug": "craft-staff",
     "name": "Creare Bastoni",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare qualsiasi bastone di cui soddisfi i prerequisiti. Creare un bastone richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare un bastone, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base. Un bastone appena creato ha 50 cariche.",
-    "prerequisites": "Livello dell'incantatore 12°.",
-    "desc_html": "<p>Il personaggio può creare bastoni magici, ciascuno dei quali possie de molteplici effetti magici. Prerequisito : Incantatore di 12° livello. Beneficio: Il personaggio può creare qualsiasi bastone di cui si soddisfino i prerequisiti (vedi la Guida del DUNGEON MASTER per i prerequisiti e le altre informazioni su questi oggetti). La creazione d i un bastone richiede un giorno per ogni 1.000 mo del suo prezzo ba--t se. Per creare un bastone il personaggio deve spendere 1/25 di quetsto prezzo base in PE e consumare materie prime per un costo pari alla metà del prezzo base . Un bastone di nuova creazione contiene , , 50 cariche . Alcuni bastoni richiedono un costo extra in componenti mate- , riali o in PE come riportato nelle rispettive descrizioni . Questi costit sono in aggiunta a quelli derivanti dal prezzo base del bastone .</p>\n<p>CREARE OGGETTI MERAVIGLIOS I</p>\n<p>[CREAZIONE OGGETTO] Il personaggio può creare u n'ampia varietà di oggetti magici, come . sfere di c ristallo e tappeti volanti . Prerequisito: Incantatore di 3' livello. Beneficio: Il personaggio può creare qualsiasi oggetto meraviglio sodi cui si soddisfino i prerequisiti (vedi la Guida del DUNGEON MASTE R per i prerequisiti e le altre informazioni sugli oggetti meravigliosi). I:incantamento di un oggetto meraviglioso richiede un giorno per . ogni 1.000 mo del suo prezzo. Per incantare un oggetto meraviglioso , il personaggio deve spendere 1/25 del suo prezzo in PE e consumare . materie prime per un costo pari alla metà del prezzo base . E inoltre possibile riparare un oggetto meraviglioso, purché si trat ti di uno di quelli che il personaggio è in grado di creare. In questo mo- . do la riparazione costa metà dei PE, delle materie prime e del tempo . che altrimenti servirebbero per incantare quell'oggetto la prima volta . Alcuni oggetti meravigliosi richiedono un costo extra in compo nenti materiali o in PE come riportato nelle rispettive descrizioni. . Questi costi sono in aggiunta a quelli derivanti dal prezzo base del- , l'oggetto. Il personaggio deve affrontare questi costi per creare u n oggetto o per ripararne uno rotto .</p>"
+    "prerequisites": "Livello dell'incantatore 12°."
   },
   {
     "slug": "craft-wand",
     "name": "Creare Bacchette",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare una bacchetta di qualsiasi incantesimo di 4° livello o inferiore che conosci. Creare una bacchetta richiede un giorno per ogni 1.000 mo nel suo prezzo base. Il prezzo base di una bacchetta è il suo livello dell'incantatore × il livello dell'incantesimo × 750 mo. Per creare una bacchetta, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà del prezzo base.",
-    "prerequisites": "Livello dell'incantatore 5°.",
-    "desc_html": "<p>Il personaggio può creare bacchette che lanciano incantesimi (ved i la Guida del DUNGEON MASTER perle regole sulle bacchette). Prerequisito: Incantatore di 5' livello . Beneficio: È creare una bacchetta di qualsiasi incantesimo di 4' livello o inferiore che il personaggio conosce . La creazione di una bacchetta richiede un giorno per ogni 1.000 mo del suo prezzo base . Il prezzo base di una bacchetta è il livello dell'incantesimo x il livello dell'incantatore x 750 mo . Per creare una bacchetta il personaggio deve spendere 1/25 di questo prezzo base in PE e consumare materie prime per un costo pari alla metà del prezzo base . Una bacchetta di nuova creazione possiede 50 cariche . Qualsiasi bacchetta che racchiude un incantesimo con componente materiale costosa o con un costo in PE comporta anche un costo extra in proporzione . In aggiunta al costo derivante dal prezzo base, il personaggio deve consumare cinquanta copie della componente materiale oppure pagare cinquanta volte il costo in PE. r1 i</p>\n<p>s .64'</p>"
+    "prerequisites": "Livello dell'incantatore 5°."
   },
   {
     "slug": "craft-wondrous-item",
     "name": "Creare Oggetti Meravigliosi",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare qualsiasi oggetto meraviglioso di cui soddisfi i prerequisiti. Incantare un oggetto meraviglioso richiede un giorno per ogni 1.000 mo nel suo prezzo. Per incantare un oggetto meraviglioso, devi spendere 1/25 del prezzo dell'oggetto in PE e usare materie prime per un costo pari alla metà di questo prezzo. Puoi anche riparare un oggetto meraviglioso rotto se soddisfi i prerequisiti per crearlo.",
-    "prerequisites": "Livello dell'incantatore 3°.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Livello dell'incantatore 3°.</p>\n<p><strong>Beneficio:</strong> Puoi creare qualsiasi oggetto meraviglioso di cui soddisfi i prerequisiti. Incantare un oggetto meraviglioso richiede un giorno per ogni 1.000 mo nel suo prezzo. Per incantare un oggetto meraviglioso, devi spendere 1/25 del prezzo dell'oggetto in PE e usare materie prime per un costo pari alla metà di questo prezzo. Puoi anche riparare un oggetto meraviglioso rotto se soddisfi i prerequisiti per crearlo.</p>"
+    "prerequisites": "Livello dell'incantatore 3°."
   },
   {
     "slug": "deceitful",
     "name": "Ingannevole",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Camuffare e Falsificare.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Camuffare e Falsificare.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Camuffare e Falsificare."
   },
   {
     "slug": "deflect-arrows",
@@ -161,15 +142,13 @@
     "type": "Generale",
     "benefit": "Devi avere almeno una mano libera (senza tenere nulla) per usare questo talento. Una volta per round, quando saresti normalmente colpito da un'arma a distanza, puoi deviarla in modo da non subire danni. Devi essere consapevole dell'attacco e non essere colto alla sprovvista. Tentare di deviare un'arma a distanza non conta come un'azione. Armi a distanza eccezionalmente massicce e armi a distanza generate da incantesimi o capacità magiche non possono essere deviate.",
     "special": "Un monaco può selezionare Deviare Frecce come talento bonus al 2° livello, anche se non soddisfa i prerequisiti. Un guerriero può selezionare Deviare Frecce come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13, Colpo Senz'Armi Migliorato.",
-    "desc_html": "<p>Il personaggio è in grado di deviare le frecce in arrivo, così come i , quadrelli delle balestre, le lance e le altre armi da tiro o da lancio. Prerequisiti : Des 13, Colpo Senz'Armi Migliorato. Beneficio: Il personaggio deve avere almeno una mano libera , , (che non impugna niente) per utilizzare questo talento . Una volta , per round, quando il personaggio sarebbe normalmente colpito da . un'arma a distanza, può deviarla in modo da non subire danni . 11 . personaggio deve essere consapevole dell'attacco e non essere colto alla sprovvista . Il tentativo di deviare u n'arma a distanza non va conteggiato come azione . Lanci eccezionali, come macigni scagliati d a giganti o attacchi a distanza derivanti da effetti degli incantesimi , come la Speciale freccia Un monaco può selezionare Deviare Frecce come taacida di Melf, non possono essere deviati._</p>\n<p>lento bonus al 2' livello (vedi pagina 47), anche se non soddisfa i prerequisiti . Un guerriero può selezionare Deviare Frecce come uno dei suo i talenti bonus dei guerrieri (vedi pagina 38).</p>"
+    "prerequisites": "Des 13, Colpo Senz'Armi Migliorato."
   },
   {
     "slug": "deft-hands",
     "name": "Mani Abili",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Rapidità di Mano e Usare Corde.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Rapidità di Mano e Usare Corde.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Rapidità di Mano e Usare Corde."
   },
   {
     "slug": "diehard",
@@ -177,15 +156,13 @@
     "type": "Generale",
     "benefit": "Quando sei ridotto tra –1 e –9 punti ferita, diventi automaticamente stabile. Non devi tirare d% per vedere se perdi 1 punto ferita ogni round. Quando sei ridotto a punti ferita negativi, puoi scegliere di agire come se fossi disabilitato, anziché morente. Devi prendere questa decisione non appena sei ridotto a punti ferita negativi (anche se non è il tuo turno). Se non agisci, perdi comunque punti ferita come normale.",
     "normal": "Un personaggio senza questo talento che è ridotto tra –1 e –9 punti ferita è incosciente e morente.",
-    "prerequisites": "Resistenza Fisica.",
-    "desc_html": "<p>Il personaggio può resistere ad attacchi che normalmente farebbero cadere a terra privi di sensi. Prerequisito: Resistenza Fisica . Beneficio: Se i punti ferita diminuiscono fino a raggiunger e valori compresi tra -1 e -9, il personaggio si stabilizza automatica mente . In altre parole, il personaggio non tira il d% per arrestare l a perdita di 1 punto ferita al round . Se i punti ferita del personaggio diminuiscono fino a raggiungere un valore negativo, questi può scegliere di agire come se fosse inabile invece che morente . Tale scelta va compiuta nel preciso istante in cui i punti ferita del personaggio scendono sotto lo 0 (anche se non è il suo turno). Se non compie questa scelta, il personaggio cade subito a terra privo di sensi . Quando utilizza questo talento, il personaggio può compiere una sola azione ogni turno, a scelta tra azioni di movimento e azioni standard, ma non entrambe, e non può compiere un'azione d i round completo. Il personaggio può compiere un' azione di movimento senza subire alcun danno, ma se esegue una qualsiasi azio ne standard (o qualsiasi altra azione che il DM giudichi stancante, , comprese alcune azioni gratuite come lanciare incantesimi rapidi), egli subisce 1 danno dopo averla completata . Se i punti ferita . diventano minori o uguali a -10, il personaggio muore sul colpo Normale: Un personaggio privo di questo talento, i citi punti, ferita diminuiscono fino a raggiungere valori compresi tra - .Le :9„ è privo di sensi e morente, come descritto nel_ Capitolo 8 : \"Combattimento.'. .</p>\n<p>ESCLUDERE MATERIALI [GENERALE1 Il personaggio può lanciare incantesimi facendo a meno delle , componenti materiali. Beneficio: II personaggio può lanciare qualsiasi incantesimo che necessiti di_una componente materiale del costo di 1 mo o meno, senza aver bisogno di quella componente (lanciare l'incan tesimo provoca comunque un attacco di opportunità, come di norma). Se l'incantesimo richiede una componente il cui costo è mag -</p>\n<p>giore di 1 mo, il personaggio deve avere a portata di mano quella componente per lanciare l'incantesimo, proprio come di norma .</p>"
+    "prerequisites": "Resistenza Fisica."
   },
   {
     "slug": "diligent",
     "name": "Diligente",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Valutare e Decifrare Scritti.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Valutare e Decifrare Scritti.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Valutare e Decifrare Scritti."
   },
   {
     "slug": "dodge",
@@ -193,15 +170,13 @@
     "type": "Generale",
     "benefit": "Durante la tua azione, designa un avversario e ricevi un bonus di schivare +1 alla Classe Armatura contro gli attacchi di quell'avversario. Puoi selezionare un nuovo avversario su ogni azione. Un bonus di schivare si cumula con tutti gli altri bonus di schivare che puoi avere.",
     "special": "Un guerriero può selezionare Schivare come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Des 13.</p>\n<p><strong>Beneficio:</strong> Durante la tua azione, designa un avversario e ricevi un bonus di schivare +1 alla Classe Armatura contro gli attacchi di quell'avversario. Puoi selezionare un nuovo avversario su ogni azione. Un bonus di schivare si cumula con tutti gli altri bonus di schivare che puoi avere.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Schivare come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Des 13."
   },
   {
     "slug": "empower-spell",
     "name": "Incantesimi Potenziati",
     "type": "Metamagico",
-    "benefit": "Tutti gli effetti numerici variabili di un incantesimo potenziato sono aumentati della metà. I tiri salvezza e i tiri contrapposti non sono influenzati, né lo sono gli incantesimi senza variabili casuali. Un incantesimo potenziato usa uno slot incantesimo di due livelli superiore al livello effettivo dell'incantesimo.",
-    "desc_html": "<p>Il personaggio può lanciare incantesimi con effetti superiori. Beneficio: Tutti gli effetti numerici variabili di un incantesim o potenziato aumentano del 50%. Un incantesimo potenziato infligge il 50% in più del danno, cura il 50% in più dei punti ferita, ha effetto sul 50% in più di bersagli, e così via, come appropriato. Ad esempio, un incantesimo dardo incantato potenziato infligge il 50% in più dei danni normali (per ogni dardo occorre tirare 1d4+1 e poi moltiplicare ciascun risultato per 1,5). Questo talento non si applica ai tiri salvezza e ai tiri contrapposti (come quello che il personaggio effettua quando lancia dissolvi magie) né agli incantesimi privi di variabili casuali. Un incantesimo potenziato occupa uno slot di due livelli superiore a quello effettivo dell'incantesimo.</p>"
+    "benefit": "Tutti gli effetti numerici variabili di un incantesimo potenziato sono aumentati della metà. I tiri salvezza e i tiri contrapposti non sono influenzati, né lo sono gli incantesimi senza variabili casuali. Un incantesimo potenziato usa uno slot incantesimo di due livelli superiore al livello effettivo dell'incantesimo."
   },
   {
     "slug": "endurance",
@@ -209,22 +184,19 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +4 alle seguenti prove e tiri salvezza: Nuotare per resistere a danni non letali da esaurimento; prove di Costituzione per continuare a correre; prove di Costituzione per evitare danni non letali da marcia forzata; prove di Costituzione per trattenere il respiro; prove di Costituzione per evitare danni da fame o sete; tiri salvezza sulla Tempra per evitare danni non letali da ambiente caldo o freddo; e tiri salvezza sulla Tempra per resistere a danni da soffocamento. Inoltre puoi dormire in armatura leggera o media senza affaticarti.",
     "normal": "Un personaggio senza questo talento che dorme in armatura media o più pesante è automaticamente affaticato il giorno successivo.",
-    "special": "Un ranger ottiene automaticamente Resistenza Fisica come talento bonus al 3° livello. Non ha bisogno di selezionarlo.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +4 alle seguenti prove e tiri salvezza: Nuotare per resistere a danni non letali da esaurimento; prove di Costituzione per continuare a correre; prove di Costituzione per evitare danni non letali da marcia forzata; prove di Costituzione per trattenere il respiro; prove di Costituzione per evitare danni da fame o sete; tiri salvezza sulla Tempra per evitare danni non letali da ambiente caldo o freddo; e tiri salvezza sulla Tempra per resistere a danni da soffocamento. Inoltre puoi dormire in armatura leggera o media senza affaticarti.</p>\n<p><strong>Normale:</strong> Un personaggio senza questo talento che dorme in armatura media o più pesante è automaticamente affaticato il giorno successivo.</p>\n<p><strong>Speciale:</strong> Un ranger ottiene automaticamente Resistenza Fisica come talento bonus al 3° livello. Non ha bisogno di selezionarlo.</p>"
+    "special": "Un ranger ottiene automaticamente Resistenza Fisica come talento bonus al 3° livello. Non ha bisogno di selezionarlo."
   },
   {
     "slug": "enlarge-spell",
     "name": "Incantesimi Estesi",
     "type": "Metamagico",
-    "benefit": "Puoi alterare un incantesimo con raggio corto, medio o lungo per aumentare il suo raggio del 100%. Un incantesimo esteso con raggio corto ha ora un raggio di 15 m + 1,5 m/livello, mentre gli incantesimi a raggio medio hanno un raggio di 60 m + 6 m/livello e gli incantesimi a raggio lungo hanno un raggio di 240 m + 24 m/livello. Un incantesimo esteso usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
-    "desc_html": "<p><strong>Beneficio:</strong> Puoi alterare un incantesimo con raggio corto, medio o lungo per aumentare il suo raggio del 100%. Un incantesimo esteso con raggio corto ha ora un raggio di 15 m + 1,5 m/livello, mentre gli incantesimi a raggio medio hanno un raggio di 60 m + 6 m/livello e gli incantesimi a raggio lungo hanno un raggio di 240 m + 24 m/livello. Un incantesimo esteso usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.</p>"
+    "benefit": "Puoi alterare un incantesimo con raggio corto, medio o lungo per aumentare il suo raggio del 100%. Un incantesimo esteso con raggio corto ha ora un raggio di 15 m + 1,5 m/livello, mentre gli incantesimi a raggio medio hanno un raggio di 60 m + 6 m/livello e gli incantesimi a raggio lungo hanno un raggio di 240 m + 24 m/livello. Un incantesimo esteso usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo."
   },
   {
     "slug": "eschew-materials",
     "name": "Escludere Materiali",
     "type": "Generale",
-    "benefit": "Puoi lanciare qualsiasi incantesimo che ha una componente materiale del costo di 1 mo o meno senza bisogno di quella componente. (Il lancio dell'incantesimo provoca comunque attacchi di opportunità come normale.) Se l'incantesimo richiede una componente materiale che costa più di 1 mo, devi avere la componente materiale a portata di mano per lanciare l'incantesimo, come normale.",
-    "desc_html": "<p><strong>Beneficio:</strong> Puoi lanciare qualsiasi incantesimo che ha una componente materiale del costo di 1 mo o meno senza bisogno di quella componente. (Il lancio dell'incantesimo provoca comunque attacchi di opportunità come normale.) Se l'incantesimo richiede una componente materiale che costa più di 1 mo, devi avere la componente materiale a portata di mano per lanciare l'incantesimo, come normale.</p>"
+    "benefit": "Puoi lanciare qualsiasi incantesimo che ha una componente materiale del costo di 1 mo o meno senza bisogno di quella componente. (Il lancio dell'incantesimo provoca comunque attacchi di opportunità come normale.) Se l'incantesimo richiede una componente materiale che costa più di 1 mo, devi avere la componente materiale a portata di mano per lanciare l'incantesimo, come normale."
   },
   {
     "slug": "exotic-weapon-proficiency",
@@ -233,15 +205,13 @@
     "benefit": "Effettui i tiri per colpire con l'arma selezionata normalmente.",
     "normal": "Un personaggio che usa un'arma con cui non è competente subisce una penalità di –4 ai tiri per colpire.",
     "special": "Puoi ottenere Competenza nelle Armi Esotiche più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma esotica.",
-    "prerequisites": "Bonus di attacco base +1 (più For 13 per spada bastarda o ascia da guerra nanica).",
-    "desc_html": "<p>Scegli un tipo di arma esotica. Sai come usare quel tipo di arma esotica in combattimento.</p>\n<p><strong>Prerequisito:</strong> Bonus di attacco base +1 (più For 13 per spada bastarda o ascia da guerra nanica).</p>\n<p><strong>Beneficio:</strong> Effettui i tiri per colpire con l'arma selezionata normalmente.</p>\n<p><strong>Normale:</strong> Un personaggio che usa un'arma con cui non è competente subisce una penalità di –4 ai tiri per colpire.</p>\n<p><strong>Speciale:</strong> Puoi ottenere Competenza nelle Armi Esotiche più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma esotica.</p>"
+    "prerequisites": "Bonus di attacco base +1 (più For 13 per spada bastarda o ascia da guerra nanica)."
   },
   {
     "slug": "extend-spell",
     "name": "Incantesimi Estesi",
     "type": "Metamagico",
-    "benefit": "Un incantesimo prolungato dura il doppio del normale. Un incantesimo con durata di concentrazione, istantaneo o permanente non è influenzato da questo talento. Un incantesimo prolungato usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
-    "desc_html": "<p><strong>Beneficio:</strong> Un incantesimo prolungato dura il doppio del normale. Un incantesimo con durata di concentrazione, istantaneo o permanente non è influenzato da questo talento. Un incantesimo prolungato usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.</p>"
+    "benefit": "Un incantesimo prolungato dura il doppio del normale. Un incantesimo con durata di concentrazione, istantaneo o permanente non è influenzato da questo talento. Un incantesimo prolungato usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo."
   },
   {
     "slug": "extra-turning",
@@ -250,8 +220,7 @@
     "benefit": "Ogni volta che prendi questo talento, puoi usare la tua capacità di scacciare o intimorire creature quattro volte in più al giorno del normale. Se hai la capacità di scacciare o intimorire più di un tipo di creatura, ciascuna delle tue capacità di scacciare o intimorire ottiene quattro usi aggiuntivi al giorno.",
     "normal": "Senza questo talento, un personaggio può tipicamente scacciare o intimorire non morti (o altre creature) un numero di volte al giorno pari a 3 + il suo modificatore di Carisma.",
     "special": "Puoi ottenere Scacciare Extra più volte. I suoi effetti si cumulano. Ogni volta che prendi il talento, puoi usare ciascuna delle tue capacità di scacciare o intimorire quattro volte aggiuntive al giorno.",
-    "prerequisites": "Capacità di scacciare o intimorire creature.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Capacità di scacciare o intimorire creature.</p>\n<p><strong>Beneficio:</strong> Ogni volta che prendi questo talento, puoi usare la tua capacità di scacciare o intimorire creature quattro volte in più al giorno del normale. Se hai la capacità di scacciare o intimorire più di un tipo di creatura, ciascuna delle tue capacità di scacciare o intimorire ottiene quattro usi aggiuntivi al giorno.</p>\n<p><strong>Normale:</strong> Senza questo talento, un personaggio può tipicamente scacciare o intimorire non morti (o altre creature) un numero di volte al giorno pari a 3 + il suo modificatore di Carisma.</p>\n<p><strong>Speciale:</strong> Puoi ottenere Scacciare Extra più volte. I suoi effetti si cumulano. Ogni volta che prendi il talento, puoi usare ciascuna delle tue capacità di scacciare o intimorire quattro volte aggiuntive al giorno.</p>"
+    "prerequisites": "Capacità di scacciare o intimorire creature."
   },
   {
     "slug": "far-shot",
@@ -259,8 +228,7 @@
     "type": "Generale",
     "benefit": "Quando usi un'arma a proiettile, come un arco, il suo incremento di gittata aumenta della metà (moltiplicato per 1,5). Quando usi un'arma da lancio, il suo incremento di gittata è raddoppiato.",
     "special": "Un guerriero può selezionare Tiro Lontano come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Tiro Ravvicinato.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Tiro Ravvicinato.</p>\n<p><strong>Beneficio:</strong> Quando usi un'arma a proiettile, come un arco, il suo incremento di gittata aumenta della metà (moltiplicato per 1,5). Quando usi un'arma da lancio, il suo incremento di gittata è raddoppiato.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Tiro Lontano come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Tiro Ravvicinato."
   },
   {
     "slug": "feat-descriptions--armor-proficiency-heavy",
@@ -269,8 +237,7 @@
     "benefit": "Vedi Competenza nelle Armature (leggere).",
     "normal": "Vedi Competenza nelle Armature (leggere).",
     "special": "Guerrieri, paladini e chierici hanno automaticamente Competenza nelle Armature (pesanti) come talento bonus. Non hanno bisogno di selezionarlo.",
-    "prerequisites": "Competenza nelle Armature (leggere), Competenza nelle Armature (medie).",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Competenza nelle Armature (leggere), Competenza nelle Armature (medie).</p>\n<p><strong>Beneficio:</strong> Vedi Competenza nelle Armature (leggere).</p>\n<p><strong>Normale:</strong> Vedi Competenza nelle Armature (leggere).</p>\n<p><strong>Speciale:</strong> Guerrieri, paladini e chierici hanno automaticamente Competenza nelle Armature (pesanti) come talento bonus. Non hanno bisogno di selezionarlo.</p>"
+    "prerequisites": "Competenza nelle Armature (leggere), Competenza nelle Armature (medie)."
   },
   {
     "slug": "feat-descriptions--armor-proficiency-light",
@@ -278,24 +245,21 @@
     "type": "Generale",
     "benefit": "Quando indossi un tipo di armatura con cui sei competente, la penalità di controllo dell'armatura per quell'armatura si applica solo alle prove di Equilibrio, Scalare, Artista della Fuga, Nascondersi, Saltare, Muoversi Silenziosamente, Rapidità di Mano e Acrobazia.",
     "normal": "Un personaggio che indossa un'armatura con cui non è competente applica la sua penalità di controllo dell'armatura ai tiri per colpire e a tutte le prove di abilità che comportano movimento, incluso Cavalcare.",
-    "special": "Tutti i personaggi eccetto maghi, stregoni e monaci hanno automaticamente Competenza nelle Armature (leggere) come talento bonus. Non hanno bisogno di selezionarlo.",
-    "desc_html": "<p><strong>Beneficio:</strong> Quando indossi un tipo di armatura con cui sei competente, la penalità di controllo dell'armatura per quell'armatura si applica solo alle prove di Equilibrio, Scalare, Artista della Fuga, Nascondersi, Saltare, Muoversi Silenziosamente, Rapidità di Mano e Acrobazia.</p>\n<p><strong>Normale:</strong> Un personaggio che indossa un'armatura con cui non è competente applica la sua penalità di controllo dell'armatura ai tiri per colpire e a tutte le prove di abilità che comportano movimento, incluso Cavalcare.</p>\n<p><strong>Speciale:</strong> Tutti i personaggi eccetto maghi, stregoni e monaci hanno automaticamente Competenza nelle Armature (leggere) come talento bonus. Non hanno bisogno di selezionarlo.</p>"
+    "special": "Tutti i personaggi eccetto maghi, stregoni e monaci hanno automaticamente Competenza nelle Armature (leggere) come talento bonus. Non hanno bisogno di selezionarlo."
   },
   {
     "slug": "feat-name",
     "benefit": "Ciò che il talento consente al personaggio (\"tu\" nella descrizione del talento) di fare. Se un personaggio ha lo stesso talento più di una volta, i suoi benefici non si cumulano a meno che non sia indicato diversamente nella descrizione. In generale, avere un talento due volte è uguale ad averlo una volta.",
     "normal": "A cosa è limitato o da cosa è ristretto un personaggio che non ha questo talento. Se non avere il talento non causa alcuno svantaggio particolare, questa voce è assente.",
     "special": "Fatti aggiuntivi sul talento che possono essere utili quando si decide se acquisirlo.",
-    "prerequisites": "Un punteggio di caratteristica minimo, un altro talento o talenti, un bonus di attacco base minimo, un numero minimo di gradi in una o più abilità, o un livello di classe che un personaggio deve avere per acquisire questo talento. Questa voce è assente se un talento non ha prerequisiti. Un talento può avere più di un prerequisito.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Un punteggio di caratteristica minimo, un altro talento o talenti, un bonus di attacco base minimo, un numero minimo di gradi in una o più abilità, o un livello di classe che un personaggio deve avere per acquisire questo talento. Questa voce è assente se un talento non ha prerequisiti. Un talento può avere più di un prerequisito.</p>\n<p><strong>Beneficio:</strong> Ciò che il talento consente al personaggio (\"tu\" nella descrizione del talento) di fare. Se un personaggio ha lo stesso talento più di una volta, i suoi benefici non si cumulano a meno che non sia indicato diversamente nella descrizione. In generale, avere un talento due volte è uguale ad averlo una volta.</p>\n<p><strong>Normale:</strong> A cosa è limitato o da cosa è ristretto un personaggio che non ha questo talento. Se non avere il talento non causa alcuno svantaggio particolare, questa voce è assente.</p>\n<p><strong>Speciale:</strong> Fatti aggiuntivi sul talento che possono essere utili quando si decide se acquisirlo.</p>"
+    "prerequisites": "Un punteggio di caratteristica minimo, un altro talento o talenti, un bonus di attacco base minimo, un numero minimo di gradi in una o più abilità, o un livello di classe che un personaggio deve avere per acquisire questo talento. Questa voce è assente se un talento non ha prerequisiti. Un talento può avere più di un prerequisito."
   },
   {
     "slug": "forge-ring",
     "name": "Forgiare Anelli",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare qualsiasi anello di cui soddisfi i prerequisiti. Creare un anello richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare un anello, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base. Puoi anche riparare un anello rotto se soddisfi i prerequisiti per crearlo.",
-    "prerequisites": "Livello dell'incantatore 12°.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Livello dell'incantatore 12°.</p>\n<p><strong>Beneficio:</strong> Puoi creare qualsiasi anello di cui soddisfi i prerequisiti. Creare un anello richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare un anello, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base. Puoi anche riparare un anello rotto se soddisfi i prerequisiti per crearlo.</p>"
+    "prerequisites": "Livello dell'incantatore 12°."
   },
   {
     "slug": "great-cleave",
@@ -303,31 +267,27 @@
     "type": "Generale",
     "benefit": "Questo talento funziona come Fendente, eccetto che non c'è limite al numero di volte che puoi usarlo per round.",
     "special": "Un guerriero può selezionare Fendente Poderoso come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "For 13, Fendente, Attacco Poderoso, bonus di attacco base +4.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> For 13, Fendente, Attacco Poderoso, bonus di attacco base +4.</p>\n<p><strong>Beneficio:</strong> Questo talento funziona come Fendente, eccetto che non c'è limite al numero di volte che puoi usarlo per round.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Fendente Poderoso come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "For 13, Fendente, Attacco Poderoso, bonus di attacco base +4."
   },
   {
     "slug": "great-fortitude",
     "name": "Grande Tempra",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Tempra.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutti i tiri salvezza sulla Tempra.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Tempra."
   },
   {
     "slug": "greater-spell-focus",
     "name": "Incantesimi Focalizzati Superiore",
     "type": "Generale",
     "benefit": "Aggiungi +1 alla Classe Difficoltà per tutti i tiri salvezza contro gli incantesimi della scuola di magia selezionata. Questo bonus si cumula con il bonus di Focalizzazione Magica.",
-    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia a cui hai già applicato il talento Focalizzazione Magica.",
-    "desc_html": "<p>Scegli una scuola di magia a cui hai già applicato il talento Focalizzazione Magica.</p>\n<p><strong>Beneficio:</strong> Aggiungi +1 alla Classe Difficoltà per tutti i tiri salvezza contro gli incantesimi della scuola di magia selezionata. Questo bonus si cumula con il bonus di Focalizzazione Magica.</p>\n<p><strong>Speciale:</strong> Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia a cui hai già applicato il talento Focalizzazione Magica.</p>"
+    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia a cui hai già applicato il talento Focalizzazione Magica."
   },
   {
     "slug": "greater-spell-penetration",
     "name": "Penetrazione Magica Superiore",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura. Questo bonus si cumula con quello di Penetrazione Magica.",
-    "prerequisites": "Penetrazione Magica.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Penetrazione Magica.</p>\n<p><strong>Beneficio:</strong> Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura. Questo bonus si cumula con quello di Penetrazione Magica.</p>"
+    "prerequisites": "Penetrazione Magica."
   },
   {
     "slug": "greater-two-weapon-fighting",
@@ -335,8 +295,7 @@
     "type": "Generale",
     "benefit": "Ottieni un terzo attacco con la tua arma secondaria, anche se con una penalità di –10.",
     "special": "Un guerriero può selezionare Combattere con Due Armi Superiore come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Superiore, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Des 19, Combattere con Due Armi Migliorato, Combattere con Due Armi, bonus di attacco base +11.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Des 19, Combattere con Due Armi Migliorato, Combattere con Due Armi, bonus di attacco base +11.</p>\n<p><strong>Beneficio:</strong> Ottieni un terzo attacco con la tua arma secondaria, anche se con una penalità di –10.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Combattere con Due Armi Superiore come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Superiore, anche se non ne soddisfa i prerequisiti.</p>"
+    "prerequisites": "Des 19, Combattere con Due Armi Migliorato, Combattere con Due Armi, bonus di attacco base +11."
   },
   {
     "slug": "greater-weapon-focus",
@@ -344,8 +303,7 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +1 a tutti i tiri per colpire effettuati usando l'arma selezionata. Questo bonus si cumula con altri bonus ai tiri per colpire, incluso quello di Focalizzazione sull'Arma.",
     "special": "Puoi ottenere Focalizzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
-    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 8°.",
-    "desc_html": "<p>Scegli un tipo di arma per il quale hai già selezionato Focalizzazione sull'Arma. Puoi anche scegliere combattere senz'armi o lottare come arma ai fini di questo talento.</p>\n<p><strong>Prerequisiti:</strong> Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 8°.</p>\n<p><strong>Beneficio:</strong> Ottieni un bonus di +1 a tutti i tiri per colpire effettuati usando l'arma selezionata. Questo bonus si cumula con altri bonus ai tiri per colpire, incluso quello di Focalizzazione sull'Arma.</p>\n<p><strong>Speciale:</strong> Puoi ottenere Focalizzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.</p>"
+    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 8°."
   },
   {
     "slug": "greater-weapon-specialization",
@@ -353,15 +311,13 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutti i tiri per i danni effettuati usando l'arma selezionata. Questo bonus si cumula con altri bonus ai tiri per i danni, incluso quello di Specializzazione sull'Arma.",
     "special": "Puoi ottenere Specializzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
-    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma Superiore con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, Specializzazione sull'Arma con l'arma selezionata, livello da guerriero 12°.",
-    "desc_html": "<p>Scegli un tipo di arma per il quale hai già selezionato Specializzazione sull'Arma. Puoi anche scegliere combattere senz'armi o lottare come arma ai fini di questo talento.</p>\n<p><strong>Prerequisiti:</strong> Competenza con l'arma selezionata, Focalizzazione sull'Arma Superiore con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, Specializzazione sull'Arma con l'arma selezionata, livello da guerriero 12°.</p>\n<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutti i tiri per i danni effettuati usando l'arma selezionata. Questo bonus si cumula con altri bonus ai tiri per i danni, incluso quello di Specializzazione sull'Arma.</p>\n<p><strong>Speciale:</strong> Puoi ottenere Specializzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.</p>"
+    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma Superiore con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, Specializzazione sull'Arma con l'arma selezionata, livello da guerriero 12°."
   },
   {
     "slug": "heighten-spell",
     "name": "Incantesimi Intensificati",
     "type": "Metamagico",
-    "benefit": "Un incantesimo intensificato ha un livello dell'incantesimo più alto del normale (fino a un massimo di 9° livello). A differenza di altri talenti metamagici, Incantesimi Intensificati aumenta effettivamente il livello dell'incantesimo che modifica. Tutti gli effetti dipendenti dal livello dell'incantesimo (come le CD dei tiri salvezza e la capacità di penetrare un <i>globo di invulnerabilità inferiore</i>) sono calcolati in base al livello intensificato.",
-    "desc_html": "<p><strong>Beneficio:</strong> Un incantesimo intensificato ha un livello dell'incantesimo più alto del normale (fino a un massimo di 9° livello). A differenza di altri talenti metamagici, Incantesimi Intensificati aumenta effettivamente il livello dell'incantesimo che modifica. Tutti gli effetti dipendenti dal livello dell'incantesimo (come le CD dei tiri salvezza e la capacità di penetrare un <i>globo di invulnerabilità inferiore</i>) sono calcolati in base al livello intensificato.</p>"
+    "benefit": "Un incantesimo intensificato ha un livello dell'incantesimo più alto del normale (fino a un massimo di 9° livello). A differenza di altri talenti metamagici, Incantesimi Intensificati aumenta effettivamente il livello dell'incantesimo che modifica. Tutti gli effetti dipendenti dal livello dell'incantesimo (come le CD dei tiri salvezza e la capacità di penetrare un <i>globo di invulnerabilità inferiore</i>) sono calcolati in base al livello intensificato."
   },
   {
     "slug": "improved-bull-rush",
@@ -369,16 +325,14 @@
     "type": "Generale",
     "benefit": "Quando effettui uno spingere, non provochi un attacco di opportunità dal difensore. Ottieni anche un bonus di +4 alla prova di Forza per spingere.",
     "special": "Un guerriero può selezionare Spingere Migliorato come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "For 13, Attacco Poderoso.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> For 13, Attacco Poderoso.</p>\n<p><strong>Beneficio:</strong> Quando effettui uno spingere, non provochi un attacco di opportunità dal difensore. Ottieni anche un bonus di +4 alla prova di Forza per spingere.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Spingere Migliorato come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "For 13, Attacco Poderoso."
   },
   {
     "slug": "improved-counterspell",
     "name": "Controincantesimo Migliorato",
     "type": "Generale",
     "benefit": "Quando controincanti, puoi usare un incantesimo della stessa scuola che sia di uno o più livelli superiore all'incantesimo bersaglio.",
-    "normal": "Senza questo talento, puoi controincantare un incantesimo solo con lo stesso incantesimo o con un incantesimo specificamente designato come contromisura dell'incantesimo bersaglio.",
-    "desc_html": "<p><strong>Beneficio:</strong> Quando controincanti, puoi usare un incantesimo della stessa scuola che sia di uno o più livelli superiore all'incantesimo bersaglio.</p>\n<p><strong>Normale:</strong> Senza questo talento, puoi controincantare un incantesimo solo con lo stesso incantesimo o con un incantesimo specificamente designato come contromisura dell'incantesimo bersaglio.</p>"
+    "normal": "Senza questo talento, puoi controincantare un incantesimo solo con lo stesso incantesimo o con un incantesimo specificamente designato come contromisura dell'incantesimo bersaglio."
   },
   {
     "slug": "improved-critical",
@@ -386,8 +340,7 @@
     "type": "Generale",
     "benefit": "Quando usi l'arma selezionata, il suo intervallo di minaccia di critico è raddoppiato.",
     "special": "Puoi ottenere Critico Migliorato più volte. Gli effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Questo effetto non si cumula con nessun altro effetto che espande l'intervallo di minaccia di un'arma.",
-    "prerequisites": "Competenza con l'arma, bonus di attacco base +8.",
-    "desc_html": "<p>Scegli un tipo di arma.</p>\n<p><strong>Prerequisito:</strong> Competenza con l'arma, bonus di attacco base +8.</p>\n<p><strong>Beneficio:</strong> Quando usi l'arma selezionata, il suo intervallo di minaccia di critico è raddoppiato.</p>\n<p><strong>Speciale:</strong> Puoi ottenere Critico Migliorato più volte. Gli effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Questo effetto non si cumula con nessun altro effetto che espande l'intervallo di minaccia di un'arma.</p>"
+    "prerequisites": "Competenza con l'arma, bonus di attacco base +8."
   },
   {
     "slug": "improved-disarm",
@@ -396,16 +349,14 @@
     "benefit": "Non provochi un attacco di opportunità quando tenti di disarmare un avversario, né l'avversario ha la possibilità di disarmarti. Ottieni anche un bonus di +4 alla prova di attacco per disarmare il tuo avversario.",
     "normal": "Senza questo talento, tentare di disarmare provoca un attacco di opportunità.",
     "special": "Un guerriero può selezionare Disarmare Migliorato come uno dei suoi talenti bonus da guerriero. Un monaco può selezionare Disarmare Migliorato come talento bonus al 6° livello, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Int 13, Competenza in Combattimento.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Int 13, Competenza in Combattimento.</p>\n<p><strong>Beneficio:</strong> Non provochi un attacco di opportunità quando tenti di disarmare un avversario, né l'avversario ha la possibilità di disarmarti. Ottieni anche un bonus di +4 alla prova di attacco per disarmare il tuo avversario.</p>\n<p><strong>Normale:</strong> Senza questo talento, tentare di disarmare provoca un attacco di opportunità.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Disarmare Migliorato come uno dei suoi talenti bonus da guerriero. Un monaco può selezionare Disarmare Migliorato come talento bonus al 6° livello, anche se non ne soddisfa i prerequisiti.</p>"
+    "prerequisites": "Int 13, Competenza in Combattimento."
   },
   {
     "slug": "improved-familiar",
     "name": "Famiglio Migliorato",
     "type": "Generale",
     "benefit": "Quando scegli un famiglio, le creature elencate di seguito sono disponibili anche per l'incantatore. L'incantatore può scegliere un famiglio con un allineamento fino a un passo di distanza su ciascuno degli assi di allineamento (da legale a caotico, da buono a malvagio).",
-    "prerequisites": "Capacità di acquisire un nuovo famiglio, allineamento compatibile, livello sufficientemente alto (vedi sotto).",
-    "desc_html": "<p>Questo talento permette agli incantatori di acquisire un nuovo famiglio da una lista non standard, ma solo quando potrebbero normalmente acquisire un nuovo famiglio.</p>\n<p><strong>Prerequisiti:</strong> Capacità di acquisire un nuovo famiglio, allineamento compatibile, livello sufficientemente alto (vedi sotto).</p>\n<p><strong>Beneficio:</strong> Quando scegli un famiglio, le creature elencate di seguito sono disponibili anche per l'incantatore. L'incantatore può scegliere un famiglio con un allineamento fino a un passo di distanza su ciascuno degli assi di allineamento (da legale a caotico, da buono a malvagio).</p>"
+    "prerequisites": "Capacità di acquisire un nuovo famiglio, allineamento compatibile, livello sufficientemente alto (vedi sotto)."
   },
   {
     "slug": "improved-feint",
@@ -413,8 +364,7 @@
     "type": "Generale",
     "benefit": "Puoi effettuare una prova di Raggirare per fintare in combattimento come azione di movimento.",
     "normal": "Fintare in combattimento è un'azione standard.",
-    "prerequisites": "Int 13, Competenza in Combattimento.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Int 13, Competenza in Combattimento.</p>\n<p><strong>Beneficio:</strong> Puoi effettuare una prova di Raggirare per fintare in combattimento come azione di movimento.</p>\n<p><strong>Normale:</strong> Fintare in combattimento è un'azione standard.</p>"
+    "prerequisites": "Int 13, Competenza in Combattimento."
   },
   {
     "slug": "improved-grapple",
@@ -423,16 +373,14 @@
     "benefit": "Non provochi un attacco di opportunità quando effettui un attacco di contatto per iniziare una lotta. Ottieni anche un bonus di +4 a tutte le prove di lotta, indipendentemente dal fatto che tu abbia iniziato la lotta o meno.",
     "normal": "Senza questo talento, effettuare una lotta provoca un attacco di opportunità.",
     "special": "Un guerriero può selezionare Lotta Migliorata come uno dei suoi talenti bonus da guerriero. Un monaco può selezionare Lotta Migliorata come talento bonus al 1° livello, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Des 13, Colpo Senz'Armi Migliorato.",
-    "desc_html": "<p>Il personaggio è esperto nel lottare con gli avversari . Prerequisiti: Des 13, Colpo Senz'Armi Migliorato. Beneficio: Il personaggio non provoca alcun attacco di opportunità, quando effettua un attacco di contatto per dare inizio a una lotta . Il personaggio inoltre ottiene un bonus di +4 a tutte le pro- , ve di lottare, a prescindere che abbia iniziato o meno la lotta .</p>\n<p>Normale : Un personaggio privo di questo talento, provoca u n attacco di opportunità quando effettua un attacco di contatto pe r dare inizio a una lotta . Speciale: Un monaco può selezionare Lottare Migliorato com e talento bonus al 1° livello (vedi pagina 47), anche se non soddisfa i prerequisiti . Un guerriero può selezionare Lottare Migliorato come uno de i suoi talenti bonus dei guerrieri (vedi pagina 38).</p>\n<p>MAESTRIA IN COMBATTIMENTO</p>\n<p>[GENERALE] Il personaggio è in grado di utilizzare la propria abilità in combat-. timento tanto per la difesa quanto per l'attacco . Prerequisito : Int 13. Beneficio: Quando il personaggio usa un'azione di attacco o un'azione di attacco completo in mischia, egli può prendere un a penalità fino a -5 all'attacco e sommare lo stesso numero (fino a +5 ) come bonus di schivare alla propria Classe Armatura . Questo numero non può superare il proprio bonus di attacco base . Le modifiche al tiro per colpire e alla Classe Armatura si applicano fino all'azione successiva del personaggio. Normale : Un personaggio che non possiede il talento Maestri a in Combattimento può combattere sulla difensiva mentre utilizz a un'azione di attacco odi attacco completo, subendo una penalità d i -4 all'attacco e ottenendo un bonus di schivare +2 alla Classe Armatura. Speciale: Un guerriero può selezionare Maestria in Combattimento come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).</p>"
+    "prerequisites": "Des 13, Colpo Senz'Armi Migliorato."
   },
   {
     "slug": "improved-initiative",
     "name": "Iniziativa Migliorata",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +4 alle prove di iniziativa.",
-    "special": "Un guerriero può selezionare Iniziativa Migliorata come uno dei suoi talenti bonus da guerriero.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +4 alle prove di iniziativa.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Iniziativa Migliorata come uno dei suoi talenti bonus da guerriero.</p>"
+    "special": "Un guerriero può selezionare Iniziativa Migliorata come uno dei suoi talenti bonus da guerriero."
   },
   {
     "slug": "improved-overrun",
@@ -441,8 +389,7 @@
     "benefit": "Quando tenti di travolgere un avversario, il bersaglio non può scegliere di evitarti. Ottieni anche un bonus di +4 alla prova di Forza per abbattere il tuo avversario.",
     "normal": "Senza questo talento, il bersaglio di un travolgimento può scegliere di farsi da parte.",
     "special": "Un guerriero può selezionare Travolgere Migliorato come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "For 13, Attacco Poderoso.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> For 13, Attacco Poderoso.</p>\n<p><strong>Beneficio:</strong> Quando tenti di travolgere un avversario, il bersaglio non può scegliere di evitarti. Ottieni anche un bonus di +4 alla prova di Forza per abbattere il tuo avversario.</p>\n<p><strong>Normale:</strong> Senza questo talento, il bersaglio di un travolgimento può scegliere di farsi da parte.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Travolgere Migliorato come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "For 13, Attacco Poderoso."
   },
   {
     "slug": "improved-precise-shot",
@@ -451,8 +398,7 @@
     "benefit": "I tuoi attacchi a distanza ignorano il bonus alla CA garantito ai bersagli da qualsiasi cosa che non sia copertura totale, e la probabilità di mancamento garantita ai bersagli da qualsiasi cosa che non sia occultamento totale. Copertura totale e occultamento totale forniscono i loro normali benefici contro i tuoi attacchi a distanza. Inoltre, quando spari o lanci un'arma a distanza contro un bersaglio impegnato in lotta, non devi tirare casualmente per vedere quale partecipante alla lotta è colpito.",
     "special": "Un guerriero può selezionare Tiro Preciso Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con arco è considerato come se avesse Tiro Preciso Migliorato, anche se non ne soddisfa i prerequisiti.",
     "prerequisites": "Des 19, Tiro Ravvicinato, Tiro Preciso, bonus di attacco base +11.",
-    "normal": "Vedi le regole normali sugli effetti di copertura e occultamento. Senza questo talento, un personaggio che spara o lancia un'arma a distanza contro un bersaglio impegnato in lotta deve tirare casualmente per vedere quale partecipante alla lotta è colpito.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Des 19, Tiro Ravvicinato, Tiro Preciso, bonus di attacco base +11.</p>\n<p><strong>Beneficio:</strong> I tuoi attacchi a distanza ignorano il bonus alla CA garantito ai bersagli da qualsiasi cosa che non sia copertura totale, e la probabilità di mancamento garantita ai bersagli da qualsiasi cosa che non sia occultamento totale. Copertura totale e occultamento totale forniscono i loro normali benefici contro i tuoi attacchi a distanza. Inoltre, quando spari o lanci un'arma a distanza contro un bersaglio impegnato in lotta, non devi tirare casualmente per vedere quale partecipante alla lotta è colpito.</p>\n<p><strong>Normale:</strong> Vedi le regole normali sugli effetti di copertura e occultamento. Senza questo talento, un personaggio che spara o lancia un'arma a distanza contro un bersaglio impegnato in lotta deve tirare casualmente per vedere quale partecipante alla lotta è colpito.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Tiro Preciso Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con arco è considerato come se avesse Tiro Preciso Migliorato, anche se non ne soddisfa i prerequisiti.</p>"
+    "normal": "Vedi le regole normali sugli effetti di copertura e occultamento. Senza questo talento, un personaggio che spara o lancia un'arma a distanza contro un bersaglio impegnato in lotta deve tirare casualmente per vedere quale partecipante alla lotta è colpito."
   },
   {
     "slug": "improved-shield-bash",
@@ -461,8 +407,7 @@
     "benefit": "Quando effettui un colpo con lo scudo, puoi comunque applicare il bonus dello scudo alla CA.",
     "normal": "Senza questo talento, un personaggio che effettua un colpo con lo scudo perde il bonus dello scudo alla CA fino alla sua prossima azione.",
     "special": "Un guerriero può selezionare Colpo con lo Scudo Migliorato come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Competenza negli Scudi.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Competenza negli Scudi.</p>\n<p><strong>Beneficio:</strong> Quando effettui un colpo con lo scudo, puoi comunque applicare il bonus dello scudo alla CA.</p>\n<p><strong>Normale:</strong> Senza questo talento, un personaggio che effettua un colpo con lo scudo perde il bonus dello scudo alla CA fino alla sua prossima azione.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Colpo con lo Scudo Migliorato come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Competenza negli Scudi."
   },
   {
     "slug": "improved-sunder",
@@ -471,8 +416,7 @@
     "benefit": "Quando colpisci un oggetto tenuto o indossato con un attacco per distruggere, non provochi un attacco di opportunità. Ottieni anche un bonus di +4 alla prova di attacco per distruggere.",
     "normal": "Senza questo talento, tentare di distruggere un oggetto provoca un attacco di opportunità.",
     "special": "Un guerriero può selezionare Distruggere Migliorato come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "For 13, Attacco Poderoso.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> For 13, Attacco Poderoso.</p>\n<p><strong>Beneficio:</strong> Quando colpisci un oggetto tenuto o indossato con un attacco per distruggere, non provochi un attacco di opportunità. Ottieni anche un bonus di +4 alla prova di attacco per distruggere.</p>\n<p><strong>Normale:</strong> Senza questo talento, tentare di distruggere un oggetto provoca un attacco di opportunità.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Distruggere Migliorato come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "For 13, Attacco Poderoso."
   },
   {
     "slug": "improved-trip",
@@ -481,16 +425,14 @@
     "benefit": "Non provochi un attacco di opportunità quando tenti di sgambettare un avversario mentre sei in mischia. Ottieni anche un bonus di +4 alla prova di Forza per sgambettare. Se sgambetti con successo un avversario, ottieni immediatamente un attacco in mischia contro quell'avversario come se non avessi usato il tuo attacco per lo sgambetto.",
     "normal": "Senza questo talento, tentare uno sgambetto provoca un attacco di opportunità.",
     "special": "Al 6° livello, un monaco può selezionare Sgambetto Migliorato come talento bonus, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Int 13, Competenza in Combattimento.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Int 13, Competenza in Combattimento.</p>\n<p><strong>Beneficio:</strong> Non provochi un attacco di opportunità quando tenti di sgambettare un avversario mentre sei in mischia. Ottieni anche un bonus di +4 alla prova di Forza per sgambettare. Se sgambetti con successo un avversario, ottieni immediatamente un attacco in mischia contro quell'avversario come se non avessi usato il tuo attacco per lo sgambetto.</p>\n<p><strong>Normale:</strong> Senza questo talento, tentare uno sgambetto provoca un attacco di opportunità.</p>\n<p><strong>Speciale:</strong> Al 6° livello, un monaco può selezionare Sgambetto Migliorato come talento bonus, anche se non ne soddisfa i prerequisiti.</p>"
+    "prerequisites": "Int 13, Competenza in Combattimento."
   },
   {
     "slug": "improved-turning",
     "name": "Scacciare Migliorato",
     "type": "Generale",
     "benefit": "Aggiungi un bonus di +1 al tuo livello di scacciare quando fai una prova di scacciare per determinare il Dado Vita massimo della creatura non morta che puoi influenzare.",
-    "prerequisites": "Capacità di scacciare o intimorire creature.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Capacità di scacciare o intimorire creature.</p>\n<p><strong>Beneficio:</strong> Aggiungi un bonus di +1 al tuo livello di scacciare quando fai una prova di scacciare per determinare il Dado Vita massimo della creatura non morta che puoi influenzare.</p>"
+    "prerequisites": "Capacità di scacciare o intimorire creature."
   },
   {
     "slug": "improved-two-weapon-fighting",
@@ -499,8 +441,7 @@
     "benefit": "Oltre al normale attacco extra con un'arma secondaria, ottieni un secondo attacco con essa, anche se con una penalità di –5.",
     "normal": "Senza questo talento, puoi ottenere solo un singolo attacco extra con un'arma secondaria.",
     "special": "Un guerriero può selezionare Combattere con Due Armi Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 6° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Migliorato, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Des 17, Combattere con Due Armi, bonus di attacco base +6.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Des 17, Combattere con Due Armi, bonus di attacco base +6.</p>\n<p><strong>Beneficio:</strong> Oltre al normale attacco extra con un'arma secondaria, ottieni un secondo attacco con essa, anche se con una penalità di –5.</p>\n<p><strong>Normale:</strong> Senza questo talento, puoi ottenere solo un singolo attacco extra con un'arma secondaria.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Combattere con Due Armi Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 6° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Migliorato, anche se non ne soddisfa i prerequisiti.</p>"
+    "prerequisites": "Des 17, Combattere con Due Armi, bonus di attacco base +6."
   },
   {
     "slug": "improved-unarmed-strike",
@@ -508,44 +449,38 @@
     "type": "Generale",
     "benefit": "Sei considerato armato anche quando sei disarmato—cioè, non provochi attacchi di opportunità da avversari armati quando li attacchi disarmato. Tuttavia, provochi ancora attacchi di opportunità come normale se effettui un attacco disarmato quando minacciato da un avversario che non stai attaccando.",
     "normal": "Senza questo talento, sei considerato disarmato quando attacchi con un colpo senz'armi e provochi un attacco di opportunità da avversari armati.",
-    "special": "Un monaco ottiene automaticamente Colpo Senz'Armi Migliorato come talento bonus al 1° livello. Non ha bisogno di selezionarlo.",
-    "desc_html": "<p><strong>Beneficio:</strong> Sei considerato armato anche quando sei disarmato—cioè, non provochi attacchi di opportunità da avversari armati quando li attacchi disarmato. Tuttavia, provochi ancora attacchi di opportunità come normale se effettui un attacco disarmato quando minacciato da un avversario che non stai attaccando.</p>\n<p><strong>Normale:</strong> Senza questo talento, sei considerato disarmato quando attacchi con un colpo senz'armi e provochi un attacco di opportunità da avversari armati.</p>\n<p><strong>Speciale:</strong> Un monaco ottiene automaticamente Colpo Senz'Armi Migliorato come talento bonus al 1° livello. Non ha bisogno di selezionarlo.</p>"
+    "special": "Un monaco ottiene automaticamente Colpo Senz'Armi Migliorato come talento bonus al 1° livello. Non ha bisogno di selezionarlo."
   },
   {
     "slug": "investigator",
     "name": "Investigatore",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Raccogliere Informazioni e Cercare.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Raccogliere Informazioni e Cercare.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Raccogliere Informazioni e Cercare."
   },
   {
     "slug": "iron-will",
     "name": "Volontà di Ferro",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Volontà.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutti i tiri salvezza sulla Volontà.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Volontà."
   },
   {
     "slug": "leadership",
     "name": "Autorità",
     "type": "Generale",
     "benefit": "Avere questo talento consente al personaggio di attrarre compagni leali e seguaci devoti, subordinati che lo assistono. Il personaggio può reclutare un coorteo e un certo numero di seguaci in base al suo punteggio di Autorità.",
-    "prerequisites": "Livello del personaggio 6°.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Livello del personaggio 6°.</p>\n<p><strong>Benefici:</strong> Avere questo talento consente al personaggio di attrarre compagni leali e seguaci devoti, subordinati che lo assistono. Il personaggio può reclutare un coorteo e un certo numero di seguaci in base al suo punteggio di Autorità.</p>"
+    "prerequisites": "Livello del personaggio 6°."
   },
   {
     "slug": "lightning-reflexes",
     "name": "Riflessi Fulminei",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sui Riflessi.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutti i tiri salvezza sui Riflessi.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sui Riflessi."
   },
   {
     "slug": "magical-aptitude",
     "name": "Attitudine Magica",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Conoscenze Magiche e Utilizzare Oggetti Magici.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Conoscenze Magiche e Utilizzare Oggetti Magici.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Conoscenze Magiche e Utilizzare Oggetti Magici."
   },
   {
     "slug": "manyshot",
@@ -553,8 +488,7 @@
     "type": "Generale",
     "benefit": "Come azione standard, puoi tirare due frecce contro un singolo avversario entro 9 metri. Entrambe le frecce usano lo stesso tiro per colpire (con una penalità di –4) per determinare il successo e infliggono danni normalmente. Per ogni cinque punti di bonus di attacco base che hai sopra +6, puoi aggiungere una freccia aggiuntiva al tiro, fino a un massimo di quattro frecce (con un bonus di attacco base di +16 o superiore).",
     "special": "Indipendentemente dal numero di frecce che tiri, applichi i danni basati sulla precisione solo una volta. Se ottieni un colpo critico, solo la prima freccia tirata infligge danni critici; tutte le altre infliggono danni normali.",
-    "prerequisites": "Des 17, Tiro Ravvicinato, Tiro Rapido, bonus di attacco base +6.",
-    "desc_html": "<p>Il personaggio può scagliare più frecce assieme contro lo stesso avversario. Prerequisiti : Des 17, Tiro Rapido , Tiro Ravvicinato, bonus</p>\n<p>di attacco base +6 . Beneficio: Il personaggio, co me azione standard, può scagliare due frecce assieme contro lo stesso avversario _ entro un raggio di 9 metri. En trambe le frecce utili-rnM0 l o stesso tiro per colpire (con una penalità di -4) ai fin i di valutare il success o dell'attacco e infliggere danni di conse guenza (vedi \"Spe- •ciale \" , sotto). Per ogni cinque punti di</p>\n<p>ra</p>\n<p>bonus di attacco base posseduti oltre +6, il personaggio può aggiun gere unaltra freccia a questo attacco, fino a un massimo di quattr o frecce a un bonus di attacco base +16. Tuttavia, per ogni freccia oltre la seconda, si applica al tiro per colpire una penalità cumulabile di - 2 (ossia, una penalità totale di -6 per tre frecce e di -8 per quattro). . La riduzione del danno e le altre resistenze, di volta in volta, si ap- , plicano tutte separatamente a ogni freccia scagliata . Speciale: A prescindere dal numero di frecce scagliate, il personaggio può applicare danni di precisione (come i danni dell'attacc o furtivo) soltanto una volta . Se il personaggio mette a segno un col-. po critico, soltanto la prima freccia scagliata infligge danni critici ; tutte le altre infliggono danni normali . Un ranger di 6° livello, che ha scelto lo stile di combattimento co n l'arco, può attaccare come se possedesse Tiro Multiplo, persino se non soddisfa i prerequisiti, purché indossi un'arma tura leggera o nessuna armatura (vedi pagina 54). Un guerriero può selezionare Tiro Multiplo come</p>\n<p>uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).</p>"
+    "prerequisites": "Des 17, Tiro Ravvicinato, Tiro Rapido, bonus di attacco base +6."
   },
   {
     "slug": "martial-weapon-proficiency",
@@ -562,15 +496,13 @@
     "type": "Generale",
     "benefit": "Effettui i tiri per colpire con l'arma selezionata normalmente.",
     "normal": "Quando usi un'arma con cui non sei competente, subisci una penalità di –4 ai tiri per colpire.",
-    "special": "Barbari, guerrieri, paladini e ranger sono competenti con tutte le armi da guerra. Non hanno bisogno di selezionare questo talento. Puoi ottenere Competenza nelle Armi da Guerra più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma da guerra.",
-    "desc_html": "<p>Scegli un tipo di arma da guerra. Sai come usare quel tipo di arma da guerra in combattimento.</p>\n<p><strong>Beneficio:</strong> Effettui i tiri per colpire con l'arma selezionata normalmente.</p>\n<p><strong>Normale:</strong> Quando usi un'arma con cui non sei competente, subisci una penalità di –4 ai tiri per colpire.</p>\n<p><strong>Speciale:</strong> Barbari, guerrieri, paladini e ranger sono competenti con tutte le armi da guerra. Non hanno bisogno di selezionare questo talento. Puoi ottenere Competenza nelle Armi da Guerra più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma da guerra.</p>"
+    "special": "Barbari, guerrieri, paladini e ranger sono competenti con tutte le armi da guerra. Non hanno bisogno di selezionare questo talento. Puoi ottenere Competenza nelle Armi da Guerra più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma da guerra."
   },
   {
     "slug": "maximize-spell",
     "name": "Incantesimi Massimizzati",
     "type": "Metamagico",
-    "benefit": "Tutti gli effetti numerici variabili di un incantesimo modificato da questo talento sono massimizzati. I tiri salvezza e i tiri contrapposti non sono influenzati, né lo sono gli incantesimi senza variabili casuali. Un incantesimo massimizzato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo.",
-    "desc_html": "<p>Il personaggio può lanciare incantesimi al massimo effetto pos4 _ sibile . Beneficio: Tutti gli effetti numerici variabili di un incantesimo modificato da questo talento, sono elevati alla massima potenza . U n incantesimo massimizzato infligge il danno massimo, cura il numero massimo di punti ferita, ha effetto sul numero massimo di bersa -</p>\n<p>Li)</p>\n<p>gli ecc ., come appropriato. Ad esempio, un incantesimo palla di fuoco massimizzato infligge 6 danni per ogni livello dell'incantatore (fi no a un massimo di 60 danni al 10° livello dell'incantatore). Non ha alcun effetto sui tiri salvezza e sui tiri contrapposti (come quelli ch e si effettuano con un dissolvi magie), né sugli incantesimi privi di va riabili casuali. Un incantesimo massimizzato occupa uno slot incantesimo di tre livelli superiore a quello effettivo dell'incantesimo. Un incantesimo sia potenziato che massimizzato, ottiene i benefici separati di ciascun talento: il risultato massimo più la metà del risultato che normalmente si otterrebbe . Una palla di fuoco potenziata e massimizzata lanciata da un mago di 15° livello infligge 60 danni più la metà di 10d6 .</p>"
+    "benefit": "Tutti gli effetti numerici variabili di un incantesimo modificato da questo talento sono massimizzati. I tiri salvezza e i tiri contrapposti non sono influenzati, né lo sono gli incantesimi senza variabili casuali. Un incantesimo massimizzato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo."
   },
   {
     "slug": "mobility",
@@ -578,8 +510,7 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di schivare +4 alla Classe Armatura contro attacchi di opportunità causati dal muoversi fuori da o dentro un'area minacciata. Un bonus di schivare di questo tipo non si applica se perdi il tuo bonus di Destrezza alla CA.",
     "special": "Un guerriero può selezionare Mobilità come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13, Schivare.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Des 13, Schivare.</p>\n<p><strong>Beneficio:</strong> Ottieni un bonus di schivare +4 alla Classe Armatura contro attacchi di opportunità causati dal muoversi fuori da o dentro un'area minacciata. Un bonus di schivare di questo tipo non si applica se perdi il tuo bonus di Destrezza alla CA.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Mobilità come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Des 13, Schivare."
   },
   {
     "slug": "mounted-archery",
@@ -587,8 +518,7 @@
     "type": "Generale",
     "benefit": "La penalità che subisci quando usi un'arma a distanza mentre sei in sella è dimezzata: –2 invece di –4 se la cavalcatura compie un doppio movimento, e –4 invece di –8 se la cavalcatura corre.",
     "special": "Un guerriero può selezionare Tiro in Sella come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Cavalcare 1 grado, Combattimento in Sella.</p>\n<p><strong>Beneficio:</strong> La penalità che subisci quando usi un'arma a distanza mentre sei in sella è dimezzata: –2 invece di –4 se la cavalcatura compie un doppio movimento, e –4 invece di –8 se la cavalcatura corre.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Tiro in Sella come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella."
   },
   {
     "slug": "mounted-combat",
@@ -596,45 +526,39 @@
     "type": "Generale",
     "benefit": "Una volta per round quando la tua cavalcatura è colpita in combattimento, puoi tentare una prova di Cavalcare (come reazione) per negare il colpo. La prova di Cavalcare sostituisce la CA della cavalcatura. Se il risultato della tua prova di Cavalcare è maggiore del tiro per colpire, il colpo manca.",
     "special": "Un guerriero può selezionare Combattere in Sella come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Cavalcare 1 grado.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Cavalcare 1 grado.</p>\n<p><strong>Beneficio:</strong> Una volta per round quando la tua cavalcatura è colpita in combattimento, puoi tentare una prova di Cavalcare (come reazione) per negare il colpo. La prova di Cavalcare sostituisce la CA della cavalcatura. Se il risultato della tua prova di Cavalcare è maggiore del tiro per colpire, il colpo manca.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Combattere in Sella come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Cavalcare 1 grado."
   },
   {
     "slug": "natural-spell",
     "name": "Incantesimi Naturali",
     "type": "Generale",
     "benefit": "Puoi completare le componenti verbali e somatiche degli incantesimi mentre sei in forma selvatica. Puoi anche usare qualsiasi focus materiale o focus divino che porti incorporato nella tua forma selvatica.",
-    "prerequisites": "Sag 13, capacità forma selvatica.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Sag 13, capacità forma selvatica.</p>\n<p><strong>Beneficio:</strong> Puoi completare le componenti verbali e somatiche degli incantesimi mentre sei in forma selvatica. Puoi anche usare qualsiasi focus materiale o focus divino che porti incorporato nella tua forma selvatica.</p>"
+    "prerequisites": "Sag 13, capacità forma selvatica."
   },
   {
     "slug": "negotiator",
     "name": "Negoziatore",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Diplomazia e Percepire Intenzioni.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Diplomazia e Percepire Intenzioni.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Diplomazia e Percepire Intenzioni."
   },
   {
     "slug": "nimble-fingers",
     "name": "Dita Sottili",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Disattivare Congegni e Scassinare Serrature.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Disattivare Congegni e Scassinare Serrature.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Disattivare Congegni e Scassinare Serrature."
   },
   {
     "slug": "persuasive",
     "name": "Persuasivo",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Raggirare e Intimidire.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Raggirare e Intimidire.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Raggirare e Intimidire."
   },
   {
     "slug": "point-blank-shot",
     "name": "Tiro Ravvicinato",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +1 ai tiri per colpire e ai tiri per i danni con armi a distanza a portata fino a 9 metri.",
-    "special": "Un guerriero può selezionare Tiro Ravvicinato come uno dei suoi talenti bonus da guerriero.",
-    "desc_html": "<p>Il personaggio è in grado di effettuare tiri ben piazzati con armi a distanza anche contro bersagli ravvicinati . Beneficio: Il personaggio ottiene un bonus di +1 al tiro pe r colpire e ai danni con armi a distanza con gittata fino a 9 metri. Speciale : Un guerriero può selezionare Tiro Ravvicinato com e uno dei suoi talenti bonus dei guerrieri (vedi pagina 38) .</p>\n<p>VOCAZIONE MAGICA</p>\n<p>[GENERALE ] il personaggio sa come darsi_da fare_con lai magia.</p>\n<p>Beneficio: 1l personaggio ottiene uri bonus di +2 a tutte le prove di Sapienza . Magica e Utilizzare Oggetti Magici.</p>\n<p>VOLONTÀ D1 FERRO _</p>\n<p>[GENERALE] _ -4-- Il personaggio possiede una.volontà_piìt forte,</p>\n<p>del normale . Beneficio : Il personaggio ottiene unbonus di + 2 a tutti i tiri salvezza stilla Volontà .</p>"
+    "special": "Un guerriero può selezionare Tiro Ravvicinato come uno dei suoi talenti bonus da guerriero."
   },
   {
     "slug": "power-attack",
@@ -642,8 +566,7 @@
     "type": "Generale",
     "benefit": "Nel tuo turno, prima di effettuare tiri per colpire per un round, puoi scegliere di sottrarre un numero dal tuo tiro per colpire in mischia e aggiungere lo stesso numero al tuo tiro per i danni in mischia. Questo numero non può superare il tuo bonus di attacco base. La penalità ai tiri per colpire e il bonus ai danni si applicano fino alla tua prossima azione.",
     "special": "Se attacchi con un'arma a due mani, aggiungi invece il doppio del numero sottratto dai tiri per colpire. Non puoi aggiungere il bonus ai danni con un'arma leggera.",
-    "prerequisites": "For 13.",
-    "desc_html": "<p><strong>Prerequisito:</strong> For 13.</p>\n<p><strong>Beneficio:</strong> Nel tuo turno, prima di effettuare tiri per colpire per un round, puoi scegliere di sottrarre un numero dal tuo tiro per colpire in mischia e aggiungere lo stesso numero al tuo tiro per i danni in mischia. Questo numero non può superare il tuo bonus di attacco base. La penalità ai tiri per colpire e il bonus ai danni si applicano fino alla tua prossima azione.</p>\n<p><strong>Speciale:</strong> Se attacchi con un'arma a due mani, aggiungi invece il doppio del numero sottratto dai tiri per colpire. Non puoi aggiungere il bonus ai danni con un'arma leggera.</p>"
+    "prerequisites": "For 13."
   },
   {
     "slug": "precise-shot",
@@ -651,8 +574,7 @@
     "type": "Generale",
     "benefit": "Puoi sparare o lanciare armi a distanza su un bersaglio impegnato in mischia senza subire la penalità standard di –4 al tiro per colpire.",
     "special": "Un guerriero può selezionare Tiro Preciso come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Tiro Ravvicinato.",
-    "desc_html": "<p>Il personaggio dimostra un tempismo e una mira perfetti nei propri attacchi a distanza . Prerequisito: Tiro Ravvicinato. Beneficio: Il personaggio può tirare o lanciare armi a distanz a contro un avversario impegnato in mischia senza subire la normal e penalità di -4 (vedi \"Tirare o lanciare in mischia\", pagina 140). Speciale : Un guerriero può selezionare Tiro Preciso come un o dei suoi talenti bonus dei guerrieri (ved i pagina 38).</p>\n<p>TIRO PRECISO</p>"
+    "prerequisites": "Tiro Ravvicinato."
   },
   {
     "slug": "quick-draw",
@@ -661,16 +583,14 @@
     "benefit": "Puoi estrarre un'arma come azione gratuita invece che come azione di movimento. Puoi lanciare armi alla massima velocità di attacco (molto simile alla penalità per gli attacchi in mischia).",
     "normal": "Senza questo talento, puoi estrarre un'arma come azione di movimento, o (se il tuo bonus di attacco base è +1 o superiore) come azione gratuita come parte di un movimento.",
     "special": "Un guerriero può selezionare Estrazione Rapida come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Bonus di attacco base +1.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Bonus di attacco base +1.</p>\n<p><strong>Beneficio:</strong> Puoi estrarre un'arma come azione gratuita invece che come azione di movimento. Puoi lanciare armi alla massima velocità di attacco (molto simile alla penalità per gli attacchi in mischia).</p>\n<p><strong>Normale:</strong> Senza questo talento, puoi estrarre un'arma come azione di movimento, o (se il tuo bonus di attacco base è +1 o superiore) come azione gratuita come parte di un movimento.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Estrazione Rapida come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Bonus di attacco base +1."
   },
   {
     "slug": "quicken-spell",
     "name": "Incantesimi Rapidi",
     "type": "Metamagico",
     "benefit": "Lanciare un incantesimo rapido è un'azione gratuita. Puoi effettuare un'altra azione, incluso lanciare un altro incantesimo, nello stesso round in cui lanci un incantesimo rapido. Puoi lanciare solo un incantesimo rapido per round. Un incantesimo il cui tempo di lancio è più di 1 azione di round completo non può essere reso rapido. Un incantesimo rapido usa uno slot incantesimo di quattro livelli superiore al livello effettivo dell'incantesimo.",
-    "special": "Questo talento non può essere applicato a nessun incantesimo lanciato spontaneamente (inclusi incantesimi da stregone, bardo e incantesimi da chierico o druido lanciati spontaneamente), poiché applicare un talento metamagico a un incantesimo lanciato spontaneamente ne aumenta automaticamente il tempo di lancio.",
-    "desc_html": "<p><strong>Beneficio:</strong> Lanciare un incantesimo rapido è un'azione gratuita. Puoi effettuare un'altra azione, incluso lanciare un altro incantesimo, nello stesso round in cui lanci un incantesimo rapido. Puoi lanciare solo un incantesimo rapido per round. Un incantesimo il cui tempo di lancio è più di 1 azione di round completo non può essere reso rapido. Un incantesimo rapido usa uno slot incantesimo di quattro livelli superiore al livello effettivo dell'incantesimo.</p>\n<p><strong>Speciale:</strong> Questo talento non può essere applicato a nessun incantesimo lanciato spontaneamente (inclusi incantesimi da stregone, bardo e incantesimi da chierico o druido lanciati spontaneamente), poiché applicare un talento metamagico a un incantesimo lanciato spontaneamente ne aumenta automaticamente il tempo di lancio.</p>"
+    "special": "Questo talento non può essere applicato a nessun incantesimo lanciato spontaneamente (inclusi incantesimi da stregone, bardo e incantesimi da chierico o druido lanciati spontaneamente), poiché applicare un talento metamagico a un incantesimo lanciato spontaneamente ne aumenta automaticamente il tempo di lancio."
   },
   {
     "slug": "rapid-reload",
@@ -679,8 +599,7 @@
     "benefit": "Il tempo necessario per ricaricare il tuo tipo di balestra scelto è ridotto a un'azione gratuita (per una balestra a mano o leggera) o a un'azione di movimento (per una balestra pesante). Ricaricare una balestra provoca comunque un attacco di opportunità. Se hai selezionato questo talento per la balestra a mano o leggera, puoi tirare quella balestra con la stessa velocità con cui potresti tirare un arco.",
     "normal": "Un personaggio senza questo talento ha bisogno di un'azione di movimento per ricaricare una balestra a mano o leggera, o di un'azione di round completo per ricaricare una balestra pesante.",
     "special": "Puoi ottenere Ricarica Rapida più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di balestra. Un guerriero può selezionare Ricarica Rapida come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Competenza nelle Armi (tipo di balestra scelto).",
-    "desc_html": "<p>Il personaggio sceglie un tipo di balestra (a mano, leggera o pesante). Il personaggio può caricare una balestra di quel tipo più ve locemente del normale . Prerequisito : Competenza nell'Arma (tipo di balestra selezionato). Beneficio: Il tempo per caricare una balestra del tipo prescelto si riduce a un'azione gratuita (per le balestre a mano o leggere) o a un'azione di movimento (per le balestre pesanti). Si noti che cari care una balestra provoca comunque attacchi di opportunità . Se il personaggio ha applicato questo talento sulle balestre a mano o leggere, in un'azione di attacco completo, può scagliare tanti qua drelli al round quanti ne lancerebbe se scagliasse frecce con un arco. Normale: Un personaggio privo di questo talento impiega un'a zione di movimento per caricare una balestra a mano o leggera, e un'azione di round completo per caricare una balestra pesante. Speciale : Il personaggio può acquisire Ricarica Rapida più volte . Ogni volta che acquisisce il talento, lo deve applicare a un nuovo tipo di balestra . Un guerriero può selezionare Ricarica Rapida come uno dei . suoi talenti bonus dei guerrieri (vedi pagina 38). _—4-</p>\n<p>RIFLESSI IN COMBATTIMENTO [GENERALE] . Il personaggio può rispondere velocemente e ripetutamente a d avversari che abbassano le loro difese . Beneficio: Quando i nemici abbassano la guardia, il personag - Prerequisiti: Des 13, Sag 13, Colpo Senz'Armi Migliorato, bo- . . gio può compiere un numero di attacchi di opportunità aggiunti- . nus di attacco base +8. . vi pari al proprio bonus di Destrezza . Ad esempio, un guerriero con Destrezza 15 può compiere un totale di tre attacchi di opportunità in 1 round: l'attacco di opportunità a disposizione di tutti i personaggi, più altri due attacchi per il suo bonus di Destrezza +2 . Se quattro goblin escono dai quadretti minacciati dal personaggio , questi può compiere un attacco di opportunità contro tre delle . quattro creature . Il personaggio può effettuare soltanto un attacc o di opportunità per ogni opportunità . Con questo talento il personaggio è in grado di effettuare attacchi di opportunità anche se colto alla sprovvista . Normale : Un personaggio privo di questo talento può compie - I re solo un attacco di opportunità per round e non può effettuar e attacchi di opportunità se colto alla sprovvista . Speciale: Il talento Riflessi in Combattimento non consente a un ladro di utilizzare la sua capacità di opportunismo (vedi pagina . 41) più di una volta per round . Un monaco può selezionare Riflessi in Combattimento com e talento bonus al 2° livello (vedi pagina 47). Un guerriero può selezionare Riflessi in Combattimento com e uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).</p>"
+    "prerequisites": "Competenza nelle Armi (tipo di balestra scelto)."
   },
   {
     "slug": "rapid-shot",
@@ -688,8 +607,7 @@
     "type": "Generale",
     "benefit": "Puoi ottenere un attacco a distanza extra per round. Tutti i tuoi tiri per colpire per il round subiscono una penalità di –2 quando usi Tiro Rapido.",
     "special": "Un guerriero può selezionare Tiro Rapido come uno dei suoi talenti bonus da guerriero. Un ranger di 2° livello che ha scelto lo stile di combattimento con arco è considerato come se avesse Tiro Rapido, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Des 13, Tiro Ravvicinato.",
-    "desc_html": "<p>II personaggio può utilizzare armi a distanza conecceziona-, tI</p>\n<p>v le velocità . 1 Prerequisiti: Des 13, Tiro Ravvicinato. Beneficio: Il personaggio ottiene un attacco extr a per round con un'arma a distanza . L'attacco viene effettuato al proprio bonus di attacco base massimo , ma ogni attacco effettuato dal personaggio in que l round (quello extra e quelli normali) subisce un a penalità di -2. Il personaggio deve compiere un'a-, zione di attacco, completo (vedi pagina , 143) per utilizzare questo talento. Speciale : Un ranger di 2` livello, che ha scelto lo , stile di combattimento con l'arco, può attaccare , come se possedesse Tiro Rapido, persino se non sod-. disfa i prerequisiti, purché indossi un'armatura leg- . gera o nessuna armatura (vedi pagina 53). Un guerriero può selezionare Tiro Rapido come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).</p>"
+    "prerequisites": "Des 13, Tiro Ravvicinato."
   },
   {
     "slug": "ride-by-attack",
@@ -697,31 +615,27 @@
     "type": "Generale",
     "benefit": "Quando sei in sella e usi l'azione di carica, puoi muoverti e attaccare come con una carica standard e poi continuare a muoverti (fino al doppio della velocità della cavalcatura). Devi muoverti almeno di 3 metri prima e dopo l'attacco.",
     "special": "Un guerriero può selezionare Attacco in Corsa a Cavallo come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Cavalcare 1 grado, Combattimento in Sella.</p>\n<p><strong>Beneficio:</strong> Quando sei in sella e usi l'azione di carica, puoi muoverti e attaccare come con una carica standard e poi continuare a muoverti (fino al doppio della velocità della cavalcatura). Devi muoverti almeno di 3 metri prima e dopo l'attacco.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Attacco in Corsa a Cavallo come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella."
   },
   {
     "slug": "run",
     "name": "Correre",
     "type": "Generale",
     "benefit": "Quando corri, ti muovi a cinque volte la tua velocità normale (se indossi armatura media, leggera o nessuna e trasporti un carico non più che medio) o a quattro volte la tua velocità (se indossi armatura pesante o trasporti un carico pesante). Se effettui un salto dopo una rincorsa, ottieni un bonus di +4 alla prova di Saltare.",
-    "normal": "Ti muovi a quattro volte la tua velocità mentre corri (se indossi armatura media, leggera o nessuna e trasporti un carico non più che medio) o a tre volte la tua velocità (se indossi armatura pesante o trasporti un carico pesante).",
-    "desc_html": "<p>Il personaggio corre velocemente.</p>"
+    "normal": "Ti muovi a quattro volte la tua velocità mentre corri (se indossi armatura media, leggera o nessuna e trasporti un carico non più che medio) o a tre volte la tua velocità (se indossi armatura pesante o trasporti un carico pesante)."
   },
   {
     "slug": "scribe-scroll",
     "name": "Scrivere Pergamene",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare una pergamena di qualsiasi incantesimo che conosci. Scrivere una pergamena richiede un giorno per ogni 1.000 mo nel suo prezzo base. Il prezzo base di una pergamena è il suo livello dell'incantesimo × il suo livello dell'incantatore × 25 mo. Per scrivere una pergamena, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà del prezzo base.",
-    "prerequisites": "Livello dell'incantatore 1°.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Livello dell'incantatore 1°.</p>\n<p><strong>Beneficio:</strong> Puoi creare una pergamena di qualsiasi incantesimo che conosci. Scrivere una pergamena richiede un giorno per ogni 1.000 mo nel suo prezzo base. Il prezzo base di una pergamena è il suo livello dell'incantesimo × il suo livello dell'incantatore × 25 mo. Per scrivere una pergamena, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà del prezzo base.</p>"
+    "prerequisites": "Livello dell'incantatore 1°."
   },
   {
     "slug": "self-sufficient",
     "name": "Autosufficiente",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Guarire e Sopravvivenza.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Guarire e Sopravvivenza.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Guarire e Sopravvivenza."
   },
   {
     "slug": "shield-proficiency",
@@ -730,7 +644,6 @@
     "benefit": "Puoi usare uno scudo e non subire la penalità all'attacco associata.",
     "normal": "Quando usi uno scudo con cui non sei competente, subisci la penalità di controllo dell'armatura dello scudo ai tiri per colpire e a tutte le prove di abilità che comportano movimento.",
     "special": "Barbari, bardi, chierici, druidi, guerrieri, paladini e ranger hanno automaticamente Competenza negli Scudi come talento bonus. Non hanno bisogno di selezionarlo.",
-    "desc_html": "<p>Il personaggio_é competente nell'uso dei buckler, degli scudi legge- . ri e degli scudi pesanti . Beneficio: Il personaggio può imbracciare uno scudo e subire, soltanto le penalità standard (vedi Tabella 7-6 : \"Armature e scudi\" „ pagina 122). Normale : Un personaggio che utilizza uno scudo in cui non è competente subisce la penalità di armatura alla prova dello scudo a l tiro per colpire e a tutti i tiri di abilità che riguardano il movimento, comprese le prove di Cavalcare . Speciale : Barbari, bardi, chierici, druidi, guerrieri, paladini e ran ger possiedono automaticamente Competenza negli Scudi come ta - 4. lento bonus. Non devono selezionarlo.</p>\n<p>COMPETENZA NEGLI SCUDI TORRE</p>\n<p>[GENERALE] Il personaggio è competente nell'uso degli scudi torre. Prerequisito : Competenza negli Scudi. Beneficio: Il personaggio può imbrac ciare uno scudo torre e subire soltant o le penalità standard (vedi Tabella 7-6 : ,</p>\n<p>o \"Armature e scudi\", pagina 122). Normale: Un personaggio che utilizza uno scudo in cui non è competente subisce la penalità di armatura alla prova del lo scudo al tiro per colpire e a tutti i tiri d i abilità che riguardano il movimento, comprese le prove di Cavalcare . Speciale: I guerrieri possiedono auto - maticamente Competenza negli Scudi Torre come talento bonus. Non devono sele zionarlo.</p>\n<p>CONTROINCANTESIMO</p>",
     "prerequisites": "Competenza negli Scudi."
   },
   {
@@ -739,16 +652,14 @@
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco con un'arma a distanza, puoi muoverti sia prima che dopo l'attacco, purché la distanza totale che percorri non sia maggiore della tua velocità.",
     "special": "Un guerriero può selezionare Tiro in Movimento come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13, Schivare, Mobilità, Tiro Ravvicinato, bonus di attacco base +4.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Des 13, Schivare, Mobilità, Tiro Ravvicinato, bonus di attacco base +4.</p>\n<p><strong>Beneficio:</strong> Quando usi l'azione di attacco con un'arma a distanza, puoi muoverti sia prima che dopo l'attacco, purché la distanza totale che percorri non sia maggiore della tua velocità.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Tiro in Movimento come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Des 13, Schivare, Mobilità, Tiro Ravvicinato, bonus di attacco base +4."
   },
   {
     "slug": "silent-spell",
     "name": "Incantesimi Silenziosi",
     "type": "Metamagico",
     "benefit": "Un incantesimo silenzioso può essere lanciato senza componenti verbali. Gli incantesimi senza componenti verbali non sono influenzati. Un incantesimo silenzioso usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
-    "special": "Gli incantesimi da bardo non possono essere potenziati da questo talento metamagico.",
-    "desc_html": "<p><strong>Beneficio:</strong> Un incantesimo silenzioso può essere lanciato senza componenti verbali. Gli incantesimi senza componenti verbali non sono influenzati. Un incantesimo silenzioso usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.</p>\n<p><strong>Speciale:</strong> Gli incantesimi da bardo non possono essere potenziati da questo talento metamagico.</p>"
+    "special": "Gli incantesimi da bardo non possono essere potenziati da questo talento metamagico."
   },
   {
     "slug": "simple-weapon-proficiency",
@@ -756,16 +667,14 @@
     "type": "Generale",
     "benefit": "Effettui i tiri per colpire con le armi semplici normalmente.",
     "normal": "Quando usi un'arma con cui non sei competente, subisci una penalità di –4 ai tiri per colpire.",
-    "special": "Tutti i personaggi eccetto druidi, monaci e maghi sono automaticamente competenti con tutte le armi semplici. Non hanno bisogno di selezionare questo talento.",
-    "desc_html": "<p><strong>Beneficio:</strong> Effettui i tiri per colpire con le armi semplici normalmente.</p>\n<p><strong>Normale:</strong> Quando usi un'arma con cui non sei competente, subisci una penalità di –4 ai tiri per colpire.</p>\n<p><strong>Speciale:</strong> Tutti i personaggi eccetto druidi, monaci e maghi sono automaticamente competenti con tutte le armi semplici. Non hanno bisogno di selezionare questo talento.</p>"
+    "special": "Tutti i personaggi eccetto druidi, monaci e maghi sono automaticamente competenti con tutte le armi semplici. Non hanno bisogno di selezionare questo talento."
   },
   {
     "slug": "skill-focus",
     "name": "Focalizzazione sull'Abilità",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +3 a tutte le prove che coinvolgono quell'abilità.",
-    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova abilità.",
-    "desc_html": "<p>Scegli un'abilità.</p>\n<p><strong>Beneficio:</strong> Ottieni un bonus di +3 a tutte le prove che coinvolgono quell'abilità.</p>\n<p><strong>Speciale:</strong> Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova abilità.</p>"
+    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova abilità."
   },
   {
     "slug": "snatch-arrows",
@@ -773,16 +682,14 @@
     "type": "Generale",
     "benefit": "Quando usi il talento Deviare Frecce puoi afferrare l'arma invece di deviarla semplicemente. Le armi da lancio possono essere immediatamente rilanciate contro l'attaccante originale (anche se non è il tuo turno) o conservate per un uso successivo. Devi avere almeno una mano libera (senza tenere nulla) per usare questo talento.",
     "special": "Un guerriero può selezionare Afferrare Frecce come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 15, Deviare Frecce, Colpo Senz'Armi Migliorato.",
-    "desc_html": "<p>Il personaggio è in grado di afferrare le frecce in arrivo, così come i quadrelli delle balestre, le lance e le altre armi da tiro o da lancio. Prerequisiti: Des_15, Colpo Senz'Armi Migliorato, Deviar e Frecce . Beneficio : Quando viene usato il talento Deviare Frecce (ved i pagina 95), il personaggio può afferrare l'arma anziché limitarsi a deviarla . Armi da lancio, come asce o lance, si possono immediata mente scagliare indietro_controlaggressore originale (persino s e non è il proprio turno) osi possonoraccogliere per utilizzarle in u n secondo momento.</p>\n<p>Il personaggio deve avere almeno una mano libera (che non im</p>\n<p>pugna niente) per utilizzare questo talento. Speciale : Un guerriero può selezionare Afferrare Frecce come 1 uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).</p>"
+    "prerequisites": "Des 15, Deviare Frecce, Colpo Senz'Armi Migliorato."
   },
   {
     "slug": "spell-focus",
     "name": "Incantesimi Focalizzati",
     "type": "Generale",
     "benefit": "Aggiungi +1 alla Classe Difficoltà per tutti i tiri salvezza contro gli incantesimi della scuola di magia selezionata.",
-    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia.",
-    "desc_html": "<p>Scegli una scuola di magia.</p>\n<p><strong>Beneficio:</strong> Aggiungi +1 alla Classe Difficoltà per tutti i tiri salvezza contro gli incantesimi della scuola di magia selezionata.</p>\n<p><strong>Speciale:</strong> Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia.</p>"
+    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia."
   },
   {
     "slug": "spell-mastery",
@@ -790,15 +697,13 @@
     "type": "Speciale",
     "benefit": "Ogni volta che prendi questo talento, scegli un numero di incantesimi pari al tuo modificatore di Intelligenza che già conosci. Da quel momento in poi, puoi preparare questi incantesimi senza fare riferimento a un libro degli incantesimi.",
     "normal": "Senza questo talento, devi usare un libro degli incantesimi per preparare tutti i tuoi incantesimi, eccetto <i>lettura del magico</i>.",
-    "prerequisites": "Livello da mago 1°.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Livello da mago 1°.</p>\n<p><strong>Beneficio:</strong> Ogni volta che prendi questo talento, scegli un numero di incantesimi pari al tuo modificatore di Intelligenza che già conosci. Da quel momento in poi, puoi preparare questi incantesimi senza fare riferimento a un libro degli incantesimi.</p>\n<p><strong>Normale:</strong> Senza questo talento, devi usare un libro degli incantesimi per preparare tutti i tuoi incantesimi, eccetto <i>lettura del magico</i>.</p>"
+    "prerequisites": "Livello da mago 1°."
   },
   {
     "slug": "spell-penetration",
     "name": "Penetrazione Magica",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura.</p>"
+    "benefit": "Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura."
   },
   {
     "slug": "spirited-charge",
@@ -806,8 +711,7 @@
     "type": "Generale",
     "benefit": "Quando sei in sella e usi l'azione di carica, infliggi il doppio dei danni con un'arma da mischia (o il triplo dei danni con una lancia).",
     "special": "Un guerriero può selezionare Carica Impetuosa come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella, Attacco in Corsa.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Cavalcare 1 grado, Combattimento in Sella, Attacco in Corsa.</p>\n<p><strong>Beneficio:</strong> Quando sei in sella e usi l'azione di carica, infliggi il doppio dei danni con un'arma da mischia (o il triplo dei danni con una lancia).</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Carica Impetuosa come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella, Attacco in Corsa."
   },
   {
     "slug": "spring-attack",
@@ -815,22 +719,19 @@
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco con un'arma da mischia, puoi muoverti sia prima che dopo l'attacco, purché la distanza totale che percorri non sia maggiore della tua velocità. Muoversi in questo modo non provoca un attacco di opportunità dal difensore che stai attaccando.",
     "special": "Un guerriero può selezionare Attacco in Movimento come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13, Schivare, Mobilità, bonus di attacco base +4.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Des 13, Schivare, Mobilità, bonus di attacco base +4.</p>\n<p><strong>Beneficio:</strong> Quando usi l'azione di attacco con un'arma da mischia, puoi muoverti sia prima che dopo l'attacco, purché la distanza totale che percorri non sia maggiore della tua velocità. Muoversi in questo modo non provoca un attacco di opportunità dal difensore che stai attaccando.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Attacco in Movimento come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Des 13, Schivare, Mobilità, bonus di attacco base +4."
   },
   {
     "slug": "stealthy",
     "name": "Furtivo",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Nascondersi e Muoversi Silenziosamente.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutte le prove di Nascondersi e Muoversi Silenziosamente.</p>"
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Nascondersi e Muoversi Silenziosamente."
   },
   {
     "slug": "still-spell",
     "name": "Incantesimi Immobili",
     "type": "Metamagico",
     "benefit": "Un incantesimo immobilizzato può essere lanciato senza componenti somatiche. Gli incantesimi senza componenti somatiche non sono influenzati. Un incantesimo immobilizzato usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
-    "desc_html": "<p>Il personaggio può lanciare incantesimi senza compiere gesti . Beneficio: Il personaggio può lanciare un incantesimo immobile senza le componenti somatiche . Gli incantesimi privi di corn- . ponenti somatiche non sono influenzati . Un incantesimo immo-_ bile occupa uno slot incantesimo di un livello superiore a quello . effettivo dell'incantesimo . INCANTESIMI INARRESTABILI [GENERALE] _ Gli incantesimi del personaggio sono molto potenti e penetrano . attraverso la resistenza agli incantesimi con più facilità del normale . Beneficio: Il personaggio ottiene un bonus di +2 alle prove d i livello dell'incantatore (1d20 + livello dell'incantatore) effettuat e per superare la resistenza agli incantesimi di una creatura.</p>\n<p>INCANTESIMI INARRESTABILI SUPERIORE</p>\n<p>[GENERALE] Gli incantesimi del personaggio sono oltremodo potenti e penetrano attraverso la resistenza agli incantesimi con più facilità de l normale . Prerequisito: Incantesimi Inarrestabili . _ Beneficio : Il personaggio ottiene un bonus di +2 alle prove di . livello dell'incantatore (1d20 + livello dell'incantatore) effettuate . per superare la resistenza agli incantesimi di una creatura . Questo, bonus è cumulabile con quello derivante da Incantesimi lnarrstabili .</p>",
     "prerequisites": "Incantesimi Inarrestabili . _"
   },
   {
@@ -839,16 +740,14 @@
     "type": "Generale",
     "benefit": "Devi dichiarare di usare questo talento prima di effettuare il tiro per colpire (quindi un attacco mancato spreca il tentativo). Pugno Stordente costringe un avversario colpito da te con un attacco senz'armi a effettuare un tiro salvezza sulla Tempra (CD 10 + metà del tuo livello del personaggio + il tuo modificatore di Sag), oltre a subire danni normali. Se il difensore fallisce il tiro salvezza, è stordito per 1 round.",
     "special": "Puoi tentare uno stordimento una volta al giorno per ogni quattro livelli che hai raggiunto, e non più di una volta per round.",
-    "prerequisites": "Des 13, Sag 13, Colpo Senz'Armi Migliorato, bonus di attacco base +8.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Des 13, Sag 13, Colpo Senz'Armi Migliorato, bonus di attacco base +8.</p>\n<p><strong>Beneficio:</strong> Devi dichiarare di usare questo talento prima di effettuare il tiro per colpire (quindi un attacco mancato spreca il tentativo). Pugno Stordente costringe un avversario colpito da te con un attacco senz'armi a effettuare un tiro salvezza sulla Tempra (CD 10 + metà del tuo livello del personaggio + il tuo modificatore di Sag), oltre a subire danni normali. Se il difensore fallisce il tiro salvezza, è stordito per 1 round.</p>\n<p><strong>Speciale:</strong> Puoi tentare uno stordimento una volta al giorno per ogni quattro livelli che hai raggiunto, e non più di una volta per round.</p>"
+    "prerequisites": "Des 13, Sag 13, Colpo Senz'Armi Migliorato, bonus di attacco base +8."
   },
   {
     "slug": "toughness",
     "name": "Robustezza",
     "type": "Generale",
     "benefit": "Ottieni +3 punti ferita.",
-    "special": "Un personaggio può ottenere questo talento più volte. I suoi effetti si cumulano.",
-    "desc_html": "<p><strong>Beneficio:</strong> Ottieni +3 punti ferita.</p>\n<p><strong>Speciale:</strong> Un personaggio può ottenere questo talento più volte. I suoi effetti si cumulano.</p>"
+    "special": "Un personaggio può ottenere questo talento più volte. I suoi effetti si cumulano."
   },
   {
     "slug": "tower-shield-proficiency",
@@ -857,8 +756,7 @@
     "benefit": "Puoi usare uno scudo torre e subire solo le penalità standard.",
     "normal": "Un personaggio che usa uno scudo con cui non è competente subisce la penalità di controllo dell'armatura dello scudo ai tiri per colpire e a tutte le prove di abilità che comportano movimento, incluso Cavalcare.",
     "special": "I guerrieri hanno automaticamente Competenza nello Scudo Torre come talento bonus. Non hanno bisogno di selezionarlo.",
-    "prerequisites": "Competenza negli Scudi.",
-    "desc_html": "<p><strong>Prerequisito:</strong> Competenza negli Scudi.</p>\n<p><strong>Beneficio:</strong> Puoi usare uno scudo torre e subire solo le penalità standard.</p>\n<p><strong>Normale:</strong> Un personaggio che usa uno scudo con cui non è competente subisce la penalità di controllo dell'armatura dello scudo ai tiri per colpire e a tutte le prove di abilità che comportano movimento, incluso Cavalcare.</p>\n<p><strong>Speciale:</strong> I guerrieri hanno automaticamente Competenza nello Scudo Torre come talento bonus. Non hanno bisogno di selezionarlo.</p>"
+    "prerequisites": "Competenza negli Scudi."
   },
   {
     "slug": "track",
@@ -866,8 +764,7 @@
     "type": "Generale",
     "benefit": "Per trovare le tracce o per seguirle per 1,5 km richiede una prova di Sopravvivenza riuscita. Devi effettuare un'altra prova di Sopravvivenza ogni volta che le tracce diventano difficili da seguire.",
     "normal": "Senza questo talento, puoi usare l'abilità Sopravvivenza per trovare le tracce, ma puoi seguirle solo se la CD è 10 o inferiore. In alternativa, puoi usare la prova di Cercare per trovare delle impronte o segni simili.",
-    "special": "Un ranger ottiene automaticamente Seguire Tracce come talento bonus. Non ha bisogno di selezionarlo. Questo talento non ti permette di trovare o seguire le tracce di soggetti con il talento Passo senza Tracce.",
-    "desc_html": "<p><strong>Beneficio:</strong> Per trovare le tracce o per seguirle per 1,5 km richiede una prova di Sopravvivenza riuscita. Devi effettuare un'altra prova di Sopravvivenza ogni volta che le tracce diventano difficili da seguire.</p>\n<p><strong>Normale:</strong> Senza questo talento, puoi usare l'abilità Sopravvivenza per trovare le tracce, ma puoi seguirle solo se la CD è 10 o inferiore. In alternativa, puoi usare la prova di Cercare per trovare delle impronte o segni simili.</p>\n<p><strong>Speciale:</strong> Un ranger ottiene automaticamente Seguire Tracce come talento bonus. Non ha bisogno di selezionarlo. Questo talento non ti permette di trovare o seguire le tracce di soggetti con il talento Passo senza Tracce.</p>"
+    "special": "Un ranger ottiene automaticamente Seguire Tracce come talento bonus. Non ha bisogno di selezionarlo. Questo talento non ti permette di trovare o seguire le tracce di soggetti con il talento Passo senza Tracce."
   },
   {
     "slug": "trample",
@@ -875,8 +772,7 @@
     "type": "Generale",
     "benefit": "Quando tenti di travolgere un avversario mentre sei in sella, il bersaglio non può scegliere di evitarti. La tua cavalcatura può effettuare un attacco con zoccolo contro qualsiasi bersaglio che abbatti, ottenendo il bonus standard di +4 ai tiri per colpire contro bersagli proni.",
     "special": "Un guerriero può selezionare Travolgere come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella.",
-    "desc_html": "<p>Il personaggio sa come usare la cavalcatura per abbattere gli av- . versari . Prerequisiti : Cavalcare 1 grado, Combattere in Sella . Beneficio: Quando il personaggio a cavallo tenta di oltrepassare . un avversario, quest'ultimo non può spostarsi . La cavalcatura può scalciare con gli zoccoli contro ogni avversario travolto dal personaggio , ottenendo il bonus standard di +4 attiro per colpire contro avversari proni (vedi \"Oltrepassare\", pagina 157). Speciale: Un guerriero può selezionare Travolgere</p>\n<p>uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).</p>\n<p>Grazie al talento TiroMultiplo è possibile attaccare con due frecce.</p>\n<p>rL</p>\n<p>Ir'</p>\n<p>F1G.A FIG. B</p>\n<p>tsr Vrpt</p>\n<p>ee C,Nt6trt D, dawwara -E</p>\n<p>FIG. F u</p>\n<p>scopo di spingere la geiite compiere atti malvagi . I chie rici sacri :usa 1,i1oro,poter-benigncper proteggere i fedeli. Gli adepti dgIe didtnitàìnalvagie conducono persone innocenti alla rovina per ottenere il favore dei propri dei, sicuri che grandi-ricompense li attendono nell'aldilà . I paladini conducono senza paura la loro crociata contro i malvagi, coscienti•che questa breve vita no n vale tanto da aggrapparvisi . I signori della guerra sono disposti a mettersi dalla parte di qualunque potere sovrannaturale che sia in grado di aiutarli nelle loro conquiste, persuasi dai servitori delle divinità sia buon e che malvagie e dalle loro promesse di ricompensa i n cambio di un giuramento di obbedienza . La moralità e l'atteggiamento di una creatura verso gli altri vengono definiti dal suo allineamento : legale buono, neutrale buono, caotico buono, legal e neutrale, neutrale, caotico neutrale, legale malvagio, neutrale malvagio, caotico malvagio (vedi Ta bella . b-1 : \"Allineamenti di creature, razze e classi \" per sapete quali creature, razze e classi prediligotifo determinati allineamenti) . È necessario scegliere un allineamento per i l proprio personaggio, usando la sua razza e la su a classe copie punto di riferimento. I personaggi standard sono buoni o neutrali, non malvagi . Gli allineamenti malvagi vengono di solito assegnati ai nemici e ai mostri . L'allineamento è uno strumento che consente d i definire l'identità del personaggio, non una camicia d i forza che lo limita . Ogni allineamento comprende u n ampio spettro di personalità e di filosofie di vita, e d i conseguenza due personaggi legali buoni potreb er„o`essrre molto diff enti l'uno dall'altro.</p>\n<p>e sd io completament e coerenti con se stesse . Un personaggio legal e buono potrebbe ad esempio avere una vena d i ingordigia che lo spinge di tanto in tanto a imÍ•</p>\n<p>nf'</p>\n<p>LI-fro,i „,téri</p>\n<p>IGI~YA t ' eena ual è l'aspetto di un personaggio? Quanti anni ha? - Qual è la prima impressione che suscita negli altri ? E quando prega, a quale divinità o pantheon si rivolge, sempre che preghi? Cosa Io ha spinto a diventare un avventuriero ? Lo scopo di questo capitolo è di aiutare i giocato ri a definire l'identità dei loro personaggi : l dettagli che lo defi niscono lo renderanno più credibile, come il personaggio prin cipale di un racconto o di un film . Per molti giocatori, infatti, è fondamentale arricchire il personaggio di particolari, come un a figura reale il cui ruolo si dovrà interpretare . Quando si gioca con'-im personaggio per la prima volta non è necessario definire ogni cosa nei minimi dettagli, ma con l o svolgersi del gioco bisogna cominciare ad avere le idee pi ù chiare su come si desidera che sia. Con il passare del tempo si sviluppano sempre più in dettaglio le sue peculiarità, proprio come lino scrittore che sviluppa un personaggio nel corso del - /, asine di un romanzo nel corso dei romanzi di una serie . iQt slto.rcapitolo descrive l'àllineamento (la posizione di un , e\"tsoliaggio nella lotta fra il bene e il male), la religione (la di- ~11[ o il,Pantheon di riferimento di un personaggio), le stati- ' stietgé_Ai ,ase (nome, sesso, età , e così via) e la sua descrizione ; 'j!#isica . vtti yt - 'C'è un antico torno all'interno del tempio di . Pelor. Quando il tempio deéide di servirsi di avventurieri per le cerche più i m portanti, a coloro che hanno intenzione di -partecipare vien e prima chiesto di baciare il libro. Chi nel suo cuore nasconde l a malvagità viene colpito dal suo sacro potere, e perfino chi no n è né buono né malvagio ne rimane stordito . Solo a chi è in gra do di baciar il libro senza alcuna conseguenza vengono affida ti i compiti Più import4nt*Ahe il te,i i il s.1 Q (fMt II Bthe e il Male, nel mondo di D&D, non sono affitto concetti filosofi ci. Sono le forze che plasmano l'universo. Diavoli in forma umana si aggirano sulla terra con l'unic o</p>\n<p>a-- 1</p>\n<p>Pi possessarsi o a tenere per sé qualcosa, anche se non è affatto l a cosa più giusta né buona da farsi . Le persone non sono coerent i con se stesse neanche da un giorno all'altro, quindi anche i personaggi buoni possono perdere le staffe, quelli neutrali essere ispirati a compiere atti di grande nobiltà, e così via . Quando un giocatore sceglie un allineamento per il proprio. personaggio, significa affermare la sua intenzione di giocarlo i n un certo modo. Se il personaggio finirà poi per agire in maniera più appropriata a un altro allineamento, il DM potrà a quel pun to decidere di cambiare l'allineamento per adattarlo al suo comportamento.</p>\n<p>ALLINEAMENTI TIPIC I Le creature e le classi in corsivo mostrate sulla Tabella 6-1 sono sempre dell'allineamento indicato . Tranne il paladino, sono nat i con quell'allineamento, che fa parte della loro natura . Solitamente, una creatura con un allineamento innato è in qualche mod o connessa (per le sue origini, la sua storia o per mezzo di magia), ai Piani Esterni oppure è una bestia magica . Per le altre creature, razze e classi, l'allineamento specificato. nella Tabella 6-1 è quello tipico o in qualche modo più comune . Le normali creature senzienti possono appartenere a un allinea mento qualunque . Tenderanno probabilmente verso un allinea mento in particolare, ma alcuni individui all'interno della loro specie possono costituire un'eccezione alla norma . A seconda de l tipo di creatura, questi condizionamenti sono più o meno forti . Ad esempio, i coboldi e i beholder generalmente sono legali mal vagi, una i coboldi si differenziano di più tra loro di quanto no n facciano i beholder poiché la loro tendenza verso l'allineamento innato non è poi così condizionante . Oltre alla disposizione naturale, le creature senzienti hanno tendenze culturali che solita mente rafforzano il loro allineamento innato . Gli orchi, ad esempio, tendono ad essere caotici malvagi e la loro cultura tende a produrre individui di questo allineamento. Un umano cresciuto fra di loro ha più probabilità del normale di diventare caotico malvagio, mentre per un orco cresciuto fra gli umani difficilmente avverrà la stessa cosa.</p>\n<p>TABELLA 6-1 : ALLINEAMENTI DI CREATURE, RAllE E</p>\n<p>CLASS I Legale Buono Neutrale Buono Caotico Buon o Arconti Guardina/ Eladri n Draghi d'oro Gnomi Draghi di ram e Lammasu Centauri Unicorni Nani Aquile giganti Elfi Paladini Pseudodraghi Range r Legale Neutrale Neutrale Caotico Neutrale Monaci Animali Mezzelfi Maghi Halfling Mezzorch i Formian Umani Barbari Azer Lucertoloidi Bard i Druidi Ladri Legale Malvagio Neutrale Malvagio Caotico Malvagio Diavoli Drow Demon i Draghi blu Goblin Draghi rossi Beholder Allip Troglodit i Ogre magi Ettercap Gnoll Hobgoblin Divoratori Ogr e</p>\n<p>BENE Coboldi</p>\n<p>CONTRO MALE Orchi I personaggi e le creature buone lottano per proteggere la vita degli innocenti . I personaggi e le creature malvagie, invece, ten-. dono a disprezzare o a distruggere le vite innocenti, sia per sod-. disfazione che per guadagno personale . 11 \"Bene\" comprende l'altruismo, il rispetto per la vita e per l a dignità di tutti gli esseri senzienti. I personaggi buoni si sacrificano per aiutare gli altri . Il \"Male\" comporta invece il ferire, l'opprimere e l'uccidere prossimo. Per alcune creature malvagie è praticamenteimpossi- , bile provare compassione per gli altri: uccidono senza pensarci due volte, se ciò si rivela conveniente . Altri invece perseguono i l male attivamente, uccidendo per gusto personale o al servizio d i qualche padrone o divinità malvagia . Quelli che si pongono in una posizione di neutralità nei con-</p>\n<p>fronti del bene e del male hanno degli scrupoli nell'uccidere gl i innocenti ma non si sentono in obbligo di fare sacrifici personaper proteggerli o aiutarli . Le persone neutrali regolano i loro Frapporti col prossimo solo in base a legami personali : una perso-. na neutrale potrebbe sacrificarsi per proteggere la sua famiglia o persino la sua terra, ma non farebbe certo lo stesso per degli stra nieri che non siano in alcun modo legati a lui. Essere buoni o malvagi può essere una scelta cosciente, com e nel caso di un paladino che tenta di vivere secondo i suoi ideal i o di un chierico malvagio che scatena il terrore e la distruzione per emulare la sua divinità . Ma per la maggior parte della gente , invece, essere buoni o malvagi è un modo di vivere in cui è possibile riconoscersi, ma che non viene scelto consapevolmente .</p>\n<p>Mantenersi neutrali fra il bene e il male solitamente comporta . l'assenza di obblighi morali da una parte o dall'altra, ma per altri . 4sappresenta la scelta di una visione equilibrata del mondo . Pur ri conoscendo che il bene e il male sono una realtà e non semplicemente punti di vista, queste persone ritengono che il giusto posto per la gente, o almeno per loro, sia nel mezzo . Gli animali e le altre creature incapaci di azioni dettate dall a morale sono neutrali piuttosto che buoni o malvagi . Anche le vi pere più letali o le tigri mangiatrici di uomini sono da riteners i neutrali, in quanto mancano della capacità di distinguere un . comportamento giusto da uno sbagliato sul piano morale .</p>\n<p>LEGGE CONTRO CAOS I personaggi legali dicono la verità, mantengono la parola data , hanno rispetto per l'autorità, onorano le loro tradizioni e si ergo- . no a giudici di coloro che non mantengono i loro impegni . I per-. sonaggi caotici seguono solo la propria coscienza, rifiutano ch e venga loro imposto cosa fare, preferiscono le nuove idee alla tra dizione e rispettano le proprie promesse in base all'umore de l momento. La \"Legge\" implica l'onore, l'essere degni di fiducia, l'obbe -</p>\n<p>dienza all'autorità e l'affidabilità . La legalità però può anche vole r dire chiusura mentale, attaccamento reazionario alla tradizione , tendenza a giudicare e mancanza di adattabilità . Quanti promuovono la legalità sostengono che solo un comportamento legale è in grado di creare una società in cui le persone possono fidars i l'una dell'altra e prendere le decisioni giuste, sicuri in tutto e pe r tutto che gli altri agiranno come dovrebbero . 11 \"Caos\" comporta libertà, adattabilità e flessibilità, ma può voler dire anche avventatezza, disprezzo per l'autorità, arbitrarietà nelle decisioni e irresponsabilità . Quelli che hanno con- . sciamente un comportamento caotico sostengono che solo la li- . berta definitiva da ogni costrizione permette all'individuo di , esprimersi pienamente, e prediligono il potenziale che ogni in-. dividuo ha dentro di sé rispetto ai benefici che la società comporta . Le persone neutrali fra la legge e il caos mantengono un cert o rispetto per le autorità e non sentono né il bisogno di obbedir e né quello di ribellarsi . Pur essendo fondamentalmente onesti, so no spesso tentati di mentire o di ingannare gli altri . Essere devoti alla legge o al caos può essere una scelta volontaria, ma la maggior parte delle volte è un tratto della propri a personalità che viene più riconosciuto che scelto. La neutralità . nei confronti della legge e del caos è solitamente una posizione . intermedia, uno stato in cui non ci si sente spinti né da una par- , te né dall'altra . Alcune persone neutrali, comunque, sostengono . che la neutralità sia superiore alla legge e al caos, ritenendoli en- . trambi delle estremizzazioni, con i relativi difetti e svantaggi .</p>\n<p>Gli animali e le altre creature incapaci di azioni dettate dalla amorale sono neutrali . I cani potranno anche essere obbedienti e i gatti spiriti liberi, ma mancano delle capacità morali necessarie , per essere veramente legali o caotici.</p>\n<p>I NOVE ALLINEAMENTI I nove diversi allineamenti descrivono tutte le combinazioni d i �tlegge, caos, bene e male. Ogni descrizione illustra il personaggio tipico appartenente a quell'allineamento. Non bisogna però dimenticare che i singoli individui possono variare rispetto all a norma, e che di giorno in giorno un personaggio può agire più o meno in accordo con il suo allineamento. E quindi meglio usar e queste descrizioni come linee guida, non come un copione . I primi sei allineamenti, da legale buono a caotico neutrale, . sono gli allineamenti standard dei personaggi . I tre allineamenti . malv agi appartengono invece ai mostri e ai nemici . Legale Buono, \"il Crociato\" : Un personaggio legale buono si . comporta esattamente come si pensa o ci si aspetta che agisc a una persona di indole buona. Unisce un forte sentimento di op posizione nei confronti del male alla disciplina necessaria pe r combatterlo senza tregua . Dice la verità, mantiene la parola data , aiuta i bisognosi e si scagli a contro ogni ingiustizia . Un personaggio legale buono odia vedere i colpevoli farl a franca . Alhandra, una paladina che combatte il male sen za pietà e che protegge gl i innocenti senza alcuna esitazione, è legale buona . Legale buono è l'allinea mento migliore per ch i vuole mettere assieme onore e compassione . Neutrale Buono, \"il Benefattore\": U n personaggio neutral e buono fa sempre de l suo meglio, nei limiti delle sue possibilità . Sent e l'impulso di aiutare gli altri, lavora volentieri con re e magistrati, ma non sente alcun legame verso di loro . jozan, un chierico che aiuta sempre chi ne ha più bisogno, è neutrale buono . Neutrale buono è l'allineamen to migliore per chi vuol fare del bene '*. senza avere pregiudizi a favore o contr o l'autorità. Caotico Buono, \"il Ribelle\" : Un perso naggio caotico buono segue soltanto la propria coscienza, senza preoccuparsi di ci ò che gli altri si aspettano da lui. Segue la sua strada, ma riesce comunque ad es sere gentile e bendisposto . Crede ne l bene e nella giustizia, ma non h a molto rispetto per leggi e regole . Odia quando qualcuno cerca di intimorire gli altri e di imporre loro cosa fare . Segue la sua morale che, d anche se positiva, potrebbe non andare d'accordo con quella della _ società . Soveliss, un ranger che . . i</p>\n<p>tende agguati agli esattori dell e tasse del malv agio barone, è caotico buono . Caotico buono è l'allineamento migliore per chi vuole conci liare lo spirito libero con la bontà di cuore . Legale Neutrale, \"il Giudice\": Un personaggio legale neutrale agisce come gli suggeriscono le leggi, le tradizioni o il su o codice d'onore personale . L'ordine e l'organizzazione sono di im portanza vitale per lui. Può credere nell'ordine per se stesso e vivere quindi secondo un codice preciso, oppure credere nell'ordi ne per tutti e quindi essere dalla parte di un governo forte e organizzato. Ember, una monaca che vive secondo la sua dottrina senza lasciarsi sviare né dalle richieste di aiuto dei bisognosi n é dalle tentazioni del male, è legale neutrale . Legale neutrale è l'allineamento migliore per chi vuole esser e</p>\n<p>affidabile e onorevole senza diventare un fanatico . Neutrale, \"l'Indeciso\": Un personaggio neutrale fa sempr e ciò che gli sembra essere una buona idea . Quando si tratta de l male e del bene, della legge e del caos non ha particolari tendenze dall'una o dall'altra parte . Nella maggior parte dei casi si tratta più di una mancanza di convinzioni o di inclinazioni mo rali che di una reale devozione alla neutralità . Un personaggi o con questo allineamento considera il bene migliore del mal e (tutto sommato, preferisce avere compagni e regnanti buon i piuttosto che malvagi), ma non si sente obbligato a perseguire il bene in modo teorico e universale . Mialee, una maga completa mente assorbita dall'arte magica e che ritiene noiosi i dibattit i morali, è neutrale . D' altra parte alcuni personaggi perseguono la neutralità dal . punto di vista filosofico : vedono il bene, il male, la legge e il cao s come degli estremi pericolosi e quindi sostengono la causa della via di mezzo neutrale ritenendola la strada migliore e più equilibrata a lungo andare . Neutrale è l'allineament o migliore per chi vuole agire spontaneamente, senz a pregiudizi né costrizioni. Caotico Neutrale, \"lo Spirito Libero\" : Un personaggio caotico segue esclusivamente il suo arbitrio . È l'individualista definitivo. Mette la stia libertà sopra ogni altra cosa ma non lotta per difendere quella degli altri, respinge l'autorità, odia le costrizioni e si scaglia contro le tradizioni. Un personaggio caotic o neutrale non tenta di distruggere l'ordine intenzionalmente, come parte d i una campagna tesa all'anarchia . Pe r fare questo dovrebbe essere motiva to dal bene (guidato da un desiderio d i liberare gli altri) o dal male (spinto da un desiderio di far soffrire chi è diverso da sé). Si tenga presente che un personaggio caotico neutrale può esser e imprevedibile, ma che le sue azion i non sono dettate dal caso . Difficilmente salterà giù da un pont e quando può invece attraversarlo. Gimble, un bardo ch e vaga di terra in terra vivendo di espedienti, è caotico neutrale . Caotico neutrale è l'allineamento migliore per ch i cerca la completa libert à sia dalle restrizioni dell a società che dallo zelo de i benefattori . Legale Malvagio, \"il Do minatore\" : Un individuo legale malvagio prende ciò che vuole seguendo un suo codice morale, ma senza alcun riguardo per ch i ferisce nel farlo. È attaccato alla tradizione, alla lealtà e all'ordine ma non rispetta la libertà, la dignità o la vita . Gioca secondo le re gole, ma senza alcuna pietà o compassione . Si trova a suo agio al l'interno di una gerarchia e ambisce a dominare, ma è comunqu e disposto a servire . Giudica gli altri non per le loro azioni, ma se condo la razza, la religione, la terra di origine e la posizione so- . ciale . È restio a infrangere la legge o le promesse fatte, una rilut tanza causata in parte dalla sua natura e in parte dal fatto ch e considera quest'ordine necessario per proteggersi da quanti s i oppongono a lui sul piano morale . Alcuni individui legali malvagi hanno particolari principi morali, come non uccidere mai a \\‘:t''\\'':</p>\n<p>Devis</p>\n<p>sangue freddo (lasciando eventualmente che siano i propri sottoposti a farlo), o non fare del male ai bambini (se si può evitare) . Credono che questo atteggiamento li ponga al di sopra dei criminali senza scrupoli . ll barone che sfrutta la sua gente e fa piani per espandere il suo potere è di allineamento legale malvagio . . Alcuni legali malvagi sono votati al male con uno zelo parago- . nabile a quello con cui un crociato è votato al bene . Oltre ad es-. sere disposti a far male al prossimo per i loro scopi, si compiacciono nel diffondere il male come fine a se stesso . Potrebbero anche considerare il male che causano come parte del loro dove-. re verso un padrone o una divinità malvagia . 1 legali malvagi vengono spesso definiti \"diabolici\" poiché i diavoli sono la personificazione della legge e del male . Legale malvagio potrebbe essere l'allineamento più pericolos o poiché rappresenta una malvagità metodica, intenzionale, e ch e molto spesso ha successo . Neutrale Malvagio, \"il Criminale\": Un individuo neutrale, malvagio è disposto a fare di tutto, finché gli è consentito di ca-. varsela : pensa solo a se stesso . Non versa lacrime per quelli ch e uccide, non importa se per guadagno, gusto personale o convenienza ; non ha una particolare propensione per l'ordine, né si illude che seguire le leggi, le tradizioni e i codici morali lo rendano migliore o più nobile . D'altra parte, non è perennemente insoddisfatto di natura e non ha lo stesso amore per il conflitto che un caotico malvagio potrebbe avere . Il criminale che deruba e uccide per ottenere ciò che vuole è neutrale malvagio. Alcuni neutrali malvagi sono votati al male come ideale e l o praticano come fine a se stesso. Spesso questo genere di persone venera divinità malvagie o appartiene a società segrete . Neutrale malvagio potrebbe essere l'allineamento più pericoloso poiché rappresenta il male allo stato puro, senza onore e senza volubilità . Caotico Malvagio, \"il Distruttore\": Un personaggio caotic o malvagio fa solo ciò che la sua ingordigia, il suo odio e il suo desiderio di distruzione lo spingono a fare . È facile all'ira, immorale , ingiustificatamente violento e imprevedibile. Quando cerca di impossessarsi di ciò che può avere, si comporta in modo brutale e senza scrupoli . Se invece è votato alla diffusione del male e de l caos, è anche peggio. Fortunatamente i suoi piani tendono a essere assurdi, e ogni gruppo che formi o a cui decida di unirsi è assa i poco organizzato. Solitamente, i caotici malvagi possono essere costretti a lavorare assieme solo con la forza, e chi li comanda si man tiene al potere solo finché riesce a contrastare i loro tentativi di sostituirlo o assassinarlo. Lo stregone impazzito che insegue foll i piani di vendetta e distruzione è caotico malvagio. A volte i caotici malvagi vengono definiti \"demoniaci\" poiché i demoni sono la personificazione del male e del caos . Caotico malvagio potrebbe essere l'allineamento più pericolo so poiché rappresenta la nemesi non solo della vita e della bellezza, ma anche dell'ordine dal quale la vita e la bellezza dipendono.</p>\n<p>REI.IGIONF, Le divinità sono molte . Solo alcune, come Pelor (dio del sole), han no templi che organizzano imponenti processioni per le strade nei giorni sacri. Altre, come Erythnul (dio del massacro), hann o templi in luoghi nascosti o in territori malvagi . Se da una parte gl i dei fanno sentire in modo deciso la loro presenza attraverso l'operato dei loro chierici, dall'altra hanno anche fedeli laici che tenta no più o meno di vivere secondo le regole imposte dalle loro divi- . nità . Le persone comuni hanno divinità che considerano come loro protettrici . Ciò nonostante, è più prudente essere rispettosi e , in caso di necessità, anche devoti ad altre divinità . Prima di parti-. re per un viaggio, un fedele di Pelor potrebbe compiere un picco-. lo sacrificio sull'altare di Fharlanghn (dio delle strade), per au-. mentare le probabilità di affrontare un viaggio sicuro e tranquillo. Fino a quando una divinità non è in disaccordo con le altre per u n tale atto di devozione, queste semplici pratiche sono comuni . \"Tut tavia, in tempi difficili alcune persone recitano preghiere oscure a . divinità malvagie. Tali preghiere è meglio siano bisbigliate sottovoce, per timore che altri le possano sentire . Le divinità regolano i diversi aspetti dell'esistenza umana : be ne e male, legge e caos, vita e morte, sapere e natura . Inoltre, al cune razze non umane hanno divinità legate alla loro razza (ved i Tabella 6-2 : \"Divinità per razza\"). Un personaggio non può essere un chierico della divinità di una razza, a meno che non sia dell a razza appropriata, ma può venerare quella divinità e vivere se condo i principi della divinità stessa . Per una divinità che non è legata a una razza particolare (come Pelor), la razza di un chieri co non è un vincolo . t Divinità di certi tipi di mostri sono nominate nel Manualedei Mo-. sta . Tuttavia, non bisogna dimenticare che esistono molte più divi nità di quelle qui descritte o menzionate nel Manuale dei Mostri . Un personaggio può avere o non avere una divinità protettrice . Se si desidera che ce l'abbia, bisogna prima considerare le divinità più appropriate per la sua razza, classe e allineamento (ve di Tabella 6-2 : \"Divinità per razza\" e Tabella 6-3 : \"Divinità per classe\"). Se un chierico seleziona una divinità, questa scelta influenza le potenzialità del personaggio . I giocatori con personaggi $chierici dovrebbero leggere la sezione \"Divinità, domini e incan- . tesimi di dominio\", pagina 32, prima di selezionare una divinità, . j anche se le informazioni che seguono descrivono le diverse d i vinità e possono aiutarli a prendere una decisione .</p>\n<p>TABELLA 6-2: DIVINITÀ PER RAllA Razza</p>\n<p>Divinità Umano Per classe e allineament o Nano Moradin o per classe e allineament o Elfo Corellon Larethian, Ehlonna o per classe e allineamento . Gnomo Garl Glittergold, Ehlonna o per classe e allineamento . Mezzelfo Corellon Larethian, Ehlonna o per classe e allineamento . Mezzorco Gruumsh o per classe e allineament o Halfling</p>\n<p>Yondalla, Ehlonna o per classe e allineament o</p>\n<p>TABELLA 6-3 : DIVINITÀ PER CLASS E Classe</p>\n<p>Divinità (Allineamento ) Barbaro Kord (CB), Obad-Hai (N), Erythnul (CM ) Bardo Pelor (NB), Fharlanghn (N), Olidammara (CN ) Chierico Qualsiasi Druido Obad-Hai (N) 4 Guerriero Heironeous (LB), Kord (CB), St . Cuthbert (LN) , Hextor (LM), Erythnul (CM ) Illusionista</p>\n<p>Boccob (N) Ladro Olidammara (CN), Nerull (NM), Vecna (NM), Erythnul (CM ) Mago</p>\n<p>Wee Jas (LN), Boccob (N), Vecna (NM) Monaco</p>\n<p>Heironeous (LB), St. Cuthbert (LN), Hextor (LM ) Necromante</p>\n<p>Wee Jas (LN), Nerull (NM ) Paladino</p>\n<p>Heironeous (LB) Ranger Ehlonna (NB), Obad-Hai (N ) Stregone Wee Jas (LN), Boccob (N), Vecna (NM)</p>\n<p>DIVINITÀ Le persone e le creature del mondo adorano un gran numero d i divinità . Quelle descritte di seguito sono le divinità più comun i adorate sia dagli avventurieri che dai malfattori di ogni razza . Ogni sezione comprende il nome della divinità, il ruolo, l'allineamento, il titolo e la sua descrizione generale . I loro simbol i sacri (o sacrileghi) vengono raffigurati accanto alle loro descrizioni (vedi Tabella 3-7: \"Divinità\" , pagina 32, per un elenco delle divinità più comuni, i loro allineamenti, i domini a cui sono associati e i loro tipici fedeli). Baccob Il dio della magia Boccob, è neutrale. I suoi titoli includono l'Indifferente, il Signore di Ogni Magia e l 'Arcimago delle Divinità . Boccob è una divinità distant e che non ha alcuna ambizione parti colare nel mondo dei mortali. Come divinità della magia e della conoscenza, viene adorato da maghi, stregoni e saggi . I domini a cui è associato sono Conoscenza, Inganno e Magia . La sua art ma preferita è il bastone ferrato. :+.mttrrc Corellon Larethia n 11 dio degli elfi Corellon Larethian, è caotic o buono . È conosciuto come il Creatore degli Elfi, il Protettore, i1 Protettore e Conservatore della Vita e il Signore di Tutti gli Elfi . Corellon Larethian è il crea tore e il patrono della razza clfica e go verna tutto ciò che gli elfi apprezzano maggiormente : la magia, la musica, l'arte, l'artigianato, la poesia e l'arte della guerra . È venerato da elfi, mezzelfi e bardi . 1 domini a cui è associato sono Bene, Caos, Guerra e Protezione . La sua arma preferita è la spada lunga . Gruumsh è l a sua nemesi ed è a causa del valore in battaglia di Corellon ch e Gruumsh porta il nome di \" Un Occhio\" . Ehlonna Ehlonna, la dea delle terre boschive, è di alli neatnento neutrale buono . Il titolo con cu i viene più spesso nominata è Ehlonna delle Foreste . Ehlonna veglia su tutti coloro che vivon o nelle foreste, amano le terre boschive o che vi trascorrono la loro esistenza . Questi la raffigurano a volt e come uni elfa, a volte come un' umana . E particolarmente vicina a elfi, gnomi, mezzelfi e halfling . Viene adorata anche dai ranger e dai druidi . I domini a</p>\n<p>cui è associata sono Animale, Bene , Sole e Vegetale . La sua arma preferita è la spada lunga . Erythnul 11 dio del massacro Erythnul, è caotico malv agio. Il suo titolo è il Moltepli ce . Erythnul gode del panico e del massacro che diffonde . Nelle</p>\n<p>terre civilizzate i suoi fedeli (guerrieri malvagi, barbari e la -</p>\n<p>dri) formano piccoli culti crim i nati in suo onore . Nelle terr e selvagge, barbari malvagi, gnoll , bugbear, ogre c_troll lo adorano</p>\n<p>X71' i~ ~ apertamente. I domini a lui associati sono Caos, Guerra, Inganno e Male . La su a arma preferita è una morning star con una testa di pietra . Fharlanghn Fharlanghn, il dio delle strade, è neutrale .11 suo titolo è l'Abitatore del l'Orizzonte . Santuari in onore d i Fharlanghn sono diffusi lung o le strade più battute, in quant o egli è la divinità del viaggio, delle strade, della distanza e dell'orizzonte . Lo veneran o principalmente i bardi, gli avventurieri erranti e i mercanti. 1 suoi domini sono Fortuna, Protezione e Viaggio . La sua arma preferita è il bastone ferrato . Garl Glittergold Garl Glittergold, il dio degli gnomi, è neutrale buono. E conosciuto come il Burlone, l'Attento Protettore, l a Gemma Senza Prezzo e g o dc.FuGarl omi goto</p>\n<p>scoprire gli gnomi e a introdurli nel mondo, e da al-</p>\n<p>lora è sempre stato il loro pro tettore . Veglia sull'umorismo, l'arguzia, la lavorazione delle gem- . me e la creazione dei gioielli . I suoi domini sono Bene, Inganno . e Protezione . La sua arma preferita è l'ascia da battaglia . Garl è famoso per gli scherzi e le beffe che organizza ai danni delle altr e divinità, anche se non tutte sanno stare allo scherzo . Garl u n tempo provocò il crollo della caverna di Kurtulmak, il dio de i coboldi, e da allora i due sono nemici giurati. Gruumsh Gruumsh, dio degli orchi, è caotico mal - Colui-Che-Non-Dorme-Mai Gruumsh è la divinità princi pale degli orchi . Richiede a i suoi fedeli di essere forti, d i allontanare i deboli dalle</p>\n<p>f + ' proprie fila e di reclamare ogni territorio che ritiene di \\</p>\n<p>sua legittima proprietà (praticamente tutti). 1 domini a cui è associato sono Caos, Forza, Guerra e Male . L'arma preferita di Gruumsh è l a lancia . Egli cova un odio particolare per Corellon Larethian, Mo radin e i loro fedeli . In un'epoca ormai lontana fu Corellon Lare thian ad accecare Gruumsh all'occhio sinistro ne l corso di una battaglia . Heironeous - Heironeous, il dio del valore, è legale buono. Ha il titolo di Invincibile e promuove la giustizia, il valore, la cavalleria e l'onore. I suoi domini sono Bene, Guerra e Legge . La sua arma preferita è la spada lunga, e viene adorato da paladini, guerrieri e monaci buoni . Il suo più acerrimo nemico è il fratellastr o Hextor. Hextor Hextor, il dio della tirannia, è legale malvagio. Viene chiamato Campione del Male, Araldo de gli Inferi e Flagello della Battaglia . Hextor è il dio a sei braccia della guerra, del conflitto e della distruzione . Tra i suoi fedeli annovera guerrieri e monaci malvagi, e la sua arma preferita è il mazzafrusto . 1 suoi domini sono Distruzione, Guerra, Legge e Ma le . Incita i suoi fedeli a commettere atti malvagi e i n modo particolare a muovere contro i fedeli del fratellastro Heironeous, ovunque si trovino . Kord Kord, dio della forza, è caotico buono. È conosciuto come il Lottatore . Kord protegge gli atleti, special - mente i lottatori a mani nude, e tr a i suoi fedeli vi sono guerrieri buoni, barbari e ladri . I domini a cui è associato sono Bene, Caos, Fortuna e Forza . L'arma preferita di Kord è lo spadone. Moradin Moradin, il dio dei nani, è legale buono. Viene chiamato lo Spirito Forgiatore, i l Padre dei Nani, il Padre di Tutti e il Creatore . Moradin creò i primi nan i forgiandoli dal metallo e dall e gemme e dando loro il soffio della vita . Protegge le arti e le scienze dei na ni : lavorazione del ferro e dei metalli, ingegneria e guerra . I domini a cui è associato sono Bene, Legge, Protezione e Terra . La sua arma preferita è il martel- lo da guerra .</p>\n<p>)/Z' X - .i St. Cuthbert St. Cuthbert, il dio del castigo, è legale neutrale . È noto come St. Cuthbert del Randello. St. Cuthbert esige vendetta e punizione su color o che infrangono la legge, e poiché le creature malv agi e violano la legge più spesso di . quelle buone, St. Cuthbert predilige il bene al male, an che se di per sé non è di alli neamento buono (i suoi chieric i non possono essere malvagi). I suoi domini sono Distruzione, Forza , Legge e Protezione . La sua arma preferita e la mazza .</p>\n<p>Vecna Vecna, il dio dei segreti, è neutral e malvagio . Viene chiamato il Signore Mutilato, il Sussurrato e il Maestro 4 di tutto ciò che è Segreto e Nascosto. Vecna governa su ciò che no n deve essere conosciuto e che la gente desidera mantenere segreto. I domini a cui è associato sono Conoscenza, Magia e Male . Generalment e appare nella forma di un lich privo di una mano e dell'occhio sinistro, persi nel cors o di una lotta contro un suo infido luogotenente, Kas. L' arma preferita di Vecna è il pugnale . Wee Jas Wee Jas, dea della morte e della magia, è legale neutrale. Viene chiamat a Dea Stregona, Strega di Rubino , Dama di Acciaio e Guardian a della Morte . Wee Jas è una divinità pretenziosa e in quietante che esige obbedienza completa dai suoi fedeli. I suoi templi sono pochi e nascosti, ma annover a molti servitori tra maghi e stregoni potenti (specialment e necromanti). 1 domini a cui è associata sono Legge, Magia e Morte . La sua arma preferita è il pugnale. Yondall a Yondalla, la dea degli halfling, è legal e buona . Viene chiamata la Protettrice e l a Provvidente, la Matriarca che Nutre e la Benedetta . Yondalla è la „ creatrice e la protettrice della razza halfling . Difende l'armonia dell a razza halfling e conduce una lott a accanita contro i loro nemici . I suoi fedeli sperano di condurre una vita prospera e sicura sotto la stia guida . 1 suoi domini sono Bene, Legge e Protezione . La spada corta è la sua arma prefe rita .</p>\n<p>*, F</p>\n<p>Nerull II dio della morte Nerull, è neutrale malvagio. Viene chiamato il Mieti tore, il Nemico di Ogni Bene, Colu i che odia la Vita, il Latore d i Oscurità, il Cupo Re e il Mie titore della Carne . Nerull governa su coloro che provoca no i mali peggiori in nom e del profitto o del divertimento . 1 suoi domini sono Inganno, Ma le e Morte . Tra i suoi fedeli annover a necromanti ma lv agi e ladri, che lo raffigurano come una figura semischeletrica e incappucciata che impugna una falce, la sua arma preferita . Obad-Hai Obad-Hai, il dio della natura, è neutra le . È conosciuto come lo Shalm. Obad-Hai governa sulla natura ~~?1 e sulle terre selvagge ed è ami co 'l . di tutti coloro che vi vono in armonia con i l mondo della natura. Qual ..~` s -~ ~~ che volta è venerato d a barbari, ranger e druidi . I % suoi domini sono Acqua , Animale, Aria, Fuoco, Terra e Vegetale . Dal momento che Obad-Hai aderisce strettament e alla neutralità, si trova a riva- } .</p>\n<p>leggiare spesso con Ehlonna . Obad-Hai suona spesso uno Shalm (uno strumento musicale a fiat o di legno con più canne, a volte scritto anche \"Shawm\") ed è d a questo strumento che trae il suo titolo. La sua arma preferita è il bastone ferrato . Olidammara Olidammara, dio dei ladri, è caotico neutrale. Viene chiamato il Ladro Ridente, ama il vino , le donne e le canzoni . È un vagabondo, un burlone e u n maestro dei travestimenti . In suo onore esistono pochi templi ma vengono invocati molti brindisi. Ladri e bardi sono, naturalmente, i suoi principali fedeli. I domini a cui è associato sono Caos, Fortuna e Inganno. La sua arma preferita è lo stocco . Pelor il dio del sole Pelor, è neutrale buono. Viene chiamato lo Splendente ed è il creatore di molte cose buone, un soccorritore di coloro -che si trovano in pericolo, un avversario di tutto ciò che e malvagio . È la divinità pi ù comunemente adorata tr a gli umani, e i suoi sacerdoti '</p>\n<p>sono bene accetti ovunque si re chino. Ranger e bardi sono tra i suoi fedeli . I suoi domini sono Bene , Forza, Guarigione e Sole . La sua arm a preferita è la mazza . fy</p>\n<p>STATISTICHE DI BAS E Questa sezione offre dei consigli su come determinare il nome , il sesso, l'età, l'altezza e il peso del personaggio. Bisogna iniziare a tracciare a grandi linee il background e la personalità del personaggio e utilizzare queste idee per definire i dettagli che gli da ranno vita .</p>\n<p>NOM E Inventare o scegliere un nome adatto alla razza e alla classe de l personaggio. ll Capitolo 2: \"Razze\" contiene alcuni esempi di no mi elfici, nanici, gnomeschi e orcheschi (nonché mezzelfici e mezzorcheschi). Il nome è un ottimo modo per iniziare a pensa re al background del personaggio. Ad esempio, il nome di un nano potrebbe essere il nome di un grande eroe della sua razza, e il nano potrebbe sforzarsi di essere all'altezza del nome che porta . Oppure il nome potrebbe essere quello di un famigerato vigliacco, e il personaggio potrebbe essere spinto a provare di non esse-, _ re quello che il suo nome indica .</p>\n<p>SESSO Un personaggio può essere indifferentemente maschio o femmina .</p>\n<p>ETÀ È possibile scegliere l'età o generarla casualmente . Se viene scelta, deve rientrare nel margine minimo di età perla razza e la classe del personaggio (vedi Tabella 6-4: \"Età iniziale casuale\"). L'età minima di partenza del personaggio è pari alla somma dell'et à della maturità della sua razza più il numero di dadi tirato per l a sua classe . Ad esempio, un elfo ranger deve avere almeno 116 anni (110 anni più 6 dadi per i ranger) . In alternativa può essere utilizzata la Tabella 6-4: \"Età iniziale casuale \" per determinare quanti anni ha il personaggio . Un elfo ranger generato casualmente, ad esempio, avrà un'età di 110+6d 6 anni. -</p>\n<p>TABELLA 6-4 : ETA INIZIALE CASUAL E Bardo Chieric o Barbaro Guerriero Druid o Ladro Paladino Mag o Razza Maturità Stregone Ranger Monac o Umano 15 anni +1d4 +1d6 +2d 6 Nano 40 anni +3d6 +5d6 +7d 6 Elfo 110 anni +4d6 +6d6 +10d 6 Gnomo 40 anni +4d6 +6d6 +9d6 Mezzelfo 20 anni +1d6 +2d6 +3d6 Mezzorco 14 anni +1d4 +1d6 +2d 6 Halfling 20 anni +2d4 +3d6 +4d6 Man mano che il personaggio invecchia, i punteggi delle sue caratteristiche fisiche (Forza, Destrezza e Costituzione) diminuiscono e quelli delle sue caratteristiche mentali (Intelligenza , Saggezza e Carisma) aumentano (vedi Tabella 6-5 : \"Effetti dell'invecchiamento\"). Gli effetti del passare del tempo sono cumulativi, ma i punteggi delle caratteristiche di un personaggio non possono scendere sotto alli in questo modo . Ad esempio, quando un elio raggiunge 175 anni di età, la su a Forza, la sua Destrezza e la sua Costituzione scendono di 1 punto ciascuna, mentre la sua Intelligenza, la sua Saggezza e il suo Carisma aumentano ognuna di 1 punto. Quando raggiunge 26 3 anni, i punteggi delle sue caratteristiche fisiche scendono di ultetiori 2 punti, mentre quelli delle sue caratteristiche mentali aumentano di i altro punto. Quindi, in totale l'elfo ha perso 3 punti dai punteggi di Forza, Costituzione e Destrezza e ne ha ottenuti 2 per i punteggi di Saggezza, Intelligenza e Carisma a causa dell'invecchiamento. Quando un personaggio diventa venerabile il DM tira in segreto per determinare la sua età massima, riportata nella colonn a Venerabile alla Tabella 6-5: \"Effetti dell'invecchiamento\", e vi aggiunge il modificatore alla colonna \"Età massima\" nella stessa tabella . Determinato il risultato, non lo rivela al giocatore, e quando quel personaggio raggiunge l'età così stabilita, muore di vecchiaia . Le età massime riportate nella Tabella 6-5 : \"Effetti dell'invecchiamento\" riguardano i PG. Gran parte della gente nel resto de l mondo muore per malattie, incidenti, infezioni o violenza prima di raggiungere la propria età venerabile .</p>\n<p>TABELLA 6-5 : EFFETTI DELL ' INVECCHIAMENT O Razz a Uman o Nan o Elfo Gnomo Mezzelfo Mezz'età ' 35 ann i 125 ann i 175 ann i 100 ann i 62 anni Vecchiaia' 53 ann i 188 ann i 263 ann i 150 ann i 93 anni Venerabile' 70 ann i 250 ann i 350 ann i 200 ann i 125 anni Età massima +2d20 ann i +2d% ann i +4d% ann i +3d% ann i +3d20 anni n Mezzorco 30 anni 45 anni 60 anni +2d10 anni</p>\n<p>Halfling 50 anni 75 anni 100 anni +5d20 ann i 1 Mezz'età -1 a For, Cos e Des; +1 a Int, Sag, e Car. 2 Vecchiaia -2 a For, Cos e Des; +1 a Int, Sag, e Car. 9'o. 3 Venerabile -3 a For, Cos e Des, +1 a Int, Sag, e Car.</p>\n<p>ALTEZZA E PES O Si deve quindi scegliere l'altezza e il peso del personaggio in base ai dati tipici della razza di appartenenza o ai dati riportati nel la Tabella 6-6 : \"Altezza e peso casuali\" . Occorre pensare a com e l'altezza e il peso del personaggio possano essere messi in relazione con le sue caratteristiche : se il personaggio è debole m a agile, probabilmente sarà magro; se è forte e resistente, sarà alto oppure robusto. In alternativa, si può utilizzare la Tabella 6-6 : \"Altezza e peso casuali\" per determinarli a caso. Il tiro di dado indicato nella colonna \"Modificatore altezza\" determina l'altezza extra del personaggio in aggiunta alla sua altezza base . Lo stesso numero, moltiplicato per il tiro di dado riportato nella colonna \"Modificatore peso\", determina il peso extra del personaggio oltre a quello di base . Per esempio, Tordek (un nano) è alto 112,5 cm più 2d4 x 2, 5 cm. Massimo tira 2d4 e ottiene un 6, quindi Tordek è alto 127, 5 cm. Quindi Massimo usa lo stesso tiro, 6, e lo moltiplica per 2d 6 x 0,5. Con i 2d6 ottiene un 9, quindi Tordek pesa 27 kg extra oltre al suo peso base di 65 kg, per un totale di 92 kg .</p>\n<p>TABELLA 6-6: ALTEZZA E PESO CASUALI Modificatore pes o x (2d4) x 0,5 kg x (2d4) x 0,5 kg x (2d6) x 0,5 kg x (2d6) x 0,5 kg x (1d6) x 0,5 kg x (1d6) x 0,5 kg x 0,5 kg x 0,5 k g x (2d4) x 0,5 kg x (2d4) x 0,5 kg x (2d6) x 0,5 kg x (2d6) x 0,5 kg x0,5kg x 0,5 kg Razza Altezza base Modificatore altezza Pes o base Umano 145cm + (2d10) x 2,5 cm 60 k g Umana 132,5 cm + (2d10) x 2,5 cm 42,5 kg Nano 112,5 cm + (2d4) x 2,5 cm 65 k g Nana 107,5 cm + (2d4) x 2,5 cm 50 k g Elfo 132,5 cm + (2d6) x 2,5 cm 42,5 kg Elfa 132,5 cm + (2d6) x 2,5 cm 40 k g Gnomo 90cm + (2d4) x 2,5 cm 20 k g Gnoma 85 cm + (2d4) x 2,5 cm 17,5 kg Mezzelfo 137,5 cm + (2d8) x 2,5 cm 50 k g Mezzelfa 132,5 cm + (2d8) x 2,5 cm 40 k g Mezzorco 145 cm + (2d12) x 2,5 cm 75 k g M ezzorca 130cm + (2d12) x 2,5 cm 55 k g Halfling maschio 80 cm + (2d4) x 2,5 cm 15 k g Halfling femmina 75 cm + (2d4) x 2,5 cm 12,5 kg</p>"
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella."
   },
   {
     "slug": "two-weapon-defense",
@@ -884,8 +780,7 @@
     "type": "Generale",
     "benefit": "Quando impugni un'arma doppia o due armi (escluse armi naturali o colpi senz'armi), ottieni un bonus di scudo +1 alla CA. Quando combatti sulla difensiva o usi l'azione di difesa totale, questo bonus di scudo aumenta a +2.",
     "special": "Un guerriero può selezionare Difesa con Due Armi come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 15, Combattere con Due Armi.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Des 15, Combattere con Due Armi.</p>\n<p><strong>Beneficio:</strong> Quando impugni un'arma doppia o due armi (escluse armi naturali o colpi senz'armi), ottieni un bonus di scudo +1 alla CA. Quando combatti sulla difensiva o usi l'azione di difesa totale, questo bonus di scudo aumenta a +2.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Difesa con Due Armi come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Des 15, Combattere con Due Armi."
   },
   {
     "slug": "two-weapon-fighting",
@@ -894,8 +789,7 @@
     "benefit": "Le tue penalità al combattimento con due armi sono ridotte di 2 con l'arma primaria e di 6 con l'arma secondaria.",
     "normal": "Se impugni una seconda arma nella mano secondaria, puoi ottenere un attacco extra con quell'arma al costo di una penalità di –6 ai tiri per colpire con l'arma primaria e una penalità di –10 con l'arma secondaria.",
     "special": "Un ranger di 2° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Des 15.",
-    "desc_html": "<p>1l personaggio può combattere con un'arma in ogni mano . Può compiere un attacco extra ogni round con la seconda arma. Prerequisito : Des 15 . Beneficio: Si riducono le penalità del personaggio al tiro pe r colpire nel combattimento con due armi . La penalità-della ma no primaria si riduce di 2 e quella della mano secondaria si ri duce di6 Normale</p>\n<p>Si veda \"Combattere con due armi\", pagina 154, e la Ta bella 8-8 : \" Penalità al combattere con due armi\", pagina 154. Speciale : Un ranger di 2° livello che ha scelto lo stile di combat timento con due armi, può attaccare come se possedesse Combatte-, COMPETENZA NELLE ARMATURE (MEDIE ) re con Due Armi, persino se non soddisfa i suoi prerequisiti, ma so</p>\n<p>[GENERALE] lo quando indossa un'armatura leggera o nessuna armatura (vedi pa- Il personaggio è competente nell'uso delle armature medie (vedi Ta 4gina 53). . bella 7-6: \"Armature e scudi\", pagina 122). Un guerriero può selezionare Combattere con Due Armi come ;_ Prerequisito: Competenza nelle Armature (leggere). uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).</p>\n<p>Beneficio: Vedi Competenza nelle Armature (leggere). Normale : Vedi Competenza nelle Armature (leggere) . Speciale : Barbari, bardi, chierici, druidi, guerrieri e paladini pos - Speciale : Tutte le classi tranne maghi, monatto stregoni, possie , dono Competenza nelle Armature (leggere) come talento bonus . , Non devono selezionarlo. r oz siedono Competenza nelle Armature (medie) come talentobonus. Non devono selezionarlo.</p>\n<p>Prerequisito: Bonus di attacco base +1 (più For t 3 per la spada bastarda o l'ascia da guerra nanica) . Beneficio: Il personaggio effettua normalmente il tiro per colpi re con un'arma esotica. Normale : Un personaggio che utilizza m'arma in cui non è competente subisce una penalità di -4 al tiro per colpire . Speciale: Il personaggio può acquisire Competenza nelle Armi Esotiche più volte . Ogni volta che acquisisce il talento, lo dev e applicare a un nuovo tipo di arma esotica. Si noti che la competenza nell'uso della spada bastarda o dell'ascia da guerra nanic a richiede un prerequisito aggiuntivo di Fo r</p>\n<p>Un guerriero può selezionare Competenz a nelle Armi Esotiche come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).</p>\n<p>COMPETENZA NELLE ARM I</p>"
+    "prerequisites": "Des 15."
   },
   {
     "slug": "weapon-finesse",
@@ -903,8 +797,7 @@
     "type": "Generale",
     "benefit": "Con un'arma leggera, stocco, frusta o catena chiodata fatta per una creatura della tua categoria di taglia, puoi usare il tuo modificatore di Destrezza invece del tuo modificatore di Forza ai tiri per colpire in mischia.",
     "special": "Un guerriero può selezionare Arma Accurata come uno dei suoi talenti bonus da guerriero. Le creature naturali possono selezionare questo talento.",
-    "prerequisites": "Bonus di attacco base +1.",
-    "desc_html": "<p>Il personaggio maneggia con grande bravura armi che traggon o vantaggi tanto dalla Destrezza quanto dalla Forza. Prerequisiti : Competenza nell'arma, bonus di attacco base +1 . Beneficio: Con un'arma leggera, una catena chiodata, una frust a o uno stocco adatte a una creatura della propria taglia, il personag- . gio può utilizzare il modificatore di Destrezza invece di quello di . Forza al suo tiro per colpire . Se il personaggio imbraccia uno scudo, subisce la penalità di armatura alla prova di quest'ultimo al propri o t tiro per colpire. 4_Speciale : Un guerriero può selezionare Arma Accurata come . uno dei suoi talenti bonus dei guerrieri (vedi pagina 38). Le armi naturali vanno sempre considerate alla stregua di armi. leggere .</p>\n<p>ARMA FOCALIZZATA [GENERALE] _ Il personaggio sceglie un tipo di arma, come ad esempio l'ascia bipenne. Egli può altresì scegliere \"colpo senz'armi\" o \"lottare\" (o \"rag gio\", nel caso di un incantatore) come armi da utilizzare ai fini di . questo talento . Il personaggio maneggia quest'arma con grande bra- , vura (se il personaggio ha scelto \"raggio\", questi padroneggia con . grande bravura i raggi, come quelli prodotti dall'incantesimo raggio, di gelo). Prerequisiti: Competenza nell'arma prescelta, bonus di attaccol base +1 . Beneficio : Il personaggio ottiene tin bonus di +1 a tutti i tiri pe r colpire effettuati impugnando l'arma prescelta . Speciale: Il personaggio può acquisire Arma Focalizzata più volte . I stioi effetti non sono cumulabili . Ogni volta che il personaggio acquisisce il talento, lo deve applicare a un nuovo tipo di arma. Un guerriero può selezionare Arma Focalizzata come tino de i suoi talenti bonus dei guerrieri (vedi pagina 38). Un guerriero deve prima possedere Arma Focalizzata su una specifica arma, per poi ot tenere il talento Arma Specializzata su quell'anna .</p>"
+    "prerequisites": "Bonus di attacco base +1."
   },
   {
     "slug": "weapon-focus",
@@ -912,8 +805,7 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +1 a tutti i tiri per colpire effettuati usando l'arma selezionata.",
     "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
-    "prerequisites": "Competenza con l'arma selezionata, bonus di attacco base +1.",
-    "desc_html": "<p>Scegli un tipo di arma. Puoi anche scegliere combattere senz'armi o lottare come arma ai fini di questo talento.</p>\n<p><strong>Prerequisiti:</strong> Competenza con l'arma selezionata, bonus di attacco base +1.</p>\n<p><strong>Beneficio:</strong> Ottieni un bonus di +1 a tutti i tiri per colpire effettuati usando l'arma selezionata.</p>\n<p><strong>Speciale:</strong> Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.</p>"
+    "prerequisites": "Competenza con l'arma selezionata, bonus di attacco base +1."
   },
   {
     "slug": "weapon-specialization",
@@ -921,8 +813,7 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutti i tiri per i danni effettuati usando l'arma selezionata.",
     "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Un guerriero può selezionare Specializzazione sull'Arma come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 4°.",
-    "desc_html": "<p>Scegli un tipo di arma per il quale hai già selezionato Focalizzazione sull'Arma. Puoi anche scegliere combattere senz'armi o lottare come arma ai fini di questo talento.</p>\n<p><strong>Prerequisiti:</strong> Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 4°.</p>\n<p><strong>Beneficio:</strong> Ottieni un bonus di +2 a tutti i tiri per i danni effettuati usando l'arma selezionata.</p>\n<p><strong>Speciale:</strong> Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Un guerriero può selezionare Specializzazione sull'Arma come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 4°."
   },
   {
     "slug": "whirlwind-attack",
@@ -930,14 +821,12 @@
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco completo, puoi rinunciare ai tuoi attacchi regolari e invece effettuare un attacco in mischia al tuo bonus di attacco base completo contro ogni avversario entro la tua portata.",
     "special": "Un guerriero può selezionare Attacco Turbinante come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13, Int 13, Competenza in Combattimento, Schivare, Mobilità, Attacco in Movimento, bonus di attacco base +4.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Des 13, Int 13, Competenza in Combattimento, Schivare, Mobilità, Attacco in Movimento, bonus di attacco base +4.</p>\n<p><strong>Beneficio:</strong> Quando usi l'azione di attacco completo, puoi rinunciare ai tuoi attacchi regolari e invece effettuare un attacco in mischia al tuo bonus di attacco base completo contro ogni avversario entro la tua portata.</p>\n<p><strong>Speciale:</strong> Un guerriero può selezionare Attacco Turbinante come uno dei suoi talenti bonus da guerriero.</p>"
+    "prerequisites": "Des 13, Int 13, Competenza in Combattimento, Schivare, Mobilità, Attacco in Movimento, bonus di attacco base +4."
   },
   {
     "slug": "widen-spell",
     "name": "Incantesimi Ampliati",
     "type": "Metamagico",
-    "benefit": "Puoi alterare un incantesimo a forma di scoppio, emanazione, linea o diffusione per aumentare la sua area. Qualsiasi misurazione numerica dell'area dell'incantesimo aumenta del 100%. Un incantesimo allargato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo. Gli incantesimi che non hanno un'area di una di queste quattro forme non sono influenzati da questo talento.",
-    "desc_html": "<p><strong>Beneficio:</strong> Puoi alterare un incantesimo a forma di scoppio, emanazione, linea o diffusione per aumentare la sua area. Qualsiasi misurazione numerica dell'area dell'incantesimo aumenta del 100%. Un incantesimo allargato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo. Gli incantesimi che non hanno un'area di una di queste quattro forme non sono influenzati da questo talento.</p>"
+    "benefit": "Puoi alterare un incantesimo a forma di scoppio, emanazione, linea o diffusione per aumentare la sua area. Qualsiasi misurazione numerica dell'area dell'incantesimo aumenta del 100%. Un incantesimo allargato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo. Gli incantesimi che non hanno un'area di una di queste quattro forme non sono influenzati da questo talento."
   }
 ]
