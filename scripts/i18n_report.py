@@ -92,6 +92,23 @@ ITALIAN_FALSE_POSITIVES = {
     "bonus", "all", "standard", "special",
 }
 
+# Fields where identical EN/IT values are legitimate (not a translation issue).
+# Each entry is a regex that matches values which are correctly the same in both languages.
+IDENTICAL_EXCEPTIONS = {
+    # Components use international abbreviations: V, S, M, F, DF, XP
+    "components": re.compile(r"^[VSMF,/\s]*(DF|XP)?[VSMF,/\s]*$"),
+    # Level uses class abbreviations shared in Italian: Brd 3, Drd 1, Rgr 2, etc.
+    "level": re.compile(r"^[A-Za-z/]+\s+\d+(,\s*[A-Za-z/]+\s+\d+)*$"),
+    # Casting time: "1 round" is used in Italian too
+    "casting_time": re.compile(r"^\d+\s*round", re.IGNORECASE),
+    # Duration: "1 round", "1 min." are used in Italian too
+    "duration": re.compile(r"^\d+\s*(round|min\.)", re.IGNORECASE),
+    # Saving throw: "No" is the same in Italian
+    "saving_throw": re.compile(r"^No$", re.IGNORECASE),
+    # Spell resistance: "No" is the same in Italian
+    "spell_resistance": re.compile(r"^No$", re.IGNORECASE),
+}
+
 
 def detect_ocr_issues(value):
     """Detect OCR artifacts in a value. Returns list of (pattern_desc, match)."""
@@ -155,6 +172,10 @@ def analyze_field(en_entries, it_entries, field):
 
         # Check if identical to EN
         if it_val == en_val and en_val:
+            # Check if this is a legitimate exception (value is correctly the same)
+            exception_re = IDENTICAL_EXCEPTIONS.get(field)
+            if exception_re and exception_re.match(str(it_val)):
+                continue  # legitimate, skip
             stats["identical_to_en"] += 1
             stats["issues"].append({
                 "slug": slug,
