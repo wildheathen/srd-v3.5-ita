@@ -192,6 +192,31 @@ MANUAL_OVERRIDES = {
     "scare": "Una creatura vivente per ogni tre livelli, che non possono trovarsi a pi\u00f9 di 9 m l'una dall'altra",
     "blade-barrier": "Muro di lame rotanti lungo fino a 6 m per livello, o muro ad anello di lame rotanti con un raggio fino a 1,5 m per ogni due livelli; entrambe le forme alte 6 m",
     "walk-on-water": "Una creatura toccata/livello",
+    # === Round 3 fixes ===
+    # Wrong spell data
+    "ventriloquism": "Suoni comprensibili, di solito parlato",
+    "soften-earth-and-stone": "Un quadrato con lato di 3 m per livello; vedi testo",
+    "shield-of-law": "Una creatura per livello entro un'esplosione del raggio di 6 m centrata sull'incantatore",
+    # Wrong metric conversions
+    "sleet-storm": "Un cilindro (raggio di 12 m, altezza di 6 m)",
+    "instant-summons": "Un oggetto del peso di 5 kg o meno la cui dimensione maggiore \u00e8 1,8 m o meno",
+    # OCR artifacts
+    "ice-storm": "Un cilindro (raggio di 6 m, altezza di 12 m)",
+    "sympathy": "Una locazione (fino a un cubo con spigolo di 3 m per livello) o un oggetto",
+    "silent-image": "Finzione visiva che non pu\u00f2 estendersi oltre quattro cubi con spigolo di 3 m + un cubo con spigolo di 3 m per livello (F)",
+    "silence": "Un'emanazione del raggio di 6 m centrata su una creatura, un oggetto o un punto nello spazio",
+    "plane-shift": "Creatura toccata o fino a otto creature consenzienti che si tengono per mano",
+    "transmute-metal-to-wood": "Tutti gli oggetti di metallo entro un'esplosione del raggio di 12 m",
+    "shatter": "Propagazione del raggio di 1,5 m; oppure un oggetto solido o una creatura cristallina",
+    "invisibility": "Incantatore oppure una creatura o un oggetto pesante fino a 50 kg per livello",
+    # Grammar fixes
+    "animate-plants": "Un vegetale Grande per ogni tre livelli o tutti i vegetali entro raggio d'azione; vedi testo",
+    "enthrall": "Un numero qualsiasi di creature",
+    "water-walk": "Una creatura toccata per livello",
+    "magic-circle-against-evil": "Emanazione del raggio di 3 m da creatura toccata",
+    "undeath-to-death": "Diverse creature non morte entro un'esplosione del raggio di 12 m",
+    "haste": "Una creatura per livello, che non possono trovarsi a pi\u00f9 di 9 m l'una dall'altra",
+    "freedom-of-movement": "Incantatore o creatura toccata",
 }
 
 
