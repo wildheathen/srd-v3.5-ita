@@ -112,6 +112,24 @@ IDENTICAL_EXCEPTIONS = {
     "saving_throw": re.compile(r"^No$", re.IGNORECASE),
     # Spell resistance: "No" is the same in Italian
     "spell_resistance": re.compile(r"^No$", re.IGNORECASE),
+    # Prerequisites: ability score abbreviations are shared (Int, Str, Dex, Con, Wis, Cha)
+    # e.g. "Int 13.", "Str 15, Power Attack.", "Dex 13, Dodge."
+    "prerequisites": re.compile(
+        r"^(Int|Str|Dex|Con|Wis|Cha|For|Des|Cos|Sag|Car)\s+\d+\.?$",
+        re.IGNORECASE,
+    ),
+}
+
+# Names that are legitimately identical in Italian (proper nouns, borrowed terms).
+# If a name is present in the overlay with the same value as EN, it was intentional.
+# This applies to "name" field across all categories.
+IDENTICAL_NAME_EXCEPTIONS = {
+    # D&D class names used in Italian
+    "ranger",
+    # Spell names used in Italian
+    "clone", "shillelagh", "status",
+    # Monster proper names — creatures with no Italian equivalent.
+    # These are auto-detected: if the name is in the overlay, it's intentional.
 }
 
 
@@ -181,6 +199,9 @@ def analyze_field(en_entries, it_entries, field):
             exception_re = IDENTICAL_EXCEPTIONS.get(field)
             if exception_re and exception_re.match(str(it_val)):
                 continue  # legitimate, skip
+            # For "name" field: if slug is in the overlay, the translator kept it intentionally
+            if field == "name" and slug in it_by_slug and "name" in it_by_slug[slug]:
+                continue  # translator explicitly set this name
             stats["identical_to_en"] += 1
             stats["issues"].append({
                 "slug": slug,

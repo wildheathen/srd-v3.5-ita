@@ -1,39 +1,19 @@
 {
   "lang": "it",
-  "generated_at": "2026-03-06T12:52:38Z",
+  "generated_at": "2026-03-06T13:21:55Z",
   "categories": {
     "spells": {
       "total": 608,
       "overlay_count": 609,
       "fields": {
         "name": {
-          "translated": 606,
-          "suspicious": 3,
+          "translated": 609,
+          "suspicious": 0,
           "total": 609,
-          "percent": 99.5,
-          "identical_to_en": 3,
+          "percent": 100.0,
+          "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 0,
-          "issues": [
-            {
-              "slug": "clone",
-              "type": "identical",
-              "value": "Clone",
-              "en_value": "Clone"
-            },
-            {
-              "slug": "shillelagh",
-              "type": "identical",
-              "value": "Shillelagh",
-              "en_value": "Shillelagh"
-            },
-            {
-              "slug": "status",
-              "type": "identical",
-              "value": "Status",
-              "en_value": "Status"
-            }
-          ]
+          "english_residue": 0
         },
         "school": {
           "translated": 609,
@@ -344,20 +324,14 @@
       "overlay_count": 111,
       "fields": {
         "name": {
-          "translated": 109,
-          "suspicious": 1,
+          "translated": 110,
+          "suspicious": 0,
           "total": 111,
-          "percent": 98.2,
-          "identical_to_en": 1,
+          "percent": 99.1,
+          "identical_to_en": 0,
           "ocr_issues": 0,
           "english_residue": 0,
           "issues": [
-            {
-              "slug": "agile",
-              "type": "identical",
-              "value": "Agile",
-              "en_value": "Agile"
-            },
             {
               "slug": "feat-name",
               "type": "missing",
@@ -382,21 +356,13 @@
           ]
         },
         "prerequisites": {
-          "translated": 66,
-          "suspicious": 1,
+          "translated": 67,
+          "suspicious": 0,
           "total": 67,
-          "percent": 98.5,
-          "identical_to_en": 1,
+          "percent": 100.0,
+          "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 0,
-          "issues": [
-            {
-              "slug": "combat-expertise",
-              "type": "identical",
-              "value": "Int 13.",
-              "en_value": "Int 13."
-            }
-          ]
+          "english_residue": 0
         },
         "benefit": {
           "translated": 111,
@@ -695,315 +661,13 @@
       "overlay_count": 289,
       "fields": {
         "name": {
-          "translated": 210,
-          "suspicious": 79,
+          "translated": 289,
+          "suspicious": 0,
           "total": 289,
-          "percent": 72.7,
-          "identical_to_en": 79,
+          "percent": 100.0,
+          "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 0,
-          "issues": [
-            {
-              "slug": "aboleth",
-              "type": "identical",
-              "value": "Aboleth",
-              "en_value": "Aboleth"
-            },
-            {
-              "slug": "achaierai",
-              "type": "identical",
-              "value": "Achaierai",
-              "en_value": "Achaierai"
-            },
-            {
-              "slug": "allip",
-              "type": "identical",
-              "value": "Allip",
-              "en_value": "Allip"
-            },
-            {
-              "slug": "ankheg",
-              "type": "identical",
-              "value": "Ankheg",
-              "en_value": "Ankheg"
-            },
-            {
-              "slug": "aranea",
-              "type": "identical",
-              "value": "Aranea",
-              "en_value": "Aranea"
-            },
-            {
-              "slug": "archon",
-              "type": "identical",
-              "value": "Archon",
-              "en_value": "Archon"
-            },
-            {
-              "slug": "athach",
-              "type": "identical",
-              "value": "Athach",
-              "en_value": "Athach"
-            },
-            {
-              "slug": "avoral",
-              "type": "identical",
-              "value": "Avoral",
-              "en_value": "Avoral"
-            },
-            {
-              "slug": "azer",
-              "type": "identical",
-              "value": "Azer",
-              "en_value": "Azer"
-            },
-            {
-              "slug": "barghest",
-              "type": "identical",
-              "value": "Barghest",
-              "en_value": "Barghest"
-            },
-            {
-              "slug": "behir",
-              "type": "identical",
-              "value": "Behir",
-              "en_value": "Behir"
-            },
-            {
-              "slug": "belker",
-              "type": "identical",
-              "value": "Belker",
-              "en_value": "Belker"
-            },
-            {
-              "slug": "bodak",
-              "type": "identical",
-              "value": "Bodak",
-              "en_value": "Bodak"
-            },
-            {
-              "slug": "bralani",
-              "type": "identical",
-              "value": "Bralani",
-              "en_value": "Bralani"
-            },
-            {
-              "slug": "bugbear",
-              "type": "identical",
-              "value": "Bugbear",
-              "en_value": "Bugbear"
-            },
-            {
-              "slug": "bulette",
-              "type": "identical",
-              "value": "Bulette",
-              "en_value": "Bulette"
-            },
-            {
-              "slug": "chimera",
-              "type": "identical",
-              "value": "Chimera",
-              "en_value": "Chimera"
-            },
-            {
-              "slug": "choker",
-              "type": "identical",
-              "value": "Choker",
-              "en_value": "Choker"
-            },
-            {
-              "slug": "chuul",
-              "type": "identical",
-              "value": "Chuul",
-              "en_value": "Chuul"
-            },
-            {
-              "slug": "cloaker",
-              "type": "identical",
-              "value": "Cloaker",
-              "en_value": "Cloaker"
-            },
-            {
-              "slug": "couatl",
-              "type": "identical",
-              "value": "Couatl",
-              "en_value": "Couatl"
-            },
-            {
-              "slug": "darkmantle",
-              "type": "identical",
-              "value": "Darkmantle",
-              "en_value": "Darkmantle"
-            },
-            {
-              "slug": "delver",
-              "type": "identical",
-              "value": "Delver",
-              "en_value": "Delver"
-            },
-            {
-              "slug": "derro",
-              "type": "identical",
-              "value": "Derro",
-              "en_value": "Derro"
-            },
-            {
-              "slug": "destrachan",
-              "type": "identical",
-              "value": "Destrachan",
-              "en_value": "Destrachan"
-            },
-            {
-              "slug": "doppelganger",
-              "type": "identical",
-              "value": "Doppelganger",
-              "en_value": "Doppelganger"
-            },
-            {
-              "slug": "dragonne",
-              "type": "identical",
-              "value": "Dragonne",
-              "en_value": "Dragonne"
-            },
-            {
-              "slug": "drider",
-              "type": "identical",
-              "value": "Drider",
-              "en_value": "Drider"
-            },
-            {
-              "slug": "ettercap",
-              "type": "identical",
-              "value": "Ettercap",
-              "en_value": "Ettercap"
-            },
-            {
-              "slug": "ettin",
-              "type": "identical",
-              "value": "Ettin",
-              "en_value": "Ettin"
-            },
-            {
-              "slug": "gargoyle",
-              "type": "identical",
-              "value": "Gargoyle",
-              "en_value": "Gargoyle"
-            },
-            {
-              "slug": "ghaele",
-              "type": "identical",
-              "value": "Ghaele",
-              "en_value": "Ghaele"
-            },
-            {
-              "slug": "ghast",
-              "type": "identical",
-              "value": "Ghast",
-              "en_value": "Ghast"
-            },
-            {
-              "slug": "ghoul",
-              "type": "identical",
-              "value": "Ghoul",
-              "en_value": "Ghoul"
-            },
-            {
-              "slug": "girallon",
-              "type": "identical",
-              "value": "Girallon",
-              "en_value": "Girallon"
-            },
-            {
-              "slug": "gnoll",
-              "type": "identical",
-              "value": "Gnoll",
-              "en_value": "Gnoll"
-            },
-            {
-              "slug": "goblin",
-              "type": "identical",
-              "value": "Goblin",
-              "en_value": "Goblin"
-            },
-            {
-              "slug": "golem",
-              "type": "identical",
-              "value": "Golem",
-              "en_value": "Golem"
-            },
-            {
-              "slug": "grick",
-              "type": "identical",
-              "value": "Grick",
-              "en_value": "Grick"
-            },
-            {
-              "slug": "grimlock",
-              "type": "identical",
-              "value": "Grimlock",
-              "en_value": "Grimlock"
-            },
-            {
-              "slug": "homunculus",
-              "type": "identical",
-              "value": "Homunculus",
-              "en_value": "Homunculus"
-            },
-            {
-              "slug": "kraken",
-              "type": "identical",
-              "value": "Kraken",
-              "en_value": "Kraken"
-            },
-            {
-              "slug": "krenshar",
-              "type": "identical",
-              "value": "Krenshar",
-              "en_value": "Krenshar"
-            },
-            {
-              "slug": "lamia",
-              "type": "identical",
-              "value": "Lamia",
-              "en_value": "Lamia"
-            },
-            {
-              "slug": "lammasu",
-              "type": "identical",
-              "value": "Lammasu",
-              "en_value": "Lammasu"
-            },
-            {
-              "slug": "leonal",
-              "type": "identical",
-              "value": "Leonal",
-              "en_value": "Leonal"
-            },
-            {
-              "slug": "lich",
-              "type": "identical",
-              "value": "Lich",
-              "en_value": "Lich"
-            },
-            {
-              "slug": "lillend",
-              "type": "identical",
-              "value": "Lillend",
-              "en_value": "Lillend"
-            },
-            {
-              "slug": "locathah",
-              "type": "identical",
-              "value": "Locathah",
-              "en_value": "Locathah"
-            },
-            {
-              "slug": "magmin",
-              "type": "identical",
-              "value": "Magmin",
-              "en_value": "Magmin"
-            }
-          ]
+          "english_residue": 0
         },
         "type": {
           "translated": 267,
@@ -1461,21 +1125,13 @@
       "overlay_count": 31,
       "fields": {
         "name": {
-          "translated": 30,
-          "suspicious": 1,
+          "translated": 31,
+          "suspicious": 0,
           "total": 31,
-          "percent": 96.8,
-          "identical_to_en": 1,
+          "percent": 100.0,
+          "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 0,
-          "issues": [
-            {
-              "slug": "ranger",
-              "type": "identical",
-              "value": "Ranger",
-              "en_value": "Ranger"
-            }
-          ]
+          "english_residue": 0
         },
         "alignment": {
           "translated": 15,
@@ -1575,63 +1231,13 @@
       "overlay_count": 288,
       "fields": {
         "name": {
-          "translated": 268,
-          "suspicious": 8,
+          "translated": 276,
+          "suspicious": 0,
           "total": 276,
-          "percent": 97.1,
-          "identical_to_en": 8,
+          "percent": 100.0,
+          "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 0,
-          "issues": [
-            {
-              "slug": "bolas",
-              "type": "identical",
-              "value": "Bolas",
-              "en_value": "Bolas"
-            },
-            {
-              "slug": "kama",
-              "type": "identical",
-              "value": "Kama",
-              "en_value": "Kama"
-            },
-            {
-              "slug": "kukri",
-              "type": "identical",
-              "value": "Kukri",
-              "en_value": "Kukri"
-            },
-            {
-              "slug": "nunchaku",
-              "type": "identical",
-              "value": "Nunchaku",
-              "en_value": "Nunchaku"
-            },
-            {
-              "slug": "pony",
-              "type": "identical",
-              "value": "Pony",
-              "en_value": "Pony"
-            },
-            {
-              "slug": "sai",
-              "type": "identical",
-              "value": "Sai",
-              "en_value": "Sai"
-            },
-            {
-              "slug": "shuriken-5",
-              "type": "identical",
-              "value": "Shuriken (5)",
-              "en_value": "Shuriken (5)"
-            },
-            {
-              "slug": "siangham",
-              "type": "identical",
-              "value": "Siangham",
-              "en_value": "Siangham"
-            }
-          ]
+          "english_residue": 0
         }
       }
     },
@@ -1640,105 +1246,13 @@
       "overlay_count": 19,
       "fields": {
         "name": {
-          "translated": 4,
-          "suspicious": 15,
+          "translated": 19,
+          "suspicious": 0,
           "total": 19,
-          "percent": 21.1,
-          "identical_to_en": 15,
+          "percent": 100.0,
+          "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 0,
-          "issues": [
-            {
-              "slug": "allineamento-e-descrizione",
-              "type": "identical",
-              "value": "Allineamento e Descrizione",
-              "en_value": "Allineamento e Descrizione"
-            },
-            {
-              "slug": "combattimento-i-basi",
-              "type": "identical",
-              "value": "Combattimento I — Basi",
-              "en_value": "Combattimento I — Basi"
-            },
-            {
-              "slug": "combattimento-ii-movimento-e-azioni-speciali",
-              "type": "identical",
-              "value": "Combattimento II — Movimento e Azioni Speciali",
-              "en_value": "Combattimento II — Movimento e Azioni Speciali"
-            },
-            {
-              "slug": "materiali-speciali",
-              "type": "identical",
-              "value": "Materiali Speciali",
-              "en_value": "Materiali Speciali"
-            },
-            {
-              "slug": "natura-clima-e-ambiente",
-              "type": "identical",
-              "value": "Natura, Clima e Ambiente",
-              "en_value": "Natura, Clima e Ambiente"
-            },
-            {
-              "slug": "oggetti-magici-armature-e-armi",
-              "type": "identical",
-              "value": "Oggetti Magici — Armature e Armi",
-              "en_value": "Oggetti Magici — Armature e Armi"
-            },
-            {
-              "slug": "oggetti-magici-basi-e-creazione",
-              "type": "identical",
-              "value": "Oggetti Magici — Basi e Creazione",
-              "en_value": "Oggetti Magici — Basi e Creazione"
-            },
-            {
-              "slug": "oggetti-magici-intelligenti-maledetti-e-artefatti",
-              "type": "identical",
-              "value": "Oggetti Magici — Intelligenti, Maledetti e Artefatti",
-              "en_value": "Oggetti Magici — Intelligenti, Maledetti e Artefatti"
-            },
-            {
-              "slug": "oggetti-magici-oggetti-meravigliosi",
-              "type": "identical",
-              "value": "Oggetti Magici — Oggetti Meravigliosi",
-              "en_value": "Oggetti Magici — Oggetti Meravigliosi"
-            },
-            {
-              "slug": "oggetti-magici-pergamene-bastoni-e-bacchette",
-              "type": "identical",
-              "value": "Oggetti Magici — Pergamene, Bastoni e Bacchette",
-              "en_value": "Oggetti Magici — Pergamene, Bastoni e Bacchette"
-            },
-            {
-              "slug": "oggetti-magici-pozioni-anelli-e-verghe",
-              "type": "identical",
-              "value": "Oggetti Magici — Pozioni, Anelli e Verghe",
-              "en_value": "Oggetti Magici — Pozioni, Anelli e Verghe"
-            },
-            {
-              "slug": "piani",
-              "type": "identical",
-              "value": "Piani",
-              "en_value": "Piani"
-            },
-            {
-              "slug": "tesori",
-              "type": "identical",
-              "value": "Tesori",
-              "en_value": "Tesori"
-            },
-            {
-              "slug": "trappole",
-              "type": "identical",
-              "value": "Trappole",
-              "en_value": "Trappole"
-            },
-            {
-              "slug": "trasporto-movimento-ed-esplorazione",
-              "type": "identical",
-              "value": "Trasporto, Movimento ed Esplorazione",
-              "en_value": "Trasporto, Movimento ed Esplorazione"
-            }
-          ]
+          "english_residue": 0
         },
         "desc_html": {
           "translated": 18,
@@ -1762,7 +1276,7 @@
   "summary": {
     "total_entries": 1353,
     "total_fields": 8960,
-    "translated_fields": 8766,
-    "overall_percent": 97.8
+    "translated_fields": 8874,
+    "overall_percent": 99.0
   }
 }
