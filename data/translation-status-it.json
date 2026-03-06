@@ -1,321 +1,721 @@
 {
   "lang": "it",
-  "generated_at": "2026-03-06T14:22:29Z",
+  "generated_at": "2026-03-06T20:22:09Z",
   "categories": {
     "spells": {
-      "total": 608,
-      "overlay_count": 609,
+      "total": 1377,
+      "overlay_count": 1378,
       "fields": {
         "name": {
-          "translated": 609,
-          "suspicious": 0,
-          "total": 609,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "translated": 1375,
+          "suspicious": 2,
+          "total": 1377,
+          "percent": 99.9
         },
         "school": {
-          "translated": 609,
+          "translated": 1372,
           "suspicious": 0,
-          "total": 609,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "total": 1372,
+          "percent": 100.0
         },
         "subschool": {
-          "translated": 214,
+          "translated": 406,
           "suspicious": 0,
-          "total": 214,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "total": 408,
+          "percent": 99.5
         },
         "descriptor": {
-          "translated": 234,
+          "translated": 501,
           "suspicious": 0,
-          "total": 234,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "total": 533,
+          "percent": 94.0
         },
         "level": {
-          "translated": 605,
-          "suspicious": 0,
-          "total": 605,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "translated": 1313,
+          "suspicious": 60,
+          "total": 1373,
+          "percent": 95.6
         },
         "components": {
-          "translated": 505,
-          "suspicious": 0,
-          "total": 505,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "translated": 264,
+          "suspicious": 341,
+          "total": 605,
+          "percent": 43.6
         },
         "casting_time": {
-          "translated": 490,
-          "suspicious": 0,
-          "total": 490,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "translated": 583,
+          "suspicious": 22,
+          "total": 605,
+          "percent": 96.4
         },
         "range": {
-          "translated": 502,
+          "translated": 606,
           "suspicious": 0,
-          "total": 502,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "total": 606,
+          "percent": 100.0
         },
         "target_area_effect": {
-          "translated": 537,
+          "translated": 606,
           "suspicious": 0,
-          "total": 537,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "total": 606,
+          "percent": 100.0
         },
         "duration": {
-          "translated": 502,
-          "suspicious": 0,
-          "total": 502,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "translated": 598,
+          "suspicious": 7,
+          "total": 605,
+          "percent": 98.8
         },
         "saving_throw": {
-          "translated": 449,
-          "suspicious": 0,
-          "total": 449,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "translated": 520,
+          "suspicious": 3,
+          "total": 523,
+          "percent": 99.4
         },
         "spell_resistance": {
-          "translated": 440,
+          "translated": 411,
+          "suspicious": 148,
+          "total": 559,
+          "percent": 73.5
+        },
+        "short_description": {
+          "translated": 604,
           "suspicious": 0,
-          "total": 440,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "total": 604,
+          "percent": 100.0
         },
         "desc_html": {
           "translated": 606,
           "suspicious": 0,
-          "total": 606,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0,
-          "issues": [
-            {
-              "slug": "contact-other-plane",
-              "type": "length_anomaly",
-              "en_len": 3699,
-              "it_len": 588
+          "total": 609,
+          "percent": 99.5
+        }
+      },
+      "by_source": {
+        "BoED": {
+          "total": 118,
+          "fields": {
+            "name": {
+              "translated": 118,
+              "total": 118,
+              "percent": 100.0
             },
-            {
-              "slug": "control-weather",
-              "type": "length_anomaly",
-              "en_len": 1669,
-              "it_len": 469
+            "school": {
+              "translated": 117,
+              "total": 117,
+              "percent": 100.0
             },
-            {
-              "slug": "control-winds",
-              "type": "length_anomaly",
-              "en_len": 1990,
-              "it_len": 505
+            "subschool": {
+              "translated": 29,
+              "total": 29,
+              "percent": 100.0
             },
-            {
-              "slug": "detect-evil",
-              "type": "length_anomaly",
-              "en_len": 3423,
-              "it_len": 854
+            "descriptor": {
+              "translated": 74,
+              "total": 74,
+              "percent": 100.0
             },
-            {
-              "slug": "detect-undead",
-              "type": "length_anomaly",
-              "en_len": 2203,
-              "it_len": 491
-            },
-            {
-              "slug": "enthrall",
-              "type": "length_anomaly",
-              "en_len": 2046,
-              "it_len": 537
-            },
-            {
-              "slug": "forbiddance",
-              "type": "length_anomaly",
-              "en_len": 2151,
-              "it_len": 606
-            },
-            {
-              "slug": "gate",
-              "type": "length_anomaly",
-              "en_len": 4807,
-              "it_len": 522
-            },
-            {
-              "slug": "guards-and-wards",
-              "type": "length_anomaly",
-              "en_len": 3473,
-              "it_len": 590
-            },
-            {
-              "slug": "helping-hand",
-              "type": "length_anomaly",
-              "en_len": 2801,
-              "it_len": 547
-            },
-            {
-              "slug": "imbue-with-spell-ability",
-              "type": "length_anomaly",
-              "en_len": 1930,
-              "it_len": 532
-            },
-            {
-              "slug": "magic-circle-against-evil",
-              "type": "length_anomaly",
-              "en_len": 4205,
-              "it_len": 995
-            },
-            {
-              "slug": "permanency",
-              "type": "length_anomaly",
-              "en_len": 4398,
-              "it_len": 1305
-            },
-            {
-              "slug": "prismatic-wall",
-              "type": "length_anomaly",
-              "en_len": 3435,
-              "it_len": 656
-            },
-            {
-              "slug": "reincarnate",
-              "type": "length_anomaly",
-              "en_len": 4362,
-              "it_len": 839
-            },
-            {
-              "slug": "secure-shelter",
-              "type": "length_anomaly",
-              "en_len": 1809,
-              "it_len": 504
-            },
-            {
-              "slug": "shadow-conjuration",
-              "type": "length_anomaly",
-              "en_len": 2338,
-              "it_len": 587
-            },
-            {
-              "slug": "shadow-walk",
-              "type": "length_anomaly",
-              "en_len": 2437,
-              "it_len": 654
-            },
-            {
-              "slug": "speak-with-dead",
-              "type": "length_anomaly",
-              "en_len": 1521,
-              "it_len": 426
-            },
-            {
-              "slug": "spell-turning",
-              "type": "length_anomaly",
-              "en_len": 1647,
-              "it_len": 485
-            },
-            {
-              "slug": "spiritual-weapon",
-              "type": "length_anomaly",
-              "en_len": 3162,
-              "it_len": 821
-            },
-            {
-              "slug": "summon-monster-ix",
-              "type": "length_anomaly",
-              "en_len": 7394,
-              "it_len": 259
-            },
-            {
-              "slug": "summon-natures-ally-ix",
-              "type": "length_anomaly",
-              "en_len": 4613,
-              "it_len": 232
-            },
-            {
-              "slug": "symbol-of-death",
-              "type": "length_anomaly",
-              "en_len": 5386,
-              "it_len": 555
-            },
-            {
-              "slug": "telekinetic-sphere",
-              "type": "length_anomaly",
-              "en_len": 1692,
-              "it_len": 496
-            },
-            {
-              "slug": "teleport",
-              "type": "length_anomaly",
-              "en_len": 3988,
-              "it_len": 773
-            },
-            {
-              "slug": "transmute-rock-to-mud",
-              "type": "length_anomaly",
-              "en_len": 1706,
-              "it_len": 473
-            },
-            {
-              "slug": "transport-via-plants",
-              "type": "length_anomaly",
-              "en_len": 1574,
-              "it_len": 449
-            },
-            {
-              "slug": "tree-stride",
-              "type": "length_anomaly",
-              "en_len": 1584,
-              "it_len": 450
-            },
-            {
-              "slug": "wall-of-iron",
-              "type": "length_anomaly",
-              "en_len": 1688,
-              "it_len": 506
-            },
-            {
-              "slug": "wall-of-thorns",
-              "type": "length_anomaly",
-              "en_len": 2225,
-              "it_len": 513
-            },
-            {
-              "slug": "wish",
-              "type": "length_anomaly",
-              "en_len": 4418,
-              "it_len": 1152
+            "level": {
+              "translated": 117,
+              "total": 117,
+              "percent": 100.0
             }
-          ]
+          },
+          "total_fields": 455,
+          "translated_fields": 455,
+          "percent": 100.0
+        },
+        "CA": {
+          "total": 188,
+          "fields": {
+            "name": {
+              "translated": 188,
+              "total": 188,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 188,
+              "total": 188,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 40,
+              "total": 41,
+              "percent": 97.6
+            },
+            "descriptor": {
+              "translated": 52,
+              "total": 53,
+              "percent": 98.1
+            },
+            "level": {
+              "translated": 188,
+              "total": 188,
+              "percent": 100.0
+            },
+            "components": {
+              "translated": 2,
+              "total": 2,
+              "percent": 100.0
+            },
+            "casting_time": {
+              "translated": 1,
+              "total": 2,
+              "percent": 50.0
+            },
+            "range": {
+              "translated": 2,
+              "total": 2,
+              "percent": 100.0
+            },
+            "target_area_effect": {
+              "translated": 2,
+              "total": 2,
+              "percent": 100.0
+            },
+            "duration": {
+              "translated": 2,
+              "total": 2,
+              "percent": 100.0
+            },
+            "saving_throw": {
+              "translated": 2,
+              "total": 2,
+              "percent": 100.0
+            },
+            "spell_resistance": {
+              "translated": 0,
+              "total": 2,
+              "percent": 0.0
+            },
+            "short_description": {
+              "translated": 2,
+              "total": 2,
+              "percent": 100.0
+            },
+            "desc_html": {
+              "translated": 2,
+              "total": 2,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 676,
+          "translated_fields": 671,
+          "percent": 99.3
+        },
+        "CAd": {
+          "total": 66,
+          "fields": {
+            "name": {
+              "translated": 66,
+              "total": 66,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 66,
+              "total": 66,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 14,
+              "total": 14,
+              "percent": 100.0
+            },
+            "descriptor": {
+              "translated": 18,
+              "total": 18,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 66,
+              "total": 66,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 230,
+          "translated_fields": 230,
+          "percent": 100.0
+        },
+        "CD": {
+          "total": 104,
+          "fields": {
+            "name": {
+              "translated": 104,
+              "total": 104,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 104,
+              "total": 104,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 34,
+              "total": 34,
+              "percent": 100.0
+            },
+            "descriptor": {
+              "translated": 25,
+              "total": 25,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 104,
+              "total": 104,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 371,
+          "translated_fields": 371,
+          "percent": 100.0
+        },
+        "CW": {
+          "total": 7,
+          "fields": {
+            "name": {
+              "translated": 7,
+              "total": 7,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 7,
+              "total": 7,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 2,
+              "total": 2,
+              "percent": 100.0
+            },
+            "descriptor": {
+              "translated": 3,
+              "total": 3,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 7,
+              "total": 7,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 26,
+          "translated_fields": 26,
+          "percent": 100.0
+        },
+        "Drac": {
+          "total": 58,
+          "fields": {
+            "name": {
+              "translated": 58,
+              "total": 58,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 58,
+              "total": 58,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 11,
+              "total": 11,
+              "percent": 100.0
+            },
+            "descriptor": {
+              "translated": 17,
+              "total": 17,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 58,
+              "total": 58,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 202,
+          "translated_fields": 202,
+          "percent": 100.0
+        },
+        "FC1": {
+          "total": 15,
+          "fields": {
+            "name": {
+              "translated": 15,
+              "total": 15,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 15,
+              "total": 15,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 3,
+              "total": 3,
+              "percent": 100.0
+            },
+            "descriptor": {
+              "translated": 10,
+              "total": 10,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 15,
+              "total": 15,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 58,
+          "translated_fields": 58,
+          "percent": 100.0
+        },
+        "HoH": {
+          "total": 28,
+          "fields": {
+            "name": {
+              "translated": 28,
+              "total": 28,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 28,
+              "total": 28,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 10,
+              "total": 10,
+              "percent": 100.0
+            },
+            "descriptor": {
+              "translated": 16,
+              "total": 16,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 28,
+              "total": 28,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 110,
+          "translated_fields": 110,
+          "percent": 100.0
+        },
+        "LM": {
+          "total": 49,
+          "fields": {
+            "name": {
+              "translated": 49,
+              "total": 49,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 49,
+              "total": 49,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 3,
+              "total": 3,
+              "percent": 100.0
+            },
+            "descriptor": {
+              "translated": 25,
+              "total": 25,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 49,
+              "total": 49,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 175,
+          "translated_fields": 175,
+          "percent": 100.0
+        },
+        "LoM": {
+          "total": 21,
+          "fields": {
+            "name": {
+              "translated": 21,
+              "total": 21,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 21,
+              "total": 21,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 2,
+              "total": 2,
+              "percent": 100.0
+            },
+            "descriptor": {
+              "translated": 12,
+              "total": 12,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 21,
+              "total": 21,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 77,
+          "translated_fields": 77,
+          "percent": 100.0
+        },
+        "PHB": {
+          "total": 599,
+          "fields": {
+            "name": {
+              "translated": 599,
+              "total": 599,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 599,
+              "total": 599,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 210,
+              "total": 211,
+              "percent": 99.5
+            },
+            "descriptor": {
+              "translated": 203,
+              "total": 234,
+              "percent": 86.8
+            },
+            "level": {
+              "translated": 543,
+              "total": 599,
+              "percent": 90.7
+            },
+            "components": {
+              "translated": 258,
+              "total": 591,
+              "percent": 43.7
+            },
+            "casting_time": {
+              "translated": 570,
+              "total": 591,
+              "percent": 96.4
+            },
+            "range": {
+              "translated": 592,
+              "total": 592,
+              "percent": 100.0
+            },
+            "target_area_effect": {
+              "translated": 592,
+              "total": 592,
+              "percent": 100.0
+            },
+            "duration": {
+              "translated": 586,
+              "total": 591,
+              "percent": 99.2
+            },
+            "saving_throw": {
+              "translated": 506,
+              "total": 509,
+              "percent": 99.4
+            },
+            "spell_resistance": {
+              "translated": 406,
+              "total": 545,
+              "percent": 74.5
+            },
+            "short_description": {
+              "translated": 591,
+              "total": 591,
+              "percent": 100.0
+            },
+            "desc_html": {
+              "translated": 592,
+              "total": 592,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 7436,
+          "translated_fields": 6847,
+          "percent": 92.1
+        },
+        "PlH": {
+          "total": 74,
+          "fields": {
+            "name": {
+              "translated": 74,
+              "total": 74,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 73,
+              "total": 73,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 32,
+              "total": 32,
+              "percent": 100.0
+            },
+            "descriptor": {
+              "translated": 36,
+              "total": 36,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 74,
+              "total": 74,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 289,
+          "translated_fields": 289,
+          "percent": 100.0
+        },
+        "RoD": {
+          "total": 28,
+          "fields": {
+            "name": {
+              "translated": 28,
+              "total": 28,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 28,
+              "total": 28,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 9,
+              "total": 9,
+              "percent": 100.0
+            },
+            "descriptor": {
+              "translated": 4,
+              "total": 4,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 28,
+              "total": 28,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 97,
+          "translated_fields": 97,
+          "percent": 100.0
+        },
+        "RoS": {
+          "total": 7,
+          "fields": {
+            "name": {
+              "translated": 7,
+              "total": 7,
+              "percent": 100.0
+            },
+            "school": {
+              "translated": 7,
+              "total": 7,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 1,
+              "total": 1,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 7,
+              "total": 7,
+              "percent": 100.0
+            }
+          },
+          "total_fields": 22,
+          "translated_fields": 22,
+          "percent": 100.0
+        },
+        "SRD": {
+          "total": 15,
+          "fields": {
+            "name": {
+              "translated": 13,
+              "total": 15,
+              "percent": 86.7
+            },
+            "school": {
+              "translated": 12,
+              "total": 12,
+              "percent": 100.0
+            },
+            "subschool": {
+              "translated": 6,
+              "total": 6,
+              "percent": 100.0
+            },
+            "descriptor": {
+              "translated": 6,
+              "total": 6,
+              "percent": 100.0
+            },
+            "level": {
+              "translated": 8,
+              "total": 12,
+              "percent": 66.7
+            },
+            "components": {
+              "translated": 4,
+              "total": 12,
+              "percent": 33.3
+            },
+            "casting_time": {
+              "translated": 12,
+              "total": 12,
+              "percent": 100.0
+            },
+            "range": {
+              "translated": 12,
+              "total": 12,
+              "percent": 100.0
+            },
+            "target_area_effect": {
+              "translated": 12,
+              "total": 12,
+              "percent": 100.0
+            },
+            "duration": {
+              "translated": 10,
+              "total": 12,
+              "percent": 83.3
+            },
+            "saving_throw": {
+              "translated": 12,
+              "total": 12,
+              "percent": 100.0
+            },
+            "spell_resistance": {
+              "translated": 5,
+              "total": 12,
+              "percent": 41.7
+            },
+            "short_description": {
+              "translated": 11,
+              "total": 11,
+              "percent": 100.0
+            },
+            "desc_html": {
+              "translated": 12,
+              "total": 15,
+              "percent": 80.0
+            }
+          },
+          "total_fields": 161,
+          "translated_fields": 135,
+          "percent": 83.9
         }
       }
     },
@@ -324,1229 +724,46 @@
       "overlay_count": 111,
       "fields": {
         "name": {
-          "translated": 110,
-          "suspicious": 0,
+          "translated": 109,
+          "suspicious": 1,
           "total": 111,
-          "percent": 99.1,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0,
-          "issues": [
-            {
-              "slug": "feat-name",
-              "type": "missing",
-              "en_value": "Feat Name"
-            }
-          ]
+          "percent": 98.2
         },
         "type": {
           "translated": 110,
           "suspicious": 0,
           "total": 111,
-          "percent": 99.1,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0,
-          "issues": [
-            {
-              "slug": "feat-name",
-              "type": "missing",
-              "en_value": "Type of Feat"
-            }
-          ]
+          "percent": 99.1
         },
         "prerequisites": {
-          "translated": 67,
-          "suspicious": 0,
+          "translated": 66,
+          "suspicious": 1,
           "total": 67,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "percent": 98.5
         },
         "benefit": {
           "translated": 111,
           "suspicious": 0,
           "total": 111,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "percent": 100.0
         },
         "normal": {
           "translated": 33,
           "suspicious": 0,
           "total": 33,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "percent": 100.0
         },
         "special": {
           "translated": 66,
           "suspicious": 0,
           "total": 66,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
-        },
-        "desc_html": {
-          "translated": 51,
-          "suspicious": 0,
-          "total": 111,
-          "percent": 45.9,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0,
-          "issues": [
-            {
-              "slug": "agile",
-              "type": "missing",
-              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Balance checks and Escape Artist checks.</p>"
-            },
-            {
-              "slug": "animal-affinity",
-              "type": "missing",
-              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Handle Animal checks and Ride checks.</p>"
-            },
-            {
-              "slug": "armor-proficiency-medium",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Armor Proficiency (light).</p>\n<p><strong>Benefit:</strong> See Armor Proficiency (lig"
-            },
-            {
-              "slug": "augment-summoning",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Spell Focus (conjuration).</p>\n<p>\n<strong>Benefit:</strong> Each creature you conjure"
-            },
-            {
-              "slug": "brew-potion",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Caster level 3rd.</p>\n<p>\n<strong>Benefit:</strong> You can create a potion of any 3rd"
-            },
-            {
-              "slug": "cleave",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisites:</strong> Str 13, Power Attack.</p>\n<p>\n<strong>Benefit:</strong> If you deal a creature enough"
-            },
-            {
-              "slug": "combat-casting",
-              "type": "missing",
-              "en_value": "<p>\n<strong>Benefit:</strong> You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like\n      "
-            },
-            {
-              "slug": "combat-expertise",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Int 13.</p>\n<p>\n<strong>Benefit:</strong> When you use the attack action or the full a"
-            },
-            {
-              "slug": "combat-reflexes",
-              "type": "missing",
-              "en_value": "<p>\n<strong>Benefit:</strong> You may make a number of additional attacks of opportunity equal to your Dexterity\n      b"
-            },
-            {
-              "slug": "craft-magic-arms-and-armor",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Caster level 5th.</p>\n<p>\n<strong>Benefit:</strong> You can create any magic weapon, a"
-            },
-            {
-              "slug": "craft-wondrous-item",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Caster level 3rd.</p>\n<p>\n<strong>Benefit:</strong> You can create any wondrous item w"
-            },
-            {
-              "slug": "deft-hands",
-              "type": "missing",
-              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Sleight of Hand checks and Use Rope checks.</p>"
-            },
-            {
-              "slug": "dodge",
-              "type": "length_anomaly",
-              "en_len": 572,
-              "it_len": 76
-            },
-            {
-              "slug": "eschew-materials",
-              "type": "missing",
-              "en_value": "<p>\n<strong>Benefit:</strong> You can cast any spell that has a material component costing 1 gp or less without\n      ne"
-            },
-            {
-              "slug": "exotic-weapon-proficiency",
-              "type": "missing",
-              "en_value": "<p>Choose a type of exotic weapon. You understand how to use that type of exotic weapon in combat.</p>\n<p><strong>Prereq"
-            },
-            {
-              "slug": "extend-spell",
-              "type": "missing",
-              "en_value": "<p>\n<strong>Benefit:</strong> An extended spell lasts twice as long as normal. A spell with a duration of\n      concentr"
-            },
-            {
-              "slug": "feat-descriptions--armor-proficiency-heavy",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisites:</strong> Armor Proficiency (light), Armor Proficiency (medium).</p>\n<p><strong>Benefit:</stron"
-            },
-            {
-              "slug": "feat-descriptions--armor-proficiency-light",
-              "type": "missing",
-              "en_value": "<p>\n<strong>Benefit:</strong> When you wear a type of armor with which you are proficient, the armor check penalty for\n "
-            },
-            {
-              "slug": "feat-name",
-              "type": "missing",
-              "en_value": "<p>\n<strong>Prerequisite:</strong> A minimum ability score, another feat or feats, a minimum base attack bonus, a\n      "
-            },
-            {
-              "slug": "great-cleave",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisites:</strong> Str 13, Cleave, Power Attack, base attack bonus +4.</p>\n<p>\n<strong>Benefit:</strong>"
-            },
-            {
-              "slug": "great-fortitude",
-              "type": "missing",
-              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Fortitude saving throws.</p>"
-            },
-            {
-              "slug": "greater-spell-focus",
-              "type": "missing",
-              "en_value": "<p>Choose a school of magic to which you already have applied the Spell Focus feat.</p>\n<p>\n<strong>Benefit:</strong> Ad"
-            },
-            {
-              "slug": "greater-spell-penetration",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Spell Penetration.</p>\n<p>\n<strong>Benefit:</strong> You get a +2 bonus on caster leve"
-            },
-            {
-              "slug": "greater-two-weapon-fighting",
-              "type": "missing",
-              "en_value": "<p>\n<strong>Prerequisites:</strong> Dex 19, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11.\n  "
-            },
-            {
-              "slug": "greater-weapon-focus",
-              "type": "missing",
-              "en_value": "<p>\n      Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike"
-            },
-            {
-              "slug": "greater-weapon-specialization",
-              "type": "missing",
-              "en_value": "<p>\n      Choose one type of weapon for which you have already selected Weapon Specialization. You can also choose unarm"
-            },
-            {
-              "slug": "heighten-spell",
-              "type": "missing",
-              "en_value": "<p>\n<strong>Benefit:</strong> A heightened spell has a higher spell level than normal (up to a maximum of 9th level).\n  "
-            },
-            {
-              "slug": "improved-bull-rush",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisites:</strong> Str 13, Power Attack.</p>\n<p>\n<strong>Benefit:</strong> When you perform a bull rush "
-            },
-            {
-              "slug": "improved-counterspell",
-              "type": "missing",
-              "en_value": "<p>\n<strong>Benefit:</strong> When counterspelling, you may use a spell of the same school that is one or more spell\n   "
-            },
-            {
-              "slug": "improved-familiar",
-              "type": "missing",
-              "en_value": "<p>\n      This feat allows spellcasters to acquire a new familiar from a nonstandard list, but only when they could norm"
-            },
-            {
-              "slug": "improved-feint",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisites:</strong> Int 13, Combat Expertise.</p>\n<p><strong>Benefit:</strong> You can make a Bluff check"
-            },
-            {
-              "slug": "improved-overrun",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisites:</strong> Str 13, Power Attack.</p>\n<p>\n<strong>Benefit:</strong> When you attempt to overrun a"
-            },
-            {
-              "slug": "improved-precise-shot",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisites:</strong> Dex 19, Point Blank Shot, Precise Shot, base attack bonus +11.</p>\n<p>\n<strong>Benefi"
-            },
-            {
-              "slug": "improved-shield-bash",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Shield Proficiency.</p>\n<p>\n<strong>Benefit:</strong> When you perform a shield bash, "
-            },
-            {
-              "slug": "improved-trip",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisites:</strong> Int 13, Combat Expertise.</p>\n<p>\n<strong>Benefit:</strong> You do not provoke an att"
-            },
-            {
-              "slug": "improved-turning",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Ability to turn or rebuke creatures.</p>\n<p>\n<strong>Benefit:</strong> You turn or reb"
-            },
-            {
-              "slug": "improved-two-weapon-fighting",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisites:</strong> Dex 17, Two-Weapon Fighting, base attack bonus +6.</p>\n<p>\n<strong>Benefit:</strong> "
-            },
-            {
-              "slug": "improved-unarmed-strike",
-              "type": "missing",
-              "en_value": "<p>\n<strong>Benefit:</strong> You are considered to be armed even when unarmed —that is, you do not provoke attacks or\n "
-            },
-            {
-              "slug": "investigator",
-              "type": "missing",
-              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Gather Information checks and Search checks.</p>"
-            },
-            {
-              "slug": "iron-will",
-              "type": "missing",
-              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Will saving throws.</p>"
-            },
-            {
-              "slug": "leadership",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Character level 6th.</p>\n<p>\n<strong>Benefits:</strong> Having this feat enables the c"
-            },
-            {
-              "slug": "magical-aptitude",
-              "type": "missing",
-              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Spellcraft checks and Use Magic Device checks.</p>"
-            },
-            {
-              "slug": "martial-weapon-proficiency",
-              "type": "missing",
-              "en_value": "<p>Choose a type of martial weapon. You understand how to use that type of martial weapon in combat.</p>\n<p><strong>Bene"
-            },
-            {
-              "slug": "mounted-archery",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisites:</strong> Ride 1 rank, Mounted Combat.</p>\n<p>\n<strong>Benefit:</strong> The penalty you take w"
-            },
-            {
-              "slug": "mounted-combat",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Ride 1 rank.</p>\n<p>\n<strong>Benefit:</strong> Once per round when your mount is hit i"
-            },
-            {
-              "slug": "nimble-fingers",
-              "type": "missing",
-              "en_value": "<p><strong>Benefit:</strong> You get a +2 bonus on all Disable Device checks and Open Lock checks.</p>"
-            },
-            {
-              "slug": "ride-by-attack",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisites:</strong> Ride 1 rank, Mounted Combat.</p>\n<p>\n<strong>Benefit:</strong> When you are mounted a"
-            },
-            {
-              "slug": "run",
-              "type": "length_anomaly",
-              "en_len": 726,
-              "it_len": 40
-            },
-            {
-              "slug": "scribe-scroll",
-              "type": "missing",
-              "en_value": "<p><strong>Prerequisite:</strong> Caster level 1st.</p>\n<p>\n<strong>Benefit:</strong> You can create a scroll of any spe"
-            },
-            {
-              "slug": "simple-weapon-proficiency",
-              "type": "missing",
-              "en_value": "<p><strong>Benefit:</strong> You make attack rolls with simple weapons normally.</p>\n<p>\n<strong>Normal:</strong> When u"
-            }
-          ]
-        }
-      }
-    },
-    "monsters": {
-      "total": 289,
-      "overlay_count": 289,
-      "fields": {
-        "name": {
-          "translated": 289,
-          "suspicious": 0,
-          "total": 289,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
-        },
-        "type": {
-          "translated": 265,
-          "suspicious": 0,
-          "total": 286,
-          "percent": 92.7,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 2,
-          "issues": [
-            {
-              "slug": "abilities",
-              "type": "missing",
-              "en_value": "Protection from evil3/day,bless"
-            },
-            {
-              "slug": "bite-damage",
-              "type": "missing",
-              "en_value": "1"
-            },
-            {
-              "slug": "black-dragons-by-age",
-              "type": "missing",
-              "en_value": "Wyrmling"
-            },
-            {
-              "slug": "brass-dragons-by-age",
-              "type": "missing",
-              "en_value": "Wyrmling"
-            },
-            {
-              "slug": "claw-damage",
-              "type": "missing",
-              "en_value": "—"
-            },
-            {
-              "slug": "damage",
-              "type": "missing",
-              "en_value": "1"
-            },
-            {
-              "slug": "damage-reduction",
-              "type": "missing",
-              "en_value": "—"
-            },
-            {
-              "slug": "dragon-breath-weapons",
-              "type": "missing",
-              "en_value": "Tiny"
-            },
-            {
-              "slug": "goblin",
-              "type": "missing",
-              "en_value": "Goblin, 1st-Level Warrior"
-            },
-            {
-              "slug": "hd",
-              "type": "missing",
-              "en_value": "1–2"
-            },
-            {
-              "slug": "hit-dice",
-              "type": "missing",
-              "en_value": "1–3"
-            },
-            {
-              "slug": "horse",
-              "type": "missing",
-              "en_value": "Horse, Heavy"
-            },
-            {
-              "slug": "merfolk",
-              "type": "missing",
-              "en_value": "Merfolk, 1st-Level Warrior"
-            },
-            {
-              "slug": "orc",
-              "type": "missing",
-              "en_value": "Orc, 1st-Level Warrior"
-            },
-            {
-              "slug": "planetouched",
-              "type": "missing",
-              "en_value": "Aasimar, 1st-Level Warrior"
-            },
-            {
-              "slug": "resistance-to-acid-cold-electricity",
-              "type": "missing",
-              "en_value": "5"
-            },
-            {
-              "slug": "resistance-to-cold-and-fire",
-              "type": "missing",
-              "en_value": "5"
-            },
-            {
-              "slug": "size",
-              "type": "missing",
-              "en_value": "Fine"
-            },
-            {
-              "slug": "skeleton",
-              "type": "english",
-              "value": "Minuta or smaller",
-              "en_value": "Tiny or smaller",
-              "words": [
-                "or"
-              ]
-            },
-            {
-              "slug": "whale",
-              "type": "missing",
-              "en_value": "Baleen Whale"
-            },
-            {
-              "slug": "zombie",
-              "type": "english",
-              "value": "Minuta or smaller",
-              "en_value": "Tiny or smaller",
-              "words": [
-                "or"
-              ]
-            }
-          ]
-        },
-        "alignment": {
-          "translated": 203,
-          "suspicious": 0,
-          "total": 205,
-          "percent": 99.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 2,
-          "issues": [
-            {
-              "slug": "dwarf-1st-level-warrior",
-              "type": "english",
-              "value": "Spesso legale buono(Deep: Solitamente legale neutrale or neutrale)",
-              "en_value": "Often lawful good(Deep: Usually lawful neutral or neutral)",
-              "words": [
-                "or"
-              ]
-            },
-            {
-              "slug": "giant",
-              "type": "english",
-              "value": "Solitamente neutrale buono or neutrale malvagio",
-              "en_value": "Usually neutral good or neutral evil",
-              "words": [
-                "or"
-              ]
-            }
-          ]
-        },
-        "environment": {
-          "translated": 269,
-          "suspicious": 0,
-          "total": 269,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
-        },
-        "organization": {
-          "translated": 244,
-          "suspicious": 0,
-          "total": 269,
-          "percent": 90.7,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 25,
-          "issues": [
-            {
-              "slug": "azer",
-              "type": "english",
-              "value": "Solitario, coppia, team (3–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o clan\n        ",
-              "en_value": "Solitary, pair, team (3–4), squad (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), or clan\n            ",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "bugbear",
-              "type": "english",
-              "value": "Solitario, bandaa (2–4), o banda (11–20 plus 150% noncombatants plus 2 2nd-level sergeants and 1 leader of\n            2",
-              "en_value": "Solitary, gang (2–4), or band (11–20 plus 150% noncombatants plus 2 2nd-level sergeants and 1 leader of\n            2nd–",
-              "words": [
-                "and"
-              ]
-            },
-            {
-              "slug": "centaur",
-              "type": "english",
-              "value": "Solitario, compagnia (5–8), truppa (8–18 plus 1 leader of 2nd–5th level), o tribe (20–150 plus 30%\n            noncombat",
-              "en_value": "Solitary, company (5–8), troop (8–18 plus 1 leader of 2nd–5th level), or tribe (20–150 plus 30%\n            noncombatant",
-              "words": [
-                "and"
-              ]
-            },
-            {
-              "slug": "derro",
-              "type": "english",
-              "value": "Team (2–4), squadra (5–8 plus 1 3rd-level socerer), o banda (11–20 plus 30% noncombatants plus 3 3rd-level\n            s",
-              "en_value": "Team (2–4), squad (5–8 plus 1 3rd-level sorcerer), or band (11–20 plus 30% noncombatants plus 3 3rd-level\n            so",
-              "words": [
-                "and"
-              ]
-            },
-            {
-              "slug": "drow-1st-level-warrior",
-              "type": "english",
-              "value": "Squad (2–4), pattuglia (5–8 plus 2 2nd-level sergeants and 1 leader of 3rd–6th level), o banda (20–50 plus 10%\n         ",
-              "en_value": "Squad (2–4), patrol (5–8 plus 2 2nd-level sergeants and 1 leader of 3rd–6th level), or band (20–50 plus 10%\n            ",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "duergar-1st-level-warrior",
-              "type": "english",
-              "value": "Team (2–4), squadra (9–16 plus 3 3rd-level sergeants and 1 leader of 3rd–8th level) o clan (20–80 plus 25%\n            n",
-              "en_value": "Team (2–4), squad (9–16 plus 3 3rd-level sergeants and 1 leader of 3rd–8th level) or clan (20–80 plus 25%\n            no",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "dwarf-1st-level-warrior",
-              "type": "english",
-              "value": "Team (2–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o clan (30–100 plus 30%\n          ",
-              "en_value": "Team (2–4), squad (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), or clan (30–100 plus 30%\n           ",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "elf-1st-level-warrior",
-              "type": "english",
-              "value": "Squad (2–4), compagnia (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o banda (30–100 plus\n          ",
-              "en_value": "Squad (2–4), company (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), or band (30–100 plus\n            ",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "ettin",
-              "type": "english",
-              "value": "Solitario, bandaa (2–4), troupe (1–2 plus 1–2 brown bears), banda (3–5 plus 1–2 brown bears), o colonia (3–5\n           ",
-              "en_value": "Solitary, gang (2–4), troupe (1–2 plus 1–2 brown bears), band (3–5 plus 1–2 brown bears), or colony (3–5\n            plu",
-              "words": [
-                "and"
-              ]
-            },
-            {
-              "slug": "giant-ant-queen",
-              "type": "english",
-              "value": "Hive (1 plus 10–100 wokers and 5–20 soldiers)",
-              "en_value": "Hive (1 plus 10–100 workers and 5–20 soldiers)",
-              "words": [
-                "and"
-              ]
-            },
-            {
-              "slug": "gnoll",
-              "type": "english",
-              "value": "Solitario, coppia, gruppo di caccia (2–5 and 1–2 hyenas), banda (10–100 plus 50% noncombatants plus 1 3rd-level\n        ",
-              "en_value": "Solitary, pair, hunting party (2–5 and 1–2 hyenas), band (10–100 plus 50% noncombatants plus 1 3rd-level\n            ser",
-              "words": [
-                "and",
-                "and",
-                "and",
-                "and",
-                "have"
-              ]
-            },
-            {
-              "slug": "gnome-1st-level-warrior",
-              "type": "english",
-              "value": "Company (2–4), squadra (11–20 plus 1 leader of 3rd–6th level and 2 3rd-level lieutenants), o banda (30–50 plus\n         ",
-              "en_value": "Company (2–4), squad (11–20 plus 1 leader of 3rd–6th level and 2 3rd-level lieutenants), or band (30–50 plus\n           ",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "goblin",
-              "type": "english",
-              "value": "Gang (4–9), banda (10–100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4t",
-              "en_value": "Gang (4–9), band (10–100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4th",
-              "words": [
-                "and",
-                "with",
-                "and"
-              ]
-            },
-            {
-              "slug": "hag",
-              "type": "english",
-              "value": "Solitario o covey (3 hags of any kind plus 1–8 ogres and 1–4 evil giants)",
-              "en_value": "Solitary or covey (3 hags of any kind plus 1–8 ogres and 1–4 evil giants)",
-              "words": [
-                "any",
-                "and"
-              ]
-            },
-            {
-              "slug": "halfling-1st-level-warrior",
-              "type": "english",
-              "value": "Company (2–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o banda (30–100 plus\n          ",
-              "en_value": "Company (2–4), squad (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), or band (30–100 plus\n            ",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "hobgoblin-1st-level-warrior",
-              "type": "english",
-              "value": "Gang (4–9), banda (10–100 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4th",
-              "en_value": "Gang (4–9), band (10–100 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4th–",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "kobold-1st-level-warrior",
-              "type": "english",
-              "value": "Gang (4–9), banda (10–100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4t",
-              "en_value": "Gang (4–9), band (10–100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of\n            4th",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "lizardfolk",
-              "type": "english",
-              "value": "Gang (2–3), banda (6–10 plus 50% noncombatants plus 1 leader of 3rd–6th level), o tribe (30–60 plus 2\n            lieute",
-              "en_value": "Gang (2–3), band (6–10 plus 50% noncombatants plus 1 leader of 3rd–6th level), or tribe (30–60 plus 2\n            lieute",
-              "words": [
-                "and"
-              ]
-            },
-            {
-              "slug": "locathah",
-              "type": "english",
-              "value": "Company (2–4), pattuglia (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o tribe (30–100\n            p",
-              "en_value": "Company (2–4), patrol (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), or tribe (30–100\n            plu",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "merfolk",
-              "type": "english",
-              "value": "Company (2–4), pattuglia (11–20 plus 2 3rd-level lieutenants and 1 leader of 3rd–6th level), o banda (30–60\n            ",
-              "en_value": "Company (2–4), patrol (11–20 plus 2 3rd-level lieutenants and 1 leader of 3rd–6th level), or band (30–60\n            plu",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "mummy-lord-10th-level-cleric",
-              "type": "english",
-              "value": "Solitario o tomb guard (1 mummy lod and 6–10 mummies)",
-              "en_value": "Solitary or tomb guard (1 mummy lord and 6–10 mummies)",
-              "words": [
-                "and"
-              ]
-            },
-            {
-              "slug": "nessian-warhound",
-              "type": "english",
-              "value": "Solitario, coppia, o branco (1–2 Nessian warhounds and 5–12 hell hounds)",
-              "en_value": "Solitary, pair, or pack (1–2 Nessian warhounds and 5–12 hell hounds)",
-              "words": [
-                "and"
-              ]
-            },
-            {
-              "slug": "orc",
-              "type": "english",
-              "value": "Gang (2–4), squadra (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), o banda (30–100 plus\n            1",
-              "en_value": "Gang (2–4), squad (11–20 plus 2 3rd-level sergeants and 1 leader of 3rd–6th level), or band (30–100 plus\n            150",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "svirfneblin-1st-level-warrior",
-              "type": "english",
-              "value": "Company (2–4), squadra (11–20 plus 1 leader of 3rd–6th level and 2 3rd-level lieutenants), o banda (30–50 plus\n         ",
-              "en_value": "Company (2–4), squad (11–20 plus 1 leader of 3rd–6th level and 2 3rd-level lieutenants), or band (30–50 plus\n           ",
-              "words": [
-                "and",
-                "and"
-              ]
-            },
-            {
-              "slug": "violet-fungus",
-              "type": "english",
-              "value": "Solitario, patch (2–4), o mixed patch (2–4 violet fungi and 3–5 shriekers)",
-              "en_value": "Solitary, patch (2–4), or mixed patch (2–4 violet fungi and 3–5 shriekers)",
-              "words": [
-                "and"
-              ]
-            }
-          ]
+          "percent": 100.0
         },
         "desc_html": {
           "translated": 0,
           "suspicious": 0,
-          "total": 288,
-          "percent": 0.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 284,
-          "issues": [
-            {
-              "slug": "abilities",
-              "type": "english",
-              "value": "~14% tradotto",
-              "en_value": "(1513 chars)",
-              "words": [
-                "14% tradotto"
-              ]
-            },
-            {
-              "slug": "aboleth",
-              "type": "english",
-              "value": "~2% tradotto",
-              "en_value": "(4652 chars)",
-              "words": [
-                "2% tradotto"
-              ]
-            },
-            {
-              "slug": "aboleth-mage-10th-level-wizard",
-              "type": "english",
-              "value": "~2% tradotto",
-              "en_value": "(4652 chars)",
-              "words": [
-                "2% tradotto"
-              ]
-            },
-            {
-              "slug": "abyssal-greater-basilisk",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(1902 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "achaierai",
-              "type": "english",
-              "value": "~2% tradotto",
-              "en_value": "(1129 chars)",
-              "words": [
-                "2% tradotto"
-              ]
-            },
-            {
-              "slug": "adult-arrowhawk",
-              "type": "english",
-              "value": "~2% tradotto",
-              "en_value": "(1258 chars)",
-              "words": [
-                "2% tradotto"
-              ]
-            },
-            {
-              "slug": "adult-tojanida",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(2514 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "air-elemental-large",
-              "type": "english",
-              "value": "~9% tradotto",
-              "en_value": "(37209 chars)",
-              "words": [
-                "9% tradotto"
-              ]
-            },
-            {
-              "slug": "air-elemental-medium",
-              "type": "english",
-              "value": "~9% tradotto",
-              "en_value": "(37209 chars)",
-              "words": [
-                "9% tradotto"
-              ]
-            },
-            {
-              "slug": "air-elemental-small",
-              "type": "english",
-              "value": "~9% tradotto",
-              "en_value": "(37209 chars)",
-              "words": [
-                "9% tradotto"
-              ]
-            },
-            {
-              "slug": "allip",
-              "type": "english",
-              "value": "~2% tradotto",
-              "en_value": "(1404 chars)",
-              "words": [
-                "2% tradotto"
-              ]
-            },
-            {
-              "slug": "angel",
-              "type": "english",
-              "value": "~6% tradotto",
-              "en_value": "(12907 chars)",
-              "words": [
-                "6% tradotto"
-              ]
-            },
-            {
-              "slug": "animated-object-medium",
-              "type": "english",
-              "value": "~8% tradotto",
-              "en_value": "(7061 chars)",
-              "words": [
-                "8% tradotto"
-              ]
-            },
-            {
-              "slug": "animated-object-small",
-              "type": "english",
-              "value": "~8% tradotto",
-              "en_value": "(7061 chars)",
-              "words": [
-                "8% tradotto"
-              ]
-            },
-            {
-              "slug": "animated-object-tiny",
-              "type": "english",
-              "value": "~8% tradotto",
-              "en_value": "(7061 chars)",
-              "words": [
-                "8% tradotto"
-              ]
-            },
-            {
-              "slug": "ankheg",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(1888 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "ape",
-              "type": "english",
-              "value": "~5% tradotto",
-              "en_value": "(412 chars)",
-              "words": [
-                "5% tradotto"
-              ]
-            },
-            {
-              "slug": "aranea",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(3298 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            },
-            {
-              "slug": "archon",
-              "type": "english",
-              "value": "~8% tradotto",
-              "en_value": "(14486 chars)",
-              "words": [
-                "8% tradotto"
-              ]
-            },
-            {
-              "slug": "assassin-vine",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(2797 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "athach",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(824 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            },
-            {
-              "slug": "average-salamander",
-              "type": "english",
-              "value": "~7% tradotto",
-              "en_value": "(1693 chars)",
-              "words": [
-                "7% tradotto"
-              ]
-            },
-            {
-              "slug": "average-xorn",
-              "type": "english",
-              "value": "~1% tradotto",
-              "en_value": "(1831 chars)",
-              "words": [
-                "1% tradotto"
-              ]
-            },
-            {
-              "slug": "avoral",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(2626 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "azer",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(1922 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            },
-            {
-              "slug": "baboon",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(539 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            },
-            {
-              "slug": "badger",
-              "type": "english",
-              "value": "~5% tradotto",
-              "en_value": "(700 chars)",
-              "words": [
-                "5% tradotto"
-              ]
-            },
-            {
-              "slug": "barghest",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(4700 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            },
-            {
-              "slug": "basilisk",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(1902 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "bat",
-              "type": "english",
-              "value": "~2% tradotto",
-              "en_value": "(450 chars)",
-              "words": [
-                "2% tradotto"
-              ]
-            },
-            {
-              "slug": "bear-black",
-              "type": "english",
-              "value": "~5% tradotto",
-              "en_value": "(438 chars)",
-              "words": [
-                "5% tradotto"
-              ]
-            },
-            {
-              "slug": "bear-brown",
-              "type": "english",
-              "value": "~7% tradotto",
-              "en_value": "(695 chars)",
-              "words": [
-                "7% tradotto"
-              ]
-            },
-            {
-              "slug": "bear-polar",
-              "type": "english",
-              "value": "~8% tradotto",
-              "en_value": "(787 chars)",
-              "words": [
-                "8% tradotto"
-              ]
-            },
-            {
-              "slug": "behir",
-              "type": "english",
-              "value": "~6% tradotto",
-              "en_value": "(2668 chars)",
-              "words": [
-                "6% tradotto"
-              ]
-            },
-            {
-              "slug": "belker",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(1585 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "bison",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(761 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "bite-damage",
-              "type": "english",
-              "value": "~12% tradotto",
-              "en_value": "(2841 chars)",
-              "words": [
-                "12% tradotto"
-              ]
-            },
-            {
-              "slug": "black-dragons-by-age",
-              "type": "english",
-              "value": "~10% tradotto",
-              "en_value": "(41284 chars)",
-              "words": [
-                "10% tradotto"
-              ]
-            },
-            {
-              "slug": "black-pudding",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(12130 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            },
-            {
-              "slug": "blink-dog",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(905 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "boar",
-              "type": "english",
-              "value": "~7% tradotto",
-              "en_value": "(436 chars)",
-              "words": [
-                "7% tradotto"
-              ]
-            },
-            {
-              "slug": "bodak",
-              "type": "english",
-              "value": "~6% tradotto",
-              "en_value": "(697 chars)",
-              "words": [
-                "6% tradotto"
-              ]
-            },
-            {
-              "slug": "bralani",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(2000 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            },
-            {
-              "slug": "brass-dragons-by-age",
-              "type": "english",
-              "value": "~11% tradotto",
-              "en_value": "(43623 chars)",
-              "words": [
-                "11% tradotto"
-              ]
-            },
-            {
-              "slug": "bugbear",
-              "type": "english",
-              "value": "~5% tradotto",
-              "en_value": "(1475 chars)",
-              "words": [
-                "5% tradotto"
-              ]
-            },
-            {
-              "slug": "bulette",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(782 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            },
-            {
-              "slug": "camel",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(838 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            },
-            {
-              "slug": "cat",
-              "type": "english",
-              "value": "~7% tradotto",
-              "en_value": "(523 chars)",
-              "words": [
-                "7% tradotto"
-              ]
-            },
-            {
-              "slug": "celestial-charger-7th-level-cleric",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(3058 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "centaur",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(1639 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            }
-          ]
+          "total": 111,
+          "percent": 0.0
         }
       }
     },
@@ -1555,453 +772,34 @@
       "overlay_count": 31,
       "fields": {
         "name": {
-          "translated": 31,
-          "suspicious": 0,
+          "translated": 30,
+          "suspicious": 1,
           "total": 31,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "percent": 96.8
         },
-        "alignment": {
-          "translated": 13,
-          "suspicious": 0,
-          "total": 15,
-          "percent": 86.7,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 2,
-          "issues": [
-            {
-              "slug": "cleric",
-              "type": "english",
-              "value": "A cleric’s alignment must be within one step of his deity’s (that is, it may be one\n      step away on either the legale",
-              "en_value": "A cleric’s alignment must be within one step of his deity’s (that is, it may be one\n      step away on either the lawful",
-              "words": [
-                "must",
-                "within",
-                "that",
-                "is",
-                "may",
-                "the",
-                "or",
-                "the",
-                "not",
-                "may",
-                "not",
-                "is"
-              ]
-            },
-            {
-              "slug": "druid",
-              "type": "english",
-              "value": "Neutral buono, legale neutrale, neutrale, caotico neutrale, or neutrale malvagio.",
-              "en_value": "Neutral good, lawful neutral, neutral, chaotic neutral, or neutral evil.",
-              "words": [
-                "or"
-              ]
-            }
-          ]
-        },
-        "table_html": {
-          "translated": 19,
-          "suspicious": 0,
-          "total": 30,
-          "percent": 63.3,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 11,
-          "issues": [
-            {
-              "slug": "adept",
-              "type": "english",
-              "value": "~39% tradotto",
-              "en_value": "(3478 chars)",
-              "words": [
-                "39% tradotto"
-              ]
-            },
-            {
-              "slug": "arcane-archer",
-              "type": "english",
-              "value": "~19% tradotto",
-              "en_value": "(1263 chars)",
-              "words": [
-                "19% tradotto"
-              ]
-            },
-            {
-              "slug": "aristocrat",
-              "type": "english",
-              "value": "~36% tradotto",
-              "en_value": "(1802 chars)",
-              "words": [
-                "36% tradotto"
-              ]
-            },
-            {
-              "slug": "cleric",
-              "type": "english",
-              "value": "~30% tradotto",
-              "en_value": "(5086 chars)",
-              "words": [
-                "30% tradotto"
-              ]
-            },
-            {
-              "slug": "commoner",
-              "type": "english",
-              "value": "~25% tradotto",
-              "en_value": "(1721 chars)",
-              "words": [
-                "25% tradotto"
-              ]
-            },
-            {
-              "slug": "eldritch-knight",
-              "type": "english",
-              "value": "~39% tradotto",
-              "en_value": "(1512 chars)",
-              "words": [
-                "39% tradotto"
-              ]
-            },
-            {
-              "slug": "expert",
-              "type": "english",
-              "value": "~39% tradotto",
-              "en_value": "(1761 chars)",
-              "words": [
-                "39% tradotto"
-              ]
-            },
-            {
-              "slug": "hierophant",
-              "type": "english",
-              "value": "~29% tradotto",
-              "en_value": "(746 chars)",
-              "words": [
-                "29% tradotto"
-              ]
-            },
-            {
-              "slug": "horizon-walker",
-              "type": "english",
-              "value": "~37% tradotto",
-              "en_value": "(1272 chars)",
-              "words": [
-                "37% tradotto"
-              ]
-            },
-            {
-              "slug": "mystic-theurge",
-              "type": "english",
-              "value": "~39% tradotto",
-              "en_value": "(2073 chars)",
-              "words": [
-                "39% tradotto"
-              ]
-            },
-            {
-              "slug": "sorcerer",
-              "type": "english",
-              "value": "~35% tradotto",
-              "en_value": "(4418 chars)",
-              "words": [
-                "35% tradotto"
-              ]
-            }
-          ]
-        },
-        "desc_html": {
+        "hit_die": {
           "translated": 0,
           "suspicious": 0,
           "total": 31,
-          "percent": 0.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 31,
-          "issues": [
-            {
-              "slug": "adept",
-              "type": "english",
-              "value": "~10% tradotto",
-              "en_value": "(7426 chars)",
-              "words": [
-                "10% tradotto"
-              ]
-            },
-            {
-              "slug": "arcane-archer",
-              "type": "english",
-              "value": "~7% tradotto",
-              "en_value": "(5499 chars)",
-              "words": [
-                "7% tradotto"
-              ]
-            },
-            {
-              "slug": "arcane-trickster",
-              "type": "english",
-              "value": "~13% tradotto",
-              "en_value": "(5552 chars)",
-              "words": [
-                "13% tradotto"
-              ]
-            },
-            {
-              "slug": "archmage",
-              "type": "english",
-              "value": "~7% tradotto",
-              "en_value": "(7209 chars)",
-              "words": [
-                "7% tradotto"
-              ]
-            },
-            {
-              "slug": "aristocrat",
-              "type": "english",
-              "value": "~25% tradotto",
-              "en_value": "(2772 chars)",
-              "words": [
-                "25% tradotto"
-              ]
-            },
-            {
-              "slug": "assassin",
-              "type": "english",
-              "value": "~10% tradotto",
-              "en_value": "(10355 chars)",
-              "words": [
-                "10% tradotto"
-              ]
-            },
-            {
-              "slug": "barbarian",
-              "type": "english",
-              "value": "~15% tradotto",
-              "en_value": "(9011 chars)",
-              "words": [
-                "15% tradotto"
-              ]
-            },
-            {
-              "slug": "bard",
-              "type": "english",
-              "value": "~8% tradotto",
-              "en_value": "(20881 chars)",
-              "words": [
-                "8% tradotto"
-              ]
-            },
-            {
-              "slug": "blackguard",
-              "type": "english",
-              "value": "~9% tradotto",
-              "en_value": "(13923 chars)",
-              "words": [
-                "9% tradotto"
-              ]
-            },
-            {
-              "slug": "cleric",
-              "type": "english",
-              "value": "~10% tradotto",
-              "en_value": "(13145 chars)",
-              "words": [
-                "10% tradotto"
-              ]
-            },
-            {
-              "slug": "commoner",
-              "type": "english",
-              "value": "~22% tradotto",
-              "en_value": "(2544 chars)",
-              "words": [
-                "22% tradotto"
-              ]
-            },
-            {
-              "slug": "dragon-disciple",
-              "type": "english",
-              "value": "~10% tradotto",
-              "en_value": "(8036 chars)",
-              "words": [
-                "10% tradotto"
-              ]
-            },
-            {
-              "slug": "druid",
-              "type": "english",
-              "value": "~8% tradotto",
-              "en_value": "(22978 chars)",
-              "words": [
-                "8% tradotto"
-              ]
-            },
-            {
-              "slug": "duelist",
-              "type": "english",
-              "value": "~14% tradotto",
-              "en_value": "(4718 chars)",
-              "words": [
-                "14% tradotto"
-              ]
-            },
-            {
-              "slug": "dwarven-defender",
-              "type": "english",
-              "value": "~13% tradotto",
-              "en_value": "(5945 chars)",
-              "words": [
-                "13% tradotto"
-              ]
-            },
-            {
-              "slug": "eldritch-knight",
-              "type": "english",
-              "value": "~14% tradotto",
-              "en_value": "(3845 chars)",
-              "words": [
-                "14% tradotto"
-              ]
-            },
-            {
-              "slug": "expert",
-              "type": "english",
-              "value": "~35% tradotto",
-              "en_value": "(2344 chars)",
-              "words": [
-                "35% tradotto"
-              ]
-            },
-            {
-              "slug": "fighter",
-              "type": "english",
-              "value": "~26% tradotto",
-              "en_value": "(3716 chars)",
-              "words": [
-                "26% tradotto"
-              ]
-            },
-            {
-              "slug": "hierophant",
-              "type": "english",
-              "value": "~5% tradotto",
-              "en_value": "(8010 chars)",
-              "words": [
-                "5% tradotto"
-              ]
-            },
-            {
-              "slug": "horizon-walker",
-              "type": "english",
-              "value": "~8% tradotto",
-              "en_value": "(7094 chars)",
-              "words": [
-                "8% tradotto"
-              ]
-            },
-            {
-              "slug": "loremaster",
-              "type": "english",
-              "value": "~9% tradotto",
-              "en_value": "(5747 chars)",
-              "words": [
-                "9% tradotto"
-              ]
-            },
-            {
-              "slug": "monk",
-              "type": "english",
-              "value": "~13% tradotto",
-              "en_value": "(16565 chars)",
-              "words": [
-                "13% tradotto"
-              ]
-            },
-            {
-              "slug": "mystic-theurge",
-              "type": "english",
-              "value": "~17% tradotto",
-              "en_value": "(4038 chars)",
-              "words": [
-                "17% tradotto"
-              ]
-            },
-            {
-              "slug": "paladin",
-              "type": "english",
-              "value": "~10% tradotto",
-              "en_value": "(17541 chars)",
-              "words": [
-                "10% tradotto"
-              ]
-            },
-            {
-              "slug": "ranger",
-              "type": "english",
-              "value": "~12% tradotto",
-              "en_value": "(14015 chars)",
-              "words": [
-                "12% tradotto"
-              ]
-            },
-            {
-              "slug": "rogue",
-              "type": "english",
-              "value": "~9% tradotto",
-              "en_value": "(11148 chars)",
-              "words": [
-                "9% tradotto"
-              ]
-            },
-            {
-              "slug": "shadowdancer",
-              "type": "english",
-              "value": "~9% tradotto",
-              "en_value": "(7963 chars)",
-              "words": [
-                "9% tradotto"
-              ]
-            },
-            {
-              "slug": "sorcerer",
-              "type": "english",
-              "value": "~10% tradotto",
-              "en_value": "(12042 chars)",
-              "words": [
-                "10% tradotto"
-              ]
-            },
-            {
-              "slug": "thaumaturgist",
-              "type": "english",
-              "value": "~9% tradotto",
-              "en_value": "(6012 chars)",
-              "words": [
-                "9% tradotto"
-              ]
-            },
-            {
-              "slug": "warrior",
-              "type": "english",
-              "value": "~35% tradotto",
-              "en_value": "(2515 chars)",
-              "words": [
-                "35% tradotto"
-              ]
-            },
-            {
-              "slug": "wizard",
-              "type": "english",
-              "value": "~5% tradotto",
-              "en_value": "(21801 chars)",
-              "words": [
-                "5% tradotto"
-              ]
-            }
-          ]
+          "percent": 0.0
+        },
+        "alignment": {
+          "translated": 15,
+          "suspicious": 0,
+          "total": 15,
+          "percent": 100.0
+        },
+        "table_html": {
+          "translated": 21,
+          "suspicious": 9,
+          "total": 30,
+          "percent": 70.0
+        },
+        "desc_html": {
+          "translated": 7,
+          "suspicious": 24,
+          "total": 31,
+          "percent": 22.6
         }
       }
     },
@@ -2013,43 +811,79 @@
           "translated": 7,
           "suspicious": 0,
           "total": 7,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "percent": 100.0
         },
         "traits": {
           "translated": 7,
           "suspicious": 0,
           "total": 7,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "percent": 100.0
         },
         "desc_html": {
           "translated": 7,
           "suspicious": 0,
           "total": 7,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "percent": 100.0
+        }
+      }
+    },
+    "monsters": {
+      "total": 289,
+      "overlay_count": 289,
+      "fields": {
+        "name": {
+          "translated": 210,
+          "suspicious": 79,
+          "total": 289,
+          "percent": 72.7
+        },
+        "type": {
+          "translated": 267,
+          "suspicious": 0,
+          "total": 286,
+          "percent": 93.4
+        },
+        "environment": {
+          "translated": 268,
+          "suspicious": 1,
+          "total": 269,
+          "percent": 99.6
+        },
+        "organization": {
+          "translated": 266,
+          "suspicious": 3,
+          "total": 269,
+          "percent": 98.9
+        },
+        "alignment": {
+          "translated": 205,
+          "suspicious": 0,
+          "total": 205,
+          "percent": 100.0
+        },
+        "desc_html": {
+          "translated": 7,
+          "suspicious": 277,
+          "total": 288,
+          "percent": 2.4
         }
       }
     },
     "equipment": {
       "total": 288,
-      "overlay_count": 288,
+      "overlay_count": 276,
       "fields": {
         "name": {
+          "translated": 268,
+          "suspicious": 8,
+          "total": 276,
+          "percent": 97.1
+        },
+        "category": {
           "translated": 276,
           "suspicious": 0,
           "total": 276,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "percent": 100.0
         }
       }
     },
@@ -2058,199 +892,24 @@
       "overlay_count": 19,
       "fields": {
         "name": {
-          "translated": 19,
-          "suspicious": 0,
+          "translated": 4,
+          "suspicious": 15,
           "total": 19,
-          "percent": 100.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 0
+          "percent": 21.1
         },
         "desc_html": {
           "translated": 0,
-          "suspicious": 0,
+          "suspicious": 18,
           "total": 19,
-          "percent": 0.0,
-          "identical_to_en": 0,
-          "ocr_issues": 0,
-          "english_residue": 18,
-          "issues": [
-            {
-              "slug": "abilita-i",
-              "type": "english",
-              "value": "~1% tradotto",
-              "en_value": "(79160 chars)",
-              "words": [
-                "1% tradotto"
-              ]
-            },
-            {
-              "slug": "abilita-ii",
-              "type": "english",
-              "value": "~1% tradotto",
-              "en_value": "(74699 chars)",
-              "words": [
-                "1% tradotto"
-              ]
-            },
-            {
-              "slug": "abilita-speciali-e-condizioni",
-              "type": "english",
-              "value": "~0% tradotto",
-              "en_value": "(86783 chars)",
-              "words": [
-                "0% tradotto"
-              ]
-            },
-            {
-              "slug": "allineamento-e-descrizione",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(18093 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            },
-            {
-              "slug": "combattimento-i-basi",
-              "type": "english",
-              "value": "~2% tradotto",
-              "en_value": "(65295 chars)",
-              "words": [
-                "2% tradotto"
-              ]
-            },
-            {
-              "slug": "combattimento-ii-movimento-e-azioni-speciali",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(72053 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "materiali-speciali",
-              "type": "missing",
-              "en_value": "<p>In addition to magic items created with spells, some substances have innate special properties.</p>\n<p>\n      If you "
-            },
-            {
-              "slug": "natura-clima-e-ambiente",
-              "type": "english",
-              "value": "~0% tradotto",
-              "en_value": "(158007 chars)",
-              "words": [
-                "0% tradotto"
-              ]
-            },
-            {
-              "slug": "oggetti-magici-armature-e-armi",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(112097 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            },
-            {
-              "slug": "oggetti-magici-basi-e-creazione",
-              "type": "english",
-              "value": "~4% tradotto",
-              "en_value": "(61102 chars)",
-              "words": [
-                "4% tradotto"
-              ]
-            },
-            {
-              "slug": "oggetti-magici-intelligenti-maledetti-e-artefatti",
-              "type": "english",
-              "value": "~1% tradotto",
-              "en_value": "(89762 chars)",
-              "words": [
-                "1% tradotto"
-              ]
-            },
-            {
-              "slug": "oggetti-magici-oggetti-meravigliosi",
-              "type": "english",
-              "value": "~0% tradotto",
-              "en_value": "(190598 chars)",
-              "words": [
-                "0% tradotto"
-              ]
-            },
-            {
-              "slug": "oggetti-magici-pergamene-bastoni-e-bacchette",
-              "type": "english",
-              "value": "~1% tradotto",
-              "en_value": "(94281 chars)",
-              "words": [
-                "1% tradotto"
-              ]
-            },
-            {
-              "slug": "oggetti-magici-pozioni-anelli-e-verghe",
-              "type": "english",
-              "value": "~1% tradotto",
-              "en_value": "(75149 chars)",
-              "words": [
-                "1% tradotto"
-              ]
-            },
-            {
-              "slug": "piani",
-              "type": "english",
-              "value": "~1% tradotto",
-              "en_value": "(45704 chars)",
-              "words": [
-                "1% tradotto"
-              ]
-            },
-            {
-              "slug": "regole-base-e-punteggi-abilita",
-              "type": "english",
-              "value": "~5% tradotto",
-              "en_value": "(14259 chars)",
-              "words": [
-                "5% tradotto"
-              ]
-            },
-            {
-              "slug": "tesori",
-              "type": "english",
-              "value": "~2% tradotto",
-              "en_value": "(20227 chars)",
-              "words": [
-                "2% tradotto"
-              ]
-            },
-            {
-              "slug": "trappole",
-              "type": "english",
-              "value": "~2% tradotto",
-              "en_value": "(65029 chars)",
-              "words": [
-                "2% tradotto"
-              ]
-            },
-            {
-              "slug": "trasporto-movimento-ed-esplorazione",
-              "type": "english",
-              "value": "~3% tradotto",
-              "en_value": "(39580 chars)",
-              "words": [
-                "3% tradotto"
-              ]
-            }
-          ]
+          "percent": 0.0
         }
       }
     }
   },
   "summary": {
-    "total_entries": 1353,
-    "total_fields": 8960,
-    "translated_fields": 8499,
-    "overall_percent": 94.9
+    "total_entries": 2122,
+    "total_fields": 13350,
+    "translated_fields": 12125,
+    "overall_percent": 90.8
   }
 }

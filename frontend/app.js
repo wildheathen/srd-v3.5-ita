@@ -983,8 +983,9 @@ async function renderTranslationStatus(selectedLang) {
   resultsList.innerHTML = `<div class="loading">${t('msg.loading')}</div>`;
 
   try {
-    // Fetch index to discover available languages
-    const indexRes = await fetch(`${DATA_BASE}/translation-status-index.json`);
+    // Fetch index to discover available languages (cache-bust)
+    const cb = `v=${Date.now()}`;
+    const indexRes = await fetch(`${DATA_BASE}/translation-status-index.json?${cb}`);
     let langs = [];
     if (indexRes.ok) {
       const index = await indexRes.json();
@@ -994,10 +995,10 @@ async function renderTranslationStatus(selectedLang) {
     // Determine which language to show
     const lang = selectedLang || (langs.includes(getCurrentLang()) ? getCurrentLang() : langs[0]) || 'it';
 
-    // Fetch per-language status
+    // Fetch per-language status (cache-bust)
     const statusUrl = langs.length > 0
-      ? `${DATA_BASE}/translation-status-${lang}.json`
-      : `${DATA_BASE}/translation-status.json`;
+      ? `${DATA_BASE}/translation-status-${lang}.json?${cb}`
+      : `${DATA_BASE}/translation-status.json?${cb}`;
     const res = await fetch(statusUrl);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
@@ -1092,6 +1093,26 @@ function renderStatusDashboard(data, langs, activeLang) {
         }
         html += `</div>`;
       }
+    }
+
+    // ── Per-source breakdown ──
+    if (cat.by_source) {
+      const srcEntries = Object.entries(cat.by_source).sort((a, b) => b[1].total - a[1].total);
+      html += `<div class="status-by-source">`;
+      const bySourceLabel = (() => { const v = t('status.by_source'); return v && !v.includes('.') ? v : 'Per manuale'; })();
+      html += `<h4 class="source-breakdown-title" onclick="this.nextElementSibling.classList.toggle('open')">${bySourceLabel} <span class="toggle-arrow">▸</span></h4>`;
+      html += `<div class="source-breakdown-body">`;
+      for (const [srcName, srcData] of srcEntries) {
+        const sPct = srcData.percent;
+        const sFillClass = sPct >= 100 ? 'complete' : '';
+        html += `<div class="source-row">`;
+        html += `<span class="source-name">${esc(srcName)}</span>`;
+        html += `<span class="source-count">${srcData.total}</span>`;
+        html += `<div class="field-bar"><div class="field-bar-fill ${sFillClass}" style="width:${sPct}%"></div></div>`;
+        html += `<span class="field-stats">${srcData.translated_fields}/${srcData.total_fields} (${sPct}%)</span>`;
+        html += `</div>`;
+      }
+      html += `</div></div>`;
     }
 
     html += `</div></div>`;

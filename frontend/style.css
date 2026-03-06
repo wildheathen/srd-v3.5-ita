@@ -1018,6 +1018,94 @@ main {
   display: block;
 }
 
+/* ── Per-source breakdown ── */
+.status-by-source {
+  margin-top: 1rem;
+  border-top: 1px solid var(--border);
+  padding-top: 0.5rem;
+}
+
+.source-breakdown-title {
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.5rem 0;
+  user-select: none;
+}
+
+.source-breakdown-title:hover {
+  color: var(--accent);
+}
+
+.source-breakdown-title .toggle-arrow {
+  font-size: 0.7rem;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+
+.source-breakdown-body {
+  display: none;
+}
+
+.source-breakdown-body.open {
+  display: block;
+}
+
+.source-breakdown-body.open + .source-breakdown-title .toggle-arrow,
+.source-breakdown-title:has(+ .source-breakdown-body.open) .toggle-arrow {
+  transform: rotate(90deg);
+}
+
+.source-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.25rem 0;
+  font-size: 0.85rem;
+}
+
+.source-name {
+  font-weight: 600;
+  min-width: 3.5rem;
+  color: var(--accent);
+}
+
+.source-count {
+  min-width: 2rem;
+  text-align: right;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+}
+
+.source-row .field-bar {
+  flex: 1;
+  height: 8px;
+  min-width: 60px;
+  background: var(--bg);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.source-row .field-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 4px;
+}
+
+.source-row .field-bar-fill.complete {
+  background: var(--green);
+}
+
+.source-row .field-stats {
+  min-width: 120px;
+  text-align: right;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
 .issue-item {
   display: flex;
   align-items: baseline;

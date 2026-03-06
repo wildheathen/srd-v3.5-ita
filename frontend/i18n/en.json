@@ -108,6 +108,7 @@
   "status.percent": "Percent",
   "status.generated": "Generated on",
   "status.entries": "entries",
+  "status.by_source": "By sourcebook",
 
   "source.label": "Source",
 

@@ -108,6 +108,7 @@
   "status.percent": "Percentuale",
   "status.generated": "Generato il",
   "status.entries": "entries",
+  "status.by_source": "Per manuale",
 
   "source.label": "Fonte",
 

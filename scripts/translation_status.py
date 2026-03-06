@@ -18,7 +18,7 @@ TRANSLATABLE_FIELDS = {
     "spells": [
         "name", "school", "subschool", "descriptor", "level", "components",
         "casting_time", "range", "target_area_effect", "duration",
-        "saving_throw", "spell_resistance", "desc_html",
+        "saving_throw", "spell_resistance", "short_description", "desc_html",
     ],
     "feats": [
         "name", "type", "prerequisites", "benefit", "normal", "special",
@@ -186,35 +186,124 @@ def generate_json_report(lang, data_dir, categories):
         cat_data = {"total": len(base), "overlay_count": len(overlay_map), "fields": {}}
 
         for field in fields:
-            base_with_field = sum(
-                1 for e in base
-                if e.get(field) is not None and e.get(field) != ""
-            )
-            if base_with_field == 0:
+            # Count base entries that have this field non-empty
+            base_slugs_with_field = set()
+            for e in base:
+                slug = e.get("slug")
+                if slug and e.get(field) is not None and e.get(field) != "":
+                    base_slugs_with_field.add(slug)
+
+            # Also count overlay-only entries (field provided by overlay
+            # but not by base — e.g. Italian-only data from external sources)
+            overlay_only = set()
+            for slug, e in overlay_map.items():
+                if (
+                    slug in base_map
+                    and slug not in base_slugs_with_field
+                    and field in e
+                    and e[field] is not None
+                    and e[field] != ""
+                ):
+                    overlay_only.add(slug)
+
+            total_with_field = len(base_slugs_with_field) + len(overlay_only)
+            if total_with_field == 0:
                 continue
 
-            translated = sum(
-                1 for slug, e in overlay_map.items()
-                if field in e and e[field] is not None and e[field] != ""
-                and is_genuinely_translated(e[field], base_map.get(slug, {}).get(field, ""))
-            )
+            # Count genuinely translated (only for slugs that exist in base)
+            translated = 0
+            suspicious = 0
+            for slug in base_slugs_with_field | overlay_only:
+                ov = overlay_map.get(slug, {})
+                ov_val = ov.get(field)
+                if ov_val is None or ov_val == "":
+                    continue
+                base_val = base_map.get(slug, {}).get(field, "")
+                if is_genuinely_translated(ov_val, base_val):
+                    translated += 1
+                else:
+                    suspicious += 1
 
-            suspicious = sum(
-                1 for slug, e in overlay_map.items()
-                if field in e and e[field] is not None and e[field] != ""
-                and not is_genuinely_translated(e[field], base_map.get(slug, {}).get(field, ""))
-            )
-
-            pct = (translated / base_with_field * 100) if base_with_field > 0 else 0
+            pct = (translated / total_with_field * 100) if total_with_field > 0 else 0
             cat_data["fields"][field] = {
                 "translated": translated,
                 "suspicious": suspicious,
-                "total": base_with_field,
+                "total": total_with_field,
                 "percent": round(pct, 1),
             }
 
-            result["summary"]["total_fields"] += base_with_field
+            result["summary"]["total_fields"] += total_with_field
             result["summary"]["translated_fields"] += translated
+
+        # ── Per-source breakdown (only if multiple sources exist) ──
+        sources = set(e.get("source", "") or "unknown" for e in base)
+        if len(sources) > 1:
+            by_source = {}
+            for src in sorted(sources):
+                src_entries = [e for e in base if (e.get("source", "") or "unknown") == src]
+                src_slugs = {e["slug"] for e in src_entries if e.get("slug")}
+                src_total_fields = 0
+                src_translated_fields = 0
+
+                src_field_data = {}
+                for field in fields:
+                    # Slugs where base has this field non-empty
+                    base_slugs_f = {
+                        e["slug"]
+                        for e in src_entries
+                        if e.get("slug")
+                        and e.get(field) is not None
+                        and e.get(field) != ""
+                    }
+                    # Overlay-only: slug in base but base field empty,
+                    # overlay provides a value
+                    overlay_only_f = set()
+                    for slug in src_slugs:
+                        if (
+                            slug not in base_slugs_f
+                            and slug in overlay_map
+                            and field in overlay_map[slug]
+                            and overlay_map[slug][field] is not None
+                            and overlay_map[slug][field] != ""
+                        ):
+                            overlay_only_f.add(slug)
+
+                    total_f = len(base_slugs_f) + len(overlay_only_f)
+                    if total_f == 0:
+                        continue
+
+                    trans = 0
+                    for slug in base_slugs_f | overlay_only_f:
+                        ov = overlay_map.get(slug, {})
+                        ov_val = ov.get(field)
+                        if ov_val is None or ov_val == "":
+                            continue
+                        base_val = base_map.get(slug, {}).get(field, "")
+                        if is_genuinely_translated(ov_val, base_val):
+                            trans += 1
+
+                    pct = (trans / total_f * 100) if total_f > 0 else 0
+                    src_field_data[field] = {
+                        "translated": trans,
+                        "total": total_f,
+                        "percent": round(pct, 1),
+                    }
+                    src_total_fields += total_f
+                    src_translated_fields += trans
+
+                src_pct = (
+                    round(src_translated_fields / src_total_fields * 100, 1)
+                    if src_total_fields > 0
+                    else 0.0
+                )
+                by_source[src] = {
+                    "total": len(src_entries),
+                    "fields": src_field_data,
+                    "total_fields": src_total_fields,
+                    "translated_fields": src_translated_fields,
+                    "percent": src_pct,
+                }
+            cat_data["by_source"] = by_source
 
         result["categories"][cat] = cat_data
         result["summary"]["total_entries"] += len(base)
