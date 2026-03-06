@@ -1,0 +1,378 @@
+#!/usr/bin/env python3
+"""
+i18n Quality Report — Dashboard per verificare la qualit delle traduzioni.
+
+Confronta i dati base EN con gli overlay IT per ogni categoria,
+rileva problemi (campi mancanti, OCR, residui inglesi) e genera report.
+
+Uso:
+    python scripts/i18n_report.py                          # Dashboard completa
+    python scripts/i18n_report.py spells                   # Solo spells
+    python scripts/i18n_report.py spells --field desc_html # Solo un campo
+    python scripts/i18n_report.py spells --field desc_html --details  # Mostra record
+    python scripts/i18n_report.py --save                   # Salva report JSON
+"""
+
+import argparse
+import io
+import json
+import os
+import re
+import sys
+from pathlib import Path
+
+# Force UTF-8 output on Windows
+if sys.stdout.encoding != "utf-8":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = REPO_ROOT / "data"
+
+# Definizione campi traducibili per categoria
+TRANSLATABLE_FIELDS = {
+    "spells": [
+        "name", "school", "subschool", "descriptor", "level", "components",
+        "casting_time", "range", "target_area_effect", "duration",
+        "saving_throw", "spell_resistance", "desc_html",
+    ],
+    "feats": ["name", "type", "prerequisites", "benefit", "normal", "special", "desc_html"],
+    "monsters": ["name", "type", "alignment", "environment", "organization", "desc_html"],
+    "classes": ["name", "alignment", "table_html", "desc_html"],
+    "races": ["name", "traits", "desc_html"],
+    "equipment": ["name"],
+    "rules": ["name", "desc_html"],
+}
+
+# --- Detect functions ---
+
+OCR_PATTERNS = [
+    (r"ziuna\b", "OCR suffix: ziuna -> zione"),
+    (r"siuna\b", "OCR suffix: siuna -> sione"),
+    (r"\bpe r\b", "parola spezzata: 'pe r'"),
+    (r"\bd i\b", "parola spezzata: 'd i'"),
+    (r"\bch e\b", "parola spezzata: 'ch e'"),
+    (r"\bco n\b", "parola spezzata: 'co n'"),
+    (r"\bogn i\b", "parola spezzata: 'ogn i'"),
+    (r"\btr e\b", "parola spezzata: 'tr e'"),
+    (r"\bcentrat a\b", "parola spezzata: 'centrat a'"),
+    (r"\btoccat i\b", "parola spezzata: 'toccat i'"),
+    (r"\blivell o\b", "parola spezzata: 'livell o'"),
+    (r"\braggi o\b", "parola spezzata: 'raggi o'"),
+    (r"\d+\s*rn\b", "OCR: rn -> m"),
+    (r"\d+\s*tn\b", "OCR: tn -> m"),
+    (r"\u00b7", "carattere corrotto: middle dot"),
+    (r"\u201e", "carattere corrotto: double low quote"),
+    (r"- \.", "artefatto: '- .'"),
+    (r"toscata\b", "OCR: toscata -> toccata"),
+    (r"viventetoscata", "OCR: parole fuse"),
+    (r"pi\s+\u00f9u", "OCR: pi uu -> piu"),
+]
+
+ENGLISH_TOKENS = re.compile(
+    r"\b(the|and|or|with|that|which|can|has|have|are|is|was|were|this|"
+    r"spell|effect|target|bonus|check|damage|attack|save|class|"
+    r"ability|skill|feat|character|weapon|armor|shield|"
+    r"you|your|she|her|its|they|their|"
+    r"must|may|cannot|does not|instead|however|although|"
+    r"each|every|any|all|no|not|if|when|while|until|"
+    r"within|against|upon|from|into|through|"
+    r"hit points|hit dice|caster level|spell level|"
+    r"saving throw|base attack|armor class|"
+    r"standard action|full-round action|free action|"
+    r"subject|failure|success|otherwise)\b",
+    re.IGNORECASE,
+)
+
+# Words that look English but are valid Italian
+ITALIAN_FALSE_POSITIVES = {
+    "creature", "per", "area", "medium", "line", "round", "no",
+    "base", "i", "a", "e", "o", "con", "in", "non", "come",
+    "bonus", "all", "standard", "special",
+}
+
+
+def detect_ocr_issues(value):
+    """Detect OCR artifacts in a value. Returns list of (pattern_desc, match)."""
+    if not value or len(value) > 2000:  # skip very long HTML
+        return []
+    issues = []
+    for pattern, desc in OCR_PATTERNS:
+        if re.search(pattern, value):
+            issues.append(desc)
+    return issues
+
+
+def detect_english_residue(value):
+    """Detect English words in a value that should be Italian."""
+    if not value or len(value) > 500:  # skip long HTML content
+        return []
+    matches = ENGLISH_TOKENS.findall(value)
+    return [m for m in matches if m.lower() not in ITALIAN_FALSE_POSITIVES]
+
+
+def analyze_field(en_entries, it_entries, field):
+    """Analyze a single field across all entries."""
+    en_by_slug = {e["slug"]: e for e in en_entries}
+    it_by_slug = {e["slug"]: e for e in it_entries}
+
+    stats = {
+        "present": 0,
+        "missing": 0,
+        "identical_to_en": 0,
+        "ocr_issues": 0,
+        "english_residue": 0,
+        "issues": [],
+    }
+
+    all_slugs = set(en_by_slug.keys()) | set(it_by_slug.keys())
+
+    for slug in sorted(all_slugs):
+        en_val = en_by_slug.get(slug, {}).get(field, "")
+        it_entry = it_by_slug.get(slug, {})
+        it_val = it_entry.get(field, "")
+
+        # For list fields (like traits), convert to string for comparison
+        if isinstance(en_val, list):
+            en_val = json.dumps(en_val, ensure_ascii=False)
+        if isinstance(it_val, list):
+            it_val = json.dumps(it_val, ensure_ascii=False)
+
+        if not en_val and not it_val:
+            continue  # field doesn't exist in either
+
+        if not it_val and en_val:
+            stats["missing"] += 1
+            stats["issues"].append({
+                "slug": slug,
+                "type": "missing",
+                "en_value": str(en_val)[:120],
+            })
+            continue
+
+        stats["present"] += 1
+
+        # Check if identical to EN
+        if it_val == en_val and en_val:
+            stats["identical_to_en"] += 1
+            stats["issues"].append({
+                "slug": slug,
+                "type": "identical",
+                "value": str(it_val)[:120],
+            })
+            continue
+
+        # OCR check (skip very long HTML)
+        if field != "desc_html" and field != "table_html":
+            ocr = detect_ocr_issues(str(it_val))
+            if ocr:
+                stats["ocr_issues"] += 1
+                stats["issues"].append({
+                    "slug": slug,
+                    "type": "ocr",
+                    "value": str(it_val)[:120],
+                    "details": ocr,
+                })
+
+            eng = detect_english_residue(str(it_val))
+            if eng:
+                stats["english_residue"] += 1
+                stats["issues"].append({
+                    "slug": slug,
+                    "type": "english",
+                    "value": str(it_val)[:120],
+                    "words": eng,
+                })
+        else:
+            # For HTML fields: check length anomaly
+            if en_val and it_val and len(str(it_val)) < len(str(en_val)) * 0.3:
+                stats["issues"].append({
+                    "slug": slug,
+                    "type": "length_anomaly",
+                    "en_len": len(str(en_val)),
+                    "it_len": len(str(it_val)),
+                })
+
+    return stats
+
+
+def analyze_category(category, lang="it"):
+    """Analyze a full category. Returns result dict."""
+    en_path = DATA_DIR / f"{category}.json"
+    it_path = DATA_DIR / "i18n" / lang / f"{category}.json"
+
+    if not en_path.exists():
+        return None
+    if not it_path.exists():
+        return {"category": category, "lang": lang, "error": "overlay file missing"}
+
+    with open(en_path, "r", encoding="utf-8") as f:
+        en_data = json.load(f)
+    with open(it_path, "r", encoding="utf-8") as f:
+        it_data = json.load(f)
+
+    fields = TRANSLATABLE_FIELDS.get(category, [])
+    result = {
+        "category": category,
+        "lang": lang,
+        "total_en": len(en_data),
+        "total_it": len(it_data),
+        "fields": {},
+    }
+
+    for field in fields:
+        result["fields"][field] = analyze_field(en_data, it_data, field)
+
+    return result
+
+
+# --- Display functions ---
+
+def bar(current, total, width=20):
+    """Create a progress bar string."""
+    if total == 0:
+        return " " * width
+    filled = int(width * current / total)
+    return "\u2588" * filled + "\u2591" * (width - filled)
+
+
+def print_dashboard(results):
+    """Print formatted dashboard to console."""
+    print()
+    print("=" * 66)
+    print(f"  i18n Quality Report")
+    print("=" * 66)
+
+    for r in results:
+        if r is None:
+            continue
+        if "error" in r:
+            print(f"\n  {r['category'].upper()}: {r['error']}")
+            continue
+
+        cat = r["category"].upper()
+        print(f"\n  {cat} ({r['total_it']} entries)")
+        print("  " + "-" * 62)
+
+        total_issues = 0
+        for field, stats in r["fields"].items():
+            total = stats["present"] + stats["missing"]
+            if total == 0:
+                continue
+            pct = stats["present"] * 100 // total if total else 0
+            b = bar(stats["present"], total)
+            print(f"    {field:<22} {b} {stats['present']:>4}/{total:<4} {pct:>3}%")
+
+            n_issues = stats["ocr_issues"] + stats["english_residue"] + stats["identical_to_en"]
+            if n_issues > 0:
+                parts = []
+                if stats["identical_to_en"]:
+                    parts.append(f"{stats['identical_to_en']} identici EN")
+                if stats["ocr_issues"]:
+                    parts.append(f"{stats['ocr_issues']} OCR")
+                if stats["english_residue"]:
+                    parts.append(f"{stats['english_residue']} inglese")
+                print(f"    {'':22}   -> {', '.join(parts)}")
+                total_issues += n_issues
+
+    print()
+    print("=" * 66)
+
+
+def print_field_details(result, field_name):
+    """Print detailed issues for a specific field."""
+    if result is None or "error" in result:
+        print("No data available")
+        return
+
+    stats = result["fields"].get(field_name)
+    if not stats:
+        print(f"Field '{field_name}' not found in {result['category']}")
+        return
+
+    total = stats["present"] + stats["missing"]
+    print(f"\n{result['category']}.{field_name}")
+    print(f"  Presenti: {stats['present']}/{total}")
+    print(f"  Mancanti: {stats['missing']}")
+    print(f"  Identici a EN: {stats['identical_to_en']}")
+    print(f"  Problemi OCR: {stats['ocr_issues']}")
+    print(f"  Residui inglese: {stats['english_residue']}")
+
+    if not stats["issues"]:
+        print("\n  Nessun problema rilevato!")
+        return
+
+    # Group by type
+    by_type = {}
+    for issue in stats["issues"]:
+        t = issue["type"]
+        by_type.setdefault(t, []).append(issue)
+
+    for itype, issues in by_type.items():
+        label = {
+            "missing": "Mancanti",
+            "identical": "Identici a EN (non tradotti?)",
+            "ocr": "Artefatti OCR",
+            "english": "Residui inglese",
+            "length_anomaly": "Lunghezza anomala",
+        }.get(itype, itype)
+
+        print(f"\n  --- {label}: {len(issues)} ---")
+        for issue in issues[:50]:  # limit output
+            slug = issue["slug"]
+            val = issue.get("value", issue.get("en_value", ""))
+            detail = issue.get("details", issue.get("words", ""))
+            if detail:
+                print(f"    {slug}: {val}")
+                print(f"      -> {detail}")
+            else:
+                print(f"    {slug}: {val}")
+
+
+def save_report(results, lang):
+    """Save results as JSON files."""
+    out_dir = REPO_ROOT / "reports" / "i18n" / lang
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    for r in results:
+        if r is None:
+            continue
+        path = out_dir / f"{r['category']}.json"
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(r, f, ensure_ascii=False, indent=2)
+        print(f"  Saved: {path}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="i18n Quality Report")
+    parser.add_argument("category", nargs="?", help="Category to analyze (default: all)")
+    parser.add_argument("--field", help="Show details for a specific field")
+    parser.add_argument("--details", action="store_true", help="Show detailed issue list")
+    parser.add_argument("--lang", default="it", help="Language code (default: it)")
+    parser.add_argument("--save", action="store_true", help="Save JSON reports")
+    args = parser.parse_args()
+
+    categories = list(TRANSLATABLE_FIELDS.keys())
+    if args.category:
+        if args.category not in categories:
+            print(f"Unknown category: {args.category}")
+            print(f"Available: {', '.join(categories)}")
+            sys.exit(1)
+        categories = [args.category]
+
+    results = []
+    for cat in categories:
+        results.append(analyze_category(cat, args.lang))
+
+    if args.field and len(results) == 1:
+        print_field_details(results[0], args.field)
+        if args.details:
+            pass  # details already shown by print_field_details
+    else:
+        print_dashboard(results)
+
+    if args.save:
+        save_report(results, args.lang)
+
+
+if __name__ == "__main__":
+    main()
