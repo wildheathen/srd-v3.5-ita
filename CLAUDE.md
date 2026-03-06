@@ -113,9 +113,30 @@ python scripts/import_to_db.py
 # Import traduzioni IT (formato JSON)
 python scripts/import_translations.py translations_it.json
 
+# Estrazione PDF → HTML strutturato (con grassetto/corsivo)
+python scripts/pdf_to_html.py <pdf_path> <output_html>
+# Esempio: python scripts/pdf_to_html.py /tmp/incantesimi_A.pdf /tmp/output.html
+
 # Avvio backend locale (opzionale)
 uvicorn backend.app:app --reload --port 8000
 ```
+
+## Estrazione PDF SRD
+
+Lo script `scripts/pdf_to_html.py` converte i PDF del SRD italiano (da editorifolli.it) in HTML strutturato.
+
+**Approccio ibrido:**
+1. `pdftotext` per il testo completo (zero perdite)
+2. Parsing raw PDF streams per identificare font Bold/Italic
+3. Merge: applica `<b>`/`<i>` al testo usando i frammenti formattati
+4. Struttura: split in blocchi con campi separati dalla descrizione
+5. Leggibilità: `<br>` dopo ogni frase e prima di elenchi
+
+**Requisiti:** `pdftotext` nel PATH (incluso in Git for Windows). Nessuna dipendenza Python esterna.
+
+**Limiti:** Non gestisce tabelle (da estendere). Il parsing campi è ottimizzato per incantesimi — per talenti, classi, mostri servono FIELD_LABELS diversi.
+
+**Sorgenti PDF:** `https://www.editorifolli.it/f/srd35/` (pattern: `srd35_10_XX_*.pdf`)
 
 ## API Endpoints (backend opzionale)
 
