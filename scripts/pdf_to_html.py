@@ -356,16 +356,35 @@ def parse_spells(full_text, bold_set, italic_set):
     lines = full_text.split('\n')
 
     # Collect non-empty lines, merging continuation lines
+    # Key: detect spell boundaries even without blank lines — when an ALL-CAPS
+    # line is followed by a school name, start a new paragraph
     paragraphs = []
     current = ''
-    for line in lines:
+    for i, line in enumerate(lines):
         stripped = line.strip()
         if not stripped:
             if current:
                 paragraphs.append(current)
                 current = ''
         else:
+            # Check if this line starts a new spell (ALL-CAPS + next line is school)
+            is_new_spell = False
             if current:
+                alpha = re.sub(r'[^a-zA-ZÀ-ú]', '', stripped)
+                if alpha and len(stripped) >= 3:
+                    upper_ratio = sum(1 for c in alpha if c.isupper()) / len(alpha)
+                    if upper_ratio > 0.8:
+                        # Check next non-empty lines for school name
+                        for j in range(i + 1, min(i + 3, len(lines))):
+                            next_s = lines[j].strip()
+                            if next_s:
+                                if any(next_s.startswith(s) for s in SCHOOLS):
+                                    is_new_spell = True
+                                break
+            if is_new_spell:
+                paragraphs.append(current)
+                current = stripped
+            elif current:
                 current += ' ' + stripped
             else:
                 current = stripped
@@ -376,20 +395,23 @@ def parse_spells(full_text, bold_set, italic_set):
     spells = []
     header_text = ''
 
+    # Allow comma in spell names (e.g., "PAROLA DEL POTERE, ACCECARE")
+    spell_name_chars = r"A-ZÀÈÉÌÒÙ\s/'\-,"
+
     for para in paragraphs:
         # Try to find spell name at the start
         # Spell name pattern: ALL CAPS words at the beginning, before the school
         spell_match = None
         for school in SCHOOLS:
             # Pattern: SPELL NAME School...
-            pattern = rf'^([A-ZÀÈÉÌÒÙ][A-ZÀÈÉÌÒÙ\s/\'\-]+?)\s+({school})'
+            pattern = rf'^([A-ZÀÈÉÌÒÙ][{spell_name_chars}]+?)\s+({school})'
             m = re.match(pattern, para)
             if m:
                 spell_match = m
                 break
 
         if spell_match:
-            spell_name = spell_match.group(1).strip()
+            spell_name = spell_match.group(1).strip().rstrip(',')
             rest = para[spell_match.start(2):]
             spells.append({'name': spell_name, 'text': rest})
         elif para.startswith('This material is Open Game Content') or para.startswith('INCANTESIMI'):
