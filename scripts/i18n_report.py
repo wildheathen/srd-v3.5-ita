@@ -11,6 +11,7 @@ Uso:
     python scripts/i18n_report.py spells --field desc_html # Solo un campo
     python scripts/i18n_report.py spells --field desc_html --details  # Mostra record
     python scripts/i18n_report.py --save                   # Salva report JSON
+    python scripts/i18n_report.py --frontend               # Genera JSON per frontend
 """
 
 import argparse
@@ -19,6 +20,7 @@ import json
 import os
 import re
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 # Force UTF-8 output on Windows
@@ -342,6 +344,99 @@ def save_report(results, lang):
         print(f"  Saved: {path}")
 
 
+def generate_frontend_json(results, lang):
+    """Generate translation-status JSON for the frontend dashboard."""
+    report = {
+        "lang": lang,
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "categories": {},
+        "summary": {
+            "total_entries": 0,
+            "total_fields": 0,
+            "translated_fields": 0,
+            "overall_percent": 0.0,
+        },
+    }
+
+    for r in results:
+        if r is None or "error" in r:
+            continue
+
+        cat_name = r["category"]
+        cat_data = {
+            "total": r["total_en"],
+            "overlay_count": r["total_it"],
+            "fields": {},
+        }
+
+        for field_name, stats in r["fields"].items():
+            total = stats["present"] + stats["missing"]
+            if total == 0:
+                continue
+
+            translated = stats["present"] - stats["identical_to_en"]
+            pct = round(translated / total * 100, 1) if total > 0 else 0.0
+
+            field_data = {
+                "translated": translated,
+                "suspicious": stats["identical_to_en"],
+                "total": total,
+                "percent": pct,
+                "identical_to_en": stats["identical_to_en"],
+                "ocr_issues": stats["ocr_issues"],
+                "english_residue": stats["english_residue"],
+            }
+
+            # Include issues (limit to 50 per field to keep JSON small)
+            if stats["issues"]:
+                field_data["issues"] = stats["issues"][:50]
+
+            cat_data["fields"][field_name] = field_data
+
+            report["summary"]["total_fields"] += total
+            report["summary"]["translated_fields"] += translated
+
+        report["categories"][cat_name] = cat_data
+        report["summary"]["total_entries"] += r["total_en"]
+
+    total = report["summary"]["total_fields"]
+    done = report["summary"]["translated_fields"]
+    report["summary"]["overall_percent"] = round(done / total * 100, 1) if total > 0 else 0.0
+
+    return report
+
+
+def save_frontend_json(lang):
+    """Generate and save translation-status JSON files for the frontend."""
+    categories = list(TRANSLATABLE_FIELDS.keys())
+    results = [analyze_category(cat, lang) for cat in categories]
+
+    report = generate_frontend_json(results, lang)
+
+    out_path = DATA_DIR / f"translation-status-{lang}.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(f"  Written: {out_path}")
+
+    # Also write legacy translation-status.json
+    legacy_path = DATA_DIR / "translation-status.json"
+    with open(legacy_path, "w", encoding="utf-8") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+    # Write index
+    index = {
+        "languages": [lang],
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    }
+    index_path = DATA_DIR / "translation-status-index.json"
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(f"  Written: {index_path}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="i18n Quality Report")
     parser.add_argument("category", nargs="?", help="Category to analyze (default: all)")
@@ -349,7 +444,12 @@ def main():
     parser.add_argument("--details", action="store_true", help="Show detailed issue list")
     parser.add_argument("--lang", default="it", help="Language code (default: it)")
     parser.add_argument("--save", action="store_true", help="Save JSON reports")
+    parser.add_argument("--frontend", action="store_true", help="Generate translation-status JSON for frontend")
     args = parser.parse_args()
+
+    if args.frontend:
+        save_frontend_json(args.lang)
+        return
 
     categories = list(TRANSLATABLE_FIELDS.keys())
     if args.category:

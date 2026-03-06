@@ -977,11 +977,36 @@ function renderStatusDashboard(data, langs, activeLang) {
     for (const [fieldName, f] of Object.entries(fields)) {
       const pct = f.percent.toFixed(1);
       const fillClass = f.percent >= 100 ? 'complete' : '';
-      html += `<div class="status-field-row">`;
+      const hasIssues = f.issues && f.issues.length > 0;
+      const fieldId = `status-${catName}-${fieldName}`.replace(/[^a-z0-9-]/g, '-');
+      html += `<div class="status-field-row${hasIssues ? ' has-issues' : ''}"${hasIssues ? ` onclick="document.getElementById('${fieldId}').classList.toggle('open')"` : ''}>`;
       html += `<span class="field-name">${esc(fieldName)}</span>`;
       html += `<div class="field-bar"><div class="field-bar-fill ${fillClass}" style="width:${pct}%"></div></div>`;
       html += `<span class="field-stats">${f.translated}/${f.total} (${pct}%)</span>`;
+
+      // Quality badges
+      const badges = [];
+      if (f.identical_to_en > 0) badges.push(`<span class="badge badge-identical">${f.identical_to_en} identici EN</span>`);
+      if (f.ocr_issues > 0) badges.push(`<span class="badge badge-ocr">${f.ocr_issues} OCR</span>`);
+      if (f.english_residue > 0) badges.push(`<span class="badge badge-english">${f.english_residue} inglese</span>`);
+      if (badges.length > 0) html += `<span class="field-badges">${badges.join('')}</span>`;
+
       html += `</div>`;
+
+      // Expandable issues list
+      if (hasIssues) {
+        html += `<div class="field-issues-list" id="${fieldId}">`;
+        for (const issue of f.issues) {
+          const val = issue.value || issue.en_value || '';
+          const detail = issue.details || issue.words || '';
+          const typeLabel = { missing: 'mancante', identical: 'identico EN', ocr: 'OCR', english: 'inglese', length_anomaly: 'lunghezza' }[issue.type] || issue.type;
+          html += `<div class="issue-item"><span class="issue-slug">${esc(issue.slug)}</span><span class="issue-type issue-${issue.type}">${typeLabel}</span>`;
+          if (val) html += `<span class="issue-value">${esc(val.substring(0, 80))}</span>`;
+          if (detail) html += `<span class="issue-detail">${esc(String(detail).substring(0, 80))}</span>`;
+          html += `</div>`;
+        }
+        html += `</div>`;
+      }
     }
 
     html += `</div></div>`;
