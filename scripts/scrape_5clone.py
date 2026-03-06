@@ -115,6 +115,8 @@ def scrape_detail_page(url, session):
         "url": url,
         "name_it": None,
         "name_en": None,
+        "school_it": None,
+        "level_it": None,
         "reference": None,
         "source_code": None,
         "manual_name": None,
@@ -139,6 +141,12 @@ def scrape_detail_page(url, session):
         "name_en": [
             r"Nome\s*\(?[Ii]ng(?:lese)?\)?\s*:\s*(.+?)(?:\n|$)",
             r"Nome\s*\(?[Ee]ng?\)?\s*:\s*(.+?)(?:\n|$)",
+        ],
+        "school_it": [
+            r"Scuola\s*:\s*(.+?)(?:\n|$)",
+        ],
+        "level_it": [
+            r"Livello\s*:\s*(.+?)(?:\n|$)",
         ],
         "reference": [
             r"Riferimento\s*:\s*(.+?)(?:\n|$)",
@@ -173,6 +181,10 @@ def scrape_detail_page(url, session):
                 result["name_it"] = value
             elif "nome" in label and ("ing" in label or "eng" in label or "en" in label):
                 result["name_en"] = value
+            elif "scuola" in label:
+                result["school_it"] = value
+            elif "livello" in label:
+                result["level_it"] = value
             elif "riferimento" in label or "fonte" in label:
                 result["reference"] = value
             elif "descrizione" in label:
@@ -277,7 +289,8 @@ def main():
                     counter[0] += 1
                     src = result.get("source_code", "?")
                     en = result.get("name_en", "?")
-                    print(f"[{counter[0]}/{total}] {name} OK [{src}] EN: {en}")
+                    sch = result.get("school_it", "?")
+                    print(f"[{counter[0]}/{total}] {name} OK [{src}] EN: {en} | Scuola: {sch}")
                 return result
             except Exception as e:
                 with lock:
@@ -328,7 +341,8 @@ def main():
             # Show what we found
             src = result.get("source_code", "?")
             en = result.get("name_en", "?")
-            print(f"OK [{src}] EN: {en}")
+            sch = result.get("school_it", "?")
+            print(f"OK [{src}] EN: {en} | Scuola: {sch}")
 
         except requests.exceptions.HTTPError as e:
             print(f"HTTP ERROR {e.response.status_code}")

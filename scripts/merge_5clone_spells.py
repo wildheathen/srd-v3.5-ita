@@ -127,6 +127,8 @@ def main():
         "updated_reference": 0,
         "updated_it_name": 0,
         "updated_summary": 0,
+        "updated_school": 0,
+        "updated_level": 0,
         "sources_found": {},
         "no_name_en": 0,
     }
@@ -140,6 +142,8 @@ def main():
         manual_name = entry.get("manual_name", "")
         page = entry.get("page")
         summary_it = entry.get("summary_it", "").strip()
+        school_it = entry.get("school_it", "").strip()
+        level_it = entry.get("level_it", "").strip()
 
         if not name_en:
             stats["no_name_en"] += 1
@@ -187,6 +191,14 @@ def main():
                 spell["summary_it"] = summary_it
                 stats["updated_summary"] += 1
 
+            if school_it:
+                spells_it_by_slug[slug]["school_it"] = school_it
+                stats["updated_school"] += 1
+
+            if level_it:
+                spells_it_by_slug[slug]["level_it"] = level_it
+                stats["updated_level"] += 1
+
         else:
             # New spell - create skeleton entry
             slug = slugify(name_en)
@@ -228,6 +240,10 @@ def main():
                 it_entry["name"] = name_it
             if summary_it:
                 it_entry["summary_it"] = summary_it
+            if school_it:
+                it_entry["school_it"] = school_it
+            if level_it:
+                it_entry["level_it"] = level_it
             spells_it_by_slug[slug] = it_entry
 
             stats["new_spells"] += 1
@@ -244,6 +260,8 @@ def main():
     print(f"  Riferimenti aggiunti:       {stats['updated_reference']}")
     print(f"  Nomi IT aggiunti:           {stats['updated_it_name']}")
     print(f"  Descrizioni sommarie:       {stats['updated_summary']}")
+    print(f"  Scuole IT aggiunte:         {stats['updated_school']}")
+    print(f"  Livelli IT aggiunti:        {stats['updated_level']}")
     print()
     print("  Distribuzione per manuale:")
     for src, count in sorted(stats["sources_found"].items(), key=lambda x: -x[1]):
