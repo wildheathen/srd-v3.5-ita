@@ -72,60 +72,60 @@ Ogni file overlay è un **array JSON** di oggetti. Ogni oggetto deve avere il ca
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
-| `name` | stringa | "Fireball" | "Palla di Fuoco" | ✅ Fatto |
-| `school` | stringa | "Evocation" | "Invocazione" | ✅ Fatto |
-| `subschool` | stringa/null | "Creation" | "Creazione" | ✅ Fatto |
-| `descriptor` | stringa/null | "Fire" | "Fuoco" | ❌ Da fare |
-| `level` | stringa | "Sor/Wiz 3" | — | ⚠️ Contiene abbreviazioni classi |
-| `components` | stringa | "V, S, M" | — | ⚠️ Abbreviazioni standard |
-| `casting_time` | stringa | "1 standard action" | "1 azione standard" | ❌ Da fare |
-| `range` | stringa | "Long (400 ft. + 40 ft./level)" | "Lungo (120 m + 12 m/livello)" | ❌ Da fare |
-| `target_area_effect` | stringa | "One creature" | "Una creatura" | ❌ Da fare |
-| `duration` | stringa | "1 round/level" | "1 round/livello" | ❌ Da fare |
-| `saving_throw` | stringa | "Reflex half" | "Riflessi dimezza" | ❌ Da fare |
-| `spell_resistance` | stringa | "Yes" | "Sì" | ❌ Da fare |
-| `desc_html` | HTML | (descrizione completa) | — | ❌ Da fare |
+| `name` | stringa | "Fireball" | "Palla di Fuoco" | ✅ 100% |
+| `school` | stringa | "Evocation" | "Invocazione" | ✅ 100% |
+| `subschool` | stringa/null | "Creation" | "Creazione" | ✅ 100% |
+| `descriptor` | stringa/null | "Fire" | "Fuoco" | ✅ 100% |
+| `level` | stringa | "Sor/Wiz 3" | "Str/Mag 3" | ✅ 100% |
+| `components` | stringa | "V, S, M" | "V, S, M" | ✅ 100% |
+| `casting_time` | stringa | "1 standard action" | "1 azione standard" | ✅ 100% |
+| `range` | stringa | "Long (400 ft. + 40 ft./level)" | "Lungo (120 m + 12 m/livello)" | ✅ 100% |
+| `target_area_effect` | stringa | "One creature" | "Una creatura" | ✅ 100% |
+| `duration` | stringa | "1 round/level" | "1 round/livello" | ✅ 100% |
+| `saving_throw` | stringa | "Reflex half" | "Riflessi dimezza" | ✅ 100% |
+| `spell_resistance` | stringa | "Yes" | "Sì" | ✅ 100% |
+| `desc_html` | HTML | (descrizione completa) | — | ✅ 100% (⚠️ 32 troncati) |
 
 ### Talenti (`feats.json`) — 111 entries
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
-| `name` | stringa | "Power Attack" | "Attacco Poderoso" | ✅ Fatto |
-| `type` | stringa | "General" | "Generale" | ✅ Fatto |
-| `prerequisites` | stringa/null | "Str 13" | "For 13" | ❌ Da fare |
-| `benefit` | stringa | "On your action..." | "Nel tuo turno..." | ❌ Da fare |
-| `normal` | stringa/null | "Without this feat..." | "Senza questo talento..." | ❌ Da fare |
-| `special` | stringa/null | "A fighter may..." | "Un guerriero può..." | ❌ Da fare |
-| `desc_html` | HTML | (descrizione completa) | — | ❌ Da fare |
+| `name` | stringa | "Power Attack" | "Attacco Poderoso" | ✅ 98% |
+| `type` | stringa | "General" | "Generale" | ✅ 99% |
+| `prerequisites` | stringa/null | "Str 13" | "For 13" | ✅ 100% |
+| `benefit` | stringa | "On your action..." | "Nel tuo turno..." | ✅ 100% |
+| `normal` | stringa/null | "Without this feat..." | "Senza questo talento..." | ✅ 100% |
+| `special` | stringa/null | "A fighter may..." | "Un guerriero può..." | ✅ 100% |
+| `desc_html` | HTML | (descrizione completa) | — | ✅ 100% |
 
 ### Classi (`classes.json`) — 31 entries
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
-| `name` | stringa | "Wizard" | "Mago" | ✅ Fatto |
+| `name` | stringa | "Wizard" | "Mago" | ✅ 97% |
 | `hit_die` | stringa | "d4." | — | ⚠️ Dato numerico |
-| `alignment` | stringa | "Any" | "Qualsiasi" | ❌ Da fare |
-| `table_html` | HTML | (tabella progressione) | — | ❌ Da fare |
-| `desc_html` | HTML | (descrizione classe) | — | ❌ Da fare |
+| `alignment` | stringa | "Any" | "Qualsiasi" | ✅ 100% |
+| `table_html` | HTML | (tabella progressione) | — | ⚠️ 70% (9 simili EN) |
+| `desc_html` | HTML | (descrizione classe) | — | ⚠️ 23% (solo strutturale) |
 
 ### Razze (`races.json`) — 7 entries
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
 | `name` | stringa | "Elves" | "Elfi" | ✅ Fatto |
-| `traits` | array | ["Medium size", ...] | ["Taglia media", ...] | ❌ Da fare |
-| `desc_html` | HTML | (descrizione razza) | — | ❌ Da fare |
+| `traits` | array | ["Medium size", ...] | ["Taglia media", ...] | ✅ 100% |
+| `desc_html` | HTML | (descrizione razza) | — | ✅ 100% |
 
 ### Mostri (`monsters.json`) — 289 entries
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
-| `name` | stringa | "Aboleth" | "Aboleth" | ✅ Fatto |
-| `type` | stringa | "Huge Aberration (Aquatic)" | "Aberrazione Enorme (Acquatica)" | ❌ Da fare |
-| `environment` | stringa | "Underground" | "Sotterraneo" | ❌ Da fare |
-| `organization` | stringa | "Solitary, brood (2–4)" | "Solitario, nidiata (2–4)" | ❌ Da fare |
-| `alignment` | stringa | "Usually lawful evil" | "Solitamente legale malvagio" | ❌ Da fare |
-| `desc_html` | HTML | (descrizione completa) | — | ❌ Da fare |
+| `name` | stringa | "Aboleth" | "Aboleth" | ✅ 73% (79 simili EN) |
+| `type` | stringa | "Huge Aberration (Aquatic)" | "Aberrazione Enorme (Acquatica)" | ✅ 93% |
+| `environment` | stringa | "Underground" | "Sotterraneo" | ✅ 100% |
+| `organization` | stringa | "Solitary, brood (2–4)" | "Solitario, nidiata (2–4)" | ✅ 99% |
+| `alignment` | stringa | "Usually lawful evil" | "Solitamente legale malvagio" | ✅ 100% |
+| `desc_html` | HTML | (descrizione completa) | — | ⚠️ 2% (solo label strutturali) |
 
 > **Nota:** I campi numerici dello stat block (`hit_dice`, `initiative`, `speed`, `armor_class`, `saves`, `abilities`, `challenge_rating`, ecc.) generalmente non necessitano di traduzione.
 
@@ -133,18 +133,18 @@ Ogni file overlay è un **array JSON** di oggetti. Ogni oggetto deve avere il ca
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
-| `name` | stringa | "Longsword" | "Spada Lunga" | ❌ Da fare |
-| `category` | stringa | "weapon" | "arma" | ❌ Da fare |
-| `desc_html` | HTML | (descrizione) | — | ❌ Da fare |
+| `name` | stringa | "Longsword" | "Spada Lunga" | ✅ 93% |
+| `category` | stringa | "weapon" | "arma" | ⚠️ Non nel overlay |
+| `desc_html` | HTML | (descrizione) | — | ⚠️ Non nel base EN |
 
-> **Nota:** L'overlay equipaggiamento è attualmente vuoto (`[]`).
+> **Nota:** L'overlay equipaggiamento ha 276 entry (nomi tradotti). Il base EN non ha campo `desc_html`.
 
 ### Regole (`rules.json`) — 19 pagine
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
-| `name` | stringa | "Basic Rules and Ability Scores" | "Regole Base e Punteggi Abilità" | ✅ Fatto |
-| `desc_html` | HTML | (contenuto pagina intero) | — | ❌ Da fare |
+| `name` | stringa | "Basic Rules and Ability Scores" | "Regole Base e Punteggi Abilità" | ⚠️ 21% (15 simili EN) |
+| `desc_html` | HTML | (contenuto pagina intero) | — | ❌ 0% (da fare) |
 
 ## Controllare lo stato delle traduzioni
 
@@ -174,12 +174,47 @@ Output esempio:
 
 ## Come contribuire
 
-### 1. Tradurre contenuti SRD (data overlay)
+Ci sono **tre modi** per contribuire, dal piu semplice al piu completo:
+
+### Metodo 1: GitHub Issue (nessun setup richiesto)
+
+Il modo piu semplice. Non serve clonare il repo ne installare nulla.
+
+1. Vai su **Issues > New issue > Traduzione**
+2. Scegli la categoria e lo slug dell'entry
+3. Incolla la tua traduzione nel campo di testo
+4. Il maintainer integrera la traduzione nel JSON
+
+### Metodo 2: Foglio di calcolo (CSV)
+
+Per tradurre tante entry alla volta, lavora in Excel/Google Sheets:
+
+```bash
+# Esporta le entry da tradurre in CSV
+python scripts/export_for_translation.py monsters desc_html
+# -> genera contrib/monsters_desc_html.csv
+
+# Apri il CSV in un foglio di calcolo, compila la colonna *_it
+# Poi importa le traduzioni:
+python scripts/import_from_csv.py contrib/monsters_desc_html.csv monsters --apply
+```
+
+### Metodo 3: Modifica diretta del JSON
+
+#### 3a. Su GitHub (senza clonare)
+
+1. Naviga a `data/i18n/it/monsters.json` su GitHub
+2. Clicca l'icona matita (Edit this file)
+3. Usa Ctrl+F per trovare lo slug
+4. Aggiungi/modifica i campi tradotti
+5. Clicca "Propose changes" — GitHub crea automaticamente fork + branch + PR
+
+#### 3b. In locale (workflow completo)
 
 1. **Identifica cosa tradurre** — Esegui `python scripts/translation_status.py` per vedere i campi mancanti
 2. **Apri il file overlay** — Es. `data/i18n/it/spells.json`
 3. **Trova l'entry per slug** — Cerca lo slug dell'entry che vuoi tradurre
-4. **Aggiungi i campi tradotti** — Se l'entry esiste già, aggiungi i nuovi campi. Se non esiste, aggiungi un nuovo oggetto con lo `slug`
+4. **Aggiungi i campi tradotti** — Se l'entry esiste gia, aggiungi i nuovi campi. Se non esiste, aggiungi un nuovo oggetto con lo `slug`
 
 **Esempio — aggiungere la descrizione a un incantesimo:**
 

@@ -1,0 +1,56 @@
+name: "Traduzione"
+description: "Proponi o completa una traduzione italiana"
+labels: ["traduzione"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Categoria
+      options:
+        - "Mostri (monsters)"
+        - "Regole (rules)"
+        - "Classi (classes)"
+        - "Talenti (feats)"
+        - "Incantesimi (spells)"
+        - "Equipaggiamento (equipment)"
+    validations:
+      required: true
+
+  - type: input
+    id: slug
+    attributes:
+      label: "Slug dell'entry"
+      description: "Lo slug come appare nel JSON (es: aboleth, fireball, barbarian)"
+      placeholder: "es: aboleth"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: Campo tradotto
+      options:
+        - "desc_html (descrizione completa)"
+        - "organization"
+        - "table_html (tabella progressione)"
+        - "Altro"
+    validations:
+      required: true
+
+  - type: textarea
+    id: translation
+    attributes:
+      label: "Testo tradotto"
+      description: |
+        Incolla qui la tua traduzione.
+        Per desc_html, mantieni i tag HTML (<p>, <strong>, <table>, ecc.).
+        Traduci solo il testo, non toccare la struttura dei tag.
+      placeholder: "<p>L'aboleth e una rivoltante creatura anfibia simile a un pesce...</p>"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Note (opzionale)"
+      description: "Fonte della traduzione, dubbi terminologici, ecc."
