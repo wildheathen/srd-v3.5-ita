@@ -89,8 +89,22 @@ def main():
         print("Esegui prima: python scripts/scrape_5clone.py")
         return
 
+    # Fix known typos/errors from 5clone.com
+    SOURCE_FIXES = {
+        "Manuale del Giocatere 3.5": ("PHB", "Manuale del Giocatore 3.5"),
+        "Visione del Paradiso": ("BoED", "Libro delle Imprese Eroiche"),
+    }
+
     # Load data
     scraped = load_json(SCRAPED_FILE)
+
+    # Apply source fixes
+    for entry in scraped:
+        mn = entry.get("manual_name", "")
+        if mn in SOURCE_FIXES:
+            code, fixed_name = SOURCE_FIXES[mn]
+            entry["source_code"] = code
+            entry["manual_name"] = fixed_name
     spells = load_json(SPELLS_FILE)
     spells_it = load_json(SPELLS_IT_FILE)
     sources = load_json(SOURCES_FILE)

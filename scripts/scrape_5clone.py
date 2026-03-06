@@ -72,6 +72,9 @@ MANUAL_MAP = {
     "Eroi dell'Orrore":             {"code": "HoH",  "abbr_it": "EdO",  "name_en": "Heroes of Horror"},
     "Codex Immondo I":              {"code": "FC1",  "abbr_it": "CI1",  "name_en": "Fiendish Codex I"},
     "Codex Immondo I: Orde dell'Abisso": {"code": "FC1", "abbr_it": "CI1", "name_en": "Fiendish Codex I"},
+    # Typos on 5clone.com
+    "Manuale del Giocatere 3.5":    {"code": "PHB",  "abbr_it": "MdG",  "name_en": "Player's Handbook"},
+    "Visione del Paradiso":         {"code": "BoED", "abbr_it": "LIE",  "name_en": "Book of Exalted Deeds"},
 }
 
 
