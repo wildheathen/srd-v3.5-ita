@@ -112,12 +112,9 @@ IDENTICAL_EXCEPTIONS = {
     "saving_throw": re.compile(r"^No$", re.IGNORECASE),
     # Spell resistance: "No" is the same in Italian
     "spell_resistance": re.compile(r"^No$", re.IGNORECASE),
-    # Prerequisites: ability score abbreviations are shared (Int, Str, Dex, Con, Wis, Cha)
-    # e.g. "Int 13.", "Str 15, Power Attack.", "Dex 13, Dodge."
-    "prerequisites": re.compile(
-        r"^(Int|Str|Dex|Con|Wis|Cha|For|Des|Cos|Sag|Car)\s+\d+\.?$",
-        re.IGNORECASE,
-    ),
+    # Prerequisites: only "Int" is the same in both languages (Intelligence/Intelligenza)
+    # Str→For, Dex→Des, Con→Cos, Wis→Sag, Cha→Car are different
+    "prerequisites": re.compile(r"^Int\s+\d+\.?$", re.IGNORECASE),
 }
 
 # Names that are legitimately identical in Italian (proper nouns, borrowed terms).
