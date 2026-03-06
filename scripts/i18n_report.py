@@ -35,7 +35,7 @@ TRANSLATABLE_FIELDS = {
     "spells": [
         "name", "school", "subschool", "descriptor", "level", "components",
         "casting_time", "range", "target_area_effect", "duration",
-        "saving_throw", "spell_resistance", "desc_html",
+        "saving_throw", "spell_resistance", "short_description", "desc_html",
     ],
     "feats": ["name", "type", "prerequisites", "benefit", "normal", "special", "desc_html"],
     "monsters": ["name", "type", "alignment", "environment", "organization", "desc_html"],
@@ -565,6 +565,76 @@ def generate_frontend_json(results, lang):
 
             report["summary"]["total_fields"] += total
             report["summary"]["translated_fields"] += translated
+
+        # ── Per-source breakdown (only for categories with varied sources) ──
+        en_path = DATA_DIR / f"{cat_name}.json"
+        it_path = DATA_DIR / "i18n" / lang / f"{cat_name}.json"
+        if en_path.exists() and it_path.exists():
+            with open(en_path, "r", encoding="utf-8") as f:
+                en_entries = json.load(f)
+            with open(it_path, "r", encoding="utf-8") as f:
+                it_entries = json.load(f)
+
+            sources_set = set(e.get("source", "") or "unknown" for e in en_entries)
+            if len(sources_set) > 1:
+                en_by_slug = {e["slug"]: e for e in en_entries if e.get("slug")}
+                it_by_slug = {e["slug"]: e for e in it_entries if e.get("slug")}
+                fields = TRANSLATABLE_FIELDS.get(cat_name, ["name"])
+                by_source = {}
+
+                for src in sorted(sources_set):
+                    src_slugs = {
+                        e["slug"] for e in en_entries
+                        if e.get("slug") and (e.get("source", "") or "unknown") == src
+                    }
+                    src_total_f = 0
+                    src_trans_f = 0
+                    src_fields = {}
+
+                    for field in fields:
+                        # Slugs where base has this field
+                        base_f = {
+                            s for s in src_slugs
+                            if en_by_slug.get(s, {}).get(field) not in (None, "")
+                        }
+                        # Overlay-only
+                        ov_only_f = {
+                            s for s in src_slugs
+                            if s not in base_f
+                            and it_by_slug.get(s, {}).get(field) not in (None, "")
+                        }
+                        total_f = len(base_f) + len(ov_only_f)
+                        if total_f == 0:
+                            continue
+
+                        trans = 0
+                        for slug in base_f | ov_only_f:
+                            it_val = it_by_slug.get(slug, {}).get(field, "")
+                            en_val = en_by_slug.get(slug, {}).get(field, "")
+                            if it_val and it_val != en_val:
+                                trans += 1
+                            elif it_val and not en_val:
+                                trans += 1  # overlay-only
+
+                        pct = round(trans / total_f * 100, 1) if total_f > 0 else 0.0
+                        src_fields[field] = {
+                            "translated": trans,
+                            "total": total_f,
+                            "percent": pct,
+                        }
+                        src_total_f += total_f
+                        src_trans_f += trans
+
+                    src_pct = round(src_trans_f / src_total_f * 100, 1) if src_total_f > 0 else 0.0
+                    by_source[src] = {
+                        "total": len(src_slugs),
+                        "fields": src_fields,
+                        "total_fields": src_total_f,
+                        "translated_fields": src_trans_f,
+                        "percent": src_pct,
+                    }
+
+                cat_data["by_source"] = by_source
 
         report["categories"][cat_name] = cat_data
         report["summary"]["total_entries"] += r["total_en"]
