@@ -559,7 +559,7 @@ async function renderResults() {
     return `<div class="result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}" data-index="${idx}" data-slug="${item.slug || ''}"${schoolStyle}>
       <div class="result-row">
         <div class="result-text">
-          <div class="name">${esc(item.name)}${item._name_en ? `<span class="name-en">${esc(item._name_en)}</span>` : ''}</div>
+          <div class="name">${esc(item.name)}${renderSourceBadge(item)}${item._name_en ? `<span class="name-en">${esc(item._name_en)}</span>` : ''}</div>
           ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
         </div>
         ${actionHtml}

@@ -435,6 +435,13 @@ main {
   font-weight: 500;
 }
 
+.result-item .source-badge {
+  font-size: 0.6rem;
+  padding: 0.05rem 0.3rem;
+  margin-left: 0.4rem;
+  vertical-align: baseline;
+}
+
 .name-en {
   font-weight: 400;
   font-size: 0.8rem;

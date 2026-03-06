@@ -714,6 +714,13 @@
     "level": "Chr 3, Drd 3, Mag/Str 4"
   },
   {
+    "slug": "augment-familiar",
+    "name": "Aumentare Famiglio",
+    "summary_it": "Potenzia un famiglio.",
+    "school": "Trasmutazione",
+    "level": "Lama Iettatrice 1, Mag/Str 2"
+  },
+  {
     "slug": "augury",
     "name": "Presagio",
     "school": "Divinazione",
@@ -725,13 +732,6 @@
     "target_area_effect": "Te stesso",
     "desc_html": "<p>Un <i>auspicio</i> può dirti se una particolare azione porterà buoni o cattivi risultati nel futuro immediato.</p>\n<p>Ad esempio, se un gruppo si prepara ad entrare in un dungeon inesplorato, il chierico potrebbe usare un <i>auspicio</i> per sapere se è una buona o cattiva idea. Le possibili risposte sono:</p>\n<ul>\n<li><em>Fortuna</em> (l'azione probabilmente porterà buoni risultati).</li>\n<li><em>Sventura</em> (per cattivi risultati).</li>\n<li><em>Fortuna e sventura</em> (per entrambi).</li>\n<li><em>Nulla</em> (per azioni che non hanno conseguenze particolarmente buone o cattive).</li>\n</ul>\n<p>La possibilità base di ricevere una risposta significativa è del 70% + 1% per livello dell'incantatore, fino a un massimo del 90%; questa prova viene effettuata segretamente. Una domanda può essere così vaga da non produrre una risposta significativa. In caso di lanci multipli, tutti i lanci fatti dallo stesso incantatore sulla stessa domanda nello stesso giorno utilizzano lo stesso risultato del primo lancio per quanto riguarda successo/fallimento dell'incantesimo — il 30% di possibilità di un risultato casuale viene determinato una sola volta.</p>\n<p>L'<i>auspicio</i> può vedere nel futuro solo per circa mezz'ora, quindi qualsiasi cosa al di là di quel limite non influisce sulla risposta. Quindi, il risultato potrebbe non tenere conto del quadro completo. Ad esempio, il risultato dell'<i>auspicio</i> per entrare nel dungeon potrebbe essere \"fortuna\" se il passaggio nasconde un tesoro favoloso, anche se un drago è appostato fuori dall'uscita.</p>\n<p>Tutte le risposte dell'<i>auspicio</i> devono sempre essere date in una o massimo due parole, e il DM deve rendere la risposta il più veritiera possibile nell'ambito dell'incantesimo.</p>\n<p><em>Componente Materiale:</em> Bastoncini d'incenso per un valore di almeno 25 mo.</p>\n<p><em>Focus:</em> Un set di ossa scolpite o bastoncini simili.</p>",
     "summary_it": "Dà un indizio sulle conseguenze che porterà una determinata azione."
-  },
-  {
-    "slug": "aumentare-famiglio",
-    "name": "Augment Familiar",
-    "summary_it": "Potenzia un famiglio.",
-    "school": "Trasmutazione",
-    "level": "Lama Iettatrice 1, Mag/Str 2"
   },
   {
     "slug": "aura-of-evasion",
@@ -2106,6 +2106,14 @@
     "level": "Chr 3, Pal 2"
   },
   {
+    "slug": "cloak-of-bravery-greater",
+    "name": "Mantello del Coraggio Superiore",
+    "summary_it": "Protegge più soggetti dalla paura.",
+    "school": "Abiurazione",
+    "descriptor": "Influenza Mentale",
+    "level": "Coraggio 9"
+  },
+  {
     "slug": "cloak-of-chaos",
     "name": "Mantello del Caos",
     "school": "Abiurazione",
@@ -2212,13 +2220,6 @@
     "summary_it": "L'incantatore rilascia un respiro venefico.",
     "school": "Trasmutazione",
     "level": "Wu Jen 1 (acqua)"
-  },
-  {
-    "slug": "collera-valorosa",
-    "name": "Valiant Fury",
-    "summary_it": "Potenzia un soggetto.",
-    "school": "Trasmutazione",
-    "level": "Coraggio 5"
   },
   {
     "slug": "color-spray",
@@ -2923,6 +2924,13 @@
     "components": "V, S, M",
     "level": "Chr 1",
     "summary_it": "Rende maledetta una certa quantità d'acqua."
+  },
+  {
+    "slug": "cursed-blade",
+    "name": "Lama Maledetta",
+    "summary_it": "L'arma infligge danni particolarmente difficili da guarire.",
+    "school": "Necromanzia",
+    "level": "Lama Iettatrice 4"
   },
   {
     "slug": "curtain-of-light",
@@ -6598,6 +6606,14 @@
     "summary_it": "Disidrata i bersagli."
   },
   {
+    "slug": "hound-of-doom",
+    "name": "Segugio Devastante",
+    "summary_it": "Sfrrra un attacco sonoro contro più bersagli.",
+    "school": "Illusione",
+    "subschool": "Ombra",
+    "level": "Lama Iettatrice 3"
+  },
+  {
     "slug": "hungry-darkness",
     "name": "Oscurità Famelica",
     "summary_it": "Getta nell'oscurità e riempie di pipistrelli famelici l'area attorno all'oggetto bersaglio.",
@@ -7363,13 +7379,6 @@
     "summary_it": "L'incantatore individua il nord."
   },
   {
-    "slug": "lama-maledetta",
-    "name": "Cursed Blade",
-    "summary_it": "L'arma infligge danni particolarmente difficili da guarire.",
-    "school": "Necromanzia",
-    "level": "Lama Iettatrice 4"
-  },
-  {
     "slug": "languor",
     "name": "Languore",
     "summary_it": "Indebolisce e rallenta il bersaglio.",
@@ -7557,6 +7566,14 @@
     "components": "V, S, PE",
     "level": "Mag/Str 7",
     "summary_it": "L'incantatore è in grado di alterare la realtà entro certi limiti."
+  },
+  {
+    "slug": "lion-s-roar",
+    "name": "Ruggito del Leone",
+    "summary_it": "Sfrrra un attacco sonoro contro più bersagli.",
+    "school": "Invocazione",
+    "descriptor": "Sonoro",
+    "level": "Coraggio 8"
   },
   {
     "slug": "listening-coin",
@@ -8099,14 +8116,6 @@
     "level": "Oneiromanzia 4"
   },
   {
-    "slug": "mantello-del-coraggio-superiore",
-    "name": "Cloak of Bravery, Greater",
-    "summary_it": "Protegge più soggetti dalla paura.",
-    "school": "Abiurazione",
-    "descriptor": "Influenza Mentale",
-    "level": "Coraggio 9"
-  },
-  {
     "slug": "mantle-of-chaos",
     "name": "Manto del Caos",
     "summary_it": "Garantisce protezione contro gli incantesimi della Legge.",
@@ -8308,15 +8317,6 @@
     "summary_it": "Crea una piccola nube tossica.",
     "school": "Invocazione Minima",
     "level": "Warlock 1"
-  },
-  {
-    "slug": "minaccia-fantomatica",
-    "name": "Phantom Threat",
-    "summary_it": "Convince il bersaglio di essere attaccato su più fronti.",
-    "school": "Illusione",
-    "subschool": "Allucinazione",
-    "descriptor": "Influenza Mentale",
-    "level": "Brd 1, Lama Iettatrice 1"
   },
   {
     "slug": "mind-blank",
@@ -9256,6 +9256,15 @@
     "target_area_effect": "Una creatura quasi-reale simile a un cavallo",
     "desc_html": "<p>Evochi una creatura Grande, quasi-reale, simile a un cavallo. La cavalcatura può essere cavalcata solo da te o dalla persona per la quale hai specificamente creato la cavalcatura. Un <i>destriero fantasma</i> ha testa e corpo neri, criniera e coda grigie e zoccoli incorporei color fumo che non fanno rumore. Ha quella che sembra una sella, un morso e delle briglie. Non combatte, ma gli animali lo evitano e rifiutano di attaccarlo.</p>\n<p>La cavalcatura ha una CA di 18 (-1 taglia, +4 armatura naturale, +5 Destrezza) e 7 punti ferita +1 per livello dell'incantatore. Se perde tutti i punti ferita, il <i>destriero fantasma</i> scompare. Ha una velocità di 6 metri per livello dell'incantatore, fino a un massimo di 72 metri. Può portare il suo cavaliere più il normale carico per un cavallo della sua taglia.</p>",
     "summary_it": "Evoca una cavalcatura magica e silenziosa."
+  },
+  {
+    "slug": "phantom-threat",
+    "name": "Minaccia Fantomatica",
+    "summary_it": "Convince il bersaglio di essere attaccato su più fronti.",
+    "school": "Illusione",
+    "subschool": "Allucinazione",
+    "descriptor": "Influenza Mentale",
+    "level": "Brd 1, Lama Iettatrice 1"
   },
   {
     "slug": "phantom-trap",
@@ -10796,14 +10805,6 @@
     "summary_it": "Incanta una corda in maniera tale che essa porti in uno spazio extraplanare usabile come rifugio temporaneo."
   },
   {
-    "slug": "ruggito-del-leone",
-    "name": "Lion?s Roar",
-    "summary_it": "Sfrrra un attacco sonoro contro più bersagli.",
-    "school": "Invocazione",
-    "descriptor": "Sonoro",
-    "level": "Coraggio 8"
-  },
-  {
     "slug": "rusting-grasp",
     "name": "Stretta Corrosiva",
     "school": "Trasmutazione",
@@ -11140,14 +11141,6 @@
     "summary_it": "Modifica l'aspetto di numerosi bersagli."
   },
   {
-    "slug": "segugio-devastante",
-    "name": "Hound of Doom",
-    "summary_it": "Sfrrra un attacco sonoro contro più bersagli.",
-    "school": "Illusione",
-    "subschool": "Ombra",
-    "level": "Lama Iettatrice 3"
-  },
-  {
     "slug": "sending",
     "name": "Inviare",
     "school": "Invocazione",
@@ -11271,7 +11264,7 @@
   },
   {
     "slug": "shadow-guardians",
-    "name": "Guardiani d?Ombra",
+    "name": "Guardiani d'Ombra",
     "summary_it": "Crea dei guardiani semireali fatti d?ombra.",
     "school": "Trasmutazione",
     "level": "Mag/Str 5"
@@ -13672,6 +13665,13 @@
     "summary_it": "La deflagrazione mistica diventa un attacco di energia negativa.",
     "school": "Invocazione Oscura; Essenza Mistica",
     "level": "Warlock 8"
+  },
+  {
+    "slug": "valiant-fury",
+    "name": "Collera Valorosa",
+    "summary_it": "Potenzia un soggetto.",
+    "school": "Trasmutazione",
+    "level": "Coraggio 5"
   },
   {
     "slug": "valiant-steed",

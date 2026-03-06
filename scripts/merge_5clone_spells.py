@@ -100,6 +100,42 @@ def normalize_name(name):
     return n
 
 
+def fix_encoding(text):
+    """Replace encoding artifacts: ? before 's' -> apostrophe, ?X -> 'X."""
+    text = re.sub(r"\?s\b", "'s", text)
+    text = re.sub(r"\?(?=[A-Z])", "'", text)
+    return text
+
+
+# Italian articles/prepositions for language detection
+_IT_WORDS = re.compile(
+    r"\b(di|del|della|delle|dei|degli|il|la|le|lo|un|una|sul|sulla|dal|dalla)\b",
+    re.IGNORECASE,
+)
+_EN_WORDS = re.compile(
+    r"\b(of|the|and|with|from|upon|greater|lesser|mass)\b",
+    re.IGNORECASE,
+)
+
+
+def swap_names_if_needed(name_en, name_it):
+    """Detect when scraper returned EN/IT names swapped and correct them.
+
+    Some 5clone pages have the fields in the wrong order, so name_en is
+    actually Italian and name_it is actually English.
+    """
+    if not name_en or not name_it:
+        return name_en, name_it
+    en_has_it = len(_IT_WORDS.findall(name_en))
+    en_has_en = len(_EN_WORDS.findall(name_en))
+    it_has_en = len(_EN_WORDS.findall(name_it))
+    it_has_it = len(_IT_WORDS.findall(name_it))
+    # Swap if "EN" field looks Italian and "IT" field looks English
+    if en_has_it > en_has_en and it_has_en > it_has_it:
+        return name_it, name_en
+    return name_en, name_it
+
+
 # Fix typos and dirty data from 5clone school field
 SCHOOL_TYPO_FIXES = {
     "Illusiione":    "Illusione",
@@ -299,14 +335,17 @@ def main():
     new_spells = []
 
     for entry in scraped:
-        name_en = entry.get("name_en", "").strip()
-        name_it = entry.get("name_it", "").strip()
+        name_en = fix_encoding(entry.get("name_en", "").strip())
+        name_it = fix_encoding(entry.get("name_it", "").strip())
         source_code = entry.get("source_code", "")
         manual_name = entry.get("manual_name", "")
         page = entry.get("page")
         summary_it = entry.get("summary_it", "").strip()
         school_it = entry.get("school_it", "").strip()
         level_it = entry.get("level_it", "").strip()
+
+        # Detect and fix swapped name_en/name_it fields
+        name_en, name_it = swap_names_if_needed(name_en, name_it)
 
         # Detect and fix swapped school/level fields
         school_it, level_it = swap_school_level_if_needed(school_it, level_it)

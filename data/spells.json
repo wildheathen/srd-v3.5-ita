@@ -1317,6 +1317,26 @@
     "summary_it": "Muta leggermente i soggetti rendendoli capaci di adattarsi alle condizioni del piano che li ospita attualmente."
   },
   {
+    "name": "Augment Familiar",
+    "slug": "augment-familiar",
+    "school": "",
+    "subschool": null,
+    "descriptor": null,
+    "level": "",
+    "components": "",
+    "casting_time": "",
+    "range": "",
+    "target_area_effect": "",
+    "duration": "",
+    "saving_throw": "",
+    "spell_resistance": "",
+    "desc_html": "",
+    "source": "CW",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 116",
+    "summary_it": "Potenzia un famiglio."
+  },
+  {
     "name": "Augury",
     "slug": "augury",
     "school": "Divination",
@@ -1335,26 +1355,6 @@
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 272",
     "summary_it": "Dà un indizio sulle conseguenze che porterà una determinata azione."
-  },
-  {
-    "name": "Aumentare Famiglio",
-    "slug": "aumentare-famiglio",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "CW",
-    "manual_name": "Perfetto Combattente",
-    "reference": "pag. 116",
-    "summary_it": "Potenzia un famiglio."
   },
   {
     "name": "Aura of Evasion",
@@ -1577,7 +1577,7 @@
     "summary_it": "Trasforma l'acqua in acqua assiomatica."
   },
   {
-    "name": "Ayailla?s Radiant Burst",
+    "name": "Ayailla's Radiant Burst",
     "slug": "ayailla-s-radiant-burst",
     "school": "",
     "subschool": null,
@@ -3597,7 +3597,7 @@
     "summary_it": "Fa sì che il bersaglio brilli emanando luce."
   },
   {
-    "name": "Chaav?s Laugh",
+    "name": "Chaav's Laugh",
     "slug": "chaav-s-laugh",
     "school": "",
     "subschool": null,
@@ -4057,7 +4057,7 @@
     "summary_it": "Permette di passare istantaneamente da un centro urbano ad un altro."
   },
   {
-    "name": "City?s Might",
+    "name": "City's Might",
     "slug": "city-s-might",
     "school": "",
     "subschool": null,
@@ -4134,6 +4134,26 @@
     "source": "Drac",
     "manual_name": "Draconomicon",
     "reference": "pag. 113",
+    "summary_it": "Protegge più soggetti dalla paura."
+  },
+  {
+    "name": "Cloak of Bravery, Greater",
+    "slug": "cloak-of-bravery-greater",
+    "school": "",
+    "subschool": null,
+    "descriptor": null,
+    "level": "",
+    "components": "",
+    "casting_time": "",
+    "range": "",
+    "target_area_effect": "",
+    "duration": "",
+    "saving_throw": "",
+    "spell_resistance": "",
+    "desc_html": "",
+    "source": "CW",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 118",
     "summary_it": "Protegge più soggetti dalla paura."
   },
   {
@@ -4352,26 +4372,6 @@
     "manual_name": "Perfetto Arcanista",
     "reference": "pag. 124",
     "summary_it": "L'incantatore rilascia un respiro venefico."
-  },
-  {
-    "name": "Collera Valorosa",
-    "slug": "collera-valorosa",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "CW",
-    "manual_name": "Perfetto Combattente",
-    "reference": "pag. 117",
-    "summary_it": "Potenzia un soggetto."
   },
   {
     "name": "Color Spray",
@@ -5606,6 +5606,26 @@
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 254",
     "summary_it": "Rende maledetta una certa quantità d'acqua."
+  },
+  {
+    "name": "Cursed Blade",
+    "slug": "cursed-blade",
+    "school": "",
+    "subschool": null,
+    "descriptor": null,
+    "level": "",
+    "components": "",
+    "casting_time": "",
+    "range": "",
+    "target_area_effect": "",
+    "duration": "",
+    "saving_throw": "",
+    "spell_resistance": "",
+    "desc_html": "",
+    "source": "CW",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 117",
+    "summary_it": "L'arma infligge danni particolarmente difficili da guarire."
   },
   {
     "name": "Curtain of Light",
@@ -8888,7 +8908,7 @@
     "summary_it": "Cancella scritti normali o magici."
   },
   {
-    "name": "Estanna?s Stew",
+    "name": "Estanna's Stew",
     "slug": "estanna-s-stew",
     "school": "",
     "subschool": null,
@@ -9268,7 +9288,7 @@
     "summary_it": "Il bersaglio comincia a proiettare una debole luminescenza."
   },
   {
-    "name": "Faerinaal?s Hymn",
+    "name": "Faerinaal's Hymn",
     "slug": "faerinaal-s-hymn",
     "school": "",
     "subschool": null,
@@ -11902,7 +11922,7 @@
     "summary_it": "Strappa il cuore dal petto di una creatura."
   },
   {
-    "name": "Heart?s Ease",
+    "name": "Heart's Ease",
     "slug": "heart-s-ease",
     "school": "",
     "subschool": null,
@@ -11942,7 +11962,7 @@
     "summary_it": "Rende incandescente degli oggetti fatti di metallo."
   },
   {
-    "name": "Heaven?s Trumpet",
+    "name": "Heaven's Trumpet",
     "slug": "heaven-s-trumpet",
     "school": "",
     "subschool": null,
@@ -12540,6 +12560,26 @@
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 265",
     "summary_it": "Disidrata i bersagli."
+  },
+  {
+    "name": "Hound of Doom",
+    "slug": "hound-of-doom",
+    "school": "",
+    "subschool": null,
+    "descriptor": null,
+    "level": "",
+    "components": "",
+    "casting_time": "",
+    "range": "",
+    "target_area_effect": "",
+    "duration": "",
+    "saving_throw": "",
+    "spell_resistance": "",
+    "desc_html": "",
+    "source": "CW",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 118",
+    "summary_it": "Sfrrra un attacco sonoro contro più bersagli."
   },
   {
     "name": "Hungry Darkness",
@@ -13982,26 +14022,6 @@
     "summary_it": "L'incantatore individua il nord."
   },
   {
-    "name": "Lama Maledetta",
-    "slug": "lama-maledetta",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "CW",
-    "manual_name": "Perfetto Combattente",
-    "reference": "pag. 117",
-    "summary_it": "L'arma infligge danni particolarmente difficili da guarire."
-  },
-  {
     "name": "Languor",
     "slug": "languor",
     "school": "",
@@ -14082,7 +14102,7 @@
     "summary_it": "Uccide e danneggia i bersagli."
   },
   {
-    "name": "Lastai?s Caress",
+    "name": "Lastai's Caress",
     "slug": "lastai-s-caress",
     "school": "",
     "subschool": null,
@@ -14202,7 +14222,7 @@
     "summary_it": "Crea l'illusione di una trappola."
   },
   {
-    "name": "Leonal?s Roar",
+    "name": "Leonal's Roar",
     "slug": "leonal-s-roar",
     "school": "",
     "subschool": null,
@@ -14397,6 +14417,26 @@
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 224",
     "summary_it": "L'incantatore è in grado di alterare la realtà entro certi limiti."
+  },
+  {
+    "name": "Lion's Roar",
+    "slug": "lion-s-roar",
+    "school": "",
+    "subschool": null,
+    "descriptor": null,
+    "level": "",
+    "components": "",
+    "casting_time": "",
+    "range": "",
+    "target_area_effect": "",
+    "duration": "",
+    "saving_throw": "",
+    "spell_resistance": "",
+    "desc_html": "",
+    "source": "CW",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 118",
+    "summary_it": "Sfrrra un attacco sonoro contro più bersagli."
   },
   {
     "name": "Listening Coin",
@@ -15316,26 +15356,6 @@
     "summary_it": "Crea un'illusione che rappresenta ciò che il soggetto più teme."
   },
   {
-    "name": "Mantello del Coraggio Superiore",
-    "slug": "mantello-del-coraggio-superiore",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "CW",
-    "manual_name": "Perfetto Combattente",
-    "reference": "pag. 118",
-    "summary_it": "Protegge più soggetti dalla paura."
-  },
-  {
     "name": "Mantle of Chaos",
     "slug": "mantle-of-chaos",
     "school": "",
@@ -15753,26 +15773,6 @@
     "summary_it": "Crea una piccola nube tossica."
   },
   {
-    "name": "Minaccia Fantomatica",
-    "slug": "minaccia-fantomatica",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "CW",
-    "manual_name": "Perfetto Combattente",
-    "reference": "pag. 118",
-    "summary_it": "Convince il bersaglio di essere attaccato su più fronti."
-  },
-  {
     "name": "Mind Blank",
     "slug": "mind-blank",
     "school": "Abjuration",
@@ -15993,7 +15993,7 @@
     "summary_it": "Gli incantesimi di divinazione su una creatura o su un oggetto vengono fuorviati."
   },
   {
-    "name": "Miser?s Envy",
+    "name": "Miser's Envy",
     "slug": "miser-s-envy",
     "school": "",
     "subschool": null,
@@ -17613,6 +17613,26 @@
     "summary_it": "Evoca una cavalcatura magica e silenziosa."
   },
   {
+    "name": "Phantom Threat",
+    "slug": "phantom-threat",
+    "school": "",
+    "subschool": null,
+    "descriptor": null,
+    "level": "",
+    "components": "",
+    "casting_time": "",
+    "range": "",
+    "target_area_effect": "",
+    "duration": "",
+    "saving_throw": "",
+    "spell_resistance": "",
+    "desc_html": "",
+    "source": "CW",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 118",
+    "summary_it": "Convince il bersaglio di essere attaccato su più fronti."
+  },
+  {
     "name": "Phantom Trap",
     "slug": "phantom-trap",
     "school": "Illusion",
@@ -17670,7 +17690,7 @@
     "summary_it": "Crea varchi attraverso certi tipi di materiali."
   },
   {
-    "name": "Phieran?s Resolve",
+    "name": "Phieran's Resolve",
     "slug": "phieran-s-resolve",
     "school": "",
     "subschool": null,
@@ -20130,7 +20150,7 @@
     "summary_it": "Rimette in forma un certo numero di creature rimuovendo eventuali effetti nefasti che gravano su di loro."
   },
   {
-    "name": "Restore Soul?s Treasure",
+    "name": "Restore Soul's Treasure",
     "slug": "restore-soul-s-treasure",
     "school": "",
     "subschool": null,
@@ -20430,26 +20450,6 @@
     "summary_it": "Incanta una corda in maniera tale che essa porti in uno spazio extraplanare usabile come rifugio temporaneo."
   },
   {
-    "name": "Ruggito del Leone",
-    "slug": "ruggito-del-leone",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "CW",
-    "manual_name": "Perfetto Combattente",
-    "reference": "pag. 118",
-    "summary_it": "Sfrrra un attacco sonoro contro più bersagli."
-  },
-  {
     "name": "Rusting Grasp",
     "slug": "rusting-grasp",
     "school": "Transmutation",
@@ -20650,7 +20650,7 @@
     "summary_it": "Migliora l'olfatto del soggetto."
   },
   {
-    "name": "Scholar?s Touch",
+    "name": "Scholar's Touch",
     "slug": "scholar-s-touch",
     "school": "",
     "subschool": null,
@@ -21048,26 +21048,6 @@
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 289",
     "summary_it": "Modifica l'aspetto di numerosi bersagli."
-  },
-  {
-    "name": "Segugio Devastante",
-    "slug": "segugio-devastante",
-    "school": "",
-    "subschool": null,
-    "descriptor": null,
-    "level": "",
-    "components": "",
-    "casting_time": "",
-    "range": "",
-    "target_area_effect": "",
-    "duration": "",
-    "saving_throw": "",
-    "spell_resistance": "",
-    "desc_html": "",
-    "source": "CW",
-    "manual_name": "Perfetto Combattente",
-    "reference": "pag. 118",
-    "summary_it": "Sfrrra un attacco sonoro contro più bersagli."
   },
   {
     "name": "Sending",
@@ -25735,6 +25715,26 @@
     "summary_it": "La deflagrazione mistica diventa un attacco di energia negativa."
   },
   {
+    "name": "Valiant Fury",
+    "slug": "valiant-fury",
+    "school": "",
+    "subschool": null,
+    "descriptor": null,
+    "level": "",
+    "components": "",
+    "casting_time": "",
+    "range": "",
+    "target_area_effect": "",
+    "duration": "",
+    "saving_throw": "",
+    "spell_resistance": "",
+    "desc_html": "",
+    "source": "CW",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 117",
+    "summary_it": "Potenzia un soggetto."
+  },
+  {
     "name": "Valiant Steed",
     "slug": "valiant-steed",
     "school": "",
@@ -26335,7 +26335,7 @@
     "summary_it": "Un urlo terrificante uccide quanti lo odono."
   },
   {
-    "name": "Walk the Mountain?s Path",
+    "name": "Walk the Mountain's Path",
     "slug": "walk-the-mountain-s-path",
     "school": "",
     "subschool": null,
