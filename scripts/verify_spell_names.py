@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Compare Italian spell names between NAME_MAP (translate_spells.py) and
-the OCR'd manual (testo manuale/manuale base completo.txt).
+the OCR'd manual (sources/testo-manuale/manuale base completo.txt).
 
 Produces a report with:
   A) Exact matches (confirmed correct)

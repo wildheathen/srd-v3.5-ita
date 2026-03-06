@@ -167,8 +167,8 @@ def main():
     # Load overlay JSONs
     spells_overlay_path = ROOT / "data" / "i18n" / "it" / "spells.json"
     feats_overlay_path = ROOT / "data" / "i18n" / "it" / "feats.json"
-    spells_txt_path = ROOT / "testo manuale" / "INCANTESIMI.txt"
-    feats_txt_path = ROOT / "testo manuale" / "talenti.txt"
+    spells_txt_path = ROOT / "sources" / "testo-manuale" / "INCANTESIMI.txt"
+    feats_txt_path = ROOT / "sources" / "testo-manuale" / "talenti.txt"
 
     with open(spells_overlay_path, encoding="utf-8") as f:
         spells_overlay = json.load(f)

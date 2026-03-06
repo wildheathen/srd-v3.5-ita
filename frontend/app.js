@@ -242,6 +242,7 @@ function buildFilters() {
       <select id="filter-school"><option value="">${t('filter.all_schools')}</option></select>
       <select id="filter-class"><option value="">${t('filter.all_classes')}</option></select>
       <select id="filter-domain"><option value="">${t('filter.all_domains')}</option></select>
+      <select id="filter-source"><option value="">${t('filter.all_sources')}</option></select>
       <div class="level-checkboxes" id="filter-levels">
         <span class="level-label">${t('filter.level_label')}</span>
         ${[0,1,2,3,4,5,6,7,8,9].map((n) =>
@@ -266,6 +267,7 @@ function buildFilters() {
       }
       renderResults();
     });
+    filtersDiv.querySelector('#filter-source').addEventListener('change', renderResults);
     filtersDiv.querySelectorAll('#filter-levels input').forEach((cb) =>
       cb.addEventListener('change', renderResults)
     );
@@ -361,6 +363,23 @@ async function populateSpellFilters() {
   [...domainSet].sort().forEach((d) => {
     domainSel.innerHTML += `<option value="${esc(d)}">${esc(d)}</option>`;
   });
+
+  // Sources (manuals)
+  const sourceSet = new Set(data.map((s) => s.source).filter(Boolean));
+  const sourceSel = document.getElementById('filter-source');
+  if (sourceSel) {
+    const lang = getCurrentLang();
+    [...sourceSet].sort().forEach((src) => {
+      const info = sourcesData[src];
+      const label = info
+        ? (lang === 'en' ? info.abbreviation : (info.abbreviation_it || info.abbreviation))
+        : src;
+      const fullName = info
+        ? (lang === 'en' ? info.name_en : (info.name_it || info.name_en))
+        : src;
+      sourceSel.innerHTML += `<option value="${esc(src)}" title="${esc(fullName)}">${esc(label)} — ${esc(fullName)}</option>`;
+    });
+  }
 }
 
 async function populateFeatTypeFilter() {
@@ -463,6 +482,9 @@ async function renderResults() {
     const levels = getSelectedLevels();
 
     if (school) filtered = filtered.filter((s) => s.school === school);
+
+    const source = document.getElementById('filter-source')?.value;
+    if (source) filtered = filtered.filter((s) => s.source === source);
 
     // Filter by class/domain + levels
     filtered = filtered.filter((s) => {
@@ -810,7 +832,19 @@ function renderSpell(s) {
     [t('detail.spell.saving_throw'), s.saving_throw],
     [t('detail.spell.spell_resistance'), s.spell_resistance],
   ];
-  return renderDetailTitle(s) + renderFields(fields) + renderDesc(s.desc_html);
+  // Add source reference if available
+  if (s.manual_name || s.reference) {
+    const ref = [s.manual_name, s.reference].filter(Boolean).join(', ');
+    fields.push([t('source.label'), ref]);
+  }
+  let html = renderDetailTitle(s) + renderFields(fields);
+  // Show summary if no full description
+  if (!s.desc_html && s.summary_it) {
+    html += `<div class="desc-html"><p><em>${esc(s.summary_it)}</em></p></div>`;
+  } else {
+    html += renderDesc(s.desc_html);
+  }
+  return html;
 }
 
 function renderFeat(f) {

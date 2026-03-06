@@ -19,8 +19,8 @@ import unicodedata
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-TXT_FILE = REPO_ROOT / "testo manuale" / "manuale base completo.txt"
-HTML_DIR = REPO_ROOT / "testo manuale" / "html"
+TXT_FILE = REPO_ROOT / "sources" / "testo-manuale" / "manuale base completo.txt"
+HTML_DIR = REPO_ROOT / "sources" / "testo-manuale" / "html"
 DATA_DIR = REPO_ROOT / "data"
 I18N_DIR = DATA_DIR / "i18n" / "it"
 
