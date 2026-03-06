@@ -1,6 +1,6 @@
 {
   "lang": "it",
-  "generated_at": "2026-03-06T14:10:20Z",
+  "generated_at": "2026-03-06T14:22:29Z",
   "categories": {
     "spells": {
       "total": 608,
@@ -670,10 +670,10 @@
           "english_residue": 0
         },
         "type": {
-          "translated": 267,
+          "translated": 265,
           "suspicious": 0,
           "total": 286,
-          "percent": 93.4,
+          "percent": 92.7,
           "identical_to_en": 0,
           "ocr_issues": 0,
           "english_residue": 2,
@@ -794,10 +794,10 @@
           ]
         },
         "alignment": {
-          "translated": 205,
+          "translated": 203,
           "suspicious": 0,
           "total": 205,
-          "percent": 100.0,
+          "percent": 99.0,
           "identical_to_en": 0,
           "ocr_issues": 0,
           "english_residue": 2,
@@ -832,10 +832,10 @@
           "english_residue": 0
         },
         "organization": {
-          "translated": 269,
+          "translated": 244,
           "suspicious": 0,
           "total": 269,
-          "percent": 100.0,
+          "percent": 90.7,
           "identical_to_en": 0,
           "ocr_issues": 0,
           "english_residue": 25,
@@ -1088,33 +1088,463 @@
           ]
         },
         "desc_html": {
-          "translated": 284,
+          "translated": 0,
           "suspicious": 0,
           "total": 288,
-          "percent": 98.6,
+          "percent": 0.0,
           "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 0,
+          "english_residue": 284,
           "issues": [
             {
-              "slug": "crocodile-giant",
-              "type": "missing",
-              "en_value": "<p>These huge creatures usually live in salt water and can be more than 20 feet long.</p>\n<p>Giant crocodiles fight and "
+              "slug": "abilities",
+              "type": "english",
+              "value": "~14% tradotto",
+              "en_value": "(1513 chars)",
+              "words": [
+                "14% tradotto"
+              ]
             },
             {
-              "slug": "giant-fire-beetle",
-              "type": "missing",
-              "en_value": "<p>\n      These luminous nocturnal insects are prized by miners and adventurers. They have two glands, one above each ey"
+              "slug": "aboleth",
+              "type": "english",
+              "value": "~2% tradotto",
+              "en_value": "(4652 chars)",
+              "words": [
+                "2% tradotto"
+              ]
             },
             {
-              "slug": "raven",
-              "type": "missing",
-              "en_value": "<p>\n      These glossy black birds are about 2 feet long and have wingspans of about 4 feet. They combine both claws int"
+              "slug": "aboleth-mage-10th-level-wizard",
+              "type": "english",
+              "value": "~2% tradotto",
+              "en_value": "(4652 chars)",
+              "words": [
+                "2% tradotto"
+              ]
             },
             {
-              "slug": "wolverine",
-              "type": "missing",
-              "en_value": "<p>These creatures are similar to badgers but are bigger, stronger, and even more ferocious.</p>"
+              "slug": "abyssal-greater-basilisk",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(1902 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
+            {
+              "slug": "achaierai",
+              "type": "english",
+              "value": "~2% tradotto",
+              "en_value": "(1129 chars)",
+              "words": [
+                "2% tradotto"
+              ]
+            },
+            {
+              "slug": "adult-arrowhawk",
+              "type": "english",
+              "value": "~2% tradotto",
+              "en_value": "(1258 chars)",
+              "words": [
+                "2% tradotto"
+              ]
+            },
+            {
+              "slug": "adult-tojanida",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(2514 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
+            {
+              "slug": "air-elemental-large",
+              "type": "english",
+              "value": "~9% tradotto",
+              "en_value": "(37209 chars)",
+              "words": [
+                "9% tradotto"
+              ]
+            },
+            {
+              "slug": "air-elemental-medium",
+              "type": "english",
+              "value": "~9% tradotto",
+              "en_value": "(37209 chars)",
+              "words": [
+                "9% tradotto"
+              ]
+            },
+            {
+              "slug": "air-elemental-small",
+              "type": "english",
+              "value": "~9% tradotto",
+              "en_value": "(37209 chars)",
+              "words": [
+                "9% tradotto"
+              ]
+            },
+            {
+              "slug": "allip",
+              "type": "english",
+              "value": "~2% tradotto",
+              "en_value": "(1404 chars)",
+              "words": [
+                "2% tradotto"
+              ]
+            },
+            {
+              "slug": "angel",
+              "type": "english",
+              "value": "~6% tradotto",
+              "en_value": "(12907 chars)",
+              "words": [
+                "6% tradotto"
+              ]
+            },
+            {
+              "slug": "animated-object-medium",
+              "type": "english",
+              "value": "~8% tradotto",
+              "en_value": "(7061 chars)",
+              "words": [
+                "8% tradotto"
+              ]
+            },
+            {
+              "slug": "animated-object-small",
+              "type": "english",
+              "value": "~8% tradotto",
+              "en_value": "(7061 chars)",
+              "words": [
+                "8% tradotto"
+              ]
+            },
+            {
+              "slug": "animated-object-tiny",
+              "type": "english",
+              "value": "~8% tradotto",
+              "en_value": "(7061 chars)",
+              "words": [
+                "8% tradotto"
+              ]
+            },
+            {
+              "slug": "ankheg",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(1888 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
+            {
+              "slug": "ape",
+              "type": "english",
+              "value": "~5% tradotto",
+              "en_value": "(412 chars)",
+              "words": [
+                "5% tradotto"
+              ]
+            },
+            {
+              "slug": "aranea",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(3298 chars)",
+              "words": [
+                "4% tradotto"
+              ]
+            },
+            {
+              "slug": "archon",
+              "type": "english",
+              "value": "~8% tradotto",
+              "en_value": "(14486 chars)",
+              "words": [
+                "8% tradotto"
+              ]
+            },
+            {
+              "slug": "assassin-vine",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(2797 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
+            {
+              "slug": "athach",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(824 chars)",
+              "words": [
+                "4% tradotto"
+              ]
+            },
+            {
+              "slug": "average-salamander",
+              "type": "english",
+              "value": "~7% tradotto",
+              "en_value": "(1693 chars)",
+              "words": [
+                "7% tradotto"
+              ]
+            },
+            {
+              "slug": "average-xorn",
+              "type": "english",
+              "value": "~1% tradotto",
+              "en_value": "(1831 chars)",
+              "words": [
+                "1% tradotto"
+              ]
+            },
+            {
+              "slug": "avoral",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(2626 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
+            {
+              "slug": "azer",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(1922 chars)",
+              "words": [
+                "4% tradotto"
+              ]
+            },
+            {
+              "slug": "baboon",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(539 chars)",
+              "words": [
+                "4% tradotto"
+              ]
+            },
+            {
+              "slug": "badger",
+              "type": "english",
+              "value": "~5% tradotto",
+              "en_value": "(700 chars)",
+              "words": [
+                "5% tradotto"
+              ]
+            },
+            {
+              "slug": "barghest",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(4700 chars)",
+              "words": [
+                "4% tradotto"
+              ]
+            },
+            {
+              "slug": "basilisk",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(1902 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
+            {
+              "slug": "bat",
+              "type": "english",
+              "value": "~2% tradotto",
+              "en_value": "(450 chars)",
+              "words": [
+                "2% tradotto"
+              ]
+            },
+            {
+              "slug": "bear-black",
+              "type": "english",
+              "value": "~5% tradotto",
+              "en_value": "(438 chars)",
+              "words": [
+                "5% tradotto"
+              ]
+            },
+            {
+              "slug": "bear-brown",
+              "type": "english",
+              "value": "~7% tradotto",
+              "en_value": "(695 chars)",
+              "words": [
+                "7% tradotto"
+              ]
+            },
+            {
+              "slug": "bear-polar",
+              "type": "english",
+              "value": "~8% tradotto",
+              "en_value": "(787 chars)",
+              "words": [
+                "8% tradotto"
+              ]
+            },
+            {
+              "slug": "behir",
+              "type": "english",
+              "value": "~6% tradotto",
+              "en_value": "(2668 chars)",
+              "words": [
+                "6% tradotto"
+              ]
+            },
+            {
+              "slug": "belker",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(1585 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
+            {
+              "slug": "bison",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(761 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
+            {
+              "slug": "bite-damage",
+              "type": "english",
+              "value": "~12% tradotto",
+              "en_value": "(2841 chars)",
+              "words": [
+                "12% tradotto"
+              ]
+            },
+            {
+              "slug": "black-dragons-by-age",
+              "type": "english",
+              "value": "~10% tradotto",
+              "en_value": "(41284 chars)",
+              "words": [
+                "10% tradotto"
+              ]
+            },
+            {
+              "slug": "black-pudding",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(12130 chars)",
+              "words": [
+                "4% tradotto"
+              ]
+            },
+            {
+              "slug": "blink-dog",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(905 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
+            {
+              "slug": "boar",
+              "type": "english",
+              "value": "~7% tradotto",
+              "en_value": "(436 chars)",
+              "words": [
+                "7% tradotto"
+              ]
+            },
+            {
+              "slug": "bodak",
+              "type": "english",
+              "value": "~6% tradotto",
+              "en_value": "(697 chars)",
+              "words": [
+                "6% tradotto"
+              ]
+            },
+            {
+              "slug": "bralani",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(2000 chars)",
+              "words": [
+                "4% tradotto"
+              ]
+            },
+            {
+              "slug": "brass-dragons-by-age",
+              "type": "english",
+              "value": "~11% tradotto",
+              "en_value": "(43623 chars)",
+              "words": [
+                "11% tradotto"
+              ]
+            },
+            {
+              "slug": "bugbear",
+              "type": "english",
+              "value": "~5% tradotto",
+              "en_value": "(1475 chars)",
+              "words": [
+                "5% tradotto"
+              ]
+            },
+            {
+              "slug": "bulette",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(782 chars)",
+              "words": [
+                "4% tradotto"
+              ]
+            },
+            {
+              "slug": "camel",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(838 chars)",
+              "words": [
+                "4% tradotto"
+              ]
+            },
+            {
+              "slug": "cat",
+              "type": "english",
+              "value": "~7% tradotto",
+              "en_value": "(523 chars)",
+              "words": [
+                "7% tradotto"
+              ]
+            },
+            {
+              "slug": "celestial-charger-7th-level-cleric",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(3058 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
+            {
+              "slug": "centaur",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(1639 chars)",
+              "words": [
+                "4% tradotto"
+              ]
             }
           ]
         }
@@ -1134,10 +1564,10 @@
           "english_residue": 0
         },
         "alignment": {
-          "translated": 15,
+          "translated": 13,
           "suspicious": 0,
           "total": 15,
-          "percent": 100.0,
+          "percent": 86.7,
           "identical_to_en": 0,
           "ocr_issues": 0,
           "english_residue": 2,
@@ -1174,22 +1604,404 @@
           ]
         },
         "table_html": {
-          "translated": 30,
+          "translated": 19,
           "suspicious": 0,
           "total": 30,
-          "percent": 100.0,
+          "percent": 63.3,
           "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 0
+          "english_residue": 11,
+          "issues": [
+            {
+              "slug": "adept",
+              "type": "english",
+              "value": "~39% tradotto",
+              "en_value": "(3478 chars)",
+              "words": [
+                "39% tradotto"
+              ]
+            },
+            {
+              "slug": "arcane-archer",
+              "type": "english",
+              "value": "~19% tradotto",
+              "en_value": "(1263 chars)",
+              "words": [
+                "19% tradotto"
+              ]
+            },
+            {
+              "slug": "aristocrat",
+              "type": "english",
+              "value": "~36% tradotto",
+              "en_value": "(1802 chars)",
+              "words": [
+                "36% tradotto"
+              ]
+            },
+            {
+              "slug": "cleric",
+              "type": "english",
+              "value": "~30% tradotto",
+              "en_value": "(5086 chars)",
+              "words": [
+                "30% tradotto"
+              ]
+            },
+            {
+              "slug": "commoner",
+              "type": "english",
+              "value": "~25% tradotto",
+              "en_value": "(1721 chars)",
+              "words": [
+                "25% tradotto"
+              ]
+            },
+            {
+              "slug": "eldritch-knight",
+              "type": "english",
+              "value": "~39% tradotto",
+              "en_value": "(1512 chars)",
+              "words": [
+                "39% tradotto"
+              ]
+            },
+            {
+              "slug": "expert",
+              "type": "english",
+              "value": "~39% tradotto",
+              "en_value": "(1761 chars)",
+              "words": [
+                "39% tradotto"
+              ]
+            },
+            {
+              "slug": "hierophant",
+              "type": "english",
+              "value": "~29% tradotto",
+              "en_value": "(746 chars)",
+              "words": [
+                "29% tradotto"
+              ]
+            },
+            {
+              "slug": "horizon-walker",
+              "type": "english",
+              "value": "~37% tradotto",
+              "en_value": "(1272 chars)",
+              "words": [
+                "37% tradotto"
+              ]
+            },
+            {
+              "slug": "mystic-theurge",
+              "type": "english",
+              "value": "~39% tradotto",
+              "en_value": "(2073 chars)",
+              "words": [
+                "39% tradotto"
+              ]
+            },
+            {
+              "slug": "sorcerer",
+              "type": "english",
+              "value": "~35% tradotto",
+              "en_value": "(4418 chars)",
+              "words": [
+                "35% tradotto"
+              ]
+            }
+          ]
         },
         "desc_html": {
-          "translated": 31,
+          "translated": 0,
           "suspicious": 0,
           "total": 31,
-          "percent": 100.0,
+          "percent": 0.0,
           "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 0
+          "english_residue": 31,
+          "issues": [
+            {
+              "slug": "adept",
+              "type": "english",
+              "value": "~10% tradotto",
+              "en_value": "(7426 chars)",
+              "words": [
+                "10% tradotto"
+              ]
+            },
+            {
+              "slug": "arcane-archer",
+              "type": "english",
+              "value": "~7% tradotto",
+              "en_value": "(5499 chars)",
+              "words": [
+                "7% tradotto"
+              ]
+            },
+            {
+              "slug": "arcane-trickster",
+              "type": "english",
+              "value": "~13% tradotto",
+              "en_value": "(5552 chars)",
+              "words": [
+                "13% tradotto"
+              ]
+            },
+            {
+              "slug": "archmage",
+              "type": "english",
+              "value": "~7% tradotto",
+              "en_value": "(7209 chars)",
+              "words": [
+                "7% tradotto"
+              ]
+            },
+            {
+              "slug": "aristocrat",
+              "type": "english",
+              "value": "~25% tradotto",
+              "en_value": "(2772 chars)",
+              "words": [
+                "25% tradotto"
+              ]
+            },
+            {
+              "slug": "assassin",
+              "type": "english",
+              "value": "~10% tradotto",
+              "en_value": "(10355 chars)",
+              "words": [
+                "10% tradotto"
+              ]
+            },
+            {
+              "slug": "barbarian",
+              "type": "english",
+              "value": "~15% tradotto",
+              "en_value": "(9011 chars)",
+              "words": [
+                "15% tradotto"
+              ]
+            },
+            {
+              "slug": "bard",
+              "type": "english",
+              "value": "~8% tradotto",
+              "en_value": "(20881 chars)",
+              "words": [
+                "8% tradotto"
+              ]
+            },
+            {
+              "slug": "blackguard",
+              "type": "english",
+              "value": "~9% tradotto",
+              "en_value": "(13923 chars)",
+              "words": [
+                "9% tradotto"
+              ]
+            },
+            {
+              "slug": "cleric",
+              "type": "english",
+              "value": "~10% tradotto",
+              "en_value": "(13145 chars)",
+              "words": [
+                "10% tradotto"
+              ]
+            },
+            {
+              "slug": "commoner",
+              "type": "english",
+              "value": "~22% tradotto",
+              "en_value": "(2544 chars)",
+              "words": [
+                "22% tradotto"
+              ]
+            },
+            {
+              "slug": "dragon-disciple",
+              "type": "english",
+              "value": "~10% tradotto",
+              "en_value": "(8036 chars)",
+              "words": [
+                "10% tradotto"
+              ]
+            },
+            {
+              "slug": "druid",
+              "type": "english",
+              "value": "~8% tradotto",
+              "en_value": "(22978 chars)",
+              "words": [
+                "8% tradotto"
+              ]
+            },
+            {
+              "slug": "duelist",
+              "type": "english",
+              "value": "~14% tradotto",
+              "en_value": "(4718 chars)",
+              "words": [
+                "14% tradotto"
+              ]
+            },
+            {
+              "slug": "dwarven-defender",
+              "type": "english",
+              "value": "~13% tradotto",
+              "en_value": "(5945 chars)",
+              "words": [
+                "13% tradotto"
+              ]
+            },
+            {
+              "slug": "eldritch-knight",
+              "type": "english",
+              "value": "~14% tradotto",
+              "en_value": "(3845 chars)",
+              "words": [
+                "14% tradotto"
+              ]
+            },
+            {
+              "slug": "expert",
+              "type": "english",
+              "value": "~35% tradotto",
+              "en_value": "(2344 chars)",
+              "words": [
+                "35% tradotto"
+              ]
+            },
+            {
+              "slug": "fighter",
+              "type": "english",
+              "value": "~26% tradotto",
+              "en_value": "(3716 chars)",
+              "words": [
+                "26% tradotto"
+              ]
+            },
+            {
+              "slug": "hierophant",
+              "type": "english",
+              "value": "~5% tradotto",
+              "en_value": "(8010 chars)",
+              "words": [
+                "5% tradotto"
+              ]
+            },
+            {
+              "slug": "horizon-walker",
+              "type": "english",
+              "value": "~8% tradotto",
+              "en_value": "(7094 chars)",
+              "words": [
+                "8% tradotto"
+              ]
+            },
+            {
+              "slug": "loremaster",
+              "type": "english",
+              "value": "~9% tradotto",
+              "en_value": "(5747 chars)",
+              "words": [
+                "9% tradotto"
+              ]
+            },
+            {
+              "slug": "monk",
+              "type": "english",
+              "value": "~13% tradotto",
+              "en_value": "(16565 chars)",
+              "words": [
+                "13% tradotto"
+              ]
+            },
+            {
+              "slug": "mystic-theurge",
+              "type": "english",
+              "value": "~17% tradotto",
+              "en_value": "(4038 chars)",
+              "words": [
+                "17% tradotto"
+              ]
+            },
+            {
+              "slug": "paladin",
+              "type": "english",
+              "value": "~10% tradotto",
+              "en_value": "(17541 chars)",
+              "words": [
+                "10% tradotto"
+              ]
+            },
+            {
+              "slug": "ranger",
+              "type": "english",
+              "value": "~12% tradotto",
+              "en_value": "(14015 chars)",
+              "words": [
+                "12% tradotto"
+              ]
+            },
+            {
+              "slug": "rogue",
+              "type": "english",
+              "value": "~9% tradotto",
+              "en_value": "(11148 chars)",
+              "words": [
+                "9% tradotto"
+              ]
+            },
+            {
+              "slug": "shadowdancer",
+              "type": "english",
+              "value": "~9% tradotto",
+              "en_value": "(7963 chars)",
+              "words": [
+                "9% tradotto"
+              ]
+            },
+            {
+              "slug": "sorcerer",
+              "type": "english",
+              "value": "~10% tradotto",
+              "en_value": "(12042 chars)",
+              "words": [
+                "10% tradotto"
+              ]
+            },
+            {
+              "slug": "thaumaturgist",
+              "type": "english",
+              "value": "~9% tradotto",
+              "en_value": "(6012 chars)",
+              "words": [
+                "9% tradotto"
+              ]
+            },
+            {
+              "slug": "warrior",
+              "type": "english",
+              "value": "~35% tradotto",
+              "en_value": "(2515 chars)",
+              "words": [
+                "35% tradotto"
+              ]
+            },
+            {
+              "slug": "wizard",
+              "type": "english",
+              "value": "~5% tradotto",
+              "en_value": "(21801 chars)",
+              "words": [
+                "5% tradotto"
+              ]
+            }
+          ]
         }
       }
     },
@@ -1255,18 +2067,180 @@
           "english_residue": 0
         },
         "desc_html": {
-          "translated": 18,
+          "translated": 0,
           "suspicious": 0,
           "total": 19,
-          "percent": 94.7,
+          "percent": 0.0,
           "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 0,
+          "english_residue": 18,
           "issues": [
+            {
+              "slug": "abilita-i",
+              "type": "english",
+              "value": "~1% tradotto",
+              "en_value": "(79160 chars)",
+              "words": [
+                "1% tradotto"
+              ]
+            },
+            {
+              "slug": "abilita-ii",
+              "type": "english",
+              "value": "~1% tradotto",
+              "en_value": "(74699 chars)",
+              "words": [
+                "1% tradotto"
+              ]
+            },
+            {
+              "slug": "abilita-speciali-e-condizioni",
+              "type": "english",
+              "value": "~0% tradotto",
+              "en_value": "(86783 chars)",
+              "words": [
+                "0% tradotto"
+              ]
+            },
+            {
+              "slug": "allineamento-e-descrizione",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(18093 chars)",
+              "words": [
+                "4% tradotto"
+              ]
+            },
+            {
+              "slug": "combattimento-i-basi",
+              "type": "english",
+              "value": "~2% tradotto",
+              "en_value": "(65295 chars)",
+              "words": [
+                "2% tradotto"
+              ]
+            },
+            {
+              "slug": "combattimento-ii-movimento-e-azioni-speciali",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(72053 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
             {
               "slug": "materiali-speciali",
               "type": "missing",
               "en_value": "<p>In addition to magic items created with spells, some substances have innate special properties.</p>\n<p>\n      If you "
+            },
+            {
+              "slug": "natura-clima-e-ambiente",
+              "type": "english",
+              "value": "~0% tradotto",
+              "en_value": "(158007 chars)",
+              "words": [
+                "0% tradotto"
+              ]
+            },
+            {
+              "slug": "oggetti-magici-armature-e-armi",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(112097 chars)",
+              "words": [
+                "3% tradotto"
+              ]
+            },
+            {
+              "slug": "oggetti-magici-basi-e-creazione",
+              "type": "english",
+              "value": "~4% tradotto",
+              "en_value": "(61102 chars)",
+              "words": [
+                "4% tradotto"
+              ]
+            },
+            {
+              "slug": "oggetti-magici-intelligenti-maledetti-e-artefatti",
+              "type": "english",
+              "value": "~1% tradotto",
+              "en_value": "(89762 chars)",
+              "words": [
+                "1% tradotto"
+              ]
+            },
+            {
+              "slug": "oggetti-magici-oggetti-meravigliosi",
+              "type": "english",
+              "value": "~0% tradotto",
+              "en_value": "(190598 chars)",
+              "words": [
+                "0% tradotto"
+              ]
+            },
+            {
+              "slug": "oggetti-magici-pergamene-bastoni-e-bacchette",
+              "type": "english",
+              "value": "~1% tradotto",
+              "en_value": "(94281 chars)",
+              "words": [
+                "1% tradotto"
+              ]
+            },
+            {
+              "slug": "oggetti-magici-pozioni-anelli-e-verghe",
+              "type": "english",
+              "value": "~1% tradotto",
+              "en_value": "(75149 chars)",
+              "words": [
+                "1% tradotto"
+              ]
+            },
+            {
+              "slug": "piani",
+              "type": "english",
+              "value": "~1% tradotto",
+              "en_value": "(45704 chars)",
+              "words": [
+                "1% tradotto"
+              ]
+            },
+            {
+              "slug": "regole-base-e-punteggi-abilita",
+              "type": "english",
+              "value": "~5% tradotto",
+              "en_value": "(14259 chars)",
+              "words": [
+                "5% tradotto"
+              ]
+            },
+            {
+              "slug": "tesori",
+              "type": "english",
+              "value": "~2% tradotto",
+              "en_value": "(20227 chars)",
+              "words": [
+                "2% tradotto"
+              ]
+            },
+            {
+              "slug": "trappole",
+              "type": "english",
+              "value": "~2% tradotto",
+              "en_value": "(65029 chars)",
+              "words": [
+                "2% tradotto"
+              ]
+            },
+            {
+              "slug": "trasporto-movimento-ed-esplorazione",
+              "type": "english",
+              "value": "~3% tradotto",
+              "en_value": "(39580 chars)",
+              "words": [
+                "3% tradotto"
+              ]
             }
           ]
         }
@@ -1276,7 +2250,7 @@
   "summary": {
     "total_entries": 1353,
     "total_fields": 8960,
-    "translated_fields": 8874,
-    "overall_percent": 99.0
+    "translated_fields": 8499,
+    "overall_percent": 94.9
   }
 }

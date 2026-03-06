@@ -386,6 +386,54 @@ def translate_table_html(html):
     return html
 
 
+# ── Traduzioni per desc_html (etichette, titoli sezione) ─────────────
+
+DESC_LABEL_REPLACEMENTS = [
+    # Intestazioni sezione (lunghe prima)
+    ("Class Features", "Privilegi di Classe"),
+    ("Class Skills", "Abilità di Classe"),
+    ("Weapon and Armor Proficiency", "Competenza nelle Armi e Armature"),
+    ("Requirements", "Requisiti"),
+    ("Skill Points at Each Level", "Punti Abilità per Livello"),
+    ("Skill Points at 1st Level", "Punti Abilità al 1° Livello"),
+    ("Skill Points at Each Additional Level", "Punti Abilità per Ogni Livello Aggiuntivo"),
+    ("Hit Die", "Dado Vita"),
+    ("Class Table", "Tabella della Classe"),
+
+    # Etichette campi (dentro <strong>)
+    ("Alignment", "Allineamento"),
+]
+
+# Pattern desc da applicare con regex (per contesti specifici)
+DESC_REGEX_PATTERNS = [
+    # "Spells Known/Per Day" solo in contesto heading/strong
+    (r'(<(?:h[1-6]|strong|caption)[^>]*>(?:[^<]*?)?)Spells Known', r'\1Incantesimi Conosciuti'),
+    (r'(<(?:h[1-6]|strong|caption)[^>]*>(?:[^<]*?)?)Spells [Pp]er Day', r'\1Incantesimi al Giorno'),
+    (r'(<(?:h[1-6]|strong|caption)[^>]*>(?:[^<]*?)?)Spell List', r'\1Lista Incantesimi'),
+]
+
+
+def translate_desc_html(html):
+    """Translate the table and labels inside desc_html."""
+    if not html:
+        return html
+
+    # 1. Translate the embedded table(s)
+    def translate_embedded_table(m):
+        return translate_table_html(m.group(0))
+    html = re.sub(r'<table.*?</table>', translate_embedded_table, html, flags=re.DOTALL)
+
+    # 2. Translate section headings and labels
+    for en, it in DESC_LABEL_REPLACEMENTS:
+        html = html.replace(en, it)
+
+    # 3. Pattern-based translations (context-sensitive)
+    for pattern, replacement in DESC_REGEX_PATTERNS:
+        html = re.sub(pattern, replacement, html)
+
+    return html
+
+
 def main():
     parser = argparse.ArgumentParser(description="Traduci table_html delle classi")
     parser.add_argument("--apply", action="store_true", help="Applica le modifiche")
@@ -395,7 +443,8 @@ def main():
     en_data = json.load(open(EN_PATH, encoding="utf-8"))
     en_map = {c["slug"]: c for c in en_data}
 
-    changes = 0
+    table_changes = 0
+    desc_changes = 0
     for entry in overlay:
         slug = entry["slug"]
 
@@ -405,31 +454,49 @@ def main():
             if en_table:
                 entry["table_html"] = en_table
 
+        # --- Traduci table_html ---
         old_html = entry.get("table_html", "")
-        if not old_html:
-            continue
+        if old_html:
+            new_html = translate_table_html(old_html)
+            if new_html != old_html:
+                table_changes += 1
+                print(f"\n{'='*60}")
+                print(f"  {slug} (table_html)")
+                print(f"{'='*60}")
+                old_lines = old_html.split("\n")
+                new_lines = new_html.split("\n")
+                for ol, nl in zip(old_lines, new_lines):
+                    if ol != nl:
+                        print(f"  - {ol.strip()[:100]}")
+                        print(f"  + {nl.strip()[:100]}")
+                entry["table_html"] = new_html
 
-        new_html = translate_table_html(old_html)
-
-        if new_html != old_html:
-            changes += 1
-            print(f"\n{'='*60}")
-            print(f"  {slug}")
-            print(f"{'='*60}")
-
-            # Show diffs (simplified)
-            old_lines = old_html.split("\n")
-            new_lines = new_html.split("\n")
-            for i, (ol, nl) in enumerate(zip(old_lines, new_lines)):
-                if ol != nl:
-                    print(f"  - {ol.strip()[:100]}")
-                    print(f"  + {nl.strip()[:100]}")
-
-            entry["table_html"] = new_html
+        # --- Traduci desc_html (tabella + etichette) ---
+        old_desc = entry.get("desc_html", "")
+        if old_desc:
+            new_desc = translate_desc_html(old_desc)
+            if new_desc != old_desc:
+                desc_changes += 1
+                print(f"\n{'='*60}")
+                print(f"  {slug} (desc_html)")
+                print(f"{'='*60}")
+                old_lines = old_desc.split("\n")
+                new_lines = new_desc.split("\n")
+                shown = 0
+                for ol, nl in zip(old_lines, new_lines):
+                    if ol != nl and shown < 10:
+                        print(f"  - {ol.strip()[:100]}")
+                        print(f"  + {nl.strip()[:100]}")
+                        shown += 1
+                if shown == 10:
+                    print(f"  ... (altre modifiche)")
+                entry["desc_html"] = new_desc
 
     print(f"\n{'='*60}")
-    print(f"  Totale classi modificate: {changes}")
+    print(f"  table_html modificati: {table_changes}")
+    print(f"  desc_html modificati:  {desc_changes}")
     print(f"{'='*60}")
+    changes = table_changes + desc_changes
 
     if args.apply and changes > 0:
         with open(OVERLAY_PATH, "w", encoding="utf-8") as f:

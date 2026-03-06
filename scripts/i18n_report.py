@@ -219,6 +219,48 @@ def detect_english_residue(value):
     return [m for m in matches if m.lower() not in ITALIAN_FALSE_POSITIVES]
 
 
+def estimate_html_translation_pct(en_html, it_html):
+    """Estimate % of text actually translated in an HTML field.
+
+    Strips HTML tags, then compares word-by-word. Returns 0-100.
+    """
+    if not en_html or not it_html:
+        return 100  # nothing to compare
+
+    # Strip HTML tags
+    en_text = re.sub(r'<[^>]+>', ' ', str(en_html))
+    it_text = re.sub(r'<[^>]+>', ' ', str(it_html))
+
+    # Normalize whitespace
+    en_words = en_text.lower().split()
+    it_words = it_text.lower().split()
+
+    if not en_words:
+        return 100
+
+    # Count words in IT that are different from EN (= actually translated)
+    en_set = set(en_words)
+    it_set = set(it_words)
+
+    # Words that appear in IT but NOT in EN → translated
+    translated_words = it_set - en_set
+    # Words that appear in both → could be numbers, proper nouns, or untranslated
+    shared_words = it_set & en_set
+
+    # Short common words (numbers, articles, proper nouns) don't count as "untranslated"
+    noise_words = {w for w in shared_words if len(w) <= 2 or w.isdigit()
+                   or w.startswith('+') or w.startswith('-')}
+    meaningful_shared = shared_words - noise_words
+
+    total_unique_it = len(it_set - {w for w in it_set if len(w) <= 2 or w.isdigit()})
+    if total_unique_it == 0:
+        return 100
+
+    # % of meaningful IT words that are NOT from English
+    pct = (total_unique_it - len(meaningful_shared)) / total_unique_it * 100
+    return max(0, min(100, pct))
+
+
 def analyze_field(en_entries, it_entries, field):
     """Analyze a single field across all entries."""
     en_by_slug = {e["slug"]: e for e in en_entries}
@@ -302,8 +344,19 @@ def analyze_field(en_entries, it_entries, field):
                     "words": eng,
                 })
         else:
-            # For HTML fields: check length anomaly
-            if en_val and it_val and len(str(it_val)) < len(str(en_val)) * 0.3:
+            # For HTML fields: estimate actual translation percentage
+            pct = estimate_html_translation_pct(en_val, it_val)
+            if pct < 40:
+                # Mostly untranslated — count as "english_residue"
+                stats["english_residue"] += 1
+                stats["issues"].append({
+                    "slug": slug,
+                    "type": "english",
+                    "value": f"~{pct:.0f}% tradotto",
+                    "en_value": f"({len(str(en_val))} chars)",
+                    "words": [f"{pct:.0f}% tradotto"],
+                })
+            elif en_val and it_val and len(str(it_val)) < len(str(en_val)) * 0.3:
                 stats["issues"].append({
                     "slug": slug,
                     "type": "length_anomaly",
@@ -491,7 +544,7 @@ def generate_frontend_json(results, lang):
             if total == 0:
                 continue
 
-            translated = stats["present"] - stats["identical_to_en"]
+            translated = stats["present"] - stats["identical_to_en"] - stats["english_residue"]
             pct = round(translated / total * 100, 1) if total > 0 else 0.0
 
             field_data = {
