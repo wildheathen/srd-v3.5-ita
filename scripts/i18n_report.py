@@ -68,6 +68,11 @@ OCR_PATTERNS = [
     (r"toscata\b", "OCR: toscata -> toccata"),
     (r"viventetoscata", "OCR: parole fuse"),
     (r"pi\s+\u00f9u", "OCR: pi uu -> piu"),
+    (r"\boa/", "OCR: oa/ -> ora/"),
+    (r"\bgiono\b", "OCR: giono -> giorno"),
+    (r"\bgioni\b", "OCR: gioni -> giorni"),
+    (r"\bincantatoe\b", "OCR: incantatoe -> incantatore"),
+    (r"\bmoe\b", "OCR: moe -> more"),
 ]
 
 ENGLISH_TOKENS = re.compile(

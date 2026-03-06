@@ -1008,7 +1008,10 @@ function renderStatusDashboard(data, langs, activeLang) {
           if (enVal) html += `<span class="issue-en"><b>EN:</b> ${esc(enVal.substring(0, 100))}</span>`;
           if (itVal && itVal !== enVal) html += `<span class="issue-it"><b>IT:</b> ${esc(itVal.substring(0, 100))}</span>`;
           html += `</span>`;
-          if (detail) html += `<span class="issue-detail">${esc(String(detail).substring(0, 80))}</span>`;
+          if (detail) {
+            const detailLabel = issue.type === 'english' ? 'residuo' : issue.type === 'ocr' ? 'problema' : '';
+            html += `<span class="issue-detail">${detailLabel ? `<b>${detailLabel}:</b> ` : ''}${esc(String(detail).substring(0, 80))}</span>`;
+          }
           html += `</div>`;
         }
         html += `</div>`;

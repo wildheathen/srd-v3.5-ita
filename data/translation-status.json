@@ -1,6 +1,6 @@
 {
   "lang": "it",
-  "generated_at": "2026-03-06T12:36:52Z",
+  "generated_at": "2026-03-06T12:45:34Z",
   "categories": {
     "spells": {
       "total": 608,
@@ -114,7 +114,7 @@
           "percent": 100.0,
           "identical_to_en": 0,
           "ocr_issues": 0,
-          "english_residue": 11,
+          "english_residue": 9,
           "issues": [
             {
               "slug": "death-knell",
@@ -146,7 +146,7 @@
             {
               "slug": "magic-jar",
               "type": "english",
-              "value": "1 oa/livello o until you return to your body",
+              "value": "1 ora/livello o until you return to your body",
               "en_value": "1 hour/level or until you return to your body",
               "words": [
                 "until",
@@ -161,15 +161,6 @@
               "en_value": "1d4+1 rounds, or 1d4+1 rounds after creatures leave the smoke cloud; see text",
               "words": [
                 "the"
-              ]
-            },
-            {
-              "slug": "sepia-snake-sigil",
-              "type": "english",
-              "value": "Permanente o finché non viene scaricato; until released o 1d4 gioni + one giono/livello; vedi testo",
-              "en_value": "Permanent or until discharged; until released or 1d4 days + one day/level; see text",
-              "words": [
-                "until"
               ]
             },
             {
@@ -203,19 +194,10 @@
             {
               "slug": "tree-stride",
               "type": "english",
-              "value": "1 oa/livello o until expended; vedi testo",
+              "value": "1 ora/livello o until expended; vedi testo",
               "en_value": "1 hour/level or until expended; see text",
               "words": [
                 "until"
-              ]
-            },
-            {
-              "slug": "whispering-wind",
-              "type": "english",
-              "value": "No moe than 1 oa/livello o finché non viene scaricato (destination is reached)",
-              "en_value": "No more than 1 hour/level or until discharged (destination is reached)",
-              "words": [
-                "is"
               ]
             }
           ]
