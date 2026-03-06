@@ -594,12 +594,14 @@ def parse_spells_from_text(lines, start, end):
         for field in SPELL_FIELDS:
             val = extract_spell_field(field_text, field)
             if val:
-                # Truncate at next field label
+                # Truncate at next field label (handle both "Field:" and "Field :")
                 for other_field in SPELL_FIELDS:
                     if other_field != field:
-                        cut_label = other_field + ":"
-                        if cut_label in val:
-                            val = val[:val.index(cut_label)].strip()
+                        for suffix in [":", " :"]:
+                            cut_label = other_field + suffix
+                            idx = val.find(cut_label)
+                            if idx != -1:
+                                val = val[:idx].strip()
                 spell[field.lower().replace(" ", "_").replace("'", "")] = val
 
         # Extract description: everything after the last metadata field
@@ -648,6 +650,47 @@ def slugify(name):
     s = re.sub(r"[^\w\s-]", "", s)
     s = re.sub(r"[-\s]+", "-", s)
     return s.strip("-")
+
+
+def clean_ocr_target_value(val):
+    """Clean OCR artifacts from target/area/effect values."""
+    if not val:
+        return None
+    # Normalize whitespace
+    val = re.sub(r"\s+", " ", val).strip()
+    # Truncate at description-start patterns (text leaked past field boundary)
+    for pattern in [
+        r"\s+Funziona come\b",
+        r"\s+Questo incantesimo\b",
+        r"\s+L'incantesimo\b",
+        r"\s+L incantesimo\b",
+        r"\s+L'incantatore viene\b",
+        r"\s+Componente materiale",
+        r"\s+Focus arcano",
+        r"\s+Fotto arcano",           # OCR for "Fotto" = "Foco/Focus"
+        r"\bdi soggetto rimane\b",
+        r"\bE cosciente e respira\b",
+        r"\bche pu[oò] anche\.\s",    # continuation of Componente materiale
+        r"\bCome evoca\w*\b",           # "Come evoca mostri/alleato naturale..."
+        r"\binferiore dello stesso tipo\b",
+        r"\brenza che è possibile\b",  # OCR for "differenza che è possibile"
+    ]:
+        m = re.search(pattern, val)
+        if m:
+            val = val[:m.start()].strip()
+    # Fix broken words at end: "spiritual e" → "spirituale"
+    val = re.sub(r"\s+([a-zà-ú])\s*$", r"\1", val)
+    # Fix "mass a" → "massa"
+    val = re.sub(r"\bmass\s+a\b", "massa", val)
+    # Remove spurious OCR characters
+    val = re.sub(r"[_|{}\[\]]", "", val).strip()
+    # Fix double spaces
+    val = re.sub(r"\s{2,}", " ", val)
+    # Remove trailing punctuation artifacts
+    val = re.sub(r"[\s.,:;]+$", "", val)
+    if len(val) < 3:
+        return None
+    return val
 
 
 def extract_spells():
@@ -775,6 +818,14 @@ def extract_spells():
                 mapped_key = field_key.replace("_it", "")
                 if field_key in spell and not entry.get(mapped_key):
                     entry[mapped_key] = spell[field_key]
+
+            # Map Bersaglio/Area/Effetto → target_area_effect (manual is authoritative)
+            for tae_key in ["bersaglio", "bersagli", "effetto", "area"]:
+                if tae_key in spell and spell[tae_key]:
+                    cleaned = clean_ocr_target_value(spell[tae_key])
+                    if cleaned:
+                        entry["target_area_effect"] = cleaned
+                        break  # use first available in priority order
         else:
             unmatched_names.append(name_it)
 
@@ -790,7 +841,7 @@ def extract_spells():
     updated_overlay = sorted(existing_by_slug.values(), key=lambda x: x["slug"])
     with open(overlay_path, "w", encoding="utf-8") as f:
         json.dump(updated_overlay, f, ensure_ascii=False, indent=2)
-    print(f"  → Updated {overlay_path.relative_to(REPO_ROOT)} ({len(updated_overlay)} entries)")
+    print(f"  -> Updated {overlay_path.relative_to(REPO_ROOT)} ({len(updated_overlay)} entries)")
 
 
 # ── Phase 2B: Feat extraction ───────────────────────────────────────────────
@@ -949,7 +1000,7 @@ def extract_feats():
     updated_overlay = sorted(existing_by_slug.values(), key=lambda x: x["slug"])
     with open(overlay_path, "w", encoding="utf-8") as f:
         json.dump(updated_overlay, f, ensure_ascii=False, indent=2)
-    print(f"  → Updated {overlay_path.relative_to(REPO_ROOT)} ({len(updated_overlay)} entries)")
+    print(f"  -> Updated {overlay_path.relative_to(REPO_ROOT)} ({len(updated_overlay)} entries)")
 
 
 # ── Phase 2C: Class extraction ──────────────────────────────────────────────
@@ -1047,7 +1098,7 @@ def extract_classes():
     updated_overlay = sorted(existing_by_slug.values(), key=lambda x: x["slug"])
     with open(overlay_path, "w", encoding="utf-8") as f:
         json.dump(updated_overlay, f, ensure_ascii=False, indent=2)
-    print(f"  → Updated {overlay_path.relative_to(REPO_ROOT)} ({len(updated_overlay)} entries)")
+    print(f"  -> Updated {overlay_path.relative_to(REPO_ROOT)} ({len(updated_overlay)} entries)")
 
 
 # ── Phase 2D: Race extraction ───────────────────────────────────────────────
@@ -1130,7 +1181,7 @@ def extract_races():
     updated_overlay = sorted(existing_by_slug.values(), key=lambda x: x["slug"])
     with open(overlay_path, "w", encoding="utf-8") as f:
         json.dump(updated_overlay, f, ensure_ascii=False, indent=2)
-    print(f"  → Updated {overlay_path.relative_to(REPO_ROOT)} ({len(updated_overlay)} entries)")
+    print(f"  -> Updated {overlay_path.relative_to(REPO_ROOT)} ({len(updated_overlay)} entries)")
 
 
 # ── Main ─────────────────────────────────────────────────────────────────────
