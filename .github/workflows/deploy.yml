@@ -29,7 +29,7 @@ jobs:
           python-version: '3.x'
 
       - name: Generate translation status
-        run: python scripts/translation_status.py --json
+        run: python scripts/i18n_report.py --frontend
 
       - name: Build site
         run: |
