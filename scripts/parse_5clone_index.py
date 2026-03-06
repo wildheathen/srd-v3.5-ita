@@ -35,13 +35,15 @@ def extract_spell_links(html_path, url_pattern):
     seen = set()
     for a in links:
         href = a["href"]
-        if url_pattern in href and href != f"https://www.5clone.com/enciclopedia/d-d-3-5/{url_pattern}":
+        # Must contain the pattern AND have a /NNNNN-slug-name suffix (not just anchors)
+        if url_pattern in href:
+            match = re.search(r"/(\d+)-[^/#]+$", href)
+            if not match:
+                continue
             name = a.get_text(strip=True)
             if name and href not in seen:
                 seen.add(href)
-                # Extract numeric ID from URL (e.g., 10958 from .../10958-resurrezione-pura)
-                match = re.search(r"/(\d+)-", href)
-                entry_id = int(match.group(1)) if match else 0
+                entry_id = int(match.group(1))
                 spells.append({
                     "name": name,
                     "url": href,
