@@ -55,7 +55,7 @@
     "type": "Generale",
     "benefit": "In mischia, ogni volta che manchi a causa dell'occultamento, puoi ritirare la percentuale di mancamento per vedere se effettivamente colpisci. Un attaccante invisibile non ottiene vantaggi ai tiri per colpire contro di te in mischia. Cioè, non perdi il tuo bonus di Destrezza alla Classe Armatura, e l'attaccante non ottiene il solito bonus di +2 per l'invisibilità. Tuttavia, l'attaccante invisibile ottiene ancora il beneficio dell'occultamento totale (50% di probabilità di mancamento). Non hai bisogno di effettuare prove di Acrobazia per muoverti alla velocità piena in oscurità totale.",
     "normal": "La mischia regolare contro un avversario con occultamento richiede una prova di mancamento. I nemici invisibili ottengono vantaggi ai tiri per colpire contro di te in mischia.",
-    "special": "Il talento Combattere alla Cieca non ha effetto contro un personaggio che è oggetto di un incantesimo di intermittenza."
+    "special": "Il talento Combattere alla Cieca non ha effetto contro un personaggio che è oggetto di un incantesimo di <i>intermittenza</i>."
   },
   {
     "slug": "brew-potion",
@@ -317,7 +317,7 @@
     "slug": "heighten-spell",
     "name": "Incantesimi Intensificati",
     "type": "Metamagico",
-    "benefit": "Un incantesimo intensificato ha un livello dell'incantesimo più alto del normale (fino a un massimo di 9° livello). A differenza di altri talenti metamagici, Incantesimi Intensificati aumenta effettivamente il livello dell'incantesimo che modifica. Tutti gli effetti dipendenti dal livello dell'incantesimo (come le CD dei tiri salvezza e la capacità di penetrare un globo di invulnerabilità inferiore) sono calcolati in base al livello intensificato."
+    "benefit": "Un incantesimo intensificato ha un livello dell'incantesimo più alto del normale (fino a un massimo di 9° livello). A differenza di altri talenti metamagici, Incantesimi Intensificati aumenta effettivamente il livello dell'incantesimo che modifica. Tutti gli effetti dipendenti dal livello dell'incantesimo (come le CD dei tiri salvezza e la capacità di penetrare un <i>globo di invulnerabilità inferiore</i>) sono calcolati in base al livello intensificato."
   },
   {
     "slug": "improved-bull-rush",
@@ -696,7 +696,7 @@
     "name": "Padronanza Magica",
     "type": "Speciale",
     "benefit": "Ogni volta che prendi questo talento, scegli un numero di incantesimi pari al tuo modificatore di Intelligenza che già conosci. Da quel momento in poi, puoi preparare questi incantesimi senza fare riferimento a un libro degli incantesimi.",
-    "normal": "Senza questo talento, devi usare un libro degli incantesimi per preparare tutti i tuoi incantesimi, eccetto lettura del magico.",
+    "normal": "Senza questo talento, devi usare un libro degli incantesimi per preparare tutti i tuoi incantesimi, eccetto <i>lettura del magico</i>.",
     "prerequisites": "Livello da mago 1°."
   },
   {
