@@ -776,7 +776,10 @@ function getMeta(item) {
 function showDetail(item, overrideTab) {
   const tab = overrideTab || currentTab;
   detailPanel.classList.remove('hidden');
-  detailPanel.innerHTML = renderDetail(item, tab);
+  detailPanel.innerHTML = `<button class="detail-close" aria-label="Chiudi">&times;</button>` + renderDetail(item, tab);
+  detailPanel.querySelector('.detail-close').addEventListener('click', () => {
+    detailPanel.classList.add('hidden');
+  });
   if (window.innerWidth <= 768) {
     detailPanel.scrollIntoView({ behavior: 'smooth' });
   }

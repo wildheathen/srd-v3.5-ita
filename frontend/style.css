@@ -359,6 +359,7 @@ main {
 }
 
 #detail-panel {
+  position: relative;
   flex: 1.8;
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -368,6 +369,26 @@ main {
   overflow-y: auto;
   position: sticky;
   top: 1rem;
+}
+
+.detail-close {
+  position: sticky;
+  top: 0;
+  float: right;
+  background: var(--bg-card);
+  border: none;
+  color: var(--text-dim);
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  line-height: 1;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.detail-close:hover {
+  color: var(--text);
+  background: var(--bg-hover);
 }
 
 #detail-panel.hidden {
