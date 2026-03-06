@@ -213,6 +213,7 @@ def main():
     parser.add_argument("--test", type=int, default=0, help="Test with N pages only")
     parser.add_argument("--delay-min", type=float, default=1.5, help="Min delay between requests (seconds)")
     parser.add_argument("--delay-max", type=float, default=3.0, help="Max delay between requests (seconds)")
+    parser.add_argument("--workers", type=int, default=1, help="Number of parallel workers (default 1)")
     args = parser.parse_args()
 
     if not URLS_FILE.exists():
@@ -243,13 +244,67 @@ def main():
     print(f"Totale incantesimi: {total}")
     print(f"Già scaricati: {done}")
     print(f"Da scaricare: {to_do}")
-    print(f"Delay: {args.delay_min}-{args.delay_max}s tra richieste")
+    if args.workers > 1:
+        print(f"Workers paralleli: {args.workers}")
+    else:
+        print(f"Delay: {args.delay_min}-{args.delay_max}s tra richieste")
     print()
 
     if to_do == 0:
         print("Nessun incantesimo da scaricare. Tutto completato!")
         return
 
+    # ── Parallel mode ────────────────────────────────────────────────────
+    if args.workers > 1:
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+        import threading
+
+        lock = threading.Lock()
+        counter = [done]  # mutable counter for threads
+
+        def fetch_one(spell):
+            session = requests.Session()
+            url = spell["url"]
+            name = spell["name"]
+            try:
+                result = scrape_detail_page(url, session)
+                result["index_name"] = name
+                result["index_id"] = spell.get("id", 0)
+                with lock:
+                    counter[0] += 1
+                    src = result.get("source_code", "?")
+                    en = result.get("name_en", "?")
+                    print(f"[{counter[0]}/{total}] {name} OK [{src}] EN: {en}")
+                return result
+            except Exception as e:
+                with lock:
+                    counter[0] += 1
+                    print(f"[{counter[0]}/{total}] {name} ERROR: {e}")
+                return None
+
+        results = []
+        with ThreadPoolExecutor(max_workers=args.workers) as executor:
+            futures = {executor.submit(fetch_one, spell): spell for spell in remaining}
+            try:
+                for future in as_completed(futures):
+                    result = future.result()
+                    if result:
+                        results.append(result)
+                    # Save progress every 100
+                    if len(results) % 100 == 0:
+                        save_progress(scraped + results)
+                        print(f"  [Progresso salvato: {done + len(results)}/{total}]")
+            except KeyboardInterrupt:
+                print("\nInterrotto! Salvataggio progresso...")
+                executor.shutdown(wait=False, cancel_futures=True)
+
+        scraped.extend(results)
+        save_progress(scraped)
+        print(f"\nScraping completato! Salvati {len(scraped)} incantesimi in {OUTPUT_FILE}")
+        print(f"\nProssimo passo: python scripts/merge_5clone_spells.py")
+        return
+
+    # ── Sequential mode ──────────────────────────────────────────────────
     session = requests.Session()
     errors = 0
     max_consecutive_errors = 10
