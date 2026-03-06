@@ -1,6 +1,5 @@
 .vscode
 dnd35.db
-srd-source/
 __pycache__/
 *.pyc
 .env

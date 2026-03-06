@@ -7,7 +7,7 @@
   },
   "PHB": {
     "name_en": "Player's Handbook",
-    "name_it": "Manuale del Giocatore",
+    "name_it": "Manuale del Giocatore 3.5",
     "abbreviation": "PHB",
     "abbreviation_it": "MdG"
   },
@@ -22,5 +22,83 @@
     "name_it": "Manuale dei Mostri",
     "abbreviation": "MM",
     "abbreviation_it": "MdM"
+  },
+  "CW": {
+    "name_en": "Complete Warrior",
+    "name_it": "Perfetto Combattente",
+    "abbreviation": "CW",
+    "abbreviation_it": "PC"
+  },
+  "CD": {
+    "name_en": "Complete Divine",
+    "name_it": "Perfetto Sacerdote",
+    "abbreviation": "CD",
+    "abbreviation_it": "PS"
+  },
+  "CA": {
+    "name_en": "Complete Arcane",
+    "name_it": "Perfetto Arcanista",
+    "abbreviation": "CA",
+    "abbreviation_it": "PA"
+  },
+  "CAd": {
+    "name_en": "Complete Adventurer",
+    "name_it": "Perfetto Avventuriero",
+    "abbreviation": "CAd",
+    "abbreviation_it": "PAv"
+  },
+  "RoS": {
+    "name_en": "Races of Stone",
+    "name_it": "Razze di Pietra",
+    "abbreviation": "RoS",
+    "abbreviation_it": "RdP"
+  },
+  "RoD": {
+    "name_en": "Races of Destiny",
+    "name_it": "Razze del Destino",
+    "abbreviation": "RoD",
+    "abbreviation_it": "RdD"
+  },
+  "BoED": {
+    "name_en": "Book of Exalted Deeds",
+    "name_it": "Libro delle Imprese Eroiche",
+    "abbreviation": "BoED",
+    "abbreviation_it": "LIE"
+  },
+  "PlH": {
+    "name_en": "Planar Handbook",
+    "name_it": "Atlante Planare",
+    "abbreviation": "PlH",
+    "abbreviation_it": "AP"
+  },
+  "Drac": {
+    "name_en": "Draconomicon",
+    "name_it": "Draconomicon",
+    "abbreviation": "Drac",
+    "abbreviation_it": "Drac"
+  },
+  "LM": {
+    "name_en": "Libris Mortis",
+    "name_it": "Liber Mortis",
+    "abbreviation": "LM",
+    "abbreviation_it": "LM"
+  },
+  "LoM": {
+    "name_en": "Lords of Madness",
+    "name_it": "Signori della Follia",
+    "abbreviation": "LoM",
+    "abbreviation_it": "SdF"
+  },
+  "HoH": {
+    "name_en": "Heroes of Horror",
+    "name_it": "Eroi dell'Orrore",
+    "abbreviation": "HoH",
+    "abbreviation_it": "EdO"
+  },
+  "FC1": {
+    "name_en": "Fiendish Codex I: Hordes of the Abyss",
+    "name_it": "Codex Immondo I: Orde dell'Abisso",
+    "abbreviation": "FC1",
+    "abbreviation_it": "CI1"
   }
 }

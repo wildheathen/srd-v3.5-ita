@@ -23,15 +23,17 @@ index.html          → Entry point Crystal Ball (root, servito da GitHub Pages)
 dnd35.db            → SQLite database (gitignored, generato dagli script)
 ```
 
-**Sorgenti HTML SRD** (nella root del repo, dal fork originale):
+**Sorgenti e risorse** (sotto `/sources/`):
 ```
-/spells/            → 9 file HTML con tutti gli incantesimi (spells-a-b.html ... spells-t-z.html)
-/basic-rules-and-legal/ → regole base, talenti, razze, classi, equipaggiamento, combattimento, abilità
-/divine/            → abilità divine, domini, ranghi
-/epic/              → contenuti di livello epico
-/magic-items/       → oggetti magici
-/monsters/          → mostri (18 file HTML)
-/psionics/          → contenuti psionici
+/sources/srd/spells/            → 9 file HTML con tutti gli incantesimi (spells-a-b.html ... spells-t-z.html)
+/sources/srd/basic-rules-and-legal/ → regole base, talenti, razze, classi, equipaggiamento, combattimento, abilità
+/sources/srd/divine/            → abilità divine, domini, ranghi
+/sources/srd/epic/              → contenuti di livello epico
+/sources/srd/magic-items/       → oggetti magici
+/sources/srd/monsters/          → mostri (18 file HTML)
+/sources/srd/psionics/          → contenuti psionici
+/sources/testo-manuale/         → testo manuale italiano (OCR da PDF) + HTML per capitoli
+/sources/contrib/               → CSV e HTML di supporto per traduzioni e import
 ```
 
 ## Dati estratti

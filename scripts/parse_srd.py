@@ -10,8 +10,9 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
-SPELLS_DIR = REPO_ROOT / "spells"
-RULES_DIR = REPO_ROOT / "basic-rules-and-legal"
+SRD_SOURCE = REPO_ROOT / "sources" / "srd"
+SPELLS_DIR = SRD_SOURCE / "spells"
+RULES_DIR = SRD_SOURCE / "basic-rules-and-legal"
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -499,7 +500,7 @@ def parse_all_classes():
 # Monsters
 # ---------------------------------------------------------------------------
 
-MONSTERS_DIR = REPO_ROOT / "monsters"
+MONSTERS_DIR = SRD_SOURCE / "monsters"
 
 MONSTER_FILES = [
     "monsters-intro-a.html",
@@ -723,7 +724,7 @@ def parse_all_rules():
     rules = []
     for directory, files in RULES_PAGES:
         for fname, title in files:
-            fpath = REPO_ROOT / directory / fname
+            fpath = SRD_SOURCE / directory / fname
             if not fpath.exists():
                 print(f"  Warning: {fpath} not found, skipping")
                 continue

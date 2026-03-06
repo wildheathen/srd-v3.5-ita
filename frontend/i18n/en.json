@@ -17,6 +17,7 @@
   "filter.all_types": "All types",
   "filter.all_categories": "All categories",
   "filter.all_cr": "All CRs",
+  "filter.all_sources": "All sources",
   "filter.level_label": "Level:",
   "filter.levels_none": "None",
   "filter.levels_all": "All",
