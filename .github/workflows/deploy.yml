@@ -33,8 +33,13 @@ jobs:
 
       - name: Build site
         run: |
+          CACHE_BUST=$(git rev-parse --short HEAD)
           mkdir -p _site/data _site/frontend/i18n
-          cp index.html _site/
+          # Cache-bust: append ?v=<sha> to CSS/JS references
+          sed -e "s/style\.css\"/style.css?v=${CACHE_BUST}\"/" \
+              -e "s/i18n\.js\"/i18n.js?v=${CACHE_BUST}\"/" \
+              -e "s/app\.js\"/app.js?v=${CACHE_BUST}\"/" \
+              index.html > _site/index.html
           cp frontend/style.css frontend/app.js frontend/i18n.js _site/frontend/
           cp frontend/i18n/*.json _site/frontend/i18n/
           cp data/spells.json data/feats.json data/races.json data/equipment.json data/classes.json data/monsters.json data/rules.json data/sources.json data/translation-status.json data/translation-status-*.json data/translation-status-index.json _site/data/
