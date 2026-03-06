@@ -45,6 +45,76 @@ TRANSLATABLE_FIELDS = {
     "rules": ["name", "desc_html"],
 }
 
+# --- D&D Terminology Conversion Tables (EN ↔ IT) ---
+
+ABILITY_SCORES = {
+    # EN_abbr: (EN_full, IT_abbr, IT_full)
+    "Str": ("Strength",     "For", "Forza"),
+    "Dex": ("Dexterity",    "Des", "Destrezza"),
+    "Con": ("Constitution",  "Cos", "Costituzione"),
+    "Int": ("Intelligence",  "Int", "Intelligenza"),    # same abbreviation!
+    "Wis": ("Wisdom",        "Sag", "Saggezza"),
+    "Cha": ("Charisma",      "Car", "Carisma"),
+}
+
+SAVING_THROWS = {
+    # EN: IT
+    "Fortitude": "Tempra",
+    "Reflex":    "Riflessi",
+    "Will":      "Volontà",
+}
+
+COMMON_TERMS = {
+    # EN: IT
+    "hit points":      "punti ferita",
+    "hit dice":        "dadi vita",
+    "HD":              "DV",
+    "HP":              "PF",
+    "AC":              "CA",
+    "armor class":     "classe armatura",
+    "caster level":    "livello dell'incantatore",
+    "spell level":     "livello dell'incantesimo",
+    "saving throw":    "tiro salvezza",
+    "base attack":     "attacco base",
+    "damage reduction":"riduzione del danno",
+    "spell resistance":"resistenza agli incantesimi",
+    "standard action": "azione standard",
+    "full-round action":"azione di round completo",
+    "free action":     "azione gratuita",
+    "move action":     "azione di movimento",
+    "swift action":    "azione veloce",
+    "immediate action":"azione immediata",
+    "round":           "round",       # same in IT
+    "level":           "livello",
+    "subject":         "soggetto",
+    "target":          "bersaglio",
+    "range":           "gittata",
+    "duration":        "durata",
+    "Instantaneous":   "Istantaneo",
+    "Permanent":       "Permanente",
+    "Concentration":   "Concentrazione",
+    "see text":        "vedi testo",
+    "None":            "Nessuno",
+    "Yes":             "Sì",
+    "No":              "No",          # same in IT
+    "Will negates":    "Volontà nega",
+    "Will partial":    "Volontà parziale",
+    "Fortitude negates":"Tempra nega",
+    "Fortitude partial":"Tempra parziale",
+    "Reflex half":     "Riflessi dimezza",
+    "Reflex negates":  "Riflessi nega",
+}
+
+CLASS_NAMES = {
+    # EN_abbr: (EN_full, IT_abbr, IT_full)
+    "Brd": ("Bard",        "Brd", "Bardo"),
+    "Clr": ("Cleric",      "Chr", "Chierico"),
+    "Drd": ("Druid",       "Drd", "Druido"),
+    "Pal": ("Paladin",     "Pal", "Paladino"),
+    "Rgr": ("Ranger",      "Rgr", "Ranger"),       # same name in IT
+    "Sor/Wiz": ("Sorcerer/Wizard", "Str/Mag", "Stregone/Mago"),
+}
+
 # --- Detect functions ---
 
 OCR_PATTERNS = [
