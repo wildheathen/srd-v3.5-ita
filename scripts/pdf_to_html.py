@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
-PDF to HTML converter for D&D SRD spell PDFs.
-v4: Hybrid approach - pdftotext for complete text, PDF stream parsing for bold/italic.
+PDF to HTML converter for D&D SRD PDFs (Italian).
+Hybrid approach: pdftotext for complete text, PDF stream parsing for bold/italic.
+
+Modes:
+  spells  - Structured spell blocks (default, for incantesimi PDFs)
+  generic - Paragraphs with headings and formatting (for all other SRD content)
 """
 import re
 import zlib
@@ -538,7 +542,127 @@ def format_spell_block(name, text, bold_set, italic_set):
     return f'<div class="spell-block">\n  <h3>{name_escaped}</h3>\n{inner}\n</div>'
 
 
-def main(pdf_path, output_path):
+# ─── Generic mode: paragraphs with headings ──────────────────────────────────
+
+def parse_generic(full_text, bold_set, italic_set):
+    """Parse generic PDF content into paragraphs with heading detection."""
+    full_text = full_text.replace('\r\n', '\n').replace('\r', '\n')
+    full_text = full_text.replace('\f', '\n')
+
+    lines = full_text.split('\n')
+
+    # Merge consecutive non-empty lines into paragraphs
+    paragraphs = []
+    current = ''
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            if current:
+                paragraphs.append(current)
+                current = ''
+        else:
+            if current:
+                current += ' ' + stripped
+            else:
+                current = stripped
+    if current:
+        paragraphs.append(current)
+
+    # Build HTML blocks
+    blocks = []
+    for para in paragraphs:
+        # Skip OGL header
+        if para.startswith('This material is Open Game Content'):
+            continue
+
+        # Detect headings: ALL-CAPS paragraphs (>80% uppercase, at least 3 alpha chars)
+        alpha = re.sub(r'[^a-zA-ZÀ-ú]', '', para)
+        is_heading = False
+        if alpha and len(alpha) >= 3:
+            upper_ratio = sum(1 for c in alpha if c.isupper()) / len(alpha)
+            if upper_ratio > 0.8 and len(para) < 120:
+                is_heading = True
+
+        para_escaped = para.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+
+        if is_heading:
+            # Short ALL-CAPS = h2, longer = h3
+            tag = 'h2' if len(para) < 40 else 'h3'
+            blocks.append(f'<{tag}>{para_escaped}</{tag}>')
+        else:
+            # Apply formatting
+            html = apply_bold_italic(para, bold_set, italic_set)
+            html = break_sentences(html)
+            blocks.append(f'<p>{html}</p>')
+
+    return blocks
+
+
+def main_generic(pdf_path, output_path, title=None):
+    """Convert a generic SRD PDF to HTML with paragraphs and headings."""
+    full_text, bold_set, italic_set = extract_pdf(pdf_path)
+
+    blocks = parse_generic(full_text, bold_set, italic_set)
+    print(f"  Found {len(blocks)} blocks")
+
+    body = '\n\n'.join(blocks)
+
+    if not title:
+        # Derive title from filename
+        base = os.path.splitext(os.path.basename(pdf_path))[0]
+        # Strip srd35_XX_YY_ prefix
+        title = re.sub(r'^srd35_\d+_\d+_', '', base).replace('_', ' ').title()
+
+    full_html = f'''<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title} — SRD 3.5 ITA</title>
+<style>
+  * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+  body {{
+    font-family: 'Times New Roman', Georgia, serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    background: #faf8f0;
+    color: #1a1a1a;
+    line-height: 1.55;
+    font-size: 15px;
+  }}
+  h2 {{
+    font-size: 1.4em;
+    color: #8b0000;
+    margin: 24px 0 8px 0;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #8b0000;
+  }}
+  h3 {{
+    font-size: 1.15em;
+    color: #8b0000;
+    margin: 18px 0 6px 0;
+  }}
+  p {{
+    margin: 8px 0;
+    text-align: justify;
+  }}
+</style>
+</head>
+<body>
+{body}
+</body>
+</html>'''
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(full_html)
+    print(f"Done! Written {len(full_html)} chars to {output_path}")
+
+
+# ─── Shared extraction pipeline ──────────────────────────────────────────────
+
+def extract_pdf(pdf_path):
+    """Extract text and formatting from a PDF. Returns (full_text, bold_set, italic_set)."""
     print("Step 1: Extracting complete text via pdftotext...")
     full_text = get_complete_text(pdf_path)
     print(f"  Got {len(full_text)} chars")
@@ -552,11 +676,17 @@ def main(pdf_path, output_path):
     bold_set, italic_set = extract_formatted_fragments(streams, font_map)
     print(f"  Bold fragments: {len(bold_set)}")
     print(f"  Italic fragments: {len(italic_set)}")
-    # Show some examples
     for b in sorted(bold_set, key=len)[:5]:
         print(f"    B: {b!r}")
     for it in sorted(italic_set, key=len)[:5]:
         print(f"    I: {it!r}")
+
+    return full_text, bold_set, italic_set
+
+
+def main_spells(pdf_path, output_path):
+    """Convert a spell PDF to structured HTML with spell blocks."""
+    full_text, bold_set, italic_set = extract_pdf(pdf_path)
 
     print("Step 3: Parsing spell blocks...")
     header, spells = parse_spells(full_text, bold_set, italic_set)
@@ -572,12 +702,17 @@ def main(pdf_path, output_path):
 
     body = '\n\n'.join(spell_html_blocks)
 
+    # Derive title from filename
+    base = os.path.splitext(os.path.basename(pdf_path))[0]
+    letter = re.sub(r'^.*incantesimi_', '', base)
+    title_text = f'INCANTESIMI ({letter})'
+
     full_html = f'''<!DOCTYPE html>
 <html lang="it">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Incantesimi (A) — SRD 3.5 ITA</title>
+<title>{title_text} — SRD 3.5 ITA</title>
 <style>
   * {{ margin: 0; padding: 0; box-sizing: border-box; }}
   body {{
@@ -637,7 +772,7 @@ def main(pdf_path, output_path):
 </style>
 </head>
 <body>
-<h1>INCANTESIMI (A)</h1>
+<h1>{title_text}</h1>
 <p class="intro">This material is Open Game Content, licensed under the Open Game License v1.0a.</p>
 {body}
 </body>
@@ -648,7 +783,18 @@ def main(pdf_path, output_path):
     print(f"Done! Written {len(full_html)} chars to {output_path}")
 
 
+# ─── CLI ──────────────────────────────────────────────────────────────────────
+
 if __name__ == '__main__':
-    pdf_path = sys.argv[1] if len(sys.argv) > 1 else '/tmp/incantesimi_A.pdf'
-    output_path = sys.argv[2] if len(sys.argv) > 2 else '/tmp/incantesimi_A_structured.html'
-    main(pdf_path, output_path)
+    import argparse
+    parser = argparse.ArgumentParser(description='Convert SRD PDF to HTML')
+    parser.add_argument('pdf_path', help='Input PDF file')
+    parser.add_argument('output_path', help='Output HTML file')
+    parser.add_argument('--mode', choices=['spells', 'generic'], default='spells',
+                        help='Conversion mode: spells (structured spell blocks) or generic (paragraphs with headings)')
+    args = parser.parse_args()
+
+    if args.mode == 'generic':
+        main_generic(args.pdf_path, args.output_path)
+    else:
+        main_spells(args.pdf_path, args.output_path)
