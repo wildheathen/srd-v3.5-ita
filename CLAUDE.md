@@ -19,7 +19,6 @@ App di consultazione del System Reference Document D&D 3.5, basata sul fork di [
 /frontend/          → style.css, app.js, i18n.js (caricati da index.html nella root)
 /frontend/i18n/     → UI string files per lingua (it.json, en.json, ...)
 /data/i18n/{lang}/  → Data overlay files per lingua (solo campi tradotti, keyed by slug)
-/data/dndtools/     → Artefatti scraping dndtools.net (parsed JSON, book manifest, CSV review)
 index.html          → Entry point Crystal Ball (root, servito da GitHub Pages)
 dnd35.db            → SQLite database (gitignored, generato dagli script)
 ```
@@ -54,21 +53,43 @@ dnd35.db            → SQLite database (gitignored, generato dagli script)
 
 ## Dati estratti
 
-| Categoria | JSON | Entries |
-|-----------|------|---------|
-| Incantesimi | `spells.json` | 4159 (3455 v3.5, 704 v3.0) |
-| Talenti | `feats.json` | 111 |
-| Razze | `races.json` | 7 |
-| Equipaggiamento | `equipment.json` | 288 |
-| Classi | `classes.json` | 31 |
-| Mostri | `monsters.json` | 289 |
-| Regole | `rules.json` | 19 pagine |
+| Categoria | JSON | Entries | Fonti |
+|-----------|------|---------|-------|
+| Incantesimi | `spells.json` | 1377 | SRD + dndtools.net |
+| Talenti | `feats.json` | 3537 | SRD (111) + dndtools.net (3426 nuovi) |
+| Abilità | `skills.json` | 113 | dndtools.net (71 skills + 42 skill tricks) |
+| Razze | `races.json` | 42 | SRD (7) + dndtools.net (35 nuove) |
+| Equipaggiamento | `equipment.json` | 288 | SRD |
+| Classi | `classes.json` | 730 | SRD (31) + dndtools.net (699 nuove, 610 prestigio) |
+| Mostri | `monsters.json` | 312 | SRD (289) + dndtools.net (23 nuovi) |
+| Regole | `rules.json` | 19 pagine | SRD |
+
+### Campi comuni dndtools.net
+
+Ogni entry proveniente da dndtools.net ha questi campi aggiuntivi:
+- `source_book`: nome completo del manuale EN (es. "Player's Handbook v.3.5")
+- `source_page`: numero pagina (es. "37")
+- `source_url`: URL dndtools.net della pagina dettaglio
+- `edition`: "3.0" o "3.5"
+- `source_site`: "dndtools.net"
+
+### Schema skills.json
+
+Skills (`category: "skill"`):
+- `key_ability`: STR/DEX/CON/INT/WIS/CHA
+- `trained_only`: boolean
+- `armor_check_penalty`: boolean
+- `check`, `action`, `try_again`, `special`, `synergy`, `restriction`, `untrained`: sezioni HTML
+
+Skill Tricks (`category: "skill_trick"`):
+- `prerequisites`: testo requisiti
+- `benefit`: testo beneficio HTML
 
 ## Schema DB
 
 ### Tabelle principali
 
-**spells:** name, slug, school, subschool, descriptor, level, components, casting_time, range, target_area_effect, duration, saving_throw, spell_resistance, desc_html, source, manual_name, reference, edition, alt_name
+**spells:** name, slug, school, subschool, descriptor, level, components, casting_time, range, target_area_effect, duration, saving_throw, spell_resistance, desc_html
 
 **feats:** name, slug, type, prerequisites, benefit, normal, special, desc_html
 
@@ -96,23 +117,33 @@ Serve per le traduzioni IT incrementali senza toccare le tabelle principali.
 
 ## Frontend
 
-Tab disponibili: **Incantesimi**, **Preparati**, **Talenti**, **Classi**, **Razze**, **Equipaggiamento**, **Mostri**, **Regole**
+Tab disponibili: **Incantesimi**, **Preparati**, **Talenti**, **Appresi**, **Abilità**, **Classi**, **Razze**, **Equipaggiamento**, **Mostri**, **Regole**, **Stato Traduzioni**
 
 ### Incantesimi
-- Filtro scuola (dropdown), filtro classe/dominio (dropdown), filtro fonte/manuale (dropdown)
+- Filtro scuola (dropdown), filtro classe/dominio (dropdown)
 - Multi-select livello 0–9 (checkbox), con bottoni Tutti/Nessuno
-- Toggle "Includi edizione 3.0" (disattivato di default, mostra solo 3.5)
 - Ordinamento per livello crescente
 - Badge verde con contatore `usato/preparato` per incantesimi già preparati
-- Badge grigio "3.0" per spell dell'edizione 3.0
 - Bottone **+** per aggiungere alla lista preparati
-- `SPELL_DOMAINS` whitelist per distinguere domini da classi nei filtri
 
 ### Preparati
 - Lista incantesimi preparati con contatori uso/preparati (+/- per entrambi)
 - Persistenza in localStorage
 - Click sul nome per vedere il dettaglio dell'incantesimo
 - Indicatore visivo rosso quando tutti gli usi sono esauriti
+
+### Abilità
+- Filtro per categoria (Abilità / Trucchi / Entrambi)
+- Filtro per caratteristica chiave (STR/DEX/CON/INT/WIS/CHA)
+- Checkbox "Solo addestrate"
+- Dettaglio con sezioni Check, Azione, Speciale, Sinergia, ecc.
+
+### Classi
+- Filtro per tipo (Base / Prestigio / Tutti)
+- Dettaglio con hit die, skill points, class skills, source book
+
+### Razze
+- Dettaglio con taglia, velocità, modificatori caratteristiche, livello aggiustamento
 
 ### Mostri
 - Filtro per CR (Challenge Rating) e tipo creatura
@@ -143,79 +174,31 @@ python scripts/download_srd_pdfs.py --output-dir /tmp/srd-pdf-ita
 python scripts/convert_all_pdfs.py --pdf-dir /tmp/srd-pdf-ita --output-dir sources/pdf-ita
 python scripts/convert_all_pdfs.py --force   # ri-converte anche se HTML esiste
 
-# Scraping dndtools.net → JSON
-python scripts/dndtools_download.py                    # scarica tutte le spell (82 libri, ~4900 spell)
-python scripts/dndtools_download.py PHB SC CArc        # scarica solo libri specifici
-python scripts/dndtools_download.py --workers 100      # worker paralleli (default 100)
-python scripts/dndtools_download.py --discover         # mostra solo conteggio spell per libro
-python scripts/dndtools_parse.py                       # parse html_cache/ → spells_en_final.json
-python scripts/dndtools_merge.py                       # dry-run: match & merge vs spells.json
-python scripts/dndtools_merge.py --apply               # applica il merge a spells.json
-
 # Avvio backend locale (opzionale)
 uvicorn backend.app:app --reload --port 8000
-```
 
-## Scraping dndtools.net
+# ── Scraping dndtools.net (EN) ──
 
-Pipeline di scraping per scaricare spell da dndtools.net e unirle al database locale.
+# Download pagine HTML da dndtools.net (100 workers paralleli, resume-safe)
+python scripts/dndtools_download.py --category feats      # 3588 talenti
+python scripts/dndtools_download.py --category skills     # 71 abilità
+python scripts/dndtools_download.py --category skill-tricks # 42 trucchi abilità
+python scripts/dndtools_download.py --category classes    # 743 classi
+python scripts/dndtools_download.py --category races      # 42 razze
+python scripts/dndtools_download.py --category monsters   # 29 mostri
 
-### Architettura
+# Parse HTML → JSON intermedio
+python scripts/dndtools_parse_feats.py     # → data/dndtools/feats_en_parsed.json
+python scripts/dndtools_parse_skills.py    # → data/skills.json (skills + skill tricks)
+python scripts/dndtools_parse_classes.py   # → data/dndtools/classes_en_parsed.json
+python scripts/dndtools_parse_races.py     # → data/dndtools/races_en_parsed.json
+python scripts/dndtools_parse_monsters.py  # → data/dndtools/monsters_en_parsed.json
 
-Tre script in pipeline:
-
-1. **`dndtools_download.py`** (Phase A) — Downloader HTML parallelo
-   - Scarica le pagine lista (paginate, 20/pagina) e le pagine dettaglio spell
-   - 100 worker paralleli, resume-safe (skippa file già in `html_cache/`)
-   - Book aliases: `PHB`, `SC`, `CArc`, `CDiv`, `CAd`, `PHB2`, `DMG` → slug completi
-   - Auto-discovery libri da `data/dndtools/book_slugs.json`
-   - Output: `html_cache/{book}/spells/{spell-slug}.html` + `manifest.json`
-
-2. **`dndtools_parse.py`** (Phase B+C) — Parser HTML→JSON
-   - Auto-discovery libri da `html_cache/` (cerca sottocartelle con `spells/`)
-   - Parsing regex: nome da `<h2>`, scuola/sottoscuola/descrittore da link, livello da link classe
-   - Metadata da pattern `<strong>Label:</strong>`, descrizione da `<p>` dopo Spell Resistance
-   - Deduplicazione target_area_effect, HTML entity decoding, rimozione `<a>` tags
-   - Output: `spells_en_final.json` (array) + `.jsonl`
-
-3. **`dndtools_merge.py`** (Phase D) — Match & merge
-   - Match a tre livelli: nome esatto → varianti OGL → fuzzy (>0.95 similarità)
-   - Gestione nomi OGL: strip prefissi possessivi (Bigby's, Mordenkainen's, etc.) + mapping Mage's
-   - Per match trovati: aggiorna campi vuoti, converti manual_name IT→EN, normalizza reference
-   - Per nuovi spell: aggiunge con slug generato e source code mappato
-   - Aggiunge campo `alt_name` per spell con nomi alternativi (OGL/fuzzy)
-   - Output: CSV di review (`unmatched_en.csv`, `unmatched_existing.csv`)
-   - Flag `--apply` per scrivere su `data/spells.json`
-
-### Dati
-
-```
-/data/dndtools/book_slugs.json        → 82 slug di libri con ID dndtools
-/data/dndtools/spells_en_parsed.json  → 4911 spell parsati da dndtools (output fase B+C)
-/data/dndtools/unmatched_existing.csv → 68 spell nel JSON non matchati su dndtools
-/data/dndtools/unmatched_en.csv       → spell dndtools aggiunti come nuovi
-/html_cache/                          → HTML scaricati (gitignored, ~82MB, riscaricare con download.py)
-```
-
-### Edizione 3.0 vs 3.5
-
-Gli HTML di dndtools contengono un `<div id="warning-bar">` per spell 3.0.
-Il campo `edition` in `spells.json` è "3.0" o "3.5" basato sulla presenza di questo warning.
-23 libri sono 3.0 (704 spell), 59 libri sono 3.5 (3455 spell).
-Il frontend nasconde i 3.0 di default con un toggle.
-
-### Comandi rapidi
-
-```bash
-# Pipeline completa (rifare da zero)
-python scripts/dndtools_download.py --workers 100    # ~45 sec, 4911 files
-python scripts/dndtools_parse.py                      # ~10 sec, 4911 spell
-python scripts/dndtools_merge.py --apply              # merge in spells.json
-
-# Solo un libro specifico
-python scripts/dndtools_download.py SC
-python scripts/dndtools_parse.py
-python scripts/dndtools_merge.py --apply --input spells_en_final.json
+# Merge parsed data → data/*.json
+python scripts/dndtools_merge_feats.py     # feats.json: 111 → 3537
+python scripts/dndtools_merge_classes.py   # classes.json: 31 → 730
+python scripts/dndtools_merge_races.py     # races.json: 7 → 42
+python scripts/dndtools_merge_monsters.py  # monsters.json: 289 → 312
 ```
 
 ## Estrazione PDF SRD
@@ -320,9 +303,7 @@ Solo i campi presenti vengono sovrascritti; il resto resta in inglese.
 - [x] Sezione regole (19 pagine descrittive)
 - [x] Sistema i18n multi-lingua (UI strings + data overlay)
 - [x] Traduzioni IT termini chiave (nomi spell, mostri, talenti, classi, razze)
-- [x] Scraping dndtools.net (4911 spell da 82 libri, pipeline download/parse/merge)
-- [x] Espansione spells.json: 1377 → 4159 spell (2782 nuovi + 1305 aggiornati)
-- [x] Tagging edizione 3.0 vs 3.5 con toggle frontend
-- [x] Aggiornamento sources.json (82 fonti con abbreviazioni EN)
-- [x] Filtro SPELL_DOMAINS (invertito da SPELL_CLASSES per scalabilità)
+- [x] Scraping dndtools.net EN (feats, skills, skill tricks, classes, races, monsters)
+- [x] Tab Abilità (skills + skill tricks) con filtri
+- [x] Dettagli estesi per tutte le categorie (source book, prestige, size, ecc.)
 - [ ] Traduzioni IT descrizioni complete (desc_html, benefit, ecc.)

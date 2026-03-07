@@ -466,18 +466,6 @@ main {
   vertical-align: baseline;
 }
 
-.edition-badge {
-  display: inline-block;
-  font-size: 0.6rem;
-  padding: 0.05rem 0.3rem;
-  margin-left: 0.3rem;
-  border-radius: 3px;
-  background: #78909c;
-  color: #fff;
-  font-weight: 600;
-  vertical-align: baseline;
-}
-
 .name-en {
   font-weight: 400;
   font-size: 0.8rem;
@@ -836,6 +824,52 @@ main {
   vertical-align: middle;
   font-weight: 600;
   letter-spacing: 0.03em;
+}
+
+/* ── Edition badge ───────────────────────────────── */
+
+.edition-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  padding: 0.05rem 0.3rem;
+  border-radius: 3px;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.edition-35 { background: #2a6b3c; color: #fff; }
+.edition-30 { background: #8b6914; color: #fff; }
+
+.result-item .edition-badge {
+  font-size: 0.55rem;
+  padding: 0.02rem 0.2rem;
+}
+
+/* ── Source footer (bottom of detail panel) ──────── */
+
+.source-footer {
+  margin-top: 1.5rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  opacity: 0.7;
+}
+.source-footer-line {
+  margin-bottom: 0.15rem;
+}
+.source-footer-lang {
+  display: inline-block;
+  width: 1.6rem;
+  font-weight: 600;
+  color: var(--accent);
+  opacity: 0.8;
+}
+.source-footer-site {
+  font-style: italic;
+  opacity: 0.6;
+  margin-top: 0.2rem;
 }
 
 /* ── Translation status dashboard ────────────────── */
