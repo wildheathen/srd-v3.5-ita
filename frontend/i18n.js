@@ -72,8 +72,8 @@ function applyOverlay(data, overlayMap) {
     // Preserve original EN values that will be overwritten by overlay
     const merged = { ...item };
     for (const f of _PRESERVE_BASE_FIELDS) {
-      if (trans[f] && item[f]) {
-        merged['_base_' + f] = item[f];       // EN original
+      if (trans[f]) {
+        merged['_base_' + f] = item[f] || '';  // EN original (empty string if base had nothing)
       }
     }
     Object.assign(merged, trans);
