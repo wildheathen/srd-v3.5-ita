@@ -341,6 +341,30 @@ header.collapsed #header-toggle {
   border-color: var(--accent);
 }
 
+.edition-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  cursor: pointer;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.4rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.edition-toggle:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.edition-toggle:has(input:checked) {
+  background: var(--accent-dim);
+  color: #fff;
+  border-color: var(--accent);
+}
+
 /* ── Layout ───────────────────────────────────────── */
 
 main {
@@ -439,6 +463,18 @@ main {
   font-size: 0.6rem;
   padding: 0.05rem 0.3rem;
   margin-left: 0.4rem;
+  vertical-align: baseline;
+}
+
+.edition-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  padding: 0.05rem 0.3rem;
+  margin-left: 0.3rem;
+  border-radius: 3px;
+  background: #78909c;
+  color: #fff;
+  font-weight: 600;
   vertical-align: baseline;
 }
 

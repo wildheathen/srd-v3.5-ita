@@ -21,6 +21,7 @@
   "filter.level_label": "Livello:",
   "filter.levels_none": "Nessuno",
   "filter.levels_all": "Tutti",
+  "filter.show_3.0": "Includi edizione 3.0",
 
   "msg.loading": "Caricamento...",
   "msg.load_error": "Errore nel caricamento di ${category}.json",

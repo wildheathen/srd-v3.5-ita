@@ -272,9 +272,13 @@ function buildFilters() {
         <button id="levels-none" class="level-toggle" title="${t('filter.levels_none')}">${t('filter.levels_none')}</button>
         <button id="levels-all" class="level-toggle" title="${t('filter.levels_all')}">${t('filter.levels_all')}</button>
       </div>
+      <label class="edition-toggle" id="edition-toggle">
+        <input type="checkbox" id="filter-show-30"> ${t('filter.show_3.0')}
+      </label>
       <span id="result-count"></span>
     `;
     populateSpellFilters();
+    filtersDiv.querySelector('#filter-show-30').addEventListener('change', renderResults);
     filtersDiv.querySelector('#filter-school').addEventListener('change', renderResults);
     filtersDiv.querySelector('#filter-class').addEventListener('change', () => {
       if (document.getElementById('filter-class').value) {
@@ -496,6 +500,12 @@ async function renderResults() {
 
   // Category-specific filters
   if (currentTab === 'spells') {
+    // Edition filter: hide 3.0 by default unless checkbox is checked
+    const show30 = document.getElementById('filter-show-30')?.checked;
+    if (!show30) {
+      filtered = filtered.filter((s) => s.edition !== '3.0');
+    }
+
     const school = document.getElementById('filter-school')?.value;
     const cls = document.getElementById('filter-class')?.value;
     const domain = document.getElementById('filter-domain')?.value;
@@ -580,7 +590,7 @@ async function renderResults() {
     return `<div class="result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}" data-index="${idx}" data-slug="${item.slug || ''}"${schoolStyle}>
       <div class="result-row">
         <div class="result-text">
-          <div class="name">${esc(item.name)}${renderSourceBadge(item)}${item._name_en ? `<span class="name-en">${esc(item._name_en)}</span>` : ''}</div>
+          <div class="name">${esc(item.name)}${item.edition === '3.0' ? '<span class="edition-badge">3.0</span>' : ''}${renderSourceBadge(item)}${item._name_en ? `<span class="name-en">${esc(item._name_en)}</span>` : ''}</div>
           ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
         </div>
         ${actionHtml}
