@@ -1,9 +1,59 @@
 [
   {
+    "slug": "aberration-banemagic",
+    "name": "Magia Anatema delle Aberrazioni",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 179"
+  },
+  {
+    "slug": "aberration-blood",
+    "name": "Stirpe di Aberrazione",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 181"
+  },
+  {
+    "slug": "aberration-wild-shape",
+    "name": "Forma Selvatica di Aberrazione",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 178"
+  },
+  {
+    "slug": "ability-focus",
+    "name": "Capacità Focalizzata",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 303"
+  },
+  {
+    "slug": "able-learner",
+    "name": "Abile Allievo",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 150"
+  },
+  {
+    "slug": "abyss-bound-soul",
+    "name": "Anima Legata",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 83"
+  },
+  {
+    "slug": "acheron-flurry",
+    "name": "Raffica dell'Acheronte",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 42"
+  },
+  {
     "slug": "acrobatic",
     "name": "Acrobatico",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Saltare e Acrobazia."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Saltare e Acrobazia.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 89"
+  },
+  {
+    "slug": "adroit-flyby-attack",
+    "name": "Attacco in Volo Agile",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 67"
   },
   {
     "slug": "agile",
@@ -12,17 +62,117 @@
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Equilibrio e Artista della Fuga."
   },
   {
+    "slug": "agile-tyrant",
+    "name": "Tiranno Agile",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 45"
+  },
+  {
+    "slug": "air-heritage",
+    "name": "Eredità dell'Aria",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 38"
+  },
+  {
     "slug": "alertness",
     "name": "Allerta",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Ascoltare e Osservare.",
-    "special": "Il padrone di un famiglio ottiene il beneficio del talento Allerta ogni volta che il famiglio è entro portata di braccio."
+    "special": "Il padrone di un famiglio ottiene il beneficio del talento Allerta ogni volta che il famiglio è entro portata di braccio.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 89"
+  },
+  {
+    "slug": "anarchic-heritage",
+    "name": "Eredità Anarchica",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 38"
+  },
+  {
+    "slug": "ancestral-knowledge",
+    "name": "Conoscenze Ancestrali",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 141"
+  },
+  {
+    "slug": "ancestral-relic",
+    "name": "Reliquia Ancestrale",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 45"
   },
   {
     "slug": "animal-affinity",
     "name": "Affinità Animale",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Addestrare Animali e Cavalcare."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Addestrare Animali e Cavalcare.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 89"
+  },
+  {
+    "slug": "animal-friend",
+    "name": "Amico degli Animali",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 39"
+  },
+  {
+    "slug": "anvil-of-thunder",
+    "name": "Incudine Tonante",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 113"
+  },
+  {
+    "slug": "appraise-magic-value",
+    "name": "Valutare Valore Magico",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 112"
+  },
+  {
+    "slug": "aquatic-spellcasting",
+    "name": "Incanalare Acqua",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 178"
+  },
+  {
+    "slug": "arcane-defense",
+    "name": "Difesa Arcana",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 76"
+  },
+  {
+    "slug": "arcane-disciple",
+    "name": "Discepolo Arcano",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 79"
+  },
+  {
+    "slug": "arcane-insight",
+    "name": "Intuito Arcano",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 155"
+  },
+  {
+    "slug": "arcane-mastery",
+    "name": "Padronanza Arcana",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "arcane-preparation",
+    "name": "Preparazione Arcana",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "arcane-strike",
+    "name": "Colpo Arcano",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "archivist-of-nature",
+    "name": "Archivista della Natura",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 120"
   },
   {
     "slug": "armor-proficiency-medium",
@@ -31,7 +181,39 @@
     "benefit": "Vedi Competenza nelle Armature (leggere).",
     "normal": "Vedi Competenza nelle Armature (leggere).",
     "special": "Guerrieri, barbari, paladini, chierici, druidi e bardi hanno automaticamente Competenza nelle Armature (medie) come talento bonus. Non hanno bisogno di selezionarlo.",
-    "prerequisites": "Competenza nelle Armature (leggere)."
+    "prerequisites": "Competenza nelle Armature (leggere).",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 93"
+  },
+  {
+    "slug": "armor-skin",
+    "name": "Pelle Corazzata",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 153"
+  },
+  {
+    "slug": "arterial-strike",
+    "name": "Colpo Emorralgico",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "ascetic-hunter",
+    "name": "Cacciatore Ascetico",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "ascetic-knight",
+    "name": "Cavaliere Ascetico",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "ascetic-rogue",
+    "name": "Ladro Ascetico",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 110"
   },
   {
     "slug": "athletic",
@@ -40,14 +222,138 @@
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Scalare e Nuotare.",
     "prerequisites": "Competenza negli Scudi .",
     "normal": "Un personaggio privo di questo talento che percuote con lo scudo, perde il suo bonus di scudo alla CA fino al turno successivo.",
-    "special": "Un guerriero può selezionare Attacco con lo Scud o Migliorato come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38)."
+    "special": "Un guerriero può selezionare Attacco con lo Scud o Migliorato come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 92"
+  },
+  {
+    "slug": "augment-healing",
+    "name": "Aumentare Guarigione",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 79"
   },
   {
     "slug": "augment-summoning",
     "name": "Evocazione Potenziata",
     "type": "Generale",
     "benefit": "Ogni creatura che evochi con qualsiasi incantesimo di evocazione ottiene un bonus di potenziamento di +4 a Forza e Costituzione per la durata dell'incantesimo che l'ha evocata.",
-    "prerequisites": "Focalizzazione Magica (evocazione)."
+    "prerequisites": "Focalizzazione Magica (evocazione).",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 92"
+  },
+  {
+    "slug": "augmented-alchemy",
+    "name": "Alchimia Accresciuta",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 191"
+  },
+  {
+    "slug": "auspicious-marking",
+    "name": "Macula dell'Auspicio",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
+  },
+  {
+    "slug": "automatic-quicken-spell",
+    "name": "Incantesimi Rapidi Automatici",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 191"
+  },
+  {
+    "slug": "automatic-silent-spell",
+    "name": "Incantesimi Silenziosi Automatici",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 192"
+  },
+  {
+    "slug": "automatic-still-spell",
+    "name": "Incantesimi Immobili Automatici",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 191"
+  },
+  {
+    "slug": "awaken-frightful-presence",
+    "name": "Risvegliare Presenza Terrificante",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 71"
+  },
+  {
+    "slug": "awaken-spell-resistance",
+    "name": "Risvegliare Resistenza agli Incantesimi",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 72"
+  },
+  {
+    "slug": "awesome-blow",
+    "name": "Colpo Terrificante",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 304"
+  },
+  {
+    "slug": "axespike",
+    "name": "Ascia Chiodata",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 139"
+  },
+  {
+    "slug": "axiomatic-heritage",
+    "name": "Eredità Assiomatica",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 39"
+  },
+  {
+    "slug": "axiomatic-strike",
+    "name": "Colpo Assiomatico",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "baleful-moan",
+    "name": "Lamento Funesto",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 27"
+  },
+  {
+    "slug": "bane-magic",
+    "name": "Magia Anatema",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 125"
+  },
+  {
+    "slug": "bane-of-the-unclean",
+    "name": "Anatema degli Impuri",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "battle-caster",
+    "name": "Incantatore da Battaglia",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 77"
+  },
+  {
+    "slug": "battle-hardened",
+    "name": "Temprato dalla Battaglia",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 147"
+  },
+  {
+    "slug": "bear-fang",
+    "name": "Zanna dell'Orso",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 114"
+  },
+  {
+    "slug": "bestial-hide",
+    "name": "Pelle Bestiale",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 179"
+  },
+  {
+    "slug": "black-lore-of-moil",
+    "name": "Sapienza Nera di Moil",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 83"
   },
   {
     "slug": "blind-fight",
@@ -55,14 +361,156 @@
     "type": "Generale",
     "benefit": "In mischia, ogni volta che manchi a causa dell'occultamento, puoi ritirare la percentuale di mancamento per vedere se effettivamente colpisci. Un attaccante invisibile non ottiene vantaggi ai tiri per colpire contro di te in mischia. Cioè, non perdi il tuo bonus di Destrezza alla Classe Armatura, e l'attaccante non ottiene il solito bonus di +2 per l'invisibilità. Tuttavia, l'attaccante invisibile ottiene ancora il beneficio dell'occultamento totale (50% di probabilità di mancamento). Non hai bisogno di effettuare prove di Acrobazia per muoverti alla velocità piena in oscurità totale.",
     "normal": "La mischia regolare contro un avversario con occultamento richiede una prova di mancamento. I nemici invisibili ottengono vantaggi ai tiri per colpire contro di te in mischia.",
-    "special": "Il talento Combattere alla Cieca non ha effetto contro un personaggio che è oggetto di un incantesimo di <i>intermittenza</i>."
+    "special": "Il talento Combattere alla Cieca non ha effetto contro un personaggio che è oggetto di un incantesimo di <i>intermittenza</i>.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 93"
+  },
+  {
+    "slug": "blindsense",
+    "name": "Percezione Cieca",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 114"
+  },
+  {
+    "slug": "blood-calls-to-blood",
+    "name": "Sangue Chiama Sangue",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 126"
+  },
+  {
+    "slug": "blood-war-conscript",
+    "name": "Recluta della Guerra Sanguinosa",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 83"
+  },
+  {
+    "slug": "boars-ferocity",
+    "name": "Ferocia del Cinghiale",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 80"
+  },
+  {
+    "slug": "bolster-resistance",
+    "name": "Rinforzare Resistenza",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 29"
+  },
+  {
+    "slug": "bonus-domain",
+    "name": "Dominio Bonus",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 90"
+  },
+  {
+    "slug": "born-of-the-three-thunders",
+    "name": "Nato dai Tre Tuoni",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 81"
+  },
+  {
+    "slug": "brachiation",
+    "name": "Movimento Brachiale",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 110"
   },
   {
     "slug": "brew-potion",
     "name": "Mescere Pozioni",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare una pozione di qualsiasi incantesimo di 3° livello o inferiore che conosci e che ha come bersaglio una o più creature. Preparare una pozione richiede un giorno. Quando crei una pozione, stabilisci il livello dell'incantatore, che deve essere sufficiente per lanciare l'incantesimo in questione e non superiore al tuo livello. Il prezzo base di una pozione è il suo livello dell'incantesimo × il livello dell'incantesimo × 50 mo. Per preparare una pozione, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà di questo prezzo base.",
-    "prerequisites": "Livello dell'incantatore 3°."
+    "prerequisites": "Livello dell'incantatore 3°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "bright-sigil",
+    "name": "Sigillo Splendente",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 154"
+  },
+  {
+    "slug": "brutal-throw",
+    "name": "Lancio Brutale",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 110"
+  },
+  {
+    "slug": "burrow-friend",
+    "name": "Amico degli Animali in Tana",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 139"
+  },
+  {
+    "slug": "cavalry-charger",
+    "name": "Carica del Cavaliere",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 109"
+  },
+  {
+    "slug": "celestial-familiar",
+    "name": "Famiglio Celestiale",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 43"
+  },
+  {
+    "slug": "celestial-heritage",
+    "name": "Eredità Celestiale",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 39"
+  },
+  {
+    "slug": "celestial-mount",
+    "name": "Cavalcatura Celestiale",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 42"
+  },
+  {
+    "slug": "celestial-summoning-specialist",
+    "name": "Specialista nell'Evocazione Celestiale",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 42"
+  },
+  {
+    "slug": "chain-spell",
+    "name": "Incantesimi Concatenati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 77"
+  },
+  {
+    "slug": "channeled-rage",
+    "name": "Ira Incanalata",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 152"
+  },
+  {
+    "slug": "chant-of-fortitude",
+    "name": "Canto della Tempra",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 113"
+  },
+  {
+    "slug": "chaotic-spell-recall",
+    "name": "Ricordare Incantesimo Caotico",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 87"
+  },
+  {
+    "slug": "cheetahs-speed",
+    "name": "Velocità del Ghepardo",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "city-slicker",
+    "name": "Cittadino Scaltro",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 150"
+  },
+  {
+    "slug": "clan-prestige",
+    "name": "Prestigio del Clan",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 144"
   },
   {
     "slug": "cleave",
@@ -70,13 +518,65 @@
     "type": "Generale",
     "benefit": "Se colpisci un avversario con sufficiente danno da farlo cadere (tipicamente riducendo i suoi punti ferita sotto 0 o uccidendolo), ottieni un attacco in mischia extra immediato contro un'altra creatura nelle vicinanze. Non puoi fare un passo di 1,5 m prima di effettuare questo attacco extra. L'attacco extra è al tuo bonus di attacco completo, anche se hai già attaccato in quel round. Puoi usare questa capacità una volta per round.",
     "special": "Un guerriero può selezionare Fendente come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "For 13, Attacco Poderoso."
+    "prerequisites": "For 13, Attacco Poderoso.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "clever-wrestling",
+    "name": "Abile nella Lotta",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 103"
+  },
+  {
+    "slug": "climb-like-an-ape",
+    "name": "Scalare Come un Gorilla",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 114"
+  },
+  {
+    "slug": "clinging-breath",
+    "name": "Soffio Impregnante",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 73"
+  },
+  {
+    "slug": "cloak-of-the-obyrith",
+    "name": "Mantello degli Obyrith",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 86"
+  },
+  {
+    "slug": "close-quarters-fighting",
+    "name": "Combattimento Ravvicinato",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "collegiate-wizard",
+    "name": "Mago di Collegio",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 181"
+  },
+  {
+    "slug": "combat-archery",
+    "name": "Arciere in Combattimento",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 151"
+  },
+  {
+    "slug": "combat-brute",
+    "name": "Combattimento Brutale",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 110"
   },
   {
     "slug": "combat-casting",
     "name": "Incantare in Combattimento",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +4 alle prove di Concentrazione effettuate per lanciare un incantesimo o usare una capacità magica mentre sei sulla difensiva o mentre sei in lotta."
+    "benefit": "Ottieni un bonus di +4 alle prove di Concentrazione effettuate per lanciare un incantesimo o usare una capacità magica mentre sei sulla difensiva o mentre sei in lotta.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 97"
   },
   {
     "slug": "combat-expertise",
@@ -85,7 +585,15 @@
     "benefit": "Quando usi l'azione di attacco o l'azione di attacco completo in mischia, puoi subire una penalità di –1 ai tiri per colpire in mischia e ottenere un bonus di schivare +1 alla Classe Armatura. Questa penalità e bonus aumentano di 1 per ogni –1 nei tiri per colpire, fino a un massimo di –5/+5. Devi scegliere di usare questa capacità prima di effettuare un tiro per colpire, e i suoi effetti durano fino alla tua prossima azione.",
     "special": "Un guerriero può selezionare Competenza in Combattimento come uno dei suoi talenti bonus da guerriero.",
     "normal": "Un personaggio senza il talento Competenza in Combattimento può combattere sulla difensiva mentre usa l'azione di attacco o l'azione di attacco completo per subire una penalità di –4 ai tiri per colpire e ottenere un bonus di schivare +2 alla Classe Armatura.",
-    "prerequisites": "Int 13."
+    "prerequisites": "Int 13.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "combat-intuition",
+    "name": "Intuizione in Combattimento",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 109"
   },
   {
     "slug": "combat-reflexes",
@@ -93,48 +601,284 @@
     "type": "Generale",
     "benefit": "Puoi effettuare un numero di attacchi di opportunità aggiuntivi in un round pari al tuo bonus di Destrezza. Con questo talento puoi anche effettuare attacchi di opportunità quando sei colto alla sprovvista.",
     "normal": "Un personaggio senza questo talento può effettuare solo un attacco di opportunità per round e non può effettuare attacchi di opportunità quando è colto alla sprovvista.",
-    "special": "Il talento Riflessi in Combattimento non ti permette di effettuare più di un attacco di opportunità per la stessa circostanza."
+    "special": "Il talento Riflessi in Combattimento non ti permette di effettuare più di un attacco di opportunità per la stessa circostanza.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "communicator",
+    "name": "Comunicatore",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 76"
+  },
+  {
+    "slug": "complementary-insight",
+    "name": "Intuito Complementare",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 152"
+  },
+  {
+    "slug": "consecrate-spell",
+    "name": "Incantesimi Consacrati",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "consecrate-spell-like-ability",
+    "name": "Capacità Magica Consacrata",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 41"
+  },
+  {
+    "slug": "consecrate-spell-trigger",
+    "name": "Incantesimi ad Attivazione Consacrati",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "contagious-paralysis",
+    "name": "Paralisi Contagiosa",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
+  },
+  {
+    "slug": "cooperative-spell",
+    "name": "Incantesimi Cooperativi",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 77"
+  },
+  {
+    "slug": "corpsecrafter",
+    "name": "Artigianato dei Cadaveri",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 25"
+  },
+  {
+    "slug": "corrupt-arcana",
+    "name": "Arcani Corrotti",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 120"
+  },
+  {
+    "slug": "corrupt-spell",
+    "name": "Incantesimi Corrotti",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 81"
+  },
+  {
+    "slug": "corrupt-spell-focus",
+    "name": "Incantesimi Focalizzati Corrotti",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 120"
+  },
+  {
+    "slug": "corrupted-wild-shape",
+    "name": "Forma Selvatica Corrotta",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 26"
+  },
+  {
+    "slug": "cougars-vision",
+    "name": "Visione del Puma",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 114"
+  },
+  {
+    "slug": "craft-aboleth-glyph",
+    "name": "Creare Glifo Aboleth",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 22"
+  },
+  {
+    "slug": "craft-construct",
+    "name": "Creare Costrutti",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 304"
+  },
+  {
+    "slug": "craft-contingent-spell",
+    "name": "Creare Incantesimi Contingenti",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 76"
   },
   {
     "slug": "craft-magic-arms-and-armor",
     "name": "Creare Armi e Armature Magiche",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare qualsiasi arma, armatura o scudo magico di cui soddisfi i prerequisiti. Potenziare un'arma, un'armatura o uno scudo richiede un giorno per ogni 1.000 mo nel prezzo delle sue caratteristiche magiche. Per potenziare un'arma, un'armatura o uno scudo, devi spendere 1/25 del prezzo totale delle sue caratteristiche in PE e usare materie prime per un costo pari alla metà del prezzo.",
-    "prerequisites": "Livello dell'incantatore 5°."
+    "prerequisites": "Livello dell'incantatore 5°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 95"
+  },
+  {
+    "slug": "craft-psionic-seal",
+    "name": "Creare Sigillo Psionico",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 69"
   },
   {
     "slug": "craft-rod",
     "name": "Creare Verghe",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare qualsiasi verga di cui soddisfi i prerequisiti. Creare una verga richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare una verga, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base.",
-    "prerequisites": "Livello dell'incantatore 9°."
+    "prerequisites": "Livello dell'incantatore 9°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 95"
+  },
+  {
+    "slug": "craft-rune-circle",
+    "name": "Creare Cerchi di Rune",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 141"
   },
   {
     "slug": "craft-staff",
     "name": "Creare Bastoni",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare qualsiasi bastone di cui soddisfi i prerequisiti. Creare un bastone richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare un bastone, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base. Un bastone appena creato ha 50 cariche.",
-    "prerequisites": "Livello dell'incantatore 12°."
+    "prerequisites": "Livello dell'incantatore 12°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 95"
   },
   {
     "slug": "craft-wand",
     "name": "Creare Bacchette",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare una bacchetta di qualsiasi incantesimo di 4° livello o inferiore che conosci. Creare una bacchetta richiede un giorno per ogni 1.000 mo nel suo prezzo base. Il prezzo base di una bacchetta è il suo livello dell'incantatore × il livello dell'incantesimo × 750 mo. Per creare una bacchetta, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà del prezzo base.",
-    "prerequisites": "Livello dell'incantatore 5°."
+    "prerequisites": "Livello dell'incantatore 5°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 95"
   },
   {
     "slug": "craft-wondrous-item",
     "name": "Creare Oggetti Meravigliosi",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare qualsiasi oggetto meraviglioso di cui soddisfi i prerequisiti. Incantare un oggetto meraviglioso richiede un giorno per ogni 1.000 mo nel suo prezzo. Per incantare un oggetto meraviglioso, devi spendere 1/25 del prezzo dell'oggetto in PE e usare materie prime per un costo pari alla metà di questo prezzo. Puoi anche riparare un oggetto meraviglioso rotto se soddisfi i prerequisiti per crearlo.",
-    "prerequisites": "Livello dell'incantatore 3°."
+    "prerequisites": "Livello dell'incantatore 3°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 95"
+  },
+  {
+    "slug": "crescent-moon",
+    "name": "Luna Crescente",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 113"
+  },
+  {
+    "slug": "crowd-tactics",
+    "name": "Tattiche nella Folla",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 156"
+  },
+  {
+    "slug": "cunning-sidestep",
+    "name": "Passo Laterale Astuto",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "damage-reduction",
+    "name": "Riduzione del Danno",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 153"
+  },
+  {
+    "slug": "danger-sense",
+    "name": "Senso del Pericolo",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 111"
+  },
+  {
+    "slug": "dark-speech",
+    "name": "Lingua Oscura",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 86"
+  },
+  {
+    "slug": "darkstalker",
+    "name": "Segugio delle Tenebre",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 181"
+  },
+  {
+    "slug": "dash",
+    "name": "Scattare",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "daunting-presence",
+    "name": "Presenza Intimidente",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
+  },
+  {
+    "slug": "deadly-chill",
+    "name": "Gelo Mortale",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 27"
+  },
+  {
+    "slug": "death-blow",
+    "name": "Colpo Letale",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 107"
+  },
+  {
+    "slug": "death-frenzy",
+    "name": "Frenesia di Morte",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 22"
+  },
+  {
+    "slug": "death-master",
+    "name": "Maestro della Morte",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 27"
+  },
+  {
+    "slug": "debilitating-spell",
+    "name": "Incantesimi Debilitanti",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 124"
+  },
+  {
+    "slug": "debilitating-strike",
+    "name": "Colpo Debilitante",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 121"
   },
   {
     "slug": "deceitful",
     "name": "Ingannevole",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Camuffare e Falsificare."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Camuffare e Falsificare.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "deep-vision",
+    "name": "Visione Profonda",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 147"
+  },
+  {
+    "slug": "deepspawn",
+    "name": "Progenie degli Abissi",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 180"
+  },
+  {
+    "slug": "defensive-strike",
+    "name": "Colpo Difensivo",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "defensive-throw",
+    "name": "Atterramento Difensivo",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 97"
   },
   {
     "slug": "deflect-arrows",
@@ -142,13 +886,125 @@
     "type": "Generale",
     "benefit": "Devi avere almeno una mano libera (senza tenere nulla) per usare questo talento. Una volta per round, quando saresti normalmente colpito da un'arma a distanza, puoi deviarla in modo da non subire danni. Devi essere consapevole dell'attacco e non essere colto alla sprovvista. Tentare di deviare un'arma a distanza non conta come un'azione. Armi a distanza eccezionalmente massicce e armi a distanza generate da incantesimi o capacità magiche non possono essere deviate.",
     "special": "Un monaco può selezionare Deviare Frecce come talento bonus al 2° livello, anche se non soddisfa i prerequisiti. Un guerriero può selezionare Deviare Frecce come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13, Colpo Senz'Armi Migliorato."
+    "prerequisites": "Des 13, Colpo Senz'Armi Migliorato.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 95"
+  },
+  {
+    "slug": "deflective-armor",
+    "name": "Armatura Deflettente",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 139"
+  },
+  {
+    "slug": "deformity-skin",
+    "name": "Deformità (Pelle)",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 121"
+  },
+  {
+    "slug": "deformity-tall",
+    "name": "Deformità (Altezza)",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 121"
+  },
+  {
+    "slug": "deformity-teeth",
+    "name": "Deformità (Denti)",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 121"
+  },
+  {
+    "slug": "deformity-tongue",
+    "name": "Deformità (Lingua)",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 121"
   },
   {
     "slug": "deft-hands",
     "name": "Mani Abili",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Rapidità di Mano e Usare Corde."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Rapidità di Mano e Usare Corde.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "deft-opportunist",
+    "name": "Agile Opportunista",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 103"
+  },
+  {
+    "slug": "deft-strike",
+    "name": "Colpo Lesto",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "delay-spell",
+    "name": "Incantesimi Ritardati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 79"
+  },
+  {
+    "slug": "demon-mastery",
+    "name": "Padronanza dei Demoni",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 86"
+  },
+  {
+    "slug": "demonic-conduit",
+    "name": "Condotto Demoniaco",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "demonic-skin",
+    "name": "Pelle Demoniaca",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 86"
+  },
+  {
+    "slug": "demonic-sneak-attack",
+    "name": "Attacco Furtivo Demoniaco",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "destruction-retribution",
+    "name": "Castigo Distruttivo",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 26"
+  },
+  {
+    "slug": "destructive-rage",
+    "name": "Ira Distruttiva",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "devastating-critical",
+    "name": "Critico Devastante",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 69"
+  },
+  {
+    "slug": "devoted-inquisitor",
+    "name": "Inquisitore Devoto",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 108"
+  },
+  {
+    "slug": "devoted-performer",
+    "name": "Intrattenitore Devoto",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 109"
+  },
+  {
+    "slug": "devoted-tracker",
+    "name": "Segugio Devoto",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 111"
   },
   {
     "slug": "diehard",
@@ -156,13 +1012,119 @@
     "type": "Generale",
     "benefit": "Quando sei ridotto tra –1 e –9 punti ferita, diventi automaticamente stabile. Non devi tirare d% per vedere se perdi 1 punto ferita ogni round. Quando sei ridotto a punti ferita negativi, puoi scegliere di agire come se fossi disabilitato, anziché morente. Devi prendere questa decisione non appena sei ridotto a punti ferita negativi (anche se non è il tuo turno). Se non agisci, perdi comunque punti ferita come normale.",
     "normal": "Un personaggio senza questo talento che è ridotto tra –1 e –9 punti ferita è incosciente e morente.",
-    "prerequisites": "Resistenza Fisica."
+    "prerequisites": "Resistenza Fisica.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 96"
   },
   {
     "slug": "diligent",
     "name": "Diligente",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Valutare e Decifrare Scritti."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Valutare e Decifrare Scritti.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "dire-charge",
+    "name": "Carica Crudele",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 67"
+  },
+  {
+    "slug": "disciple-of-the-sun",
+    "name": "Discepolo del Sole",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 80"
+  },
+  {
+    "slug": "disease-immunity",
+    "name": "Immunità alle Malattie",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 123"
+  },
+  {
+    "slug": "disguise-spell",
+    "name": "Incantesimi Camuffati",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 108"
+  },
+  {
+    "slug": "disintegration-finesse",
+    "name": "Disintegrazione Accurata",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "disjunction-ray",
+    "name": "Raggio di Disgiunzione",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 45"
+  },
+  {
+    "slug": "dive-for-cover",
+    "name": "Tuffarsi in Copertura",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 112"
+  },
+  {
+    "slug": "diverse-background",
+    "name": "Background Eterogeneo",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 150"
+  },
+  {
+    "slug": "divine-accuracy",
+    "name": "Accuratezza Divina",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 24"
+  },
+  {
+    "slug": "divine-cleansing",
+    "name": "Purificazione Divino",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "divine-damage-reduction",
+    "name": "Riduzione del Danno Divina",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 145"
+  },
+  {
+    "slug": "divine-metamagic",
+    "name": "Metamagia Divina",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "divine-resistance",
+    "name": "Resistenza Divino",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "divine-shield",
+    "name": "Scudo Divino",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 108"
+  },
+  {
+    "slug": "divine-spell-power",
+    "name": "Potere Magico Divino",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 83"
+  },
+  {
+    "slug": "divine-spellshield",
+    "name": "Scudo Magico Divino",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 146"
+  },
+  {
+    "slug": "divine-vigor",
+    "name": "Vigore Divino",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 108"
   },
   {
     "slug": "dodge",
@@ -170,13 +1132,323 @@
     "type": "Generale",
     "benefit": "Durante la tua azione, designa un avversario e ricevi un bonus di schivare +1 alla Classe Armatura contro gli attacchi di quell'avversario. Puoi selezionare un nuovo avversario su ogni azione. Un bonus di schivare si cumula con tutti gli altri bonus di schivare che puoi avere.",
     "special": "Un guerriero può selezionare Schivare come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13."
+    "prerequisites": "Des 13.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 100"
+  },
+  {
+    "slug": "domain-focus",
+    "name": "Dominio Focalizzato",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 80"
+  },
+  {
+    "slug": "domain-spontaneity",
+    "name": "Dominio Spontaneo",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 80"
+  },
+  {
+    "slug": "draconic-archivist",
+    "name": "Archivista Draconico",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 120"
+  },
+  {
+    "slug": "draconic-breath",
+    "name": "Soffio Draconico",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 84"
+  },
+  {
+    "slug": "draconic-claw",
+    "name": "Artigli Draconici",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 73"
+  },
+  {
+    "slug": "draconic-flight",
+    "name": "Volo Draconico",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 84"
+  },
+  {
+    "slug": "draconic-heritage",
+    "name": "Eredità Draconico",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 76"
+  },
+  {
+    "slug": "draconic-knowledge",
+    "name": "Conoscenze Draconiche",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 68"
+  },
+  {
+    "slug": "draconic-legacy",
+    "name": "Retaggio Draconico",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 83"
+  },
+  {
+    "slug": "draconic-presence",
+    "name": "Presenza Draconica",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "draconic-resistance",
+    "name": "Resistenza Draconica",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 83"
+  },
+  {
+    "slug": "draconic-skin",
+    "name": "Pelle Draconica",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "dragon-cohort",
+    "name": "Gregario Draconico",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "dragon-familiar",
+    "name": "Famiglio Draconico",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "dragon-hunter-bravery",
+    "name": "Cacciatore di Draghi Coraggioso",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 104"
+  },
+  {
+    "slug": "dragon-hunter-defense",
+    "name": "Cacciatore di Draghi Difensore",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "dragon-steed",
+    "name": "Destriero Draconico",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "dragon-wild-shape",
+    "name": "Forma Selvatica Draghesca",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "dragonbane",
+    "name": "Anatema dei Draghi",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 103"
+  },
+  {
+    "slug": "dragoncrafter",
+    "name": "Artigiano Draconico",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 103"
+  },
+  {
+    "slug": "dragondoom",
+    "name": "Piaga dei Draghi",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "dragonfoe",
+    "name": "Nemico dei Draghi",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "dragonfriend",
+    "name": "Amico dei Draghi",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 103"
+  },
+  {
+    "slug": "dragonsong",
+    "name": "Canto dei Draghi",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "dragonthrall",
+    "name": "Servitore dei Draghi",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "dread-tyranny",
+    "name": "Tirannia del Terrore",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 155"
+  },
+  {
+    "slug": "dreamtelling",
+    "name": "Interpretazione dei Sogni",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 124"
+  },
+  {
+    "slug": "dual-strike",
+    "name": "Colpo Doppio",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "durable-form",
+    "name": "Forma Duratura",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 178"
+  },
+  {
+    "slug": "dwarven-armor-proficiency",
+    "name": "Competenza nelle Armature Naniche",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 141"
+  },
+  {
+    "slug": "eagle-claw-attack",
+    "name": "Artiglio dell'Aquila",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "eagles-wings",
+    "name": "Ali dell'Aquila",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 79"
+  },
+  {
+    "slug": "earth-adept",
+    "name": "Adepto della Terra",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 139"
+  },
+  {
+    "slug": "earth-fist",
+    "name": "Pugno della Terra",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 144"
+  },
+  {
+    "slug": "earth-heritage",
+    "name": "Eredità della Terra",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 40"
+  },
+  {
+    "slug": "earth-master",
+    "name": "Maestro della Terra",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
+  },
+  {
+    "slug": "earth-power",
+    "name": "Potenza della Terra",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 144"
+  },
+  {
+    "slug": "earth-sense",
+    "name": "Senso della Terra",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 146"
+  },
+  {
+    "slug": "earth-spell",
+    "name": "Incantesimi della Terra",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 142"
+  },
+  {
+    "slug": "earths-embrace",
+    "name": "Abbraccio della Terra",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "earths-warding",
+    "name": "Interdizione della Terra",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 142"
+  },
+  {
+    "slug": "eldritch-corruption",
+    "name": "Corruzione Mistica",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 121"
+  },
+  {
+    "slug": "elemental-healing",
+    "name": "Guarigione Elementale",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 80"
+  },
+  {
+    "slug": "elemental-smiting",
+    "name": "Punire Elementale",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 84"
+  },
+  {
+    "slug": "elephants-hide",
+    "name": "Pelle dell'Elefante",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 83"
+  },
+  {
+    "slug": "elusive-target",
+    "name": "Bersaglio Sfuggente",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 109"
+  },
+  {
+    "slug": "embed-spell-focus",
+    "name": "Focus Incorporato",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 69"
   },
   {
     "slug": "empower-spell",
     "name": "Incantesimi Potenziati",
     "type": "Metamagico",
-    "benefit": "Tutti gli effetti numerici variabili di un incantesimo potenziato sono aumentati della metà. I tiri salvezza e i tiri contrapposti non sono influenzati, né lo sono gli incantesimi senza variabili casuali. Un incantesimo potenziato usa uno slot incantesimo di due livelli superiore al livello effettivo dell'incantesimo."
+    "benefit": "Tutti gli effetti numerici variabili di un incantesimo potenziato sono aumentati della metà. I tiri salvezza e i tiri contrapposti non sono influenzati, né lo sono gli incantesimi senza variabili casuali. Un incantesimo potenziato usa uno slot incantesimo di due livelli superiore al livello effettivo dell'incantesimo.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "empower-spell-like-ability",
+    "name": "Capacità Magica Potenziata",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 303"
+  },
+  {
+    "slug": "empower-turning",
+    "name": "Scacciare Potenziato",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 30"
+  },
+  {
+    "slug": "empowered-ability-damage",
+    "name": "Danni alle Caratteristiche Potenzati",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 26"
+  },
+  {
+    "slug": "enchanting-song",
+    "name": "Canto Ammaliatore",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 139"
   },
   {
     "slug": "endurance",
@@ -184,19 +1456,235 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +4 alle seguenti prove e tiri salvezza: Nuotare per resistere a danni non letali da esaurimento; prove di Costituzione per continuare a correre; prove di Costituzione per evitare danni non letali da marcia forzata; prove di Costituzione per trattenere il respiro; prove di Costituzione per evitare danni da fame o sete; tiri salvezza sulla Tempra per evitare danni non letali da ambiente caldo o freddo; e tiri salvezza sulla Tempra per resistere a danni da soffocamento. Inoltre puoi dormire in armatura leggera o media senza affaticarti.",
     "normal": "Un personaggio senza questo talento che dorme in armatura media o più pesante è automaticamente affaticato il giorno successivo.",
-    "special": "Un ranger ottiene automaticamente Resistenza Fisica come talento bonus al 3° livello. Non ha bisogno di selezionarlo."
+    "special": "Un ranger ottiene automaticamente Resistenza Fisica come talento bonus al 3° livello. Non ha bisogno di selezionarlo.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "endure-blows",
+    "name": "Resistenza ai Colpi",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 71"
+  },
+  {
+    "slug": "endure-sunlight",
+    "name": "Contrastare la Luce Solare",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 26"
+  },
+  {
+    "slug": "enduring-life",
+    "name": "Vita Resistente",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 31"
+  },
+  {
+    "slug": "energize-armor",
+    "name": "Caricare Armatura",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 140"
+  },
+  {
+    "slug": "energize-spell",
+    "name": "Incantesimi Energizzati",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 27"
+  },
+  {
+    "slug": "energy-admixture",
+    "name": "Miscela Energetica",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 81"
+  },
+  {
+    "slug": "energy-substitution",
+    "name": "Sostituzione Energetica",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 84"
+  },
+  {
+    "slug": "enhance-spell",
+    "name": "Incantesimi Aumentati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 190"
+  },
+  {
+    "slug": "enhanced-power-sigils",
+    "name": "Sigilli di Potere Potenziati",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 153"
+  },
+  {
+    "slug": "enlarge-breath",
+    "name": "Soffio Ingrandito",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 72"
+  },
+  {
+    "slug": "enlarge-mucus-cloud",
+    "name": "Ingrandire Nube di Muco",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 23"
   },
   {
     "slug": "enlarge-spell",
     "name": "Incantesimi Estesi",
     "type": "Metamagico",
-    "benefit": "Puoi alterare un incantesimo con raggio corto, medio o lungo per aumentare il suo raggio del 100%. Un incantesimo esteso con raggio corto ha ora un raggio di 15 m + 1,5 m/livello, mentre gli incantesimi a raggio medio hanno un raggio di 60 m + 6 m/livello e gli incantesimi a raggio lungo hanno un raggio di 240 m + 24 m/livello. Un incantesimo esteso usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo."
+    "benefit": "Puoi alterare un incantesimo con raggio corto, medio o lungo per aumentare il suo raggio del 100%. Un incantesimo esteso con raggio corto ha ora un raggio di 15 m + 1,5 m/livello, mentre gli incantesimi a raggio medio hanno un raggio di 60 m + 6 m/livello e gli incantesimi a raggio lungo hanno un raggio di 240 m + 24 m/livello. Un incantesimo esteso usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 97"
+  },
+  {
+    "slug": "epic-combat-expertise",
+    "name": "Maestria in Combattimento Epica",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 152"
+  },
+  {
+    "slug": "epic-devotion",
+    "name": "Devozione Epica",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 90"
+  },
+  {
+    "slug": "epic-dodge",
+    "name": "Schivare Epico",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 192"
+  },
+  {
+    "slug": "epic-fortitude",
+    "name": "Tempra Epica",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 75"
+  },
+  {
+    "slug": "epic-prowess",
+    "name": "Prodezza Epica",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 153"
+  },
+  {
+    "slug": "epic-reflexes",
+    "name": "Riflessi Epici",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 71"
+  },
+  {
+    "slug": "epic-reputation",
+    "name": "Reputazione Epica",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 192"
+  },
+  {
+    "slug": "epic-skill-focus",
+    "name": "Abilità Focalizzata Epica",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 191"
+  },
+  {
+    "slug": "epic-spell-focus",
+    "name": "Incantesimi Focalizzati Epici",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 191"
+  },
+  {
+    "slug": "epic-spell-penetration",
+    "name": "Incantesimi Inarrestabili Epici",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 191"
+  },
+  {
+    "slug": "epic-sunder",
+    "name": "Spezzare Epico",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 153"
+  },
+  {
+    "slug": "epic-toughness",
+    "name": "Robustezza Epica",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 153"
+  },
+  {
+    "slug": "epic-weapon-focus",
+    "name": "Arma Focalizzata Epica",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 151"
+  },
+  {
+    "slug": "epic-will",
+    "name": "Volontà Epica",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 75"
   },
   {
     "slug": "eschew-materials",
     "name": "Escludere Materiali",
     "type": "Generale",
-    "benefit": "Puoi lanciare qualsiasi incantesimo che ha una componente materiale del costo di 1 mo o meno senza bisogno di quella componente. (Il lancio dell'incantesimo provoca comunque attacchi di opportunità come normale.) Se l'incantesimo richiede una componente materiale che costa più di 1 mo, devi avere la componente materiale a portata di mano per lanciare l'incantesimo, come normale."
+    "benefit": "Puoi lanciare qualsiasi incantesimo che ha una componente materiale del costo di 1 mo o meno senza bisogno di quella componente. (Il lancio dell'incantesimo provoca comunque attacchi di opportunità come normale.) Se l'incantesimo richiede una componente materiale che costa più di 1 mo, devi avere la componente materiale a portata di mano per lanciare l'incantesimo, come normale.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "eternal-strength",
+    "name": "Forza Eterna",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 154"
+  },
+  {
+    "slug": "evil-brand",
+    "name": "Marchio Malvagio",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 86"
+  },
+  {
+    "slug": "eviscerator",
+    "name": "Dilaniatore",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 26"
+  },
+  {
+    "slug": "exalted-companion",
+    "name": "Compagno Eroico",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 42"
+  },
+  {
+    "slug": "exalted-smite",
+    "name": "Punizione Eroica",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 45"
+  },
+  {
+    "slug": "exalted-spell-resistance",
+    "name": "Resistenza agli Incantesimi Eroica",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 46"
+  },
+  {
+    "slug": "exalted-turning",
+    "name": "Scacciare Eroico",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 46"
+  },
+  {
+    "slug": "exalted-wild-shape",
+    "name": "Forma Selvatica Eroica",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 43"
+  },
+  {
+    "slug": "exotic-armor-proficiency",
+    "name": "Competenza nelle Armature Esotiche",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 140"
+  },
+  {
+    "slug": "exotic-shield-proficiency",
+    "name": "Competenza negli Scudi Esotici",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 141"
   },
   {
     "slug": "exotic-weapon-proficiency",
@@ -205,13 +1693,101 @@
     "benefit": "Effettui i tiri per colpire con l'arma selezionata normalmente.",
     "normal": "Un personaggio che usa un'arma con cui non è competente subisce una penalità di –4 ai tiri per colpire.",
     "special": "Puoi ottenere Competenza nelle Armi Esotiche più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma esotica.",
-    "prerequisites": "Bonus di attacco base +1 (più For 13 per spada bastarda o ascia da guerra nanica)."
+    "prerequisites": "Bonus di attacco base +1 (più For 13 per spada bastarda o ascia da guerra nanica).",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 94"
+  },
+  {
+    "slug": "expert-tactician",
+    "name": "Esperto Tattico",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 107"
+  },
+  {
+    "slug": "explosive-spell",
+    "name": "Incantesimi Esplosivi",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 77"
+  },
+  {
+    "slug": "extend-rage",
+    "name": "Ira Estesa",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 102"
   },
   {
     "slug": "extend-spell",
     "name": "Incantesimi Estesi",
     "type": "Metamagico",
-    "benefit": "Un incantesimo prolungato dura il doppio del normale. Un incantesimo con durata di concentrazione, istantaneo o permanente non è influenzato da questo talento. Un incantesimo prolungato usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo."
+    "benefit": "Un incantesimo prolungato dura il doppio del normale. Un incantesimo con durata di concentrazione, istantaneo o permanente non è influenzato da questo talento. Un incantesimo prolungato usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 97"
+  },
+  {
+    "slug": "extend-spreading-breath",
+    "name": "Soffio Propagante Esteso",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 73"
+  },
+  {
+    "slug": "extra-edge",
+    "name": "Incisività Extra",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 81"
+  },
+  {
+    "slug": "extra-invocation",
+    "name": "Invocazione Extra",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 81"
+  },
+  {
+    "slug": "extra-music",
+    "name": "Musica Extra",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 111"
+  },
+  {
+    "slug": "extra-rage",
+    "name": "Ira Extra",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 103"
+  },
+  {
+    "slug": "extra-silence",
+    "name": "Silenzio Extra",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 146"
+  },
+  {
+    "slug": "extra-slot",
+    "name": "Slot Extra",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 84"
+  },
+  {
+    "slug": "extra-smiting",
+    "name": "Punire Extra",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 104"
+  },
+  {
+    "slug": "extra-spell",
+    "name": "Incantesimo Extra",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 80"
+  },
+  {
+    "slug": "extra-spell-secret",
+    "name": "Incantesimo Segreto Extra",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 81"
+  },
+  {
+    "slug": "extra-stunning",
+    "name": "Stordire Extra",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 105"
   },
   {
     "slug": "extra-turning",
@@ -220,7 +1796,57 @@
     "benefit": "Ogni volta che prendi questo talento, puoi usare la tua capacità di scacciare o intimorire creature quattro volte in più al giorno del normale. Se hai la capacità di scacciare o intimorire più di un tipo di creatura, ciascuna delle tue capacità di scacciare o intimorire ottiene quattro usi aggiuntivi al giorno.",
     "normal": "Senza questo talento, un personaggio può tipicamente scacciare o intimorire non morti (o altre creature) un numero di volte al giorno pari a 3 + il suo modificatore di Carisma.",
     "special": "Puoi ottenere Scacciare Extra più volte. I suoi effetti si cumulano. Ogni volta che prendi il talento, puoi usare ciascuna delle tue capacità di scacciare o intimorire quattro volte aggiuntive al giorno.",
-    "prerequisites": "Capacità di scacciare o intimorire creature."
+    "prerequisites": "Capacità di scacciare o intimorire creature.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 100"
+  },
+  {
+    "slug": "extra-wild-shape",
+    "name": "Forma Selvatica Extra",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 80"
+  },
+  {
+    "slug": "extract-demonic-essence",
+    "name": "Estrarre Essenza Demoniaca",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "extraordinary-concentration",
+    "name": "Concentrazione Straordinaria",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 107"
+  },
+  {
+    "slug": "extraordinary-spell-aim",
+    "name": "Incantesimi Mirati Straordinari",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 108"
+  },
+  {
+    "slug": "eyes-in-the-back-of-your-head",
+    "name": "Occhi Dietro la Testa",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 104"
+  },
+  {
+    "slug": "eyes-of-the-abyss",
+    "name": "Occhi dell'Abisso",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 86"
+  },
+  {
+    "slug": "familiar-spell",
+    "name": "Incantesimo del Famiglio",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 210"
+  },
+  {
+    "slug": "far-horizons",
+    "name": "Orizzonti Lontani",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 155"
   },
   {
     "slug": "far-shot",
@@ -228,7 +1854,45 @@
     "type": "Generale",
     "benefit": "Quando usi un'arma a proiettile, come un arco, il suo incremento di gittata aumenta della metà (moltiplicato per 1,5). Quando usi un'arma da lancio, il suo incremento di gittata è raddoppiato.",
     "special": "Un guerriero può selezionare Tiro Lontano come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Tiro Ravvicinato."
+    "prerequisites": "Tiro Ravvicinato.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 101"
+  },
+  {
+    "slug": "fast-healing",
+    "name": "Guarigione Rapida",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 70"
+  },
+  {
+    "slug": "fast-wild-shape",
+    "name": "Forma Selvatica Veloce",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 80"
+  },
+  {
+    "slug": "faster-healing",
+    "name": "Guarigione Accelerata",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "favored-of-the-companions",
+    "name": "Prescelto dei Compagni",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 45"
+  },
+  {
+    "slug": "favored-power-attack",
+    "name": "Attacco Poderoso Prescelto",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "fearless-destiny",
+    "name": "Destino Impavido",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 152"
   },
   {
     "slug": "feat-descriptions--armor-proficiency-heavy",
@@ -237,7 +1901,9 @@
     "benefit": "Vedi Competenza nelle Armature (leggere).",
     "normal": "Vedi Competenza nelle Armature (leggere).",
     "special": "Guerrieri, paladini e chierici hanno automaticamente Competenza nelle Armature (pesanti) come talento bonus. Non hanno bisogno di selezionarlo.",
-    "prerequisites": "Competenza nelle Armature (leggere), Competenza nelle Armature (medie)."
+    "prerequisites": "Competenza nelle Armature (leggere), Competenza nelle Armature (medie).",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 94"
   },
   {
     "slug": "feat-descriptions--armor-proficiency-light",
@@ -245,7 +1911,9 @@
     "type": "Generale",
     "benefit": "Quando indossi un tipo di armatura con cui sei competente, la penalità di controllo dell'armatura per quell'armatura si applica solo alle prove di Equilibrio, Scalare, Artista della Fuga, Nascondersi, Saltare, Muoversi Silenziosamente, Rapidità di Mano e Acrobazia.",
     "normal": "Un personaggio che indossa un'armatura con cui non è competente applica la sua penalità di controllo dell'armatura ai tiri per colpire e a tutte le prove di abilità che comportano movimento, incluso Cavalcare.",
-    "special": "Tutti i personaggi eccetto maghi, stregoni e monaci hanno automaticamente Competenza nelle Armature (leggere) come talento bonus. Non hanno bisogno di selezionarlo."
+    "special": "Tutti i personaggi eccetto maghi, stregoni e monaci hanno automaticamente Competenza nelle Armature (leggere) come talento bonus. Non hanno bisogno di selezionarlo.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 93"
   },
   {
     "slug": "feat-name",
@@ -255,11 +1923,211 @@
     "prerequisites": "Un punteggio di caratteristica minimo, un altro talento o talenti, un bonus di attacco base minimo, un numero minimo di gradi in una o più abilità, o un livello di classe che un personaggio deve avere per acquisire questo talento. Questa voce è assente se un talento non ha prerequisiti. Un talento può avere più di un prerequisito."
   },
   {
+    "slug": "fell-animate",
+    "name": "Animare Caduti",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 25"
+  },
+  {
+    "slug": "fell-drain",
+    "name": "Risucchiare i Caduti",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 29"
+  },
+  {
+    "slug": "fell-frighten",
+    "name": "Spaventare Caduti",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 30"
+  },
+  {
+    "slug": "fell-weaken",
+    "name": "Indebolire Caduti",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 27"
+  },
+  {
+    "slug": "fiendish-heritage",
+    "name": "Eredità Immonda",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 39"
+  },
+  {
+    "slug": "fiendish-summoning-specialist",
+    "name": "Specialista nell'Evocazione Immonda",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 42"
+  },
+  {
+    "slug": "fire-heritage",
+    "name": "Eredità del Fuoco",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 39"
+  },
+  {
+    "slug": "fist-of-the-heavens",
+    "name": "Pugno dei Cieli",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 45"
+  },
+  {
+    "slug": "fists-of-iron",
+    "name": "Pugni di Ferro",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 104"
+  },
+  {
+    "slug": "fleet-of-foot",
+    "name": "Piè Veloce",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 104"
+  },
+  {
+    "slug": "flick-of-the-wrist",
+    "name": "Colpo di Polso",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "fling-ally",
+    "name": "Scagliare Alleato",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 145"
+  },
+  {
+    "slug": "fling-enemy",
+    "name": "Scagliare Nemico",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 146"
+  },
+  {
+    "slug": "flyby-attack",
+    "name": "Attacco in Volo",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 303"
+  },
+  {
+    "slug": "flying-kick",
+    "name": "Calcio Volante",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "focused-antimagic",
+    "name": "Anti-Magia Focalizzata",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "focused-shield",
+    "name": "Scudo Focalizzato",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 146"
+  },
+  {
+    "slug": "font-of-life",
+    "name": "Fonte della Vita",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 122"
+  },
+  {
+    "slug": "forbidden-lore",
+    "name": "Conoscenze Proibite",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 122"
+  },
+  {
+    "slug": "force-of-personality",
+    "name": "Forte Personalità",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 108"
+  },
+  {
     "slug": "forge-ring",
     "name": "Forgiare Anelli",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare qualsiasi anello di cui soddisfi i prerequisiti. Creare un anello richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare un anello, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base. Puoi anche riparare un anello rotto se soddisfi i prerequisiti per crearlo.",
-    "prerequisites": "Livello dell'incantatore 12°."
+    "prerequisites": "Livello dell'incantatore 12°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "formation-expert",
+    "name": "Esperto di Formazione",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 110"
+  },
+  {
+    "slug": "fortify-spell",
+    "name": "Incantesimi Fortificati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 78"
+  },
+  {
+    "slug": "freezing-the-lifeblood",
+    "name": "Gelare il Sangue",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "frightful-presence",
+    "name": "Presenza Terrificante",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "ghost-scarred",
+    "name": "Segnato dai Fantasmi",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 30"
+  },
+  {
+    "slug": "ghostly-grasp",
+    "name": "Presa Spettrale",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
+  },
+  {
+    "slug": "giantbane",
+    "name": "Anatema dei Giganti",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 108"
+  },
+  {
+    "slug": "gift-of-faith",
+    "name": "Dono della Fede",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 43"
+  },
+  {
+    "slug": "gift-of-grace",
+    "name": "Dono della Grazia",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 43"
+  },
+  {
+    "slug": "glorious-weapons",
+    "name": "Armi Gloriose",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 79"
+  },
+  {
+    "slug": "gnome-foe-killer",
+    "name": "Uccisore dei Nemichi Gnomeschi",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 147"
+  },
+  {
+    "slug": "goad",
+    "name": "Stuzzicare",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 147"
+  },
+  {
+    "slug": "graft-flesh",
+    "name": "Innestare Carne",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 216"
   },
   {
     "slug": "great-cleave",
@@ -267,27 +2135,71 @@
     "type": "Generale",
     "benefit": "Questo talento funziona come Fendente, eccetto che non c'è limite al numero di volte che puoi usarlo per round.",
     "special": "Un guerriero può selezionare Fendente Poderoso come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "For 13, Fendente, Attacco Poderoso, bonus di attacco base +4."
+    "prerequisites": "For 13, Fendente, Attacco Poderoso, bonus di attacco base +4.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 97"
   },
   {
     "slug": "great-fortitude",
     "name": "Grande Tempra",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Tempra."
+    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Tempra.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "great-smiting",
+    "name": "Punire Possente",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 210"
+  },
+  {
+    "slug": "greater-corrupt-spell-focus",
+    "name": "Incantesimi Focalizzati Corrotti Superiore",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 124"
+  },
+  {
+    "slug": "greater-heavy-armor-optimization",
+    "name": "Ottimizzazione delle Armature Pesanti Migliorato",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
+  },
+  {
+    "slug": "greater-kiai-shout",
+    "name": "Grido Kiai Superiore",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "greater-resiliency",
+    "name": "Resilienza Superiore",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 104"
   },
   {
     "slug": "greater-spell-focus",
     "name": "Incantesimi Focalizzati Superiore",
     "type": "Generale",
     "benefit": "Aggiungi +1 alla Classe Difficoltà per tutti i tiri salvezza contro gli incantesimi della scuola di magia selezionata. Questo bonus si cumula con il bonus di Focalizzazione Magica.",
-    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia a cui hai già applicato il talento Focalizzazione Magica."
+    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia a cui hai già applicato il talento Focalizzazione Magica.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 97"
   },
   {
     "slug": "greater-spell-penetration",
     "name": "Penetrazione Magica Superiore",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura. Questo bonus si cumula con quello di Penetrazione Magica.",
-    "prerequisites": "Penetrazione Magica."
+    "prerequisites": "Penetrazione Magica.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 97"
+  },
+  {
+    "slug": "greater-two-weapon-defense",
+    "name": "Difendere con Due Armi Superiore",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 101"
   },
   {
     "slug": "greater-two-weapon-fighting",
@@ -295,7 +2207,9 @@
     "type": "Generale",
     "benefit": "Ottieni un terzo attacco con la tua arma secondaria, anche se con una penalità di –10.",
     "special": "Un guerriero può selezionare Combattere con Due Armi Superiore come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Superiore, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Des 19, Combattere con Due Armi Migliorato, Combattere con Due Armi, bonus di attacco base +11."
+    "prerequisites": "Des 19, Combattere con Due Armi Migliorato, Combattere con Due Armi, bonus di attacco base +11.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 93"
   },
   {
     "slug": "greater-weapon-focus",
@@ -303,7 +2217,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +1 a tutti i tiri per colpire effettuati usando l'arma selezionata. Questo bonus si cumula con altri bonus ai tiri per colpire, incluso quello di Focalizzazione sull'Arma.",
     "special": "Puoi ottenere Focalizzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
-    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 8°."
+    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 8°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 89"
   },
   {
     "slug": "greater-weapon-specialization",
@@ -311,13 +2227,185 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutti i tiri per i danni effettuati usando l'arma selezionata. Questo bonus si cumula con altri bonus ai tiri per i danni, incluso quello di Specializzazione sull'Arma.",
     "special": "Puoi ottenere Specializzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
-    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma Superiore con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, Specializzazione sull'Arma con l'arma selezionata, livello da guerriero 12°."
+    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma Superiore con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, Specializzazione sull'Arma con l'arma selezionata, livello da guerriero 12°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 92"
+  },
+  {
+    "slug": "green-ear",
+    "name": "Orecchio Verde",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 111"
+  },
+  {
+    "slug": "grell-alchemy",
+    "name": "Alchimia Grell",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 114"
+  },
+  {
+    "slug": "grizzlys-claws",
+    "name": "Artigli del Grizzly",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 79"
+  },
+  {
+    "slug": "group-inspiration",
+    "name": "Ispirazione di Gruppo",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 192"
+  },
+  {
+    "slug": "guardian-spirit",
+    "name": "Spirito Guardiano",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 84"
+  },
+  {
+    "slug": "hammers-edge",
+    "name": "Filo del Martello",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 113"
+  },
+  {
+    "slug": "hamstring",
+    "name": "Azzoppare",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 97"
+  },
+  {
+    "slug": "hands-of-a-healer",
+    "name": "Mani di Guaritore",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "hardened-flesh",
+    "name": "Pelle Indurita",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
+  },
+  {
+    "slug": "haunting-melody",
+    "name": "Melodia Inquietante",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 125"
+  },
+  {
+    "slug": "hawks-vision",
+    "name": "Visione del Falco",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 114"
+  },
+  {
+    "slug": "hear-the-unseen",
+    "name": "Sentire l'Invisibile",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 111"
+  },
+  {
+    "slug": "heart-of-the-nabassu",
+    "name": "Cuore di Nabassu",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "heavy-armor-optimization",
+    "name": "Ottimizzazione delle Armature Pesanti",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 144"
+  },
+  {
+    "slug": "heavy-lithoderms",
+    "name": "Litodermi Pesanti",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
+  },
+  {
+    "slug": "heighten-breath",
+    "name": "Soffio Intensificato",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 73"
   },
   {
     "slug": "heighten-spell",
     "name": "Incantesimi Intensificati",
     "type": "Metamagico",
-    "benefit": "Un incantesimo intensificato ha un livello dell'incantesimo più alto del normale (fino a un massimo di 9° livello). A differenza di altri talenti metamagici, Incantesimi Intensificati aumenta effettivamente il livello dell'incantesimo che modifica. Tutti gli effetti dipendenti dal livello dell'incantesimo (come le CD dei tiri salvezza e la capacità di penetrare un <i>globo di invulnerabilità inferiore</i>) sono calcolati in base al livello intensificato."
+    "benefit": "Un incantesimo intensificato ha un livello dell'incantesimo più alto del normale (fino a un massimo di 9° livello). A differenza di altri talenti metamagici, Incantesimi Intensificati aumenta effettivamente il livello dell'incantesimo che modifica. Tutti gli effetti dipendenti dal livello dell'incantesimo (come le CD dei tiri salvezza e la capacità di penetrare un <i>globo di invulnerabilità inferiore</i>) sono calcolati in base al livello intensificato.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 97"
+  },
+  {
+    "slug": "heighten-spell-like-ability",
+    "name": "Capacità Magica Intensificata",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 73"
+  },
+  {
+    "slug": "heighten-turning",
+    "name": "Scacciare Intensificato",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 30"
+  },
+  {
+    "slug": "heroic-destiny",
+    "name": "Destino Eroico",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 152"
+  },
+  {
+    "slug": "high-sword-low-axe",
+    "name": "Spada ed Ascia Armonizzate",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 114"
+  },
+  {
+    "slug": "hold-the-line",
+    "name": "Resistere alla Carica",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 104"
+  },
+  {
+    "slug": "holy-ki-strike",
+    "name": "Colpo Ki Sacro",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 42"
+  },
+  {
+    "slug": "holy-radiance",
+    "name": "Radiosità Sacra",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 45"
+  },
+  {
+    "slug": "holy-strike",
+    "name": "Colpo Sacro",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 89"
+  },
+  {
+    "slug": "holy-subdual",
+    "name": "Debilitazione Sacra",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 43"
+  },
+  {
+    "slug": "hover",
+    "name": "Fluttuare",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 304"
+  },
+  {
+    "slug": "human-heritage",
+    "name": "Retaggio Umano",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 152"
+  },
+  {
+    "slug": "improved-buckler-defense",
+    "name": "Difendere con il Buckler Migliorato",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 100"
   },
   {
     "slug": "improved-bull-rush",
@@ -325,14 +2413,30 @@
     "type": "Generale",
     "benefit": "Quando effettui uno spingere, non provochi un attacco di opportunità dal difensore. Ottieni anche un bonus di +4 alla prova di Forza per spingere.",
     "special": "Un guerriero può selezionare Spingere Migliorato come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "For 13, Attacco Poderoso."
+    "prerequisites": "For 13, Attacco Poderoso.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 101"
+  },
+  {
+    "slug": "improved-combat-casting",
+    "name": "Incantatore in Combattimento Migliorato",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 190"
+  },
+  {
+    "slug": "improved-combat-expertise",
+    "name": "Maestria in Combattimento Migliorata",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 103"
   },
   {
     "slug": "improved-counterspell",
     "name": "Controincantesimo Migliorato",
     "type": "Generale",
     "benefit": "Quando controincanti, puoi usare un incantesimo della stessa scuola che sia di uno o più livelli superiore all'incantesimo bersaglio.",
-    "normal": "Senza questo talento, puoi controincantare un incantesimo solo con lo stesso incantesimo o con un incantesimo specificamente designato come contromisura dell'incantesimo bersaglio."
+    "normal": "Senza questo talento, puoi controincantare un incantesimo solo con lo stesso incantesimo o con un incantesimo specificamente designato come contromisura dell'incantesimo bersaglio.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 94"
   },
   {
     "slug": "improved-critical",
@@ -340,7 +2444,9 @@
     "type": "Generale",
     "benefit": "Quando usi l'arma selezionata, il suo intervallo di minaccia di critico è raddoppiato.",
     "special": "Puoi ottenere Critico Migliorato più volte. Gli effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Questo effetto non si cumula con nessun altro effetto che espande l'intervallo di minaccia di un'arma.",
-    "prerequisites": "Competenza con l'arma, bonus di attacco base +8."
+    "prerequisites": "Competenza con l'arma, bonus di attacco base +8.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 95"
   },
   {
     "slug": "improved-disarm",
@@ -349,14 +2455,42 @@
     "benefit": "Non provochi un attacco di opportunità quando tenti di disarmare un avversario, né l'avversario ha la possibilità di disarmarti. Ottieni anche un bonus di +4 alla prova di attacco per disarmare il tuo avversario.",
     "normal": "Senza questo talento, tentare di disarmare provoca un attacco di opportunità.",
     "special": "Un guerriero può selezionare Disarmare Migliorato come uno dei suoi talenti bonus da guerriero. Un monaco può selezionare Disarmare Migliorato come talento bonus al 6° livello, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Int 13, Competenza in Combattimento."
+    "prerequisites": "Int 13, Competenza in Combattimento.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "improved-diversion",
+    "name": "Diversivo Migliorato",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 107"
+  },
+  {
+    "slug": "improved-elemental-wild-shape",
+    "name": "Forma Selvatica Elementale Migliorata",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 210"
+  },
+  {
+    "slug": "improved-energy-drain",
+    "name": "Risucchio di Energia Migliorato",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 30"
   },
   {
     "slug": "improved-familiar",
     "name": "Famiglio Migliorato",
     "type": "Generale",
     "benefit": "Quando scegli un famiglio, le creature elencate di seguito sono disponibili anche per l'incantatore. L'incantatore può scegliere un famiglio con un allineamento fino a un passo di distanza su ciascuno degli assi di allineamento (da legale a caotico, da buono a malvagio).",
-    "prerequisites": "Capacità di acquisire un nuovo famiglio, allineamento compatibile, livello sufficientemente alto (vedi sotto)."
+    "prerequisites": "Capacità di acquisire un nuovo famiglio, allineamento compatibile, livello sufficientemente alto (vedi sotto).",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 200"
+  },
+  {
+    "slug": "improved-favored-enemy",
+    "name": "Nemico Prescelto Migliorato",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 104"
   },
   {
     "slug": "improved-feint",
@@ -364,7 +2498,15 @@
     "type": "Generale",
     "benefit": "Puoi effettuare una prova di Raggirare per fintare in combattimento come azione di movimento.",
     "normal": "Fintare in combattimento è un'azione standard.",
-    "prerequisites": "Int 13, Competenza in Combattimento."
+    "prerequisites": "Int 13, Competenza in Combattimento.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "improved-flight",
+    "name": "Volare Migliorato",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 112"
   },
   {
     "slug": "improved-grapple",
@@ -373,14 +2515,60 @@
     "benefit": "Non provochi un attacco di opportunità quando effettui un attacco di contatto per iniziare una lotta. Ottieni anche un bonus di +4 a tutte le prove di lotta, indipendentemente dal fatto che tu abbia iniziato la lotta o meno.",
     "normal": "Senza questo talento, effettuare una lotta provoca un attacco di opportunità.",
     "special": "Un guerriero può selezionare Lotta Migliorata come uno dei suoi talenti bonus da guerriero. Un monaco può selezionare Lotta Migliorata come talento bonus al 1° livello, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Des 13, Colpo Senz'Armi Migliorato."
+    "prerequisites": "Des 13, Colpo Senz'Armi Migliorato.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
   },
   {
     "slug": "improved-initiative",
     "name": "Iniziativa Migliorata",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +4 alle prove di iniziativa.",
-    "special": "Un guerriero può selezionare Iniziativa Migliorata come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Iniziativa Migliorata come uno dei suoi talenti bonus da guerriero.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "improved-maneuverability",
+    "name": "Manovrabilità Migliorata",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 70"
+  },
+  {
+    "slug": "improved-metamagic",
+    "name": "Metamagia Migliorata",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 210"
+  },
+  {
+    "slug": "improved-mounted-archery",
+    "name": "Tirare in Sella Migliorato",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "improved-multiattack",
+    "name": "Multiattacco Migliorato",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 70"
+  },
+  {
+    "slug": "improved-natural-armor",
+    "name": "Armatura Naturale Migliorata",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 303"
+  },
+  {
+    "slug": "improved-natural-attack",
+    "name": "Attacco Naturale Migliorato",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 303"
+  },
+  {
+    "slug": "improved-oneiromancy",
+    "name": "Oneiromanzia Superiore",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 125"
   },
   {
     "slug": "improved-overrun",
@@ -389,7 +2577,15 @@
     "benefit": "Quando tenti di travolgere un avversario, il bersaglio non può scegliere di evitarti. Ottieni anche un bonus di +4 alla prova di Forza per abbattere il tuo avversario.",
     "normal": "Senza questo talento, il bersaglio di un travolgimento può scegliere di farsi da parte.",
     "special": "Un guerriero può selezionare Travolgere Migliorato come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "For 13, Attacco Poderoso."
+    "prerequisites": "For 13, Attacco Poderoso.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "improved-paralysis",
+    "name": "Paralisi Migliorata",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
   },
   {
     "slug": "improved-precise-shot",
@@ -398,7 +2594,27 @@
     "benefit": "I tuoi attacchi a distanza ignorano il bonus alla CA garantito ai bersagli da qualsiasi cosa che non sia copertura totale, e la probabilità di mancamento garantita ai bersagli da qualsiasi cosa che non sia occultamento totale. Copertura totale e occultamento totale forniscono i loro normali benefici contro i tuoi attacchi a distanza. Inoltre, quando spari o lanci un'arma a distanza contro un bersaglio impegnato in lotta, non devi tirare casualmente per vedere quale partecipante alla lotta è colpito.",
     "special": "Un guerriero può selezionare Tiro Preciso Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con arco è considerato come se avesse Tiro Preciso Migliorato, anche se non ne soddisfa i prerequisiti.",
     "prerequisites": "Des 19, Tiro Ravvicinato, Tiro Preciso, bonus di attacco base +11.",
-    "normal": "Vedi le regole normali sugli effetti di copertura e occultamento. Senza questo talento, un personaggio che spara o lancia un'arma a distanza contro un bersaglio impegnato in lotta deve tirare casualmente per vedere quale partecipante alla lotta è colpito."
+    "normal": "Vedi le regole normali sugli effetti di copertura e occultamento. Senza questo talento, un personaggio che spara o lancia un'arma a distanza contro un bersaglio impegnato in lotta deve tirare casualmente per vedere quale partecipante alla lotta è colpito.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "improved-rapid-shot",
+    "name": "Tiro Rapido Migliorato",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "improved-rapidstrike",
+    "name": "Colpo Rapido Migliorato",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 67"
+  },
+  {
+    "slug": "improved-rock-hurling",
+    "name": "Scagliare Rocce Migliorato",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 146"
   },
   {
     "slug": "improved-shield-bash",
@@ -407,7 +2623,93 @@
     "benefit": "Quando effettui un colpo con lo scudo, puoi comunque applicare il bonus dello scudo alla CA.",
     "normal": "Senza questo talento, un personaggio che effettua un colpo con lo scudo perde il bonus dello scudo alla CA fino alla sua prossima azione.",
     "special": "Un guerriero può selezionare Colpo con lo Scudo Migliorato come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Competenza negli Scudi."
+    "prerequisites": "Competenza negli Scudi.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 92"
+  },
+  {
+    "slug": "improved-sigil-aesh",
+    "name": "Sigillo Migliorato (Aesh)",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 153"
+  },
+  {
+    "slug": "improved-sigil-hoon",
+    "name": "Sigillo Migliorato (Hoon)",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 153"
+  },
+  {
+    "slug": "improved-sigil-krau",
+    "name": "Sigillo Migliorato (Krau)",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 154"
+  },
+  {
+    "slug": "improved-sigil-naen",
+    "name": "Sigillo Migliorato (Naen)",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 154"
+  },
+  {
+    "slug": "improved-sigil-uur",
+    "name": "Sigillo Migliorato (Uur)",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 154"
+  },
+  {
+    "slug": "improved-sigil-vaul",
+    "name": "Sigillo Migliorato (Vaul)",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 154"
+  },
+  {
+    "slug": "improved-skirmish",
+    "name": "Schermaglia Migliorata",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 192"
+  },
+  {
+    "slug": "improved-smiting",
+    "name": "Punire Migliorato",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 83"
+  },
+  {
+    "slug": "improved-snatch",
+    "name": "Ghermire Migliorato",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 70"
+  },
+  {
+    "slug": "improved-sneak-attack",
+    "name": "Attacco Furtivo Migliorato",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 209"
+  },
+  {
+    "slug": "improved-speed",
+    "name": "Velocità Migliorata",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 75"
+  },
+  {
+    "slug": "improved-spell-capacity",
+    "name": "Capienza di Incantesimi Migliorata",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 67"
+  },
+  {
+    "slug": "improved-stunning-fist",
+    "name": "Pugno Stordente Migliorato",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 210"
+  },
+  {
+    "slug": "improved-sudden-strike",
+    "name": "Colpo Improvviso Migliorato",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 192"
   },
   {
     "slug": "improved-sunder",
@@ -416,7 +2718,21 @@
     "benefit": "Quando colpisci un oggetto tenuto o indossato con un attacco per distruggere, non provochi un attacco di opportunità. Ottieni anche un bonus di +4 alla prova di attacco per distruggere.",
     "normal": "Senza questo talento, tentare di distruggere un oggetto provoca un attacco di opportunità.",
     "special": "Un guerriero può selezionare Distruggere Migliorato come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "For 13, Attacco Poderoso."
+    "prerequisites": "For 13, Attacco Poderoso.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 101"
+  },
+  {
+    "slug": "improved-swimming",
+    "name": "Nuotare Migliorato",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 111"
+  },
+  {
+    "slug": "improved-toughness",
+    "name": "Robustezza Migliorata",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 30"
   },
   {
     "slug": "improved-trip",
@@ -425,14 +2741,30 @@
     "benefit": "Non provochi un attacco di opportunità quando tenti di sgambettare un avversario mentre sei in mischia. Ottieni anche un bonus di +4 alla prova di Forza per sgambettare. Se sgambetti con successo un avversario, ottieni immediatamente un attacco in mischia contro quell'avversario come se non avessi usato il tuo attacco per lo sgambetto.",
     "normal": "Senza questo talento, tentare uno sgambetto provoca un attacco di opportunità.",
     "special": "Al 6° livello, un monaco può selezionare Sgambetto Migliorato come talento bonus, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Int 13, Competenza in Combattimento."
+    "prerequisites": "Int 13, Competenza in Combattimento.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 100"
+  },
+  {
+    "slug": "improved-turn-resistance",
+    "name": "Resistenza allo Scacciare Migliorata",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 29"
   },
   {
     "slug": "improved-turning",
     "name": "Scacciare Migliorato",
     "type": "Generale",
     "benefit": "Aggiungi un bonus di +1 al tuo livello di scacciare quando fai una prova di scacciare per determinare il Dado Vita massimo della creatura non morta che puoi influenzare.",
-    "prerequisites": "Capacità di scacciare o intimorire creature."
+    "prerequisites": "Capacità di scacciare o intimorire creature.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 100"
+  },
+  {
+    "slug": "improved-two-weapon-defense",
+    "name": "Difendere con Due Armi Migliorato",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 100"
   },
   {
     "slug": "improved-two-weapon-fighting",
@@ -441,7 +2773,9 @@
     "benefit": "Oltre al normale attacco extra con un'arma secondaria, ottieni un secondo attacco con essa, anche se con una penalità di –5.",
     "normal": "Senza questo talento, puoi ottenere solo un singolo attacco extra con un'arma secondaria.",
     "special": "Un guerriero può selezionare Combattere con Due Armi Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 6° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Migliorato, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Des 17, Combattere con Due Armi, bonus di attacco base +6."
+    "prerequisites": "Des 17, Combattere con Due Armi, bonus di attacco base +6.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 93"
   },
   {
     "slug": "improved-unarmed-strike",
@@ -449,38 +2783,302 @@
     "type": "Generale",
     "benefit": "Sei considerato armato anche quando sei disarmato—cioè, non provochi attacchi di opportunità da avversari armati quando li attacchi disarmato. Tuttavia, provochi ancora attacchi di opportunità come normale se effettui un attacco disarmato quando minacciato da un avversario che non stai attaccando.",
     "normal": "Senza questo talento, sei considerato disarmato quando attacchi con un colpo senz'armi e provochi un attacco di opportunità da avversari armati.",
-    "special": "Un monaco ottiene automaticamente Colpo Senz'Armi Migliorato come talento bonus al 1° livello. Non ha bisogno di selezionarlo."
+    "special": "Un monaco ottiene automaticamente Colpo Senz'Armi Migliorato come talento bonus al 1° livello. Non ha bisogno di selezionarlo.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 93"
+  },
+  {
+    "slug": "improved-weapon-familiarity",
+    "name": "Familiarità nelle Armi Migliorata",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 141"
+  },
+  {
+    "slug": "inhuman-reach",
+    "name": "Portata Inumana",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 179"
+  },
+  {
+    "slug": "inhuman-vision",
+    "name": "Visione Inumana",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 182"
+  },
+  {
+    "slug": "innate-spell",
+    "name": "Incantesimo Innato",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 80"
+  },
+  {
+    "slug": "inside-connection",
+    "name": "Amicizie Interne",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 150"
+  },
+  {
+    "slug": "insightful",
+    "name": "Intuitivo",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 81"
+  },
+  {
+    "slug": "insightful-reflexes",
+    "name": "Riflessi Intuitivi",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 111"
+  },
+  {
+    "slug": "inspire-spellpower",
+    "name": "Ispirare Potenza degli Incantesimi",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
+  },
+  {
+    "slug": "instantaneous-rage",
+    "name": "Ira Istantanea",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 103"
+  },
+  {
+    "slug": "intimidating-rage",
+    "name": "Ira Intimidatoria",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 103"
+  },
+  {
+    "slug": "intuitive-attack",
+    "name": "Attacco Intuitivo",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 41"
+  },
+  {
+    "slug": "invest-armor",
+    "name": "Avvolgere Armatura",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 139"
   },
   {
     "slug": "investigator",
     "name": "Investigatore",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Raccogliere Informazioni e Cercare."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Raccogliere Informazioni e Cercare.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
   },
   {
     "slug": "iron-will",
     "name": "Volontà di Ferro",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Volontà."
+    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Volontà.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "ironskin-chant",
+    "name": "Canto della Pelle di Ferro",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 113"
+  },
+  {
+    "slug": "jack-of-all-trades",
+    "name": "Factotum",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 108"
+  },
+  {
+    "slug": "karmic-strike",
+    "name": "Colpo Karmico",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "keeper-of-forbidden-lore",
+    "name": "Custode di Conoscenze Proibite",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "kiai-shout",
+    "name": "Grido Kiai",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "knight-of-stars",
+    "name": "Cavaliere delle Stelle",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 42"
+  },
+  {
+    "slug": "knockback",
+    "name": "Abbattere",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 138"
+  },
+  {
+    "slug": "large-and-in-charge",
+    "name": "Grosso e al Comando",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 70"
+  },
+  {
+    "slug": "lasting-inspiration",
+    "name": "Ispirazione Duratura",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 210"
+  },
+  {
+    "slug": "lasting-life",
+    "name": "Vita Perdurante",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 31"
+  },
+  {
+    "slug": "law-inviolate",
+    "name": "Legge Inviolata",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 155"
   },
   {
     "slug": "leadership",
     "name": "Autorità",
     "type": "Generale",
     "benefit": "Avere questo talento consente al personaggio di attrarre compagni leali e seguaci devoti, subordinati che lo assistono. Il personaggio può reclutare un coorteo e un certo numero di seguaci in base al suo punteggio di Autorità.",
-    "prerequisites": "Livello del personaggio 6°."
+    "prerequisites": "Livello del personaggio 6°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 92"
+  },
+  {
+    "slug": "leap-attack",
+    "name": "Attacco in Salto",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "legendary-acrobat",
+    "name": "Acrobata Leggendario",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 191"
+  },
+  {
+    "slug": "legendary-climber",
+    "name": "Scalatore Leggendario",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 192"
+  },
+  {
+    "slug": "legendary-leaper",
+    "name": "Saltatore Leggendario",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 192"
+  },
+  {
+    "slug": "legendary-rider",
+    "name": "Cavalcatore Leggendario",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 151"
+  },
+  {
+    "slug": "legendary-tracker",
+    "name": "Segugio Leggendario",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 192"
+  },
+  {
+    "slug": "life-drain",
+    "name": "Risucchiare Vita",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 29"
+  },
+  {
+    "slug": "lifebond",
+    "name": "Legame Vitale",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 27"
+  },
+  {
+    "slug": "lifesense",
+    "name": "Percepire Vita",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
+  },
+  {
+    "slug": "lightning-mace",
+    "name": "Mazza Fulminea",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 114"
   },
   {
     "slug": "lightning-reflexes",
     "name": "Riflessi Fulminei",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sui Riflessi."
+    "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sui Riflessi.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 100"
+  },
+  {
+    "slug": "lingering-breath",
+    "name": "Soffio Persistente",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 72"
+  },
+  {
+    "slug": "lingering-song",
+    "name": "Canto Persistente",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "lions-pounce",
+    "name": "Balzo del Leone",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 79"
+  },
+  {
+    "slug": "lord-of-the-uttercold",
+    "name": "Signore del Freddo Estremo",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 83"
+  },
+  {
+    "slug": "lunatic-insight",
+    "name": "Cognizione Lunatica",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 121"
+  },
+  {
+    "slug": "lyric-spell",
+    "name": "Incantesimi Lirici",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 113"
+  },
+  {
+    "slug": "mad-faith",
+    "name": "Fede Folle",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 122"
+  },
+  {
+    "slug": "mage-slayer",
+    "name": "Uccisore di Maghi",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 84"
   },
   {
     "slug": "magical-aptitude",
     "name": "Attitudine Magica",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Conoscenze Magiche e Utilizzare Oggetti Magici."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Conoscenze Magiche e Utilizzare Oggetti Magici.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "magical-beast-wild-shape",
+    "name": "Forma Selvatica Bestia Magica",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 90"
   },
   {
     "slug": "manyshot",
@@ -488,7 +3086,39 @@
     "type": "Generale",
     "benefit": "Come azione standard, puoi tirare due frecce contro un singolo avversario entro 9 metri. Entrambe le frecce usano lo stesso tiro per colpire (con una penalità di –4) per determinare il successo e infliggono danni normalmente. Per ogni cinque punti di bonus di attacco base che hai sopra +6, puoi aggiungere una freccia aggiuntiva al tiro, fino a un massimo di quattro frecce (con un bonus di attacco base di +16 o superiore).",
     "special": "Indipendentemente dal numero di frecce che tiri, applichi i danni basati sulla precisione solo una volta. Se ottieni un colpo critico, solo la prima freccia tirata infligge danni critici; tutte le altre infliggono danni normali.",
-    "prerequisites": "Des 17, Tiro Ravvicinato, Tiro Rapido, bonus di attacco base +6."
+    "prerequisites": "Des 17, Tiro Ravvicinato, Tiro Rapido, bonus di attacco base +6.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 101"
+  },
+  {
+    "slug": "markings-of-the-blessed",
+    "name": "Macula del Benedetto",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
+  },
+  {
+    "slug": "markings-of-the-hunter",
+    "name": "Macula del Cacciatore",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
+  },
+  {
+    "slug": "markings-of-the-magi",
+    "name": "Macula del Mago",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
+  },
+  {
+    "slug": "markings-of-the-maker",
+    "name": "Macula del Creatore",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
+  },
+  {
+    "slug": "markings-of-the-warrior",
+    "name": "Macula del Guerriero",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
   },
   {
     "slug": "martial-weapon-proficiency",
@@ -496,13 +3126,89 @@
     "type": "Generale",
     "benefit": "Effettui i tiri per colpire con l'arma selezionata normalmente.",
     "normal": "Quando usi un'arma con cui non sei competente, subisci una penalità di –4 ai tiri per colpire.",
-    "special": "Barbari, guerrieri, paladini e ranger sono competenti con tutte le armi da guerra. Non hanno bisogno di selezionare questo talento. Puoi ottenere Competenza nelle Armi da Guerra più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma da guerra."
+    "special": "Barbari, guerrieri, paladini e ranger sono competenti con tutte le armi da guerra. Non hanno bisogno di selezionare questo talento. Puoi ottenere Competenza nelle Armi da Guerra più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma da guerra.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 94"
+  },
+  {
+    "slug": "master-of-knowledge",
+    "name": "Maestro di Conoscenze",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 125"
+  },
+  {
+    "slug": "master-staff",
+    "name": "Padronanza dei Bastoni",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 192"
+  },
+  {
+    "slug": "master-wand",
+    "name": "Padronanza delle Bacchette",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 192"
+  },
+  {
+    "slug": "maximize-breath",
+    "name": "Soffio Massimizzato",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 73"
   },
   {
     "slug": "maximize-spell",
     "name": "Incantesimi Massimizzati",
     "type": "Metamagico",
-    "benefit": "Tutti gli effetti numerici variabili di un incantesimo modificato da questo talento sono massimizzati. I tiri salvezza e i tiri contrapposti non sono influenzati, né lo sono gli incantesimi senza variabili casuali. Un incantesimo massimizzato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo."
+    "benefit": "Tutti gli effetti numerici variabili di un incantesimo modificato da questo talento sono massimizzati. I tiri salvezza e i tiri contrapposti non sono influenzati, né lo sono gli incantesimi senza variabili casuali. Un incantesimo massimizzato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 97"
+  },
+  {
+    "slug": "maximize-spell-like-ability",
+    "name": "Capacità Magica Massimizzata",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 75"
+  },
+  {
+    "slug": "memory-eater",
+    "name": "Divoratore di Ricordi",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 22"
+  },
+  {
+    "slug": "menacing-demeanor",
+    "name": "Condotta Minacciosa",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 152"
+  },
+  {
+    "slug": "metamagic-song",
+    "name": "Canto Metamagico",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 139"
+  },
+  {
+    "slug": "metaray",
+    "name": "Metaraggio",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 45"
+  },
+  {
+    "slug": "mindsight",
+    "name": "Vista Mentale",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 126"
+  },
+  {
+    "slug": "misleading-song",
+    "name": "Canto Ingannatore",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 139"
+  },
+  {
+    "slug": "mobile-spell-casting",
+    "name": "Incantatore Mobile",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 108"
   },
   {
     "slug": "mobility",
@@ -510,7 +3216,33 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di schivare +4 alla Classe Armatura contro attacchi di opportunità causati dal muoversi fuori da o dentro un'area minacciata. Un bonus di schivare di questo tipo non si applica se perdi il tuo bonus di Destrezza alla CA.",
     "special": "Un guerriero può selezionare Mobilità come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13, Schivare."
+    "prerequisites": "Des 13, Schivare.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "monkey-grip",
+    "name": "Presa della Scimmia",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 104"
+  },
+  {
+    "slug": "moradins-smile",
+    "name": "Sorriso di Moradin",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 146"
+  },
+  {
+    "slug": "mother-cyst",
+    "name": "Castigo Distruttivo",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 26"
+  },
+  {
+    "slug": "mountain-warrior",
+    "name": "Guerriero di Montagna",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 142"
   },
   {
     "slug": "mounted-archery",
@@ -518,7 +3250,9 @@
     "type": "Generale",
     "benefit": "La penalità che subisci quando usi un'arma a distanza mentre sei in sella è dimezzata: –2 invece di –4 se la cavalcatura compie un doppio movimento, e –4 invece di –8 se la cavalcatura corre.",
     "special": "Un guerriero può selezionare Tiro in Sella come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella."
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 101"
   },
   {
     "slug": "mounted-combat",
@@ -526,39 +3260,381 @@
     "type": "Generale",
     "benefit": "Una volta per round quando la tua cavalcatura è colpita in combattimento, puoi tentare una prova di Cavalcare (come reazione) per negare il colpo. La prova di Cavalcare sostituisce la CA della cavalcatura. Se il risultato della tua prova di Cavalcare è maggiore del tiro per colpire, il colpo manca.",
     "special": "Un guerriero può selezionare Combattere in Sella come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Cavalcare 1 grado."
+    "prerequisites": "Cavalcare 1 grado.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 93"
+  },
+  {
+    "slug": "multiattack",
+    "name": "Multiattacco",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 304"
+  },
+  {
+    "slug": "multisnatch",
+    "name": "Ghermire Multiplo",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 70"
+  },
+  {
+    "slug": "multiweapon-fighting",
+    "name": "Combattere con Più Armi",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 304"
+  },
+  {
+    "slug": "music-of-the-outer-spheres",
+    "name": "Musica delle Sfere Esterne",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 179"
+  },
+  {
+    "slug": "natural-bond",
+    "name": "Legame Naturale",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 110"
+  },
+  {
+    "slug": "natural-heavyweight",
+    "name": "Pesantezza Naturale",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 41"
   },
   {
     "slug": "natural-spell",
     "name": "Incantesimi Naturali",
     "type": "Generale",
     "benefit": "Puoi completare le componenti verbali e somatiche degli incantesimi mentre sei in forma selvatica. Puoi anche usare qualsiasi focus materiale o focus divino che porti incorporato nella tua forma selvatica.",
-    "prerequisites": "Sag 13, capacità forma selvatica."
+    "prerequisites": "Sag 13, capacità forma selvatica.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "natural-trickster",
+    "name": "Mistificatore Naturale",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 144"
+  },
+  {
+    "slug": "necromantic-might",
+    "name": "Potenza Necromantica",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
+  },
+  {
+    "slug": "necromantic-presence",
+    "name": "Presenza Necromantica",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
+  },
+  {
+    "slug": "necropolis-born",
+    "name": "Nato nella Necropoli",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 81"
+  },
+  {
+    "slug": "necropotent",
+    "name": "Necropotenza",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
+  },
+  {
+    "slug": "necrotic-reserve",
+    "name": "Riserva Necrotica",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 29"
+  },
+  {
+    "slug": "negative-energy-burst",
+    "name": "Esplosione di Energia Negativa",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 90"
   },
   {
     "slug": "negotiator",
     "name": "Negoziatore",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Diplomazia e Percepire Intenzioni."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Diplomazia e Percepire Intenzioni.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "nemesis",
+    "name": "Nemesi",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "neraph-charge",
+    "name": "Carica Neraph",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 38"
+  },
+  {
+    "slug": "neraph-throw",
+    "name": "Lancio Neraph",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 41"
+  },
+  {
+    "slug": "net-and-trident",
+    "name": "Rete e Tridente",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 114"
+  },
+  {
+    "slug": "night-haunt",
+    "name": "Ossessione Notturna",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "nimble-bones",
+    "name": "Ossa Agili",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
   },
   {
     "slug": "nimble-fingers",
     "name": "Dita Sottili",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Disattivare Congegni e Scassinare Serrature."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Disattivare Congegni e Scassinare Serrature.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "nonlethal-substitution",
+    "name": "Sostituzione Non Letale",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 46"
+  },
+  {
+    "slug": "nonverbal-spell",
+    "name": "Incantesimi Non Verbali",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 41"
+  },
+  {
+    "slug": "nymphs-kiss",
+    "name": "Bacio della Ninfa",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 41"
+  },
+  {
+    "slug": "oaken-resilience",
+    "name": "Resilienza della Quercia",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 84"
+  },
+  {
+    "slug": "obscure-lore",
+    "name": "Conoscenza Oscura",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 107"
+  },
+  {
+    "slug": "obtain-familiar",
+    "name": "Ottenere Famiglio",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "ocular-spell",
+    "name": "Incantesimi Oculari",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 178"
+  },
+  {
+    "slug": "oneiromancy",
+    "name": "Oneiromanzia",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 125"
+  },
+  {
+    "slug": "open-minded",
+    "name": "Mente Aperta",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 110"
+  },
+  {
+    "slug": "ordered-chaos",
+    "name": "Caos Ordinato",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "otherworldly-countenance",
+    "name": "Portamento Ultraterreno",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 87"
+  },
+  {
+    "slug": "overcome-weakness",
+    "name": "Oltrepassare Punto Debole",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 70"
+  },
+  {
+    "slug": "overhead-thrust",
+    "name": "Fendente Diretto",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "oversized-two-weapon-fighting",
+    "name": "Combattere con Due Armi Sovrabbondanti",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 107"
+  },
+  {
+    "slug": "overwhelming-critical",
+    "name": "Critico Soverchiante",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 69"
+  },
+  {
+    "slug": "pain-touch",
+    "name": "Tocco del Dolore",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "parrying-shield",
+    "name": "Scudo da Parata",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 180"
+  },
+  {
+    "slug": "perfect-two-weapon-fighting",
+    "name": "Combattere con Due Armi Perfetto",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 151"
+  },
+  {
+    "slug": "persistent-spell",
+    "name": "Incantesimi Persistenti",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 78"
+  },
+  {
+    "slug": "personal-touchstone",
+    "name": "Piattaforma Personale",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 41"
   },
   {
     "slug": "persuasive",
     "name": "Persuasivo",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Raggirare e Intimidire."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Raggirare e Intimidire.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "phalanx-fighting",
+    "name": "Combattimento in Falange",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 100"
+  },
+  {
+    "slug": "pierce-magical-concealment",
+    "name": "Penetrare Occultamento Magico",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "pierce-magical-protection",
+    "name": "Penetrare Protezione Magica",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "pierce-the-darkness",
+    "name": "Perforare l'Oscurità",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 144"
+  },
+  {
+    "slug": "piercing-sight",
+    "name": "Vista Penetrante",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 147"
+  },
+  {
+    "slug": "pin-shield",
+    "name": "Bloccare Scudo",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "pious-defense",
+    "name": "Difesa Pia",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "pious-soul",
+    "name": "Anima Pia",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "pious-spellsurge",
+    "name": "Impeto Magico Pio",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "planar-familiar",
+    "name": "Famiglio Planare",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 40"
+  },
+  {
+    "slug": "planar-touchstone",
+    "name": "Piattaforma Planare",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 41"
+  },
+  {
+    "slug": "planar-turning",
+    "name": "Scacciare Planare",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 210"
   },
   {
     "slug": "point-blank-shot",
     "name": "Tiro Ravvicinato",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +1 ai tiri per colpire e ai tiri per i danni con armi a distanza a portata fino a 9 metri.",
-    "special": "Un guerriero può selezionare Tiro Ravvicinato come uno dei suoi talenti bonus da guerriero."
+    "special": "Un guerriero può selezionare Tiro Ravvicinato come uno dei suoi talenti bonus da guerriero.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "poison-healer",
+    "name": "Veleno Curativo",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 87"
+  },
+  {
+    "slug": "poison-talons",
+    "name": "Artigli Velenosi",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "polyglot",
+    "name": "Poliglotta",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 192"
+  },
+  {
+    "slug": "positive-energy-resistance",
+    "name": "Resistenza all'Energia Positiva",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 29"
   },
   {
     "slug": "power-attack",
@@ -566,7 +3642,51 @@
     "type": "Generale",
     "benefit": "Nel tuo turno, prima di effettuare tiri per colpire per un round, puoi scegliere di sottrarre un numero dal tuo tiro per colpire in mischia e aggiungere lo stesso numero al tuo tiro per i danni in mischia. Questo numero non può superare il tuo bonus di attacco base. La penalità ai tiri per colpire e il bonus ai danni si applicano fino alla tua prossima azione.",
     "special": "Se attacchi con un'arma a due mani, aggiungi invece il doppio del numero sottratto dai tiri per colpire. Non puoi aggiungere il bonus ai danni con un'arma leggera.",
-    "prerequisites": "For 13."
+    "prerequisites": "For 13.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 92"
+  },
+  {
+    "slug": "power-climb",
+    "name": "Ascesa Poderosa",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 67"
+  },
+  {
+    "slug": "power-critical",
+    "name": "Critico Poderoso",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 100"
+  },
+  {
+    "slug": "power-dive",
+    "name": "Picchiata Potente",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 71"
+  },
+  {
+    "slug": "power-throw",
+    "name": "Lancio Poderoso",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 110"
+  },
+  {
+    "slug": "powerful-bite",
+    "name": "Morso Poderoso",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 23"
+  },
+  {
+    "slug": "powerful-wild-shape",
+    "name": "Forma Selvatica Poderosa",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 142"
+  },
+  {
+    "slug": "practiced-spellcaster",
+    "name": "Incantatore Provetto",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 81"
   },
   {
     "slug": "precise-shot",
@@ -574,7 +3694,87 @@
     "type": "Generale",
     "benefit": "Puoi sparare o lanciare armi a distanza su un bersaglio impegnato in mischia senza subire la penalità standard di –4 al tiro per colpire.",
     "special": "Un guerriero può selezionare Tiro Preciso come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Tiro Ravvicinato."
+    "prerequisites": "Tiro Ravvicinato.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "precocious-apprentice",
+    "name": "Apprendista Precoce",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 181"
+  },
+  {
+    "slug": "precognitive-visions",
+    "name": "Visioni Precognitive",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 87"
+  },
+  {
+    "slug": "primordial-scion",
+    "name": "Retaggio Primordiale",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 87"
+  },
+  {
+    "slug": "profane-boost",
+    "name": "Incantesimo Profano",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "profane-lifeleech",
+    "name": "Succhiavita Profano",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 30"
+  },
+  {
+    "slug": "profane-vigor",
+    "name": "Vigore Profano",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 31"
+  },
+  {
+    "slug": "prone-attack",
+    "name": "Attacco Prono",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 97"
+  },
+  {
+    "slug": "protected-destiny",
+    "name": "Destino Protetto",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 152"
+  },
+  {
+    "slug": "pure-soul",
+    "name": "Anima Pura",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 120"
+  },
+  {
+    "slug": "purify-spell",
+    "name": "Incantesimi Purificati",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "purify-spell-like-ability",
+    "name": "Capacità Magica Purificata",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 41"
+  },
+  {
+    "slug": "purify-spell-trigger",
+    "name": "Incantesimi ad Attivazione Purificati",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "quell-the-profane",
+    "name": "Fiaccare i Profani",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 43"
   },
   {
     "slug": "quick-draw",
@@ -583,14 +3783,108 @@
     "benefit": "Puoi estrarre un'arma come azione gratuita invece che come azione di movimento. Puoi lanciare armi alla massima velocità di attacco (molto simile alla penalità per gli attacchi in mischia).",
     "normal": "Senza questo talento, puoi estrarre un'arma come azione di movimento, o (se il tuo bonus di attacco base è +1 o superiore) come azione gratuita come parte di un movimento.",
     "special": "Un guerriero può selezionare Estrazione Rapida come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Bonus di attacco base +1."
+    "prerequisites": "Bonus di attacco base +1.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "quick-reconnoiter",
+    "name": "Ricognizione Rapida",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 111"
+  },
+  {
+    "slug": "quick-recovery",
+    "name": "Recupero Rapido",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 180"
+  },
+  {
+    "slug": "quick-staff",
+    "name": "Bastone Rapido",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 113"
+  },
+  {
+    "slug": "quicken-breath",
+    "name": "Soffio Veloce",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 74"
+  },
+  {
+    "slug": "quicken-manifestation",
+    "name": "Manifestazione Rapida",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
   },
   {
     "slug": "quicken-spell",
     "name": "Incantesimi Rapidi",
     "type": "Metamagico",
     "benefit": "Lanciare un incantesimo rapido è un'azione gratuita. Puoi effettuare un'altra azione, incluso lanciare un altro incantesimo, nello stesso round in cui lanci un incantesimo rapido. Puoi lanciare solo un incantesimo rapido per round. Un incantesimo il cui tempo di lancio è più di 1 azione di round completo non può essere reso rapido. Un incantesimo rapido usa uno slot incantesimo di quattro livelli superiore al livello effettivo dell'incantesimo.",
-    "special": "Questo talento non può essere applicato a nessun incantesimo lanciato spontaneamente (inclusi incantesimi da stregone, bardo e incantesimi da chierico o druido lanciati spontaneamente), poiché applicare un talento metamagico a un incantesimo lanciato spontaneamente ne aumenta automaticamente il tempo di lancio."
+    "special": "Questo talento non può essere applicato a nessun incantesimo lanciato spontaneamente (inclusi incantesimi da stregone, bardo e incantesimi da chierico o druido lanciati spontaneamente), poiché applicare un talento metamagico a un incantesimo lanciato spontaneamente ne aumenta automaticamente il tempo di lancio.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "quicken-spell-like-ability",
+    "name": "Capacità Magica Rapida",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 303"
+  },
+  {
+    "slug": "quicken-turning",
+    "name": "Scacciare Rapido",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 30"
+  },
+  {
+    "slug": "quickslime",
+    "name": "Bava Rapida",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 22"
+  },
+  {
+    "slug": "radiant-fire",
+    "name": "Fuoco Radioso",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 155"
+  },
+  {
+    "slug": "rampaging-bull-rush",
+    "name": "Spingere Furioso",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 147"
+  },
+  {
+    "slug": "ranged-disarm",
+    "name": "Disarmare a Distanza",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 101"
+  },
+  {
+    "slug": "ranged-pin",
+    "name": "Bloccare a Distanza",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 97"
+  },
+  {
+    "slug": "ranged-smite-evil",
+    "name": "Punire il Male a Distanza",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 45"
+  },
+  {
+    "slug": "ranged-spell-specialization",
+    "name": "Specializzazione negli Incantesimi a Distanza",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 84"
+  },
+  {
+    "slug": "ranged-sunder",
+    "name": "Spezzare a Distanza",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 105"
   },
   {
     "slug": "rapid-reload",
@@ -599,7 +3893,9 @@
     "benefit": "Il tempo necessario per ricaricare il tuo tipo di balestra scelto è ridotto a un'azione gratuita (per una balestra a mano o leggera) o a un'azione di movimento (per una balestra pesante). Ricaricare una balestra provoca comunque un attacco di opportunità. Se hai selezionato questo talento per la balestra a mano o leggera, puoi tirare quella balestra con la stessa velocità con cui potresti tirare un arco.",
     "normal": "Un personaggio senza questo talento ha bisogno di un'azione di movimento per ricaricare una balestra a mano o leggera, o di un'azione di round completo per ricaricare una balestra pesante.",
     "special": "Puoi ottenere Ricarica Rapida più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di balestra. Un guerriero può selezionare Ricarica Rapida come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Competenza nelle Armi (tipo di balestra scelto)."
+    "prerequisites": "Competenza nelle Armi (tipo di balestra scelto).",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 99"
   },
   {
     "slug": "rapid-shot",
@@ -607,7 +3903,93 @@
     "type": "Generale",
     "benefit": "Puoi ottenere un attacco a distanza extra per round. Tutti i tuoi tiri per colpire per il round subiscono una penalità di –2 quando usi Tiro Rapido.",
     "special": "Un guerriero può selezionare Tiro Rapido come uno dei suoi talenti bonus da guerriero. Un ranger di 2° livello che ha scelto lo stile di combattimento con arco è considerato come se avesse Tiro Rapido, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Des 13, Tiro Ravvicinato."
+    "prerequisites": "Des 13, Tiro Ravvicinato.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "rapid-spell",
+    "name": "Incantesimi Veloci",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "rapid-stunning",
+    "name": "Stordire Rapido",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "rapidstrike",
+    "name": "Colpo Rapido",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 67"
+  },
+  {
+    "slug": "raptor-school",
+    "name": "Scuola del Rapace",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 110"
+  },
+  {
+    "slug": "razing-strike",
+    "name": "Colpo Dirompente",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "reach-bite",
+    "name": "Morso con Portata",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 23"
+  },
+  {
+    "slug": "reach-spell",
+    "name": "Incantesimi Lontani",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "reckless-rage",
+    "name": "Ira Audace",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
+  },
+  {
+    "slug": "reckless-wand-wielder",
+    "name": "Bacchetta Implacabile",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 73"
+  },
+  {
+    "slug": "recover-breath",
+    "name": "Soffio Spedito",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 74"
+  },
+  {
+    "slug": "rend",
+    "name": "Squartare",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 74"
+  },
+  {
+    "slug": "repeat-spell",
+    "name": "Incantesimi Ripetuti",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 79"
+  },
+  {
+    "slug": "resounding-blow",
+    "name": "Colpo Risonante",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 42"
+  },
+  {
+    "slug": "resourceful-buyer",
+    "name": "Commerciante Ingegnoso",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 150"
   },
   {
     "slug": "ride-by-attack",
@@ -615,27 +3997,197 @@
     "type": "Generale",
     "benefit": "Quando sei in sella e usi l'azione di carica, puoi muoverti e attaccare come con una carica standard e poi continuare a muoverti (fino al doppio della velocità della cavalcatura). Devi muoverti almeno di 3 metri prima e dopo l'attacco.",
     "special": "Un guerriero può selezionare Attacco in Corsa a Cavallo come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella."
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 92"
+  },
+  {
+    "slug": "righteous-wrath",
+    "name": "Giusta Ira",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 43"
+  },
+  {
+    "slug": "rock-hurling",
+    "name": "Scagliare Rocce",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 146"
+  },
+  {
+    "slug": "roofwalker",
+    "name": "Camminare sui Tetti",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 156"
+  },
+  {
+    "slug": "roots-of-the-mountain",
+    "name": "Radici della Montagna",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 144"
+  },
+  {
+    "slug": "roundabout-kick",
+    "name": "Calcio Rotatorio",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 98"
   },
   {
     "slug": "run",
     "name": "Correre",
     "type": "Generale",
     "benefit": "Quando corri, ti muovi a cinque volte la tua velocità normale (se indossi armatura media, leggera o nessuna e trasporti un carico non più che medio) o a quattro volte la tua velocità (se indossi armatura pesante o trasporti un carico pesante). Se effettui un salto dopo una rincorsa, ottieni un bonus di +4 alla prova di Saltare.",
-    "normal": "Ti muovi a quattro volte la tua velocità mentre corri (se indossi armatura media, leggera o nessuna e trasporti un carico non più che medio) o a tre volte la tua velocità (se indossi armatura pesante o trasporti un carico pesante)."
+    "normal": "Ti muovi a quattro volte la tua velocità mentre corri (se indossi armatura media, leggera o nessuna e trasporti un carico non più che medio) o a tre volte la tua velocità (se indossi armatura pesante o trasporti un carico pesante).",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 95"
+  },
+  {
+    "slug": "sacred-boost",
+    "name": "Incantesimo Sacro",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "sacred-healing",
+    "name": "Guarigione Sacra",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 80"
+  },
+  {
+    "slug": "sacred-strike",
+    "name": "Colpo Consacrato",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 42"
+  },
+  {
+    "slug": "sacred-vengeance",
+    "name": "Vendetta Sacra",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 31"
+  },
+  {
+    "slug": "sacred-vitality",
+    "name": "Vitalità Sacra",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 31"
+  },
+  {
+    "slug": "sacred-vow",
+    "name": "Voto Sacro",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 48"
+  },
+  {
+    "slug": "sanctify-ki-strike",
+    "name": "Colpo Ki Santificato",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 42"
+  },
+  {
+    "slug": "sanctify-martial-strike",
+    "name": "Colpo Armato Santificato",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 42"
+  },
+  {
+    "slug": "sanctify-natural-attack",
+    "name": "Attacco Naturale Santificato",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 41"
+  },
+  {
+    "slug": "sanctify-relic",
+    "name": "Santificare Reliquia",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 84"
+  },
+  {
+    "slug": "sanctify-weapon",
+    "name": "Arma Santificata",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 41"
+  },
+  {
+    "slug": "sanctum-spell",
+    "name": "Incantesimi Solenni",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 79"
+  },
+  {
+    "slug": "savage-grapple",
+    "name": "Lotta Selvaggia",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 114"
+  },
+  {
+    "slug": "scavenging-gullet",
+    "name": "Stomaco Pattumiera",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 181"
   },
   {
     "slug": "scribe-scroll",
     "name": "Scrivere Pergamene",
     "type": "Creazione Oggetti",
     "benefit": "Puoi creare una pergamena di qualsiasi incantesimo che conosci. Scrivere una pergamena richiede un giorno per ogni 1.000 mo nel suo prezzo base. Il prezzo base di una pergamena è il suo livello dell'incantesimo × il suo livello dell'incantatore × 25 mo. Per scrivere una pergamena, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà del prezzo base.",
-    "prerequisites": "Livello dell'incantatore 1°."
+    "prerequisites": "Livello dell'incantatore 1°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 100"
+  },
+  {
+    "slug": "sculpt-spell",
+    "name": "Incantesimi Modellati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 78"
   },
   {
     "slug": "self-sufficient",
     "name": "Autosufficiente",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Guarire e Sopravvivenza."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Guarire e Sopravvivenza.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 92"
+  },
+  {
+    "slug": "sense-weakness",
+    "name": "Percepire Punto Debole",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "serpents-venom",
+    "name": "Veleno del Serpente",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 84"
+  },
+  {
+    "slug": "servant-of-the-heavens",
+    "name": "Servitore dei Cieli",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 46"
+  },
+  {
+    "slug": "shadow-heritage",
+    "name": "Eredità delle Ombre",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 40"
+  },
+  {
+    "slug": "shape-breath",
+    "name": "Soffio Controllato",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 72"
+  },
+  {
+    "slug": "sharp-shooting",
+    "name": "Mira Precisa",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 103"
+  },
+  {
+    "slug": "shield-charge",
+    "name": "Carica con lo Scudo",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 98"
   },
   {
     "slug": "shield-proficiency",
@@ -644,7 +4196,27 @@
     "benefit": "Puoi usare uno scudo e non subire la penalità all'attacco associata.",
     "normal": "Quando usi uno scudo con cui non sei competente, subisci la penalità di controllo dell'armatura dello scudo ai tiri per colpire e a tutte le prove di abilità che comportano movimento.",
     "special": "Barbari, bardi, chierici, druidi, guerrieri, paladini e ranger hanno automaticamente Competenza negli Scudi come talento bonus. Non hanno bisogno di selezionarlo.",
-    "prerequisites": "Competenza negli Scudi."
+    "prerequisites": "Competenza negli Scudi.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 94"
+  },
+  {
+    "slug": "shield-slam",
+    "name": "Schianto con lo Scudo",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "shielded-axe",
+    "name": "Ascia con Scudo",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 139"
+  },
+  {
+    "slug": "shock-wave",
+    "name": "Onda d'Urto",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 71"
   },
   {
     "slug": "shot-on-the-run",
@@ -652,14 +4224,24 @@
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco con un'arma a distanza, puoi muoverti sia prima che dopo l'attacco, purché la distanza totale che percorri non sia maggiore della tua velocità.",
     "special": "Un guerriero può selezionare Tiro in Movimento come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13, Schivare, Mobilità, Tiro Ravvicinato, bonus di attacco base +4."
+    "prerequisites": "Des 13, Schivare, Mobilità, Tiro Ravvicinato, bonus di attacco base +4.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 101"
+  },
+  {
+    "slug": "silencing-strike",
+    "name": "Colpo Silenzioso",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 140"
   },
   {
     "slug": "silent-spell",
     "name": "Incantesimi Silenziosi",
     "type": "Metamagico",
     "benefit": "Un incantesimo silenzioso può essere lanciato senza componenti verbali. Gli incantesimi senza componenti verbali non sono influenzati. Un incantesimo silenzioso usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
-    "special": "Gli incantesimi da bardo non possono essere potenziati da questo talento metamagico."
+    "special": "Gli incantesimi da bardo non possono essere potenziati da questo talento metamagico.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 98"
   },
   {
     "slug": "simple-weapon-proficiency",
@@ -667,14 +4249,42 @@
     "type": "Generale",
     "benefit": "Effettui i tiri per colpire con le armi semplici normalmente.",
     "normal": "Quando usi un'arma con cui non sei competente, subisci una penalità di –4 ai tiri per colpire.",
-    "special": "Tutti i personaggi eccetto druidi, monaci e maghi sono automaticamente competenti con tutte le armi semplici. Non hanno bisogno di selezionare questo talento."
+    "special": "Tutti i personaggi eccetto druidi, monaci e maghi sono automaticamente competenti con tutte le armi semplici. Non hanno bisogno di selezionare questo talento.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 94"
   },
   {
     "slug": "skill-focus",
     "name": "Focalizzazione sull'Abilità",
     "type": "Generale",
     "benefit": "Ottieni un bonus di +3 a tutte le prove che coinvolgono quell'abilità.",
-    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova abilità."
+    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova abilità.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 89"
+  },
+  {
+    "slug": "skilled-telekinetic",
+    "name": "Abile Telecineta",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "smatterings",
+    "name": "Infarinatura",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 152"
+  },
+  {
+    "slug": "snatch",
+    "name": "Ghermire",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 304"
+  },
+  {
+    "slug": "snatch-and-swallow",
+    "name": "Ghermire e Inghiottire",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 70"
   },
   {
     "slug": "snatch-arrows",
@@ -682,14 +4292,60 @@
     "type": "Generale",
     "benefit": "Quando usi il talento Deviare Frecce puoi afferrare l'arma invece di deviarla semplicemente. Le armi da lancio possono essere immediatamente rilanciate contro l'attaccante originale (anche se non è il tuo turno) o conservate per un uso successivo. Devi avere almeno una mano libera (senza tenere nulla) per usare questo talento.",
     "special": "Un guerriero può selezionare Afferrare Frecce come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 15, Deviare Frecce, Colpo Senz'Armi Migliorato."
+    "prerequisites": "Des 15, Deviare Frecce, Colpo Senz'Armi Migliorato.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 89"
+  },
+  {
+    "slug": "sociable-personality",
+    "name": "Personalità Affabile",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 152"
+  },
+  {
+    "slug": "soul-of-the-north",
+    "name": "Anima del Nord",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 73"
+  },
+  {
+    "slug": "spectral-strike",
+    "name": "Colpo Spettrale",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 90"
+  },
+  {
+    "slug": "spell-drain",
+    "name": "Risucchiare Incantesimi",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 29"
   },
   {
     "slug": "spell-focus",
     "name": "Incantesimi Focalizzati",
     "type": "Generale",
     "benefit": "Aggiungi +1 alla Classe Difficoltà per tutti i tiri salvezza contro gli incantesimi della scuola di magia selezionata.",
-    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia."
+    "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia.",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "spell-focus-good",
+    "name": "Incantesimi Focalizzati (Bene)",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "spell-hand",
+    "name": "Mano Incantata",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 81"
+  },
+  {
+    "slug": "spell-knowledge",
+    "name": "Conoscenza di Incantesimi",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 209"
   },
   {
     "slug": "spell-mastery",
@@ -697,13 +4353,41 @@
     "type": "Speciale",
     "benefit": "Ogni volta che prendi questo talento, scegli un numero di incantesimi pari al tuo modificatore di Intelligenza che già conosci. Da quel momento in poi, puoi preparare questi incantesimi senza fare riferimento a un libro degli incantesimi.",
     "normal": "Senza questo talento, devi usare un libro degli incantesimi per preparare tutti i tuoi incantesimi, eccetto <i>lettura del magico</i>.",
-    "prerequisites": "Livello da mago 1°."
+    "prerequisites": "Livello da mago 1°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 99"
   },
   {
     "slug": "spell-penetration",
     "name": "Penetrazione Magica",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura."
+    "benefit": "Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 97"
+  },
+  {
+    "slug": "spellcasting-harrier",
+    "name": "Assaltatore di Incantatori",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 67"
+  },
+  {
+    "slug": "spellrazor",
+    "name": "Coltello Incantato",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 140"
+  },
+  {
+    "slug": "spinning-halberd",
+    "name": "Alabarda Rotante",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 112"
+  },
+  {
+    "slug": "spirit-sense",
+    "name": "Percezione degli Spiriti",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 125"
   },
   {
     "slug": "spirited-charge",
@@ -711,7 +4395,51 @@
     "type": "Generale",
     "benefit": "Quando sei in sella e usi l'azione di carica, infliggi il doppio dei danni con un'arma da mischia (o il triplo dei danni con una lancia).",
     "special": "Un guerriero può selezionare Carica Impetuosa come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella, Attacco in Corsa."
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella, Attacco in Corsa.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 92"
+  },
+  {
+    "slug": "spit-poison",
+    "name": "Sputare Veleno",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 94"
+  },
+  {
+    "slug": "split-breath",
+    "name": "Soffio Suddiviso",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 74"
+  },
+  {
+    "slug": "split-ray",
+    "name": "Dividere Raggio",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 76"
+  },
+  {
+    "slug": "spontaneous-healer",
+    "name": "Guaritore Sponteneo",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 81"
+  },
+  {
+    "slug": "spontaneous-summoner",
+    "name": "Evocatore Spontaneo",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 80"
+  },
+  {
+    "slug": "spontaneous-wounder",
+    "name": "Piagatore Spontaneo",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 83"
+  },
+  {
+    "slug": "spreading-breath",
+    "name": "Soffio Propagante",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 73"
   },
   {
     "slug": "spring-attack",
@@ -719,20 +4447,92 @@
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco con un'arma da mischia, puoi muoverti sia prima che dopo l'attacco, purché la distanza totale che percorri non sia maggiore della tua velocità. Muoversi in questo modo non provoca un attacco di opportunità dal difensore che stai attaccando.",
     "special": "Un guerriero può selezionare Attacco in Movimento come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13, Schivare, Mobilità, bonus di attacco base +4."
+    "prerequisites": "Des 13, Schivare, Mobilità, bonus di attacco base +4.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 92"
+  },
+  {
+    "slug": "spurn-deaths-touch",
+    "name": "Rifiutare il Tocco della Morte",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 29"
+  },
+  {
+    "slug": "staggering-strike",
+    "name": "Colpo Barcollante",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "stalwart-planar-ally",
+    "name": "Alleato Planare Vigoroso",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 37"
+  },
+  {
+    "slug": "starspawn",
+    "name": "Progenie delle Stelle",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 180"
+  },
+  {
+    "slug": "steady-concentration",
+    "name": "Concentrazione Assoluta",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 141"
+  },
+  {
+    "slug": "steady-mountaineer",
+    "name": "Scalatore Determinato",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 146"
   },
   {
     "slug": "stealthy",
     "name": "Furtivo",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Nascondersi e Muoversi Silenziosamente."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Nascondersi e Muoversi Silenziosamente.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "stigmata",
+    "name": "Stimmate",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 46"
   },
   {
     "slug": "still-spell",
     "name": "Incantesimi Immobili",
     "type": "Metamagico",
     "benefit": "Un incantesimo immobilizzato può essere lanciato senza componenti somatiche. Gli incantesimi senza componenti somatiche non sono influenzati. Un incantesimo immobilizzato usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
-    "prerequisites": "Incantesimi Inarrestabili . _"
+    "prerequisites": "Incantesimi Inarrestabili . _",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 97"
+  },
+  {
+    "slug": "stitched-flesh-familiar",
+    "name": "Famiglio Ricucito",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 26"
+  },
+  {
+    "slug": "stone-form",
+    "name": "Forma di Pietra",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 142"
+  },
+  {
+    "slug": "stone-rage",
+    "name": "Ira di Pietra",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 143"
+  },
+  {
+    "slug": "stoneback",
+    "name": "Fianchi di Pietra",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 142"
   },
   {
     "slug": "stunning-fist",
@@ -740,14 +4540,222 @@
     "type": "Generale",
     "benefit": "Devi dichiarare di usare questo talento prima di effettuare il tiro per colpire (quindi un attacco mancato spreca il tentativo). Pugno Stordente costringe un avversario colpito da te con un attacco senz'armi a effettuare un tiro salvezza sulla Tempra (CD 10 + metà del tuo livello del personaggio + il tuo modificatore di Sag), oltre a subire danni normali. Se il difensore fallisce il tiro salvezza, è stordito per 1 round.",
     "special": "Puoi tentare uno stordimento una volta al giorno per ogni quattro livelli che hai raggiunto, e non più di una volta per round.",
-    "prerequisites": "Des 13, Sag 13, Colpo Senz'Armi Migliorato, bonus di attacco base +8."
+    "prerequisites": "Des 13, Sag 13, Colpo Senz'Armi Migliorato, bonus di attacco base +8.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "subsonics",
+    "name": "Musica Inconscia",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 111"
+  },
+  {
+    "slug": "subtle-sigil",
+    "name": "Sigillo Impercettibile",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 153"
+  },
+  {
+    "slug": "sudden-empower",
+    "name": "Incantesimi Potenziati Immediati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 79"
+  },
+  {
+    "slug": "sudden-extend",
+    "name": "Incantesimi Estesi Immediati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 78"
+  },
+  {
+    "slug": "sudden-maximize",
+    "name": "Incantesimi Massimizzati Immediati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 78"
+  },
+  {
+    "slug": "sudden-quicken",
+    "name": "Incantesimi Rapidi Immediati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 79"
+  },
+  {
+    "slug": "sudden-silent",
+    "name": "Incantesimi Silenziosi Immediati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 79"
+  },
+  {
+    "slug": "sudden-still",
+    "name": "Incantesimi Immoboli Immediati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 78"
+  },
+  {
+    "slug": "sudden-widen",
+    "name": "Incantesimi Ampliati Immediati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 77"
+  },
+  {
+    "slug": "sun-school",
+    "name": "Scuola del Sole",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 110"
+  },
+  {
+    "slug": "suppress-weakness",
+    "name": "Sopprimere Punto Debole",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 74"
+  },
+  {
+    "slug": "surge-of-malevolence",
+    "name": "Impeto di Malevolenza",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 123"
+  },
+  {
+    "slug": "swarmfighting",
+    "name": "Combattimento Coordinato",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 100"
+  },
+  {
+    "slug": "swim-like-a-fish",
+    "name": "Nuotare Come un Pesce",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 83"
+  },
+  {
+    "slug": "tactile-trapsmith",
+    "name": "Cercatrappole Tattile",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 106"
+  },
+  {
+    "slug": "tail-constrict",
+    "name": "Coda Stritolante",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 67"
+  },
+  {
+    "slug": "tail-sweep-knockdown",
+    "name": "Spazzata di Coda Atterrante",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 74"
+  },
+  {
+    "slug": "tainted-fury",
+    "name": "Furia Corrotta",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 122"
+  },
+  {
+    "slug": "tattoo-focus",
+    "name": "Tatuaggio Focalizzato",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 190"
+  },
+  {
+    "slug": "tempest-breath",
+    "name": "Soffio Tempestoso",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 74"
+  },
+  {
+    "slug": "terrifying-rage",
+    "name": "Ira Terrificante",
+    "manual_name": "Guida del Dungeon Master",
+    "reference": "pag. 210"
+  },
+  {
+    "slug": "thicken-mucus",
+    "name": "Ispessire Muco",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 23"
+  },
+  {
+    "slug": "thrall-bred",
+    "name": "Schiavizzato",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 180"
+  },
+  {
+    "slug": "thrall-to-demon",
+    "name": "Servitore di un Demone",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 87"
+  },
+  {
+    "slug": "three-mountains",
+    "name": "Tre Montagne",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 114"
+  },
+  {
+    "slug": "throw-anything",
+    "name": "Scagliare Arma",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 105"
+  },
+  {
+    "slug": "titan-fighting",
+    "name": "Combattere Titani",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 140"
+  },
+  {
+    "slug": "tomb-born-fortitude",
+    "name": "Tempra Sepolcrale",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 30"
+  },
+  {
+    "slug": "tomb-born-resilience",
+    "name": "Resilienza Sepolcrale",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 28"
+  },
+  {
+    "slug": "tomb-born-vitality",
+    "name": "Vitalità Sepolcrale",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 31"
+  },
+  {
+    "slug": "tomb-tainted-soul",
+    "name": "Anima Sepolcrale",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 24"
+  },
+  {
+    "slug": "touch-of-golden-ice",
+    "name": "Tocco di Ghiaccio Dorato",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 46"
+  },
+  {
+    "slug": "touch-of-taint",
+    "name": "Tocco di Corruzione",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 126"
+  },
+  {
+    "slug": "touch-spell-specialization",
+    "name": "Specializzazione Negli Incantesimi a Contatto",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 84"
   },
   {
     "slug": "toughness",
     "name": "Robustezza",
     "type": "Generale",
     "benefit": "Ottieni +3 punti ferita.",
-    "special": "Un personaggio può ottenere questo talento più volte. I suoi effetti si cumulano."
+    "special": "Un personaggio può ottenere questo talento più volte. I suoi effetti si cumulano.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 100"
   },
   {
     "slug": "tower-shield-proficiency",
@@ -756,7 +4764,9 @@
     "benefit": "Puoi usare uno scudo torre e subire solo le penalità standard.",
     "normal": "Un personaggio che usa uno scudo con cui non è competente subisce la penalità di controllo dell'armatura dello scudo ai tiri per colpire e a tutte le prove di abilità che comportano movimento, incluso Cavalcare.",
     "special": "I guerrieri hanno automaticamente Competenza nello Scudo Torre come talento bonus. Non hanno bisogno di selezionarlo.",
-    "prerequisites": "Competenza negli Scudi."
+    "prerequisites": "Competenza negli Scudi.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 94"
   },
   {
     "slug": "track",
@@ -764,7 +4774,9 @@
     "type": "Generale",
     "benefit": "Per trovare le tracce o per seguirle per 1,5 km richiede una prova di Sopravvivenza riuscita. Devi effettuare un'altra prova di Sopravvivenza ogni volta che le tracce diventano difficili da seguire.",
     "normal": "Senza questo talento, puoi usare l'abilità Sopravvivenza per trovare le tracce, ma puoi seguirle solo se la CD è 10 o inferiore. In alternativa, puoi usare la prova di Cercare per trovare delle impronte o segni simili.",
-    "special": "Un ranger ottiene automaticamente Seguire Tracce come talento bonus. Non ha bisogno di selezionarlo. Questo talento non ti permette di trovare o seguire le tracce di soggetti con il talento Passo senza Tracce."
+    "special": "Un ranger ottiene automaticamente Seguire Tracce come talento bonus. Non ha bisogno di selezionarlo. Questo talento non ti permette di trovare o seguire le tracce di soggetti con il talento Passo senza Tracce.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 100"
   },
   {
     "slug": "trample",
@@ -772,7 +4784,51 @@
     "type": "Generale",
     "benefit": "Quando tenti di travolgere un avversario mentre sei in sella, il bersaglio non può scegliere di evitarti. La tua cavalcatura può effettuare un attacco con zoccolo contro qualsiasi bersaglio che abbatti, ottenendo il bonus standard di +4 ai tiri per colpire contro bersagli proni.",
     "special": "Un guerriero può selezionare Travolgere come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella."
+    "prerequisites": "Cavalcare 1 grado, Combattimento in Sella.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 102"
+  },
+  {
+    "slug": "transdimensional-spell",
+    "name": "Incantesimi Transdimensionali",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "trivial-knowledge",
+    "name": "Conoscenze Triviali",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 141"
+  },
+  {
+    "slug": "true-believer",
+    "name": "Vero Credente",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 85"
+  },
+  {
+    "slug": "tunnel-fighting",
+    "name": "Combattere nei Tunnel",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 140"
+  },
+  {
+    "slug": "tunnel-riding",
+    "name": "Cavalcare nei Tunnel",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 140"
+  },
+  {
+    "slug": "turtle-dart",
+    "name": "Morso della Testuggine",
+    "manual_name": "Razze di Pietra",
+    "reference": "pag. 144"
+  },
+  {
+    "slug": "twin-spell",
+    "name": "Incantesimi Raddoppiati",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 79"
   },
   {
     "slug": "two-weapon-defense",
@@ -780,7 +4836,9 @@
     "type": "Generale",
     "benefit": "Quando impugni un'arma doppia o due armi (escluse armi naturali o colpi senz'armi), ottieni un bonus di scudo +1 alla CA. Quando combatti sulla difensiva o usi l'azione di difesa totale, questo bonus di scudo aumenta a +2.",
     "special": "Un guerriero può selezionare Difesa con Due Armi come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 15, Combattere con Due Armi."
+    "prerequisites": "Des 15, Combattere con Due Armi.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 96"
   },
   {
     "slug": "two-weapon-fighting",
@@ -789,7 +4847,147 @@
     "benefit": "Le tue penalità al combattimento con due armi sono ridotte di 2 con l'arma primaria e di 6 con l'arma secondaria.",
     "normal": "Se impugni una seconda arma nella mano secondaria, puoi ottenere un attacco extra con quell'arma al costo di una penalità di –6 ai tiri per colpire con l'arma primaria e una penalità di –10 con l'arma secondaria.",
     "special": "Un ranger di 2° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi, anche se non ne soddisfa i prerequisiti.",
-    "prerequisites": "Des 15."
+    "prerequisites": "Des 15.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 93"
+  },
+  {
+    "slug": "undead-leadership",
+    "name": "Autorità Non Morta",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 25"
+  },
+  {
+    "slug": "undead-mastery",
+    "name": "Padronanza dei Non Morti",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 90"
+  },
+  {
+    "slug": "undying-fate",
+    "name": "Fato Imperituro",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 154"
+  },
+  {
+    "slug": "unholy-strike",
+    "name": "Colpo Sacrilego",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 89"
+  },
+  {
+    "slug": "unnatural-will",
+    "name": "Volontà Innaturale",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 126"
+  },
+  {
+    "slug": "unquenchable-flame-of-life",
+    "name": "Inestinguibile Fiamma Vitale",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 27"
+  },
+  {
+    "slug": "urban-stealth",
+    "name": "Furtività Urbana",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 152"
+  },
+  {
+    "slug": "urban-tracking",
+    "name": "Seguire Tracce in Città",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 152"
+  },
+  {
+    "slug": "vampire-hunter",
+    "name": "Cacciatori di Vampiri",
+    "manual_name": "Liber Mortis",
+    "reference": "pag. 25"
+  },
+  {
+    "slug": "versatile-performer",
+    "name": "Intrattenitore Versatile",
+    "manual_name": "Perfetto Avventuriero",
+    "reference": "pag. 109"
+  },
+  {
+    "slug": "vestigial-wings",
+    "name": "Ali Atrofizzate",
+    "manual_name": "Codex Immondo I: Orde dell'Abisso",
+    "reference": "pag. 83"
+  },
+  {
+    "slug": "vow-of-abstinence",
+    "name": "Voto di Astinenza",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 47"
+  },
+  {
+    "slug": "vow-of-chastity",
+    "name": "Voto di Castità",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 47"
+  },
+  {
+    "slug": "vow-of-nonviolence",
+    "name": "Voto di Non Violenza",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 47"
+  },
+  {
+    "slug": "vow-of-obedience",
+    "name": "Voto di Obbedienza",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 47"
+  },
+  {
+    "slug": "vow-of-peace",
+    "name": "Voto di Pace",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 48"
+  },
+  {
+    "slug": "vow-of-poverty",
+    "name": "Voto di Povertà",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 48"
+  },
+  {
+    "slug": "vow-of-purity",
+    "name": "Voto di Purezza",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 48"
+  },
+  {
+    "slug": "wandstrike",
+    "name": "Colpo di Bacchetta",
+    "manual_name": "Perfetto Arcanista",
+    "reference": "pag. 76"
+  },
+  {
+    "slug": "warped-mind",
+    "name": "Mente Distorta",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 179"
+  },
+  {
+    "slug": "water-heritage",
+    "name": "Eredità dell'Acqua",
+    "manual_name": "Atlante Planare",
+    "reference": "pag. 38"
+  },
+  {
+    "slug": "waterspawn",
+    "name": "Progenie dell?Acqua",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 180"
+  },
+  {
+    "slug": "weakening-touch",
+    "name": "Tocco Indebolente",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 106"
   },
   {
     "slug": "weapon-finesse",
@@ -797,7 +4995,9 @@
     "type": "Generale",
     "benefit": "Con un'arma leggera, stocco, frusta o catena chiodata fatta per una creatura della tua categoria di taglia, puoi usare il tuo modificatore di Destrezza invece del tuo modificatore di Forza ai tiri per colpire in mischia.",
     "special": "Un guerriero può selezionare Arma Accurata come uno dei suoi talenti bonus da guerriero. Le creature naturali possono selezionare questo talento.",
-    "prerequisites": "Bonus di attacco base +1."
+    "prerequisites": "Bonus di attacco base +1.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 89"
   },
   {
     "slug": "weapon-focus",
@@ -805,7 +5005,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +1 a tutti i tiri per colpire effettuati usando l'arma selezionata.",
     "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
-    "prerequisites": "Competenza con l'arma selezionata, bonus di attacco base +1."
+    "prerequisites": "Competenza con l'arma selezionata, bonus di attacco base +1.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 89"
   },
   {
     "slug": "weapon-specialization",
@@ -813,7 +5015,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutti i tiri per i danni effettuati usando l'arma selezionata.",
     "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Un guerriero può selezionare Specializzazione sull'Arma come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 4°."
+    "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 4°.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 89"
   },
   {
     "slug": "whirlwind-attack",
@@ -821,12 +5025,82 @@
     "type": "Generale",
     "benefit": "Quando usi l'azione di attacco completo, puoi rinunciare ai tuoi attacchi regolari e invece effettuare un attacco in mischia al tuo bonus di attacco base completo contro ogni avversario entro la tua portata.",
     "special": "Un guerriero può selezionare Attacco Turbinante come uno dei suoi talenti bonus da guerriero.",
-    "prerequisites": "Des 13, Int 13, Competenza in Combattimento, Schivare, Mobilità, Attacco in Movimento, bonus di attacco base +4."
+    "prerequisites": "Des 13, Int 13, Competenza in Combattimento, Schivare, Mobilità, Attacco in Movimento, bonus di attacco base +4.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 92"
+  },
+  {
+    "slug": "whirlwind-tail-sweep",
+    "name": "Spazzata di Coda Turbinante",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 74"
+  },
+  {
+    "slug": "whispered-secrets",
+    "name": "Segreti Sussurrati",
+    "manual_name": "Razze del Destino",
+    "reference": "pag. 155"
   },
   {
     "slug": "widen-spell",
     "name": "Incantesimi Ampliati",
     "type": "Metamagico",
-    "benefit": "Puoi alterare un incantesimo a forma di scoppio, emanazione, linea o diffusione per aumentare la sua area. Qualsiasi misurazione numerica dell'area dell'incantesimo aumenta del 100%. Un incantesimo allargato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo. Gli incantesimi che non hanno un'area di una di queste quattro forme non sono influenzati da questo talento."
+    "benefit": "Puoi alterare un incantesimo a forma di scoppio, emanazione, linea o diffusione per aumentare la sua area. Qualsiasi misurazione numerica dell'area dell'incantesimo aumenta del 100%. Un incantesimo allargato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo. Gli incantesimi che non hanno un'area di una di queste quattro forme non sono influenzati da questo talento.",
+    "manual_name": "Manuale del Giocatore 3.5",
+    "reference": "pag. 97"
+  },
+  {
+    "slug": "wield-oversized-weapon",
+    "name": "Impugnare Arma Sovrabbondante",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 151"
+  },
+  {
+    "slug": "wild-talent",
+    "name": "Dote Naturale",
+    "manual_name": "Signori della Follia",
+    "reference": "pag. 178"
+  },
+  {
+    "slug": "willing-deformity",
+    "name": "Deformità Volontaria",
+    "manual_name": "Eroi dell'Orrore",
+    "reference": "pag. 121"
+  },
+  {
+    "slug": "wingover",
+    "name": "Virare",
+    "manual_name": "Manuale dei Mostri",
+    "reference": "pag. 304"
+  },
+  {
+    "slug": "wingstorm",
+    "name": "Tempesta di Ali",
+    "manual_name": "Draconomicon",
+    "reference": "pag. 75"
+  },
+  {
+    "slug": "wolverines-rage",
+    "name": "Ira del Ghiottone",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 82"
+  },
+  {
+    "slug": "words-of-creation",
+    "name": "Parole della Creazione",
+    "manual_name": "Libro delle Imprese Eroiche",
+    "reference": "pag. 44"
+  },
+  {
+    "slug": "zen-archery",
+    "name": "Arciere Zen",
+    "manual_name": "Perfetto Combattente",
+    "reference": "pag. 96"
+  },
+  {
+    "slug": "zone-of-animation",
+    "name": "Zona di Animazione",
+    "manual_name": "Perfetto Sacerdote",
+    "reference": "pag. 90"
   }
 ]
