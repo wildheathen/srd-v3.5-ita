@@ -5,3 +5,4 @@ __pycache__/
 .env
 venv/
 reports/
+html_cache/
