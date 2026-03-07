@@ -1162,21 +1162,22 @@ function renderSourceFooter(item) {
   const lang = getCurrentLang();
   const refs = [];
 
-  // EN reference
-  const enBook = item._base_manual_name || item.source_book || (lang === 'en' ? item.manual_name : '') || '';
-  const enPage = item._base_reference || (item.source_page ? `p. ${item.source_page}` : '') || (lang === 'en' ? item.reference : '') || '';
+  // _base_manual_name semantics (set by applyOverlay):
+  //   undefined → overlay did NOT provide manual_name → item.manual_name is from base data (EN)
+  //   "" (empty) → overlay DID provide manual_name, base had none → item.manual_name is IT
+  //   "Book Name" → overlay REPLACED manual_name → _base_ is EN, item.manual_name is IT
+  const hasOverlayManual = '_base_manual_name' in item;
+  const hasOverlayRef = '_base_reference' in item;
+
+  // EN reference: prefer preserved base value, fallback to source_book, then manual_name if no overlay
+  const enBook = (hasOverlayManual ? item._base_manual_name : '') || item.source_book || (!hasOverlayManual ? item.manual_name : '') || '';
+  const enPage = (hasOverlayRef ? item._base_reference : '') || (item.source_page ? `p. ${item.source_page}` : '') || (!hasOverlayRef ? item.reference : '') || '';
   if (enBook) refs.push({ lang: 'EN', book: enBook, page: enPage });
 
-  // IT reference (from overlay — manual_name/reference when overlay was applied)
-  if (lang !== 'en') {
-    // Case 1: overlay REPLACED manual_name → _base_ has EN original
-    let itBook = item._base_manual_name ? item.manual_name : '';
-    let itPage = item._base_reference ? item.reference : '';
-    // Case 2: overlay ADDED manual_name (base didn't have it) → no _base_, but manual_name exists
-    if (!itBook && item.manual_name && item.manual_name !== enBook) {
-      itBook = item.manual_name;
-      itPage = item.reference || '';
-    }
+  // IT reference: only when overlay provided manual_name (_base_ key exists)
+  if (lang !== 'en' && hasOverlayManual) {
+    const itBook = item.manual_name || '';
+    const itPage = hasOverlayRef ? (item.reference || '') : '';
     if (itBook) refs.push({ lang: 'IT', book: itBook, page: itPage });
   }
 
