@@ -34,6 +34,21 @@ dnd35.db            → SQLite database (gitignored, generato dagli script)
 /sources/srd/psionics/          → contenuti psionici
 /sources/testo-manuale/         → testo manuale italiano (OCR da PDF) + HTML per capitoli
 /sources/contrib/               → CSV e HTML di supporto per traduzioni e import
+/sources/pdf-ita/               → HTML estratti dai PDF SRD italiano (249 file, 10 capitoli)
+```
+
+**Sorgenti PDF italiano** (sotto `/sources/pdf-ita/`, 249 file totali):
+```
+/sources/pdf-ita/01-regole-base/       → 6 file (basi, caratteristiche, allineamento, ecc.)
+/sources/pdf-ita/02-razze/             → 128 file (razze base + varianti ambientali + mostri come razze)
+/sources/pdf-ita/03-classi/            → 70 file (classi base + varianti + classi di prestigio)
+/sources/pdf-ita/04-abilita/           → 3 file (intro, elenco, gradi massimi)
+/sources/pdf-ita/05-talenti/           → 6 file (generali, combattimento, creazione, metamagia, mostri)
+/sources/pdf-ita/06-equipaggiamento/   → 4 file (armi, armature, avventura, merci/servizi)
+/sources/pdf-ita/07-avventura/         → 4 file (esplorazione, movimento, condizioni, trasporto)
+/sources/pdf-ita/08-combattimento/     → 7 file (basi, azioni, attacco, difesa, iniziativa, speciali)
+/sources/pdf-ita/09-magia/            → 5 file (intro, arcana, divina, descrizioni, capacita speciali)
+/sources/pdf-ita/10-incantesimi/       → 16 file (A-UVWXYZ, 601 incantesimi con campi strutturati)
 ```
 
 ## Dati estratti
@@ -114,8 +129,15 @@ python scripts/import_to_db.py
 python scripts/import_translations.py translations_it.json
 
 # Estrazione PDF → HTML strutturato (con grassetto/corsivo)
-python scripts/pdf_to_html.py <pdf_path> <output_html>
-# Esempio: python scripts/pdf_to_html.py /tmp/incantesimi_A.pdf /tmp/output.html
+python scripts/pdf_to_html.py <pdf_path> <output_html>                    # modo spells (default)
+python scripts/pdf_to_html.py --mode generic <pdf_path> <output_html>     # modo generico
+
+# Download tutti i 249 PDF SRD italiano
+python scripts/download_srd_pdfs.py --output-dir /tmp/srd-pdf-ita
+
+# Conversione batch di tutti i PDF in HTML
+python scripts/convert_all_pdfs.py --pdf-dir /tmp/srd-pdf-ita --output-dir sources/pdf-ita
+python scripts/convert_all_pdfs.py --force   # ri-converte anche se HTML esiste
 
 # Avvio backend locale (opzionale)
 uvicorn backend.app:app --reload --port 8000
@@ -125,18 +147,26 @@ uvicorn backend.app:app --reload --port 8000
 
 Lo script `scripts/pdf_to_html.py` converte i PDF del SRD italiano (da editorifolli.it) in HTML strutturato.
 
+**Due modalità:**
+- `--mode spells` (default): parsing strutturato per incantesimi con campi separati (Scuola, Livello, Componenti, ecc.)
+- `--mode generic`: parsing generico per tutti gli altri contenuti (heading detection, paragrafi, bold/italic)
+
 **Approccio ibrido:**
 1. `pdftotext` per il testo completo (zero perdite)
 2. Parsing raw PDF streams per identificare font Bold/Italic
-3. Merge: applica `<b>`/`<i>` al testo usando i frammenti formattati
-4. Struttura: split in blocchi con campi separati dalla descrizione
+3. Merge: applica `<b>`/`<i>` al testo usando i frammenti formattati (con word-boundary check per bold)
+4. Struttura: split in blocchi con campi separati dalla descrizione (spells) o heading detection (generic)
 5. Leggibilità: `<br>` dopo ogni frase e prima di elenchi
 
-**Requisiti:** `pdftotext` nel PATH (incluso in Git for Windows). Nessuna dipendenza Python esterna.
+**Pipeline batch:**
+- `download_srd_pdfs.py`: manifesto hardcoded di tutti i 249 PDF, download con curl, resume-safe
+- `convert_all_pdfs.py`: routing automatico cap.10 → spells, resto → generic, skip existing
 
-**Limiti:** Non gestisce tabelle (da estendere). Il parsing campi è ottimizzato per incantesimi — per talenti, classi, mostri servono FIELD_LABELS diversi.
+**Requisiti:** `pdftotext` e `curl` nel PATH (inclusi in Git for Windows). Nessuna dipendenza Python esterna.
 
-**Sorgenti PDF:** `https://www.editorifolli.it/f/srd35/` (pattern: `srd35_10_XX_*.pdf`)
+**Limiti:** Non gestisce tabelle (da estendere). I PDF di classi/equipaggiamento hanno tabelle che vengono preservate come testo ma perdono la struttura.
+
+**Sorgenti PDF:** `https://www.editorifolli.it/f/srd35/` (249 file, ~100MB totali)
 
 ## API Endpoints (backend opzionale)
 
