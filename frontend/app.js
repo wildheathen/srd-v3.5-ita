@@ -12,6 +12,7 @@ let currentTab = 'spells';
 let dataCache = {};
 let debounceTimer = null;
 let sourcesData = null;
+let sourceBookMap = null;   // reverse map: normalised source_book → abbreviation key
 
 // Known spell domains (EN + IT) — everything NOT in this set is treated as a class
 const SPELL_DOMAINS = new Set([
@@ -228,6 +229,7 @@ function updateTabLabels() {
     prepared: 'tab.prepared',
     feats: 'tab.feats',
     learned: 'tab.learned',
+    skills: 'tab.skills',
     classes: 'tab.classes',
     races: 'tab.races',
     equipment: 'tab.equipment',
@@ -307,10 +309,12 @@ function buildFilters() {
   } else if (currentTab === 'feats') {
     filtersDiv.innerHTML = `
       <select id="filter-type"><option value="">${t('filter.all_types')}</option></select>
+      <label class="edition-toggle"><input type="checkbox" id="filter-show-30"> ${t('filter.show_3.0')}</label>
       <span id="result-count"></span>
     `;
     populateFeatTypeFilter();
     filtersDiv.querySelector('select').addEventListener('change', renderResults);
+    filtersDiv.querySelector('#filter-show-30').addEventListener('change', renderResults);
   } else if (currentTab === 'equipment') {
     filtersDiv.innerHTML = `
       <select id="filter-category"><option value="">${t('filter.all_categories')}</option></select>
@@ -322,12 +326,43 @@ function buildFilters() {
     filtersDiv.innerHTML = `
       <select id="filter-cr"><option value="">${t('filter.all_cr')}</option></select>
       <select id="filter-mtype"><option value="">${t('filter.all_types')}</option></select>
+      <label class="edition-toggle"><input type="checkbox" id="filter-show-30"> ${t('filter.show_3.0')}</label>
       <span id="result-count"></span>
     `;
     populateMonsterFilters();
     filtersDiv.querySelectorAll('select').forEach((s) =>
       s.addEventListener('change', renderResults)
     );
+    filtersDiv.querySelector('#filter-show-30').addEventListener('change', renderResults);
+  } else if (currentTab === 'skills') {
+    filtersDiv.innerHTML = `
+      <select id="filter-skill-category">
+        <option value="">${t('filter.skills_and_tricks')}</option>
+        <option value="skill">${t('filter.skills_only')}</option>
+        <option value="skill_trick">${t('filter.tricks_only')}</option>
+      </select>
+      <select id="filter-ability"><option value="">${t('filter.all_abilities')}</option></select>
+      <label class="level-check" style="margin-left:0.5rem"><input type="checkbox" id="filter-trained"> ${t('filter.trained_only')}</label>
+      <label class="edition-toggle"><input type="checkbox" id="filter-show-30"> ${t('filter.show_3.0')}</label>
+      <span id="result-count"></span>
+    `;
+    populateSkillFilters();
+    filtersDiv.querySelector('#filter-skill-category').addEventListener('change', renderResults);
+    filtersDiv.querySelector('#filter-ability').addEventListener('change', renderResults);
+    filtersDiv.querySelector('#filter-trained').addEventListener('change', renderResults);
+    filtersDiv.querySelector('#filter-show-30').addEventListener('change', renderResults);
+  } else if (currentTab === 'classes') {
+    filtersDiv.innerHTML = `
+      <select id="filter-class-type">
+        <option value="">${t('filter.all_types')}</option>
+        <option value="prestige">${t('filter.prestige_only')}</option>
+        <option value="base">${t('filter.base_only')}</option>
+      </select>
+      <label class="edition-toggle"><input type="checkbox" id="filter-show-30"> ${t('filter.show_3.0')}</label>
+      <span id="result-count"></span>
+    `;
+    filtersDiv.querySelector('#filter-class-type').addEventListener('change', renderResults);
+    filtersDiv.querySelector('#filter-show-30').addEventListener('change', renderResults);
   } else if (currentTab === 'prepared') {
     filtersDiv.innerHTML = `
       <button id="clear-prepared" class="level-toggle" style="color: #e57373;">${t('btn.clear_prepared')}</button>
@@ -350,6 +385,12 @@ function buildFilters() {
         renderResults();
       }
     });
+  } else if (currentTab === 'races') {
+    filtersDiv.innerHTML = `
+      <label class="edition-toggle"><input type="checkbox" id="filter-show-30"> ${t('filter.show_3.0')}</label>
+      <span id="result-count"></span>
+    `;
+    filtersDiv.querySelector('#filter-show-30').addEventListener('change', renderResults);
   } else {
     filtersDiv.innerHTML = '<span id="result-count"></span>';
   }
@@ -459,6 +500,16 @@ async function populateMonsterFilters() {
   });
 }
 
+async function populateSkillFilters() {
+  const data = await loadData('skills');
+  if (!data) return;
+  const abilities = [...new Set(data.map((s) => s.key_ability).filter(Boolean))].sort();
+  const sel = document.getElementById('filter-ability');
+  abilities.forEach((a) => {
+    sel.innerHTML += `<option value="${esc(a)}">${esc(a)}</option>`;
+  });
+}
+
 // ── Filtering + rendering ────────────────────────────────────────────────
 
 function getSelectedLevels() {
@@ -498,14 +549,14 @@ async function renderResults() {
     );
   }
 
+  // Edition filter (shared across tabs that have the toggle)
+  const show30El = document.getElementById('filter-show-30');
+  if (show30El && !show30El.checked) {
+    filtered = filtered.filter((item) => item.edition !== '3.0');
+  }
+
   // Category-specific filters
   if (currentTab === 'spells') {
-    // Edition filter: hide 3.0 by default unless checkbox is checked
-    const show30 = document.getElementById('filter-show-30')?.checked;
-    if (!show30) {
-      filtered = filtered.filter((s) => s.edition !== '3.0');
-    }
-
     const school = document.getElementById('filter-school')?.value;
     const cls = document.getElementById('filter-class')?.value;
     const domain = document.getElementById('filter-domain')?.value;
@@ -549,6 +600,17 @@ async function renderResults() {
     const mtype = document.getElementById('filter-mtype')?.value;
     if (cr) filtered = filtered.filter((m) => m.challenge_rating === cr);
     if (mtype) filtered = filtered.filter((m) => m.type && m.type.replace(/\s*\(.*\)/, '').trim() === mtype);
+  } else if (currentTab === 'skills') {
+    const cat = document.getElementById('filter-skill-category')?.value;
+    const ability = document.getElementById('filter-ability')?.value;
+    const trained = document.getElementById('filter-trained')?.checked;
+    if (cat) filtered = filtered.filter((s) => s.category === cat);
+    if (ability) filtered = filtered.filter((s) => s.key_ability === ability);
+    if (trained) filtered = filtered.filter((s) => s.trained_only === true);
+  } else if (currentTab === 'classes') {
+    const classType = document.getElementById('filter-class-type')?.value;
+    if (classType === 'prestige') filtered = filtered.filter((c) => c.is_prestige === 'True' || c.is_prestige === true);
+    if (classType === 'base') filtered = filtered.filter((c) => c.is_prestige !== 'True' && c.is_prestige !== true);
   }
 
   // Sort non-spell tabs alphabetically by (translated) name
@@ -590,7 +652,7 @@ async function renderResults() {
     return `<div class="result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}" data-index="${idx}" data-slug="${item.slug || ''}"${schoolStyle}>
       <div class="result-row">
         <div class="result-text">
-          <div class="name">${esc(item.name)}${item.edition === '3.0' ? '<span class="edition-badge">3.0</span>' : ''}${renderSourceBadge(item)}${item._name_en ? `<span class="name-en">${esc(item._name_en)}</span>` : ''}</div>
+          <div class="name">${esc(item.name)}${renderSourceBadge(item)}${item._name_en ? `<span class="name-en">${esc(item._name_en)}</span>` : ''}</div>
           ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
         </div>
         ${actionHtml}
@@ -823,10 +885,17 @@ function getMeta(item) {
       return [item.school, item.level].filter(Boolean).join(' — ');
     case 'feats':
       return item.type || '';
-    case 'classes':
-      return item.hit_die ? t('meta.hit_die', { value: item.hit_die }) : '';
+    case 'skills':
+      if (item.category === 'skill_trick') return 'Skill Trick';
+      return [item.key_ability, item.trained_only ? '(trained)' : ''].filter(Boolean).join(' ');
+    case 'classes': {
+      const parts = [];
+      if (item.is_prestige === 'True' || item.is_prestige === true) parts.push(t('detail.class.prestige'));
+      if (item.hit_die) parts.push(item.hit_die);
+      return parts.join(' — ');
+    }
     case 'races':
-      return '';
+      return item.size || '';
     case 'equipment': {
       const cat = item._category || item.category || '';
       return cat === 'weapon' ? t('cat.weapon') : cat === 'armor' ? t('cat.armor') : cat === 'goods' ? t('cat.goods_short') : cat;
@@ -858,6 +927,7 @@ function renderDetail(item, tab) {
   switch (tab || currentTab) {
     case 'spells': return renderSpell(item);
     case 'feats': return renderFeat(item);
+    case 'skills': return renderSkill(item);
     case 'classes': return renderClass(item);
     case 'races': return renderRace(item);
     case 'equipment': return renderEquipment(item);
@@ -879,11 +949,6 @@ function renderSpell(s) {
     [t('detail.spell.saving_throw'), s.saving_throw],
     [t('detail.spell.spell_resistance'), s.spell_resistance],
   ];
-  // Add source reference if available
-  if (s.manual_name || s.reference) {
-    const ref = [s.manual_name, s.reference].filter(Boolean).join(', ');
-    fields.push([t('source.label'), ref]);
-  }
   let html = renderDetailTitle(s) + renderFields(fields);
   // Show summary if no full description
   if (!s.desc_html && s.summary_it) {
@@ -891,6 +956,7 @@ function renderSpell(s) {
   } else {
     html += renderDesc(s.desc_html);
   }
+  html += renderSourceFooter(s);
   return html;
 }
 
@@ -902,7 +968,47 @@ function renderFeat(f) {
     [t('detail.feat.normal'), f.normal],
     [t('detail.feat.special'), f.special],
   ];
-  return renderDetailTitle(f) + renderFields(fields);
+  if (f.required_for && f.required_for.length) {
+    fields.push([t('detail.feat.required_for'), f.required_for.join(', ')]);
+  }
+  let html = renderDetailTitle(f) + renderFields(fields);
+  // Only show desc_html if structured fields are absent (avoids duplication)
+  if (!f.benefit && f.desc_html) html += renderDesc(f.desc_html);
+  html += renderSourceFooter(f);
+  return html;
+}
+
+function renderSkill(s) {
+  if (s.category === 'skill_trick') {
+    let html = renderDetailTitle(s) + renderDesc(s.desc_html);
+    html += renderSourceFooter(s);
+    return html;
+  }
+  // Regular skill
+  const fields = [
+    [t('detail.skill.key_ability'), s.key_ability],
+    [t('detail.skill.trained_only'), s.trained_only ? 'Yes' : 'No'],
+    [t('detail.skill.armor_check_penalty'), s.armor_check_penalty ? 'Yes' : 'No'],
+  ];
+  let html = renderDetailTitle(s) + renderFields(fields);
+  // Skill sections
+  const sections = [
+    ['check', t('detail.skill.check')],
+    ['action', t('detail.skill.action')],
+    ['try_again', t('detail.skill.try_again')],
+    ['special', t('detail.skill.special')],
+    ['synergy', t('detail.skill.synergy')],
+    ['restriction', t('detail.skill.restriction')],
+    ['untrained', t('detail.skill.untrained')],
+  ];
+  for (const [key, label] of sections) {
+    if (s[key]) {
+      html += `<div class="desc-html"><h4>${esc(label)}</h4>${s[key]}</div>`;
+    }
+  }
+  if (s.desc_html) html += renderDesc(s.desc_html);
+  html += renderSourceFooter(s);
+  return html;
 }
 
 function renderClass(c) {
@@ -910,22 +1016,37 @@ function renderClass(c) {
     [t('detail.class.hit_die'), c.hit_die],
     [t('detail.class.alignment'), c.alignment],
   ];
+  if (c.is_prestige === 'True' || c.is_prestige === true) {
+    fields.unshift([t('filter.all_types'), t('detail.class.prestige')]);
+  }
+  if (c.skill_points) fields.push([t('detail.class.skill_points'), c.skill_points]);
+  if (c.class_skills) {
+    const skills = Array.isArray(c.class_skills) ? c.class_skills.join(', ') : c.class_skills;
+    fields.push([t('detail.class.class_skills'), skills]);
+  }
   let html = renderDetailTitle(c) + renderFields(fields);
   if (c.table_html) {
     html += `<div class="desc-html">${c.table_html}</div>`;
   }
   html += renderDesc(c.desc_html);
+  html += renderSourceFooter(c);
   return html;
 }
 
 function renderRace(r) {
-  let html = renderDetailTitle(r);
+  const fields = [];
+  if (r.size) fields.push([t('detail.race.size'), r.size]);
+  if (r.speed) fields.push([t('detail.race.speed'), r.speed]);
+  if (r.ability_adjustments) fields.push([t('detail.race.ability_adj'), r.ability_adjustments]);
+  if (r.level_adjustment) fields.push([t('detail.race.level_adj'), r.level_adjustment]);
+  let html = renderDetailTitle(r) + renderFields(fields);
   if (r.traits && r.traits.length) {
     html += '<div class="desc-html"><ul>';
     html += r.traits.map((tr) => `<li>${tr}</li>`).join('');
     html += '</ul></div>';
   }
   html += renderDesc(r.desc_html);
+  html += renderSourceFooter(r);
   return html;
 }
 
@@ -936,7 +1057,7 @@ function renderEquipment(e) {
   html += `<div class="field"><span class="field-label">${t('detail.equip.category')}</span><div class="field-value">${esc(catLabel)}</div></div>`;
 
   const skip = new Set(['name', 'slug', '_category', 'category', 'desc_html', 'source']);
-  const entries = Object.entries(e).filter(([k]) => !skip.has(k));
+  const entries = Object.entries(e).filter(([k]) => !skip.has(k) && !k.startsWith('_'));
   for (const [key, val] of entries) {
     if (val) {
       html += `<div class="field"><span class="field-label">${esc(key)}</span><div class="field-value">${esc(String(val))}</div></div>`;
@@ -970,7 +1091,9 @@ function renderMonster(m) {
     [t('detail.monster.advancement'), m.advancement],
     [t('detail.monster.level_adjustment'), m.level_adjustment],
   ];
-  return renderDetailTitle(m) + renderFields(fields) + renderDesc(m.desc_html);
+  let html = renderDetailTitle(m) + renderFields(fields) + renderDesc(m.desc_html);
+  html += renderSourceFooter(m);
+  return html;
 }
 
 function renderRules(r) {
@@ -989,21 +1112,120 @@ function renderDetailTitle(item) {
 
 // ── Source badge ─────────────────────────────────────────────────────────
 
-function renderSourceBadge(item) {
-  if (!item.source) return '';
-  let label = item.source;
-  if (sourcesData && sourcesData[item.source]) {
+function resolveSourceAbbr(item) {
+  // Returns { key, label } for the source book abbreviation
+  if (!item.source) return null;
+  // Direct lookup by source key (e.g. "SRD", "PHB")
+  if (item.source !== 'dndtools' && sourcesData && sourcesData[item.source]) {
     const lang = getCurrentLang();
     const src = sourcesData[item.source];
-    label = src['abbreviation_' + lang] || src.abbreviation || item.source;
+    return { key: item.source, label: src['abbreviation_' + lang] || src.abbreviation || item.source };
   }
-  return `<span class="source-badge">${esc(label)}</span>`;
+  // Reverse lookup via source_book name for dndtools items
+  if (item.source_book && sourceBookMap) {
+    const norm = item.source_book.toLowerCase();
+    let key = sourceBookMap[norm];
+    // Try stripping common suffixes: " v.3.5", " v3.5", " 3.0", subtitle after ":"
+    if (!key) {
+      const stripped = norm.replace(/\s+v\.?3\.[05]$/,'').replace(/:\s.*$/,'').trim();
+      key = sourceBookMap[stripped];
+    }
+    if (key && sourcesData[key]) {
+      const lang = getCurrentLang();
+      const src = sourcesData[key];
+      return { key, label: src['abbreviation_' + lang] || src.abbreviation || key };
+    }
+    // Fallback: generate initials from source_book
+    const initials = item.source_book.split(/[\s-]+/)
+      .map(w => w[0]).filter(c => c && c === c.toUpperCase()).join('');
+    return { key: initials, label: initials };
+  }
+  return { key: item.source, label: item.source };
+}
+
+function renderSourceBadge(item) {
+  const info = resolveSourceAbbr(item);
+  if (!info) return '';
+  let html = `<span class="source-badge">${esc(info.label)}</span>`;
+  if (item.edition) {
+    html += `<span class="edition-badge edition-${item.edition === '3.0' ? '30' : '35'}">${esc(item.edition)}</span>`;
+  }
+  return html;
+}
+
+function renderSourceFooter(item) {
+  // Collect per-language references
+  // EN ref: _base_manual_name (preserved by overlay) or source_book or manual_name (when no overlay)
+  const lang = getCurrentLang();
+  const refs = [];
+
+  // EN reference
+  const enBook = item._base_manual_name || item.source_book || (lang === 'en' ? item.manual_name : '') || '';
+  const enPage = item._base_reference || (item.source_page ? `p. ${item.source_page}` : '') || (lang === 'en' ? item.reference : '') || '';
+  if (enBook) refs.push({ lang: 'EN', book: enBook, page: enPage });
+
+  // IT reference (from overlay — manual_name/reference when overlay was applied)
+  if (lang !== 'en') {
+    // When viewing in IT, manual_name is the overlay value (IT) and _base is EN
+    const itBook = item._base_manual_name ? item.manual_name : '';  // only if overlay replaced it
+    const itPage = item._base_reference ? item.reference : '';
+    if (itBook) refs.push({ lang: 'IT', book: itBook, page: itPage });
+  }
+
+  // If no overlay was applied (no _base), translate book name via sources.json
+  if (refs.length === 1 && refs[0].lang === 'EN' && lang !== 'en') {
+    let itName = '';
+    // First try reverse lookup by source_book name (most specific, e.g. "Monster Manual v.3.5" → MM)
+    if (enBook && sourceBookMap) {
+      const norm = enBook.toLowerCase();
+      let key = sourceBookMap[norm];
+      if (!key) {
+        const stripped = norm.replace(/\s+v\.?3\.[05]$/,'').replace(/:\s.*$/,'').trim();
+        key = sourceBookMap[stripped];
+      }
+      if (key && sourcesData && sourcesData[key]) {
+        itName = sourcesData[key].name_it || '';
+      }
+    }
+    // Fallback to source abbreviation key (e.g. "SRD" → sources["SRD"].name_it)
+    if (!itName) {
+      const info = resolveSourceAbbr(item);
+      if (info && sourcesData && sourcesData[info.key]) {
+        itName = sourcesData[info.key].name_it || '';
+      }
+    }
+    if (itName && itName !== enBook) {
+      refs.push({ lang: 'IT', book: itName, page: '' });
+    }
+  }
+
+  if (refs.length === 0) return '';
+
+  let html = '<div class="source-footer">';
+  for (const ref of refs) {
+    const parts = [ref.book];
+    if (ref.page) parts.push(ref.page);
+    html += `<div class="source-footer-line"><span class="source-footer-lang">${ref.lang}</span> ${esc(parts.join(', '))}</div>`;
+  }
+  if (item.source_site) {
+    html += `<div class="source-footer-site">(${esc(item.source_site)})</div>`;
+  }
+  html += '</div>';
+  return html;
 }
 
 async function loadSources() {
   try {
     const res = await fetch(`${DATA_BASE}/sources.json`);
-    if (res.ok) sourcesData = await res.json();
+    if (res.ok) {
+      sourcesData = await res.json();
+      // Build reverse map: normalised source_book name → abbreviation key
+      sourceBookMap = {};
+      for (const [key, val] of Object.entries(sourcesData)) {
+        const n = (val.name_en || '').toLowerCase();
+        if (n) sourceBookMap[n] = key;
+      }
+    }
   } catch {}
 }
 

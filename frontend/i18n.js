@@ -61,13 +61,24 @@ async function loadDataOverlay(category) {
   }
 }
 
+// Fields whose original EN value must be preserved when overlay replaces them
+const _PRESERVE_BASE_FIELDS = ['manual_name', 'reference'];
+
 function applyOverlay(data, overlayMap) {
   if (!overlayMap) return data;
   return data.map((item) => {
     const trans = overlayMap[item.slug];
     if (!trans) return item;
+    // Preserve original EN values that will be overwritten by overlay
+    const merged = { ...item };
+    for (const f of _PRESERVE_BASE_FIELDS) {
+      if (trans[f] && item[f]) {
+        merged['_base_' + f] = item[f];       // EN original
+      }
+    }
+    Object.assign(merged, trans);
+    merged.slug = item.slug;
     // Preserve original EN name for cross-reference display
-    const merged = { ...item, ...trans, slug: item.slug };
     if (trans.name && trans.name !== item.name) {
       merged._name_en = item.name;
     }
