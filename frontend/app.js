@@ -13,10 +13,16 @@ let dataCache = {};
 let debounceTimer = null;
 let sourcesData = null;
 
-// Known spellcasting class abbreviations (EN + IT)
-const SPELL_CLASSES = new Set([
-  'Brd', 'Clr', 'Drd', 'Pal', 'Rgr', 'Sor/Wiz', 'Sor', 'Wiz',
-  'Chr', 'Str/Mag', 'Str', 'Mag',
+// Known spell domains (EN + IT) — everything NOT in this set is treated as a class
+const SPELL_DOMAINS = new Set([
+  // Standard D&D 3.5 domains
+  'Air', 'Animal', 'Chaos', 'Death', 'Destruction', 'Earth', 'Evil', 'Fire',
+  'Good', 'Healing', 'Knowledge', 'Law', 'Luck', 'Magic', 'Plant',
+  'Protection', 'Strength', 'Sun', 'Travel', 'Trickery', 'War', 'Water',
+  // IT domain names
+  'Aria', 'Animale', 'Caos', 'Morte', 'Distruzione', 'Terra', 'Male', 'Fuoco',
+  'Bene', 'Guarigione', 'Conoscenza', 'Legge', 'Fortuna', 'Magia', 'Vegetale',
+  'Protezione', 'Forza', 'Sole', 'Viaggio', 'Inganno', 'Guerra', 'Acqua',
 ]);
 
 // School-of-magic color map (EN + IT names)
@@ -30,10 +36,25 @@ const SCHOOL_COLORS = {
   'necromancy': '#ef5350', 'necromanzia': '#ef5350',
   'transmutation': '#ffd54f', 'trasmutazione': '#ffd54f',
   'universal': '#b0bec5', 'universale': '#b0bec5',
+  // Tome of Battle disciplines
+  'desert wind': '#ff7043', 'devoted spirit': '#7986cb',
+  'diamond mind': '#4dd0e1', 'iron heart': '#90a4ae',
+  'setting sun': '#ffb74d', 'shadow hand': '#78909c',
+  'stone dragon': '#a1887f', 'tiger claw': '#e57373',
+  'white raven': '#e0e0e0',
 };
 
 function getSchoolColor(school) {
-  return school ? (SCHOOL_COLORS[school.toLowerCase()] || '') : '';
+  if (!school) return '';
+  const key = school.toLowerCase();
+  // Direct match
+  if (SCHOOL_COLORS[key]) return SCHOOL_COLORS[key];
+  // Combined schools (e.g. "Abjuration/Evocation") — use first school's color
+  if (key.includes('/')) {
+    const first = key.split('/')[0].trim();
+    if (SCHOOL_COLORS[first]) return SCHOOL_COLORS[first];
+  }
+  return '';
 }
 
 // ── Prepared spells (localStorage) ───────────────────────────────────────
@@ -224,7 +245,7 @@ function updateTabLabels() {
 
 function parseSpellLevels(levelStr) {
   if (!levelStr) return [];
-  return levelStr.split(',').map((part) => {
+  return levelStr.split(/[,;]/).map((part) => {
     const trimmed = part.trim();
     const match = trimmed.match(/^(.+?)\s+(\d+)$/);
     if (match) return { cls: match[1], lvl: parseInt(match[2]) };
@@ -341,15 +362,15 @@ async function populateSpellFilters() {
     schoolSel.innerHTML += `<option value="${esc(s)}">${esc(s)}</option>`;
   });
 
-  // Split classes and domains
+  // Split classes and domains (anything NOT in SPELL_DOMAINS is a class)
   const classSet = new Set();
   const domainSet = new Set();
   data.forEach((s) => {
     parseSpellLevels(s.level).forEach((l) => {
-      if (SPELL_CLASSES.has(l.cls)) {
-        classSet.add(l.cls);
-      } else {
+      if (SPELL_DOMAINS.has(l.cls)) {
         domainSet.add(l.cls);
+      } else {
+        classSet.add(l.cls);
       }
     });
   });

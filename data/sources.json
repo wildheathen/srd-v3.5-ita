@@ -100,5 +100,395 @@
     "name_it": "Codex Immondo I: Orde dell'Abisso",
     "abbreviation": "FC1",
     "abbreviation_it": "CI1"
+  },
+  "SC": {
+    "name_en": "Spell Compendium",
+    "name_it": "Spell Compendium",
+    "abbreviation": "SC",
+    "abbreviation_it": "SC"
+  },
+  "PHB2": {
+    "name_en": "Player's Handbook II",
+    "name_it": "Player's Handbook II",
+    "abbreviation": "PHB2",
+    "abbreviation_it": "PHB2"
+  },
+  "book-of-vile-darkness": {
+    "name_en": "Book of Vile Darkness",
+    "name_it": "Book of Vile Darkness",
+    "abbreviation": "BoVD",
+    "abbreviation_it": "BoVD"
+  },
+  "champions-of-ruin": {
+    "name_en": "Champions of Ruin",
+    "name_it": "Champions of Ruin",
+    "abbreviation": "CoR",
+    "abbreviation_it": "CoR"
+  },
+  "champions-of-valor": {
+    "name_en": "Champions of Valor",
+    "name_it": "Champions of Valor",
+    "abbreviation": "CoV",
+    "abbreviation_it": "CoV"
+  },
+  "city-of-splendors-waterdeep": {
+    "name_en": "City of Splendors: Waterdeep",
+    "name_it": "City of Splendors: Waterdeep",
+    "abbreviation": "CSW",
+    "abbreviation_it": "CSW"
+  },
+  "cityscape": {
+    "name_en": "Cityscape",
+    "name_it": "Cityscape",
+    "abbreviation": "Cit",
+    "abbreviation_it": "Cit"
+  },
+  "complete-champion": {
+    "name_en": "Complete Champion",
+    "name_it": "Complete Champion",
+    "abbreviation": "CC",
+    "abbreviation_it": "CC"
+  },
+  "complete-mage": {
+    "name_en": "Complete Mage",
+    "name_it": "Complete Mage",
+    "abbreviation": "CM",
+    "abbreviation_it": "CM"
+  },
+  "complete-scoundrel": {
+    "name_en": "Complete Scoundrel",
+    "name_it": "Complete Scoundrel",
+    "abbreviation": "CSc",
+    "abbreviation_it": "CSc"
+  },
+  "defenders-of-the-faith-a-guidebook-to-clerics-and-paladins": {
+    "name_en": "Defenders of the Faith",
+    "name_it": "Defenders of the Faith",
+    "abbreviation": "DotF",
+    "abbreviation_it": "DotF"
+  },
+  "deities-and-demigods": {
+    "name_en": "Deities and Demigods",
+    "name_it": "Deities and Demigods",
+    "abbreviation": "D&D",
+    "abbreviation_it": "D&D"
+  },
+  "dragon-compendium": {
+    "name_en": "Dragon Compendium",
+    "name_it": "Dragon Compendium",
+    "abbreviation": "DC",
+    "abbreviation_it": "DC"
+  },
+  "dragon-magic": {
+    "name_en": "Dragon Magic",
+    "name_it": "Dragon Magic",
+    "abbreviation": "DrM",
+    "abbreviation_it": "DrM"
+  },
+  "dragonmarked": {
+    "name_en": "Dragonmarked",
+    "name_it": "Dragonmarked",
+    "abbreviation": "DM",
+    "abbreviation_it": "DM"
+  },
+  "dragons-of-faerun": {
+    "name_en": "Dragons of Faerûn",
+    "name_it": "Dragons of Faerûn",
+    "abbreviation": "DoF",
+    "abbreviation_it": "DoF"
+  },
+  "drow-of-the-underdark": {
+    "name_en": "Drow of the Underdark",
+    "name_it": "Drow of the Underdark",
+    "abbreviation": "DotU",
+    "abbreviation_it": "DotU"
+  },
+  "eberron-campaign-setting": {
+    "name_en": "Eberron Campaign Setting",
+    "name_it": "Eberron Campaign Setting",
+    "abbreviation": "ECS",
+    "abbreviation_it": "ECS"
+  },
+  "enemies-and-allies": {
+    "name_en": "Enemies and Allies",
+    "name_it": "Enemies and Allies",
+    "abbreviation": "E&A",
+    "abbreviation_it": "E&A"
+  },
+  "epic-level-handbook": {
+    "name_en": "Epic Level Handbook",
+    "name_it": "Epic Level Handbook",
+    "abbreviation": "ELH",
+    "abbreviation_it": "ELH"
+  },
+  "expanded-psionics-handbook": {
+    "name_en": "Expanded Psionics Handbook",
+    "name_it": "Expanded Psionics Handbook",
+    "abbreviation": "XPH",
+    "abbreviation_it": "XPH"
+  },
+  "faiths-of-eberron": {
+    "name_en": "Faiths of Eberron",
+    "name_it": "Faiths of Eberron",
+    "abbreviation": "FoE",
+    "abbreviation_it": "FoE"
+  },
+  "faiths-pantheons": {
+    "name_en": "Faiths & Pantheons",
+    "name_it": "Faiths & Pantheons",
+    "abbreviation": "F&P",
+    "abbreviation_it": "F&P"
+  },
+  "fiendish-codex-ii-tyrants-of-the-nine-hells": {
+    "name_en": "Fiendish Codex II: Tyrants of the Nine Hells",
+    "name_it": "Fiendish Codex II: Tyrants of the Nine Hells",
+    "abbreviation": "FC2",
+    "abbreviation_it": "FC2"
+  },
+  "forge-war": {
+    "name_en": "The Forge of War",
+    "name_it": "The Forge of War",
+    "abbreviation": "FoW",
+    "abbreviation_it": "FoW"
+  },
+  "forgotten-realms-campaign-setting": {
+    "name_en": "Forgotten Realms Campaign Setting",
+    "name_it": "Forgotten Realms Campaign Setting",
+    "abbreviation": "FRCS",
+    "abbreviation_it": "FRCS"
+  },
+  "frostburn": {
+    "name_en": "Frostburn",
+    "name_it": "Frostburn",
+    "abbreviation": "Frs",
+    "abbreviation_it": "Frs"
+  },
+  "ghostwalk": {
+    "name_en": "Ghostwalk",
+    "name_it": "Ghostwalk",
+    "abbreviation": "Gh",
+    "abbreviation_it": "Gh"
+  },
+  "heroes-of-battle": {
+    "name_en": "Heroes of Battle",
+    "name_it": "Heroes of Battle",
+    "abbreviation": "HoB",
+    "abbreviation_it": "HoB"
+  },
+  "lords-of-darkness": {
+    "name_en": "Lords of Darkness",
+    "name_it": "Lords of Darkness",
+    "abbreviation": "LoD",
+    "abbreviation_it": "LoD"
+  },
+  "lost-empires-of-faerun": {
+    "name_en": "Lost Empires of Faerûn",
+    "name_it": "Lost Empires of Faerûn",
+    "abbreviation": "LEF",
+    "abbreviation_it": "LEF"
+  },
+  "magic-of-eberron": {
+    "name_en": "Magic of Eberron",
+    "name_it": "Magic of Eberron",
+    "abbreviation": "MoE",
+    "abbreviation_it": "MoE"
+  },
+  "magic-of-faerun": {
+    "name_en": "Magic of Faerûn",
+    "name_it": "Magic of Faerûn",
+    "abbreviation": "MoF",
+    "abbreviation_it": "MoF"
+  },
+  "magic-of-incarnum": {
+    "name_en": "Magic of Incarnum",
+    "name_it": "Magic of Incarnum",
+    "abbreviation": "MoI",
+    "abbreviation_it": "MoI"
+  },
+  "manual-of-the-planes": {
+    "name_en": "Manual of the Planes",
+    "name_it": "Manual of the Planes",
+    "abbreviation": "MoP",
+    "abbreviation_it": "MoP"
+  },
+  "masters-of-the-wild-a-guidebook-to-barbarians-druids-and-rangers": {
+    "name_en": "Masters of the Wild",
+    "name_it": "Masters of the Wild",
+    "abbreviation": "MotW",
+    "abbreviation_it": "MotW"
+  },
+  "miniatures-handbook": {
+    "name_en": "Miniatures Handbook",
+    "name_it": "Miniatures Handbook",
+    "abbreviation": "MH",
+    "abbreviation_it": "MH"
+  },
+  "monster-compendium-monsters-of-faerun": {
+    "name_en": "Monster Compendium: Monsters of Faerûn",
+    "name_it": "Monster Compendium: Monsters of Faerûn",
+    "abbreviation": "MCF",
+    "abbreviation_it": "MCF"
+  },
+  "monster-manual-iv": {
+    "name_en": "Monster Manual IV",
+    "name_it": "Monster Manual IV",
+    "abbreviation": "MM4",
+    "abbreviation_it": "MM4"
+  },
+  "oriental-adventures": {
+    "name_en": "Oriental Adventures",
+    "name_it": "Oriental Adventures",
+    "abbreviation": "OA",
+    "abbreviation_it": "OA"
+  },
+  "players-guide-to-faerun": {
+    "name_en": "Player's Guide to Faerûn",
+    "name_it": "Player's Guide to Faerûn",
+    "abbreviation": "PGF",
+    "abbreviation_it": "PGF"
+  },
+  "players-handbook-30": {
+    "name_en": "Player's Handbook 3.0",
+    "name_it": "Player's Handbook 3.0",
+    "abbreviation": "PHB3.0",
+    "abbreviation_it": "PHB3.0"
+  },
+  "power-of-faerun": {
+    "name_en": "Power of Faerûn",
+    "name_it": "Power of Faerûn",
+    "abbreviation": "PoF",
+    "abbreviation_it": "PoF"
+  },
+  "psionics-handbook-30": {
+    "name_en": "Psionics Handbook 3.0",
+    "name_it": "Psionics Handbook 3.0",
+    "abbreviation": "PsH",
+    "abbreviation_it": "PsH"
+  },
+  "races-of-eberron": {
+    "name_en": "Races of Eberron",
+    "name_it": "Races of Eberron",
+    "abbreviation": "RoE",
+    "abbreviation_it": "RoE"
+  },
+  "races-of-faerun": {
+    "name_en": "Races of Faerûn",
+    "name_it": "Races of Faerûn",
+    "abbreviation": "RoF",
+    "abbreviation_it": "RoF"
+  },
+  "races-of-the-dragon": {
+    "name_en": "Races of the Dragon",
+    "name_it": "Races of the Dragon",
+    "abbreviation": "RotD",
+    "abbreviation_it": "RotD"
+  },
+  "races-of-the-wild": {
+    "name_en": "Races of the Wild",
+    "name_it": "Races of the Wild",
+    "abbreviation": "RotW",
+    "abbreviation_it": "RotW"
+  },
+  "sandstorm": {
+    "name_en": "Sandstorm",
+    "name_it": "Sandstorm",
+    "abbreviation": "San",
+    "abbreviation_it": "San"
+  },
+  "savage-species": {
+    "name_en": "Savage Species",
+    "name_it": "Savage Species",
+    "abbreviation": "SvS",
+    "abbreviation_it": "SvS"
+  },
+  "secrets-of-sarlona": {
+    "name_en": "Secrets of Sarlona",
+    "name_it": "Secrets of Sarlona",
+    "abbreviation": "SoS",
+    "abbreviation_it": "SoS"
+  },
+  "serpent-kingdoms": {
+    "name_en": "Serpent Kingdoms",
+    "name_it": "Serpent Kingdoms",
+    "abbreviation": "SK",
+    "abbreviation_it": "SK"
+  },
+  "sharn-city-of-towers": {
+    "name_en": "Sharn: City of Towers",
+    "name_it": "Sharn: City of Towers",
+    "abbreviation": "Sha",
+    "abbreviation_it": "Sha"
+  },
+  "shining-south": {
+    "name_en": "Shining South",
+    "name_it": "Shining South",
+    "abbreviation": "ShS",
+    "abbreviation_it": "ShS"
+  },
+  "silver-marches": {
+    "name_en": "Silver Marches",
+    "name_it": "Silver Marches",
+    "abbreviation": "SM",
+    "abbreviation_it": "SM"
+  },
+  "song-and-silence-a-guidebook-to-bards-and-rogues": {
+    "name_en": "Song and Silence",
+    "name_it": "Song and Silence",
+    "abbreviation": "S&S",
+    "abbreviation_it": "S&S"
+  },
+  "stormwrack": {
+    "name_en": "Stormwrack",
+    "name_it": "Stormwrack",
+    "abbreviation": "Stw",
+    "abbreviation_it": "Stw"
+  },
+  "stronghold-builders-guidebook": {
+    "name_en": "Stronghold Builder's Guidebook",
+    "name_it": "Stronghold Builder's Guidebook",
+    "abbreviation": "SBG",
+    "abbreviation_it": "SBG"
+  },
+  "tome-and-blood-a-guidebook-to-wizards-and-sorcerers": {
+    "name_en": "Tome and Blood",
+    "name_it": "Tome and Blood",
+    "abbreviation": "T&B",
+    "abbreviation_it": "T&B"
+  },
+  "tome-of-battle-the-book-of-nine-swords": {
+    "name_en": "Tome of Battle: The Book of Nine Swords",
+    "name_it": "Tome of Battle: The Book of Nine Swords",
+    "abbreviation": "ToB",
+    "abbreviation_it": "ToB"
+  },
+  "tome-of-magic": {
+    "name_en": "Tome of Magic",
+    "name_it": "Tome of Magic",
+    "abbreviation": "ToM",
+    "abbreviation_it": "ToM"
+  },
+  "unapproachable-east": {
+    "name_en": "Unapproachable East",
+    "name_it": "Unapproachable East",
+    "abbreviation": "UE",
+    "abbreviation_it": "UE"
+  },
+  "underdark": {
+    "name_en": "Underdark",
+    "name_it": "Underdark",
+    "abbreviation": "Und",
+    "abbreviation_it": "Und"
+  },
+  "unearthed-arcana": {
+    "name_en": "Unearthed Arcana",
+    "name_it": "Unearthed Arcana",
+    "abbreviation": "UA",
+    "abbreviation_it": "UA"
+  },
+  "weapons-of-legacy": {
+    "name_en": "Weapons of Legacy",
+    "name_it": "Weapons of Legacy",
+    "abbreviation": "WoL",
+    "abbreviation_it": "WoL"
   }
 }
