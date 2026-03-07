@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INCANTESIMI (HIJK) — SRD 3.5 ITA</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Times New Roman', Georgia, serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    background: #faf8f0;
+    color: #1a1a1a;
+    line-height: 1.55;
+    font-size: 15px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 8px;
+    color: #8b0000;
+  }
+  .intro {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 28px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #8b0000;
+  }
+  .spell-block {
+    margin-bottom: 20px;
+    padding: 14px 18px;
+    background: #fff;
+    border-left: 4px solid #8b0000;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+  }
+  .spell-block h3 {
+    font-size: 1.15em;
+    color: #8b0000;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+  }
+  .spell-block .school {
+    color: #555;
+    margin-bottom: 6px;
+    font-size: 0.95em;
+  }
+  .spell-block .field {
+    margin: 1px 0;
+    font-size: 0.95em;
+  }
+  .spell-block .desc {
+    margin: 8px 0 0 0;
+    text-align: justify;
+  }
+  .spell-block p:last-child {
+    margin-bottom: 0;
+  }
+</style>
+</head>
+<body>
+<h1>INCANTESIMI (HIJK)</h1>
+<p class="intro">This material is Open Game Content, licensed under the Open Game License v1.0a.</p>
+<div class="spell-block">
+  <h3>IDENTIFICARE</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Brd 1, Magia 2, Mag/Str 1</p>
+  <p class="field"><b>Componenti:</b> V, S, M/FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 ora</p>
+  <p class="field"><b>Raggio di azione:</b> Contatto</p>
+  <p class="field"><b>Bersagli:</b> Un oggetto toccato</p>
+  <p class="field"><b>Durata:</b> Istantanea</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">Questo incantesimo determina tutte le proprietà magiche di un singolo oggetto magico, compreso il meccanismo che attiva tali funzioni (se appropriato) e quante cariche rimangono (se ve ne sono).<br>
+Identificare non funziona quando usato su un artefatto.<br>
+<br>
+<i>Componente materiale arcana:</i> Una perla del valore di almeno 100 mo, polveriz<i>za</i>ta e mescolata nel vino assieme a una piuma di gufo; la mistura deve essere bevuta prima del lancio dell'incantesimo.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMMAGINE MAGGIORE</h3>
+  <p class="school"><i>Illusione (Finzione)</i></p>
+  <p class="field"><b>Livello:</b> Brd 3, Mag/Str 3</p>
+  <p class="field"><b>Durata:</b> Concentrazione + 3 round</p>
+  <p class="desc">Funziona come <i>immagine silenziosa</i>, tranne che nell'effetto dell'incantesimo sono incluse anche le illusioni sonore, olfattive e termiche.<br>
+Concentrandosi è possibile per l'incantatore muovere l'immagine entro il raggio di azione.<br>
+L'immagine scompare se viene colpita da un avversario, a meno che non la si faccia reagire nel modo appropriato.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMMAGINE MINORE</h3>
+  <p class="school"><i>Illusione (Finzione)</i></p>
+  <p class="field"><b>Livello:</b> Brd 2, Mag/Str 2</p>
+  <p class="field"><b>Durata:</b> Concentrazione + 2 round</p>
+  <p class="desc">Funziona come <i>immagine silenziosa</i>, tranne che questo incantesimo include alcuni semplici suoni, ma non un discorso comprensibile.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMMAGINE PERMANENTE</h3>
+  <p class="school"><i>Illusione (Finzione)</i></p>
+  <p class="field"><b>Livello:</b> Brd 6, Mag/Str 6</p>
+  <p class="field"><b>Effetto:</b> Finzione che non può estendersi oltre un cubo con spigolo di 6 m + un cubo con spigolo di 3 m per livello (F)</p>
+  <p class="field"><b>Durata:</b> Permanente (I)</p>
+  <p class="desc">Funziona come <i>immagine silenziosa</i>, tranne che la finzione include elementi visivi, uditivi, olfattivi e termici, e l'incantesimo è <i>permanen</i>te.<br>
+Concentrandosi è possibile per l'incantatore muovere l'immagine entro i limiti del raggio di azione, ma essa rimane statica quando egli interrompe la concentrazione.<br>
+<br>
+<i>Componente materiale:</i> Un ciuffo di pelliccia e della polvere di giada del valore di 100 mo.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMMAGINE PERSISTENTE</h3>
+  <p class="school"><i>Illusione (Finzione)</i></p>
+  <p class="field"><b>Livello:</b> Brd 5, Mag/Str 5</p>
+  <p class="field"><b>Durata:</b> 1 minuto per livello (I)</p>
+  <p class="desc">Funziona come <i>immagine silenziosa</i>, tranne che la finzione include componenti visivi, uditivi, olfattivi e termici, e segue le istruzioni indicate dall'incantatore.<br>
+La finzione segue le sue istruzioni sen<i>za</i> che l'incantatore debba concentrarsi su di esse.<br>
+L'illusione può includere discorsi comprensibili se l'incantatore lo desidera.<br>
+<br>
+<i>Componente materiale:</i> Un ciuffo di pelliccia e parecchi granelli di sabbia.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMMAGINE PROGRAMMATA</h3>
+  <p class="school"><i>Illusione (Finzione)</i></p>
+  <p class="field"><b>Livello:</b> Brd 6, Mag/Str 6</p>
+  <p class="field"><b>Effetto:</b> Finzione visiva che non può estendersi oltre un cubo con spigolo di 6 m + un cubo con spigolo di 3 m per livello (F)</p>
+  <p class="field"><b>Durata:</b> Permanente finché non viene attivato, poi 1 round per livello</p>
+  <p class="desc">Funziona come <i>immagine silenziosa</i>, tranne che la finzione di questo incantesimo si attiva quando si verifica una condizione specifica.<br>
+La finzione include elementi visivi, uditivi, olfattivi e termici e anche un discorso comprensibile.<br>
+La condizione di attivazione (che potrebbe essere una parola particolare) viene specificata al momento del lancio.<br>
+L'evento che attiva l'illusione può essere generale o specifico e dettagliato quanto si vuole, ma deve basarsi su un'attivazione udibile, tattile, olfattiva o visiva.<br>
+L'attivazione non può basarsi su qualità non percepibili attraverso i sensi, come l'allineamento (vedi <i>bocca magica</i> per ulteriori dettagli su tali condizioni di attivazione).<br>
+<br>
+<i>Componente materiale:</i> Un ciuffo di pelliccia e polvere di giada per un valore di 25 mo.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMMAGINE PROIETTATA</h3>
+  <p class="school"><i>Illusione (Ombra)</i></p>
+  <p class="field"><b>Livello:</b> Brd 6, Mag/Str 7</p>
+  <p class="field"><b>Componenti:</b> V, S, M</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Medio (30 m + 3 m per livello)</p>
+  <p class="field"><b>Bersaglio:</b> Un duplicato ombra</p>
+  <p class="field"><b>Durata:</b> 1 round per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà dubita (se si interagisce)</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">L'incantatore attinge energia dal Piano delle Ombre per creare una versione illusoria quasi-reale di se stesso, che assomiglia, suona e odora come lui, ma è intangibile.<br>
+L'immagine proiettata ripete le sue azioni (discorsi compresi), a meno che l'incantatore non le ordini di agire diversamente (che è un'azione di movimento).<br>
+L'incantatore può vedere attraverso gli occhi e sentire attraverso le orecchie dell'immagine come se si trovasse nella sua stessa posizione, e durante il proprio turno può passare dall'usare i sensi dell'immagine all'usare i propri, o viceversa, come azione gratuita.<br>
+Quando utiliz<i>za</i> i sensi dell'immagine, il corpo dell'incantatore è considerato accecato e assordato.<br>
+Se lo desidera, qualsiasi incantesimo che lancia il cui raggio di azione sia a contatto o maggiore può scaturire dall'immagine proiettata invece che da lui.<br>
+L'immagine può lanciare su se stessa solo incantesimi di illusione.<br>
+Gli incantesimi hanno effetto su altri bersagli normalmente, nonostante abbiano origine dall'immagine proiettata.<br>
+Gli oggetti sono influen<i>za</i>ti dall'immagine proiettata come se avessero effettuato con successo il loro tiro salvez<i>za</i> sulla Volontà.<br>
+L'incantatore deve mantenere costantemente una linea di effetto tra sé e l'immagine proiettata.<br>
+Se la linea di effetto è ostruita, l'incantesimo ha termine.<br>
+Se si usa <i>porta dimensionale</i>, <i>spostamento planare</i>, <i>teletrasporto</i> o simili incantesimi che interrompono la linea di effetto, anche solo per un attimo, l'incantesimo ha termine.<br>
+<br>
+<i>Componente materiale:</i> Una replica in miniatura dell'incantatore (una bambola), che costa 5 mo per essere creata.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMMAGINE SILENZIOSA</h3>
+  <p class="school"><i>Illusione (Finzione)</i></p>
+  <p class="field"><b>Livello:</b> Brd 1, Mag/Str 1</p>
+  <p class="field"><b>Componenti:</b> V, S, F</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Lungo (120 m +12 m per livello)</p>
+  <p class="field"><b>Effetto:</b> Finzione visiva che non può estendersi oltre quattro cubi con spigolo di 3 m + un cubo con spigolo di 3 m per livello (F)</p>
+  <p class="field"><b>Durata:</b> Concentrazione</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà dubita (se si interagisce)</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">Questo incantesimo crea l'illusione visiva di un oggetto, di una creatura o di una for<i>za</i>, come viene visualiz<i>za</i>ta dall'incantatore.<br>
+L'illusione non crea suoni, odori, sensazioni tattili o di temperatura.<br>
+L'incantatore può muovere l'immagine entro i limiti dell'area di effetto.<br>
+<br>
+<i>Focus:</i> Un ciuffo di pelliccia.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMMAGINE SPECULARE</h3>
+  <p class="school"><i>Illusione (Finzione)</i></p>
+  <p class="field"><b>Livello:</b> Brd 2, Mag/Str 2</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Personale; vedi testo</p>
+  <p class="field"><b>Bersaglio:</b> <i>In</i>cantatore</p>
+  <p class="field"><b>Durata:</b> 1 minuto per livello (I)</p>
+  <p class="desc">Dal nulla scaturiscono diversi duplicati illusori dell'incantatore, che rendono difficile per i nemici determinare chi attaccare.<br>
+Le finzioni rimangono vicino all'incantatore e scompaiono una volta colpite.<br>
+<i>Immagine speculare</i> crea 1d4 immagini più una per ogni tre livelli dell'incantatore (massimo otto immagini).<br>
+Queste finzioni si separano dall'incantatore e rimangono in gruppo, ognuna entro 1,5 metri dall'incantatore o da un'altra finzione.<br>
+L'incantatore può entrare e attraversare una immagine speculare.<br>
+Quando l'incantatore e le sue immagini speculari si separano, gli osservatori non possono usare la vista o l'udito per determinare quale sia l'incantatore e quale l'immagine.<br>
+Le finzioni possono anche intersecarsi tra loro.<br>
+Esse infatti copiano le azioni dell'incantatore, fingendo ad esempio di lanciare un incantesimo mentre lui lo sta lanciando, di bere una pozione mentre è lui a farlo, di levitare mentre lui levita e così via.<br>
+I nemici che tentano di attaccare o di lanciare incantesimi contro l'incantatore devono scegliere a caso fra bersagli non distinguibili fra loro.<br>
+Come regola generica, si tira a caso per determinare se il bersaglio è reale o una finzione.<br>
+Ogni attacco riuscito contro una finzione la distrugge.<br>
+La CA di un'immagine è 10 + il modificatore di taglia dell'incantatore + il modificatore di Destrez<i>za</i> dell'incantatore.<br>
+Le finzioni sembrano reagire normalmente agli incantesimi ad area (se colpite da una palla di fuoco, ad esempio, appaiono bruciacchiate o morte).<br>
+Mentre si muove, l'incantatore può fondersi e separarsi da altre finzioni in modo tale che un nemico che abbia capito quale immagine sia reale venga nuovamente confuso.<br>
+Chi attacca deve essere in grado di vedere le immagini per essere ingannato.<br>
+Se l'incantatore è invisibile o se chi lo attacca chiude gli occhi, l'incantesimo non ha alcun effetto, anche se essere incapaci di vedere comporta le stesse penalità che essere accecato.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMMUNITÀ AGLI INCANTESIMI</h3>
+  <p class="school"><i>Abiurazione</i></p>
+  <p class="field"><b>Livello:</b> Chr 4, <b>For<i>za</i></b> 4, Protezione 4</p>
+  <p class="field"><b>Componenti:</b> V, S, FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Contatto</p>
+  <p class="field"><b>Bersaglio:</b> Creatura toccata</p>
+  <p class="field"><b>Durata:</b> 10 minuti per livello</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà nega (innocuo)</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì (innocuo)</p>
+  <p class="desc">La creatura protetta è immune agli effetti di un incantesimo specifico per ogni quattro livelli dell'incantatore.<br>
+L'incantesimo deve essere di 4° livello o inferiore.<br>
+La creatura ha praticamente una resisten<i>za</i> agli incantesimi imbattibile per quanto riguarda l'incantesimo o gli incantesimi specificati.<br>
+Naturalmente, questa immunità non la protegge dagli incantesimi per i quali non si applica la resisten<i>za</i> agli incantesimi.<br>
+Immunità agli incantesimi protegge dagli incantesimi, dagli effetti magici di oggetti magici e dalle capacità magiche innate delle creature.<br>
+Non protegge da capacità soprannaturali o straordinarie, come armi a soffio e attacchi con lo sguardo.<br>
+Questa protezione vale solo contro un incantesimo particolare, non contro un certo dominio o una scuola di magia o un gruppo di incantesimi che hanno effetti simili.<br>
+Quindi, una creatura immune al fulmine è ancora vulnerabile a incantesimi come stretta folgorante e catena di fulmini.<br>
+Una creatura può essere sotto l'effetto di un solo incantesimo <i>immunità agli incantesimi</i> o <i>immunità agli incantesimi superiore</i> alla volta.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMMUNITÀ AGLI INCANTESIMI SUPERIORE</h3>
+  <p class="school"><i>Abiurazione</i></p>
+  <p class="field"><b>Livello:</b> Chr 8 Funziona come <i>immunità agli incantesimi</i>, ma l'immunità si applica agli incantesimi di 8° livello o inferiore. Una creatura può avere attivo su di sé un solo <i>immunità agli incantesimi</i> o <i>immunità agli incantesimi superiore</i> alla volta.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMPLOSIONE</h3>
+  <p class="school"><i>Invocazione</i></p>
+  <p class="field"><b>Livello:</b> Chr 9, Distruzione 9</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Vicino (7,5 m + 1,5 m per ogni 2 livelli)</p>
+  <p class="field"><b>Bersagli:</b> Una creatura corporea per round</p>
+  <p class="field"><b>Durata:</b> Concentrazione (fino a 4 round)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Tempra nega</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">L'incantatore è in grado di creare una risonan<i>za</i> distruttiva nel corpo fisico di una creatura.<br>
+Per ogni round in cui si concentra, può far sì che una creatura collassi su se stessa, uccidendola. (Questo effetto, in quanto istantaneo, non può essere dissolto).<br>
+L'incantatore può scegliere come bersaglio una particolare creatura una sola volta per ogni lancio dell'incantesimo.<br>
+<i>Implosione</i> non ha effetto su creature in forma gassosa o su creature incorporee.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IMPRIGIONARE</h3>
+  <p class="school"><i>Abiurazione</i></p>
+  <p class="field"><b>Livello:</b> Mag/Str 9</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Contatto</p>
+  <p class="field"><b>Bersaglio:</b> Creatura toccata</p>
+  <p class="field"><b>Durata:</b> Istantanea</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà nega; vedi testo</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">Quando l'incantatore lancia <i>imprigionare</i>, la creatura toccata viene sepolta in una sfera magica nelle profondità della terra, in uno stato di animazione sospesa (vedi l'incantesimo <i>stasi temporale</i>).<br>
+La vittima rimane dov'è fino a quando nel luogo in cui è stata imprigionata non viene lanciato l'incantesimo <i>libertà</i>.<br>
+Nessuna ricerca magica, tramite l'utilizzo di una <i>sfera dicristallo</i>, dell'incantesimo <i>localizza oggetto</i> o di qualche altra divinazione simile, è in grado di rivelare la presen<i>za</i> di una creatura imprigionata, con l'eccezione di <i>rivela locazioni</i>.<br>
+Gli incantesimi <i>desiderio</i> o <i>miracolo</i> non sono in grado di liberare il bersaglio, ma possono dare informazioni sul luogo in cui è stato sepolto.<br>
+Se l'incantatore è a conoscen<i>za</i> del nome e di qualche dettaglio della vita del bersaglio, quest'ultimo subisce una penalità di -4 al suo tiro salvez<i>za</i>.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INARIDIRE</h3>
+  <p class="school"><i>Necromanzia</i></p>
+  <p class="field"><b>Livello:</b> Drd 4, Mag/Str 5</p>
+  <p class="field"><b>Componenti:</b> V, S, FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Contatto</p>
+  <p class="field"><b>Durata:</b> Istantanea</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Tempra dimez<i>za</i>; vedi testo</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">L'incantesimo fa appassire un singolo vegetale di qualsiasi taglia.<br>
+Una creatura vegetale influen<i>za</i>ta subisce 1d6 danni per livello dell'incantatore (fino a un massimo di 15d6) e può tentare un tiro salvez<i>za</i> sulla Tempra per dimez<i>za</i>re i danni.<br>
+Un vegetale che non sia una creatura (come un albero o un cespuglio) non ha diritto al tiro salvez<i>za</i> e avvizzisce immediatamente e muore.<br>
+L'incantesimo non ha effetto sul suolo o sulla vita vegetale circostante.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INCUBO</h3>
+  <p class="school"><i>Illusione (Allucinazione) [Influenza mentale, Male]</i></p>
+  <p class="field"><b>Livello:</b> Brd 5, Mag/Str 5</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 10 minuti</p>
+  <p class="field"><b>Raggio di azione:</b> Illimitato</p>
+  <p class="field"><b>Bersaglio:</b> Una creatura vivente</p>
+  <p class="field"><b>Durata:</b> Istantanea</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà nega; vedi testo</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">L'incantatore invia una visione allucinante, orribile e sconvolgente a una creatura che deve essere nominata o designata specificatamente.<br>
+L'incubo le impedisce di dormire e quindi riposare, e le infligge 1d10 danni.<br>
+<i>In</i>oltre, la lascia affaticata e incapace di riacquisire incantesimi arcani per le successive 24 ore.<br>
+La difficoltà del tiro salvez<i>za</i> dipende da quanto bene l'incantatore conosce il soggetto e da che tipo di connessione fisica (se ve n'è alcuna) c'è tra l'incantatore e quella creatura.<br>
+<b>Conoscen<i>za</i>Modificatore al tiro salvez<i>za</i> sulla Volontà</b> Nessuna1                                                 +10 Di seconda mano (l'incantatore ha sentito parlare del soggetto) +5 Prima mano (l'incantatore ha conosciuto il soggetto)     +0 Familiare (l'incantatore conosce bene il soggetto)       -5 1 L'incantatore deve avere un qualche tipo di connessione con la creatura di cui non ha alcuna conoscen<i>za</i>.<br>
+<b>Conoscen<i>za</i>Modificatore al tiro salvez<i>za</i> sulla Volontà</b> Immagine o ritratto                                      -2 Proprietà o vestito                                      -4 Parte del corpo, ciuffo di capelli, pezzo d'unghia ecc.  -10 <i>Dissolvi il male</i>, se lanciato sul bersaglio nel momento in cui l'incantatore sta lanciando l'incantesimo, lo dissolve, lasciando l'incantatore stordito per 10 minuti per ogni livello dell'incantatore che ha lanciato <i>dissolvi il male</i>.<br>
+Se il bersaglio è sveglio nel momento in cui inizia l'incantesimo, l'incantatore può scegliere se interrompere il processo di lancio (terminando l'incantesimo) o entrare in trance fino al momento in cui il bersaglio non si addormenta, momento in cui si sveglia e può completare l'incantesimo.<br>
+Se l'incantatore viene disturbato durante la trance, deve superare una prova di Concentrazione come se fosse nel bel mezzo del lancio di un incantesimo oppure l'incantesimo ha termine.<br>
+Se l'incantatore decide di entrare in trance, rimane completamente isolato da ciò che accade intorno.<br>
+Nello stato di trance è indifeso, sia fisicamente che mentalmente. (L'incantatore fallisce automaticamente qualsiasi tiro salvez<i>za</i>, ad esempio).<br>
+Le creature che non dormono o non sognano sono immuni a questo incantesimo.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INCUTI PAURA</h3>
+  <p class="school"><i>Necromanzia, [Influenza mentale, Paura]</i></p>
+  <p class="field"><b>Livello:</b> Brd 1, Chr 1, Mag/Str 1, Morte 1</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Vicino (7,5 m + 1,5 m per ogni 2 livelli)</p>
+  <p class="field"><b>Bersaglio:</b> Una creatura vivente con 5 o meno <b>DV</b></p>
+  <p class="field"><b>Durata:</b> 1d4 round o 1 round; vedi testo</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà parziale</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">La creatura soggetta all'incantesimo diventa spaventata.<br>
+Se il soggetto supera un tiro salvez<i>za</i> sulla Volontà, è scosso per 1 round.<br>
+Le creature con 6 o più Dadi Vita sono immuni a questo incantesimo.<br>
+<i>In</i>cuti paura contrasta e dissolve rimuovi paura.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DI ANIMALI O VEGETALI</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Drd 1, Rgr 1</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Lungo (120 m + 12 m per livello)</p>
+  <p class="field"><b>Area:</b> Emanazione a forma di cono</p>
+  <p class="field"><b>Durata:</b> Concentrazione, fino a 10 minuti per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">L'incantatore è in grado di individuare un tipo particolare di animali o vegetali all'interno di un cono che ha origine dall'incantatore e si irradia nella direzione in cui questi guarda.<br>
+Quando l'incantatore lancia questo incantesimo, deve pensare a una specie di animale o vegetale, che può cambiare ad ogni round di utilizzo.<br>
+La quantità di informazioni che ottiene varia in base al tempo utiliz<i>za</i>to per esplorare l'area o in base al tipo di animale o di vegetale su cui l'incantatore si concentra: <i>1° round:</i> Presen<i>za</i> o assen<i>za</i> del tipo di animale o vegetale in quell'area. <i>2° round:</i> Numero di esemplari del tipo specificato nell'area e condizioni di quelli più in salute. <i>3° round:</i> Condizione (vedi sotto) e posizione di ogni esemplare presente.<br>
+Se l'animale o il vegetale sono al di fuori della linea di visuale, l'incantatore riesce a capirne la direzione ma non la posizione precisa.<br>
+<i>Condizioni:</i> Ai fini dell'incantesimo, le categorie delle condizioni degli esemplari sono le seguenti:<br>
+<i>Normali:</i> Possiede almeno il 90% dei normali punti ferita totali e non ha malattie.<br>
+<i>Buone:</i> Gli rimangono dal 30% al 90% dei normali punti ferita totali.<br>
+<i>Cattive:</i> Gli rimangono meno del 30% dei normali punti ferita totali, è afflitto da una malattia oppure da una ferita debilitante.<br>
+<i>Deboli:</i> 0 o meno punti ferita rimanenti, afflitto da una malattia al suo stadio terminale o menomato.<br>
+Se la creatura ricade in più di una categoria, l'incantesimo indica la più debole delle due.<br>
+Ad ogni round l'incantatore può voltarsi per individuare una specie di animale o vegetale in una nuova area.<br>
+L'incantesimo è in grado di oltrepassare le normali barriere, ma viene bloccato da 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno o detriti.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DEL BENE</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Chr 1 Funziona come <i>individuazione del male</i>, ma individua le aure di creature buone, chierici o paladini di divinità buone, incantesimi del bene e oggetti magici buoni, e se l'incantatore è malvagio, è vulnerabile agli effetti di un'aura buona schiacciante. Bisogna inoltre ricordare che pozioni curative, antidoti e simili oggetti benefici non sono buoni.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DI CALAPPI E TRABOCCHETTI</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Drd 1, Rgr 1</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> 18 m</p>
+  <p class="field"><b>Area:</b> Emanazione a forma di cono</p>
+  <p class="field"><b>Durata:</b> Concentrazione, fino a 10 minuti per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">L'incantatore è in grado di individuare semplici trabocchetti, strapiombi e calappi come anche trappole meccaniche costruite con materiali naturali.<br>
+Questo incantesimo non individua trappole complesse, tra cui le trappole a botola.<br>
+L'incantesimo rivela anche certi pericoli naturali: sabbie mobili (indicate come calappi), gorghi (come trabocchetti) o pareti poco stabili di roccia naturale (strapiombi).<br>
+Non rivela, tuttavia, eventuali condizioni potenzialmente pericolose, come caverne che possono allagarsi durante una pioggia, una costruzione dal soffitto instabile o una pianta naturalmente velenosa.<br>
+Non individua neanche trappole magiche (eccettuate quelle che fanno uso di trabocchetti, strapiombi e calappi; vedi l'incantesimo <i>calappio</i>), meccanicamente complesse o che siano state rese sicure o disarmate.<br>
+La quantità di informazioni che l'incantatore ottiene varia in base al tempo utiliz<i>za</i>to per studiare un'area particolare. <i>1° round:</i> Presen<i>za</i> o assen<i>za</i> di pericoli. <i>2° round:</i> Numero di pericoli e posizione di ognuno.<br>
+Se un pericolo si trova al di fuori della linea di visuale, l'incantatore riesce a capirne la direzione ma non la posizione precisa.<br>
+<i>Ogni round aggiuntivo:</i> La categoria di appartenen<i>za</i> e il metodo di attivazione di un pericolo accuratamente esaminato.<br>
+Ad ogni round l'incantatore può voltarsi per individuare calappi e trabocchetti in una nuova area.<br>
+L'incantesimo è in grado di oltrepassare le normali barriere, ma viene bloccato da 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno o detriti.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DEL CAOS</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Chr 1 Funziona come <i>individuazione del male</i>, ma individua le aure di creature caotiche, chierici di divinità caotiche, incantesimi del caos e oggetti magici caotici; se l'incantatore è legale, è vulnerabile agli effetti di un'aura caotica schiacciante.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DELLA LEGGE</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Chr 1 Funziona come <i>individuazione del male</i>, ma individua le aure di creature legali, chierici di divinità legali, incantesimi della legge e oggetti magici legali; se l'incantatore è caotico, è vulnerabile agli effetti di un'aura legale schiacciante.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DEL MAGICO</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Brd 0, Chr 0, Drd 0, Mag/Str 0</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> 18 m</p>
+  <p class="field"><b>Area:</b> Emanazione a forma di cono</p>
+  <p class="field"><b>Durata:</b> Concentrazione, fino a 1 minuto per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">L'incantatore è in grado di individuare aure magiche.<br>
+La quantità di informazioni che ottiene varia in base al tempo che impiega per studiare un'area o un soggetto particolari: <i>1° round:</i> Presen<i>za</i> o assen<i>za</i> di aure magiche. <i>2° round:</i> Numero di differenti aure magiche e for<i>za</i> dell'aura più potente. <i>3° round:</i> La for<i>za</i> e la posizione di ogni aura.<br>
+Se gli oggetti o le creature a cui appartiene l'aura sono sulla linea di visuale dell'incantatore, questi può effettuare prove di Sapien<i>za</i> Magica per determinare la scuola di magia di ognuno di essi. (Effettuare una prova per ogni aura; CD 15 + il livello dell'incantesimo, o 15 + metà del livello dell'incantatore per effetti che non siano incantesimi.) Aree magiche, molteplici tipi di magia o emanazioni magiche locali particolarmente forti potrebbero confondere o occultare le aure più deboli.<br>
+<b>For<i>za</i></b> dell'aura: Il potere di un'aura dipende dal livello dell'incantesimo in funzione o dal livello dell'incantatore di un oggetto.<br>
+Se un'aura ricade in più di una categoria, <i>individuazione del magico</i> indica la più forte delle due.<br>
+Protrarsi dell'aura: Un'aura magica si protrae anche dopo che la sua fonte originaria si disperde (nel caso di un incantesimo) o viene distrutta (nel caso di un oggetto magico).<br>
+Se <i>individuazione del magico</i> viene lanciato e diretto verso quella locazione, l'incantesimo indica un'aura flebile (ancora meno forte di un'aura debole).<br>
+Quanto a lungo l'aura permane a questo livello così flebile dipende dalla sua for<i>za</i> originaria: <b>For<i>za</i> originariaDurata del protrarsi</b> dell'aura <b>Debole</b>            1d6 round Moderata          1d6 minuti <b>Forte</b>             1d6 x 10 minuti <b>Schiacciante</b>      1d6 giorni Gli esterni e gli elementali non sono creature magiche in sé, ma nel caso vengano evocati l'incantesimo di evocazione utiliz<i>za</i>to viene individuato.<br>
+Ad ogni round l'incantatore può voltarsi per individuare la presen<i>za</i> di magia in una nuova area.<br>
+L'incantesimo è in grado di oltrepassare le normali barriere, ma viene bloccato da 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno o detriti.<br>
+<b><i>Individuazione del magico</i></b> può essere reso <i>permanen</i>te da un incantesimo <i>permanenza</i>.<br>
+<b><i>Individuazione del magico</i></b> ­­­­­­­­­­­­­­­­­­ Potere dell'aura ­­­­­­­­­­­­­­­­­­­­­ <b><i>In</i>cantesimo od oggettoDeboleModeratoForteSchiacciante</b> <i>In</i>cantesimo attivo (livello dell'incantesimo) 3° o meno 4°-6°  7°-9° 10° o più (livello divinità) Oggetto magico (livello dell'incantatore) 5° o meno 6°-11°     12°-20° 21° o più (artefatto)</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DEL MALE</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Chr 1</p>
+  <p class="field"><b>Componenti:</b> V, S, FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> 18 m</p>
+  <p class="field"><b>Area:</b> Emanazione a forma di cono</p>
+  <p class="field"><b>Durata:</b> Concentrazione, fino a 10 minuti per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">L'incantatore è in grado di percepire la presen<i>za</i> del male.<br>
+La quantità di informazioni che ottiene varia in base al tempo che impiega per studiare un'area o un soggetto particolari. <i>1° round:</i> Presen<i>za</i> o assen<i>za</i> del male. <i>2° round:</i> Numero di aure malvagie (creature, oggetti o incantesimi) nell'area e for<i>za</i> dell'aura presente più potente.<br>
+Se l'incantatore è di allineamento buono, e la for<i>za</i> dell'aura malvagia più potente è schiacciante (vedi sotto) e i <b>DV</b> o il livello della fonte dell'aura è almeno il doppio del livello dell'incantatore, questi rimane stordito per 1 round e l'incantesimo termina. <i>3° round:</i> La for<i>za</i> e la posizione di ogni aura presente.<br>
+Se un'aura è al di fuori della sua linea di visuale, l'incantatore riesce a capirne la direzione ma non la posizione precisa.<br>
+Potere dell'aura: Il potere di un'aura malvagia dipende dal tipo di oggetto o creatura malvagia individuata, dai suoi <b>DV</b>, dal suo livello dell'incantatore o (nel caso di un chierico) dal suo livello di classe; vedi la tabella più sotto.<br>
+Se un'aura ricade in più di una categoria, l'incantesimo indica la più forte delle due.<br>
+Protrarsi dell'aura: Un'aura malvagia si protrae anche dopo che la sua fonte originaria si disperde (nel caso di un incantesimo) o viene distrutta (nel caso di una creatura od oggetto magico).<br>
+Se <i>individuazione del male</i> viene lanciato e diretto verso quella locazione, l'incantesimo indica un'aura flebile (ancora meno forte di un'aura debole).<br>
+Quanto a lungo l'aura permane a questo livello così flebile dipende dalla sua for<i>za</i> originaria: <b>For<i>za</i> originariaDurata del protrarsi</b> dell'aura <b>Debole</b>                 1d6 round Moderata               1d6 minuti <b>Forte</b>                  1d6 x 10 minuti <b>Schiacciante</b>           1d6 giorni Gli animali, le trappole, i veleni e altri potenziali pericoli non sono malvagi, e quindi questo incantesimo non li individua.<br>
+Ad ogni round l'incantatore può voltarsi per individuare il male in una nuova area.<br>
+L'incantesimo è in grado di oltrepassare le normali barriere, ma viene bloccato da 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno o detriti.<br>
+<b><i>In</i>dividuazione del male</b> ­­­­­­­­­­­­­­ Potere dell'aura ­­­­­­­­­­­­­­ <b>Creatura/oggettoDeboleModeratoForteSchiacciante</b> Creatura malvagia1 (<b>DV</b>)                                 10 o meno            11-25 26-50 51 o più Non morto (<b>DV</b>)                                          2 o meno             3-8  9-20 21 o più Esterno malvagio (<b>DV</b>)                                   1 o meno             2-4  5-10 11 o più Chierico di una divinità malvagia2 (livelli di classe)                            5-10 11 o più 1                    2-4 Oggetto magico o incantesimo del male (livello dell'incantatore) 2° o meno 3°-8°  9°-20° 21° o più 1 Tranne che per non morti ed esterni che hanno la loro riga nella tabella. 2 Alcuni personaggi che non sono chierici possono irradiare un'aura di potere equivalente.<br>
+La descrizione di classe indicherà se questo si applica.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DEI NON MORTI</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Chr 1, Mag/Str 1, Pal 1</p>
+  <p class="field"><b>Componenti:</b> V, S, M/FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> 18 m</p>
+  <p class="field"><b>Area:</b> Emanazione a forma di cono</p>
+  <p class="field"><b>Durata:</b> Concentrazione, fino a 1 minuto per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">L'incantatore è in grado di individuare l'aura che circonda le creature non morte.<br>
+La quantità di informazioni che ottiene varia in base al tempo che impiega per studiare un'area particolare. <i>1° round:</i> Presen<i>za</i> o assen<i>za</i> di aure di non morti. <i>2° round:</i> Numero di aure di non morti nell'area e for<i>za</i> dell'aura non morta più potente presente.<br>
+Se l'incantatore è di allineamento buono, la for<i>za</i> dell'aura non morta più potente è schiacciante (vedi sotto) e la creatura ha <b>DV</b> di almeno il doppio del livello dell'incantatore, questi rimane stordito per 1 round e l'incantesimo termina. <i>3° round:</i> La for<i>za</i> e la posizione di ogni aura non morta.<br>
+Se un'aura è al di fuori della sua linea di visuale, l'incantatore riesce a capirne la direzione ma non la posizione precisa.<br>
+<b>For<i>za</i></b> dell'aura: La for<i>za</i> dell'aura non morta è determinata dai <b>DV</b> della creatura non morta, come indicato nella tabella che segue: <b>DVFor<i>za</i></b> 1 o meno          <b>Debole</b> 2-4               Moderata 5-10              <b>Forte</b> 11 o più          <b>Schiacciante</b> Protrarsi dell'aura: Un'aura non morta si protrae anche dopo che la sua fonte originaria è stata distrutta.<br>
+Se <i>individuazionedei non morti</i> viene lanciato e diretto verso quella locazione, l'incantesimo indica un'aura flebile (ancora meno forte di un'aura debole).<br>
+Quanto a lungo l'aura permane a questo livello così flebile dipende dalla sua for<i>za</i> originaria: <b>For<i>za</i> originariaDurata del protrarsi</b> dell'aura <b>Debole</b>            1d6 round Moderata          1d6 minuti <b>Forte</b>             1d6 x 10 minuti <b>Schiacciante</b>      1d6 giorni Ad ogni round l'incantatore può voltarsi per individuare non morti in una nuova area.<br>
+L'incantesimo è in grado di oltrepassare le barriere, ma viene bloccato di fronte a 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno o detriti.<br>
+<br>
+<i>Componente materiale arcana:</i> Una manciata di terra da una tomba.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DEI PENSIERI</h3>
+  <p class="school"><i>Divinazione [Influenza mentale]</i></p>
+  <p class="field"><b>Livello:</b> Brd 2, <b>Conoscen<i>za</i></b> 2, Mag/Str 2</p>
+  <p class="field"><b>Componenti:</b> V, S, F/FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> 18 m</p>
+  <p class="field"><b>Area:</b> Emanazione a forma di cono</p>
+  <p class="field"><b>Durata:</b> Concentrazione, fino a 1 minuto per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà nega; vedi testo</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">L'incantatore è in grado di individuare i pensieri superficiali.<br>
+La quantità di informazioni che ottiene varia in base al tempo che impiega per studiare un'area o un soggetto particolari. <i>1° round:</i> Presen<i>za</i> o assen<i>za</i> di pensieri (da creature coscienti con punteggi di <i>In</i>telligen<i>za</i> pari o superiori a 1). <i>2° round:</i> Numero di menti pensanti e punteggio di <i>In</i>telligen<i>za</i> di ognuna.<br>
+Se l'<i>In</i>telligen<i>za</i> più alta è 26 o più (ed è almeno 10 punti più alta del punteggio di <i>In</i>telligen<i>za</i> dell'incantatore), l'incantatore è stordito per 1 round e l'incantesimo termina.<br>
+Questo incantesimo non permette all'incantatore di determinare la posizione delle menti pensanti se non riesce a vedere le creature di cui sta individuando i pensieri. <i>3° round:</i> I pensieri superficiali di ogni mente nell'area.<br>
+Un tiro salvez<i>za</i> sulla Volontà da parte della creatura impedisce di leggere i suoi pensieri, e l'incantatore deve lanciare di nuovo <i>individuazione</i> dei pensieri se vuole avere un'altra opportunità.<br>
+Le creature con <i>In</i>telligen<i>za</i> animale (<i>In</i>t 1 o 2) hanno pensieri semplici e istintivi che l'incantatore è in grado di cogliere.<br>
+Ad ogni round l'incantatore può voltarsi per individuare pensieri in una nuova area.<br>
+L'incantesimo è in grado di oltrepassare le normali barriere, ma viene bloccato da 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno o detriti.<br>
+<br>
+<i>Focus arcano:</i> Una moneta di rame.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DELLE PORTE SEGRETE</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Brd 1, <b>Conoscen<i>za</i></b> 1, Mag/Str 1</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> 18 m</p>
+  <p class="field"><b>Area:</b> Emanazione a forma di cono</p>
+  <p class="field"><b>Durata:</b> Concentrazione, fino a 1 minuto per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">L'incantatore è in grado di individuare porte, nicchie, compartimenti e altri passaggi segreti.<br>
+Questo incantesimo individua soltanto porte, passaggi o aperture appositamente costruite per sfuggire all'<i>individuazione</i>.<br>
+La quantità di informazioni che l'incantatore ottiene varia in base al tempo che impiega per studiare un'area o un soggetto particolari. <i>1° round:</i> Presen<i>za</i> o assen<i>za</i> di porte segrete. <i>2° round:</i> Numero di porte segrete e posizione di ognuna.<br>
+Se un'aura si trova al di fuori della linea di visuale, l'incantatore riesce a capirne la direzione ma non la posizione precisa.<br>
+<i>Ogni round aggiuntivo:</i> Il meccanismo o il metodo di attivazione di una porta segreta accuratamente esaminata.<br>
+Ad ogni round l'incantatore può voltarsi per individuare porte segrete in una nuova area.<br>
+L'incantesimo è in grado di oltrepassare le normali barriere, ma viene bloccato da 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno o detriti.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DELLO SCRUTAMENTO</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Brd 4, Mag/Str 4</p>
+  <p class="field"><b>Componenti:</b> V, S, M</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> 12 m</p>
+  <p class="field"><b>Area:</b> Emanazione del raggio di 12 m centrato sull'incantatore</p>
+  <p class="field"><b>Durata:</b> 24 ore</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">L'incantatore si accorge immediatamente di qualsiasi tentativo di osservarlo attraverso incantesimi o effetti di divinazione (scrutamento).<br>
+L'area dell'incantesimo si irradia dall'incantatore e si muove con lui.<br>
+All'incantatore viene resa nota la locazione di ogni sensore magico all'interno dell'area dell'incantesimo.<br>
+Se il tentativo di scrutamento ha origine all'interno dell'area, viene resa nota anche la sua locazione.<br>
+Se invece ha luogo al di fuori dell'area, l'incantatore e colui che tenta di osservarlo effettuano immediatamente una prova contrapposta di livello dell'incantatore (1d20+livello dell'incantatore).<br>
+Se l'incantatore riesce almeno a ottenere un risultato pari a chi tentava di osservarlo, ottiene un'immagine della sua identità e una sensazione accurata della sua direzione e della sua distan<i>za</i>.<br>
+<br>
+<i>Componente materiale:</i> Un frammento di uno specchio e un piccolo corno acustico d'ottone.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INDIVIDUAZIONE DEL VELENO</h3>
+  <p class="school"><i>Divinazione</i></p>
+  <p class="field"><b>Livello:</b> Chr 0, Drd 0, Mag/Str 0, Pal 1, Rgr 1</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Vicino (7,5 m + 1,5 m per ogni 2 livelli) Bersaglio o</p>
+  <p class="field"><b>Area:</b> Una creatura, un oggetto, o un cubo con spigolo di 1,5 m</p>
+  <p class="field"><b>Durata:</b> Istantanea</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">L'incantatore è in grado di determinare se una creatura, un oggetto o un'area sono stati avvelenati o se sono velenosi.<br>
+Egli può determinare l'esatto tipo di veleno con una prova riuscita di Saggez<i>za</i> con CD 20.<br>
+Se l'incantatore possiede l'abilità Artigianato (alchimia), può tentare di superare una prova di Artigianato (alchimia) con CD 20 qualora la prova di Saggez<i>za</i> fallisca, oppure può effettuare la prova di Artigianato (alchimia) anche prima della prova di Saggez<i>za</i>.<br>
+L'incantesimo è in grado di oltrepassare le normali barriere, ma viene bloccato da 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno o detriti.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INFLIGGI FERITE CRITICHE</h3>
+  <p class="school"><i>Necromanzia</i></p>
+  <p class="field"><b>Livello:</b> Chr 4, Distruzione 4 Funziona come <i>infliggi ferite leggere</i>, ma infligge 4d8 danni +1 danno per livello dell'incantatore (massimo +20).</p>
+</div>
+
+<div class="spell-block">
+  <h3>INFLIGGI FERITE CRITICHE DI MASSA</h3>
+  <p class="school"><i>Necromanzia</i></p>
+  <p class="field"><b>Livello:</b> Chr 8 Funziona come <i>infliggi ferite leggere di massa</i>, ma infligge 4d8 danni +1 danno per livello dell'incantatore (massimo +40).</p>
+</div>
+
+<div class="spell-block">
+  <h3>INFLIGGI FERITE GRAVI</h3>
+  <p class="school"><i>Necromanzia</i></p>
+  <p class="field"><b>Livello:</b> Chr 3 Funziona come <i>infliggi ferite leggere</i>, ma infligge 3d8 danni +1 danno per livello dell'incantatore (massimo +15).</p>
+</div>
+
+<div class="spell-block">
+  <h3>INFLIGGI FERITE GRAVI DI MASSA</h3>
+  <p class="school"><i>Necromanzia</i></p>
+  <p class="field"><b>Livello:</b> Chr 7 Funziona come <i>infliggi ferite leggere di massa</i>, ma infligge 3d8 danni +1 danno per livello dell'incantatore (massimo +35).</p>
+</div>
+
+<div class="spell-block">
+  <h3>INFLIGGI FERITE LEGGERE</h3>
+  <p class="school"><i>Necromanzia</i></p>
+  <p class="field"><b>Livello:</b> Chr 1, Distruzione 1</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Contatto</p>
+  <p class="field"><b>Bersaglio:</b> Creatura toccata</p>
+  <p class="field"><b>Durata:</b> Istantanea</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà dimez<i>za</i></p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">Appoggiando la mano su una creatura, l'incantatore infonde energia negativa che infligge 1d8 danni +1 danno per livello dell'incantatore (massimo +5).<br>
+Dal momento che i non morti sono animati da energia negativa, questo incantesimo cura un numero equivalente di danni su di essi, piuttosto che infliggere loro ferite.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INFLIGGI FERITE LEGGERE DI MASSA</h3>
+  <p class="school"><i>Necromanzia</i></p>
+  <p class="field"><b>Livello:</b> Chr 5, Distruzione 5</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Vicino (7,5 m + 1,5 per ogni 2 livelli)</p>
+  <p class="field"><b>Bersaglio:</b> Una creatura per livello, che non possono trovarsi a più di 9 m l'una dall'altra</p>
+  <p class="field"><b>Durata:</b> Istantanea</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà dimez<i>za</i></p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">Energia negativa si propaga in tutte le direzioni dal punto di origine, infliggendo 1d8 danni +1 danno per livello dell'incantatore (massimo +25) alle creature viventi nelle vicinanze.<br>
+Come gli altri incantesimi infliggere, <i>infliggi ferite leggere di massa</i> cura i non morti nella sua area di effetto anziché danneggiarli.<br>
+Un chierico in grado di lanciare spontaneamente gli incantesimi infliggere, può lanciare spontaneamente anche gli incantesimi infliggere di massa.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INFLIGGI FERITE MINORI</h3>
+  <p class="school"><i>Necromanzia</i></p>
+  <p class="field"><b>Livello:</b> Chr 0</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà nega</p>
+  <p class="desc">Funziona come <i>infliggi ferite leggere</i>, ma infligge solo 1 danno e un tiro salvez<i>za</i> sulla Volontà nega i danni invece di dimez<i>za</i>rli.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INFLIGGI FERITE MODERATE</h3>
+  <p class="school"><i>Necromanzia</i></p>
+  <p class="field"><b>Livello:</b> Chr 2 Funziona come <i>infliggi ferite leggere</i>, ma infligge 2d8 danni +1 danno per livello dell'incantatore (massimo +10).</p>
+</div>
+
+<div class="spell-block">
+  <h3>INFLIGGI FERITE MODERATE DI MASSA</h3>
+  <p class="school"><i>Necromanzia</i></p>
+  <p class="field"><b>Livello:</b> Chr 6 Funziona come <i>infliggi ferite leggere di massa</i>, ma infligge 2d8 danni +1 danno per livello dell'incantatore (massimo +30).</p>
+</div>
+
+<div class="spell-block">
+  <h3>INFLUENZA SACRILEGA</h3>
+  <p class="school"><i>Invocazione [Male]</i></p>
+  <p class="field"><b>Livello:</b> Male 4</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Medio (30 m + 3 m per livello)</p>
+  <p class="field"><b>Area:</b> Propagazione del raggio di 6 m</p>
+  <p class="field"><b>Durata:</b> Istantanea (1d4 round); vedi testo</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà parziale</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">L'incantatore richiama un potere sacrilego in grado di punire i suoi nemici, che si manifesta sotto forma di una nube di oscurità gelida, viscida e nauseante.<br>
+Solo le creature buone e neutrali (non quelle malvagie) subiscono gli effetti di questo incantesimo.<br>
+L'incantesimo infligge 1d8 danni per ogni due livelli dell'incantatore (massimo 5d8) a una creatura buona (o 1d6 per livello dell'incantatore, massimo 10d6, a un esterno buono) e la rende inferma per 1d4 round.<br>
+Un tiro salvez<i>za</i> sulla Volontà effettuato con successo dimez<i>za</i> i danni e nega gli effetti dell'infermità.<br>
+Gli effetti non possono essere negati da rimuovi malattia o guarigione, ma rimuovi maledizione risulta efficace.<br>
+L'incantesimo infligge solo danni dimez<i>za</i>ti alle creature che non sono né buone né malvagie, le quali non subiscono nemmeno l'infermità.<br>
+Quest'ultime possono dimez<i>za</i>re ulteriormente i danni (riducendolo a un quarto) se superano un tiro salvez<i>za</i> sulla Volontà.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INFONDERE CAPACITÀ MAGICHE</h3>
+  <p class="school"><i>Invocazione</i></p>
+  <p class="field"><b>Livello:</b> Chr 4, Magia 4</p>
+  <p class="field"><b>Componenti:</b> V, S, FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 10 minuti</p>
+  <p class="field"><b>Raggio di azione:</b> Contatto</p>
+  <p class="field"><b>Bersaglio:</b> Creatura toccata; vedi testo</p>
+  <p class="field"><b>Durata:</b> Permanente finché non viene scaricato (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà nega (innocuo)</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì (innocuo)</p>
+  <p class="desc">L'incantatore è in grado di trasferire alcuni dei suoi incantesimi precedentemente preparati, e la capacità di lanciarli, su un'altra creatura.<br>
+Solo una creatura dotata di <i>In</i>telligen<i>za</i> pari a 5 o superiore e di Saggez<i>za</i> pari a 9 o superiore è in grado di ricevere questo effetto, e solo gli incantesimi da chierico delle scuole di abiurazione, divinazione ed evocazione (guarigione) possono essere trasferiti.<br>
+Il numero e il livello degli incantesimi che possono essere conferiti al soggetto dipendono dai suoi Dadi Vita; nemmeno il lancio multiplo di infondere capacità magiche può superare questo limite.<br>
+<b>DV delricevente<i>In</i>cantesimi trasmessi</b> 2 o meno          Un incantesimo di 1° livello 3-4               Uno o due incantesimi di 1° livello 5 o più           Uno o due incantesimi di 1° livello e uno di 2° livello Le caratteristiche variabili dell'incantesimo trasferito (raggio di azione, durata, area ecc.) funzionano in base al livello dell'incantatore che infonde, non a quello del <b>ricevente</b>.<br>
+Una volta lanciato infondere capacità magiche, l'incantatore non può preparare un nuovo incantesimo di 4° livello per sostituirlo finché il <b>ricevente</b> non ha usato gli incantesimi trasferiti o non viene ucciso, oppure fino a che l'incantatore non interrompe l'incantesimo infondere capacità magiche.<br>
+Nel frattempo l'incantatore rimane responsabile di fronte alla sua divinità o ai suoi superiori dell'uso che viene fatto dell'incantesimo.<br>
+Se il limite massimo di incantesimi di 4° livello dell'incantatore diminuisce e scende sotto l'attuale numero di incantesimi di infondere capacità magiche attivi, gli incantesimi trasmessi più recentemente vengono dissolti.<br>
+Per lanciare un incantesimo dotato di componente verbale, il <b>ricevente</b> deve essere in grado di parlare.<br>
+Per lanciarne uno dotato di componente somatica, deve avere mani di forma umanoide.<br>
+Per lanciare un incantesimo che necessita di componenti materiali o di focus, il <b>ricevente</b> deve esserne in possesso.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INGRANDIRE PERSONE</h3>
+  <p class="school"><i>Trasmutazione</i></p>
+  <p class="field"><b>Livello:</b> Mag/Str 1, <b>For<i>za</i></b> 1</p>
+  <p class="field"><b>Componenti:</b> V, S, M</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 round</p>
+  <p class="field"><b>Raggio di azione:</b> Vicino (7,5 m + 1,5 m per ogni 2 livelli)</p>
+  <p class="field"><b>Bersaglio:</b> Una creatura umanoide</p>
+  <p class="field"><b>Durata:</b> 1 minuto per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Tempra nega</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">Questo incantesimo provoca la crescita istantanea di una creatura umanoide, raddoppiando la sua altez<i>za</i> e moltiplicando per 8 il suo peso.<br>
+Questa alterazione modifica la categoria di taglia della creatura alla successiva più grande.<br>
+Il bersaglio ottiene un bonus di taglia +2 alla <b>For<i>za</i></b>, subisce una penalità di taglia -2 alla Destrez<i>za</i> (fino a un minimo di 1) e una penalità di -1 ai tiri per colpire e alla CA in seguito al suo incremento di taglia.<br>
+Una creatura umanoide la cui taglia aumenti a Grande occupa uno spazio di 3 metri e ha una portata naturale di 3 metri.<br>
+Questo incantesimo non cambia la velocità del bersaglio.<br>
+Se non è disponibile uno spazio sufficiente alla crescita desiderata, la creatura raggiunge la massima taglia possibile e può effettuare una prova di <b>For<i>za</i></b> (sfruttando la sua <b>For<i>za</i></b> accresciuta) per rompere qualsiasi forma di contenimento nel processo.<br>
+Se fallisce, è costretta sen<i>za</i> alcun danno dai materiali che la contengono: l'incantesimo non può essere usato per schiacciare una creatura aumentandone la taglia.<br>
+Tutto l'equipaggiamento indossato o trasportato da una creatura viene allo stesso modo ingrandito dall'incantesimo.<br>
+Le armi da mischia e da tiro infliggono più danni.<br>
+Altre proprietà magiche non vengono influen<i>za</i>te da questo incantesimo.<br>
+Qualsiasi oggetto ingrandito che non è più in possesso di una creatura ingrandita (incluso un proiettile o un'arma da lancio) ritorna istantaneamente alla sua taglia normale.<br>
+Questo significa che le armi da lancio infliggono i loro danni normali e i proiettili infliggono danni in base alla taglia dell'arma che li ha tirati.<br>
+Le proprietà magiche di oggetti ingranditi non vengono incrementate da questo incantesimo.<br>
+Molteplici effetti magici che aumentano la taglia non sono cumulativi, che significa (tra le altre cose) che non è possibile usare un secondo lancio di questo incantesimo per aumentare ulteriormente la taglia di un umanoide mentre è ancora sotto l'effetto del primo lancio.<br>
+<i>Ingrandire persone</i> contrasta e dissolve <i>ridurre persone</i>.<br>
+<i>Ingrandire persone</i> può essere reso <i>permanen</i>te con un incantesimo <i>permanenza</i>.<br>
+<br>
+<i>Componente materiale:</i> Un pizzico di polvere di ferro.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INGRANDIRE PERSONE DI MASSA</h3>
+  <p class="school"><i>Trasmutazione</i></p>
+  <p class="field"><b>Livello:</b> Mag/Str 4</p>
+  <p class="field"><b>Bersaglio:</b> Una creatura umanoide per livello, che non possono trovarsi a più di 9 m l'una dall'altra Funziona come <i>ingrandire persone</i>, ma ha effetto su più creature.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INTERDIZIONE ALLA MORTE</h3>
+  <p class="school"><i>Necromanzia</i></p>
+  <p class="field"><b>Livello:</b> Chr 4, Drd 5, Morte 4, Pal 4</p>
+  <p class="field"><b>Componenti:</b> V, S, FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Contatto</p>
+  <p class="field"><b>Bersaglio:</b> Creatura vivente toccata</p>
+  <p class="field"><b>Durata:</b> 1 minuto per livello</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà nega (innocuo)</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì (innocuo)</p>
+  <p class="desc">Il soggetto diventa immune a tutti gli incantesimi e gli effetti magici di morte, i risucchi di energia e tutti gli effetti di energia negativa (come quelli derivanti da incantesimi infliggere o da tocco gelido).<br>
+Questo incantesimo non rimuove eventuali livelli negativi che il soggetto abbia già acquisito, né influen<i>za</i> il tiro salvez<i>za</i> necessario 24 ore dopo aver ottenuto un livello negativo.<br>
+L'incantesimo non offre protezione contro altri tipi di attacchi come perdite di punti ferita, veleno o pietrificazione, nemmeno se questi dovessero rivelarsi letali.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INTERMITTENZA</h3>
+  <p class="school"><i>Trasmutazione</i></p>
+  <p class="field"><b>Livello:</b> Brd 3, Mag/Str 3</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Personale</p>
+  <p class="field"><b>Bersaglio:</b> <i>In</i>cantatore</p>
+  <p class="field"><b>Durata:</b> 1 round per livello (I)</p>
+  <p class="desc">Come un cane intermittente, l'incantatore inizia a sfasarsi alternativamente tra il Piano Materiale e il Piano Etereo.<br>
+<i>In</i> apparen<i>za</i> sembra che stia lampeggiando dentro e fuori dalla realtà molto rapidamente e a intervalli casuali.<br>
+<i>Intermittenza</i> ha diversi effetti: Gli attacchi fisici contro l'incantatore hanno una probabilità del 50% di mancare il bersaglio e il talento Combattere alla Cieca non è di alcun aiuto per gli avversari, dal momento che l'incantatore è etereo e non soltanto invisibile.<br>
+Se l'attacco è in grado di colpire creature eteree, la probabilità di mancare il bersaglio è solo del 20% (per occultamento).<br>
+Se chi attacca è in grado di vedere creature invisibili, la probabilità di mancare il bersaglio è comunque del 20%. (Se chi attacca è in grado sia di vedere che di colpire creature eteree, non c'è alcuna probabilità di mancare il bersaglio).<br>
+Analogamente, gli attacchi dell'incantatore hanno una probabilità del 20% di mancare il bersaglio, in quanto egli a volte diventa etereo proprio quando sta per colpire.<br>
+Gli incantesimi con bersaglio individuale e lanciati sull'incantatore hanno una probabilità del 50% di fallire mentre questi è soggetto a intermitten<i>za</i>, a meno che chi li lancia non sia in grado di colpire creature eteree invisibili.<br>
+Gli incantesimi dell'incantatore hanno una probabilità del 20% di attivarsi proprio nel momento in cui diventa etereo, nel qual caso normalmente non hanno effetto sul Piano Materiale.<br>
+Mentre è sotto l'effetto di intermitten<i>za</i>, l'incantatore subisce solo danni dimez<i>za</i>ti da attacchi ad area (ma danni completi da quelli che si estendono anche sul Piano Etereo).<br>
+Colpisce come una creatura invisibile (con un bonus di +2 ai tiri per colpire), negando al bersaglio qualsiasi bonus di Destrez<i>za</i> alla CA.<br>
+Subisce solo danni dimez<i>za</i>ti dalle cadute, in quanto cade solo quando è materiale.<br>
+Quando è sotto l'effetto di intermitten<i>za</i>, l'incantatore è in grado di attraversare (ma non di vedere attraverso) gli oggetti solidi.<br>
+Per ogni 1,5 metri di materiale solido che attraversa, c'è una probabilità del 50% che ridiventi materiale nel farlo.<br>
+Se si verifica questa possibilità, l'incantatore viene spinto via verso il più vicino spazio libero e subisce 1d6 danni per ogni 1,5 metri attraversati in questo modo.<br>
+L'incantatore può muoversi solo a tre quarti della velocità (in quanto il movimento sul Piano Etereo avviene a metà velocità ed egli trascorre metà del tempo laggiù e metà del tempo sul Piano Materiale).<br>
+Trascorrendo metà del tempo sul Piano Etereo, è in grado di vedere e anche attaccare creature eteree.<br>
+<i>In</i>teragisce con loro circa nello stesso modo con cui può interagire con quelle materiali.<br>
+Ad esempio, i suoi incantesimi contro creature eteree hanno anch'essi una probabilità del 20% di attivarsi nel momento in cui sta ridiventando materiale e quindi essere sprecati.<br>
+Una creatura eterea è invisibile, incorporea e in grado di muoversi in qualsiasi direzione, compreso in alto o in basso.<br>
+Come creatura incorporea, l'incantatore è in grado di muoversi attraverso oggetti solidi, comprese le altre creature viventi.<br>
+Una creatura eterea può vedere e udire il Piano Materiale, ma tutto ha un aspetto grigiastro e inconsistente.<br>
+La vista e l'udito sul Piano Materiale sono limitati a 18 metri.<br>
+Effetti di for<i>za</i> (come <i>dardo incantato</i> e <i>muro di forza</i>) e le abiurazioni influen<i>za</i>no normalmente l'incantatore.<br>
+I loro effetti si estendono sul Piano Etereo dal Piano Materiale, ma non viceversa.<br>
+Una creatura eterea non può attaccare una creatura materiale, e gli incantesimi lanciati in forma eterea hanno effetto solo su altre cose eteree.<br>
+Alcuni oggetti o creature materiali sono dotati di attacchi o effetti che funzionano anche sul Piano Etereo (come il basilisco e il suo attacco con lo sguardo).<br>
+Occorre considerare altre creature e oggetti eterei come se fossero materiali.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INTRALCIARE</h3>
+  <p class="school"><i>Trasmutazione</i></p>
+  <p class="field"><b>Livello:</b> Drd 1, Rgr 1, Vegetale 1</p>
+  <p class="field"><b>Componenti:</b> V, S, FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Lungo (120 m + 12 m per livello)</p>
+  <p class="field"><b>Area:</b> Vegetali in una propagazione del raggio di 12 m</p>
+  <p class="field"><b>Durata:</b> 1 minuto per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Riflessi parziale; vedi testo</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">Arbusti, liane, erbacce e perfino alberi si avviluppano, si contorcono e si stringono attorno alle creature che si trovano nell'area o che entrano nell'area, imprigionandole rapidamente e rendendole intralciate.<br>
+La creatura può liberarsi e muoversi a metà della sua velocità normale usando un'azione di round completo per effettuare una prova di <b>For<i>za</i></b> o di Artista della Fuga con CD 20.<br>
+Se una creatura supera un tiro salvez<i>za</i> sui Riflessi, non viene intralciata e può ancora muoversi all'interno dell'area a metà della sua velocità.<br>
+Ad ogni round nel turno dell'incantatore, le piante tentano nuovamente di <i>imprigionare</i> tutte le creature che avevano evitato o erano sfuggite all'intralciare.<br>
+<i>Nota:</i> Gli effetti dell'incantesimo potrebbero essere modificati in alcuni modi, in base alla natura dei vegetali presenti nell'area.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INTRAPPOLARE L'ANIMA</h3>
+  <p class="school"><i>Evocazione (Convocazione)</i></p>
+  <p class="field"><b>Livello:</b> Mag/Str 8</p>
+  <p class="field"><b>Componenti:</b> V, S, M, (F); vedi testo</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard o vedi testo</p>
+  <p class="field"><b>Raggio di azione:</b> Vicino (7,5 m + 1,5 m per ogni 2 livelli)</p>
+  <p class="field"><b>Bersaglio:</b> Una creatura</p>
+  <p class="field"><b>Durata:</b> Permanente; vedi testo</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Vedi testo</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">; vedi testo <i>In</i>trappolare l'anima imprigiona la for<i>za</i> vitale di una creatura (e il suo corpo materiale) all'interno di una gemma.<br>
+La gemma trattiene l'entità imprigionata a tempo indefinito o finché non viene infranta e l'anima liberata, che permette al corpo materiale di riformarsi.<br>
+Se la creatura intrappolata è una potente creatura di un altro piano (il che potrebbe significare un personaggio intrappolato da un abitante di un altro piano mentre il personaggio non si trova sul Piano Materiale), può esserle richiesto un servizio immediato in cambio della sua <i>libertà</i>.<br>
+Altrimenti, la creatura sarà libera quando la gemma che la imprigiona viene infranta.<br>
+<i>In</i> base alla versione selezionata, l'incantesimo può essere attivato in due modi:<br>
+<i>Completamento di incantesimo:</i> L'incantesimo può essere completato pronunciando la sua parola finale come azione standard come se si stesse lanciando un normale incantesimo sul soggetto.<br>
+Questo gli consente un tiro di resisten<i>za</i> agli incantesimi (ammesso che la possieda) e un tiro salvez<i>za</i> sulla Volontà per evitare l'effetto.<br>
+Se viene pronunciato anche il nome della creatura, la resisten<i>za</i> agli incantesimi viene ignorata e la CD del tiro salvez<i>za</i> aumenta di 2.<br>
+Se il tiro salvez<i>za</i> o la resisten<i>za</i> agli incantesimi hanno successo, la gemma si infrange.<br>
+<i>Oggetto di attivazione:</i> Questo secondo metodo è molto più insidioso, in quanto convince la creatura ad accettare un oggetto di attivazione su cui è stata scritta la parola finale dell'incantesimo, ponendo automaticamente l'anima della creatura nella trappola predisposta.<br>
+Per usare questo metodo, sia il nome della creatura che la parola di attivazione devono essere scritte sull'oggetto di attivazione quando la gemma viene incantata.<br>
+Anche un incantesimo simpatia può essere posto sull'oggetto di attivazione.<br>
+Non appena il soggetto raccoglie o accetta l'oggetto in questione, la sua for<i>za</i> vitale viene trasferita automaticamente nella gemma sen<i>za</i> la possibilità di una prova di resisten<i>za</i> agli incantesimi o di un tiro salvez<i>za</i>.<br>
+<br>
+<i>Componente materiale:</i> Prima dell'effettivo lancio di intrappolare l'anima, l'incantatore deve procurarsi una gemma del valore di almeno 1.000 mo per ogni Dado Vita che la creatura da intrappolare possiede (ad esempio, è necessaria una gemma da 10.000 mo per intrappolare una creatura con 10 <b>DV</b>).<br>
+Se la gemma non è abbastan<i>za</i> preziosa, si infrange quando si tenta di intrappolare la creatura. (Anche se i personaggi non possiedono il concetto di livello o di Dadi Vita in quanto tali, il valore di una gemma per intrappolare un certo individuo può essere determinato attraverso gli studi; non bisogna però dimenticare che questo valore può cambiare man mano che le creature guadagnano più <b>DV</b>.) Focus (solo per l'oggetto di attivazione): Se viene scelto il metodo dell'oggetto di attivazione, è necessario un oggetto di attivazione speciale, preparato come descritto sopra.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INVERSIONE DELLA GRAVITÀ</h3>
+  <p class="school"><i>Trasmutazione</i></p>
+  <p class="field"><b>Livello:</b> Drd 8, Mag/Str 7</p>
+  <p class="field"><b>Componenti:</b> V, S, M/FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Medio (30 m + 3 m per livello)</p>
+  <p class="field"><b>Area:</b> Fino a un cubo con spigolo di 3 m per ogni due livelli (F)</p>
+  <p class="field"><b>Durata:</b> 1 round per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno; vedi testo</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">Questo incantesimo inverte la gravità nella sua area, facendo cadere verso l'alto tutte le creature e gli oggetti che non siano fissati a terra, facendo loro raggiungere il punto più alto dell'area in 1 round.<br>
+Se nel corso di questa caduta incontrano qualche oggetto solido, oggetti e creature in caduta lo colpiscono con la stessa for<i>za</i> che avrebbero subito in una normale caduta verso il basso.<br>
+Se un oggetto o una creatura raggiunge il punto più alto dell'area sen<i>za</i> colpire nulla, rimane lì, ondeggiando leggermente, fino al termine dell'incantesimo.<br>
+Alla fine dell'incantesimo, le creature e gli oggetti ricadono verso il basso.<br>
+Posto che vi sia nei paraggi qualcosa a cui aggrapparsi, le creature all'interno dell'area possono tentare un tiro salvez<i>za</i> sui Riflessi per afferrare qualcosa quando l'incantesimo ha effetto.<br>
+Le creature in grado di volare o levitare possono evitare di cadere.<br>
+<br>
+<i>Componente materiale arcana:</i> Un magnete e limatura di ferro.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INVIARE</h3>
+  <p class="school"><i>Invocazione</i></p>
+  <p class="field"><b>Livello:</b> Chr 4, Mag/Str 5</p>
+  <p class="field"><b>Componenti:</b> V, S, M/FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 10 minuti</p>
+  <p class="field"><b>Raggio di azione:</b> Vedi testo</p>
+  <p class="field"><b>Bersaglio:</b> Una creatura</p>
+  <p class="field"><b>Durata:</b> 1 round; vedi testo</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> No</p>
+  <p class="desc">L'incantatore può contattare una particolare creatura con cui ha una certa familiarità e mandare un breve messaggio di venticinque parole o meno al soggetto in questione.<br>
+Quest'ultimo riconosce l'incantatore se lo conosceva già di persona.<br>
+Può rispondergli immediatamente allo stesso modo.<br>
+Le creature con un punteggio di <i>In</i>telligen<i>za</i> di 1 possono comprendere il messaggio, anche se la loro capacità di reazione è limitata dalla loro scarsa <i>In</i>telligen<i>za</i>.<br>
+Anche se ha ricevuto il messaggio, il soggetto non è obbligato in alcun modo ad agire di conseguen<i>za</i>.<br>
+Se la creatura in questione non si trova sullo stesso piano di esisten<i>za</i> in cui si trova l'incantatore, c'è una probabilità del 5% che il messaggio non giunga a destinazione. (Le condizioni locali degli altri piani possono peggiorare questa probabilità notevolmente).<br>
+<br>
+<i>Componente materiale arcana:</i> Un pezzetto di filo di rame di qualità.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INVISIBILITÀ</h3>
+  <p class="school"><i>Illusione (Mascheramento)</i></p>
+  <p class="field"><b>Livello:</b> Brd 2, <i>In</i>ganno 2, Mag/Str 2</p>
+  <p class="field"><b>Componenti:</b> V, S, M/FD</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Personale o contatto</p>
+  <p class="field"><b>Bersaglio:</b> <i>In</i>cantatore oppure una creatura o un oggetto pesante fino a 50 kg per livello</p>
+  <p class="field"><b>Durata:</b> 1 minuto per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà nega (innocuo) o Volontà nega (innocuo, oggetto)</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì (innocuo)</p>
+  <p class="desc">o Sì (innocuo, oggetto) La creatura o l'oggetto toccato diventano invisibili, sparendo alla vista, e non è possibile individuarli neanche tramite scurovisione.<br>
+Se la creatura bersaglio dell'incantesimo porta con sé dell'equipaggiamento, anch'esso svanisce.<br>
+Se l'incantesimo viene lanciato su qualcun altro, né l'incantatore né i suoi compagni sono più in grado di vederlo, a meno che non siano normalmente in grado di vedere cose invisibili o possiedano mezzi magici che lo consentano.<br>
+Gli oggetti che cadono o vengono lasciati a terra da una creatura invisibile tornano immediatamente visibili; gli oggetti che invece vengono raccolti spariscono solo se vengono messi in tasca o nascosti in mezzo ai vestiti.<br>
+La luce, però, non può essere in alcun modo resa invisibile, nemmeno se la sua fonte lo diventa (l'effetto che ne risulta è quello di una luce diffusa sen<i>za</i> alcuna sorgente visibile).<br>
+Se una parte degli oggetti in possesso di chi è sotto l'effetto di questo incantesimo si estende oltre 3 metri dal suo corpo, come una corda che viene trascinata, questa parte torna immediatamente visibile.<br>
+Naturalmente, il bersaglio dell'incantesimo non è sotto l'effetto di un incantesimo silenzio ed esistono determinate condizio ni che possono rivelare la sua presen<i>za</i> (come mettere il piede in una poz<i>za</i>nghera).<br>
+L'incantesimo ha termine immediatamente se il soggetto compie un attacco contro una qualsiasi creatura.<br>
+Ai fini di questo incantesimo, la definizione di "attacco" include qualsiasi incantesimo lanciato contro un bersaglio nemico o la cui area o il cui effetto comprendano un nemico. (Il concetto di "nemico" dipende dalla percezione del personaggio invisibile).<br>
+Azioni dirette verso oggetti incustoditi non pongono fine all'incantesimo.<br>
+Ferire in modo indiretto non è considerato un attacco.<br>
+Un personaggio invisibile può quindi aprire porte, parlare, mangiare, salire scale, evocare mostri e mandarli all'attacco, tagliare le corde che reggono un ponte di corda mentre i suoi nemici sono ancora su di esso, attivare trappole a distan<i>za</i>, aprire una saracinesca che tiene rinchiusi dei cani da combattimento e così via.<br>
+Comunque, nel momento in cui il bersaglio attacca direttamente diventa visibile con tutto il suo equipaggiamento.<br>
+<i>In</i>cantesimi come benedizione, che hanno effetto solo sugli alleati e non sui nemici, non sono considerati attacchi ai fini di questa magia, anche se includono degli avversari nella propria area.<br>
+Vedi Tabella: "Modificatori al tiro per colpire" e Tabella: "Modificatori alla Classe Armatura" per gli effetti dell'<i>invisibilità</i> in combattimento.<br>
+<i>Invisibilità</i> può essere reso <i>permanen</i>te (solo sugli oggetti) con un incantesimo <i>permanenza</i>.<br>
+<br>
+<i>Componente materiale arcana:</i> Un ciglio avvolto in una pallina di gomma arabica.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INVISIBILITÀ DI MASSA</h3>
+  <p class="school"><i>Illusione (Mascheramento)</i></p>
+  <p class="field"><b>Livello:</b> Mag/Str 7</p>
+  <p class="field"><b>Componenti:</b> V, S, M</p>
+  <p class="field"><b>Raggio di azione:</b> Lungo (120 m + 12 m per livello)</p>
+  <p class="field"><b>Bersaglio:</b> Un numero qualsiasi di creature, che non possono trovarsi a più di 54 m l'una dall'altra Funziona come <i>invisibilità</i>, tranne che l'effetto si sposta con il gruppo e si interrompe nel momento in cui qualcuno nel gruppo attacca. I singoli individui non possono vedersi l'un l'altro. L'incantesimo si interrompe per chiunque si allontani a più di 54 metri dal membro del gruppo più vicino. (Se ci sono solo due bersagli sotto l'effetto di questo incantesimo, quello dei due che si allontana perde la sua <i>invisibilità</i>. Se entrambi si allontanano l'uno dall'altro, diventano visibili nel momento in cui la loro distan<i>za</i> supera i 54 metri.) <i>Componente materiale:</i> Un ciglio avvolto in una pallina di gomma arabica.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INVISIBILITÀ SUPERIORE</h3>
+  <p class="school"><i>Illusione (Mascheramento)</i></p>
+  <p class="field"><b>Livello:</b> Brd 4, Mag/Str 4</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Bersaglio:</b> <i>In</i>cantatore o creatura toccata</p>
+  <p class="field"><b>Durata:</b> 1 round per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà nega (innocuo)</p>
+  <p class="desc">Funziona come <i>invisibilità</i>, tranne che l'incantesimo non termina se il soggetto attacca.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INVOCARE IL FULMINE</h3>
+  <p class="school"><i>Invocazione [Elettricità]</i></p>
+  <p class="field"><b>Livello:</b> Drd 3</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 round</p>
+  <p class="field"><b>Raggio di azione:</b> Medio (30 m + 3 m per livello)</p>
+  <p class="field"><b>Effetto:</b> Uno o più fulmini verticali lunghi 9 m</p>
+  <p class="field"><b>Durata:</b> 1 minuto per livello</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Riflessi dimez<i>za</i></p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">Una volta completato l'incantesimo, e poi una volta ogni round, l'incantatore può invocare un fulmine verticale largo 1,5 metri e lungo 9 metri che infligge 3d6 danni da elettricità.<br>
+Il fulmine serpeggia verticalmente nel cielo fino a colpire il bersaglio indicato entro il raggio di azione (misurato dalla posizione dell'incantatore in quel momento).<br>
+Qualsiasi creatura nel quadretto bersaglio o sul percorso del fulmine ne subisce l'effetto.<br>
+Non è necessario <i>invocare il fulmine</i> immediatamente; l'incantatore può compiere prima altre azioni, perfino lanciare altri incantesimi.<br>
+Tuttavia, ogni round dopo il primo può utiliz<i>za</i>re un'azione standard (concentrandosi sull'incantesimo) per invocare un fulmine.<br>
+Può invocare un numero totale di fulmini pari al suo livello dell'incantatore (massimo 10 fulmini).<br>
+Se l'incantatore si trova all'aperto e in un'area tempestosa, cioè il cielo deve essere piovoso, nuvoloso e ventoso, oppure nuvoloso e afoso, o perfino percorso da un tornado (va bene anche un vortice di vento formato da un djinni o da un elementale dell'aria di taglia almeno Grande), ogni fulmine infligge 3d10 danni da elettricità invece che 3d6.<br>
+Questo incantesimo funziona solo all'aperto o sottoterra, ma non sott'acqua.</p>
+</div>
+
+<div class="spell-block">
+  <h3>INVOCARE TEMPESTA DI FULMINI</h3>
+  <p class="school"><i>Invocazione [Elettricità]</i></p>
+  <p class="field"><b>Livello:</b> Drd 5</p>
+  <p class="field"><b>Raggio di azione:</b> Lungo (120 m + 12 m per livello) Funziona come <i>invocare il fulmine</i>, ma ogni fulmine infligge 5d6 danni da elettricità (o 5d10 se viene prodotto all'esterno in un'area tempestosa), e si possono invocare un massimo di 15 fulmini.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IPNOSI</h3>
+  <p class="school"><i>Ammaliamento (Compulsione) [Influenza mentale]</i></p>
+  <p class="field"><b>Livello:</b> Brd 1, Mag/Str 1</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 round</p>
+  <p class="field"><b>Raggio di azione:</b> Vicino (7,5 m + 1,5 m per ogni 2 livelli)</p>
+  <p class="field"><b>Area:</b> Parecchie creature viventi, che non possono trovarsi a più di 9 m l'una dall'altra</p>
+  <p class="field"><b>Durata:</b> 2d4 round (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà nega</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">I gesti e il monotono incantamento fanno sì che le creature vicine all'incantatore si fermino e lo guardino in modo fisso.<br>
+<i>In</i> aggiunta, l'incantatore può usare la loro attenzione inerte per rendere i suoi suggerimenti e le sue richieste più plausibili.<br>
+Tirare 2d4 per determinare quanti Dadi Vita totali di creature l'incantatore riesce ad assoggettare.<br>
+Le creature con meno <b>DV</b> ne subiscono l'effetto prima di quelle con più <b>DV</b>.<br>
+Solo le creature in grado di vederlo o di sentirlo vengono assoggettate, ma non è necessario che lo capiscano per rimanere ipnotiz<i>za</i>te.<br>
+Se utiliz<i>za</i> questo incantesimo in combattimento, i bersagli ottengono un bonus di +2 ai loro tiri salvez<i>za</i>.<br>
+Se l'incantesimo è mirato su un'unica creatura che non si trova in combattimento, la creatura subisce una penalità di -2 al suo tiro salvez<i>za</i>.<br>
+Mentre la creatura è assoggettata da questo incantesimo, reagisce come se il suo atteggiamento fosse di due livelli più amichevole (vedi "<i>In</i>fluen<i>za</i>re l'atteggiamento dei PNG").<br>
+Questo permette all'incantatore di fare una singola richiesta alla creatura assoggettata (purché sia in grado di comunicare con lui).<br>
+La richiesta deve essere breve e ragionevole.<br>
+Anche quando l'incantesimo ha termine, la creatura mantiene il suo nuovo atteggiamento nei confronti dell'incantatore, ma solo per quanto riguarda quella particolare richiesta.<br>
+Se la creatura fallisce il suo tiro salvez<i>za</i>, non ricorda di essere stata sotto l'effetto dell'incantesimo.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IRA</h3>
+  <p class="school"><i>Ammaliamento (Compulsione) [Influenza mentale]</i></p>
+  <p class="field"><b>Livello:</b> Brd 2, Mag/Str 3</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Medio (30 m + 3 per ogni livello)</p>
+  <p class="field"><b>Bersaglio:</b> Una creatura vivente consenziente per ogni tre livelli, che non possono trovarsi a più di 9 m l'una dall'altra</p>
+  <p class="field"><b>Durata:</b> Concentrazione + 1 round per livello (I)</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Nessuno</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">Ogni creatura soggetta all'effetto riceve un bonus morale di +2 alla <b>For<i>za</i></b> e alla Costituzione, un bonus morale di +1 ai tiri salvez<i>za</i> sulla Volontà e una penalità di ­2 alla CA.<br>
+Questo effetto è altrimenti identico all'ira del barbaro, ma i soggetti non risultano affaticati al termine dell'ira.</p>
+</div>
+
+<div class="spell-block">
+  <h3>IRA DELL'ORDINE</h3>
+  <p class="school"><i>Invocazione [Legale]</i></p>
+  <p class="field"><b>Livello:</b> Legge 4</p>
+  <p class="field"><b>Componenti:</b> V, S</p>
+  <p class="field"><b>Tempo di lancio:</b> 1 azione standard</p>
+  <p class="field"><b>Raggio di azione:</b> Medio (30 m + 3 m per livello)</p>
+  <p class="field"><b>Area:</b> Le creature non legali entro un'esplosione che riempie un cubo con spigolo di 9 m</p>
+  <p class="field"><b>Durata:</b> Istantanea (1 round); vedi testo</p>
+  <p class="field"><b>Tiro salvez<i>za</i>:</b> Volontà parziale; vedi testo</p>
+  <p class="field"><b>Resisten<i>za</i> agli incantesimi:</b> Sì</p>
+  <p class="desc">Tramite questo incantesimo l'incantatore è in grado di incanalare potere legale per punire i propri nemici.<br>
+Il potere assume la forma di una griglia di energia tridimensionale.<br>
+Solo le creature caotiche e neutrali (non quelle legali) subiscono gli effetti di questo incantesimo.<br>
+L'incantesimo infligge 1d8 danni per ogni due livelli dell'incantatore (massimo 5d8) alle creature caotiche (o 1d6 danni per livello dell'incantatore, massimo 10d6, agli esterni caotici), e le rende frastornate per 1 round.<br>
+Un tiro salvez<i>za</i> sui Riflessi effettuato con successo dimez<i>za</i> i danni e nega l'effetto di frastornare.<br>
+L'incantesimo infligge solo danni dimez<i>za</i>ti alle creature che non sono né caotiche né legali, le quali non rimangono nemmeno frastornate.<br>
+Quest'ultime possono dimez<i>za</i>re ulteriormente i danni (riducendoli a un quarto) se superano un t iro salvez<i>za</i> sui Riflessi.</p>
+</div>
+</body>
+</html>
