@@ -1,0 +1,1978 @@
+[
+  {
+    "name_it": "Abolitore",
+    "name_en": "Abolisher",
+    "source_book_it": "Signori della Follia",
+    "source_page_it": "183",
+    "slug_5clone": "abolitore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9442-abolitore"
+  },
+  {
+    "name_it": "Accolito dei Draghi",
+    "name_en": "Dracolyte",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "122",
+    "slug_5clone": "accolito-dei-draghi",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9425-accolito-dei-draghi"
+  },
+  {
+    "name_it": "Accolito della Pelle",
+    "name_en": "Acolyte of the Skin",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "18",
+    "slug_5clone": "accolito-della-pelle",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9332-accolito-della-pelle"
+  },
+  {
+    "name_it": "Accolito della Pietra",
+    "name_en": "Stoneblessed",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "97",
+    "slug_5clone": "accolito-della-pietra",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9392-accolito-della-pietra"
+  },
+  {
+    "name_it": "Accordo Sublime",
+    "name_en": "Sublime Chord",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "21",
+    "slug_5clone": "accordo-sublime",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9333-accordo-sublime"
+  },
+  {
+    "name_it": "Adepto",
+    "name_en": "Adept",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "107",
+    "slug_5clone": "adepto",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9268-adepto"
+  },
+  {
+    "name_it": "Adepto Cifrato",
+    "name_en": "Cipher Adept",
+    "source_book_it": "Atlante Planare",
+    "source_page_it": "52",
+    "slug_5clone": "adepto-cifrato",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9416-adepto-cifrato"
+  },
+  {
+    "name_it": "Adepto della Stella Verde",
+    "name_en": "Green Star Adept",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "24",
+    "slug_5clone": "adepto-della-stella-verde",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9335-adepto-della-stella-verde"
+  },
+  {
+    "name_it": "Alienista",
+    "name_en": "Alienist",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "26",
+    "slug_5clone": "alienista",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9334-alienista"
+  },
+  {
+    "name_it": "Ammaestratore",
+    "name_en": "Beastmaster",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "22",
+    "slug_5clone": "ammaestratore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9352-ammaestratore"
+  },
+  {
+    "name_it": "Anima Prescelta",
+    "name_en": "Favored Soul",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "7",
+    "slug_5clone": "anima-prescelta",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9312-anima-prescelta"
+  },
+  {
+    "name_it": "Apostolo di Pace",
+    "name_en": "Apostle of Peace",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "49",
+    "slug_5clone": "apostolo-di-pace",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9228-apostolo-di-pace"
+  },
+  {
+    "name_it": "Arcanamach di Suel",
+    "name_en": "Suel Arcanamach",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "29",
+    "slug_5clone": "arcanamach-di-suel",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9336-arcanamach-di-suel"
+  },
+  {
+    "name_it": "Arcanista Eroico",
+    "name_en": "Exalted Arcanist",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "51",
+    "slug_5clone": "arcanista-eroico",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9234-arcanista-eroico"
+  },
+  {
+    "name_it": "Archivista",
+    "name_en": "Archivist",
+    "source_book_it": "Eroi dell'Orrore",
+    "source_page_it": "82",
+    "slug_5clone": "archivista",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9448-archivista"
+  },
+  {
+    "name_it": "Arciere Arcano",
+    "name_en": "Arcane Archer",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "176",
+    "slug_5clone": "arciere-arcano",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9257-arciere-arcano"
+  },
+  {
+    "name_it": "Arciere degli Altopiani",
+    "name_en": "Cragtop Archer",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "99",
+    "slug_5clone": "arciere-degli-altopiani",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9382-arciere-degli-altopiani"
+  },
+  {
+    "name_it": "Arcimago",
+    "name_en": "Archmage",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "177",
+    "slug_5clone": "arcimago",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9258-arcimago"
+  },
+  {
+    "name_it": "Aristocratico",
+    "name_en": "Aristocrat",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "108",
+    "slug_5clone": "aristocratico",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9269-aristocratico"
+  },
+  {
+    "name_it": "Arteficie del Destino",
+    "name_en": "Fatemaker",
+    "source_book_it": "Atlante Planare",
+    "source_page_it": "54",
+    "slug_5clone": "arteficie-del-destino",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9420-arteficie-del-destino"
+  },
+  {
+    "name_it": "Artiglio di Tiamat",
+    "name_en": "Talon of Tiamat",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "123",
+    "slug_5clone": "artiglio-di-tiamat",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9438-artiglio-di-tiamat"
+  },
+  {
+    "name_it": "Artista",
+    "name_en": "Virtuoso",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "24",
+    "slug_5clone": "artista",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9376-artista"
+  },
+  {
+    "name_it": "Assassino",
+    "name_en": "Assassin",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "179",
+    "slug_5clone": "assassino",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9256-assassino"
+  },
+  {
+    "name_it": "Assassino della Morte di Pietra",
+    "name_en": "Stonedeath Assassin",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "101",
+    "slug_5clone": "assassino-della-morte-di-pietra",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9393-assassino-della-morte-di-pietra"
+  },
+  {
+    "name_it": "Avanguardia delle Pianure Selvagge",
+    "name_en": "Wild Plains Outrider",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "28",
+    "slug_5clone": "avanguardia-delle-pianure-selvagge",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9377-avanguardia-delle-pianure-selvagge"
+  },
+  {
+    "name_it": "Avanguardia Halfling",
+    "name_en": "Halfling Outrider",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "16",
+    "slug_5clone": "avanguardia-halfling",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9285-avanguardia-halfling"
+  },
+  {
+    "name_it": "Barbaro",
+    "name_en": "Barbarian",
+    "source_book_it": "Manuale del Giocatore 3.5",
+    "source_page_it": "24",
+    "slug_5clone": "barbaro",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9266-barbaro"
+  },
+  {
+    "name_it": "Bardo",
+    "name_en": "Bard",
+    "source_book_it": "Manuale del Giocatore 3.5",
+    "source_page_it": "26",
+    "slug_5clone": "bardo",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9267-bardo"
+  },
+  {
+    "name_it": "Beholder Magi",
+    "name_en": "Beholder Mage",
+    "source_book_it": "Signori della Follia",
+    "source_page_it": "42",
+    "slug_5clone": "beholder-magi",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9441-beholder-magi"
+  },
+  {
+    "name_it": "Berserker Furioso",
+    "name_en": "Frenzied Berserker",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "18",
+    "slug_5clone": "berserker-furioso",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9286-berserker-furioso"
+  },
+  {
+    "name_it": "Bruto Minaccioso",
+    "name_en": "Menacing Brute",
+    "source_book_it": "Razze del Destino",
+    "source_page_it": "111",
+    "slug_5clone": "bruto-minaccioso",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9406-bruto-minaccioso"
+  },
+  {
+    "name_it": "Burlone Divino",
+    "name_en": "Divine Prankster",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "104",
+    "slug_5clone": "burlone-divino",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9385-burlone-divino"
+  },
+  {
+    "name_it": "Cacciatore Anatema delle Ombre",
+    "name_en": "Shadowbane Stalker",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "30",
+    "slug_5clone": "cacciatore-anatema-delle-ombre",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9370-cacciatore-anatema-delle-ombre"
+  },
+  {
+    "name_it": "Cacciatore Consacrato",
+    "name_en": "Consecrated Harrier",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "21",
+    "slug_5clone": "cacciatore-consacrato",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9315-cacciatore-consacrato"
+  },
+  {
+    "name_it": "Cacciatore dell'Isola Brumosa",
+    "name_en": "Seeker of the Misty Isle",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "23",
+    "slug_5clone": "cacciatore-dellisola-brumosa",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9316-cacciatore-dellisola-brumosa"
+  },
+  {
+    "name_it": "Cacciatore di Draghi",
+    "name_en": "Dragonstalker",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "125",
+    "slug_5clone": "cacciatore-di-draghi",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9431-cacciatore-di-draghi"
+  },
+  {
+    "name_it": "Cacciatore di Kharash",
+    "name_en": "Stalker of Kharash",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "53",
+    "slug_5clone": "cacciatore-di-kharash",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9247-cacciatore-di-kharash"
+  },
+  {
+    "name_it": "Cacciatore di Morte",
+    "name_en": "Death Delver",
+    "source_book_it": "Eroi dell'Orrore",
+    "source_page_it": "88",
+    "slug_5clone": "cacciatore-di-morte",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9451-cacciatore-di-morte"
+  },
+  {
+    "name_it": "Cacciatore di Morti",
+    "name_en": "Hunter of the Dead",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "20",
+    "slug_5clone": "cacciatore-di-morti",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9287-cacciatore-di-morti"
+  },
+  {
+    "name_it": "Cacciatore Oscuro",
+    "name_en": "Dark Hunter",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "23",
+    "slug_5clone": "cacciatore-oscuro",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9288-cacciatore-oscuro"
+  },
+  {
+    "name_it": "Camaleonte",
+    "name_en": "Chameleon",
+    "source_book_it": "Razze del Destino",
+    "source_page_it": "115",
+    "slug_5clone": "camaleonte",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9407-camaleonte"
+  },
+  {
+    "name_it": "Campione dei Reietti",
+    "name_en": "Outcast Champion",
+    "source_book_it": "Razze del Destino",
+    "source_page_it": "121",
+    "slug_5clone": "campione-dei-reietti",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9408-campione-dei-reietti"
+  },
+  {
+    "name_it": "Campione di Gwynharwyf",
+    "name_en": "Champion of Gwynharwyf",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "54",
+    "slug_5clone": "campione-di-gwynharwyf",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9231-campione-di-gwynharwyf"
+  },
+  {
+    "name_it": "Cantore dell'Aurora",
+    "name_en": "Dawncaller",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "107",
+    "slug_5clone": "cantore-dellaurora",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9383-cantore-dellaurora"
+  },
+  {
+    "name_it": "Cantore della Lama",
+    "name_en": "Bladesinger",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "25",
+    "slug_5clone": "cantore-della-lama",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9289-cantore-della-lama"
+  },
+  {
+    "name_it": "Cantore Funebre",
+    "name_en": "Dirgesinger",
+    "source_book_it": "Liber Mortis",
+    "source_page_it": "41",
+    "slug_5clone": "cantore-funebre",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9395-cantore-funebre"
+  },
+  {
+    "name_it": "Caoticista",
+    "name_en": "Chaotician",
+    "source_book_it": "Atlante Planare",
+    "source_page_it": "61",
+    "slug_5clone": "caoticista",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9415-caoticista"
+  },
+  {
+    "name_it": "Cavaliere",
+    "name_en": "Cavalier",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "27",
+    "slug_5clone": "cavaliere",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9290-cavaliere"
+  },
+  {
+    "name_it": "Cavaliere Alchimista",
+    "name_en": "Anointed Knight",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "56",
+    "slug_5clone": "cavaliere-alchimista",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9227-cavaliere-alchimista"
+  },
+  {
+    "name_it": "Cavaliere dei Draghi Purpurei",
+    "name_en": "Purple Dragon Knight",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "29",
+    "slug_5clone": "cavaliere-dei-draghi-purpurei",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9291-cavaliere-dei-draghi-purpurei"
+  },
+  {
+    "name_it": "Cavaliere del Calice",
+    "name_en": "Knight of the Chalice",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "31",
+    "slug_5clone": "cavaliere-del-calice",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9216-cavaliere-del-calice"
+  },
+  {
+    "name_it": "Cavaliere di Draghi",
+    "name_en": "Dragonrider",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "126",
+    "slug_5clone": "cavaliere-di-draghi",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9428-cavaliere-di-draghi"
+  },
+  {
+    "name_it": "Cavaliere di Platino",
+    "name_en": "Platinum Knight",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "127",
+    "slug_5clone": "cavaliere-di-platino",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9436-cavaliere-di-platino"
+  },
+  {
+    "name_it": "Cavaliere Mistico",
+    "name_en": "Eldritch Knight",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "180",
+    "slug_5clone": "cavaliere-mistico",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9209-cavaliere-mistico"
+  },
+  {
+    "name_it": "Cavaliere Protettore",
+    "name_en": "Knight Protector",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "33",
+    "slug_5clone": "cavaliere-protettore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9223-cavaliere-protettore"
+  },
+  {
+    "name_it": "Cavaliere Thayan",
+    "name_en": "Thayan Knight",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "36",
+    "slug_5clone": "cavaliere-thayan",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9292-cavaliere-thayan"
+  },
+  {
+    "name_it": "Cercatore del Canto",
+    "name_en": "Seeker of the Song",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "32",
+    "slug_5clone": "cercatore-del-canto",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9337-cercatore-del-canto"
+  },
+  {
+    "name_it": "Chierico",
+    "name_en": "Cleric",
+    "source_book_it": "Manuale del Giocatore 3.5",
+    "source_page_it": "30",
+    "slug_5clone": "chierico",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9273-chierico"
+  },
+  {
+    "name_it": "Combattente",
+    "name_en": "Warrior",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "109",
+    "slug_5clone": "combattente",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9271-combattente"
+  },
+  {
+    "name_it": "Combattente Elementale",
+    "name_en": "Elemental Warrior",
+    "source_book_it": "Atlante Planare",
+    "source_page_it": "63",
+    "slug_5clone": "combattente-elementale",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9419-combattente-elementale"
+  },
+  {
+    "name_it": "Combattente Naturale",
+    "name_en": "Nature's Warrior",
+    "source_book_it": "Perfetto Combattente, 38",
+    "source_page_it": "",
+    "slug_5clone": "combattente-naturale",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9293-combattente-naturale"
+  },
+  {
+    "name_it": "Combattente Orso",
+    "name_en": "Bear Warrior",
+    "source_book_it": "Perfetto Combattente, 40",
+    "source_page_it": "",
+    "slug_5clone": "combattente-orso",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9294-combattente-orso"
+  },
+  {
+    "name_it": "Contemplativo",
+    "name_en": "Contemplative",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "25",
+    "slug_5clone": "contemplativo",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9317-contemplativo"
+  },
+  {
+    "name_it": "Corridore Pellegrino",
+    "name_en": "Peregrine Runner",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "109",
+    "slug_5clone": "corridore-pellegrino",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9389-corridore-pellegrino"
+  },
+  {
+    "name_it": "Creatore di Meraviglie",
+    "name_en": "Wonderworker",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "57",
+    "slug_5clone": "creatore-di-meraviglie",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9243-creatore-di-meraviglie"
+  },
+  {
+    "name_it": "Creatore di Rune",
+    "name_en": "Runesmith",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "111",
+    "slug_5clone": "creatore-di-rune",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9390-creatore-di-rune"
+  },
+  {
+    "name_it": "Crociato Divino",
+    "name_en": "Divine Crusader",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "28",
+    "slug_5clone": "crociato-divino",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9318-crociato-divino"
+  },
+  {
+    "name_it": "Cultore Appassionato",
+    "name_en": "Ardent Dilettante",
+    "source_book_it": "Atlante Planare",
+    "source_page_it": "57",
+    "slug_5clone": "cultore-appassionato",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9413-cultore-appassionato"
+  },
+  {
+    "name_it": "Custode degli Oracoli di Pietra",
+    "name_en": "Stonespeaker Guardian",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "113",
+    "slug_5clone": "custode-degli-oracoli-di-pietra",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9394-custode-degli-oracoli-di-pietra"
+  },
+  {
+    "name_it": "Custode del Segno Ceruleo",
+    "name_en": "Keeper of the Cerulean Sign",
+    "source_book_it": "Signori della Follia",
+    "source_page_it": "183",
+    "slug_5clone": "custode-del-segno-ceruleo",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9443-custode-del-segno-ceruleo"
+  },
+  {
+    "name_it": "Danzatore Astrale",
+    "name_en": "Astral Dancer",
+    "source_book_it": "Atlante Planare",
+    "source_page_it": "65",
+    "slug_5clone": "danzatore-astrale",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9414-danzatore-astrale"
+  },
+  {
+    "name_it": "Derviscio",
+    "name_en": "Dervish",
+    "source_book_it": "Perfetto Combattente, 42",
+    "source_page_it": "",
+    "slug_5clone": "derviscio",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9295-derviscio"
+  },
+  {
+    "name_it": "Difensore di Sealtiel",
+    "name_en": "Defender of Sealtiel",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "58",
+    "slug_5clone": "difensore-di-saeltiel",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9232-difensore-di-saeltiel"
+  },
+  {
+    "name_it": "Difensore Nanico",
+    "name_en": "Dwarven Defender",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "181",
+    "slug_5clone": "difensore-nanico",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9259-difensore-nanico"
+  },
+  {
+    "name_it": "Discepolo dei Draghi",
+    "name_en": "Dragon Disciple",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "182",
+    "slug_5clone": "discepolo-dei-draghi",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9210-discepolo-dei-draghi"
+  },
+  {
+    "name_it": "Discepolo del Vuoto",
+    "name_en": "Void Disceple",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "29",
+    "slug_5clone": "discepolo-del-vuoto",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9319-discepolo-del-vuoto"
+  },
+  {
+    "name_it": "Discepolo di Ashardalon",
+    "name_en": "Disciple of Ashardalon",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "86",
+    "slug_5clone": "discepolo-di-ashardalon",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9423-discepolo-di-ashardalon"
+  },
+  {
+    "name_it": "Distruttore",
+    "name_en": "Ravager",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "44",
+    "slug_5clone": "distruttore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9224-distruttore"
+  },
+  {
+    "name_it": "Dominatore Mentale",
+    "name_en": "Mindbender",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "35",
+    "slug_5clone": "dominatore-mentale",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9338-dominatore-mentale"
+  },
+  {
+    "name_it": "Donna Cigno",
+    "name_en": "Swanmay",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "60",
+    "slug_5clone": "donna-cigno",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9248-donna-cigno"
+  },
+  {
+    "name_it": "Drago Asceta",
+    "name_en": "Dragon Ascendant",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "88",
+    "slug_5clone": "drago-asceta",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9426-drago-asceta"
+  },
+  {
+    "name_it": "Drago dalla Corazza Incisa",
+    "name_en": "Hidecarved Dragon",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "89",
+    "slug_5clone": "drago-dalla-corazza-incisa",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9433-drago-dalla-corazza-incisa"
+  },
+  {
+    "name_it": "Druido",
+    "name_en": "Druid",
+    "source_book_it": "Manuale del Giocatore 3.5",
+    "source_page_it": "33",
+    "slug_5clone": "druido",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9274-druido"
+  },
+  {
+    "name_it": "Druido dei Pugnali Incantati",
+    "name_en": "Daggerspell Shaper",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "33",
+    "slug_5clone": "druido-dei-pugnali-incantati",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9355-druido-dei-pugnali-incantati"
+  },
+  {
+    "name_it": "Duellante",
+    "name_en": "Duelist",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "184",
+    "slug_5clone": "duellante",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9260-duellante"
+  },
+  {
+    "name_it": "Effimero Esemplare",
+    "name_en": "Ephemeral Exemplar",
+    "source_book_it": "Liber Mortis",
+    "source_page_it": "53",
+    "slug_5clone": "effimero-esemplare",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9402-effimero-esemplare"
+  },
+  {
+    "name_it": "Emissario di Barachiel",
+    "name_en": "Emissary of Barachiel",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "61",
+    "slug_5clone": "emissario-di-barachiel",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9233-emissario-di-barachiel"
+  },
+  {
+    "name_it": "Entropomante",
+    "name_en": "Entropomacer",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "32",
+    "slug_5clone": "entropomante",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9320-entropomante"
+  },
+  {
+    "name_it": "Esemplare",
+    "name_en": "Exemplar",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "38",
+    "slug_5clone": "esemplare",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9358-esemplare"
+  },
+  {
+    "name_it": "Esorcista Sacro",
+    "name_en": "Sacred Exorcist",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "34",
+    "slug_5clone": "esorcista-sacro",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9217-esorcista-sacro"
+  },
+  {
+    "name_it": "Esperto",
+    "name_en": "Expert",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "109",
+    "slug_5clone": "esperto",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9270-esperto"
+  },
+  {
+    "name_it": "Esploratore",
+    "name_en": "Scout",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "5",
+    "slug_5clone": "esploratore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9368-esploratore"
+  },
+  {
+    "name_it": "Esploratore di Dungeon",
+    "name_en": "Dungeon Delver",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "40",
+    "slug_5clone": "esploratore-di-dungeon",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9357-esploratore-di-dungeon"
+  },
+  {
+    "name_it": "Evangelista",
+    "name_en": "Evangelist",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "36",
+    "slug_5clone": "evangelista",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9321-evangelista"
+  },
+  {
+    "name_it": "Fabbro Guerriero",
+    "name_en": "Battlesmith",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "116",
+    "slug_5clone": "fabbro-guerriero",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9380-fabbro-guerriero"
+  },
+  {
+    "name_it": "Flagello dei Mari",
+    "name_en": "Dread Pirate",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "43",
+    "slug_5clone": "flagello-dei-mari",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9356-flagello-dei-mari"
+  },
+  {
+    "name_it": "Furia dalle Scaglie Insanguinate",
+    "name_en": "Bloodscaled Fury",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "91",
+    "slug_5clone": "furia-dalle-scaglie-insanguinate",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9422-furia-dalle-scaglie-insanguinate"
+  },
+  {
+    "name_it": "Geomante",
+    "name_en": "Geomancer",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "39",
+    "slug_5clone": "geomante",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9252-geomante"
+  },
+  {
+    "name_it": "Geometra",
+    "name_en": "Geometer",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "38",
+    "slug_5clone": "geometra",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9339-geometra"
+  },
+  {
+    "name_it": "Gerofante",
+    "name_en": "Hierophant",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "185",
+    "slug_5clone": "gerofante",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9261-gerofante"
+  },
+  {
+    "name_it": "Giustiziere",
+    "name_en": "Justiciar",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "46",
+    "slug_5clone": "giustiziere",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9296-giustiziere"
+  },
+  {
+    "name_it": "Gnomo Uccisore di Giganti",
+    "name_en": "Gnome Giant-Slayer",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "49",
+    "slug_5clone": "gnomo-uccisore-di-giganti",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9297-gnomo-uccisore-di-giganti"
+  },
+  {
+    "name_it": "Goliath Liberatore",
+    "name_en": "Goliath Liberator",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "117",
+    "slug_5clone": "goliath-liberatore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9387-goliath-liberatore"
+  },
+  {
+    "name_it": "Guardia Nera",
+    "name_en": "Blackguard",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "186",
+    "slug_5clone": "guardia-nera",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9262-guardia-nera"
+  },
+  {
+    "name_it": "Guardiano del Baratro",
+    "name_en": "Deepwarden",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "119",
+    "slug_5clone": "guardiano-del-baratro",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9384-guardiano-del-baratro"
+  },
+  {
+    "name_it": "Guardiano di Topazio",
+    "name_en": "Topaz Guardian",
+    "source_book_it": "Signori della Follia",
+    "source_page_it": "191",
+    "slug_5clone": "guardiano-di-topazio",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9444-guardiano-di-topazio"
+  },
+  {
+    "name_it": "Guerriero",
+    "name_en": "Fighter",
+    "source_book_it": "Manuale del Giocatore 3.5",
+    "source_page_it": "37",
+    "slug_5clone": "guerriero",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9275-guerriero"
+  },
+  {
+    "name_it": "Guerriero di Strada",
+    "name_en": "Streetfighter",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "46",
+    "slug_5clone": "guerriero-di-strada",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9373-guerriero-di-strada"
+  },
+  {
+    "name_it": "Incantaspade",
+    "name_en": "Spellsword",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "51",
+    "slug_5clone": "incantaspade",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9240-incantaspade"
+  },
+  {
+    "name_it": "Infiltrato del Canto Notturno",
+    "name_en": "Nightsong Infiltrator",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "48",
+    "slug_5clone": "infiltrato-del-canto-notturno",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9365-infiltrato-del-canto-notturno"
+  },
+  {
+    "name_it": "Iniziato ai Misteri Draconici",
+    "name_en": "Initiate of the Draconic Mysteries",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "128",
+    "slug_5clone": "iniziato-ai-misteri-draconici",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9435-iniziato-ai-misteri-draconici"
+  },
+  {
+    "name_it": "Iniziato dei Sette Veli",
+    "name_en": "Initiate of the Sevenfold Veil",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "40",
+    "slug_5clone": "iniziato-dei-sette-veli",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9340-iniziato-dei-sette-veli"
+  },
+  {
+    "name_it": "Iniziato dell'Ordine dell'Arco",
+    "name_en": "Order of the Bow Initiate",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "52",
+    "slug_5clone": "iniziato-dellordine-dellarco",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9225-iniziato-dellordine-dellarco"
+  },
+  {
+    "name_it": "Iniziato di Pistis Sofia",
+    "name_en": "Initiate of Pistis Sophia",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "63",
+    "slug_5clone": "iniziato-di-pistis-sofia",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9237-iniziato-di-pistis-sofia"
+  },
+  {
+    "name_it": "Inquisitore",
+    "name_en": "Church Inquisitor",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "43",
+    "slug_5clone": "inquisitore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9322-inquisitore"
+  },
+  {
+    "name_it": "Inquisitore Anatema delle Ombre",
+    "name_en": "Shadowbane Inquisitor",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "51",
+    "slug_5clone": "inquisitore-anatema-delle-ombre",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9369-inquisitore-anatema-delle-ombre"
+  },
+  {
+    "name_it": "Kensai",
+    "name_en": "Kensai",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "54",
+    "slug_5clone": "kensai",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9298-kensai"
+  },
+  {
+    "name_it": "Ladro",
+    "name_en": "Rogue",
+    "source_book_it": "Manuale del Giocatore 3.5",
+    "source_page_it": "39",
+    "slug_5clone": "ladro",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9279-ladro"
+  },
+  {
+    "name_it": "Ladro Magico",
+    "name_en": "Spell Thief",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "9",
+    "slug_5clone": "ladro-magico",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9372-ladro-magico"
+  },
+  {
+    "name_it": "Ladro-Acrobata",
+    "name_en": "Thief-Acrobat",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "54",
+    "slug_5clone": "ladro-acrobata",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9374-ladro-acrobata"
+  },
+  {
+    "name_it": "Lama Iettatrice",
+    "name_en": "Hexblade",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "5",
+    "slug_5clone": "lama-iettatrice",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9282-lama-iettatrice"
+  },
+  {
+    "name_it": "Lama Invisibile",
+    "name_en": "Invisible Blade",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "57",
+    "slug_5clone": "lama-invisibile",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9299-lama-invisibile"
+  },
+  {
+    "name_it": "Lama Scintillante di Heironeus",
+    "name_en": "Shining Blade of Heironeous",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "45",
+    "slug_5clone": "lama-scintillante-di-heironeus",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9323-lama-scintillante-di-heironeus"
+  },
+  {
+    "name_it": "Lanciatore Brutale",
+    "name_en": "Hulking Hurler",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "60",
+    "slug_5clone": "lanciatore-brutale",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9300-lanciatore-brutale"
+  },
+  {
+    "name_it": "Leone di Talisid",
+    "name_en": "Lion of Talisid",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "64",
+    "slug_5clone": "leone-di-talisid",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9238-leone-di-talisid"
+  },
+  {
+    "name_it": "Liristradi Fochlucan",
+    "name_en": "Fochlucan Lyrist",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "57",
+    "slug_5clone": "liristradi-fochlucan",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9359-liristradi-fochlucan"
+  },
+  {
+    "name_it": "Maestro dalle Molte Forme",
+    "name_en": "Master of Many Forms",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "61",
+    "slug_5clone": "maestro-dalle-molte-forme",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9363-maestro-dalle-molte-forme"
+  },
+  {
+    "name_it": "Maestro del Sapere",
+    "name_en": "Loremaster",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "188",
+    "slug_5clone": "maestro-del-sapere",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9263-maestro-del-sapere"
+  },
+  {
+    "name_it": "Maestro del Sudario",
+    "name_en": "Master of Shrouds",
+    "source_book_it": "Liber Mortis",
+    "source_page_it": "47",
+    "slug_5clone": "maestro-del-sudario",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9398-maestro-del-sudario"
+  },
+  {
+    "name_it": "Maestro dell'Effigie",
+    "name_en": "Effigy Master",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "44",
+    "slug_5clone": "maestro-delleffigie",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9341-maestro-delleffigie"
+  },
+  {
+    "name_it": "Maestro della Luminosità",
+    "name_en": "Master of Radiance",
+    "source_book_it": "Liber Mortis",
+    "source_page_it": "45",
+    "slug_5clone": "maestro-della-luminosita",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9397-maestro-della-luminosita"
+  },
+  {
+    "name_it": "Maestro delle Armi Esotiche",
+    "name_en": "Exotic Weapon Master",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "62",
+    "slug_5clone": "maestro-delle-armi-esotiche",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9253-maestro-delle-armi-esotiche"
+  },
+  {
+    "name_it": "Maestro dello Stile dell'Ubriaco",
+    "name_en": "Drunken Master",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "65",
+    "slug_5clone": "maestro-dello-stile-dellubriaco",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9226-maestro-dello-stile-dellubriaco"
+  },
+  {
+    "name_it": "Maestro Elementale",
+    "name_en": "Elemental Master",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "92",
+    "slug_5clone": "maestro-elementale",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9432-maestro-elementale"
+  },
+  {
+    "name_it": "Maestro Esangue",
+    "name_en": "Pale Master",
+    "source_book_it": "Liber Mortis",
+    "source_page_it": "43",
+    "slug_5clone": "maestro-esangue",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9396-maestro-esangue"
+  },
+  {
+    "name_it": "Maestro Tiratore",
+    "name_en": "Master Thrower",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "67",
+    "slug_5clone": "maestro-tiratore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9302-maestro-tiratore"
+  },
+  {
+    "name_it": "Maestro Trasformista",
+    "name_en": "Master Transmogrifist",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "46",
+    "slug_5clone": "maestro-trasformista",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9342-maestro-trasformista"
+  },
+  {
+    "name_it": "Maestro Vampiro",
+    "name_en": "Master Vampire",
+    "source_book_it": "Liber Mortis",
+    "source_page_it": "54",
+    "slug_5clone": "maestro-vampiro",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9403-maestro-vampiro"
+  },
+  {
+    "name_it": "Maglio Sterminatore",
+    "name_en": "Reaping Mauler",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "69",
+    "slug_5clone": "maglio-sterminatore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9303-maglio-sterminatore"
+  },
+  {
+    "name_it": "Mago",
+    "name_en": "Wizard",
+    "source_book_it": "Manuale del Giocatore 3.5",
+    "source_page_it": "41",
+    "slug_5clone": "mago",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9281-mago"
+  },
+  {
+    "name_it": "Mago Combattente",
+    "name_en": "Warmage",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "5",
+    "slug_5clone": "mago-combattente",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9329-mago-combattente"
+  },
+  {
+    "name_it": "Mago dei Pugnali Incantati",
+    "name_en": "Daggerspell Mage",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "63",
+    "slug_5clone": "mago-dei-pugnali-incantati",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9354-mago-dei-pugnali-incantati"
+  },
+  {
+    "name_it": "Mago dell'Ordine Arcano",
+    "name_en": "Mage of the Arcane Order",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "49",
+    "slug_5clone": "mago-dellordine-arcano",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9343-mago-dellordine-arcano"
+  },
+  {
+    "name_it": "Mago delle Arti d'Ombra",
+    "name_en": "Shadowcraft Mage",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "122",
+    "slug_5clone": "mago-delle-arti-dombra",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9391-mago-delle-arti-dombra"
+  },
+  {
+    "name_it": "Mago Iracondo",
+    "name_en": "Rage Mage",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "67",
+    "slug_5clone": "mago-iracondo",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9213-mago-iracondo"
+  },
+  {
+    "name_it": "Mago Rosso",
+    "name_en": "Red Wizard",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "189",
+    "slug_5clone": "mago-rosso",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9251-mago-rosso"
+  },
+  {
+    "name_it": "Mago Selvaggio",
+    "name_en": "Wild Mage",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "52",
+    "slug_5clone": "mago-selvaggio",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9344-mago-selvaggio"
+  },
+  {
+    "name_it": "Magus del Sangue",
+    "name_en": "Blood Magus",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "55",
+    "slug_5clone": "magus-del-sangue",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9345-magus-del-sangue"
+  },
+  {
+    "name_it": "Martire Risorto",
+    "name_en": "Risen Martyr",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "65",
+    "slug_5clone": "martire-risorto",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9242-martire-risorto"
+  },
+  {
+    "name_it": "Mastro Artigiano",
+    "name_en": "Maester",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "66",
+    "slug_5clone": "mastro-artigiano",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9362-mastro-artigiano"
+  },
+  {
+    "name_it": "Mente di Ferro",
+    "name_en": "Iron Mind",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "124",
+    "slug_5clone": "mente-di-ferro",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9388-mente-di-ferro"
+  },
+  {
+    "name_it": "Mente Santificata",
+    "name_en": "Sanctified Mind",
+    "source_book_it": "Signori della Follia",
+    "source_page_it": "191",
+    "slug_5clone": "mente-santificata",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9445-mente-santificata"
+  },
+  {
+    "name_it": "Mestro della Mano Invisibile",
+    "name_en": "Master of the Unseen Hand",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "61",
+    "slug_5clone": "maestro-della-mano-invisibile",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9301-maestro-della-mano-invisibile"
+  },
+  {
+    "name_it": "Mezzosangue Immondo",
+    "name_en": "Fiend-blooded",
+    "source_book_it": "Eroi dell'Orrore",
+    "source_page_it": "93",
+    "slug_5clone": "mezzosangue-immondo",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9453-mezzosangue-immondo"
+  },
+  {
+    "name_it": "Militante del Canto Notturno",
+    "name_en": "Nightsong Enforcer",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "68",
+    "slug_5clone": "militante-del-canto-notturno",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9364-militante-del-canto-notturno"
+  },
+  {
+    "name_it": "Militante delle Cicatrici",
+    "name_en": "Scar Enforcer",
+    "source_book_it": "Razze del Destino",
+    "source_page_it": "125",
+    "slug_5clone": "militante-delle-cicatrici",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9409-militante-delle-cicatrici"
+  },
+  {
+    "name_it": "Mistico Celestiale",
+    "name_en": "Celestial Mystic",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "67",
+    "slug_5clone": "mistico-celestiale",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9230-mistico-celestiale"
+  },
+  {
+    "name_it": "Mistificatore Arcano",
+    "name_en": "Arcane Trickster",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "191",
+    "slug_5clone": "mistificatore-arcano",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9241-mistificatore-arcano"
+  },
+  {
+    "name_it": "Modellacarne",
+    "name_en": "Fleshwarper",
+    "source_book_it": "Signori della Follia",
+    "source_page_it": "199",
+    "slug_5clone": "modellacarne",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9446-modellacarne"
+  },
+  {
+    "name_it": "Monaco",
+    "name_en": "Monk",
+    "source_book_it": "Manuale del Giocatore 3.5",
+    "source_page_it": "44",
+    "slug_5clone": "monaco",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9276-monaco"
+  },
+  {
+    "name_it": "Monaco Tatuato",
+    "name_en": "Tattooed Monk",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "73",
+    "slug_5clone": "monaco-tatuato",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9304-monaco-tatuato"
+  },
+  {
+    "name_it": "Musico da Guerra",
+    "name_en": "War Chanter",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "75",
+    "slug_5clone": "musico-da-guerra",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9305-musico-da-guerra"
+  },
+  {
+    "name_it": "Mutaforma Combattente",
+    "name_en": "Warshaper",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "79",
+    "slug_5clone": "mutaforma-combattente",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9306-mutaforma-combattente"
+  },
+  {
+    "name_it": "Necromante del Terrore",
+    "name_en": "Dread Necromancer",
+    "source_book_it": "Eroi dell'Orrore",
+    "source_page_it": "84",
+    "slug_5clone": "necromante-del-terrore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9449-necromante-del-terrore"
+  },
+  {
+    "name_it": "Necromante Puro",
+    "name_en": "True Necromancer",
+    "source_book_it": "Liber Mortis",
+    "source_page_it": "48",
+    "slug_5clone": "necromante-puro",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9399-necromante-puro"
+  },
+  {
+    "name_it": "Ninja",
+    "name_en": "Ninja",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "16",
+    "slug_5clone": "ninja",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9366-ninja"
+  },
+  {
+    "name_it": "Occhio di Gruumsh",
+    "name_en": "Eye of Gruumsh",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "80",
+    "slug_5clone": "occhio-di-gruumsh",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9254-occhio-di-gruumsh"
+  },
+  {
+    "name_it": "Ollam",
+    "name_en": "Ollam",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "70",
+    "slug_5clone": "ollam",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9367-ollam"
+  },
+  {
+    "name_it": "Ombra Danzante",
+    "name_en": "Shadowdancer",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "192",
+    "slug_5clone": "ombra-danzante",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9264-ombra-danzante"
+  },
+  {
+    "name_it": "Ombra Mentale",
+    "name_en": "Shadowmind",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "72",
+    "slug_5clone": "ombra-mentale",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9371-ombra-mentale"
+  },
+  {
+    "name_it": "Oracolo Divino",
+    "name_en": "Divine Oracle",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "47",
+    "slug_5clone": "oracolo-divino",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9218-oracolo-divino"
+  },
+  {
+    "name_it": "Ospedaliere",
+    "name_en": "Hospitaler",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "50",
+    "slug_5clone": "ospedaliere",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9219-ospedaliere"
+  },
+  {
+    "name_it": "Osservatore Indifferente di Chronepsis",
+    "name_en": "Dispassionate Watcher of Chronepsis",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "94",
+    "slug_5clone": "osservatore-indifferente-di-chronepsis",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9424-osservatore-indifferente-di-chronepsis"
+  },
+  {
+    "name_it": "Paladino",
+    "name_en": "Paladin",
+    "source_book_it": "Manuale del Giocatore 3.5",
+    "source_page_it": "48",
+    "slug_5clone": "paladino",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9277-paladino"
+  },
+  {
+    "name_it": "Poeta Lirico del Canto del Drago",
+    "name_en": "Dragonsong Lyrist",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "130",
+    "slug_5clone": "poeta-lirico-del-canto-del-drago",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9430-poeta-lirico-del-canto-del-drago"
+  },
+  {
+    "name_it": "Popolano",
+    "name_en": "Commoner",
+    "source_book_it": "Guida del Dungoen Master 3.5",
+    "source_page_it": "109",
+    "slug_5clone": "popolano",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9272-popolano"
+  },
+  {
+    "name_it": "Predatore dei Boschi",
+    "name_en": "Darkwood Stalker",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "82",
+    "slug_5clone": "predatore-dei-boschi",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9307-predatore-dei-boschi"
+  },
+  {
+    "name_it": "Predatore dei Templi di Olidammara",
+    "name_en": "Temple Raider of Olidammara",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "52",
+    "slug_5clone": "predatore-di-templi-di-olidammara",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9250-predatore-di-templi-di-olidammara"
+  },
+  {
+    "name_it": "Predatore delle Montagne",
+    "name_en": "Highland Stalker",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "74",
+    "slug_5clone": "predatore-delle-montagne",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9361-predatore-delle-montagne"
+  },
+  {
+    "name_it": "Predone di Tesori",
+    "name_en": "Hoardstealer",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "131",
+    "slug_5clone": "predone-di-tesori",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9434-predone-di-tesori"
+  },
+  {
+    "name_it": "Prescelto della Morte",
+    "name_en": "Death's Chosen",
+    "source_book_it": "Liber Mortis",
+    "source_page_it": "51",
+    "slug_5clone": "prescelto-della-morte",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9400-prescelto-della-morte"
+  },
+  {
+    "name_it": "Profeta di Erathaol",
+    "name_en": "Prophet of Erathaol",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "68",
+    "slug_5clone": "profeta-di-erathaol",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9239-profeta-di-erathaol"
+  },
+  {
+    "name_it": "Protetta di Valarian",
+    "name_en": "Beloved of Valarian",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "70",
+    "slug_5clone": "protetta-di-valarian",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9229-protetta-di-valarian"
+  },
+  {
+    "name_it": "Protettore della Tomba",
+    "name_en": "Tomb Warden",
+    "source_book_it": "Liber Mortis",
+    "source_page_it": "56",
+    "slug_5clone": "protettore-della-tomba",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9404-protettore-della-tomba"
+  },
+  {
+    "name_it": "Pugno di Raziel",
+    "name_en": "Fist of Raziel",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "72",
+    "slug_5clone": "pugno-di-raziel",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9235-pugno-di-raziel"
+  },
+  {
+    "name_it": "Pugno Illuminato",
+    "name_en": "Enlightened Fist",
+    "source_book_it": "Perfetto Arcanista, 59",
+    "source_page_it": "",
+    "slug_5clone": "pugno-illuminato",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9346-pugno-illuminato"
+  },
+  {
+    "name_it": "Pugno Sacro",
+    "name_en": "Sacred Fist",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "54",
+    "slug_5clone": "pugno-sacro",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9220-pugno-sacro"
+  },
+  {
+    "name_it": "Purificatore della Dottrina Consacrata",
+    "name_en": "Purifier of the Hallowed Doctrine",
+    "source_book_it": "Eroi dell'Orrore",
+    "source_page_it": "98",
+    "slug_5clone": "purificatore-della-dottrina-consacrata",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9454-purificatore-della-dottrina-consacrata"
+  },
+  {
+    "name_it": "Purificatore Sacro",
+    "name_en": "Sacred Purifier",
+    "source_book_it": "Liber Mortis",
+    "source_page_it": "52",
+    "slug_5clone": "purificatore-sacro",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9401-purificatore-sacro"
+  },
+  {
+    "name_it": "Ranger",
+    "name_en": "Ranger",
+    "source_book_it": "Manuale del Giocatore 3.5",
+    "source_page_it": "51",
+    "slug_5clone": "ranger",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9278-ranger"
+  },
+  {
+    "name_it": "Ricercatore del Sapere",
+    "name_en": "Loredelver",
+    "source_book_it": "Razze del Destino",
+    "source_page_it": "131",
+    "slug_5clone": "ricercatore-del-sapere",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9410-ricercatore-del-sapere"
+  },
+  {
+    "name_it": "Ricercatore Visionario",
+    "name_en": "Visionary Seeker",
+    "source_book_it": "Atlante Planare",
+    "source_page_it": "50",
+    "slug_5clone": "ricercatore-visionario",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9421-ricercatore-visionario"
+  },
+  {
+    "name_it": "Rinnegato",
+    "name_en": "Blighter",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "57",
+    "slug_5clone": "rinnegato",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9255-rinnegato"
+  },
+  {
+    "name_it": "Rodomonte",
+    "name_en": "Swashbuckler",
+    "source_book_it": "Perfetto Combattente, 8",
+    "source_page_it": "",
+    "slug_5clone": "rodomonte",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9283-rodomonte"
+  },
+  {
+    "name_it": "Ronin",
+    "name_en": "Ronin",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "84",
+    "slug_5clone": "ronin",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9308-ronin"
+  },
+  {
+    "name_it": "Sacerdote-Guerriero",
+    "name_en": "Warpriest",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "59",
+    "slug_5clone": "sacerdote-guerriero",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9221-sacerdote-guerriero"
+  },
+  {
+    "name_it": "Sacerdote-Ur",
+    "name_en": "Ur-Priest",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "62",
+    "slug_5clone": "sacerdote-ur",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9215-sacerdote-ur"
+  },
+  {
+    "name_it": "Sacrilego Distruttore di Tiamat",
+    "name_en": "Unholy Ravager of Tiamat",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "96",
+    "slug_5clone": "sacrilego-distruttore-di-tiamat",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9439-sacrilego-distruttore-di-tiamat"
+  },
+  {
+    "name_it": "Sacro Guardiano di Bahamut",
+    "name_en": "Sacred Warder of Bahamut",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "98",
+    "slug_5clone": "sacro-guardiano-di-bahamut",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9437-sacro-guardiano-di-bahamut"
+  },
+  {
+    "name_it": "Sacro Liberatore",
+    "name_en": "Holy Liberator",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "64",
+    "slug_5clone": "sacro-liberatore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9222-sacro-liberatore"
+  },
+  {
+    "name_it": "Samurai",
+    "name_en": "Samurai",
+    "source_book_it": "Complete Warrior",
+    "source_page_it": "11",
+    "slug_5clone": "samurai",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9284-samurai"
+  },
+  {
+    "name_it": "Sapiente Aboleth",
+    "name_en": "Savant Aboleth",
+    "source_book_it": "Signori della Follia",
+    "source_page_it": "21",
+    "slug_5clone": "sapiente-aboleth",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9440-sapiente-aboleth"
+  },
+  {
+    "name_it": "Sapiente Argenteo",
+    "name_en": "Argent Savant",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "61",
+    "slug_5clone": "sapiente-argenteo",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9347-sapiente-argenteo"
+  },
+  {
+    "name_it": "Sapiente Elementale",
+    "name_en": "Elemental Savant",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "63",
+    "slug_5clone": "sapiente-elementale",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9348-sapiente-elementale"
+  },
+  {
+    "name_it": "Sciamano degli Spiriti",
+    "name_en": "Spirit Shaman",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "10",
+    "slug_5clone": "sciamano-degli-spiriti",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9313-sciamano-degli-spiriti"
+  },
+  {
+    "name_it": "Scorridore delle Tenebre",
+    "name_en": "Darkrunner",
+    "source_book_it": "Signori della Follia",
+    "source_page_it": "203",
+    "slug_5clone": "scorridore-delle-tenebre",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9447-scorridore-delle-tenebre"
+  },
+  {
+    "name_it": "Segugio",
+    "name_en": "Bloodhound",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "77",
+    "slug_5clone": "segugio",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9353-segugio"
+  },
+  {
+    "name_it": "Sentinella d?Ombra",
+    "name_en": "Shadow Sentinel",
+    "source_book_it": "Razze del Destino",
+    "source_page_it": "136",
+    "slug_5clone": "sentinella-dombra",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9411-sentinella-dombra"
+  },
+  {
+    "name_it": "Sentinella di Bharrai",
+    "name_en": "Sentinel di Bharrai",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "73",
+    "slug_5clone": "sentinella-di-bharrai",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9244-sentinella-di-bharrai"
+  },
+  {
+    "name_it": "Servitore Iridescente",
+    "name_en": "Rainbow Servant",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "66",
+    "slug_5clone": "servitore-iridescente",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9324-servitore-iridescente"
+  },
+  {
+    "name_it": "Servitore Radioso di Pelor",
+    "name_en": "Radiant Servant of Pelor",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "69",
+    "slug_5clone": "servitore-radioso-di-pelor",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9325-servitore-radioso-di-pelor"
+  },
+  {
+    "name_it": "Sfidante",
+    "name_en": "Defiant",
+    "source_book_it": "Atlante Planare",
+    "source_page_it": "44",
+    "slug_5clone": "sfidante",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9417-sfidante"
+  },
+  {
+    "name_it": "Shugenja",
+    "name_en": "Shugenja",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "15",
+    "slug_5clone": "shugenja",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9314-shugenja"
+  },
+  {
+    "name_it": "Signore degli Animali",
+    "name_en": "Animal Lord",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "80",
+    "slug_5clone": "signore-degli-animali",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9351-signore-degli-animali"
+  },
+  {
+    "name_it": "Signore dei Cieli",
+    "name_en": "Skylord",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "75",
+    "slug_5clone": "signore-dei-cieli",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9245-signore-dei-cieli"
+  },
+  {
+    "name_it": "Signore del Fato",
+    "name_en": "Doomlord",
+    "source_book_it": "Atlante Planare",
+    "source_page_it": "47",
+    "slug_5clone": "signore-del-fato",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9418-signore-del-fato"
+  },
+  {
+    "name_it": "Signore della Pietra",
+    "name_en": "Stonelord",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "86",
+    "slug_5clone": "signore-della-pietra",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9309-signore-della-pietra"
+  },
+  {
+    "name_it": "Signore delle Tempeste",
+    "name_en": "Stormlord",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "71",
+    "slug_5clone": "signore-delle-tempeste",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9326-signore-delle-tempeste"
+  },
+  {
+    "name_it": "Sognatore della Terra",
+    "name_en": "Earth Dreamer",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "126",
+    "slug_5clone": "sognatore-della-terra",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9386-sognatore-della-terra"
+  },
+  {
+    "name_it": "Spada della Giustizia",
+    "name_en": "Sword of Righteousness",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "77",
+    "slug_5clone": "spada-della-giustizia",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9249-spada-della-giustizia"
+  },
+  {
+    "name_it": "Spadaccino Virtuoso",
+    "name_en": "Blade Bravo",
+    "source_book_it": "Razze di Pietra",
+    "source_page_it": "128",
+    "slug_5clone": "spadaccino-virtuoso",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9381-spadaccino-virtuoso"
+  },
+  {
+    "name_it": "Spia",
+    "name_en": "Spymaster",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "83",
+    "slug_5clone": "spia",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9378-spia"
+  },
+  {
+    "name_it": "Spia Mentale",
+    "name_en": "Mindspy",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "88",
+    "slug_5clone": "spia-mentale",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9310-spia-mentale"
+  },
+  {
+    "name_it": "Spirito Urbano",
+    "name_en": "Urban Soul",
+    "source_book_it": "Razze del Destino",
+    "source_page_it": "141",
+    "slug_5clone": "spirito-urbano",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9412-spirito-urbano"
+  },
+  {
+    "name_it": "Strega del Terrore",
+    "name_en": "Dread Witch",
+    "source_book_it": "Eroi dell'Orrore",
+    "source_page_it": "104",
+    "slug_5clone": "strega-del-terrore",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9452-strega-del-terrore"
+  },
+  {
+    "name_it": "Stregone",
+    "name_en": "Sorcerer",
+    "source_book_it": "Manuale del GIocatore 3.5",
+    "source_page_it": "54",
+    "slug_5clone": "stregone",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9280-stregone"
+  },
+  {
+    "name_it": "Studioso Corrotto",
+    "name_en": "Tainted Scholar",
+    "source_book_it": "Eroi dell'Orrore",
+    "source_page_it": "109",
+    "slug_5clone": "studioso-corrotto",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9455-studioso-corrotto"
+  },
+  {
+    "name_it": "Taumaturgo",
+    "name_en": "Thaumaturgist",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "193",
+    "slug_5clone": "taumaturgo",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9211-taumaturgo"
+  },
+  {
+    "name_it": "Tempesta",
+    "name_en": "Tempest",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "86",
+    "slug_5clone": "tempesta",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9379-tempesta"
+  },
+  {
+    "name_it": "Templare Devoto",
+    "name_en": "Pius Templar",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "73",
+    "slug_5clone": "templare-devoto",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9327-templare-devoto"
+  },
+  {
+    "name_it": "Terrore Incombente",
+    "name_en": "Lurking Terror",
+    "source_book_it": "Liber Mortis",
+    "source_page_it": "57",
+    "slug_5clone": "terrore-incombente",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9405-terrore-incombente"
+  },
+  {
+    "name_it": "Tessitore del Fato",
+    "name_en": "Fatespinner",
+    "source_book_it": "Perfetto Arcanista, 65",
+    "source_page_it": "",
+    "slug_5clone": "tessitore-del-fato",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9349-tessitore-del-fato"
+  },
+  {
+    "name_it": "Teurgo Mistico",
+    "name_en": "Mystic Theurge",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "194",
+    "slug_5clone": "teurgo-mistico",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9265-teurgo-mistico"
+  },
+  {
+    "name_it": "Trovatore delle Stelle",
+    "name_en": "Troubadour of Stars",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "78",
+    "slug_5clone": "trovatore-delle-stelle",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9236-trovatore-delle-stelle"
+  },
+  {
+    "name_it": "Uccisore dal Volto Spettrale",
+    "name_en": "Ghost-Faced Killer",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "88",
+    "slug_5clone": "uccisore-dal-volto-spettrale",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9360-uccisore-dal-volto-spettrale"
+  },
+  {
+    "name_it": "Uccisore dell'Occulto",
+    "name_en": "Occult Slayer",
+    "source_book_it": "Perfetto Combattente",
+    "source_page_it": "89",
+    "slug_5clone": "uccisore-dellocculto",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9311-uccisore-dellocculto"
+  },
+  {
+    "name_it": "Uccisore di Domiel",
+    "name_en": "Slayer of Domiel",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "79",
+    "slug_5clone": "uccisore-di-domiel",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9246-uccisore-di-domiel"
+  },
+  {
+    "name_it": "Uccisore di Draghi",
+    "name_en": "Dragonslayer",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "133",
+    "slug_5clone": "uccisore-di-draghi",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9429-uccisore-di-draghi"
+  },
+  {
+    "name_it": "Valletto dei draghi",
+    "name_en": "Dragonkith",
+    "source_book_it": "Draconomicon",
+    "source_page_it": "134",
+    "slug_5clone": "valletto-dei-draghi",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9427-valletto-dei-draghi"
+  },
+  {
+    "name_it": "Vassallo di Bahamut",
+    "name_en": "Vassal of Bahamut",
+    "source_book_it": "Libro delle Imprese Eroiche",
+    "source_page_it": "81",
+    "slug_5clone": "vassallo-di-bahamut",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9214-vassallo-di-bahamut"
+  },
+  {
+    "name_it": "Vendicatore Corrotto",
+    "name_en": "Corrupt Avenger",
+    "source_book_it": "Eroi dell'Orrore",
+    "source_page_it": "115",
+    "slug_5clone": "vendicatore-corrotto",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9450-vendicatore-corrotto"
+  },
+  {
+    "name_it": "Viaggiatore Guida",
+    "name_en": "Wayfarer Guide",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "68",
+    "slug_5clone": "viaggiatore-guida",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9350-viaggiatore-guida"
+  },
+  {
+    "name_it": "Viandante dell'Orizzonte",
+    "name_en": "Horizon Walker",
+    "source_book_it": "Guida del Dungeon Master 3.5",
+    "source_page_it": "195",
+    "slug_5clone": "viandante-dellorizzonte",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9212-viandante-dellorizzonte"
+  },
+  {
+    "name_it": "Vigilante",
+    "name_en": "Vigilante",
+    "source_book_it": "Perfetto Avventuriero",
+    "source_page_it": "90",
+    "slug_5clone": "vigilante",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9375-vigilante"
+  },
+  {
+    "name_it": "Warlock",
+    "name_en": "Warlock",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "9",
+    "slug_5clone": "warlock",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9330-warlock"
+  },
+  {
+    "name_it": "Wu Jen",
+    "name_en": "Wu Jen",
+    "source_book_it": "Perfetto Arcanista",
+    "source_page_it": "14",
+    "slug_5clone": "wu-jen",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9331-wu-jen"
+  },
+  {
+    "name_it": "Zelota della Fiamma Nera",
+    "name_en": "Black Flame Zealot",
+    "source_book_it": "Perfetto Sacerdote",
+    "source_page_it": "74",
+    "slug_5clone": "zelota-della-fiamma-nera",
+    "url_path": "/enciclopedia/d-d-3-5/72-classicdp-ita-35/9328-zelota-della-fiamma-nera"
+  }
+]

@@ -552,7 +552,7 @@ async function renderResults() {
   // Edition filter (shared across tabs that have the toggle)
   const show30El = document.getElementById('filter-show-30');
   if (show30El && !show30El.checked) {
-    filtered = filtered.filter((item) => item.edition !== '3.0');
+    filtered = filtered.filter((item) => !item.edition || item.edition !== '3.0');
   }
 
   // Category-specific filters
@@ -1148,7 +1148,10 @@ function renderSourceBadge(item) {
   if (!info) return '';
   let html = `<span class="source-badge">${esc(info.label)}</span>`;
   if (item.edition) {
-    html += `<span class="edition-badge edition-${item.edition === '3.0' ? '30' : '35'}">${esc(item.edition)}</span>`;
+    const editions = item.edition.split(',').map(e => e.trim());
+    for (const ed of editions) {
+      html += `<span class="edition-badge edition-${ed === '3.0' ? '30' : '35'}">${esc(ed)}</span>`;
+    }
   }
   return html;
 }
@@ -1166,9 +1169,14 @@ function renderSourceFooter(item) {
 
   // IT reference (from overlay — manual_name/reference when overlay was applied)
   if (lang !== 'en') {
-    // When viewing in IT, manual_name is the overlay value (IT) and _base is EN
-    const itBook = item._base_manual_name ? item.manual_name : '';  // only if overlay replaced it
-    const itPage = item._base_reference ? item.reference : '';
+    // Case 1: overlay REPLACED manual_name → _base_ has EN original
+    let itBook = item._base_manual_name ? item.manual_name : '';
+    let itPage = item._base_reference ? item.reference : '';
+    // Case 2: overlay ADDED manual_name (base didn't have it) → no _base_, but manual_name exists
+    if (!itBook && item.manual_name && item.manual_name !== enBook) {
+      itBook = item.manual_name;
+      itPage = item.reference || '';
+    }
     if (itBook) refs.push({ lang: 'IT', book: itBook, page: itPage });
   }
 
