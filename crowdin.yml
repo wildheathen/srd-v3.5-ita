@@ -1,0 +1,6 @@
+files:
+  - source: /data/*.json
+    ignore:
+      - /data/translation-status*.json
+      - /data/sources.json
+    translation: /data/i18n/%two_letters_code%/%original_file_name%
