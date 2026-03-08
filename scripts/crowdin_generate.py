@@ -21,7 +21,7 @@ TRANSLATABLE_FIELDS = {
     "feats":     ["name", "manual_name", "reference"],
     "monsters":  ["name", "desc_html"],
     "races":     ["name", "traits", "desc_html"],
-    "rules":     ["name", "desc_html"],
+    "rules":     ["name"],  # desc_html escluso: supera il limite di 65535 byte di Crowdin
     "spells":    ["name", "summary_it", "school", "level", "manual_name", "reference"],
 }
 
