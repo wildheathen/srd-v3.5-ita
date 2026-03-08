@@ -229,14 +229,16 @@ header.collapsed #header-toggle {
 .search-clear {
   position: absolute;
   right: 0.4rem;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0;
+  height: calc(0.6rem * 2 + 1rem + 2px); /* match #search height: padding + font + border */
+  display: flex;
+  align-items: center;
   background: none;
   border: none;
   color: var(--text-dim);
   font-size: 1.2rem;
   cursor: pointer;
-  padding: 0.2rem 0.4rem;
+  padding: 0 0.4rem;
   line-height: 1;
   border-radius: 3px;
 }
@@ -452,6 +454,24 @@ main {
 
 #detail-panel.hidden {
   display: none;
+}
+
+/* ── Level group headers ──────────────────────────── */
+
+.level-group-header {
+  padding: 0.4rem 0.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+}
+
+.level-group-header:first-child {
+  margin-top: 0;
 }
 
 /* ── Result items ─────────────────────────────────── */

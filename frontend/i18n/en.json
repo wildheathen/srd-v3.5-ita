@@ -146,6 +146,8 @@
   "status.by_source": "By sourcebook",
 
   "source.label": "Source",
+  "spell.level_header": "Level ${level}",
+  "spell.no_level_header": "No level assigned",
 
   "lang.it": "Italiano",
   "lang.en": "English"

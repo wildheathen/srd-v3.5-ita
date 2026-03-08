@@ -146,6 +146,8 @@
   "status.by_source": "Per manuale",
 
   "source.label": "Fonte",
+  "spell.level_header": "Livello ${level}",
+  "spell.no_level_header": "Senza livello assegnato",
 
   "lang.it": "Italiano",
   "lang.en": "English"

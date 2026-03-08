@@ -18,6 +18,8 @@ let sourceBookMap = null;   // reverse map: normalised source_book → abbreviat
 const VS_ROW_HEIGHT = 64;  // px per result item (padding + margin + content)
 const VS_BUFFER = 15;      // extra rows above/below viewport
 let vsFilteredData = [];    // current filtered dataset for virtual scroll
+let vsDisplayMap = [];      // maps display-row-index → {type:'header',label} | {type:'item',dataIdx}
+let vsDataToDisplay = {};   // reverse map: dataIdx → displayIdx (for scroll-to-item)
 let vsLastRange = null;     // last rendered range {start, end} to avoid redundant renders
 let vsRafPending = false;   // debounce rAF for scroll handler
 
@@ -236,12 +238,13 @@ function initLangSwitcher() {
       if (item) {
         showDetail(item);
         // Scroll virtual list to bring the item into view
-        const idx = vsFilteredData.indexOf(item);
-        resultsList.scrollTop = idx * VS_ROW_HEIGHT;
+        const dataIdx = vsFilteredData.indexOf(item);
+        const displayIdx = vsDataToDisplay[dataIdx] ?? dataIdx;
+        resultsList.scrollTop = displayIdx * VS_ROW_HEIGHT;
         // After scroll triggers re-render, highlight the item
         requestAnimationFrame(() => {
           vsRenderVisible();
-          const el = resultsList.querySelector(`[data-index="${idx}"]`);
+          const el = resultsList.querySelector(`[data-data-idx="${dataIdx}"]`);
           if (el) {
             resultsList.querySelectorAll('.selected').forEach(s => s.classList.remove('selected'));
             el.classList.add('selected');
@@ -286,6 +289,16 @@ function parseSpellLevels(levelStr) {
     if (match) return { cls: match[1], lvl: parseInt(match[2]) };
     return null;
   }).filter(Boolean);
+}
+
+function getSpellSortLevel(item, filterCls) {
+  const levels = parseSpellLevels(item.level);
+  if (levels.length === 0) return -1;  // no level → sentinel
+  if (filterCls) {
+    const match = levels.find(l => l.cls === filterCls);
+    return match ? match.lvl : Math.min(...levels.map(l => l.lvl));
+  }
+  return Math.min(...levels.map(l => l.lvl));
 }
 
 // ── Filters ──────────────────────────────────────────────────────────────
@@ -632,11 +645,13 @@ async function renderResults() {
   }
 
   // Category-specific filters
+  let spellFilterCls = '';
   if (currentTab === 'spells') {
     const school = document.getElementById('filter-school')?.value;
     const cls = document.getElementById('filter-class')?.value;
     const domain = document.getElementById('filter-domain')?.value;
     const filterCls = cls || domain; // use whichever is set (mutually exclusive)
+    spellFilterCls = filterCls;
     const levels = getSelectedLevels();
 
     if (school) filtered = filtered.filter((s) => s.school === school);
@@ -711,8 +726,32 @@ async function renderResults() {
   resultsList._filtered = filtered;
   resultsList._searchQuery = q;
 
+  // Build display map (interleave level headers for spells tab)
+  vsDisplayMap = [];
+  vsDataToDisplay = {};
+  if (currentTab === 'spells') {
+    let lastLevel = null;
+    for (let i = 0; i < filtered.length; i++) {
+      const lvl = getSpellSortLevel(filtered[i], spellFilterCls);
+      if (lvl !== lastLevel) {
+        const label = lvl === -1
+          ? t('spell.no_level_header')
+          : t('spell.level_header', { level: lvl });
+        vsDisplayMap.push({ type: 'header', label });
+        lastLevel = lvl;
+      }
+      vsDataToDisplay[i] = vsDisplayMap.length;
+      vsDisplayMap.push({ type: 'item', dataIdx: i });
+    }
+  } else {
+    for (let i = 0; i < filtered.length; i++) {
+      vsDataToDisplay[i] = i;
+      vsDisplayMap.push({ type: 'item', dataIdx: i });
+    }
+  }
+
   // Setup virtual scroll container
-  const totalHeight = filtered.length * VS_ROW_HEIGHT;
+  const totalHeight = vsDisplayMap.length * VS_ROW_HEIGHT;
   resultsList.innerHTML = `<div class="vs-spacer" style="height:${totalHeight}px;position:relative"></div>`;
   resultsList._vsSpacer = resultsList.querySelector('.vs-spacer');
 
@@ -737,7 +776,21 @@ function vsOnScroll() {
   }
 }
 
-function vsCreateRow(idx, item, prepared, learned, q) {
+function vsCreateRow(displayIdx, prepared, learned, q) {
+  const entry = vsDisplayMap[displayIdx];
+  const top = displayIdx * VS_ROW_HEIGHT;
+  const div = document.createElement('div');
+  div.dataset.index = String(displayIdx);
+
+  // Level group header row
+  if (entry.type === 'header') {
+    div.className = 'level-group-header';
+    div.setAttribute('style', `position:absolute;top:${top}px;left:0;right:0;height:${VS_ROW_HEIGHT}px;box-sizing:border-box;display:flex;align-items:center`);
+    div.textContent = entry.label;
+    return div;
+  }
+
+  const item = vsFilteredData[entry.dataIdx];
   const meta = getMeta(item);
   let actionHtml = '';
   if (currentTab === 'spells') {
@@ -745,23 +798,21 @@ function vsCreateRow(idx, item, prepared, learned, q) {
     if (p) {
       const allUsed = p.used >= p.prepared;
       actionHtml = `<span class="prep-badge ${allUsed ? 'exhausted' : ''}">${p.used}/${p.prepared}</span>`
-        + `<button class="prep-btn prep-btn-active" data-idx="${idx}" title="${t('btn.add_prep')}">+</button>`;
+        + `<button class="prep-btn prep-btn-active" data-idx="${entry.dataIdx}" title="${t('btn.add_prep')}">+</button>`;
     } else {
-      actionHtml = `<button class="prep-btn" data-idx="${idx}" title="${t('btn.prepare_spell')}">+</button>`;
+      actionHtml = `<button class="prep-btn" data-idx="${entry.dataIdx}" title="${t('btn.prepare_spell')}">+</button>`;
     }
   } else if (currentTab === 'feats') {
     const isLearned = !!learned[item.slug];
-    actionHtml = `<button class="learn-btn ${isLearned ? 'learn-btn-active' : ''}" data-idx="${idx}" title="${isLearned ? t('btn.unlearn_feat') : t('btn.learn_feat')}">\u2713</button>`;
+    actionHtml = `<button class="learn-btn ${isLearned ? 'learn-btn-active' : ''}" data-idx="${entry.dataIdx}" title="${isLearned ? t('btn.unlearn_feat') : t('btn.learn_feat')}">\u2713</button>`;
   }
   const isPrepared = currentTab === 'spells' && prepared[item.slug];
   const isLearned = currentTab === 'feats' && learned[item.slug];
   const schoolStyle = currentTab === 'spells' && item.school ? ` style="--school-clr: ${getSchoolColor(item.school)}"` : '';
   const nameHtml = q ? highlightText(item.name, q) : esc(item.name);
   const enNameHtml = item._name_en ? `<span class="name-en">${q ? highlightText(item._name_en, q) : esc(item._name_en)}</span>` : '';
-  const top = idx * VS_ROW_HEIGHT;
-  const div = document.createElement('div');
   div.className = `result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}`.trim();
-  div.dataset.index = idx;
+  div.dataset.dataIdx = entry.dataIdx;
   div.dataset.slug = item.slug || '';
   div.setAttribute('style', `position:absolute;top:${top}px;left:0;right:0;height:${VS_ROW_HEIGHT}px;box-sizing:border-box${schoolStyle ? ';--school-clr:' + getSchoolColor(item.school) : ''}`);
   div.innerHTML = `<div class="result-row">
@@ -775,8 +826,7 @@ function vsCreateRow(idx, item, prepared, learned, q) {
 }
 
 function vsRenderVisible() {
-  const filtered = vsFilteredData;
-  if (!filtered.length) return;
+  if (!vsDisplayMap.length) return;
 
   const scrollTop = resultsList.scrollTop;
   const viewportHeight = resultsList.clientHeight;
@@ -784,7 +834,7 @@ function vsRenderVisible() {
   let start = Math.floor(scrollTop / VS_ROW_HEIGHT) - VS_BUFFER;
   let end = Math.ceil((scrollTop + viewportHeight) / VS_ROW_HEIGHT) + VS_BUFFER;
   start = Math.max(0, start);
-  end = Math.min(filtered.length, end);
+  end = Math.min(vsDisplayMap.length, end);
 
   // Skip if range hasn't changed
   if (vsLastRange && vsLastRange.start === start && vsLastRange.end === end) return;
@@ -807,7 +857,7 @@ function vsRenderVisible() {
   if (fullRebuild) {
     const frag = document.createDocumentFragment();
     for (let idx = start; idx < end; idx++) {
-      frag.appendChild(vsCreateRow(idx, filtered[idx], prepared, learned, q));
+      frag.appendChild(vsCreateRow(idx, prepared, learned, q));
     }
     spacer.textContent = '';
     spacer.appendChild(frag);
@@ -834,7 +884,7 @@ function vsRenderVisible() {
   const frag = document.createDocumentFragment();
   for (let idx = start; idx < end; idx++) {
     if (!rendered.has(idx)) {
-      frag.appendChild(vsCreateRow(idx, filtered[idx], prepared, learned, q));
+      frag.appendChild(vsCreateRow(idx, prepared, learned, q));
     }
   }
   if (frag.childNodes.length) {
@@ -862,7 +912,7 @@ function vsHandleClick(e) {
   if (row) {
     resultsList.querySelectorAll('.selected').forEach((s) => s.classList.remove('selected'));
     row.classList.add('selected');
-    const item = vsFilteredData[parseInt(row.dataset.index)];
+    const item = vsFilteredData[parseInt(row.dataset.dataIdx)];
     if (item) showDetail(item);
   }
 }
