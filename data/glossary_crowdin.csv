@@ -1,0 +1,3186 @@
+Term (EN),Translation (IT),Part of Speech,Description,Domain
+AC,CA,,Combat term,Combat
+AoO,AdO,,Combat term,Combat
+Armor Class,Classe Armatura,,Combat term,Combat
+Attack,Attacco,,Combat term,Combat
+Attack of Opportunity,Attacco di Opportunita,,Combat term,Combat
+Base Attack Bonus,Bonus di Attacco Base,,Combat term,Combat
+Blinded,Accecato,adj,Condition,Combat
+Charge,Carica,,Combat term,Combat
+Concealment,Occultamento,,Combat term,Combat
+Confused,Confuso,adj,Condition,Combat
+Cover,Copertura,,Combat term,Combat
+Cowering,Atterrito,adj,Condition,Combat
+Critical Hit,Colpo Critico,,Combat term,Combat
+Critical Threat,Minaccia di Critico,,Combat term,Combat
+Damage,Danno,,Combat term,Combat
+Dazed,Frastornato,adj,Condition,Combat
+Dazzled,Abbagliato,adj,Condition,Combat
+Dead,Morto,adj,Condition,Combat
+Deafened,Assordato,adj,Condition,Combat
+Disabled,Inabile,adj,Condition,Combat
+DR,RD,,Combat term,Combat
+Dying,Morente,adj,Condition,Combat
+Entangled,Intralciato,adj,Condition,Combat
+Exhausted,Esausto,adj,Condition,Combat
+Fascinated,Affascinato,adj,Condition,Combat
+Fatigued,Affaticato,adj,Condition,Combat
+Flanking,Fiancheggiamento,,Combat term,Combat
+Flat-Footed,Colto alla Sprovvista,,Combat term,Combat
+Fortitude,Tempra,,Combat term,Combat
+Free Action,Azione Gratuita,,Combat term,Combat
+Frightened,Spaventato,adj,Condition,Combat
+Full Attack,Attacco Completo,,Combat term,Combat
+Full-Round Action,Azione di Round Completo,,Combat term,Combat
+Grapple,Lotta,,Combat term,Combat
+Grappling,In Lotta,adj,Condition,Combat
+HD,DV,,Combat term,Combat
+Helpless,Indifeso,adj,Condition,Combat
+Hit Dice,Dadi Vita,,Combat term,Combat
+Hit Points,Punti Ferita,,Combat term,Combat
+HP,PF,,Combat term,Combat
+Immediate Action,Azione Immediata,,Combat term,Combat
+Initiative,Iniziativa,,Combat term,Combat
+Invisible,Invisibile,adj,Condition,Combat
+Melee,Mischia,,Combat term,Combat
+Move Action,Azione di Movimento,,Combat term,Combat
+Natural Armor,Armatura Naturale,,Combat term,Combat
+Nauseated,Nauseato,adj,Condition,Combat
+Nonlethal Damage,Danno Non Letale,,Combat term,Combat
+Panicked,In Panico,adj,Condition,Combat
+Paralyzed,Paralizzato,adj,Condition,Combat
+Petrified,Pietrificato,adj,Condition,Combat
+Pinned,Immobilizzato,adj,Condition,Combat
+Prone,Prono,adj,Condition,Combat
+Ranged,Distanza,,Combat term,Combat
+Ranged Touch Attack,Attacco di Contatto a Distanza,,Combat term,Combat
+Reflex,Riflessi,,Combat term,Combat
+Saving Throw,Tiro Salvezza,,Combat term,Combat
+Shaken,Scosso,adj,Condition,Combat
+Sickened,Infermo,adj,Condition,Combat
+Sneak Attack,Attacco Furtivo,,Combat term,Combat
+SR,RI,,Combat term,Combat
+Stable,Stabile,adj,Condition,Combat
+Staggered,Barcollante,adj,Condition,Combat
+Standard Action,Azione Standard,,Combat term,Combat
+Stunned,Stordito,adj,Condition,Combat
+Swift Action,Azione Veloce,,Combat term,Combat
+Threatened Area,Area Minacciata,,Combat term,Combat
+Touch AC,CA di Contatto,,Combat term,Combat
+Touch Attack,Attacco di Contatto,,Combat term,Combat
+Turned,Scacciato,adj,Condition,Combat
+Unconscious,Privo di Sensi,adj,Condition,Combat
+Will,Volonta,,Combat term,Combat
+Ability Damage,Danno alle Caratteristiche,,Game term,Core Rules
+Ability Drain,Risucchio di Caratteristica,,Game term,Core Rules
+Ability Modifier,Modificatore di Caratteristica,,Character term,Core Rules
+Ability Score,Punteggio di Caratteristica,,Character term,Core Rules
+Alignment,Allineamento,,Character term,Core Rules
+Always,Sempre,adv,Alignment,Core Rules
+Animal Companion,Compagno Animale,,Game term,Core Rules
+Any,Qualsiasi,adv,Alignment,Core Rules
+Arcane Spell Failure,Fallimento Incantesimo Arcano,,Game term,Core Rules
+Armor Check Penalty,Penalita di Armatura,,Character term,Core Rules
+Bardic Music,Musica Bardica,,Game term,Core Rules
+Base Class,Classe Base,,Character term,Core Rules
+Base Save,Tiro Salvezza Base,,Character term,Core Rules
+Benefit,Beneficio,,Character term,Core Rules
+Bonus Feat,Talento Bonus,,Character term,Core Rules
+Bonus Spell,Incantesimo Bonus,,Game term,Core Rules
+CHA,CAR,noun,Ability score,Core Rules
+Channel Energy,Incanalare Energia,,Game term,Core Rules
+Chaotic Evil,Caotico Malvagio,noun,Alignment,Core Rules
+Chaotic Good,Caotico Buono,noun,Alignment,Core Rules
+Chaotic Neutral,Caotico Neutrale,noun,Alignment,Core Rules
+Character Level,Livello del Personaggio,,Character term,Core Rules
+Charisma,Carisma,noun,Ability score,Core Rules
+Class Level,Livello di Classe,,Character term,Core Rules
+Class Skill,Abilita di Classe,,Character term,Core Rules
+Colossal,Colossale,adj,Creature size category,Core Rules
+CON,COS,noun,Ability score,Core Rules
+Constitution,Costituzione,noun,Ability score,Core Rules
+Cross-Class Skill,Abilita Fuori Classe,,Character term,Core Rules
+DC,CD,,Game term,Core Rules
+DEX,DES,noun,Ability score,Core Rules
+Dexterity,Destrezza,noun,Ability score,Core Rules
+Difficulty Class,Classe Difficolta,,Game term,Core Rules
+Diminutive,Piccolissima,adj,Creature size category,Core Rules
+ECL,LEP,,Character term,Core Rules
+Effective Character Level,Livello Effettivo del Personaggio,,Character term,Core Rules
+Evasion,Eludere,,Game term,Core Rules
+Experience Points,Punti Esperienza,,Character term,Core Rules
+Familiar,Famiglio,,Game term,Core Rules
+Feat,Talento,,Character term,Core Rules
+Feats,Talenti,,Character term,Core Rules
+Fine,Minuscola,adj,Creature size category,Core Rules
+Gargantuan,Mastodontica,adj,Creature size category,Core Rules
+Hit Die,Dado Vita,,Character term,Core Rules
+Huge,Enorme,adj,Creature size category,Core Rules
+Improved Evasion,Eludere Migliorato,,Game term,Core Rules
+Improved Uncanny Dodge,Schivata Prodigiosa Migliorata,,Game term,Core Rules
+Intelligence,Intelligenza,noun,Ability score,Core Rules
+Large,Grande,adj,Creature size category,Core Rules
+Lawful Evil,Legale Malvagio,noun,Alignment,Core Rules
+Lawful Good,Legale Buono,noun,Alignment,Core Rules
+Lawful Neutral,Legale Neutrale,noun,Alignment,Core Rules
+Lay on Hands,Imposizione delle Mani,,Game term,Core Rules
+Level,Livello,,Character term,Core Rules
+Level Adjustment,Modificatore di Livello,,Character term,Core Rules
+Medium,Media,adj,Creature size category,Core Rules
+Multiclass,Multiclasse,,Character term,Core Rules
+Natural Weapon,Arma Naturale,,Game term,Core Rules
+Negative Level,Livello Negativo,,Game term,Core Rules
+Neutral Evil,Neutrale Malvagio,noun,Alignment,Core Rules
+Neutral Good,Neutrale Buono,noun,Alignment,Core Rules
+Normal,Normale,,Character term,Core Rules
+Often,Spesso,adv,Alignment,Core Rules
+Prerequisite,Prerequisito,,Character term,Core Rules
+Prerequisites,Prerequisiti,,Character term,Core Rules
+Prestige Class,Classe di Prestigio,,Character term,Core Rules
+Proficiency,Competenza,,Character term,Core Rules
+Proficient,Competente,,Character term,Core Rules
+Rebuke Undead,Intimorire Non Morti,,Game term,Core Rules
+Skill,Abilita,,Character term,Core Rules
+Skill Points,Punti Abilita,,Character term,Core Rules
+Skill Ranks,Gradi di Abilita,,Character term,Core Rules
+Skills,Abilita,,Character term,Core Rules
+Small,Piccola,adj,Creature size category,Core Rules
+Smite Evil,Punire il Male,,Game term,Core Rules
+Special,Speciale,,Character term,Core Rules
+Spell Component,Componente dell'Incantesimo,,Game term,Core Rules
+Spell Failure,Fallimento Incantesimo,,Game term,Core Rules
+Spellbook,Libro degli Incantesimi,,Game term,Core Rules
+STR,FOR,noun,Ability score,Core Rules
+Strength,Forza,noun,Ability score,Core Rules
+Tiny,Minuta,adj,Creature size category,Core Rules
+Trained Only,Solo Addestrata,,Character term,Core Rules
+Trap Sense,Percepire Trappole,,Game term,Core Rules
+Trapfinding,Trovare Trappole,,Game term,Core Rules
+True Neutral,Neutrale Puro,noun,Alignment,Core Rules
+Turn Undead,Scacciare Non Morti,,Game term,Core Rules
+Uncanny Dodge,Schivata Prodigiosa,,Game term,Core Rules
+Usually,Di solito,adv,Alignment,Core Rules
+Wild Shape,Forma Selvatica,,Game term,Core Rules
+WIS,SAG,noun,Ability score,Core Rules
+Wisdom,Saggezza,noun,Ability score,Core Rules
+XP,PE,,Character term,Core Rules
+Acid (flask),Acido (fiasca),noun,Equipment,Equipment
+Adventuring Gear,Equipaggiamento da Avventura,,Equipment term,Equipment
+Alchemist’s fire (flask),Fuoco dell'alchimista (fiasca),noun,Equipment,Equipment
+Alchemist’s lab,Laboratorio da alchimista,noun,Equipment,Equipment
+Ale,Birra,noun,Equipment,Equipment
+Amazing,Eccezionale,noun,Equipment,Equipment
+Antitoxin (vial),Antitossina (fiala),noun,Equipment,Equipment
+Armor,Armatura,,Equipment term,Equipment
+Armor spikes,Spuntoni per armatura,noun,Equipment,Equipment
+Arrows (20),Frecce (20),noun,Equipment,Equipment
+Artisan’s outfit,Abito da artigiano,noun,Equipment,Equipment
+Artisan’s tools,Attrezzi da artigiano,noun,Equipment,Equipment
+"Artisan’s tools, masterwork",Attrezzi da artigiano di qualità superiore,noun,Equipment,Equipment
+Average,Media,noun,Equipment,Equipment
+"Axe, orc double5",Ascia doppia orchesca,noun,Equipment,Equipment
+"Axe, throwing",Ascia da lancio,noun,Equipment,Equipment
+Backpack (empty),Zaino (vuoto),noun,Equipment,Equipment
+Banded mail,Corazza a strisce,noun,Equipment,Equipment
+Banquet (per person),Banchetto (a persona),noun,Equipment,Equipment
+Barding,Barda,noun,Equipment,Equipment
+Barrel (empty),Barile (vuoto),noun,Equipment,Equipment
+Basket (empty),Cestino (vuoto),noun,Equipment,Equipment
+Battleaxe,Ascia da battaglia,noun,Equipment,Equipment
+Bedroll,Sacco a pelo,noun,Equipment,Equipment
+Bell,Campanella,noun,Equipment,Equipment
+Bit and bridle,Morso e briglie,noun,Equipment,Equipment
+"Blanket, winter",Coperta invernale,noun,Equipment,Equipment
+Block and tackle,Paranco,noun,Equipment,Equipment
+Bludgeoning,Contundente,,Equipment term,Equipment
+Bolts (10),Quadrelli (10),noun,Equipment,Equipment
+Bolts (5),Quadrelli (5),noun,Equipment,Equipment
+"Bolts, crossbow (10)",Quadrelli da balestra (10),noun,Equipment,Equipment
+"Bottle, wine, glass",Bottiglia di vetro per vino,noun,Equipment,Equipment
+"Bread, per loaf","Pane, per pagnotta",noun,Equipment,Equipment
+Breastplate,Corazza,noun,Equipment,Equipment
+Bucket (empty),Secchio (vuoto),noun,Equipment,Equipment
+Buckler,Brocchiere,noun,Equipment,Equipment
+"Bullets, sling (10)",Proiettili da fionda (10),noun,Equipment,Equipment
+Caltrops,Triboli,noun,Equipment,Equipment
+Candle,Candela,noun,Equipment,Equipment
+Canvas (sq. yd.),Tela (mq),noun,Equipment,Equipment
+Carriage,Carrozza,noun,Equipment,Equipment
+Cart,Carro,noun,Equipment,Equipment
+"Case, map or scroll",Astuccio per mappe o pergamene,noun,Equipment,Equipment
+Chain (10 ft.),Catena (3 m),noun,Equipment,Equipment
+Chain shirt,Giaco di maglia,noun,Equipment,Equipment
+"Chain, spiked4",Catena chiodata,noun,Equipment,Equipment
+Chainmail,Cotta di maglia,noun,Equipment,Equipment
+"Chalk, 1 piece","Gesso, 1 pezzo",noun,Equipment,Equipment
+"Cheese, hunk of","Formaggio, pezzo",noun,Equipment,Equipment
+Chest (empty),Forziere (vuoto),noun,Equipment,Equipment
+Cleric’s vestments,Paramenti clericali,noun,Equipment,Equipment
+Climber’s kit,Kit da scalatore,noun,Equipment,Equipment
+Club,Randello,noun,Equipment,Equipment
+Coach cab,Carrozza a noleggio,noun,Equipment,Equipment
+Cold weather outfit,Abito per climi freddi,noun,Equipment,Equipment
+Common,Comune,noun,Equipment,Equipment
+Common (pitcher),Comune (brocca),noun,Equipment,Equipment
+Copper Pieces,Monete di Rame,,Equipment term,Equipment
+Courtier’s outfit,Abito da cortigiano,noun,Equipment,Equipment
+CP,MR,,Equipment term,Equipment
+"Crossbow, hand",Balestra a mano,noun,Equipment,Equipment
+"Crossbow, heavy",Balestra pesante,noun,Equipment,Equipment
+"Crossbow, light",Balestra leggera,noun,Equipment,Equipment
+"Crossbow,repeating heavy",Balestra pesante a ripetizione,noun,Equipment,Equipment
+"Crossbow,repeating light",Balestra leggera a ripetizione,noun,Equipment,Equipment
+Crowbar,Piede di porco,noun,Equipment,Equipment
+Dagger,Pugnale,noun,Equipment,Equipment
+"Dagger, punching",Pugnale da presa,noun,Equipment,Equipment
+Dart,Dardo,noun,Equipment,Equipment
+Disguise kit,Kit per travestimento,noun,Equipment,Equipment
+"Dog, guard",Cane da guardia,noun,Equipment,Equipment
+"Dog, riding",Cane da sella,noun,Equipment,Equipment
+Donkey or mule,Asino o mulo,noun,Equipment,Equipment
+Enchantment Bonus,Bonus di Potenziamento,,Equipment term,Equipment
+Entertainer’s outfit,Abito da intrattenitore,noun,Equipment,Equipment
+Everburning torch,Torcia perenne,noun,Equipment,Equipment
+Exotic Weapon,Arma Esotica,,Equipment term,Equipment
+Explorer’s outfit,Abito da esploratore,noun,Equipment,Equipment
+Extras,Extra,noun,Equipment,Equipment
+Falchion,Falcione,noun,Equipment,Equipment
+Feed (per day),Mangime (al giorno),noun,Equipment,Equipment
+Fine (bottle),Pregiato (bottiglia),noun,Equipment,Equipment
+Firewood (per day),Legna da ardere (al giorno),noun,Equipment,Equipment
+Fishhook,Amo da pesca,noun,Equipment,Equipment
+"Fishing net, 25 sq. ft.","Rete da pesca, 2,5 mq",noun,Equipment,Equipment
+Flail,Mazzafrusto,noun,Equipment,Equipment
+"Flail, dire5",Mazzafrusto doppio,noun,Equipment,Equipment
+"Flail, heavy",Mazzafrusto pesante,noun,Equipment,Equipment
+Flask (empty),Fiaschetta (vuota),noun,Equipment,Equipment
+Flint and steel,Acciarino e pietra focaia,noun,Equipment,Equipment
+Full plate,Armatura completa,noun,Equipment,Equipment
+Galley,Galea,noun,Equipment,Equipment
+Gallon,Gallone,noun,Equipment,Equipment
+Gauntlet,Guanto,noun,Equipment,Equipment
+"Gauntlet, locked",Guanto bloccato,noun,Equipment,Equipment
+"Gauntlet, spiked",Guanto chiodato,noun,Equipment,Equipment
+Glaive4,Falcione d'armi,noun,Equipment,Equipment
+Gold Pieces,Monete d'Oro,,Equipment term,Equipment
+GP,MO,,Equipment term,Equipment
+Grappling hook,Rampino,noun,Equipment,Equipment
+Greataxe,Ascia bipenne,noun,Equipment,Equipment
+Greatclub,Randello pesante,noun,Equipment,Equipment
+Greatsword,Spadone,noun,Equipment,Equipment
+Guisarme4,Guisarma,noun,Equipment,Equipment
+Halberd,Alabarda,noun,Equipment,Equipment
+Half-plate,Mezza armatura,noun,Equipment,Equipment
+Hammer,Martello,noun,Equipment,Equipment
+"Hammer, light",Martello leggero,noun,Equipment,Equipment
+"Hammer,gnome hooked5",Martello-uncino gnomesco,noun,Equipment,Equipment
+Handaxe,Accetta,noun,Equipment,Equipment
+Healer’s kit,Kit da guaritore,noun,Equipment,Equipment
+Heavy armor,Armatura pesante,noun,Equipment,Equipment
+"Hireling, trained",Mercenario addestrato,noun,Equipment,Equipment
+"Hireling, untrained",Mercenario non addestrato,noun,Equipment,Equipment
+Holly and mistletoe,Agrifoglio e vischio,noun,Equipment,Equipment
+"Holy symbol, silver",Simbolo sacro d'argento,noun,Equipment,Equipment
+"Holy symbol, wooden",Simbolo sacro di legno,noun,Equipment,Equipment
+Holy water (flask),Acqua santa (fiasca),noun,Equipment,Equipment
+Horse,Cavallo,noun,Equipment,Equipment
+"Horse, heavy",Cavallo pesante,noun,Equipment,Equipment
+"Horse, light",Cavallo leggero,noun,Equipment,Equipment
+Hourglass,Clessidra,noun,Equipment,Equipment
+Ink (1 oz. vial),Inchiostro (fiala da 30 ml),noun,Equipment,Equipment
+Inkpen,Penna a inchiostro,noun,Equipment,Equipment
+Inn stay (per day),Soggiorno alla locanda (al giorno),noun,Equipment,Equipment
+Javelin,Giavellotto,noun,Equipment,Equipment
+"Jug, clay",Brocca di terracotta,noun,Equipment,Equipment
+Keelboat,Barca a chiglia,noun,Equipment,Equipment
+"Ladder, 10-foot","Scala, 3 metri",noun,Equipment,Equipment
+"Lamp, common",Lampada comune,noun,Equipment,Equipment
+Lance4,Lancia da cavaliere,noun,Equipment,Equipment
+"Lantern, bullseye",Lanterna schermata,noun,Equipment,Equipment
+"Lantern, hooded",Lanterna con cappuccio,noun,Equipment,Equipment
+Large creature,Creatura grande,noun,Equipment,Equipment
+Leather,Cuoio,noun,Equipment,Equipment
+Light armor,Armatura leggera,noun,Equipment,Equipment
+Light Weapon,Arma Leggera,,Equipment term,Equipment
+Lock,Serratura,noun,Equipment,Equipment
+Longbow,Arco lungo,noun,Equipment,Equipment
+"Longbow, composite",Arco lungo composito,noun,Equipment,Equipment
+Longship,Drakkar,noun,Equipment,Equipment
+Longspear4,Lancia lunga,noun,Equipment,Equipment
+Longsword,Spada lunga,noun,Equipment,Equipment
+"Mace, heavy",Mazza pesante,noun,Equipment,Equipment
+"Mace, light",Mazza leggera,noun,Equipment,Equipment
+Magic Item,Oggetto Magico,,Equipment term,Equipment
+Magnifying glass,Lente d'ingrandimento,noun,Equipment,Equipment
+Manacles,Manette,noun,Equipment,Equipment
+"Manacles, masterwork",Manette di qualità superiore,noun,Equipment,Equipment
+Martial Weapon,Arma da Guerra,,Equipment term,Equipment
+Masterwork,Perfetto,,Equipment term,Equipment
+Meals (per day),Pasti (al giorno),noun,Equipment,Equipment
+"Meat, chunk of","Carne, pezzo",noun,Equipment,Equipment
+Medium armor,Armatura media,noun,Equipment,Equipment
+Medium creature,Creatura media,noun,Equipment,Equipment
+Messenger,Messaggero,noun,Equipment,Equipment
+Military,Militare,noun,Equipment,Equipment
+"Mirror, small steel",Specchio piccolo d'acciaio,noun,Equipment,Equipment
+Monk’s outfit,Abito da monaco,noun,Equipment,Equipment
+Morningstar,Stella del mattino,noun,Equipment,Equipment
+Mug,Boccale,noun,Equipment,Equipment
+"Mug/Tankard, clay",Boccale di terracotta,noun,Equipment,Equipment
+"Musical instrument, common",Strumento musicale comune,noun,Equipment,Equipment
+"Musical instrument, masterwork",Strumento musicale di qualità superiore,noun,Equipment,Equipment
+Net,Rete,noun,Equipment,Equipment
+Noble’s outfit,Abito da nobile,noun,Equipment,Equipment
+Oar,Remo,noun,Equipment,Equipment
+Oil (1-pint flask),Olio (fiasca da mezzo litro),noun,Equipment,Equipment
+One-Handed,A Una Mano,,Equipment term,Equipment
+Pack,Da soma,noun,Equipment,Equipment
+Padded,Imbottita,noun,Equipment,Equipment
+Paper (sheet),Carta (foglio),noun,Equipment,Equipment
+Parchment (sheet),Pergamena (foglio),noun,Equipment,Equipment
+Peasant’s outfit,Abito da contadino,noun,Equipment,Equipment
+"Pick, heavy",Piccone pesante,noun,Equipment,Equipment
+"Pick, light",Piccone leggero,noun,Equipment,Equipment
+"Pick, miner’s",Piccone da minatore,noun,Equipment,Equipment
+Piercing,Perforante,,Equipment term,Equipment
+"Pitcher, clay",Brocca di terracotta,noun,Equipment,Equipment
+Piton,Chiodo da roccia,noun,Equipment,Equipment
+Platinum Pieces,Monete di Platino,,Equipment term,Equipment
+"Pole, 10-foot","Pertica, 3 metri",noun,Equipment,Equipment
+Poor,Scadente,noun,Equipment,Equipment
+"Pot, iron",Pentola di ferro,noun,Equipment,Equipment
+Potion,Pozione,,Equipment term,Equipment
+"Pouch, belt (empty)",Borsa da cintura (vuota),noun,Equipment,Equipment
+PP,MP,,Equipment term,Equipment
+Quarterstaff5,Bastone ferrato,noun,Equipment,Equipment
+"Ram, portable",Ariete portatile,noun,Equipment,Equipment
+Ranseur4,Ranseur,noun,Equipment,Equipment
+Rapier,Stocco,noun,Equipment,Equipment
+"Rations, trail (per day)",Razioni da viaggio (al giorno),noun,Equipment,Equipment
+Riding,Da cavalcatura,noun,Equipment,Equipment
+Ring,Anello,,Equipment term,Equipment
+Road or gate toll,Pedaggio stradale o di porta,noun,Equipment,Equipment
+Rod,Verga,,Equipment term,Equipment
+"Rope, hempen (50 ft.)",Corda di canapa (15 m),noun,Equipment,Equipment
+"Rope, silk (50 ft.)",Corda di seta (15 m),noun,Equipment,Equipment
+Rowboat,Barca a remi,noun,Equipment,Equipment
+Royal outfit,Abito reale,noun,Equipment,Equipment
+Sack (empty),Sacco (vuoto),noun,Equipment,Equipment
+Saddle,Sella,noun,Equipment,Equipment
+"Saddle, Exotic",Sella esotica,noun,Equipment,Equipment
+Saddlebags,Bisacce da sella,noun,Equipment,Equipment
+Sailing ship,Veliero,noun,Equipment,Equipment
+Sap,Manganello,noun,Equipment,Equipment
+Scale mail,Corazza di scaglie,noun,Equipment,Equipment
+"Scale, merchant’s",Bilancia da mercante,noun,Equipment,Equipment
+Scholar’s outfit,Abito da studioso,noun,Equipment,Equipment
+Scimitar,Scimitarra,noun,Equipment,Equipment
+Scroll,Pergamena,,Equipment term,Equipment
+Scythe,Falce,noun,Equipment,Equipment
+Sealing wax,Ceralacca,noun,Equipment,Equipment
+Sewing needle,Ago da cucito,noun,Equipment,Equipment
+Shield spikes,Spuntoni per scudo,noun,Equipment,Equipment
+"Shield, heavy",Scudo pesante,noun,Equipment,Equipment
+"Shield, heavy steel",Scudo pesante d'acciaio,noun,Equipment,Equipment
+"Shield, heavy wooden",Scudo pesante di legno,noun,Equipment,Equipment
+"Shield, light",Scudo leggero,noun,Equipment,Equipment
+"Shield, light steel",Scudo leggero d'acciaio,noun,Equipment,Equipment
+"Shield, light wooden",Scudo leggero di legno,noun,Equipment,Equipment
+"Shield, tower",Scudo torre,noun,Equipment,Equipment
+Shields,Scudi,noun,Equipment,Equipment
+Ship’s passage,Passaggio su nave,noun,Equipment,Equipment
+Shortbow,Arco corto,noun,Equipment,Equipment
+"Shortbow, composite",Arco corto composito,noun,Equipment,Equipment
+Shortspear,Lancia corta,noun,Equipment,Equipment
+Sickle,Falcetto,noun,Equipment,Equipment
+Signal whistle,Fischietto,noun,Equipment,Equipment
+Signet ring,Anello con sigillo,noun,Equipment,Equipment
+Silver Pieces,Monete d'Argento,,Equipment term,Equipment
+Simple Weapon,Arma Semplice,,Equipment term,Equipment
+Slashing,Tagliente,,Equipment term,Equipment
+Sled,Slitta,noun,Equipment,Equipment
+Sledge,Mazza da fabbro,noun,Equipment,Equipment
+Sling,Fionda,noun,Equipment,Equipment
+Smokestick,Bastone fumogeno,noun,Equipment,Equipment
+Soap (per lb.),Sapone (per libbra),noun,Equipment,Equipment
+Spade or shovel,Vanga o pala,noun,Equipment,Equipment
+Spear,Lancia,noun,Equipment,Equipment
+Spell component pouch,Borsa per componenti,noun,Equipment,Equipment
+"Spell, 0-level","Incantesimo, livello 0",noun,Equipment,Equipment
+"Spell, 1st-level","Incantesimo, livello 1",noun,Equipment,Equipment
+"Spell, 2nd-level","Incantesimo, livello 2",noun,Equipment,Equipment
+"Spell, 3rd-level","Incantesimo, livello 3",noun,Equipment,Equipment
+"Spell, 4th-level","Incantesimo, livello 4",noun,Equipment,Equipment
+"Spell, 5th-level","Incantesimo, livello 5",noun,Equipment,Equipment
+"Spell, 6th-level","Incantesimo, livello 6",noun,Equipment,Equipment
+"Spell, 7th-level","Incantesimo, livello 7",noun,Equipment,Equipment
+"Spell, 8th-level","Incantesimo, livello 8",noun,Equipment,Equipment
+"Spell, 9th-level","Incantesimo, livello 9",noun,Equipment,Equipment
+"Spellbook, wizard’s (blank)",Libro degli incantesimi (vuoto),noun,Equipment,Equipment
+Spiked armor,Armatura chiodata,noun,Equipment,Equipment
+"Spiked shield, heavy",Scudo pesante chiodato,noun,Equipment,Equipment
+"Spiked shield, light",Scudo leggero chiodato,noun,Equipment,Equipment
+Splint mail,Corazza di bande,noun,Equipment,Equipment
+Spyglass,Cannocchiale,noun,Equipment,Equipment
+Stabling (per day),Stalla (al giorno),noun,Equipment,Equipment
+Staff,Bastone,,Equipment term,Equipment
+Studded leather,Cuoio borchiato,noun,Equipment,Equipment
+Sunrod,Bastoncino solare,noun,Equipment,Equipment
+"Sword, bastard",Spada bastarda,noun,Equipment,Equipment
+"Sword, short",Spada corta,noun,Equipment,Equipment
+"Sword, two-bladed5",Spada a due lame,noun,Equipment,Equipment
+Tanglefoot bag,Borsa intralciante,noun,Equipment,Equipment
+Tent,Tenda,noun,Equipment,Equipment
+Thieves’ tools,Attrezzi da scasso,noun,Equipment,Equipment
+"Thieves’ tools, masterwork",Attrezzi da scasso di qualità superiore,noun,Equipment,Equipment
+Thunderstone,Pietra del tuono,noun,Equipment,Equipment
+Tindertwig,Ramoscello incendiario,noun,Equipment,Equipment
+"Tool, masterwork",Attrezzo di qualità superiore,noun,Equipment,Equipment
+Torch,Torcia,noun,Equipment,Equipment
+Traveler’s outfit,Abito da viaggio,noun,Equipment,Equipment
+Trident,Tridente,noun,Equipment,Equipment
+Two-Handed,A Due Mani,,Equipment term,Equipment
+Unarmed strike,Colpo senz'armi,noun,Equipment,Equipment
+"Urgrosh, dwarven5",Urgrosh nanico,noun,Equipment,Equipment
+Very simple,Molto semplice,noun,Equipment,Equipment
+"Vial, ink or potion",Fiala per inchiostro o pozione,noun,Equipment,Equipment
+Wagon,Carro da trasporto,noun,Equipment,Equipment
+Wand,Bacchetta,,Equipment term,Equipment
+"Waraxe, dwarven",Ascia da guerra nanica,noun,Equipment,Equipment
+Warhammer,Martello da guerra,noun,Equipment,Equipment
+"Warhorse, heavy",Destriero pesante,noun,Equipment,Equipment
+"Warhorse, light",Destriero leggero,noun,Equipment,Equipment
+Warpony,Pony da guerra,noun,Equipment,Equipment
+Warship,Nave da guerra,noun,Equipment,Equipment
+Water clock,Orologio ad acqua,noun,Equipment,Equipment
+Waterskin,Otre,noun,Equipment,Equipment
+Weapon,Arma,,Equipment term,Equipment
+Weapons,Armi,,Equipment term,Equipment
+Whetstone,Pietra per affilare,noun,Equipment,Equipment
+Whip4,Frusta,noun,Equipment,Equipment
+Wine,Vino,noun,Equipment,Equipment
+Wondrous Item,Oggetto Meraviglioso,,Equipment term,Equipment
+Abjuration,Abiurazione,noun,School of magic,Magic
+Acid,Acido,adj,Spell descriptor / energy type,Magic
+Air,Aria,adj,Spell descriptor / energy type,Magic
+Air Domain,Dominio dell'Aria,noun,Cleric domain,Magic
+Animal Domain,Dominio degli Animali,noun,Cleric domain,Magic
+Arcane,Arcano,,Magic term,Magic
+Calling,Richiamo,noun,Subschool of magic,Magic
+Cantrip,Trucchetto,,Magic term,Magic
+Caster Level,Livello Incantatore,,Magic term,Magic
+Casting Time,Tempo di Lancio,,Magic term,Magic
+Chaos Domain,Dominio del Caos,noun,Cleric domain,Magic
+Chaotic,Caotico,adj,Spell descriptor / energy type,Magic
+Charm,Charme,noun,Subschool of magic,Magic
+CL,LI,,Magic term,Magic
+Close,Vicino,,Magic term,Magic
+Cold,Freddo,adj,Spell descriptor / energy type,Magic
+Components,Componenti,,Magic term,Magic
+Compulsion,Compulsione,noun,Subschool of magic,Magic
+Conjuration,Evocazione,noun,School of magic,Magic
+Counterspell,Controincantesimo,,Magic term,Magic
+Creation,Creazione,noun,Subschool of magic,Magic
+Darkness,Oscurita,adj,Spell descriptor / energy type,Magic
+Death,Morte,adj,Spell descriptor / energy type,Magic
+Death Domain,Dominio della Morte,noun,Cleric domain,Magic
+Destruction Domain,Dominio della Distruzione,noun,Cleric domain,Magic
+Dismissible,Congedabile,,Magic term,Magic
+Dispel,Dissoluzione,,Magic term,Magic
+Divination,Divinazione,noun,School of magic,Magic
+Divine,Divino,,Magic term,Magic
+Divine Focus,Focus Divino,,Magic term,Magic
+Domain,Dominio,,Magic term,Magic
+Duration,Durata,,Magic term,Magic
+Earth,Terra,adj,Spell descriptor / energy type,Magic
+Earth Domain,Dominio della Terra,noun,Cleric domain,Magic
+Effect,Effetto,,Magic term,Magic
+Electricity,Elettricita,adj,Spell descriptor / energy type,Magic
+Enchantment,Ammaliamento,noun,School of magic,Magic
+Evil,Malvagio,adj,Spell descriptor / energy type,Magic
+Evil Domain,Dominio del Male,noun,Cleric domain,Magic
+Evocation,Invocazione,noun,School of magic,Magic
+Ex,Str,,Magic term,Magic
+Extraordinary Ability,Capacita Straordinaria,,Magic term,Magic
+Fear,Paura,adj,Spell descriptor / energy type,Magic
+Figment,Finzione,noun,Subschool of magic,Magic
+Fire,Fuoco,adj,Spell descriptor / energy type,Magic
+Fire Domain,Dominio del Fuoco,noun,Cleric domain,Magic
+Force,Forza,adj,Spell descriptor / energy type,Magic
+Fortitude half,Tempra dimezza,,Magic term,Magic
+Glamer,Mascheramento,noun,Subschool of magic,Magic
+Good,Buono,adj,Spell descriptor / energy type,Magic
+Good Domain,Dominio del Bene,noun,Cleric domain,Magic
+Harmless,Innocuo,,Magic term,Magic
+Healing,Guarigione,noun,Subschool of magic,Magic
+Healing Domain,Dominio della Guarigione,noun,Cleric domain,Magic
+Illusion,Illusione,noun,School of magic,Magic
+Instantaneous,Istantanea,,Magic term,Magic
+Knowledge Domain,Dominio della Conoscenza,noun,Cleric domain,Magic
+Language-Dependent,Extralinguistico,adj,Spell descriptor / energy type,Magic
+Law Domain,Dominio della Legge,noun,Cleric domain,Magic
+Lawful,Legale,adj,Spell descriptor / energy type,Magic
+Light,Luce,adj,Spell descriptor / energy type,Magic
+Long,Lungo,,Magic term,Magic
+Luck Domain,Dominio della Fortuna,noun,Cleric domain,Magic
+Magic Domain,Dominio della Magia,noun,Cleric domain,Magic
+Material,Materiale,,Magic term,Magic
+Metamagic,Metamagia,,Magic term,Magic
+Mind-Affecting,Influenza mentale,adj,Spell descriptor / energy type,Magic
+Necromancy,Necromanzia,noun,School of magic,Magic
+None,Nessuno,,Magic term,Magic
+Orison,Orazione,,Magic term,Magic
+Pattern,Trama,noun,Subschool of magic,Magic
+Permanent,Permanente,,Magic term,Magic
+Personal,Personale,,Magic term,Magic
+Phantasm,Fantasma,noun,Subschool of magic,Magic
+Plant Domain,Dominio delle Piante,noun,Cleric domain,Magic
+Prepared,Preparato,,Magic term,Magic
+Protection Domain,Dominio della Protezione,noun,Cleric domain,Magic
+Range,Gittata,,Magic term,Magic
+Reflex half,Riflessi dimezza,,Magic term,Magic
+Scrying,Scrutare,noun,Subschool of magic,Magic
+Shadow,Ombra,noun,Subschool of magic,Magic
+Somatic,Somatica,,Magic term,Magic
+Sonic,Sonoro,adj,Spell descriptor / energy type,Magic
+Sp,Mag,,Magic term,Magic
+Spell,Incantesimo,,Magic term,Magic
+Spell Level,Livello Incantesimo,,Magic term,Magic
+Spell Slot,Slot Incantesimo,,Magic term,Magic
+Spell-Like Ability,Capacita Magica,,Magic term,Magic
+Spells,Incantesimi,,Magic term,Magic
+Spontaneous,Spontaneo,,Magic term,Magic
+Strength Domain,Dominio della Forza,noun,Cleric domain,Magic
+Su,Sop,,Magic term,Magic
+Summoning,Convocazione,noun,Subschool of magic,Magic
+Sun Domain,Dominio del Sole,noun,Cleric domain,Magic
+Supernatural Ability,Capacita Soprannaturale,,Magic term,Magic
+Target,Bersaglio,,Magic term,Magic
+Teleportation,Teletrasporto,noun,Subschool of magic,Magic
+Touch,Contatto,,Magic term,Magic
+Transmutation,Trasmutazione,noun,School of magic,Magic
+Travel Domain,Dominio del Viaggio,noun,Cleric domain,Magic
+Trickery Domain,Dominio dell'Inganno,noun,Cleric domain,Magic
+Universal,Universale,noun,School of magic,Magic
+Verbal,Verbale,,Magic term,Magic
+War Domain,Dominio della Guerra,noun,Cleric domain,Magic
+Water,Acqua,adj,Spell descriptor / energy type,Magic
+Water Domain,Dominio dell'Acqua,noun,Cleric domain,Magic
+Will negates,Volonta nega,,Magic term,Magic
+XP Cost,Costo in PE,,Magic term,Magic
+Yes,Si,,Magic term,Magic
+Dwarves,Nani,noun,Race,Races
+Elves,Elfi,noun,Race,Races
+Gnomes,Gnomi,noun,Race,Races
+Half-Elves,Mezzelfi,noun,Race,Races
+Half-Orcs,Mezzorchi,noun,Race,Races
+Halflings,Halfling,noun,Race,Races
+Humans,Umani,noun,Race,Races
+Alchemy,Alchimia,noun,Skill,Skills
+Animal Empathy,Empatia Animale,noun,Skill,Skills
+Appraise,Valutare,noun,Skill,Skills
+Autohypnosis,Autoipnosi,noun,Skill,Skills
+Balance,Equilibrio,noun,Skill,Skills
+Bluff,Raggirare,noun,Skill,Skills
+Climb,Scalare,noun,Skill,Skills
+Concentration,Concentrazione,noun,Skill,Skills
+Control Shape,Controllare Forma,noun,Skill,Skills
+Craft,Artigianato,noun,Skill,Skills
+Decipher Script,Decifrare Scritture,noun,Skill,Skills
+Diplomacy,Diplomazia,noun,Skill,Skills
+Disable Device,Disattivare Congegni,noun,Skill,Skills
+Disguise,Camuffare,noun,Skill,Skills
+Escape Artist,Artista della Fuga,noun,Skill,Skills
+Forgery,Falsificare,noun,Skill,Skills
+Gather Information,Raccogliere Informazioni,noun,Skill,Skills
+Handle Animal,Addestrare Animali,noun,Skill,Skills
+Heal,Guarire,noun,Skill,Skills
+Hide,Nascondersi,noun,Skill,Skills
+Innuendo,Allusione,noun,Skill,Skills
+Intimidate,Intimidire,noun,Skill,Skills
+Intuit Direction,Senso della Direzione,noun,Skill,Skills
+Jump,Saltare,noun,Skill,Skills
+Knowledge,Conoscenze,noun,Skill,Skills
+Knowledge (arcana),Conoscenze (Arcane),noun,Skill,Skills
+Knowledge (architecture and engineering),Conoscenze (Architettura e Ingegneria),noun,Skill,Skills
+Knowledge (dungeoneering),Conoscenze (Sotterranei),noun,Skill,Skills
+Knowledge (geography),Conoscenze (Geografia),noun,Skill,Skills
+Knowledge (history),Conoscenze (Storia),noun,Skill,Skills
+Knowledge (local),Conoscenze (Locali),noun,Skill,Skills
+Knowledge (nature),Conoscenze (Natura),noun,Skill,Skills
+Knowledge (nobility and royalty),Conoscenze (Nobiltà e Regalità),noun,Skill,Skills
+Knowledge (religion),Conoscenze (Religione),noun,Skill,Skills
+Knowledge (the planes),Conoscenze (Piani),noun,Skill,Skills
+Listen to This,Ascoltare,noun,Skill,Skills
+Lucid Dreaming,Sogno Lucido,noun,Skill,Skills
+Martial Lore,Conoscenze Marziali,noun,Skill,Skills
+Move Silently,Muoversi Silenziosamente,noun,Skill,Skills
+Open Lock,Scassinare Serrature,noun,Skill,Skills
+Perform,Intrattenere,noun,Skill,Skills
+Profession,Professione,noun,Skill,Skills
+Psicraft,Sapienza Psichica,noun,Skill,Skills
+Read Lips,Leggere Labbra,noun,Skill,Skills
+Ride,Cavalcare,noun,Skill,Skills
+Scry,Scrutare,noun,Skill,Skills
+Search,Cercare,noun,Skill,Skills
+Sense Motive,Percepire Intenzioni,noun,Skill,Skills
+Sleight of Hand,Rapidità di Mano,noun,Skill,Skills
+Speak Language,Parlare Linguaggi,noun,Skill,Skills
+Spellcraft,Sapienza Magica,noun,Skill,Skills
+Spot,Osservare,noun,Skill,Skills
+Survival,Sopravvivenza,noun,Skill,Skills
+Swim,Nuotare,noun,Skill,Skills
+Truespeak,Linguaggio Vero,noun,Skill,Skills
+Tumble,Acrobazia,noun,Skill,Skills
+Use Magic Device,Utilizzare Oggetti Magici,noun,Skill,Skills
+Use Rope,Utilizzare Corde,noun,Skill,Skills
+Wilderness Lore,Conoscenza della Natura,noun,Skill,Skills
+Book of Exalted Deeds,Libro delle Imprese Eroiche,noun,Sourcebook (BE),Sourcebooks
+Book of Vile Darkness,Libro delle Fosche Tenebre,noun,Sourcebook (BV),Sourcebooks
+CityScape,Scena Urbana,noun,Sourcebook (Ci),Sourcebooks
+Complete Adventurer,Perfetto Avventuriero,noun,Sourcebook (CAd),Sourcebooks
+Complete Arcane,Perfetto Arcanista,noun,Sourcebook (CAr),Sourcebooks
+Complete Champion,Campione Completo,noun,Sourcebook (CC),Sourcebooks
+Complete Divine,Perfetto Sacerdote,noun,Sourcebook (CD),Sourcebooks
+Complete Mage,Mago Completo,noun,Sourcebook (CM),Sourcebooks
+Complete Psionic,Psionico Completo,noun,Sourcebook (CP),Sourcebooks
+Complete Scoundrel,Furfante Completo,noun,Sourcebook (CS),Sourcebooks
+Complete Warrior,Perfetto Combattente,noun,Sourcebook (CW),Sourcebooks
+Deities and Demigods,Divinita e Semidei,noun,Sourcebook (DD),Sourcebooks
+Dragon Magic,Magia Draconica,noun,Sourcebook (DM),Sourcebooks
+Dungeon Master's Guide,Guida del Dungeon Master,noun,Sourcebook (DMG),Sourcebooks
+Dungeon Master's Guide II,Guida del Dungeon Master II,noun,Sourcebook (DMG2),Sourcebooks
+Dungeonscape,Scena del Dungeon,noun,Sourcebook (Du),Sourcebooks
+Epic Level Handbook,Manuale dei Livelli Epici,noun,Sourcebook (EL),Sourcebooks
+Expanded Psionics Handbook,Manuale Psionico Espanso,noun,Sourcebook (XPH),Sourcebooks
+Fiend Folio,Compendio dei Mostri,noun,Sourcebook (FF),Sourcebooks
+Fiendish Codex I: Hordes of the Abyss,Codex Immondo I: Orde dell'Abisso,noun,Sourcebook (FCI),Sourcebooks
+Frostburn,Gelo e Ghiaccio,noun,Sourcebook (Fr),Sourcebooks
+Heroes of Battle,Eroi di Battaglia,noun,Sourcebook (HB),Sourcebooks
+Heroes of Horror,Eroi dell'Orrore,noun,Sourcebook (HH),Sourcebooks
+Libris Mortis,Liber Mortis,noun,Sourcebook (LM),Sourcebooks
+Lords of Madness,Signori della Follia,noun,Sourcebook (LoM),Sourcebooks
+Magic of Incarnum,Magia dell'Incarnum,noun,Sourcebook (MoI),Sourcebooks
+Miniatures Handbook,Manuale delle Miniature,noun,Sourcebook (MH),Sourcebooks
+Monster Manual,Manuale dei Mostri,noun,Sourcebook (MM),Sourcebooks
+Monster Manual II,Manuale dei Mostri II,noun,Sourcebook (MM2),Sourcebooks
+Monster Manual III,Manuale dei Mostri III,noun,Sourcebook (MM3),Sourcebooks
+Monster Manual IV,Manuale dei Mostri IV,noun,Sourcebook (MM4),Sourcebooks
+Monster Manual V,Manuale dei Mostri V,noun,Sourcebook (MM5),Sourcebooks
+Planar Handbook,Atlante Planare,noun,Sourcebook (PlH),Sourcebooks
+Player's Handbook,Manuale del Giocatore 3.5,noun,Sourcebook (PH),Sourcebooks
+Player's Handbook II,Manuale del Giocatore II,noun,Sourcebook (PH2),Sourcebooks
+Races of Destiny,Razze del Destino,noun,Sourcebook (RD),Sourcebooks
+Races of Stone,Razze di Pietra,noun,Sourcebook (RS),Sourcebooks
+Races of the Wild,Razze Selvagge,noun,Sourcebook (RW),Sourcebooks
+Sandstorm,Sabbia e Polvere,noun,Sourcebook (Sa),Sourcebooks
+Savage Species,Specie Selvagge,noun,Sourcebook (SS),Sourcebooks
+Spell Compendium,Compendio degli Incantesimi,noun,Sourcebook (SpC),Sourcebooks
+Tome of Battle: The Book of Nine Swords,Tomo della Battaglia,noun,Sourcebook (ToB),Sourcebooks
+Tome of Magic,Tomo della Magia,noun,Sourcebook (TM),Sourcebooks
+Unearthed Arcana,Arcani Rivelati,noun,Sourcebook (UA),Sourcebooks
+Abolisher,Abolitore,noun,Class,Classes
+Acolyte of the Skin,Accolito della Pelle,noun,Class,Classes
+Adept,Adepto,noun,Character class,Classes
+Alienist,Alienista,noun,Class,Classes
+Animal Lord,Signore degli Animali,noun,Class,Classes
+Anointed Knight,Cavaliere Alchimista,noun,Class,Classes
+Arcane Archer,Arciere Arcano,noun,Class,Classes
+Arcane Trickster,Mistificatore Arcano,noun,Class,Classes
+Archmage,Arcimago,noun,Class,Classes
+Aristocrat,Aristocratico,noun,Character class,Classes
+Assassin,Assassino,noun,Class,Classes
+Astral Dancer,Danzatore Astrale,noun,Class,Classes
+Barbarian,Barbaro,noun,Character class,Classes
+Bard,Bardo,noun,Character class,Classes
+Battlesmith,Fabbro Guerriero,noun,Class,Classes
+Bear Warrior,Combattente Orso,noun,Class,Classes
+Beastmaster,Ammaestratore,noun,Class,Classes
+Beholder Mage,Beholder Magi,noun,Class,Classes
+Beloved of Valarian,Protetta di Valarian,noun,Class,Classes
+Black Flame Zealot,Zelota della Fiamma Nera,noun,Class,Classes
+Blackguard,Cavaliere Nero,noun,Class,Classes
+Blade Bravo,Spadaccino Virtuoso,noun,Class,Classes
+Bladesinger,Cantore della Lama,noun,Class,Classes
+Blighter,Rinnegato,noun,Class,Classes
+Blood Magus,Magus del Sangue,noun,Class,Classes
+Bloodhound,Segugio,noun,Class,Classes
+Bloodscaled Fury,Furia dalle Scaglie Insanguinate,noun,Class,Classes
+Cavalier,Cavaliere,noun,Class,Classes
+Celestial Mystic,Mistico Celestiale,noun,Class,Classes
+Chameleon,Camaleonte,noun,Class,Classes
+Champion of Gwynharwyf,Campione di Gwynharwyf,noun,Class,Classes
+Chaotician,Caoticista,noun,Class,Classes
+Church Inquisitor,Inquisitore,noun,Class,Classes
+Cipher Adept,Adepto Cifrato,noun,Class,Classes
+Cleric,Chierico,noun,Character class,Classes
+Commoner,Popolano,noun,Character class,Classes
+Consecrated Harrier,Cacciatore Consacrato,noun,Class,Classes
+Contemplative,Contemplativo,noun,Class,Classes
+Corrupt Avenger,Vendicatore Corrotto,noun,Class,Classes
+Cragtop Archer,Arciere degli Altopiani,noun,Class,Classes
+Daggerspell Mage,Mago dei Pugnali Incantati,noun,Class,Classes
+Daggerspell Shaper,Druido dei Pugnali Incantati,noun,Class,Classes
+Dark Hunter,Cacciatore Oscuro,noun,Class,Classes
+Darkrunner,Scorridore delle Tenebre,noun,Class,Classes
+Darkwood Stalker,Predatore dei Boschi,noun,Class,Classes
+Dawncaller,Cantore dell'Aurora,noun,Class,Classes
+Death Delver,Cacciatore di Morte,noun,Class,Classes
+Death's Chosen,Prescelto della Morte,noun,Class,Classes
+Deepwarden,Guardiano del Baratro,noun,Class,Classes
+Defender of Sealtiel,Difensore di Sealtiel,noun,Class,Classes
+Defiant,Sfidante,noun,Class,Classes
+Dervish,Derviscio,noun,Class,Classes
+Dirgesinger,Cantore Funebre,noun,Class,Classes
+Disciple of Ashardalon,Discepolo di Ashardalon,noun,Class,Classes
+Dispassionate Watcher of Chronepsis,Osservatore Indifferente di Chronepsis,noun,Class,Classes
+Divine Crusader,Crociato Divino,noun,Class,Classes
+Divine Oracle,Oracolo Divino,noun,Class,Classes
+Divine Prankster,Burlone Divino,noun,Class,Classes
+Doomlord,Signore del Fato,noun,Class,Classes
+Dracolyte,Accolito dei Draghi,noun,Class,Classes
+Dragon Ascendant,Drago Asceta,noun,Class,Classes
+Dragon Disciple,Discepolo del Drago,noun,Class,Classes
+Dragonkith,Valletto dei draghi,noun,Class,Classes
+Dragonrider,Cavaliere di Draghi,noun,Class,Classes
+Dragonslayer,Uccisore di Draghi,noun,Class,Classes
+Dragonsong Lyrist,Poeta Lirico del Canto del Drago,noun,Class,Classes
+Druid,Druido,noun,Character class,Classes
+Duelist,Duellante,noun,Class,Classes
+Dungeon Delver,Esploratore di Dungeon,noun,Class,Classes
+Dwarven Defender,Difensore Nanico,noun,Class,Classes
+Earth Dreamer,Sognatore della Terra,noun,Class,Classes
+Effigy Master,Maestro dell'Effigie,noun,Class,Classes
+Eldritch Knight,Cavaliere Mistico,noun,Class,Classes
+Elemental Master,Maestro Elementale,noun,Class,Classes
+Elemental Savant,Sapiente Elementale,noun,Class,Classes
+Elemental Warrior,Combattente Elementale,noun,Class,Classes
+Emissary of Barachiel,Emissario di Barachiel,noun,Class,Classes
+Enlightened Fist,Pugno Illuminato,noun,Class,Classes
+Ephemeral Exemplar,Effimero Esemplare,noun,Class,Classes
+Expert,Esperto,noun,Character class,Classes
+Fighter,Guerriero,noun,Character class,Classes
+Fist of Raziel,Pugno di Raziel,noun,Class,Classes
+Fleshwarper,Modellacarne,noun,Class,Classes
+Fochlucan Lyrist,Liristradi Fochlucan,noun,Class,Classes
+Frenzied Berserker,Berserker Furioso,noun,Class,Classes
+Green Star Adept,Adepto della Stella Verde,noun,Class,Classes
+Halfling Outrider,Avanguardia Halfling,noun,Class,Classes
+Hexblade,Lama Iettatrice,noun,Class,Classes
+Hidecarved Dragon,Drago dalla Corazza Incisa,noun,Class,Classes
+Hierophant,Ierofante,noun,Class,Classes
+Highland Stalker,Predatore delle Montagne,noun,Class,Classes
+Horizon Walker,Camminatore degli Orizzonti,noun,Class,Classes
+Initiate of Pistis Sophia,Iniziato di Pistis Sofia,noun,Class,Classes
+Initiate of the Draconic Mysteries,Iniziato ai Misteri Draconici,noun,Class,Classes
+Initiate of the Sevenfold Veil,Iniziato dei Sette Veli,noun,Class,Classes
+Invisible Blade,Lama Invisibile,noun,Class,Classes
+Iron Mind,Mente di Ferro,noun,Class,Classes
+Keeper of the Cerulean Sign,Custode del Segno Ceruleo,noun,Class,Classes
+Knight of the Chalice,Cavaliere del Calice,noun,Class,Classes
+Knight Protector,Cavaliere Protettore,noun,Class,Classes
+Lion of Talisid,Leone di Talisid,noun,Class,Classes
+Loredelver,Ricercatore del Sapere,noun,Class,Classes
+Loremaster,Maestro del Sapere,noun,Class,Classes
+Lurking Terror,Terrore Incombente,noun,Class,Classes
+Maester,Mastro Artigiano,noun,Class,Classes
+Mage of the Arcane Order,Mago dell'Ordine Arcano,noun,Class,Classes
+Master of Many Forms,Maestro dalle Molte Forme,noun,Class,Classes
+Master of Radiance,Maestro della Luminosità,noun,Class,Classes
+Master of Shrouds,Maestro del Sudario,noun,Class,Classes
+Master of the Unseen Hand,Mestro della Mano Invisibile,noun,Class,Classes
+Master Thrower,Maestro Tiratore,noun,Class,Classes
+Master Transmogrifist,Maestro Trasformista,noun,Class,Classes
+Master Vampire,Maestro Vampiro,noun,Class,Classes
+Menacing Brute,Bruto Minaccioso,noun,Class,Classes
+Mindbender,Dominatore Mentale,noun,Class,Classes
+Mindspy,Spia Mentale,noun,Class,Classes
+Monk,Monaco,noun,Character class,Classes
+Mystic Theurge,Teurgo Mistico,noun,Class,Classes
+Nature's Warrior,Combattente Naturale,noun,Class,Classes
+Nightsong Enforcer,Militante del Canto Notturno,noun,Class,Classes
+Nightsong Infiltrator,Infiltrato del Canto Notturno,noun,Class,Classes
+Occult Slayer,Uccisore dell'Occulto,noun,Class,Classes
+Order of the Bow Initiate,Iniziato dell'Ordine dell'Arco,noun,Class,Classes
+Outcast Champion,Campione dei Reietti,noun,Class,Classes
+Paladin,Paladino,noun,Character class,Classes
+Pale Master,Maestro Esangue,noun,Class,Classes
+Peregrine Runner,Corridore Pellegrino,noun,Class,Classes
+Platinum Knight,Cavaliere di Platino,noun,Class,Classes
+Purifier of the Hallowed Doctrine,Purificatore della Dottrina Consacrata,noun,Class,Classes
+Purple Dragon Knight,Cavaliere dei Draghi Purpurei,noun,Class,Classes
+Radiant Servant of Pelor,Servitore Radioso di Pelor,noun,Class,Classes
+Rage Mage,Mago Iracondo,noun,Class,Classes
+Rainbow Servant,Servitore Iridescente,noun,Class,Classes
+Rogue,Ladro,noun,Character class,Classes
+Runesmith,Creatore di Rune,noun,Class,Classes
+Sacred Exorcist,Esorcista Sacro,noun,Class,Classes
+Sacred Fist,Pugno Sacro,noun,Class,Classes
+Sacred Purifier,Purificatore Sacro,noun,Class,Classes
+Sacred Warder of Bahamut,Sacro Guardiano di Bahamut,noun,Class,Classes
+Sanctified Mind,Mente Santificata,noun,Class,Classes
+Savant Aboleth,Sapiente Aboleth,noun,Class,Classes
+Scar Enforcer,Militante delle Cicatrici,noun,Class,Classes
+Scout,Esploratore,noun,Class,Classes
+Seeker of the Misty Isle,Cacciatore dell'Isola Brumosa,noun,Class,Classes
+Seeker of the Song,Cercatore del Canto,noun,Class,Classes
+Shadow Sentinel,Sentinella d?Ombra,noun,Class,Classes
+Shadowbane Inquisitor,Inquisitore Anatema delle Ombre,noun,Class,Classes
+Shadowbane Stalker,Cacciatore Anatema delle Ombre,noun,Class,Classes
+Shadowcraft Mage,Mago delle Arti d'Ombra,noun,Class,Classes
+Shadowdancer,Danzatore delle Ombre,noun,Class,Classes
+Shadowmind,Ombra Mentale,noun,Class,Classes
+Shining Blade of Heironeous,Lama Scintillante di Heironeus,noun,Class,Classes
+Sorcerer,Stregone,noun,Character class,Classes
+Stalker of Kharash,Cacciatore di Kharash,noun,Class,Classes
+Stonedeath Assassin,Assassino della Morte di Pietra,noun,Class,Classes
+Stonelord,Signore della Pietra,noun,Class,Classes
+Stonespeaker Guardian,Custode degli Oracoli di Pietra,noun,Class,Classes
+Stormlord,Signore delle Tempeste,noun,Class,Classes
+Streetfighter,Guerriero di Strada,noun,Class,Classes
+Sublime Chord,Accordo Sublime,noun,Class,Classes
+Suel Arcanamach,Arcanamach di Suel,noun,Class,Classes
+Tempest,Tempesta,noun,Class,Classes
+Temple Raider of Olidammara,Predatore dei Templi di Olidammara,noun,Class,Classes
+Thaumaturgist,Taumaturgo,noun,Class,Classes
+Thayan Knight,Cavaliere Thayan,noun,Class,Classes
+Thief-acrobat,Ladro-Acrobata,noun,Class,Classes
+Tomb Warden,Protettore della Tomba,noun,Class,Classes
+Topaz Guardian,Guardiano di Topazio,noun,Class,Classes
+Troubadour of Stars,Trovatore delle Stelle,noun,Class,Classes
+True Necromancer,Necromante Puro,noun,Class,Classes
+Unholy Ravager of Tiamat,Sacrilego Distruttore di Tiamat,noun,Class,Classes
+Virtuoso,Artista,noun,Class,Classes
+Visionary Seeker,Ricercatore Visionario,noun,Class,Classes
+War Chanter,Musico da Guerra,noun,Class,Classes
+Warmage,Mago Combattente,noun,Class,Classes
+Warpriest,Sacerdote-Guerriero,noun,Class,Classes
+Warrior,Guerriero (NPC),noun,Character class,Classes
+Warshaper,Mutaforma Combattente,noun,Class,Classes
+Wayfarer Guide,Viaggiatore Guida,noun,Class,Classes
+Wild Mage,Mago Selvaggio,noun,Class,Classes
+Wild Plains Outrider,Avanguardia delle Pianure Selvagge,noun,Class,Classes
+Wizard,Mago,noun,Character class,Classes
+Wonderworker,Creatore di Meraviglie,noun,Class,Classes
+Aberration Banemagic,Magia Anatema delle Aberrazioni,noun,Feat,Feats
+Aberration Blood,Stirpe di Aberrazione,noun,Feat,Feats
+Aberration Wild Shape,Forma Selvatica di Aberrazione,noun,Feat,Feats
+Ability Focus,Capacità Focalizzata,noun,Feat,Feats
+Able Learner,Abile Allievo,noun,Feat,Feats
+Abyss-Bound Soul,Anima Legata,noun,Feat,Feats
+Acheron Flurry,Raffica dell'Acheronte,noun,Feat,Feats
+Acrobatic,Acrobatico,noun,Feat,Feats
+Adroit Flyby Attack,Attacco in Volo Agile,noun,Feat,Feats
+Agile Tyrant,Tiranno Agile,noun,Feat,Feats
+Air Heritage,Eredità dell'Aria,noun,Feat,Feats
+Alertness,Allerta,noun,Feat,Feats
+Anarchic Heritage,Eredità Anarchica,noun,Feat,Feats
+Ancestral Knowledge,Conoscenze Ancestrali,noun,Feat,Feats
+Ancestral Relic,Reliquia Ancestrale,noun,Feat,Feats
+Animal Affinity,Affinità Animale,noun,Feat,Feats
+Animal Friend,Amico degli Animali,noun,Feat,Feats
+Anvil of Thunder,Incudine Tonante,noun,Feat,Feats
+Appraise Magic Value,Valutare Valore Magico,noun,Feat,Feats
+Aquatic Spellcasting,Incanalare Acqua,noun,Feat,Feats
+Arcane Defense,Difesa Arcana,noun,Feat,Feats
+Arcane Disciple,Discepolo Arcano,noun,Feat,Feats
+Arcane Insight,Intuito Arcano,noun,Feat,Feats
+Arcane mastery,Padronanza Arcana,noun,Feat,Feats
+Arcane Preparation,Preparazione Arcana,noun,Feat,Feats
+Arcane Strike,Colpo Arcano,noun,Feat,Feats
+Archivist of Nature,Archivista della Natura,noun,Feat,Feats
+Armor Proficiency (Heavy),Competenza nelle Armature Pesanti,noun,Feat,Feats
+Armor Proficiency (Light),Competenza nelle Armature Leggere,noun,Feat,Feats
+Armor Proficiency (Medium),Competenza nelle Armature Medie,noun,Feat,Feats
+Armor Skin,Pelle Corazzata,noun,Feat,Feats
+Arterial Strike,Colpo Emorralgico,noun,Feat,Feats
+Ascetic Hunter,Cacciatore Ascetico,noun,Feat,Feats
+Ascetic Knight,Cavaliere Ascetico,noun,Feat,Feats
+Ascetic Rogue,Ladro Ascetico,noun,Feat,Feats
+Athletic,Atletico,noun,Feat,Feats
+Augment Healing,Aumentare Guarigione,noun,Feat,Feats
+Augment Summoning,Evocazione Potenziata,noun,Feat,Feats
+Augmented Alchemy,Alchimia Accresciuta,noun,Feat,Feats
+Auspicious Marking,Macula dell'Auspicio,noun,Feat,Feats
+Automatic Quicken Spell,Incantesimi Rapidi Automatici,noun,Feat,Feats
+Automatic Silent Spell,Incantesimi Silenziosi Automatici,noun,Feat,Feats
+Automatic Still Spell,Incantesimi Immobili Automatici,noun,Feat,Feats
+Awaken Frightful Presence,Risvegliare Presenza Terrificante,noun,Feat,Feats
+Awaken Spell Resistance,Risvegliare Resistenza agli Incantesimi,noun,Feat,Feats
+Awesome Blow,Colpo Terrificante,noun,Feat,Feats
+Axespike,Ascia Chiodata,noun,Feat,Feats
+Axiomatic Heritage,Eredità Assiomatica,noun,Feat,Feats
+Axiomatic Strike,Colpo Assiomatico,noun,Feat,Feats
+Baleful Moan,Lamento Funesto,noun,Feat,Feats
+Bane Magic,Magia Anatema,noun,Feat,Feats
+Bane of the Unclean,Anatema degli Impuri,noun,Feat,Feats
+Battle Caster,Incantatore da Battaglia,noun,Feat,Feats
+Battle Hardened,Temprato dalla Battaglia,noun,Feat,Feats
+Bear Fang,Zanna dell'Orso,noun,Feat,Feats
+Bestial Hide,Pelle Bestiale,noun,Feat,Feats
+Black Lore of Moil,Sapienza Nera di Moil,noun,Feat,Feats
+Blind-Fight,Combattere alla Cieca,noun,Feat,Feats
+Blindsense,Percezione Cieca,noun,Feat,Feats
+Blood Calls to Blood,Sangue Chiama Sangue,noun,Feat,Feats
+Blood War Conscript,Recluta della Guerra Sanguinosa,noun,Feat,Feats
+Boar's Ferocity,Ferocia del Cinghiale,noun,Feat,Feats
+Bolster Resistance,Rinforzare Resistenza,noun,Feat,Feats
+Bonus Domain,Dominio Bonus,noun,Feat,Feats
+Born of the Three Thunders,Nato dai Tre Tuoni,noun,Feat,Feats
+Brachiation,Movimento Brachiale,noun,Feat,Feats
+Brew Potion,Mescere Pozioni,noun,Feat,Feats
+Bright Sigil,Sigillo Splendente,noun,Feat,Feats
+Brutal Throw,Lancio Brutale,noun,Feat,Feats
+Burrow friend,Amico degli Animali in Tana,noun,Feat,Feats
+Cavalry Charger,Carica del Cavaliere,noun,Feat,Feats
+Celestial Familiar,Famiglio Celestiale,noun,Feat,Feats
+Celestial Heritage,Eredità Celestiale,noun,Feat,Feats
+Celestial Mount,Cavalcatura Celestiale,noun,Feat,Feats
+Celestial Summoning Specialist,Specialista nell'Evocazione Celestiale,noun,Feat,Feats
+Chain Spell,Incantesimi Concatenati,noun,Feat,Feats
+Channeled Rage,Ira Incanalata,noun,Feat,Feats
+Chant of Fortitude,Canto della Tempra,noun,Feat,Feats
+Chaotic Spell Recall,Ricordare Incantesimo Caotico,noun,Feat,Feats
+Cheetah's Speed,Velocità del Ghepardo,noun,Feat,Feats
+City Slicker,Cittadino Scaltro,noun,Feat,Feats
+Clan Prestige,Prestigio del Clan,noun,Feat,Feats
+Cleave,Fendente,noun,Feat,Feats
+Clever Wrestling,Abile nella Lotta,noun,Feat,Feats
+Climb like an Ape,Scalare Come un Gorilla,noun,Feat,Feats
+Clinging Breath,Soffio Impregnante,noun,Feat,Feats
+Cloak of the Obyrith,Mantello degli Obyrith,noun,Feat,Feats
+Close-Quarters Fighting,Combattimento Ravvicinato,noun,Feat,Feats
+Collegiate Wizard,Mago di Collegio,noun,Feat,Feats
+Combat Archery,Arciere in Combattimento,noun,Feat,Feats
+Combat Brute,Combattimento Brutale,noun,Feat,Feats
+Combat Casting,Incantare in Combattimento,noun,Feat,Feats
+Combat Expertise,Maestria in Combattimento,noun,Feat,Feats
+Combat Intuition,Intuizione in Combattimento,noun,Feat,Feats
+Combat Reflexes,Riflessi in Combattimento,noun,Feat,Feats
+Communicator,Comunicatore,noun,Feat,Feats
+Complementary Insight,Intuito Complementare,noun,Feat,Feats
+Consecrate Spell,Incantesimi Consacrati,noun,Feat,Feats
+Consecrate Spell Like Ability,Capacità Magica Consacrata,noun,Feat,Feats
+Consecrate Spell Trigger,Incantesimi ad Attivazione Consacrati,noun,Feat,Feats
+Contagious Paralysis,Paralisi Contagiosa,noun,Feat,Feats
+Cooperative Spell,Incantesimi Cooperativi,noun,Feat,Feats
+Corpsecrafter,Artigianato dei Cadaveri,noun,Feat,Feats
+Corrupt Arcana,Arcani Corrotti,noun,Feat,Feats
+Corrupt Spell,Incantesimi Corrotti,noun,Feat,Feats
+Corrupt Spell Focus,Incantesimi Focalizzati Corrotti,noun,Feat,Feats
+Corrupted Wild Shape,Forma Selvatica Corrotta,noun,Feat,Feats
+Cougar's Vision,Visione del Puma,noun,Feat,Feats
+Craft Aboleth Glyph,Creare Glifo Aboleth,noun,Feat,Feats
+Craft Construct,Creare Costrutti,noun,Feat,Feats
+Craft Contingent Spell,Creare Incantesimi Contingenti,noun,Feat,Feats
+Craft Magic Arms and Armor,Creare Armi e Armature Magiche,noun,Feat,Feats
+Craft Psionic Seal,Creare Sigillo Psionico,noun,Feat,Feats
+Craft Rod,Creare Verghe,noun,Feat,Feats
+Craft Rune Circle,Creare Cerchi di Rune,noun,Feat,Feats
+Craft Staff,Creare Bastoni,noun,Feat,Feats
+Craft Wand,Creare Bacchette,noun,Feat,Feats
+Craft Wondrous Item,Creare Oggetti Meravigliosi,noun,Feat,Feats
+Crescent Moon,Luna Crescente,noun,Feat,Feats
+Crowd Tactics,Tattiche nella Folla,noun,Feat,Feats
+Cunning Sidestep,Passo Laterale Astuto,noun,Feat,Feats
+Damage Reduction,Riduzione del Danno,noun,Feat,Feats
+Danger Sense,Senso del Pericolo,noun,Feat,Feats
+Dark Speech,Lingua Oscura,noun,Feat,Feats
+Darkstalker,Segugio delle Tenebre,noun,Feat,Feats
+Dash,Scattare,noun,Feat,Feats
+Daunting Presence,Presenza Intimidente,noun,Feat,Feats
+Deadly Chill,Gelo Mortale,noun,Feat,Feats
+Death Blow,Colpo Letale,noun,Feat,Feats
+Death Frenzy,Frenesia di Morte,noun,Feat,Feats
+Death Master,Maestro della Morte,noun,Feat,Feats
+Debilitating Spell,Incantesimi Debilitanti,noun,Feat,Feats
+Debilitating Strike,Colpo Debilitante,noun,Feat,Feats
+Deceitful,Ingannevole,noun,Feat,Feats
+Deep Vision,Visione Profonda,noun,Feat,Feats
+Deepspawn,Progenie degli Abissi,noun,Feat,Feats
+Defensive Strike,Colpo Difensivo,noun,Feat,Feats
+Defensive Throw,Atterramento Difensivo,noun,Feat,Feats
+Deflect Arrows,Deviare Frecce,noun,Feat,Feats
+Deflective Armor,Armatura Deflettente,noun,Feat,Feats
+Deformity (Skin),Deformità (Pelle),noun,Feat,Feats
+Deformity (Tall),Deformità (Altezza),noun,Feat,Feats
+Deformity (Teeth),Deformità (Denti),noun,Feat,Feats
+Deformity (Tongue),Deformità (Lingua),noun,Feat,Feats
+Deft Hands,Mani Abili,noun,Feat,Feats
+Deft Opportunist,Agile Opportunista,noun,Feat,Feats
+Deft Strike,Colpo Lesto,noun,Feat,Feats
+Delay Spell,Incantesimi Ritardati,noun,Feat,Feats
+Demon Mastery,Padronanza dei Demoni,noun,Feat,Feats
+Demonic Conduit,Condotto Demoniaco,noun,Feat,Feats
+Demonic Skin,Pelle Demoniaca,noun,Feat,Feats
+Demonic Sneak Attack,Attacco Furtivo Demoniaco,noun,Feat,Feats
+Destruction Retribution,Castigo Distruttivo,noun,Feat,Feats
+Destructive Rage,Ira Distruttiva,noun,Feat,Feats
+Devastating Critical,Critico Devastante,noun,Feat,Feats
+Devoted Inquisitor,Inquisitore Devoto,noun,Feat,Feats
+Devoted Performer,Intrattenitore Devoto,noun,Feat,Feats
+Devoted Tracker,Segugio Devoto,noun,Feat,Feats
+Diehard,Duro a Morire,noun,Feat,Feats
+Diligent,Diligente,noun,Feat,Feats
+Dire Charge,Carica Crudele,noun,Feat,Feats
+Disciple of the Sun,Discepolo del Sole,noun,Feat,Feats
+Disease Immunity,Immunità alle Malattie,noun,Feat,Feats
+Disguise Spell,Incantesimi Camuffati,noun,Feat,Feats
+Disintegration Finesse,Disintegrazione Accurata,noun,Feat,Feats
+Disjunction Ray,Raggio di Disgiunzione,noun,Feat,Feats
+Dive For Cover,Tuffarsi in Copertura,noun,Feat,Feats
+Diverse Background,Background Eterogeneo,noun,Feat,Feats
+Divine Accuracy,Accuratezza Divina,noun,Feat,Feats
+Divine Cleansing,Purificazione Divino,noun,Feat,Feats
+Divine Damage Reduction,Riduzione del Danno Divina,noun,Feat,Feats
+Divine Metamagic,Metamagia Divina,noun,Feat,Feats
+Divine Resistance,Resistenza Divino,noun,Feat,Feats
+Divine Shield,Scudo Divino,noun,Feat,Feats
+Divine Spell Power,Potere Magico Divino,noun,Feat,Feats
+Divine Spellshield,Scudo Magico Divino,noun,Feat,Feats
+Divine Vigor,Vigore Divino,noun,Feat,Feats
+Dodge,Schivare,noun,Feat,Feats
+Domain Focus,Dominio Focalizzato,noun,Feat,Feats
+Domain Spontaneity,Dominio Spontaneo,noun,Feat,Feats
+Draconic Archivist,Archivista Draconico,noun,Feat,Feats
+Draconic Breath,Soffio Draconico,noun,Feat,Feats
+Draconic Claw,Artigli Draconici,noun,Feat,Feats
+Draconic Flight,Volo Draconico,noun,Feat,Feats
+Draconic Heritage,Eredità Draconico,noun,Feat,Feats
+Draconic Knowledge,Conoscenze Draconiche,noun,Feat,Feats
+Draconic Legacy,Retaggio Draconico,noun,Feat,Feats
+Draconic Presence,Presenza Draconica,noun,Feat,Feats
+Draconic Resistance,Resistenza Draconica,noun,Feat,Feats
+Draconic Skin,Pelle Draconica,noun,Feat,Feats
+Dragon Cohort,Gregario Draconico,noun,Feat,Feats
+Dragon Familiar,Famiglio Draconico,noun,Feat,Feats
+Dragon Hunter Bravery,Cacciatore di Draghi Coraggioso,noun,Feat,Feats
+Dragon Hunter Defense,Cacciatore di Draghi Difensore,noun,Feat,Feats
+Dragon Steed,Destriero Draconico,noun,Feat,Feats
+Dragon Wild Shape,Forma Selvatica Draghesca,noun,Feat,Feats
+Dragonbane,Anatema dei Draghi,noun,Feat,Feats
+Dragoncrafter,Artigiano Draconico,noun,Feat,Feats
+Dragondoom,Piaga dei Draghi,noun,Feat,Feats
+Dragonfoe,Nemico dei Draghi,noun,Feat,Feats
+Dragonfriend,Amico dei Draghi,noun,Feat,Feats
+Dragonsong,Canto dei Draghi,noun,Feat,Feats
+Dragonthrall,Servitore dei Draghi,noun,Feat,Feats
+Dread Tyranny,Tirannia del Terrore,noun,Feat,Feats
+Dreamtelling,Interpretazione dei Sogni,noun,Feat,Feats
+Dual Strike,Colpo Doppio,noun,Feat,Feats
+Durable Form,Forma Duratura,noun,Feat,Feats
+Dwarven Armor Proficiency,Competenza nelle Armature Naniche,noun,Feat,Feats
+Eagle Claw Attack,Artiglio dell'Aquila,noun,Feat,Feats
+Eagle's Wings,Ali dell'Aquila,noun,Feat,Feats
+Earth Adept,Adepto della Terra,noun,Feat,Feats
+Earth Fist,Pugno della Terra,noun,Feat,Feats
+Earth Heritage,Eredità della Terra,noun,Feat,Feats
+Earth Master,Maestro della Terra,noun,Feat,Feats
+Earth Power,Potenza della Terra,noun,Feat,Feats
+Earth Sense,Senso della Terra,noun,Feat,Feats
+Earth Spell,Incantesimi della Terra,noun,Feat,Feats
+Earth's Embrace,Abbraccio della Terra,noun,Feat,Feats
+Earth's Warding,Interdizione della Terra,noun,Feat,Feats
+Eldritch Corruption,Corruzione Mistica,noun,Feat,Feats
+Elemental Healing,Guarigione Elementale,noun,Feat,Feats
+Elemental Smiting,Punire Elementale,noun,Feat,Feats
+Elephant's Hide,Pelle dell'Elefante,noun,Feat,Feats
+Elusive target,Bersaglio Sfuggente,noun,Feat,Feats
+Embed Spell Focus,Focus Incorporato,noun,Feat,Feats
+Empower Spell,Incantesimi Potenziati,noun,Feat,Feats
+Empower Spell-Like Ability,Capacità Magica Potenziata,noun,Feat,Feats
+Empower Turning,Scacciare Potenziato,noun,Feat,Feats
+Empowered Ability Damage,Danni alle Caratteristiche Potenzati,noun,Feat,Feats
+Enchanting Song,Canto Ammaliatore,noun,Feat,Feats
+Endurance,Resistenza Fisica,noun,Feat,Feats
+Endure Blows,Resistenza ai Colpi,noun,Feat,Feats
+Endure Sunlight,Contrastare la Luce Solare,noun,Feat,Feats
+Enduring Life,Vita Resistente,noun,Feat,Feats
+Energize Armor,Caricare Armatura,noun,Feat,Feats
+Energize Spell,Incantesimi Energizzati,noun,Feat,Feats
+Energy Admixture,Miscela Energetica,noun,Feat,Feats
+Energy Substitution,Sostituzione Energetica,noun,Feat,Feats
+Enhance Spell,Incantesimi Aumentati,noun,Feat,Feats
+Enhanced Power Sigils,Sigilli di Potere Potenziati,noun,Feat,Feats
+Enlarge Breath,Soffio Ingrandito,noun,Feat,Feats
+Enlarge Mucus Cloud,Ingrandire Nube di Muco,noun,Feat,Feats
+Enlarge Spell,Incantesimi Estesi,noun,Feat,Feats
+Epic,Epico,adj,Feat type,Feats
+Epic Combat Expertise,Maestria in Combattimento Epica,noun,Feat,Feats
+Epic Devotion,Devozione Epica,noun,Feat,Feats
+Epic Dodge,Schivare Epico,noun,Feat,Feats
+Epic Fortitude,Tempra Epica,noun,Feat,Feats
+Epic Prowess,Prodezza Epica,noun,Feat,Feats
+Epic Reflexes,Riflessi Epici,noun,Feat,Feats
+Epic Reputation,Reputazione Epica,noun,Feat,Feats
+Epic Skill Focus,Abilità Focalizzata Epica,noun,Feat,Feats
+Epic Spell Focus,Incantesimi Focalizzati Epici,noun,Feat,Feats
+Epic Spell Penetration,Incantesimi Inarrestabili Epici,noun,Feat,Feats
+Epic Sunder,Spezzare Epico,noun,Feat,Feats
+Epic Toughness,Robustezza Epica,noun,Feat,Feats
+Epic Weapon Focus,Arma Focalizzata Epica,noun,Feat,Feats
+Epic Will,Volontà Epica,noun,Feat,Feats
+Eschew Materials,Escludere Materiali,noun,Feat,Feats
+Eternal Strength,Forza Eterna,noun,Feat,Feats
+Evil Brand,Marchio Malvagio,noun,Feat,Feats
+Eviscerator,Dilaniatore,noun,Feat,Feats
+Exalted,Esaltato,adj,Feat type,Feats
+Exalted Companion,Compagno Eroico,noun,Feat,Feats
+Exalted Smite,Punizione Eroica,noun,Feat,Feats
+Exalted Spell Resistance,Resistenza agli Incantesimi Eroica,noun,Feat,Feats
+Exalted Turning,Scacciare Eroico,noun,Feat,Feats
+Exalted Wild Shape,Forma Selvatica Eroica,noun,Feat,Feats
+Exotic Armor Proficiency,Competenza nelle Armature Esotiche,noun,Feat,Feats
+Exotic Shield Proficiency,Competenza negli Scudi Esotici,noun,Feat,Feats
+Exotic Weapon Proficiency,Competenza nelle Armi Esotiche,noun,Feat,Feats
+Expert Tactician,Esperto Tattico,noun,Feat,Feats
+Explosive Spell,Incantesimi Esplosivi,noun,Feat,Feats
+Extend Rage,Ira Estesa,noun,Feat,Feats
+Extend Spell,Incantesimi Estesi,noun,Feat,Feats
+Extend Spreading Breath,Soffio Propagante Esteso,noun,Feat,Feats
+Extra Edge,Incisività Extra,noun,Feat,Feats
+Extra Invocation,Invocazione Extra,noun,Feat,Feats
+Extra Music,Musica Extra,noun,Feat,Feats
+Extra Rage,Ira Extra,noun,Feat,Feats
+Extra Silence,Silenzio Extra,noun,Feat,Feats
+Extra Slot,Slot Extra,noun,Feat,Feats
+Extra Smiting,Punire Extra,noun,Feat,Feats
+Extra Spell,Incantesimo Extra,noun,Feat,Feats
+Extra Spell Secret,Incantesimo Segreto Extra,noun,Feat,Feats
+Extra Stunning,Stordire Extra,noun,Feat,Feats
+Extra Turning,Scacciare Extra,noun,Feat,Feats
+Extra Wild Shape,Forma Selvatica Extra,noun,Feat,Feats
+Extract Demonic Essence,Estrarre Essenza Demoniaca,noun,Feat,Feats
+Extraordinary Concentration,Concentrazione Straordinaria,noun,Feat,Feats
+Extraordinary Spell Aim,Incantesimi Mirati Straordinari,noun,Feat,Feats
+Eyes in the Back of Your Head,Occhi Dietro la Testa,noun,Feat,Feats
+Eyes of the Abyss,Occhi dell'Abisso,noun,Feat,Feats
+Familiar Spell,Incantesimo del Famiglio,noun,Feat,Feats
+Far Horizons,Orizzonti Lontani,noun,Feat,Feats
+Far Shot,Tiro Lontano,noun,Feat,Feats
+Fast Healing,Guarigione Rapida,noun,Feat,Feats
+Fast Wild Shape,Forma Selvatica Veloce,noun,Feat,Feats
+Faster Healing,Guarigione Accelerata,noun,Feat,Feats
+Favored of the Companions,Prescelto dei Compagni,noun,Feat,Feats
+Favored Power Attack,Attacco Poderoso Prescelto,noun,Feat,Feats
+Fearless Destiny,Destino Impavido,noun,Feat,Feats
+Fell Animate,Animare Caduti,noun,Feat,Feats
+Fell Drain,Risucchiare i Caduti,noun,Feat,Feats
+Fell Frighten,Spaventare Caduti,noun,Feat,Feats
+Fell Weaken,Indebolire Caduti,noun,Feat,Feats
+Fiendish Heritage,Eredità Immonda,noun,Feat,Feats
+Fiendish Summoning Specialist,Specialista nell'Evocazione Immonda,noun,Feat,Feats
+Fighter Bonus Feat,Talento Bonus Guerriero,adj,Feat type,Feats
+Fire Heritage,Eredità del Fuoco,noun,Feat,Feats
+Fist of the Heavens,Pugno dei Cieli,noun,Feat,Feats
+Fists of Iron,Pugni di Ferro,noun,Feat,Feats
+Fleet of Foot,Piè Veloce,noun,Feat,Feats
+Flick of the Wrist,Colpo di Polso,noun,Feat,Feats
+Fling Ally,Scagliare Alleato,noun,Feat,Feats
+Fling Enemy,Scagliare Nemico,noun,Feat,Feats
+Flyby Attack,Attacco in Volo,noun,Feat,Feats
+Flying Kick,Calcio Volante,noun,Feat,Feats
+Focused Antimagic,Anti-Magia Focalizzata,noun,Feat,Feats
+Focused Shield,Scudo Focalizzato,noun,Feat,Feats
+Font of Life,Fonte della Vita,noun,Feat,Feats
+Forbidden Lore,Conoscenze Proibite,noun,Feat,Feats
+Force of Personality,Forte Personalità,noun,Feat,Feats
+Forge Ring,Forgiare Anelli,noun,Feat,Feats
+Formation Expert,Esperto di Formazione,noun,Feat,Feats
+Fortify Spell,Incantesimi Fortificati,noun,Feat,Feats
+Freezing The Lifeblood,Gelare il Sangue,noun,Feat,Feats
+Frightful Presence,Presenza Terrificante,noun,Feat,Feats
+General,Generale,adj,Feat type,Feats
+Ghost Scarred,Segnato dai Fantasmi,noun,Feat,Feats
+Ghostly Grasp,Presa Spettrale,noun,Feat,Feats
+Giantbane,Anatema dei Giganti,noun,Feat,Feats
+Gift of Faith,Dono della Fede,noun,Feat,Feats
+Gift of Grace,Dono della Grazia,noun,Feat,Feats
+Glorious Weapons,Armi Gloriose,noun,Feat,Feats
+Gnome Foe Killer,Uccisore dei Nemichi Gnomeschi,noun,Feat,Feats
+Goad,Stuzzicare,noun,Feat,Feats
+Graft Flesh,Innestare Carne,noun,Feat,Feats
+Great Cleave,Grande Fendente,noun,Feat,Feats
+Great Fortitude,Grande Tempra,noun,Feat,Feats
+Great Smiting,Punire Possente,noun,Feat,Feats
+Greater Corrupt Spell Focus,Incantesimi Focalizzati Corrotti Superiore,noun,Feat,Feats
+Greater Heavy Armor Optimization,Ottimizzazione delle Armature Pesanti Migliorato,noun,Feat,Feats
+Greater Kiai Shout,Grido Kiai Superiore,noun,Feat,Feats
+Greater Resiliency,Resilienza Superiore,noun,Feat,Feats
+Greater Spell Focus,Incantesimi Focalizzati Superiore,noun,Feat,Feats
+Greater Spell Penetration,Penetrazione Magica Superiore,noun,Feat,Feats
+Greater Two-Weapon Defense,Difendere con Due Armi Superiore,noun,Feat,Feats
+Greater Two-Weapon Fighting,Combattere con Due Armi Superiore,noun,Feat,Feats
+Greater Weapon Focus,Focalizzazione sull'Arma Superiore,noun,Feat,Feats
+Greater Weapon Specialization,Specializzazione sull'Arma Superiore,noun,Feat,Feats
+Green Ear,Orecchio Verde,noun,Feat,Feats
+Grell Alchemy,Alchimia Grell,noun,Feat,Feats
+Grizzly's Claws,Artigli del Grizzly,noun,Feat,Feats
+Group Inspiration,Ispirazione di Gruppo,noun,Feat,Feats
+Guardian Spirit,Spirito Guardiano,noun,Feat,Feats
+Hammer's Edge,Filo del Martello,noun,Feat,Feats
+Hamstring,Azzoppare,noun,Feat,Feats
+Hands of a Healer,Mani di Guaritore,noun,Feat,Feats
+Hardened Flesh,Pelle Indurita,noun,Feat,Feats
+Haunting Melody,Melodia Inquietante,noun,Feat,Feats
+Hawk's Vision,Visione del Falco,noun,Feat,Feats
+Hear The Unseen,Sentire l'Invisibile,noun,Feat,Feats
+Heart of the Nabassu,Cuore di Nabassu,noun,Feat,Feats
+Heavy Armor Optimization,Ottimizzazione delle Armature Pesanti,noun,Feat,Feats
+Heavy Lithoderms,Litodermi Pesanti,noun,Feat,Feats
+Heighten Breath,Soffio Intensificato,noun,Feat,Feats
+Heighten Spell,Incantesimi Intensificati,noun,Feat,Feats
+Heighten Spell-like ability,Capacità Magica Intensificata,noun,Feat,Feats
+Heighten Turning,Scacciare Intensificato,noun,Feat,Feats
+Heritage,Retaggio,adj,Feat type,Feats
+Heroic Destiny,Destino Eroico,noun,Feat,Feats
+High Sword Low Axe,Spada ed Ascia Armonizzate,noun,Feat,Feats
+Hold the Line,Resistere alla Carica,noun,Feat,Feats
+Holy Ki Strike,Colpo Ki Sacro,noun,Feat,Feats
+Holy Radiance,Radiosità Sacra,noun,Feat,Feats
+Holy Strike,Colpo Sacro,noun,Feat,Feats
+Holy Subdual,Debilitazione Sacra,noun,Feat,Feats
+Hover,Fluttuare,noun,Feat,Feats
+Human Heritage,Retaggio Umano,noun,Feat,Feats
+Improved Buckler Defense,Difendere con il Buckler Migliorato,noun,Feat,Feats
+Improved Bull Rush,Spingere Migliorato,noun,Feat,Feats
+Improved Combat Casting,Incantatore in Combattimento Migliorato,noun,Feat,Feats
+Improved Combat Expertise,Maestria in Combattimento Migliorata,noun,Feat,Feats
+Improved Counterspell,Controincantesimo Migliorato,noun,Feat,Feats
+Improved Critical,Critico Migliorato,noun,Feat,Feats
+Improved Disarm,Disarmare Migliorato,noun,Feat,Feats
+Improved Diversion,Diversivo Migliorato,noun,Feat,Feats
+Improved Elemental Wild Shape,Forma Selvatica Elementale Migliorata,noun,Feat,Feats
+Improved Energy Drain,Risucchio di Energia Migliorato,noun,Feat,Feats
+Improved Familiar,Famiglio Migliorato,noun,Feat,Feats
+Improved Favored Enemy,Nemico Prescelto Migliorato,noun,Feat,Feats
+Improved Feint,Fintare Migliorato,noun,Feat,Feats
+Improved Flight,Volare Migliorato,noun,Feat,Feats
+Improved Grapple,Lottare Migliorato,noun,Feat,Feats
+Improved Initiative,Iniziativa Migliorata,noun,Feat,Feats
+Improved Maneuverability,Manovrabilità Migliorata,noun,Feat,Feats
+Improved Metamagic,Metamagia Migliorata,noun,Feat,Feats
+Improved Mounted Archery,Tirare in Sella Migliorato,noun,Feat,Feats
+Improved Multiattack,Multiattacco Migliorato,noun,Feat,Feats
+Improved Natural Armor,Armatura Naturale Migliorata,noun,Feat,Feats
+Improved Natural Attack,Attacco Naturale Migliorato,noun,Feat,Feats
+Improved Oneiromancy,Oneiromanzia Superiore,noun,Feat,Feats
+Improved Overrun,Oltrepassare Migliorato,noun,Feat,Feats
+Improved paralysis,Paralisi Migliorata,noun,Feat,Feats
+Improved Precise Shot,Tiro Preciso Migliorato,noun,Feat,Feats
+Improved Rapid Shot,Tiro Rapido Migliorato,noun,Feat,Feats
+Improved Rapidstrike,Colpo Rapido Migliorato,noun,Feat,Feats
+Improved Rock Hurling,Scagliare Rocce Migliorato,noun,Feat,Feats
+Improved Shield Bash,Attacco con lo Scudo Migliorato,noun,Feat,Feats
+Improved Sigil (Aesh),Sigillo Migliorato (Aesh),noun,Feat,Feats
+Improved Sigil (Hoon),Sigillo Migliorato (Hoon),noun,Feat,Feats
+Improved Sigil (Krau),Sigillo Migliorato (Krau),noun,Feat,Feats
+Improved Sigil (Naen),Sigillo Migliorato (Naen),noun,Feat,Feats
+Improved Sigil (Uur),Sigillo Migliorato (Uur),noun,Feat,Feats
+Improved Sigil (Vaul),Sigillo Migliorato (Vaul),noun,Feat,Feats
+Improved Skirmish,Schermaglia Migliorata,noun,Feat,Feats
+Improved Smiting,Punire Migliorato,noun,Feat,Feats
+Improved Snatch,Ghermire Migliorato,noun,Feat,Feats
+Improved Sneak Attack,Attacco Furtivo Migliorato,noun,Feat,Feats
+Improved Speed,Velocità Migliorata,noun,Feat,Feats
+Improved Spell Capacity,Capienza di Incantesimi Migliorata,noun,Feat,Feats
+Improved Stunning Fist,Pugno Stordente Migliorato,noun,Feat,Feats
+Improved Sudden Strike,Colpo Improvviso Migliorato,noun,Feat,Feats
+Improved Sunder,Spezzare Migliorato,noun,Feat,Feats
+Improved Swimming,Nuotare Migliorato,noun,Feat,Feats
+Improved Toughness,Robustezza Migliorata,noun,Feat,Feats
+Improved Trip,Sbilanciare Migliorato,noun,Feat,Feats
+Improved Turn Resistance,Resistenza allo Scacciare Migliorata,noun,Feat,Feats
+Improved Turning,Scacciare Migliorato,noun,Feat,Feats
+Improved Two-Weapon Defense,Difendere con Due Armi Migliorato,noun,Feat,Feats
+Improved Two-Weapon Fighting,Combattere con Due Armi Migliorato,noun,Feat,Feats
+Improved Unarmed Strike,Colpo Senz'Armi Migliorato,noun,Feat,Feats
+Improved Weapon Familiarity,Familiarità nelle Armi Migliorata,noun,Feat,Feats
+Inhuman Reach,Portata Inumana,noun,Feat,Feats
+Inhuman Vision,Visione Inumana,noun,Feat,Feats
+Innate Spell,Incantesimo Innato,noun,Feat,Feats
+Inside Connection,Amicizie Interne,noun,Feat,Feats
+Insightful,Intuitivo,noun,Feat,Feats
+Insightful Reflexes,Riflessi Intuitivi,noun,Feat,Feats
+Inspire Spellpower,Ispirare Potenza degli Incantesimi,noun,Feat,Feats
+Instantaneous Rage,Ira Istantanea,noun,Feat,Feats
+Intimidating Rage,Ira Intimidatoria,noun,Feat,Feats
+Intuitive Attack,Attacco Intuitivo,noun,Feat,Feats
+Invest Armor,Avvolgere Armatura,noun,Feat,Feats
+Investigator,Investigatore,noun,Feat,Feats
+Iron Will,Volontà di Ferro,noun,Feat,Feats
+Ironskin Chant,Canto della Pelle di Ferro,noun,Feat,Feats
+Item Creation,Creazione Oggetto,adj,Feat type,Feats
+Jack of All Trades,Factotum,noun,Feat,Feats
+Karmic Strike,Colpo Karmico,noun,Feat,Feats
+Keeper of Forbidden Lore,Custode di Conoscenze Proibite,noun,Feat,Feats
+Kiai Shout,Grido Kiai,noun,Feat,Feats
+Knight of Stars,Cavaliere delle Stelle,noun,Feat,Feats
+Knockback,Abbattere,noun,Feat,Feats
+Large and in Charge,Grosso e al Comando,noun,Feat,Feats
+Lasting Inspiration,Ispirazione Duratura,noun,Feat,Feats
+Lasting Life,Vita Perdurante,noun,Feat,Feats
+Law Inviolate,Legge Inviolata,noun,Feat,Feats
+Leadership,Autorità,noun,Feat,Feats
+Leap Attack,Attacco in Salto,noun,Feat,Feats
+Legendary Acrobat,Acrobata Leggendario,noun,Feat,Feats
+Legendary Climber,Scalatore Leggendario,noun,Feat,Feats
+Legendary Leaper,Saltatore Leggendario,noun,Feat,Feats
+Legendary Rider,Cavalcatore Leggendario,noun,Feat,Feats
+Legendary Tracker,Segugio Leggendario,noun,Feat,Feats
+Life Drain,Risucchiare Vita,noun,Feat,Feats
+Lifebond,Legame Vitale,noun,Feat,Feats
+Lifesense,Percepire Vita,noun,Feat,Feats
+Lightning Mace,Mazza Fulminea,noun,Feat,Feats
+Lightning Reflexes,Riflessi Fulminei,noun,Feat,Feats
+Lingering Breath,Soffio Persistente,noun,Feat,Feats
+Lingering Song,Canto Persistente,noun,Feat,Feats
+Lion's Pounce,Balzo del Leone,noun,Feat,Feats
+Lord of the Uttercold,Signore del Freddo Estremo,noun,Feat,Feats
+Lunatic Insight,Cognizione Lunatica,noun,Feat,Feats
+Lyric Spell,Incantesimi Lirici,noun,Feat,Feats
+Mad Faith,Fede Folle,noun,Feat,Feats
+Mage Slayer,Uccisore di Maghi,noun,Feat,Feats
+Magical Aptitude,Attitudine Magica,noun,Feat,Feats
+Magical Beast Wild Shape,Forma Selvatica Bestia Magica,noun,Feat,Feats
+Manyshot,Tiro Multiplo,noun,Feat,Feats
+Markings of the Blessed,Macula del Benedetto,noun,Feat,Feats
+Markings of the Hunter,Macula del Cacciatore,noun,Feat,Feats
+Markings of the Magi,Macula del Mago,noun,Feat,Feats
+Markings of the Maker,Macula del Creatore,noun,Feat,Feats
+Markings of the Warrior,Macula del Guerriero,noun,Feat,Feats
+Martial Weapon Proficiency,Competenza nelle Armi da Guerra,noun,Feat,Feats
+Master of Knowledge,Maestro di Conoscenze,noun,Feat,Feats
+Master Staff,Padronanza dei Bastoni,noun,Feat,Feats
+Master Wand,Padronanza delle Bacchette,noun,Feat,Feats
+Maximize Breath,Soffio Massimizzato,noun,Feat,Feats
+Maximize Spell,Incantesimi Massimizzati,noun,Feat,Feats
+Maximize Spell-like Ability,Capacità Magica Massimizzata,noun,Feat,Feats
+Memory Eater,Divoratore di Ricordi,noun,Feat,Feats
+Menacing Demeanor,Condotta Minacciosa,noun,Feat,Feats
+Metamagic Song,Canto Metamagico,noun,Feat,Feats
+Metaray,Metaraggio,noun,Feat,Feats
+Mindsight,Vista Mentale,noun,Feat,Feats
+Misleading Song,Canto Ingannatore,noun,Feat,Feats
+Mobile Spell-Casting,Incantatore Mobile,noun,Feat,Feats
+Mobility,Mobilità,noun,Feat,Feats
+Monkey Grip,Presa della Scimmia,noun,Feat,Feats
+Moradin's Smile,Sorriso di Moradin,noun,Feat,Feats
+Mother Cyst,Castigo Distruttivo,noun,Feat,Feats
+Mountain Warrior,Guerriero di Montagna,noun,Feat,Feats
+Mounted Archery,Tirare in Sella,noun,Feat,Feats
+Mounted Combat,Combattere in Sella,noun,Feat,Feats
+Multiattack,Multiattacco,noun,Feat,Feats
+Multisnatch,Ghermire Multiplo,noun,Feat,Feats
+Multiweapon Fighting,Combattere con Più Armi,noun,Feat,Feats
+Music of the Outer Spheres,Musica delle Sfere Esterne,noun,Feat,Feats
+Natural Bond,Legame Naturale,noun,Feat,Feats
+Natural Heavyweight,Pesantezza Naturale,noun,Feat,Feats
+Natural Spell,Incantesimi Naturali,noun,Feat,Feats
+Natural Trickster,Mistificatore Naturale,noun,Feat,Feats
+Necromantic Might,Potenza Necromantica,noun,Feat,Feats
+Necromantic Presence,Presenza Necromantica,noun,Feat,Feats
+Necropolis Born,Nato nella Necropoli,noun,Feat,Feats
+Necropotent,Necropotenza,noun,Feat,Feats
+Necrotic Reserve,Riserva Necrotica,noun,Feat,Feats
+Negative Energy Burst,Esplosione di Energia Negativa,noun,Feat,Feats
+Negotiator,Negoziatore,noun,Feat,Feats
+Nemesis,Nemesi,noun,Feat,Feats
+Neraph Charge,Carica Neraph,noun,Feat,Feats
+Neraph Throw,Lancio Neraph,noun,Feat,Feats
+Net and Trident,Rete e Tridente,noun,Feat,Feats
+Night Haunt,Ossessione Notturna,noun,Feat,Feats
+Nimble Bones,Ossa Agili,noun,Feat,Feats
+Nimble Fingers,Dita Sottili,noun,Feat,Feats
+Nonlethal Substitution,Sostituzione Non Letale,noun,Feat,Feats
+Nonverbal Spell,Incantesimi Non Verbali,noun,Feat,Feats
+Nymph's Kiss,Bacio della Ninfa,noun,Feat,Feats
+Oaken Resilience,Resilienza della Quercia,noun,Feat,Feats
+Obscure Lore,Conoscenza Oscura,noun,Feat,Feats
+Obtain Familiar,Ottenere Famiglio,noun,Feat,Feats
+Ocular Spell,Incantesimi Oculari,noun,Feat,Feats
+Oneiromancy,Oneiromanzia,noun,Feat,Feats
+Open Minded,Mente Aperta,noun,Feat,Feats
+Ordered Chaos,Caos Ordinato,noun,Feat,Feats
+Otherworldly Countenance,Portamento Ultraterreno,noun,Feat,Feats
+Overcome Weakness,Oltrepassare Punto Debole,noun,Feat,Feats
+Overhead Thrust,Fendente Diretto,noun,Feat,Feats
+Oversized Two-Weapon Fighting,Combattere con Due Armi Sovrabbondanti,noun,Feat,Feats
+Overwhelming Critical,Critico Soverchiante,noun,Feat,Feats
+Pain Touch,Tocco del Dolore,noun,Feat,Feats
+Parrying Shield,Scudo da Parata,noun,Feat,Feats
+Perfect Two-Weapon Fighting,Combattere con Due Armi Perfetto,noun,Feat,Feats
+Persistent Spell,Incantesimi Persistenti,noun,Feat,Feats
+Personal Touchstone,Piattaforma Personale,noun,Feat,Feats
+Persuasive,Persuasivo,noun,Feat,Feats
+Phalanx Fighting,Combattimento in Falange,noun,Feat,Feats
+Pierce Magical Concealment,Penetrare Occultamento Magico,noun,Feat,Feats
+Pierce Magical Protection,Penetrare Protezione Magica,noun,Feat,Feats
+Pierce the Darkness,Perforare l'Oscurità,noun,Feat,Feats
+Piercing Sight,Vista Penetrante,noun,Feat,Feats
+Pin Shield,Bloccare Scudo,noun,Feat,Feats
+Pious Defense,Difesa Pia,noun,Feat,Feats
+Pious Soul,Anima Pia,noun,Feat,Feats
+Pious Spellsurge,Impeto Magico Pio,noun,Feat,Feats
+Planar Familiar,Famiglio Planare,noun,Feat,Feats
+Planar Touchstone,Piattaforma Planare,noun,Feat,Feats
+Planar Turning,Scacciare Planare,noun,Feat,Feats
+Point Blank Shot,Tiro Ravvicinato,noun,Feat,Feats
+Poison Healer,Veleno Curativo,noun,Feat,Feats
+Poison Talons,Artigli Velenosi,noun,Feat,Feats
+Polyglot,Poliglotta,noun,Feat,Feats
+Positive Energy Resistance,Resistenza all'Energia Positiva,noun,Feat,Feats
+Power Attack,Attacco Poderoso,noun,Feat,Feats
+Power Climb,Ascesa Poderosa,noun,Feat,Feats
+Power Critical,Critico Poderoso,noun,Feat,Feats
+Power Dive,Picchiata Potente,noun,Feat,Feats
+Power Throw,Lancio Poderoso,noun,Feat,Feats
+Powerful Bite,Morso Poderoso,noun,Feat,Feats
+Powerful Wild shape,Forma Selvatica Poderosa,noun,Feat,Feats
+Practiced Spellcaster,Incantatore Provetto,noun,Feat,Feats
+Precise Shot,Tiro Preciso,noun,Feat,Feats
+Precocious Apprentice,Apprendista Precoce,noun,Feat,Feats
+Precognitive Visions,Visioni Precognitive,noun,Feat,Feats
+Primordial Scion,Retaggio Primordiale,noun,Feat,Feats
+Profane Boost,Incantesimo Profano,noun,Feat,Feats
+Profane Lifeleech,Succhiavita Profano,noun,Feat,Feats
+Profane Vigor,Vigore Profano,noun,Feat,Feats
+Prone Attack,Attacco Prono,noun,Feat,Feats
+Protected Destiny,Destino Protetto,noun,Feat,Feats
+Pure Soul,Anima Pura,noun,Feat,Feats
+Purify Spell,Incantesimi Purificati,noun,Feat,Feats
+Purify Spell Trigger,Incantesimi ad Attivazione Purificati,noun,Feat,Feats
+Purify Spell-like Ability,Capacità Magica Purificata,noun,Feat,Feats
+Quell the Profane,Fiaccare i Profani,noun,Feat,Feats
+Quick Draw,Estrazione Rapida,noun,Feat,Feats
+Quick Reconnoiter,Ricognizione Rapida,noun,Feat,Feats
+Quick Recovery,Recupero Rapido,noun,Feat,Feats
+Quick Staff,Bastone Rapido,noun,Feat,Feats
+Quicken Breath,Soffio Veloce,noun,Feat,Feats
+Quicken Manifestation,Manifestazione Rapida,noun,Feat,Feats
+Quicken Spell,Incantesimi Rapidi,noun,Feat,Feats
+Quicken Spell-Like Ability,Capacità Magica Rapida,noun,Feat,Feats
+Quicken Turning,Scacciare Rapido,noun,Feat,Feats
+Quickslime,Bava Rapida,noun,Feat,Feats
+Radiant Fire,Fuoco Radioso,noun,Feat,Feats
+Rampaging Bull Rush,Spingere Furioso,noun,Feat,Feats
+Ranged Disarm,Disarmare a Distanza,noun,Feat,Feats
+Ranged Pin,Bloccare a Distanza,noun,Feat,Feats
+Ranged Smite Evil,Punire il Male a Distanza,noun,Feat,Feats
+Ranged Spell Specialization,Specializzazione negli Incantesimi a Distanza,noun,Feat,Feats
+Ranged Sunder,Spezzare a Distanza,noun,Feat,Feats
+Rapid Reload,Ricarica Rapida,noun,Feat,Feats
+Rapid Shot,Tiro Rapido,noun,Feat,Feats
+Rapid Spell,Incantesimi Veloci,noun,Feat,Feats
+Rapid Stunning,Stordire Rapido,noun,Feat,Feats
+Rapidstrike,Colpo Rapido,noun,Feat,Feats
+Raptor School,Scuola del Rapace,noun,Feat,Feats
+Razing Strike,Colpo Dirompente,noun,Feat,Feats
+Reach Bite,Morso con Portata,noun,Feat,Feats
+Reach Spell,Incantesimi Lontani,noun,Feat,Feats
+Reckless Rage,Ira Audace,noun,Feat,Feats
+Reckless Wand Wielder,Bacchetta Implacabile,noun,Feat,Feats
+Recover Breath,Soffio Spedito,noun,Feat,Feats
+Rend,Squartare,noun,Feat,Feats
+Repeat Spell,Incantesimi Ripetuti,noun,Feat,Feats
+Resounding Blow,Colpo Risonante,noun,Feat,Feats
+Resourceful Buyer,Commerciante Ingegnoso,noun,Feat,Feats
+Ride-by Attack,Attacco in Sella,noun,Feat,Feats
+Righteous Wrath,Giusta Ira,noun,Feat,Feats
+Rock Hurling,Scagliare Rocce,noun,Feat,Feats
+Roofwalker,Camminare sui Tetti,noun,Feat,Feats
+Roots of the Mountain,Radici della Montagna,noun,Feat,Feats
+Roundabout Kick,Calcio Rotatorio,noun,Feat,Feats
+Run,Correre,noun,Feat,Feats
+Sacred Boost,Incantesimo Sacro,noun,Feat,Feats
+Sacred Healing,Guarigione Sacra,noun,Feat,Feats
+Sacred Strike,Colpo Consacrato,noun,Feat,Feats
+Sacred Vengeance,Vendetta Sacra,noun,Feat,Feats
+Sacred Vitality,Vitalità Sacra,noun,Feat,Feats
+Sacred Vow,Voto Sacro,noun,Feat,Feats
+Sanctify Ki Strike,Colpo Ki Santificato,noun,Feat,Feats
+Sanctify Martial Strike,Colpo Armato Santificato,noun,Feat,Feats
+Sanctify Natural Attack,Attacco Naturale Santificato,noun,Feat,Feats
+Sanctify Relic,Santificare Reliquia,noun,Feat,Feats
+Sanctify Weapon,Arma Santificata,noun,Feat,Feats
+Sanctum Spell,Incantesimi Solenni,noun,Feat,Feats
+Savage Grapple,Lotta Selvaggia,noun,Feat,Feats
+Scavenging Gullet,Stomaco Pattumiera,noun,Feat,Feats
+Scribe Scroll,Scrivere Pergamene,noun,Feat,Feats
+Sculpt Spell,Incantesimi Modellati,noun,Feat,Feats
+Self-Sufficient,Autosufficiente,noun,Feat,Feats
+Sense Weakness,Percepire Punto Debole,noun,Feat,Feats
+Serpent's Venom,Veleno del Serpente,noun,Feat,Feats
+Servant of the Heavens,Servitore dei Cieli,noun,Feat,Feats
+Shadow Heritage,Eredità delle Ombre,noun,Feat,Feats
+Shape Breath,Soffio Controllato,noun,Feat,Feats
+Sharp-Shooting,Mira Precisa,noun,Feat,Feats
+Shield Charge,Carica con lo Scudo,noun,Feat,Feats
+Shield Proficiency,Competenza negli Scudi,noun,Feat,Feats
+Shield Slam,Schianto con lo Scudo,noun,Feat,Feats
+Shielded Axe,Ascia con Scudo,noun,Feat,Feats
+Shock Wave,Onda d'Urto,noun,Feat,Feats
+Shot on the Run,Tiro in Movimento,noun,Feat,Feats
+Silencing Strike,Colpo Silenzioso,noun,Feat,Feats
+Silent Spell,Incantesimi Silenziosi,noun,Feat,Feats
+Simple Weapon Proficiency,Competenza nelle Armi Semplici,noun,Feat,Feats
+Skill Focus,Focalizzazione sull'Abilità,noun,Feat,Feats
+Skilled Telekinetic,Abile Telecineta,noun,Feat,Feats
+Smatterings,Infarinatura,noun,Feat,Feats
+Snatch,Ghermire,noun,Feat,Feats
+Snatch and Swallow,Ghermire e Inghiottire,noun,Feat,Feats
+Snatch Arrows,Afferrare Frecce,noun,Feat,Feats
+Sociable Personality,Personalità Affabile,noun,Feat,Feats
+Soul of the North,Anima del Nord,noun,Feat,Feats
+Spectral Strike,Colpo Spettrale,noun,Feat,Feats
+Spell Drain,Risucchiare Incantesimi,noun,Feat,Feats
+Spell Focus,Incantesimi Focalizzati,noun,Feat,Feats
+Spell Focus (Good),Incantesimi Focalizzati (Bene),noun,Feat,Feats
+Spell Hand,Mano Incantata,noun,Feat,Feats
+Spell Knowledge,Conoscenza di Incantesimi,noun,Feat,Feats
+Spell Mastery,Padronanza Magica,noun,Feat,Feats
+Spell Penetration,Penetrazione Magica,noun,Feat,Feats
+Spellcasting Harrier,Assaltatore di Incantatori,noun,Feat,Feats
+Spellrazor,Coltello Incantato,noun,Feat,Feats
+Spinning Halberd,Alabarda Rotante,noun,Feat,Feats
+Spirit Sense,Percezione degli Spiriti,noun,Feat,Feats
+Spirited Charge,Carica Devastante,noun,Feat,Feats
+Spit Poison,Sputare Veleno,noun,Feat,Feats
+Split Breath,Soffio Suddiviso,noun,Feat,Feats
+Split Ray,Dividere Raggio,noun,Feat,Feats
+Spontaneous Healer,Guaritore Sponteneo,noun,Feat,Feats
+Spontaneous Summoner,Evocatore Spontaneo,noun,Feat,Feats
+Spontaneous Wounder,Piagatore Spontaneo,noun,Feat,Feats
+Spreading Breath,Soffio Propagante,noun,Feat,Feats
+Spring Attack,Attacco Rapido,noun,Feat,Feats
+Spurn Death's Touch,Rifiutare il Tocco della Morte,noun,Feat,Feats
+Staggering Strike,Colpo Barcollante,noun,Feat,Feats
+Stalwart Planar Ally,Alleato Planare Vigoroso,noun,Feat,Feats
+Starspawn,Progenie delle Stelle,noun,Feat,Feats
+Steady Concentration,Concentrazione Assoluta,noun,Feat,Feats
+Steady Mountaineer,Scalatore Determinato,noun,Feat,Feats
+Stealthy,Furtivo,noun,Feat,Feats
+Stigmata,Stimmate,noun,Feat,Feats
+Still Spell,Incantesimi Immobili,noun,Feat,Feats
+Stitched Flesh Familiar,Famiglio Ricucito,noun,Feat,Feats
+Stone Form,Forma di Pietra,noun,Feat,Feats
+Stone Rage,Ira di Pietra,noun,Feat,Feats
+Stoneback,Fianchi di Pietra,noun,Feat,Feats
+Stunning Fist,Pugno Stordente,noun,Feat,Feats
+Subsonics,Musica Inconscia,noun,Feat,Feats
+Subtle Sigil,Sigillo Impercettibile,noun,Feat,Feats
+Sudden Empower,Incantesimi Potenziati Immediati,noun,Feat,Feats
+Sudden Enlarge,Incantesimi Ingranditi Immediati,noun,Feat,Feats
+Sudden Extend,Incantesimi Estesi Immediati,noun,Feat,Feats
+Sudden Maximize,Incantesimi Massimizzati Immediati,noun,Feat,Feats
+Sudden Quicken,Incantesimi Rapidi Immediati,noun,Feat,Feats
+Sudden Silent,Incantesimi Silenziosi Immediati,noun,Feat,Feats
+Sudden Still,Incantesimi Immoboli Immediati,noun,Feat,Feats
+Sudden Widen,Incantesimi Ampliati Immediati,noun,Feat,Feats
+Sun School,Scuola del Sole,noun,Feat,Feats
+Suppress Weakness,Sopprimere Punto Debole,noun,Feat,Feats
+Surge of Malevolence,Impeto di Malevolenza,noun,Feat,Feats
+Swarmfighting,Combattimento Coordinato,noun,Feat,Feats
+Swim like a Fish,Nuotare Come un Pesce,noun,Feat,Feats
+Tactical,Tattico,adj,Feat type,Feats
+Tactile Trapsmith,Cercatrappole Tattile,noun,Feat,Feats
+Tail Constrict,Coda Stritolante,noun,Feat,Feats
+Tail Sweep Knockdown,Spazzata di Coda Atterrante,noun,Feat,Feats
+Tainted Fury,Furia Corrotta,noun,Feat,Feats
+Tattoo Focus,Tatuaggio Focalizzato,noun,Feat,Feats
+Tempest Breath,Soffio Tempestoso,noun,Feat,Feats
+Terrifying Rage,Ira Terrificante,noun,Feat,Feats
+Thicken Mucus,Ispessire Muco,noun,Feat,Feats
+Thrall Bred,Schiavizzato,noun,Feat,Feats
+Thrall to Demon,Servitore di un Demone,noun,Feat,Feats
+Three Mountains,Tre Montagne,noun,Feat,Feats
+Throw Anything,Scagliare Arma,noun,Feat,Feats
+Titan Fighting,Combattere Titani,noun,Feat,Feats
+Tomb-Born Fortitude,Tempra Sepolcrale,noun,Feat,Feats
+Tomb-Born Resilience,Resilienza Sepolcrale,noun,Feat,Feats
+Tomb-Born Vitality,Vitalità Sepolcrale,noun,Feat,Feats
+Tomb-Tainted Soul,Anima Sepolcrale,noun,Feat,Feats
+Touch of Golden Ice,Tocco di Ghiaccio Dorato,noun,Feat,Feats
+Touch of Taint,Tocco di Corruzione,noun,Feat,Feats
+Touch Spell Specialization,Specializzazione Negli Incantesimi a Contatto,noun,Feat,Feats
+Toughness,Robustezza,noun,Feat,Feats
+Tower Shield Proficiency,Competenza negli Scudi Torre,noun,Feat,Feats
+Track,Seguire Tracce,noun,Feat,Feats
+Trample,Travolgere,noun,Feat,Feats
+Transdimensional Spell,Incantesimi Transdimensionali,noun,Feat,Feats
+Trivial Knowledge,Conoscenze Triviali,noun,Feat,Feats
+True Believer,Vero Credente,noun,Feat,Feats
+Tunnel Fighting,Combattere nei Tunnel,noun,Feat,Feats
+Tunnel Riding,Cavalcare nei Tunnel,noun,Feat,Feats
+Turtle Dart,Morso della Testuggine,noun,Feat,Feats
+Twin Spell,Incantesimi Raddoppiati,noun,Feat,Feats
+Two-Weapon Defense,Difendere con Due Armi,noun,Feat,Feats
+Two-Weapon Fighting,Combattere con Due Armi,noun,Feat,Feats
+Undead Leadership,Autorità Non Morta,noun,Feat,Feats
+Undead Mastery,Padronanza dei Non Morti,noun,Feat,Feats
+Undying Fate,Fato Imperituro,noun,Feat,Feats
+Unholy Strike,Colpo Sacrilego,noun,Feat,Feats
+Unnatural Will,Volontà Innaturale,noun,Feat,Feats
+Unquenchable Flame of Life,Inestinguibile Fiamma Vitale,noun,Feat,Feats
+Urban Stealth,Furtività Urbana,noun,Feat,Feats
+Urban Tracking,Seguire Tracce in Città,noun,Feat,Feats
+Vampire Hunter,Cacciatori di Vampiri,noun,Feat,Feats
+Versatile Performer,Intrattenitore Versatile,noun,Feat,Feats
+Vestigial Wings,Ali Atrofizzate,noun,Feat,Feats
+Vow of Abstinence,Voto di Astinenza,noun,Feat,Feats
+Vow of Chastity,Voto di Castità,noun,Feat,Feats
+Vow of Nonviolence,Voto di Non Violenza,noun,Feat,Feats
+Vow of Obedience,Voto di Obbedienza,noun,Feat,Feats
+Vow of Peace,Voto di Pace,noun,Feat,Feats
+Vow of Poverty,Voto di Povertà,noun,Feat,Feats
+Vow of Purity,Voto di Purezza,noun,Feat,Feats
+Wandstrike,Colpo di Bacchetta,noun,Feat,Feats
+Warped Mind,Mente Distorta,noun,Feat,Feats
+Water Heritage,Eredità dell'Acqua,noun,Feat,Feats
+Waterspawn,Progenie dell?Acqua,noun,Feat,Feats
+Weakening Touch,Tocco Indebolente,noun,Feat,Feats
+Weapon Finesse,Arma Accurata,noun,Feat,Feats
+Weapon Focus,Focalizzazione sull'Arma,noun,Feat,Feats
+Weapon Specialization,Specializzazione sull'Arma,noun,Feat,Feats
+Whirlwind Attack,Attacco Turbinante,noun,Feat,Feats
+Whirlwind Tail Sweep,Spazzata di Coda Turbinante,noun,Feat,Feats
+Whispered Secrets,Segreti Sussurrati,noun,Feat,Feats
+Widen Spell,Incantesimi Ampliati,noun,Feat,Feats
+Wield Oversized Weapon,Impugnare Arma Sovrabbondante,noun,Feat,Feats
+Wild,Selvaggio,adj,Feat type,Feats
+Wild Talent,Dote Naturale,noun,Feat,Feats
+Willing Deformity,Deformità Volontaria,noun,Feat,Feats
+Wingover,Virare,noun,Feat,Feats
+Wingstorm,Tempesta di Ali,noun,Feat,Feats
+Wolverine's Rage,Ira del Ghiottone,noun,Feat,Feats
+Words of Creation,Parole della Creazione,noun,Feat,Feats
+Zen Archery,Arciere Zen,noun,Feat,Feats
+Zone of Animation,Zona di Animazione,noun,Feat,Feats
+Aberration,Aberrazione,noun,Creature type,Monsters
+"Aboleth Mage, 10th-Level Wizard","Aboleth Mago, Mago di 10° Livello",noun,Monster,Monsters
+Abyssal Greater Basilisk,Basilisco Superiore Abissale,noun,Monster,Monsters
+Adult Arrowhawk,Arrowhawk Adulto,noun,Monster,Monsters
+Adult Tojanida,Tojanida Adulto,noun,Monster,Monsters
+Advancement,Avanzamento,,Monster stat block term,Monsters
+"Air Elemental, Large","Elementale dell'Aria, Grande",noun,Monster,Monsters
+"Air Elemental, Medium","Elementale dell'Aria, Medio",noun,Monster,Monsters
+"Air Elemental, Small","Elementale dell'Aria, Piccolo",noun,Monster,Monsters
+Angel,Angelo,noun,Monster,Monsters
+Animal,Animale,noun,Creature type,Monsters
+"Animated Object, Medium","Oggetto Animato, Medio",noun,Monster,Monsters
+"Animated Object, Small","Oggetto Animato, Piccolo",noun,Monster,Monsters
+"Animated Object, Tiny","Oggetto Animato, Minuscolo",noun,Monster,Monsters
+Ape,Scimmia,noun,Monster,Monsters
+Aquatic,Acquatico,adj,Creature subtype,Monsters
+Assassin Vine,Vite Assassina,noun,Monster,Monsters
+Augmented,Potenziato,adj,Creature subtype,Monsters
+Average Salamander,Salamandra Media,noun,Monster,Monsters
+Average Xorn,Xorn Medio,noun,Monster,Monsters
+Baboon,Babbuino,noun,Monster,Monsters
+Badger,Tasso,noun,Monster,Monsters
+Basilisk,Basilisco,noun,Monster,Monsters
+Bat,Pipistrello,noun,Monster,Monsters
+"Bear, Black","Orso, Nero",noun,Monster,Monsters
+"Bear, Brown","Orso, Bruno",noun,Monster,Monsters
+"Bear, Polar","Orso, Polare",noun,Monster,Monsters
+Bison,Bisonte,noun,Monster,Monsters
+Black Pudding,Melma Nera,noun,Monster,Monsters
+Blindsight,Vista Cieca,,Monster stat block term,Monsters
+Blink Dog,Cane Intermittente,noun,Monster,Monsters
+Boar,Cinghiale,noun,Monster,Monsters
+Camel,Cammello,noun,Monster,Monsters
+Cat,Gatto,noun,Monster,Monsters
+"Celestial Charger, 7th-Level Cleric","Destriero Celestiale, Chierico di 7° Livello",noun,Monster,Monsters
+Centaur,Centauro,noun,Monster,Monsters
+Challenge Rating,Grado di Sfida,,Monster stat block term,Monsters
+Chaos Beast,Bestia del Caos,noun,Monster,Monsters
+Cheetah,Ghepardo,noun,Monster,Monsters
+Cockatrice,Coccatrice,noun,Monster,Monsters
+Construct,Costrutto,noun,Creature type,Monsters
+CR,GS,,Monster stat block term,Monsters
+Crocodile,Coccodrillo,noun,Monster,Monsters
+"Crocodile, Giant","Coccodrillo, Gigante",noun,Monster,Monsters
+Deathless,Non Morto Immortale,noun,Creature type,Monsters
+Demon,Demone,noun,Monster,Monsters
+Devil,Diavolo,noun,Monster,Monsters
+Devourer,Divoratore,noun,Monster,Monsters
+Digester,Digestore,noun,Monster,Monsters
+Dinosaur,Dinosauro,noun,Monster,Monsters
+Dire Animal,Animale Crudele,noun,Monster,Monsters
+Dog,Cane,noun,Monster,Monsters
+Donkey,Asino,noun,Monster,Monsters
+Dragon,Drago,noun,Creature type,Monsters
+Dragon Turtle,Drago Tartaruga,noun,Monster,Monsters
+Dread Wraith,Wraith Terribile,noun,Monster,Monsters
+"Drow, 1st-Level Warrior","Drow, Guerriero di 1° Livello",noun,Monster,Monsters
+Dryad,Driade,noun,Monster,Monsters
+"Duergar, 1st-Level Warrior","Duergar, Guerriero di 1° Livello",noun,Monster,Monsters
+"Dwarf, 1st-Level Warrior","Nano, Guerriero di 1° Livello",noun,Monster,Monsters
+Eagle,Aquila,noun,Monster,Monsters
+"Eagle, Giant","Aquila, Gigante",noun,Monster,Monsters
+Elder Arrowhawk,Arrowhawk Anziano,noun,Monster,Monsters
+Elder Black Pudding,Melma Nera Anziana,noun,Monster,Monsters
+Elder Tojanida,Tojanida Anziano,noun,Monster,Monsters
+Elder Xorn,Xorn Anziano,noun,Monster,Monsters
+Elemental,Elementale,noun,Creature type,Monsters
+Elephant,Elefante,noun,Monster,Monsters
+"Elf, 1st-Level Warrior","Elfo, Guerriero di 1° Livello",noun,Monster,Monsters
+Environment,Ambiente,,Monster stat block term,Monsters
+Ethereal Filcher,Ladro Etereo,noun,Monster,Monsters
+Ethereal Marauder,Predatore Etereo,noun,Monster,Monsters
+Extraplanar,Extraplanare,adj,Creature subtype,Monsters
+Fey,Folletto,noun,Creature type,Monsters
+Five-Headed Hydra,Idra a Cinque Teste,noun,Monster,Monsters
+Flamebrother Salamander,Salamandra Fratello di Fiamma,noun,Monster,Monsters
+Formian Taskmaster,Formian Sorvegliante,noun,Monster,Monsters
+Formian Warrior,Formian Guerriero,noun,Monster,Monsters
+Formian Worker,Formian Operaio,noun,Monster,Monsters
+Frost Worm,Verme del Gelo,noun,Monster,Monsters
+Genie,Genio,noun,Monster,Monsters
+Ghost,Fantasma,noun,Monster,Monsters
+Giant,Gigante,noun,Creature type,Monsters
+"Giant Ant, Queen","Formica Gigante, Regina",noun,Monster,Monsters
+"Giant Ant, Soldier","Formica Gigante, Soldato",noun,Monster,Monsters
+"Giant Ant, Worker","Formica Gigante, Operaia",noun,Monster,Monsters
+Giant Bee,Ape Gigante,noun,Monster,Monsters
+Giant Bombardier Beetle,Scarabeo Bombardiere Gigante,noun,Monster,Monsters
+Giant Fire Beetle,Scarabeo di Fuoco Gigante,noun,Monster,Monsters
+Giant Praying Mantis,Mantide Religiosa Gigante,noun,Monster,Monsters
+Giant Stag Beetle,Scarabeo Cervo Gigante,noun,Monster,Monsters
+Giant Wasp,Vespa Gigante,noun,Monster,Monsters
+Gibbering Mouther,Farfugliatore,noun,Monster,Monsters
+"Gnome, 1st-Level Warrior","Gnomo, Guerriero di 1° Livello",noun,Monster,Monsters
+Goblinoid,Goblinoide,adj,Creature subtype,Monsters
+Golden Protector (Celestial Half-Dragon Lammasu),Protettore Dorato (Lammasu Celestiale Mezzo Drago),noun,Monster,Monsters
+Gorgon,Gorgone,noun,Monster,Monsters
+Gray Render,Render Grigio,noun,Monster,Monsters
+Greater Barghest,Barghest Superiore,noun,Monster,Monsters
+Greater Shadow,Ombra Superiore,noun,Monster,Monsters
+Griffon,Grifone,noun,Monster,Monsters
+Hag,Strega,noun,Monster,Monsters
+"Halfling, 1st-Level Warrior","Halfling, Guerriero di 1° Livello",noun,Monster,Monsters
+Harpy,Arpia,noun,Monster,Monsters
+"Harpy Archer, 7th-Level Fighter","Arpia Arciera, Guerriero di 7° Livello",noun,Monster,Monsters
+Hawk,Falco,noun,Monster,Monsters
+Hellhound,Segugio Infernale,noun,Monster,Monsters
+Hippogriff,Ippogrifo,noun,Monster,Monsters
+"Hobgoblin, 1st-Level Warrior","Hobgoblin, Guerriero di 1° Livello",noun,Monster,Monsters
+Howler,Ululatore,noun,Monster,Monsters
+Humanoid,Umanoide,noun,Creature type,Monsters
+Hyena,Iena,noun,Monster,Monsters
+Immunity,Immunita,,Monster stat block term,Monsters
+Incorporeal,Incorporeo,adj,Creature subtype,Monsters
+Inevitable,Inevitabile,noun,Monster,Monsters
+Invisible Stalker,Segugio Invisibile,noun,Monster,Monsters
+Juvenile Arrowhawk,Arrowhawk Giovane,noun,Monster,Monsters
+Juvenile Tojanida,Tojanida Giovane,noun,Monster,Monsters
+"Kobold, 1st-Level Warrior","Coboldo, Guerriero di 1° Livello",noun,Monster,Monsters
+Leopard,Leopardo,noun,Monster,Monsters
+Lion,Leone,noun,Monster,Monsters
+Lizard,Lucertola,noun,Monster,Monsters
+"Lizard, Monitor","Lucertola, Varano",noun,Monster,Monsters
+Lizardfolk,Uomini Lucertola,noun,Monster,Monsters
+Magical Beast,Bestia Magica,noun,Creature type,Monsters
+Manta Ray,Manta,noun,Monster,Monsters
+Manticore,Manticora,noun,Monster,Monsters
+Merfolk,Tritone,noun,Monster,Monsters
+Minor Xorn,Xorn Minore,noun,Monster,Monsters
+Minotaur,Minotauro,noun,Monster,Monsters
+Monkey,Scimmia,noun,Monster,Monsters
+"Monstrous Centipede, Medium","Centopiedi Mostruoso, Medio",noun,Monster,Monsters
+"Monstrous Centipede, Small","Centopiedi Mostruoso, Piccolo",noun,Monster,Monsters
+"Monstrous Centipede, Tiny","Centopiedi Mostruoso, Minuscolo",noun,Monster,Monsters
+Monstrous Humanoid,Umanoide Mostruoso,noun,Creature type,Monsters
+"Monstrous Scorpion, Medium","Scorpione Mostruoso, Medio",noun,Monster,Monsters
+"Monstrous Scorpion, Small","Scorpione Mostruoso, Piccolo",noun,Monster,Monsters
+"Monstrous Scorpion, Tiny","Scorpione Mostruoso, Minuscolo",noun,Monster,Monsters
+"Monstrous Spider, Medium","Ragno Mostruoso, Medio",noun,Monster,Monsters
+"Monstrous Spider, Small","Ragno Mostruoso, Piccolo",noun,Monster,Monsters
+"Monstrous Spider, Tiny","Ragno Mostruoso, Minuscolo",noun,Monster,Monsters
+Mule,Mulo,noun,Monster,Monsters
+Mummy,Mummia,noun,Monster,Monsters
+"Mummy Lord, 10th-Level Cleric","Signore delle Mummie, Chierico di 10° Livello",noun,Monster,Monsters
+Native,Nativo,adj,Creature subtype,Monsters
+Nessian Warhound,Segugio da Guerra di Nesso,noun,Monster,Monsters
+Night Hag,Strega Notturna,noun,Monster,Monsters
+"Nightmare, Cauchemar","Incubo, Cauchemar",noun,Monster,Monsters
+Nightshade,Ombra Notturna,noun,Monster,Monsters
+Noble Salamander,Salamandra Nobile,noun,Monster,Monsters
+Nymph,Ninfa,noun,Monster,Monsters
+Octopus,Piovra,noun,Monster,Monsters
+"Octopus, Giant","Piovra, Gigante",noun,Monster,Monsters
+Ogre Mage,Ogre Mago,noun,Monster,Monsters
+"Ogre, 4th-Level Barbarian","Ogre, Barbaro di 4° Livello",noun,Monster,Monsters
+Ooze,Melma,noun,Creature type,Monsters
+Orc,Orco,noun,Monster,Monsters
+Organization,Organizzazione,,Monster stat block term,Monsters
+Outsider,Esterno,noun,Creature type,Monsters
+Owl,Gufo,noun,Monster,Monsters
+"Owl, Giant","Gufo, Gigante",noun,Monster,Monsters
+Owlbear,Orsogufo,noun,Monster,Monsters
+Pegasus,Pegaso,noun,Monster,Monsters
+Phantom Fungus,Fungo Fantasma,noun,Monster,Monsters
+Phase Spider,Ragno Fasico,noun,Monster,Monsters
+Planetouched,Stirpe Planare,noun,Monster,Monsters
+Plant,Pianta,noun,Creature type,Monsters
+"Pony, War","Pony, da Guerra",noun,Monster,Monsters
+Porpoise,Focena,noun,Monster,Monsters
+Pseudodragon,Pseudodrago,noun,Monster,Monsters
+Psionic,Psionico,adj,Creature subtype,Monsters
+Purple Worm,Verme Purpureo,noun,Monster,Monsters
+Rat,Ratto,noun,Monster,Monsters
+Raven,Corvo,noun,Monster,Monsters
+Regeneration,Rigenerazione,,Monster stat block term,Monsters
+Reptilian,Rettile,adj,Creature subtype,Monsters
+Rhinoceros,Rinoceronte,noun,Monster,Monsters
+Rust Monster,Mostro della Ruggine,noun,Monster,Monsters
+Satyr,Satiro,noun,Monster,Monsters
+Sea Cat,Gatto Marino,noun,Monster,Monsters
+Seven-Headed Hydra,Idra a Sette Teste,noun,Monster,Monsters
+Shadow Mastiff,Mastino d'Ombra,noun,Monster,Monsters
+Shambling Mound,Cumulo Strisciante,noun,Monster,Monsters
+Shapechanger,Mutaforma,noun,Creature type,Monsters
+"Shark, Huge","Squalo, Enorme",noun,Monster,Monsters
+"Shark, Large","Squalo, Grande",noun,Monster,Monsters
+"Shark, Medium","Squalo, Medio",noun,Monster,Monsters
+Shield Guardian,Guardiano dello Scudo,noun,Monster,Monsters
+Shocker Lizard,Lucertola Elettrica,noun,Monster,Monsters
+Shrieker,Strillone,noun,Monster,Monsters
+Six-Headed Hydra,Idra a Sei Teste,noun,Monster,Monsters
+Skeleton,Scheletro,noun,Monster,Monsters
+Snake,Serpente,noun,Monster,Monsters
+Space/Reach,Spazio/Portata,,Monster stat block term,Monsters
+Special Attacks,Attacchi Speciali,,Monster stat block term,Monsters
+Special Qualities,Qualita Speciali,,Monster stat block term,Monsters
+Spectre,Spettro,noun,Monster,Monsters
+Speed,Velocita,,Monster stat block term,Monsters
+Sphinx,Sfinge,noun,Monster,Monsters
+Spider Eater,Mangiaragni,noun,Monster,Monsters
+Sprite,Spiritello,noun,Monster,Monsters
+Squid,Calamaro,noun,Monster,Monsters
+"Squid, Giant","Calamaro, Gigante",noun,Monster,Monsters
+"Svirfneblin, 1st-Level Warrior","Svirfneblin, Guerriero di 1° Livello",noun,Monster,Monsters
+Swarm,Sciame,adj,Creature subtype,Monsters
+Telepathy,Telepatia,,Monster stat block term,Monsters
+Tiger,Tigre,noun,Monster,Monsters
+Titan,Titano,noun,Monster,Monsters
+Toad,Rospo,noun,Monster,Monsters
+Treasure,Tesoro,,Monster stat block term,Monsters
+Tremorsense,Percezione delle Vibrazioni,,Monster stat block term,Monsters
+Triton,Tritone,noun,Monster,Monsters
+Troglodyte,Troglodita,noun,Monster,Monsters
+"Troll Hunter, 6th-Level Ranger","Troll Cacciatore, Ranger di 6° Livello",noun,Monster,Monsters
+Turn Resistance,Resistenza allo Scacciare,,Monster stat block term,Monsters
+Undead,Non Morto,noun,Creature type,Monsters
+Unicorn,Unicorno,noun,Monster,Monsters
+Vampire Spawn,Progenie Vampirica,noun,Monster,Monsters
+Vermin,Parassita,noun,Creature type,Monsters
+Violet Fungus,Fungo Violetto,noun,Monster,Monsters
+Weasel,Donnola,noun,Monster,Monsters
+"Werebear, Bear Form","Orso Mannaro, Forma d'Orso",noun,Monster,Monsters
+"Werebear, Human Form","Orso Mannaro, Forma Umana",noun,Monster,Monsters
+"Werebear, Hybrid Form","Orso Mannaro, Forma Ibrida",noun,Monster,Monsters
+Whale,Balena,noun,Monster,Monsters
+Will-O’-Wisp,Fuoco Fatuo,noun,Monster,Monsters
+Winter Wolf,Lupo Invernale,noun,Monster,Monsters
+Wolf,Lupo,noun,Monster,Monsters
+Wolverine,Ghiottone,noun,Monster,Monsters
+Wyvern,Viverna,noun,Monster,Monsters
+Yeth Hound,Segugio Yeth,noun,Monster,Monsters
+Zombie,Zombi,noun,Monster,Monsters
+Absorb Weapon,Inglobare Arma,noun,Spell (Trasmutazione),Spells
+Absorption,Assorbimento,noun,Spell (Abiurazione),Spells
+Abyssal Army,Esercito Abissale,noun,Spell (Evocazione),Spells
+Abyssal Frenzy,Frenesia Abissale,noun,Spell (Trasmutazione),Spells
+"Abyssal Frenzy, Mass",Frenesia Abissale di Massa,noun,Spell (Trasmutazione),Spells
+Abyssal Rift,Squarcio Abissale,noun,Spell (Evocazione),Spells
+Accelerated Movement,Movimento Accelerato,noun,Spell (Trasmutazione),Spells
+Accuracy,Precisione,noun,Spell (Trasmutazione),Spells
+Acid Arrow,Freccia Acida di Melf,noun,Spell (Evocazione),Spells
+Acid Fog,Nebbia Acida,noun,Spell (Evocazione),Spells
+Acid Splash,Fiotto Acido,noun,Spell (Evocazione),Spells
+Affliction,Afflizione,noun,Spell (Necromanzia),Spells
+Aid,Aiuto,noun,Spell (Ammaliamento),Spells
+Aiming at the Target,Mirare il Bersaglio,noun,Spell (Abiurazione),Spells
+Air Walk,Camminare nell'Aria,noun,Spell (Trasmutazione),Spells
+Alarm,Allarme,noun,Spell (Abiurazione),Spells
+Align Weapon,Allineare Arma,noun,Spell (Trasmutazione),Spells
+Alter Self,Alterare Se Stesso,noun,Spell (Trasmutazione),Spells
+Amber Sarcophagus,Sarcofago d'Ambra,noun,Spell (Invocazione),Spells
+Analyze Dweomer,Analizzatore Dweomer,noun,Spell (Divinazione),Spells
+Analyze Portal,Analizzare Portale,noun,Spell (Divinazione),Spells
+Analyze Touchstone,Analizzare Piattaforma,noun,Spell (Divinazione),Spells
+Anarchic Storm,Tempesta Ancarchica,noun,Spell (Evocazione),Spells
+Anarchic Water,Acqua Anarchica,noun,Spell (Trasmutazione),Spells
+Anger of the Noonday Sun,Veemenza del Sole di Mezzogiorno,noun,Spell (Invocazione),Spells
+Animal Growth,Crescita Animale,noun,Spell (Trasmutazione),Spells
+Animal Messenger,Messaggero Animale,noun,Spell (Ammaliamento),Spells
+Animal Shapes,Forme Animali,noun,Spell (Trasmutazione),Spells
+Animal Trance,Trance Animale,noun,Spell (Ammaliamento),Spells
+Animate Breath,Animare Soffio,noun,Spell (Trasmutazione),Spells
+Animate City,Animare Città,noun,Spell (Trasmutazione),Spells
+Animate Dead,Animare Morti,noun,Spell (Necromanzia),Spells
+Animate Fire,Animare Fuoco,noun,Spell (Trasmutazione),Spells
+Animate Objects,Animare Oggetti,noun,Spell (Trasmutazione),Spells
+Animate Plants,Animare Vegetali,noun,Spell (Trasmutazione),Spells
+Animate Rope,Animare Corde,noun,Spell (Trasmutazione),Spells
+Animate Water,Animare Acqua,noun,Spell (Trasmutazione),Spells
+Animate Wood,Animare Legno,noun,Spell (Trasmutazione),Spells
+Anticipate Teleportation,Avvertire Teletrasporto,noun,Spell (Abiurazione),Spells
+"Anticipate Teleportation, Greater",Avvertire Teletrasporto Superiore,noun,Spell (Abiurazione),Spells
+Antidragon Aura,Aura Anti-Drago,noun,Spell (Abiurazione),Spells
+Antilife Shell,Guscio Anti-Vita,noun,Spell (Abiurazione),Spells
+Antimagic Field,Campo Anti-Magia,noun,Spell (Abiurazione),Spells
+Antimagic Ray,Raggio Anti-Magia,noun,Spell (Abiurazione),Spells
+Antipathy,Antipatia,noun,Spell (Ammaliamento),Spells
+Antiplant Shell,Guscio Anti-Vegetali,noun,Spell (Abiurazione),Spells
+Apparition,Apparizione,noun,Spell (Illusione),Spells
+Arc of Lightning,Arco di Fulmini,noun,Spell (Evocazione),Spells
+Arcane Eye,Occhio Arcano,noun,Spell (Divinazione),Spells
+Arcane Lock,Serratura Arcana,noun,Spell (Abiurazione),Spells
+Arcane Mark,Sigillo Arcano,noun,Spell (Universale),Spells
+Arcane Sight,Vista Arcana,noun,Spell (Divinazione),Spells
+"Arcane Sight, Greater",Vista Arcana Superiore,noun,Spell (Divinazione),Spells
+Arms of Plenty,Braccia Abbondanti,noun,Spell (Trasmutazione),Spells
+Arrow Mind,Freccia Mentale,noun,Spell (Divinazione),Spells
+Arrow of Bone,Freccia d'Osso,noun,Spell (Necromanzia),Spells
+Arrow Storm,Tempesta di Frecce,noun,Spell (Trasmutazione),Spells
+Aspect of the Deity,Aspetto della Divinità,noun,Spell (Trasmutazione),Spells
+"Aspect of the Deity, Greater",Aspetto della Divinità Superiore,noun,Spell (Trasmutazione),Spells
+"Aspect of the Deity, Lesser",Aspetto della Divinità Inferiore,noun,Spell (Trasmutazione),Spells
+Assay Resistance,Determinare Resistenza,noun,Spell (Divinazione),Spells
+Astral Hospice,Rifugio Astrale,noun,Spell (Evocazione),Spells
+Astral Projection,Proiezione Astrale,noun,Spell (Necromanzia),Spells
+Atonement,Espiazione,noun,Spell (Abiurazione),Spells
+Attune Form,Adattare Forma,noun,Spell (Trasmutazione),Spells
+Augment Familiar,Aumentare Famiglio,noun,Spell (Trasmutazione),Spells
+Augury,Presagio,noun,Spell (Divinazione),Spells
+Aura of Evasion,Aura di Elusione,noun,Spell (Abiurazione),Spells
+Aura of Terror,Aura di Terrore,noun,Spell (Necromanzia),Spells
+Avascular Mass,Svuotamento di Sangue,noun,Spell (Necromanzia),Spells
+Avoid Planar Effects,Evitare Effetti Planari,noun,Spell (Abiurazione),Spells
+Awaken,Risveglio,noun,Spell (Trasmutazione),Spells
+Awaken Undead,Risvegliare Non Morti,noun,Spell (Necromanzia),Spells
+"Awaken, Mass",Risveglio di Massa,noun,Spell (Trasmutazione),Spells
+Axiomatic Creature,Creatura Assiomatica,noun,Spell (Trasmutazione),Spells
+Axiomatic Storm,Tempesta Assiomatica,noun,Spell (Evocazione),Spells
+Axiomatic Water,Acqua Assiomatica,noun,Spell (Trasmutazione),Spells
+Ayailla's Radiant Burst,Esplosione Radiosa di Ayailla,noun,Spell (Invocazione),Spells
+Babau Slime,Bava del Babau,noun,Spell (Trasmutazione),Spells
+Backbiter,Rivalsa,noun,Spell (Necromanzia),Spells
+Balancing Lorecall,Sapienza di Equilibrio,noun,Spell (Divinazione),Spells
+Baleful Polymorph,Metamorfosi Funesta,noun,Spell (Trasmutazione),Spells
+Balor Nimbus,Aureola del Balor,noun,Spell (Trasmutazione),Spells
+Bands of Steel,Bande d'Acciaio,noun,Spell (Evocazione),Spells
+Bane,Anatema,noun,Spell (Ammaliamento),Spells
+Bane Bow,Arco Anatema,noun,Spell (Invocazione),Spells
+Banishment,Esilio,noun,Spell (Abiurazione),Spells
+Barghest's Feast,Banchetto del Barghest,noun,Spell (Necromanzia),Spells
+Barkskin,Pelle Coriacea,noun,Spell (Trasmutazione),Spells
+Bastion of Good,Bastione del Bene,noun,Spell (Abiurazione),Spells
+Bear’s Endurance,Resistenza dell'Orso,noun,Spell (Trasmutazione),Spells
+"Bear’s Endurance, Mass",Resistenza dell'Orso di Mass,noun,Spell (Trasmutazione),Spells
+Beast Claws,Artigli della Bestia,noun,Spell (Trasmutazione),Spells
+Beastland Ferocity,Ferocia delle Terre Bestiali,noun,Spell (Ammaliamento),Spells
+Beckoning Call,Richiamo Imperioso,noun,Spell (Ammaliamento),Spells
+Befoul,Contaminare,noun,Spell (Trasmutazione),Spells
+Beget Bogun,Creare Bogun,noun,Spell (Evocazione),Spells
+Belker Claws,Artigli del Belker,noun,Spell (Trasmutazione),Spells
+Bestow Curse,Scagliare Maledizione,noun,Spell (Trasmutazione),Spells
+"Bestow Curse, Greater",Scagliare Maledizione Superiore,noun,Spell (Trasmutazione),Spells
+Bestow Wound,Scagliare Ferita,noun,Spell (Trasmutazione),Spells
+Binding,Legame,noun,Spell (Ammaliamento),Spells
+Binding Winds,Vento della Costrizione,noun,Spell (Invocazione),Spells
+Bite of the King,Morso del Re,noun,Spell (Necromanzia),Spells
+Black Tentacles,Tentacoli Neri di Evard,noun,Spell (Evocazione),Spells
+Blackfire,Fuoconero,noun,Spell (Necromanzia),Spells
+Blade Barrier,Barriera di Lame,noun,Spell (Invocazione),Spells
+Blade of Pain and Fear,Lama del Dolore e della Paura,noun,Spell (Invocazione),Spells
+Blade Storm,Tempesta di Frecce,noun,Spell (Trasmutazione),Spells
+Blades of Fire,Lama di Fuoco,noun,Spell (Evocazione),Spells
+Blasphemy,Blasfemia,noun,Spell (Invocazione),Spells
+Blast of Flame,Scoppio di Fiamme,noun,Spell (Evocazione),Spells
+Blast of Force,Scoppio di Forza,noun,Spell (Evocazione),Spells
+Bless,Benedizione,noun,Spell (Ammaliamento),Spells
+Bless Water,Benedire l'Acqua,noun,Spell (Trasmutazione),Spells
+Bless Weapon,Benedire un'Arma,noun,Spell (Trasmutazione),Spells
+Blessed Aim,Mira Benedetta,noun,Spell (Divinazione),Spells
+Blessed Sight,Vista Benedetta,noun,Spell (Divinazione),Spells
+Blessing of Bahamut,Benedizione di Bahamut,noun,Spell (Abiurazione),Spells
+Blight,Inaridire,noun,Spell (Necromanzia),Spells
+Blinding Beauty,Bellezza Accecante,noun,Spell (Trasmutazione),Spells
+Blinding Breath,Soffio Accecante,noun,Spell (Trasmutazione),Spells
+Blinding Glory,Gloria Accecante,noun,Spell (Evocazione),Spells
+Blindness/Deafness,Cecità/Sordità,noun,Spell (Trasmutazione),Spells
+Blink,Intermittenza,noun,Spell (Trasmutazione),Spells
+"Blink, Greater",Intermittenza Superiore,noun,Spell (Trasmutazione),Spells
+"Blink, Improved",Intermittenza Migliorata,noun,Spell (Trasmutazione),Spells
+Blistering Radiance,Fulgore Ardente,noun,Spell (Invocazione),Spells
+Blood of the Martyr,Sangue del Martire,noun,Spell (Necromanzia),Spells
+Bloodstar,Stella Insanguinata,noun,Spell (Evocazione),Spells
+Blur,Sfocatura,noun,Spell (Illusione),Spells
+Bodak's Glare,Sguardo del Bodak,noun,Spell (Necromanzia),Spells
+Body of the Sun,Corpo del Sole,noun,Spell (Trasmutazione),Spells
+Body Outside Body,Duplicato Corporeo,noun,Spell (Evocazione),Spells
+Bolt of Glory,Fulmine di Gloria,noun,Spell (Invocazione),Spells
+Bolts of Bedevilment,Fulmini Diabolici,noun,Spell (Ammaliamento),Spells
+Bottle of Smoke,Bottiglia di Fumo,noun,Spell (Evocazione),Spells
+Brain Spider,Ragno Mentale,noun,Spell (Divinazione),Spells
+Brambles,Rovi,noun,Spell (Trasmutazione),Spells
+Branch to Branch,Da Ramo a Ramo,noun,Spell (Trasmutazione),Spells
+Break Enchantment,Spezzare Incantamento,noun,Spell (Abiurazione),Spells
+Breath Flare,Soffio Soffuso,noun,Spell (Trasmutazione),Spells
+Breath Weapon Admixture,Arma a Soffio Mescolata,noun,Spell (Trasmutazione),Spells
+Breath Weapon Substitution,Arma a Soffio Sostitutiva,noun,Spell (Trasmutazione),Spells
+Briar Web,Reticolo di Rovi,noun,Spell (Trasmutazione),Spells
+Brilliant Aura,Aura Brillante,noun,Spell (Trasmutazione),Spells
+Brilliant Blade,Lama Luminosa,noun,Spell (Trasmutazione),Spells
+Brilliant Emanation,Emanazione Luminosa,noun,Spell (Invocazione),Spells
+Bull’s Strength,Forza del Toro,noun,Spell (Trasmutazione),Spells
+"Bull’s Strength, Mass",Forza del Toro di Massa,noun,Spell (Trasmutazione),Spells
+Burning Blood,Sangue Bruciante,noun,Spell (Trasmutazione),Spells
+Burning Hands,Mani Brucianti,noun,Spell (Trasmutazione),Spells
+Cacophonic Shield,Scudo Cacofonico,noun,Spell (Invocazione),Spells
+Call Faithful Servants,Richiamare Servitori Fedeli,noun,Spell (Evocazione),Spells
+Call Forth the Beast,Richiamare la Bestia,noun,Spell (Ammaliamento),Spells
+Call Kolyarut,Richiama Kolyarut,noun,Spell (Evocazione),Spells
+Call Lightning,Invocare il Fulmine,noun,Spell (Invocazione),Spells
+Call Lightning Storm,Invocare Tempesta di Fulmini,noun,Spell (Invocazione),Spells
+Call Marut,Richiama Marut,noun,Spell (Evocazione),Spells
+Call Mount,Richiamare Cavalcatura,noun,Spell (Evocazione),Spells
+Call Zelekhut,Richiama Zelekhut,noun,Spell (Evocazione),Spells
+Calm Animals,Calmare Animali,noun,Spell (Ammaliamento),Spells
+Calm Emotions,Calmare Emozioni,noun,Spell (Ammaliamento),Spells
+Camouflage,Mimetismo,noun,Spell (Trasmutazione),Spells
+"Camouflage, Mass",Mimetismo di Massa,noun,Spell (Trasmutazione),Spells
+Castigate,Castigare,noun,Spell (Invocazione),Spells
+Cat’s Grace,Grazia del Gatto,noun,Spell (Trasmutazione),Spells
+"Cat’s Grace, Mass",Grazia del Gatto di Massa,noun,Spell (Trasmutazione),Spells
+Cause Fear,Incuti Paura,noun,Spell (Necromanzia),Spells
+Celestial Aspect,Aspetto Celestiale,noun,Spell (Trasmutazione),Spells
+Celestial Blood,Sangue Celestiale,noun,Spell (Abiurazione),Spells
+Celestial Brilliance,Luminosità Celestiale,noun,Spell (Invocazione),Spells
+Chaav's Laugh,Risata di Chaav,noun,Spell (Ammaliamento),Spells
+Chain Lightning,Catena di Fulmini,noun,Spell (Invocazione),Spells
+Chain of Eyes,Catena di Occhi,noun,Spell (Divinazione),Spells
+Chain of Sorrow,Catena di Dolore,noun,Spell (Necromanzia),Spells
+Changestaff,Trasforma Bastone,noun,Spell (Trasmutazione),Spells
+Channel Celestial,Incanalare Celestiale,noun,Spell (Trasmutazione),Spells
+Channel Greater Celestial,Incanalare Celestiale Superiore,noun,Spell (Trasmutazione),Spells
+Chaos Hammer,Martello del Caos,noun,Spell (Invocazione),Spells
+Charm Animal,Charme su Animali,noun,Spell (Ammaliamento),Spells
+Charm Monster,Charme sui Mostri,noun,Spell (Ammaliamento),Spells
+"Charm Monster, Mass",Charme sui Mostri di Massa,noun,Spell (Ammaliamento),Spells
+Charm Person,Charme su Persone,noun,Spell (Ammaliamento),Spells
+"Charm Person, Mass",Charme su Persone di Massa,noun,Spell (Ammaliamento),Spells
+Cheat,Barare,noun,Spell (Trasmutazione),Spells
+Chill Metal,Gelare il Metallo,noun,Spell (Trasmutazione),Spells
+Chill of the Grave,Gelo della Tomba,noun,Spell (Necromanzia),Spells
+Chill Touch,Tocco Gelido,noun,Spell (Necromanzia),Spells
+Choose Destiny,Scegliere il Destino,noun,Spell (Divinazione),Spells
+Circle of Death,Cerchio di Morte,noun,Spell (Necromanzia),Spells
+City Lights,Luci della Città,noun,Spell (Invocazione),Spells
+City Stride,Traslazione Cittadina,noun,Spell (Evocazione),Spells
+City's Might,Potere della Città,noun,Spell (Trasmutazione),Spells
+Clairaudience/Clairvoyance,Chiaroudienza/Chiaroveggenza,noun,Spell (Divinazione),Spells
+Clenched Fist,Pugno Serrato di Bigby,noun,Spell (Invocazione),Spells
+Cloak of Bravery,Mantello del Coraggio,noun,Spell (Abiurazione),Spells
+"Cloak of Bravery, Greater",Mantello del Coraggio Superiore,noun,Spell (Abiurazione),Spells
+Cloak of Chaos,Mantello del Caos,noun,Spell (Abiurazione),Spells
+Cloak of Hate,Mantello dell'Odio,noun,Spell (Ammaliamento),Spells
+Cloak of the Sea,Mantello del Mare,noun,Spell (Trasmutazione),Spells
+Cloak Pool,Mascherare Pozza,noun,Spell (Illusione),Spells
+Cloud Chariot,Carro di Nuvole,noun,Spell (Evocazione),Spells
+Cloudburst,Scroscio di Pioggia,noun,Spell (Invocazione),Spells
+Cloudkill,Nube Mortale,noun,Spell (Evocazione),Spells
+Cloudwalkers,Camminare tra le Nubi,noun,Spell (Trasmutazione),Spells
+Clutch of Orcus,Morsa di Orcus,noun,Spell (Necromanzia),Spells
+Cobra's Breath,Soffio del Cobra,noun,Spell (Trasmutazione),Spells
+Color Spray,Spruzzo Colorato,noun,Spell (Illusione),Spells
+Cometfall,Cometa Cadente,noun,Spell (Evocazione),Spells
+Command,Comando,noun,Spell (Ammaliamento),Spells
+Command Plants,Comandare Vegetali,noun,Spell (Trasmutazione),Spells
+Command Undead,Comandare Non Morti,noun,Spell (Necromanzia),Spells
+"Command, Greater",Comando Superiore,noun,Spell (Ammaliamento),Spells
+Commune,Comunione,noun,Spell (Divinazione),Spells
+Commune with City,Comunione con la Città,noun,Spell (Divinazione),Spells
+Commune with Greater Spirit,Comunione con uno Spirito Superiore,noun,Spell (Divinazione),Spells
+Commune with Lesser Spirit,Comunione con uno Spirito Inferiore,noun,Spell (Divinazione),Spells
+Commune with Nature,Comunione con la Natura,noun,Spell (Divinazione),Spells
+Comprehend Languages,Comprensione dei Linguaggi,noun,Spell (Divinazione),Spells
+Cone of Cold,Cono di Freddo,noun,Spell (Invocazione),Spells
+Confusion,Confusione,noun,Spell (Ammaliamento),Spells
+"Confusion, Lesser",Confusione Inferiore,noun,Spell (Ammaliamento),Spells
+Consecrate,Consacrare,noun,Spell (Invocazione),Spells
+Constricting Chains,Catene Stritolanti,noun,Spell (Invocazione),Spells
+Consumptive Field,Campo Debilitante,noun,Spell (Necromanzia),Spells
+"Consumptive Field, Greater",Campo Debilitante Superiore,noun,Spell (Necromanzia),Spells
+Contact Other Plane,Contattare Altri Piani,noun,Spell (Divinazione),Spells
+Contagion,Contagio,noun,Spell (Necromanzia),Spells
+Contagious Touch,Tocco Contagioso,noun,Spell (Necromanzia),Spells
+Contingency,Contingenza,noun,Spell (Invocazione),Spells
+Contingent Energy Resistance,Resistenza all'Energia Contingente,noun,Spell (Abiurazione),Spells
+Continual Flame,Fiamma Perenne,noun,Spell (Invocazione),Spells
+Control Plants,Controllare Vegetali,noun,Spell (Trasmutazione),Spells
+Control Undead,Controllare Non Morti,noun,Spell (Necromanzia),Spells
+Control Water,Controllare Acqua,noun,Spell (Trasmutazione),Spells
+Control Weather,Controllare Tempo Atmosferico,noun,Spell (Trasmutazione),Spells
+Control Winds,Controllare Venti,noun,Spell (Trasmutazione),Spells
+Convert Wand,Convertire Bacchetta,noun,Spell (Trasmutazione),Spells
+Corporeal Instability,Instabilità Corporea,noun,Spell (Trasmutazione),Spells
+Corpse Candle,Candela Spettrale,noun,Spell (Evocazione),Spells
+Create Food and Water,Creare Cibo e Acqua,noun,Spell (Evocazione),Spells
+Create Greater Undead,Creare Non Morti Superiori,noun,Spell (Necromanzia),Spells
+Create Undead,Creare Non Morti,noun,Spell (Necromanzia),Spells
+Create Water,Creare Acqua,noun,Spell (Evocazione),Spells
+Creeping Cold,Freddo Strisciante,noun,Spell (Trasmutazione),Spells
+"Creeping Cold, Greater",Freddo Strisciante Superiore,noun,Spell (Trasmutazione),Spells
+Creeping Darkness,Oscurità Occultante,noun,Spell (Evocazione),Spells
+Creeping Doom,Piaga Strisciante,noun,Spell (Evocazione),Spells
+Critical Strike,Colpo Critico,noun,Spell (Divinazione),Spells
+Crown of Brilliance,Corona di Lucentezza,noun,Spell (Invocazione),Spells
+Crown of Flame,Corona di Fiamma,noun,Spell (Invocazione),Spells
+Crown of Glory,Corona di Gloria,noun,Spell (Invocazione),Spells
+Crumble,Sbriciolare,noun,Spell (Trasmutazione),Spells
+Crushing Despair,Disperazione Opprimente,noun,Spell (Ammaliamento),Spells
+Crushing Hand,Mano Stritolatrice di Bigby,noun,Spell (Invocazione),Spells
+Cry of Ysgard,Urlo di Ysgard,noun,Spell (Evocazione),Spells
+Cure Critical Wounds,Cura Ferite Critiche,noun,Spell (Evocazione),Spells
+"Cure Critical Wounds, Mass",Cura Ferite Critiche di Massa,noun,Spell (Evocazione),Spells
+Cure Light Wounds,Cura Ferite Leggere,noun,Spell (Evocazione),Spells
+"Cure Light Wounds, Mass",Cura Ferite Leggere di Massa,noun,Spell (Evocazione),Spells
+Cure Minor Wounds,Cura Ferite Minori,noun,Spell (Evocazione),Spells
+Cure Moderate Wounds,Cura Ferite Moderate,noun,Spell (Evocazione),Spells
+"Cure Moderate Wounds, Mass",Cura Ferite Moderate di Massa,noun,Spell (Evocazione),Spells
+Cure Serious Wounds,Cura Ferite Gravi,noun,Spell (Evocazione),Spells
+"Cure Serious Wounds, Mass",Cura Ferite Gravi di Massa,noun,Spell (Evocazione),Spells
+Curse of Ill Fortune,Maledizione della Cattiva Sorte,noun,Spell (Trasmutazione),Spells
+Curse of Lycanthropy,Maledizione della Licantropia,noun,Spell (Necromanzia),Spells
+Curse Water,Maledire l'Acqua,noun,Spell (Necromanzia),Spells
+Cursed Blade,Lama Maledetta,noun,Spell (Necromanzia),Spells
+Curtain of Light,Cortina di Luce,noun,Spell (Invocazione),Spells
+Daggerspell Stance,Sintonia dei Pugnali Incantati,noun,Spell (Abiurazione),Spells
+Damning Darkness,Oscurità Dannata,noun,Spell (Invocazione),Spells
+Dance of the Unicorn,Danza dell'Unicorno,noun,Spell (Abiurazione),Spells
+Dancing Blade,Lama Danzante,noun,Spell (Trasmutazione),Spells
+Dancing Lights,Luci Danzanti,noun,Spell (Invocazione),Spells
+Dancing Web,Ragnatela Danzante,noun,Spell (Invocazione),Spells
+Darkbolt,Fulmine Oscuro,noun,Spell (Invocazione),Spells
+Darkvision,Scurovisione,noun,Spell (Trasmutazione),Spells
+"Darkvision, Mass",Scurovisione di Massa,noun,Spell (Trasmutazione),Spells
+Daylight,Luce Diurna,noun,Spell (Invocazione),Spells
+Daze,Frastornare,noun,Spell (Ammaliamento),Spells
+Daze Monster,Frastornare Mostri,noun,Spell (Ammaliamento),Spells
+Deafening Breath,Soffio Assordante,noun,Spell (Trasmutazione),Spells
+Death Dragon,Drago della Morte,noun,Spell (Necromanzia),Spells
+Death Knell,Rintocco di Morte,noun,Spell (Necromanzia),Spells
+Death Pact,Patto della Morte,noun,Spell (Necromanzia),Spells
+Death Throes,Spasmo Mortale,noun,Spell (Necromanzia),Spells
+Death Ward,Interdizione alla Morte,noun,Spell (Necromanzia),Spells
+"Death Ward, Mass",Interdizione alla Morte di Massa,noun,Spell (Necromanzia),Spells
+Deathwatch,Visione della Morte,noun,Spell (Necromanzia),Spells
+Decapitating Scarf,Sciarpa Decapitante,noun,Spell (Trasmutazione),Spells
+Decomposition,Decomposizione,noun,Spell (Necromanzia),Spells
+Deep Slumber,Sonno Profondo,noun,Spell (Ammaliamento),Spells
+Deeper Darkness,Oscurità Profonda,noun,Spell (Invocazione),Spells
+Defenestrating Sphere,Sfera Defenestrante,noun,Spell (Invocazione),Spells
+Deific Vengeance,Vendetta Deifica,noun,Spell (Evocazione),Spells
+Delay Death,Ritarda Morte,noun,Spell (Necromanzia),Spells
+Delay Poison,Ritarda Veleno,noun,Spell (Evocazione),Spells
+Delayed Blast Fireball,Palla di Fuoco Ritardata,noun,Spell (Invocazione),Spells
+Demand,Esigere,noun,Spell (Ammaliamento),Spells
+Demon Dirge,Lamento Demoniaco,noun,Spell (Trasmutazione),Spells
+Demon Wings,Ali Demoniache,noun,Spell (Trasmutazione),Spells
+Demoncall,Richiamo Demoniaco,noun,Spell (Divinazione),Spells
+Demonflesh,Carne Demoniaca,noun,Spell (Trasmutazione),Spells
+Desecrate,Dissacrare,noun,Spell (Invocazione),Spells
+Despoil,Desolazione,noun,Spell (Trasmutazione),Spells
+Destruction,Distruzione,noun,Spell (Necromanzia),Spells
+Detect Aberration,Individuazione delle Aberrazioni,noun,Spell (Divinazione),Spells
+Detect Animals or Plants,Individuazione di Animali o Vegetali,noun,Spell (Divinazione),Spells
+Detect Chaos,Individuazione del Caos,noun,Spell (Divinazione),Spells
+Detect Evil,Individuazione del Male,noun,Spell (Divinazione),Spells
+Detect Favored Enemy,Individuazione del Nemico Prescelto,noun,Spell (Divinazione),Spells
+Detect Good,Individuazione del Bene,noun,Spell (Divinazione),Spells
+Detect Law,Individuazione della Legge,noun,Spell (Divinazione),Spells
+Detect Magic,Individuazione del Magico,noun,Spell (Divinazione),Spells
+Detect Poison,Individuazione del Veleno,noun,Spell (Divinazione),Spells
+Detect Scrying,Individuazione dello Scrutamento,noun,Spell (Divinazione),Spells
+Detect Secret Doors,Individuazione delle Porte Segrete,noun,Spell (Divinazione),Spells
+Detect Snares and Pits,Individuazione di Calappi e Trabocchetti,noun,Spell (Divinazione),Spells
+Detect Taint,Individuazione della Corruzione,noun,Spell (Divinazione),Spells
+Detect Thoughts,Individuazione dei Pensieri,noun,Spell (Divinazione),Spells
+Detect Undead,Individuazione dei Non Morti,noun,Spell (Divinazione),Spells
+Devil Blight,Rovina Diabolica,noun,Spell (Trasmutazione),Spells
+Diamond Spray,Spruzzo di Diamante,noun,Spell (Invocazione),Spells
+Dictum,Dettame,noun,Spell (Invocazione),Spells
+Dimension Door,Porta Dimensionale,noun,Spell (Evocazione),Spells
+Dimensional Anchor,Ancora Dimensionale,noun,Spell (Abiurazione),Spells
+Dimensional Lock,Serratura Dimensionale,noun,Spell (Abiurazione),Spells
+Diminish Plants,Rimpicciolire Vegetali,noun,Spell (Trasmutazione),Spells
+Dirge of Discord,Canto Funebre della Discordia,noun,Spell (Ammaliamento),Spells
+Discern Bloodline,Rivela Linea di Sangue,noun,Spell (Divinazione),Spells
+Discern Lies,Rivela Bugie,noun,Spell (Divinazione),Spells
+Discern Location,Rivela Locazioni,noun,Spell (Divinazione),Spells
+Discern Shapechanger,Discernere Mutaforma,noun,Spell (Divinazione),Spells
+Discolor Pool,Scolorire Pozza,noun,Spell (Illusione),Spells
+Disguise Self,Camuffare Se Stessi,noun,Spell (Illusione),Spells
+Disintegrate,Disintegrazione,noun,Spell (Trasmutazione),Spells
+Dismissal,Congedo,noun,Spell (Abiurazione),Spells
+Dispel Chaos,Dissolvi il Caos,noun,Spell (Abiurazione),Spells
+Dispel Evil,Dissolvi il Male,noun,Spell (Abiurazione),Spells
+Dispel Good,Dissolvi il Bene,noun,Spell (Abiurazione),Spells
+Dispel Law,Dissolvi la Legge,noun,Spell (Abiurazione),Spells
+Dispel Magic,Dissolvi Magie,noun,Spell (Abiurazione),Spells
+"Dispel Magic, Greater",Dissolvi Magie Superiore,noun,Spell (Abiurazione),Spells
+Dispelling Breath,Soffio Dissolvente,noun,Spell (Abiurazione),Spells
+Displacement,Distorsione,noun,Spell (Illusione),Spells
+Disrupt Undead,Distruggere Non Morti,noun,Spell (Necromanzia),Spells
+Disrupting Weapon,Arma Distruttiva,noun,Spell (Trasmutazione),Spells
+Dissonant Chord,Accordo Dissonante,noun,Spell (Invocazione),Spells
+Distilled Joy,Gioia Distillata,noun,Spell (Trasmutazione),Spells
+Distort Speech,Distorcere Discorso,noun,Spell (Trasmutazione),Spells
+Distract Assailant,Distrarre Assalitore,noun,Spell (Ammaliamento),Spells
+Divine Agility,Agilità Divina,noun,Spell (Trasmutazione),Spells
+Divine Favor,Favore Divino,noun,Spell (Invocazione),Spells
+Divine Insight,Intuizione Divina,noun,Spell (Divinazione),Spells
+Divine Inspiration,Ispirazione Divina,noun,Spell (Divinazione),Spells
+Divine Power,Potere Divino,noun,Spell (Invocazione),Spells
+Divine Sacrifice,Sacrificio Divino,noun,Spell (Necromanzia),Spells
+Dolorous Motes,Pagliuzze Dolorose,noun,Spell (Ammaliamento),Spells
+Dominate Animal,Dominare Animali,noun,Spell (Ammaliamento),Spells
+Dominate Monster,Dominare Mostri,noun,Spell (Ammaliamento),Spells
+Dominate Person,Dominare Persone,noun,Spell (Ammaliamento),Spells
+Doom,Devastazione,noun,Spell (Ammaliamento),Spells
+Doomtide,Fato Altalenante,noun,Spell (Illusione),Spells
+Draconic Might,Potere Draconico,noun,Spell (Trasmutazione),Spells
+Draconic Polymorph,Metamorfosi Draconica,noun,Spell (Trasmutazione),Spells
+Dragon Breath,Soffio del Drago,noun,Spell (Trasmutazione),Spells
+Dragon Cloud,Nube del Drago,noun,Spell (Evocazione),Spells
+Dragonsight,Vista del Drago,noun,Spell (Trasmutazione),Spells
+Dragonskin,Pelle del Drago,noun,Spell (Trasmutazione),Spells
+Dream,Sogno,noun,Spell (Ammaliamento),Spells
+Dream Walk,Camminare nei Sogni,noun,Spell (Evocazione),Spells
+Dreaming Puppet,Burattino Sognante,noun,Spell (Ammaliamento),Spells
+Duelward,Interdizione al Duello,noun,Spell (Abiurazione),Spells
+Eagle’s Splendor,Splendore dell'Aquila,noun,Spell (Trasmutazione),Spells
+"Eagle’s Splendor, Mass",Splendore dell'Aquila di Massa,noun,Spell (Trasmutazione),Spells
+Earth Glide,Scorrere sulla Terra,noun,Spell (Trasmutazione),Spells
+Earth Hammer,Martello della Terra,noun,Spell (Trasmutazione),Spells
+Earthbind,Vincolato a Terra,noun,Spell (Trasmutazione),Spells
+Earthbolt,Fulmine Terrestre,noun,Spell (Invocazione),Spells
+Earthen Grasp,Stretta di Terra,noun,Spell (Invocazione Minima),Spells
+Earthquake,Terremoto,noun,Spell (Invocazione),Spells
+Ease Pain,Lenire Dolore,noun,Spell (Evocazione),Spells
+Easy Climb,Scalata Facilitata,noun,Spell (Trasmutazione),Spells
+Easy Trail,Percorso Agevole,noun,Spell (Abiurazione),Spells
+Ectoplasmic Armor,Armatura Ectoplasmica,noun,Spell (Abiurazione),Spells
+Ectoplasmic Feedback,Ritorsione Ectoplasmica,noun,Spell (Abiurazione),Spells
+Eladrin Form,Forma Eladrin,noun,Spell (Trasmutazione),Spells
+Elation,Sollievo,noun,Spell (Ammaliamento),Spells
+Elemental Burst,Esplosione Elementale,noun,Spell (Invocazione),Spells
+Elemental Swarm,Sciame Elementale,noun,Spell (Evocazione),Spells
+Elemental Ward,Interdizione Elementale,noun,Spell (Abiurazione),Spells
+Embrace the Wild,Balla con la Natura,noun,Spell (Trasmutazione),Spells
+Emerald Burst,Esplosione di Smeraldo,noun,Spell (Invocazione),Spells
+Emerald Flame Fist,Pugno di Fiamme Smeraldo,noun,Spell (Invocazione),Spells
+Empyreal Ecstasy,Estasi Empirea,noun,Spell (Abiurazione),Spells
+End to Strife,Fine delle Sofferenze,noun,Spell (Ammaliamento),Spells
+Endure Elements,Contrastare Elementi,noun,Spell (Abiurazione),Spells
+Energetic Healing,Guarigione Energetica,noun,Spell (Evocazione),Spells
+Energize Potion,Energizzare Pozione,noun,Spell (Trasmutazione),Spells
+Energy Drain,Risucchio di Energia,noun,Spell (Necromanzia),Spells
+Energy Ebb,Riflusso di Energia,noun,Spell (Necromanzia),Spells
+Energy Immunity,Immunità Energetica,noun,Spell (Abiurazione),Spells
+Energy Vortex,Vortice di Energia,noun,Spell (Invocazione),Spells
+Enervating Breath,Soffio Debilitante,noun,Spell (Necromanzia),Spells
+Enervation,Debilitazione,noun,Spell (Necromanzia),Spells
+Enhance Familiar,Potenziare Famiglio,noun,Spell (Universale),Spells
+Enlarge Person,Ingrandire Persone,noun,Spell (Trasmutazione),Spells
+"Enlarge Person, Mass",Ingrandire Persone di Massa,noun,Spell (Trasmutazione),Spells
+Entangle,Intralciare,noun,Spell (Trasmutazione),Spells
+Entangling Scarf,Sciarpa Intralciante,noun,Spell (Trasmutazione),Spells
+Entangling Staff,Bastone Intralciante,noun,Spell (Trasmutazione),Spells
+Enthrall,Estasiare,noun,Spell (Ammaliamento),Spells
+Entice Gift,Dono Allettante,noun,Spell (Ammaliamento),Spells
+Entropic Shield,Scudo Entropico,noun,Spell (Abiurazione),Spells
+Enveloping Cocoon,Bozzolo Avvolgente,noun,Spell (Invocazione),Spells
+Erase,Cancellare,noun,Spell (Trasmutazione),Spells
+Estanna's Stew,Stufato di Estanna,noun,Spell (Evocazione),Spells
+Ethereal Breath,Soffio Etereo,noun,Spell (Trasmutazione),Spells
+Ethereal Jaunt,Transizione Eterea,noun,Spell (Trasmutazione),Spells
+Etherealness,Forma Eterea,noun,Spell (Trasmutazione),Spells
+Evil Glare,Sguardo Malvagio,noun,Spell (Necromanzia),Spells
+Exacting Shot,Tiro Accurato,noun,Spell (Trasmutazione),Spells
+Exalted Fury,Furia Eroica,noun,Spell (Invocazione),Spells
+Exalted Raiment,Veste Eroica,noun,Spell (Abiurazione),Spells
+Exorcism,Esorcismo,noun,Spell (Abiurazione),Spells
+Expeditious Retreat,Ritirata Rapida,noun,Spell (Trasmutazione),Spells
+"Expeditious Retreat, Swift",Ritirata Rapida Veloce,noun,Spell (Trasmutazione),Spells
+Explosive Runes,Rune Esplosive,noun,Spell (Abiurazione),Spells
+Extract Gift,Estrarre Dono,noun,Spell (Necromanzia),Spells
+Eye of Stone,Occhio di Pietra,noun,Spell (Divinazione),Spells
+Eyebite,Sguardo Penetrante,noun,Spell (Necromanzia),Spells
+Eyes of the Avoral,Occhi dell'Avoral,noun,Spell (Trasmutazione),Spells
+Eyes of the King,Occhi del Re,noun,Spell (Evocazione),Spells
+Fabricate,Fabbricare,noun,Spell (Trasmutazione),Spells
+Faerie Fire,Luminescenza,noun,Spell (Invocazione),Spells
+Faerinaal's Hymn,Inno di Faerinaal,noun,Spell (Ammaliamento),Spells
+False Gravity,Falsa Gravità,noun,Spell (Trasmutazione),Spells
+False Life,Vita Falsata,noun,Spell (Necromanzia),Spells
+False Vision,Visione Falsa,noun,Spell (Illusione),Spells
+Familiar Pocket,Tasca per Famiglio,noun,Spell (Universale),Spells
+Fangs of the Vampire King,Zanne del Re dei Vampiri,noun,Spell (Trasmutazione),Spells
+Feather Fall,Caduta Morbida,noun,Spell (Trasmutazione),Spells
+Feeblemind,Regressione Mentale,noun,Spell (Ammaliamento),Spells
+Fell the Greatest Foe,Abbattere Nemici Giganteschi,noun,Spell (Trasmutazione),Spells
+Field of Ghouls,Campo di Ghoul,noun,Spell (Necromanzia),Spells
+Fiendform,Forma Immonda,noun,Spell (Trasmutazione),Spells
+Fiendish Clarity,Nitidezza Immonda,noun,Spell (Divinazione),Spells
+Fiery Eyes,Occhi Infuocati,noun,Spell (Invocazione),Spells
+Find the Gap,Scopri lo Spiraglio,noun,Spell (Divinazione),Spells
+Find the Path,Scopri il Percorso,noun,Spell (Divinazione),Spells
+Find Traps,Scopri Trappole,noun,Spell (Divinazione),Spells
+Finding the Center,Trovare il Centro,noun,Spell (Abiurazione),Spells
+Finger of Death,Dito della Morte,noun,Spell (Necromanzia),Spells
+Fire Breath,Soffio di Fuoco,noun,Spell (Invocazione),Spells
+Fire in the Blood,Fuoco nel Sangue,noun,Spell (Trasmutazione),Spells
+Fire Seeds,Semi di Fuoco,noun,Spell (Invocazione),Spells
+Fire Shield,Scudo di Fuoco,noun,Spell (Invocazione),Spells
+"Fire Shield, Mass",Scudo di Fuoco di Massa,noun,Spell (Invocazione),Spells
+Fire Shuriken,Shuriken di Fuoco,noun,Spell (Invocazione),Spells
+Fire Storm,Tempesta di Fuoco,noun,Spell (Invocazione),Spells
+Fire Trap,Trappola di Fuoco,noun,Spell (Abiurazione),Spells
+Fire Wings,Ali di Fuoco,noun,Spell (Trasmutazione),Spells
+Fireball,Palla di Fuoco,noun,Spell (Invocazione),Spells
+Fireburst,Esplosione di Fuoco,noun,Spell (Invocazione),Spells
+"Fireburst, Greater",Esplosione di Fuoco Superiore,noun,Spell (Invocazione),Spells
+Fires of Purity,Fiamme della Purezza,noun,Spell (Invocazione),Spells
+Flame Arrow,Freccia Infuocata,noun,Spell (Trasmutazione),Spells
+Flame Blade,Lama Infuocata,noun,Spell (Invocazione),Spells
+Flame of Faith,Fiamma della Fede,noun,Spell (Invocazione),Spells
+Flame Strike,Colpo Infuocato,noun,Spell (Invocazione),Spells
+Flaming Sphere,Sfera Infuocata,noun,Spell (Invocazione),Spells
+Flare,Lampo,noun,Spell (Invocazione),Spells
+Flensing,Scuoiamento,noun,Spell (Trasmutazione),Spells
+Flesh to Stone,Carne in Pietra,noun,Spell (Trasmutazione),Spells
+Flight of the Dragon,Volo del Drago,noun,Spell (Trasmutazione),Spells
+Floating Disk,Disco Fluttuante di Tenser,noun,Spell (Invocazione),Spells
+Fly,Volare,noun,Spell (Trasmutazione),Spells
+"Fly, Mass",Volare di Massa,noun,Spell (Trasmutazione),Spells
+"Fly, Swift",Volare Veloce,noun,Spell (Trasmutazione),Spells
+Focus Touchstone Energy,Focalizza Energia della Piattaforma,noun,Spell (Trasmutazione),Spells
+Focusing Chant,Cantilena di Concentrazione,noun,Spell (Ammaliamento),Spells
+Foebane,Anatema del Nemico,noun,Spell (Invocazione),Spells
+Fog Cloud,Nube di Nebbia,noun,Spell (Evocazione),Spells
+Forbiddance,Proibizione,noun,Spell (Abiurazione),Spells
+Force Whip,Frusta di Forza,noun,Spell (Invocazione),Spells
+Forcecage,Gabbia di Forza,noun,Spell (Invocazione),Spells
+Forceful Hand,Mano Possente di Bigby,noun,Spell (Invocazione),Spells
+Foresight,Previsione,noun,Spell (Divinazione),Spells
+Forestfold,Mimetismo Superiore,noun,Spell (Trasmutazione),Spells
+Fortify Familiar,Fortificare Famiglio,noun,Spell (Universale),Spells
+Fox’s Cunning,Astuzia della Volpe,noun,Spell (Trasmutazione),Spells
+"Fox’s Cunning, Mass",Astuzia della Volpe di massa,noun,Spell (Trasmutazione),Spells
+Freedom,Libertà,noun,Spell (Abiurazione),Spells
+Freedom of Movement,Libertà di Movimento,noun,Spell (Abiurazione),Spells
+Freezing Fog,Nebbia Congelante,noun,Spell (Evocazione),Spells
+Freezing Sphere,Sfera Congelante di Otiluke,noun,Spell (Invocazione),Spells
+Friendly Face,Faccia Amica,noun,Spell (Illusione),Spells
+Gaseous Form,Forma Gassosa,noun,Spell (Trasmutazione),Spells
+Gate,Portale,noun,Spell (Evocazione),Spells
+"Geas, Lesser",Costrizione Inferiore,noun,Spell (Ammaliamento),Spells
+Geas/Quest,Costrizione/Cerca,noun,Spell (Ammaliamento),Spells
+Gentle Repose,Riposo Inviolato,noun,Spell (Necromanzia),Spells
+Ghost Light,Luce Fantasma,noun,Spell (Necromanzia),Spells
+Ghost Sound,Suono Fantasma,noun,Spell (Illusione),Spells
+Ghost Touch Armor,Armatura del Tocco del Fantasma,noun,Spell (Trasmutazione),Spells
+Ghost Touch Weapon,Arma Tocco del Fansma,noun,Spell (Trasmutazione),Spells
+Ghost Trap,Trappola Fantasma,noun,Spell (Abiurazione),Spells
+Ghostform,Forma del Fantasma,noun,Spell (Trasmutazione),Spells
+Ghoul Gauntlet,Guanto del Ghoul,noun,Spell (Necromanzia),Spells
+Ghoul Gesture,Gesto del Ghoul,noun,Spell (Necromanzia),Spells
+Ghoul Glyph,Glifo del Ghoul,noun,Spell (Necromanzia),Spells
+Ghoul Light,Luce del Ghoul,noun,Spell (Necromanzia),Spells
+Ghoul Touch,Tocco del Ghoul,noun,Spell (Necromanzia),Spells
+Giant Size,Taglia Gigante,noun,Spell (Trasmutazione),Spells
+Giant Vermin,Parassiti Giganti,noun,Spell (Trasmutazione),Spells
+Glibness,Loquacità,noun,Spell (Trasmutazione),Spells
+Glitterdust,Polvere Luccicante,noun,Spell (Evocazione),Spells
+Globe of Invulnerability,Globo di Invulnerabilità,noun,Spell (Abiurazione),Spells
+"Globe of Invulnerability, Lesser",Globo di Invulnerabilità Inferiore,noun,Spell (Abiurazione),Spells
+Glorious Raiment,Veste Gloriosa,noun,Spell (Abiurazione),Spells
+Glory of the Martyr,Gloria del Martire,noun,Spell (Abiurazione),Spells
+Glyph of Warding,Glifo di Interdizione,noun,Spell (Abiurazione),Spells
+"Glyph of Warding, Greater",Glifo di Interdizione Superiore,noun,Spell (Abiurazione),Spells
+Golden Barding,Bardatura Dorata,noun,Spell (Evocazione),Spells
+Golem Strike,Colpire Golem,noun,Spell (Divinazione),Spells
+Good Hope,Buone Speranze,noun,Spell (Ammaliamento),Spells
+Goodberry,Bacche Benefiche,noun,Spell (Abiurazione),Spells
+Grasping Hand,Mano Stringente di Bigby,noun,Spell (Invocazione),Spells
+Grave Strike,Colpire Non Morti,noun,Spell (Divinazione),Spells
+Grease,Unto,noun,Spell (Evocazione),Spells
+Guards and Wards,Vigilanza e Interdizione,noun,Spell (Abiurazione),Spells
+Guidance,Guida,noun,Spell (Divinazione),Spells
+Guided Shot,Tiro Guidato,noun,Spell (Divinazione),Spells
+Gust of Wind,Folata di Vento,noun,Spell (Invocazione),Spells
+Hail of Stone,Grandinata di Pietre,noun,Spell (Evocazione),Spells
+Hallow,Santificare,noun,Spell (Invocazione),Spells
+Hallucinatory Terrain,Terreno Illusorio,noun,Spell (Illusione),Spells
+Halt Undead,Fermare Non Morti,noun,Spell (Necromanzia),Spells
+Hamatula Barbs,Uncini dell'Hamatula,noun,Spell (Trasmutazione),Spells
+Hammer of Righteousness,Martello della Giustizia,noun,Spell (Invocazione),Spells
+Harm,Ferire,noun,Spell (Necromanzia),Spells
+"Harm, Greater",Ferire Superiore,noun,Spell (Necromanzia),Spells
+"Harm, Mass",Ferire di Massa,noun,Spell (Necromanzia),Spells
+Harmonic Chorus,Coro Armonico,noun,Spell (Ammaliamento),Spells
+Harmonize,Armonizzare,noun,Spell (Trasmutazione),Spells
+"Harmonize, Greater",Armonizzare Superiore,noun,Spell (Trasmutazione),Spells
+Haste,Velocità,noun,Spell (Trasmutazione),Spells
+"Haste, Swift",Velocità Veloce,noun,Spell (Trasmutazione),Spells
+Haunt Shift,Traslazione Infestante,noun,Spell (Necromanzia),Spells
+Hawkeye,Occhio di Falco,noun,Spell (Trasmutazione),Spells
+Heal Mount,Guarire Cavalcatura,noun,Spell (Evocazione),Spells
+"Heal, Mass",Guarigione di Massa,noun,Spell (Evocazione),Spells
+Healing Lorecall,Sapienza di Guarigione,noun,Spell (Divinazione),Spells
+Healing Touch,Tocco di Guarigione,noun,Spell (Necromanzia),Spells
+Healthful Rest,Riposo Ristoratore,noun,Spell (Evocazione),Spells
+Heart of Stone,Cuore di Pietra,noun,Spell (Necromanzia),Spells
+Heart Ripper,Strappacuore,noun,Spell (Necromanzia),Spells
+Heart's Ease,Conforto del Cuore,noun,Spell (Ammaliamento),Spells
+Heat Metal,Riscaldare il Metallo,noun,Spell (Trasmutazione),Spells
+Heaven's Trumpet,Tromba del Paradiso,noun,Spell (Invocazione),Spells
+Heavenly Host,Schiera Celeste,noun,Spell (Evocazione),Spells
+Heavenly Lightning,Fulmine Celeste,noun,Spell (Invocazione),Spells
+Heavenly Lightning Storm,Tempesta di Fulmini Celesti,noun,Spell (Invocazione),Spells
+Hellish Horde,Orda Infernale,noun,Spell (Evocazione),Spells
+Helping Hand,Mano in Aiuto,noun,Spell (Invocazione),Spells
+Herald's Call,Richiamo dell'Araldo,noun,Spell (Ammaliamento),Spells
+Heroes’ Feast,Banchetto degli Eroi,noun,Spell (Evocazione),Spells
+Heroism,Eroismo,noun,Spell (Ammaliamento),Spells
+"Heroism, Greater",Eroismo Superiore,noun,Spell (Ammaliamento),Spells
+Hide From Animals,Nascondersi agli Animali,noun,Spell (Abiurazione),Spells
+Hide from Dragons,Nascondersi ai Draghi,noun,Spell (Abiurazione),Spells
+Hide From Undead,Nascondersi ai Non Morti,noun,Spell (Abiurazione),Spells
+Hideous Laughter,Risata Incantenibile di Tasha,noun,Spell (Ammaliamento),Spells
+Hindsight,Retrovisione,noun,Spell (Divinazione),Spells
+Hiss of Sleep,Sibilo del Sonno,noun,Spell (Ammaliamento),Spells
+Hold Animal,Blocca Animali,noun,Spell (Ammaliamento),Spells
+Hold Monster,Blocca Mostri,noun,Spell (Ammaliamento),Spells
+"Hold Monster, Mass",Blocca Mostri di Massa,noun,Spell (Ammaliamento),Spells
+Hold Person,Blocca Persone,noun,Spell (Ammaliamento),Spells
+"Hold Person, Mass",Blocca Persone di Massa,noun,Spell (Ammaliamento),Spells
+Hold Portal,Blocca Porte,noun,Spell (Abiurazione),Spells
+Holy Aura,Aura Sacra,noun,Spell (Abiurazione),Spells
+Holy Smite,Punizione Sacra,noun,Spell (Invocazione),Spells
+Holy Storm,Tempesta Sacra,noun,Spell (Evocazione),Spells
+Holy Sword,Spada Sacra,noun,Spell (Invocazione),Spells
+Holy Word,Parola Sacra,noun,Spell (Invocazione),Spells
+Horrid Wilting,Orrido Avvizzimento,noun,Spell (Necromanzia),Spells
+Hound of Doom,Segugio Devastante,noun,Spell (Illusione),Spells
+Hunters of Hades,Cacciatori dell'Ade,noun,Spell (Evocazione),Spells
+Hymn of Praise,Inno di Lode,noun,Spell (Invocazione),Spells
+Hypnotic Pattern,Trama Ipnotica,noun,Spell (Illusione),Spells
+Hypnotism,Ipnosi,noun,Spell (Ammaliamento),Spells
+Ice Blast,Scoppio di Ghiaccio,noun,Spell (Invocazione),Spells
+Ice Knife,Coltello di Ghiaccio,noun,Spell (Evocazione),Spells
+Ice Storm,Tempesta di Ghiaccio,noun,Spell (Invocazione),Spells
+Identify,Identificare,noun,Spell (Divinazione),Spells
+Illusory Pit,Fossa Illusoria,noun,Spell (Illusione),Spells
+Illusory Script,Scritto Illusorio,noun,Spell (Illusione),Spells
+Illusory Wall,Muro Illusorio,noun,Spell (Illusione),Spells
+Imbue Familiar with Spell Ability,Infondere Capacità Magiche in un Famiglio,noun,Spell (Universale),Spells
+Imbue with Spell Ability,Infondere Capacità Magiche,noun,Spell (Invocazione),Spells
+Imperious Glare,Sguardo Imperioso,noun,Spell (Necromanzia),Spells
+Implacable Pursuer,Inseguitore Implacabile,noun,Spell (Divinazione),Spells
+Implosion,Implosione,noun,Spell (Invocazione),Spells
+Imprison Soul,Imprigionare l'Anima,noun,Spell (Necromanzia),Spells
+Imprisonment,Imprigionare,noun,Spell (Abiurazione),Spells
+Improvisation,Improvvisazione,noun,Spell (Trasmutazione),Spells
+Incendiary Cloud,Nube Incendiaria,noun,Spell (Evocazione),Spells
+Incorporeal Enhancement,Potenziamento Incorporeo,noun,Spell (Necromanzia),Spells
+Incorporeal Nova,Nova Incorporea,noun,Spell (Necromanzia),Spells
+Infernal Threnody,Trenodia Infernale,noun,Spell (Invocazione),Spells
+Infernal Wound,Ferita Infernale,noun,Spell (Trasmutazione),Spells
+Infestation of Maggots,Infestazione di Vermi,noun,Spell (Necromanzia),Spells
+Inflict Critical Wounds,Infliggi Ferite Critiche,noun,Spell (Necromanzia),Spells
+"Inflict Critical Wounds, Mass",Infliggi Ferite Critiche di Massa,noun,Spell (Necromanzia),Spells
+Inflict Light Wounds,Infliggi Ferite Leggere,noun,Spell (Necromanzia),Spells
+"Inflict Light Wounds, Mass",Infliggi Ferite Leggere di Massa,noun,Spell (Necromanzia),Spells
+Inflict Minor Wounds,Infliggi Ferite Minori,noun,Spell (Necromanzia),Spells
+Inflict Moderate Wounds,Infliggi Ferite Moderate,noun,Spell (Necromanzia),Spells
+"Inflict Moderate Wounds, Mass",Infliggi Ferite Moderate di Massa,noun,Spell (Necromanzia),Spells
+Inflict Serious Wounds,Infliggi Ferite Gravi,noun,Spell (Necromanzia),Spells
+"Inflict Serious Wounds, Mass",Infliggi Ferite Gravi di Massa,noun,Spell (Necromanzia),Spells
+Inner Beauty,Bellezza Interiore,noun,Spell (Trasmutazione),Spells
+Inquisition,Inquisizione,noun,Spell (Ammaliamento),Spells
+Insanity,Demenza,noun,Spell (Ammaliamento),Spells
+Insect Plague,Piaga degli Insetti,noun,Spell (Evocazione),Spells
+Insidious Rhythm,Ritmo Insidioso,noun,Spell (Ammaliamento),Spells
+Insightful Feint,Finta Intuitiva,noun,Spell (Divinazione),Spells
+Insignia of Blessing,Distintivo di Benedizione,noun,Spell (Ammaliamento),Spells
+Inspirational Boost,Rafforzare Ispirazione,noun,Spell (Ammaliamento),Spells
+Inspired Aim,Mira Ispirata,noun,Spell (Ammaliamento),Spells
+Instant Locksmith,Fabbro Istantaneo,noun,Spell (Divinazione),Spells
+Instant Search,Ricerca Istantanea,noun,Spell (Divinazione),Spells
+Instant Summons,Evocazioni Istantanee di Drawmij,noun,Spell (Evocazione),Spells
+Internal Fire,Fuoco Interiore,noun,Spell (Invocazione),Spells
+Interposing Hand,Mano Interposta di Bigby,noun,Spell (Invocazione),Spells
+Invisibility,Invisibilità,noun,Spell (Illusione),Spells
+Invisibility Purge,Epurare Invisibilità,noun,Spell (Invocazione),Spells
+Invisibility Sphere,Sfera di Invisibilità,noun,Spell (Illusione),Spells
+"Invisibility, Greater",Invisibilità Superiore,noun,Spell (Illusione),Spells
+"Invisibility, Mass",Invisibilità di Massa,noun,Spell (Illusione),Spells
+"Invisibility, Swift",Invisibilità Veloce,noun,Spell (Illusione),Spells
+Invoke Magic,Invocare Magia,noun,Spell (Invocazione),Spells
+Invoke the Cerulean Sign,Invocare il Segno Ceruleo,noun,Spell (Invocazione),Spells
+Iron Body,Corpo di Ferro,noun,Spell (Trasmutazione),Spells
+Iron Scarf,Sciarpa Ferrea,noun,Spell (Trasmutazione),Spells
+Iron Silence,Silenzio di Ferro,noun,Spell (Trasmutazione),Spells
+Ironwood,Legno di Ferro,noun,Spell (Trasmutazione),Spells
+Irresistible Dance,Danza Irresistibile di Otto,noun,Spell (Ammaliamento),Spells
+Joyful Noise,Suono Festoso,noun,Spell (Abiurazione),Spells
+Keen Edge,Estremità Affilata,noun,Spell (Trasmutazione),Spells
+Kiss of the Toad,Bacio del Rospo,noun,Spell (Necromanzia),Spells
+Kiss of the Vampire,Bacio del Vampiro,noun,Spell (Necromanzia),Spells
+Knock,Scassinare,noun,Spell (Trasmutazione),Spells
+Know Direction,Conoscere Direzione,noun,Spell (Divinazione),Spells
+Languor,Languore,noun,Spell (Trasmutazione),Spells
+Lantern Light,Luce della Lanterna,noun,Spell (Invocazione),Spells
+Last Breath,Ultimo Respiro,noun,Spell (Necromanzia),Spells
+Last Judgment,Giudizio Finale,noun,Spell (Necromanzia),Spells
+Lastai's Caress,Carezza di Lastai,noun,Spell (Ammaliamento),Spells
+Lay of the Land,Configurazione del Terreno,noun,Spell (Divinazione),Spells
+Legend Lore,Conoscenza delle Leggende,noun,Spell (Divinazione),Spells
+Leomund's Hidden Lodge,Dimora Nascosa di Leomund,noun,Spell (Evocazione),Spells
+Leomund's Trap,Trappola di Leomund,noun,Spell (Illusione),Spells
+Leonal's Roar,Ruggito del Leonal,noun,Spell (Invocazione),Spells
+Levitate,Levitazione,noun,Spell (Trasmutazione),Spells
+Light of Lunia,Luce di Lunia,noun,Spell (Invocazione),Spells
+Light of Mercuria,Luce di Mercuria,noun,Spell (Invocazione),Spells
+Light of Venya,Luce di Venya,noun,Spell (Invocazione),Spells
+Lightning Blade,Lama di Fulmini,noun,Spell (Invocazione),Spells
+Lightning Bolt,Fulmine,noun,Spell (Invocazione),Spells
+Limited Wish,Desiderio Limitato,noun,Spell (Universale),Spells
+Lion's Roar,Ruggito del Leone,noun,Spell (Invocazione),Spells
+Listening Coin,Moneta Senziente,noun,Spell (Divinazione),Spells
+Listening Lorecall,Sapienza di Ascolto,noun,Spell (Divinazione),Spells
+Liveoak,Querciaviva,noun,Spell (Trasmutazione),Spells
+Locate City,Localizza Città,noun,Spell (Divinazione),Spells
+Locate Creature,Localizza Creatura,noun,Spell (Divinazione),Spells
+Locate Object,Localizza Oggetto,noun,Spell (Divinazione),Spells
+Locate Touchstone,Localizza Piattaforma,noun,Spell (Divinazione),Spells
+Longstrider,Passo Veloce,noun,Spell (Trasmutazione),Spells
+Low-Light Vision,Visione Crepuscolare,noun,Spell (Trasmutazione),Spells
+Lower Spell Resistance,Abbassare Resistenza agli Incantesimi,noun,Spell (Abiurazione),Spells
+Lullaby,Ninna Nanna,noun,Spell (Ammaliamento),Spells
+Luminous Armor,Armatura Luminosa,noun,Spell (Abiurazione),Spells
+"Luminous Armor, Greater",Armatura Luminosa Superiore,noun,Spell (Abiurazione),Spells
+Maddening Scream,Urlo di Follia,noun,Spell (Ammaliamento),Spells
+Maddening Whispers,Sussurri della Pazzia,noun,Spell (Ammaliamento),Spells
+Mage Armor,Armatura Magica,noun,Spell (Evocazione),Spells
+"Mage Armor, Greater",Armatura Magica Superiore,noun,Spell (Evocazione),Spells
+Mage Hand,Mano Magica,noun,Spell (Trasmutazione),Spells
+Mage's Disjunction,Disgiunzione di Mordenkainen,noun,Spell (Abiurazione),Spells
+Mage's Faithful Hound,Segugio Fedele di Mordenkainen,noun,Spell (Evocazione),Spells
+Mage's Lucubration,Elucubrazione di Mordenkainen,noun,Spell (Trasmutazione),Spells
+Mage's Magnificent Mansion,Reggia Meravigliosa di Mordenkainen,noun,Spell (Evocazione),Spells
+Mage's Private Sanctum,Santuario Privato di Mordenkainen,noun,Spell (Abiurazione),Spells
+Mage's Sword,Spada di Mordenkainen,noun,Spell (Invocazione),Spells
+Magic Aura,Aura Magica di Nystul,noun,Spell (Illusione),Spells
+Magic Circle Against Chaos,Cerchio Magico Contro il Caos,noun,Spell (Abiurazione),Spells
+Magic Circle Against Evil,Cerchio Magico Contro il Male,noun,Spell (Abiurazione),Spells
+Magic Circle Against Good,Cerchio Magico Contro il Bene,noun,Spell (Abiurazione),Spells
+Magic Circle Against Law,Cerchio Magico Contro la Legge,noun,Spell (Abiurazione),Spells
+Magic Fang,Zanna Magica,noun,Spell (Trasmutazione),Spells
+"Magic Fang, Greater",Zanna Magica Superiore,noun,Spell (Trasmutazione),Spells
+"Magic Fang, Superior",Zanna Magica Soverchiante,noun,Spell (Trasmutazione),Spells
+Magic Jar,Giara Magica,noun,Spell (Necromanzia),Spells
+Magic Missile,Dardo Incantato,noun,Spell (Invocazione),Spells
+Magic Mouth,Bocca Magica,noun,Spell (Illusione),Spells
+Magic Stone,Pietra Magica,noun,Spell (Trasmutazione),Spells
+Magic Vestment,Veste Magica,noun,Spell (Trasmutazione),Spells
+Magic Weapon,Arma Magica,noun,Spell (Trasmutazione),Spells
+"Magic Weapon, Greater",Arma Magica Superiore,noun,Spell (Trasmutazione),Spells
+Magnetism,Magnetismo,noun,Spell (Trasmutazione),Spells
+Major Creation,Creazione Maggiore,noun,Spell (Evocazione),Spells
+Major Image,Immagine Maggiore,noun,Spell (Illusione),Spells
+Make Whole,Rendere Integro,noun,Spell (Trasmutazione),Spells
+Manifest Desire,Manifestare Desiderio,noun,Spell (Illusione),Spells
+Manifest Nightmare,Manifestare Incubo,noun,Spell (Illusione),Spells
+Mantle of Chaos,Manto del Caos,noun,Spell (Abiurazione),Spells
+Mantle of Evil,Manto del Male,noun,Spell (Abiurazione),Spells
+Mantle of Good,Manto del Bene,noun,Spell (Abiurazione),Spells
+Mantle of Law,Manto della Legge,noun,Spell (Abiurazione),Spells
+Mantle of Pure Spite,Manto di Puro Rancore,noun,Spell (Necromanzia),Spells
+Mark of Justice,Sigillo di Giustizia,noun,Spell (Necromanzia),Spells
+Mark of the Hunter,Marchio del Cacciatore,noun,Spell (Divinazione),Spells
+Master's Lament,Lamento del Padrone,noun,Spell (Trasmutazione),Spells
+Master's Touch,Tocco del Padrone,noun,Spell (Divinazione),Spells
+Maze,Labirinto,noun,Spell (Evocazione),Spells
+Mechanus Mind,Mente di Mechanus,noun,Spell (Ammaliamento),Spells
+Meld Into Stone,Fondersi nella Pietra,noun,Spell (Trasmutazione),Spells
+Melt,Sciogliere,noun,Spell (Invocazione),Spells
+Mending,Riparare,noun,Spell (Trasmutazione),Spells
+Mesmerizing Glare,Sguardo Mesmerico,noun,Spell (Ammaliamento),Spells
+Message,Messaggio,noun,Spell (Trasmutazione),Spells
+Metal Skin,Pelle Metallica,noun,Spell (Trasmutazione),Spells
+Meteor Swarm,Sciame di Meteore,noun,Spell (Invocazione),Spells
+Miasma of Entropy,Miasma dell'Entropia,noun,Spell (Necromanzia),Spells
+Mind Blank,Vuoto Mentale,noun,Spell (Abiurazione),Spells
+Mind Bond,Legame Mentale,noun,Spell (Divinazione),Spells
+Mind Fog,Nebbia Mentale,noun,Spell (Ammaliamento),Spells
+Mindless Rage,Ira Dissennata,noun,Spell (Ammaliamento),Spells
+Minor Creation,Creazione Minore,noun,Spell (Evocazione),Spells
+Minor Image,Immagine Minore,noun,Spell (Illusione),Spells
+Minute Form,Forma Minuta,noun,Spell (Trasmutazione),Spells
+Miracle,Miracolo,noun,Spell (Invocazione),Spells
+Mirage Arcana,Miraggio Arcano,noun,Spell (Illusione),Spells
+Mirror Image,Immagine Speculare,noun,Spell (Illusione),Spells
+Misdirection,Dissimulare,noun,Spell (Illusione),Spells
+Miser's Envy,Invidia dell'Avaro,noun,Spell (Ammaliamento),Spells
+Mislead,Fuorviare,noun,Spell (Illusione),Spells
+Mnemonic Enhancer,Potenziatore Mnemonico di Rary,noun,Spell (Trasmutazione),Spells
+Modify Memory,Modificare Memoria,noun,Spell (Ammaliamento),Spells
+Moment of Clarity,Momento di Purezza,noun,Spell (Abiurazione),Spells
+Moment of Prescience,Momento di Prescienza,noun,Spell (Divinazione),Spells
+Monstrous Thrall,Servitore Mostruoso,noun,Spell (Ammaliamento),Spells
+Morality Undone,Moralità Annientata,noun,Spell (Ammaliamento),Spells
+Mount,Cavalcatura,noun,Spell (Evocazione),Spells
+Move Earth,Muovere il Terreno,noun,Spell (Trasmutazione),Spells
+Murderous Mist,Foschia Omicida,noun,Spell (Invocazione),Spells
+Nature's Avatar,Avatar della Natura,noun,Spell (Invocazione),Spells
+Nature's Favor,Favore della Natura,noun,Spell (Invocazione),Spells
+Nature's Purity,Purezza della Natura,noun,Spell (Invocazione),Spells
+Naturewatch,Visione della Natura,noun,Spell (Necromanzia),Spells
+Necrotic Awareness,Consapevolezza Necrotica,noun,Spell (Necromanzia),Spells
+Necrotic Bloat,Rigonfiamento Necrotico,noun,Spell (Necromanzia),Spells
+Necrotic Burst,Esplosione Necrotica,noun,Spell (Necromanzia),Spells
+Necrotic Cyst,Ciste Necrotica,noun,Spell (Necromanzia),Spells
+Necrotic Domination,Dominazione Necrotica,noun,Spell (Necromanzia),Spells
+Necrotic Empowerment,Potenziamento Necrotico,noun,Spell (Necromanzia),Spells
+Necrotic Eruption,Eruzione Necrotica,noun,Spell (Necromanzia),Spells
+Necrotic Scrying,Scrutare Necrotico,noun,Spell (Necromanzia),Spells
+Necrotic Termination,Terminazione Necrotica,noun,Spell (Necromanzia),Spells
+Necrotic Tumor,Ossessione Necrotica,noun,Spell (Necromanzia),Spells
+Negative Energy Aura,Aura di Energia Negativa,noun,Spell (Necromanzia),Spells
+Neutralize Poison,Neutralizza Veleno,noun,Spell (Evocazione),Spells
+Night's Caress,Carezza della Notte,noun,Spell (Necromanzia),Spells
+Nightmare,Incubo,noun,Spell (Illusione),Spells
+Nightstalker's Transformation,Trasformazione del Predatore Notturno,noun,Spell (Trasmutazione),Spells
+Nimbus of Light,Alone di Luce,noun,Spell (Invocazione),Spells
+Nondetection,Anti-Individuazione,noun,Spell (Abiurazione),Spells
+Oath of Blood,Giuramento di Sangue,noun,Spell (Necromanzia),Spells
+Obedient Avalanche,Valanga Obbediente,noun,Spell (Evocazione),Spells
+Obscure Object,Occultare Oggetto,noun,Spell (Abiurazione),Spells
+Obscuring Mist,Foschia Occultante,noun,Spell (Evocazione),Spells
+Omen of Peril,Preavviso di Pericolo,noun,Spell (Divinazione),Spells
+Oozepuppet,Pupazzo di Melma,noun,Spell (Trasmutazione),Spells
+Opalescent Glare,Sguardo Opalescente,noun,Spell (Necromanzia),Spells
+Open/Close,Aprire/Chiudere,noun,Spell (Trasmutazione),Spells
+Orb of Acid,Globo di Acido,noun,Spell (Evocazione),Spells
+"Orb of Acid, Lesser",Globo di Acido Inferiore,noun,Spell (Evocazione),Spells
+Orb of Cold,Globo di Freddo,noun,Spell (Evocazione),Spells
+"Orb of Cold, Lesser",Globo di Freddo Inferiore,noun,Spell (Evocazione),Spells
+Orb of Electricity,Globo di Elettricità,noun,Spell (Evocazione),Spells
+"Orb of Electricity, Lesser",Globo di Elettricità Inferiore,noun,Spell (Evocazione),Spells
+Orb of Fire,Globo di Fuoco,noun,Spell (Evocazione),Spells
+"Orb of Fire, Lesser",Globo di Fuoco Inferiore,noun,Spell (Evocazione),Spells
+Orb of Force,Globo di Forza,noun,Spell (Evocazione),Spells
+Orb of Sound,Globo di Suono,noun,Spell (Evocazione),Spells
+"Orb of Sound, Lesser",Globo di Suono Inferiore,noun,Spell (Evocazione),Spells
+Order’s Wrath,Ira dell'Ordine,noun,Spell (Invocazione),Spells
+Otyugh Swarm,Sciame di Otyugh,noun,Spell (Evocazione),Spells
+Overland Flight,Volo Giornaliero,noun,Spell (Trasmutazione),Spells
+Owl’s Wisdom,Saggezza del Gufo,noun,Spell (Trasmutazione),Spells
+"Owl’s Wisdom, Mass",Saggezza del Gufo di Massa,noun,Spell (Trasmutazione),Spells
+Pact of Return,Patto di Ritorno,noun,Spell (Necromanzia),Spells
+Pain,Dolore,noun,Spell (Necromanzia),Spells
+Pass Without Trace,Passare Senza Tracce,noun,Spell (Trasmutazione),Spells
+Passwall,Passapareti,noun,Spell (Trasmutazione),Spells
+Path of the Exalted,Sentiero degli Eroi,noun,Spell (Divinazione),Spells
+Pavilion of Grandeur,Padiglione della Magnificenza,noun,Spell (Evocazione),Spells
+Perinarch,Perinarca,noun,Spell (Trasmutazione),Spells
+"Perinarch, Planar",Perinarca Planare,noun,Spell (Trasmutazione),Spells
+Permanency,Permanenza,noun,Spell (Universale),Spells
+Permanent Image,Immagine Permanente,noun,Spell (Illusione),Spells
+Permeable Form,Forma Permeabile,noun,Spell (Trasmutazione),Spells
+Persistent Image,Immagine Persistente,noun,Spell (Illusione),Spells
+Phantasmal Assailants,Allucinazione Assillante,noun,Spell (Illusione),Spells
+Phantasmal Decoy,Allucinazione Traviante,noun,Spell (Illusione),Spells
+Phantasmal Disorientation,Disorientamento Spettrale,noun,Spell (Illusione),Spells
+Phantasmal Killer,Allucinazione Mortale,noun,Spell (Illusione),Spells
+Phantasmal Thief,Allucinazione Furfantesca,noun,Spell (Evocazione),Spells
+Phantom Bear,Orso Fantomatico,noun,Spell (Evocazione),Spells
+Phantom Guardians,Guardiani Fantomatici,noun,Spell (Illusione),Spells
+Phantom Stag,Cervo Fantomatico,noun,Spell (Evocazione),Spells
+Phantom Steed,Destriero Fantomatico,noun,Spell (Evocazione),Spells
+Phantom Threat,Minaccia Fantomatica,noun,Spell (Illusione),Spells
+Phantom Wolf,Lupo Fantomatico,noun,Spell (Evocazione),Spells
+Phase Door,Porta in Fase,noun,Spell (Evocazione),Spells
+Phieran's Resolve,Risolutezza di Phirean,noun,Spell (Abiurazione),Spells
+Phoenix Fire,Fuoco della Fenice,noun,Spell (Necromanzia),Spells
+Plague of Rats,Piaga dei Topi,noun,Spell (Evocazione),Spells
+Plague of Undead,Piaga dei Non Morti,noun,Spell (Necromanzia),Spells
+Planar Ally,Alleato Planare,noun,Spell (Evocazione),Spells
+"Planar Ally, Greater",Alleato Planare Superiore,noun,Spell (Evocazione),Spells
+"Planar Ally, Lesser",Alleato Planare Inferiore,noun,Spell (Evocazione),Spells
+Planar Binding,Legame Planare,noun,Spell (Evocazione),Spells
+"Planar Binding, Greater",Legame Planare Superiore,noun,Spell (Evocazione),Spells
+"Planar Binding, Lesser",Legame Planare Inferiore,noun,Spell (Evocazione),Spells
+Planar Bubble,Bolla Planare,noun,Spell (Abiurazione),Spells
+Planar Exchange,Scambio Planare,noun,Spell (Evocazione),Spells
+"Planar Exchange, Greater",Scambio Planare Superiore,noun,Spell (Evocazione),Spells
+"Planar Exchange, Lesser",Scambio Planare Inferiore,noun,Spell (Evocazione),Spells
+Planar Tolerance,Tolleranza Planare,noun,Spell,Spells
+Plane Shift,Spostamento Planare,noun,Spell (Evocazione),Spells
+Plant Growth,Crescita Vegetale,noun,Spell (Trasmutazione),Spells
+Poison,Veleno,noun,Spell (Necromanzia),Spells
+Poison Needles,Aghi Avvelenati,noun,Spell (Trasmutazione),Spells
+Poison Thorns,Spine Velenose,noun,Spell (Trasmutazione),Spells
+Poison Vines,Rampicanti Velenosi,noun,Spell (Evocazione),Spells
+Polar Ray,Raggio Polare,noun,Spell (Invocazione),Spells
+Polymorph,Metamorfosi,noun,Spell (Trasmutazione),Spells
+Polymorph Any Object,Metamorfosi di un Oggetto,noun,Spell (Trasmutazione),Spells
+Positive Energy Aura,Aura di Energia Positiva,noun,Spell (Evocazione),Spells
+Power Word Blind,"Parola del Potere, Accecare",noun,Spell (Ammaliamento),Spells
+Power Word Kill,"Parola del Potere, Uccidere",noun,Spell (Ammaliamento),Spells
+Power Word Stun,"Parola del Potere, Stordire",noun,Spell (Ammaliamento),Spells
+Pox,Pustole,noun,Spell (Necromanzia),Spells
+Prayer,Preghiera,noun,Spell (Ammaliamento),Spells
+Precipitate Breach,Schiudere il Varco,noun,Spell (Evocazione),Spells
+Precipitate Complete Breach,Schiudere il Varco Completo,noun,Spell (Evocazione),Spells
+Prestidigitation,Prestidigitazione,noun,Spell (Universale),Spells
+Prismatic Ray,Raggio Prismatico,noun,Spell (Invocazione),Spells
+Prismatic Sphere,Sfera Prismatica,noun,Spell (Abiurazione),Spells
+Prismatic Spray,Spruzzo Prismatico,noun,Spell (Invocazione),Spells
+Prismatic Wall,Muro Prismatico,noun,Spell (Abiurazione),Spells
+Probe Thoughts,Sonda Pensieri,noun,Spell (Divinazione),Spells
+Produce Flame,Produrre Fiamma,noun,Spell (Invocazione),Spells
+Programmed Amnesia,Amnesia Programmata,noun,Spell (Ammaliamento),Spells
+Programmed Image,Immagine Programmata,noun,Spell (Illusione),Spells
+Project Image,Immagine Proiettata,noun,Spell (Illusione),Spells
+Pronouncement of Fate,Proclama del Fato,noun,Spell (Necromanzia),Spells
+Protection From Arrows,Protezione dalle Frecce,noun,Spell (Abiurazione),Spells
+Protection From Chaos,Protezione dal Caos,noun,Spell (Abiurazione),Spells
+Protection from Charm,Protezione dallo Charme,noun,Spell (Abiurazione),Spells
+Protection From Energy,Protezione dall'Energia,noun,Spell (Abiurazione),Spells
+Protection From Evil,Protezione dal Male,noun,Spell (Abiurazione),Spells
+Protection From Good,Protezione dal Bene,noun,Spell (Abiurazione),Spells
+Protection From Law,Protezione dalla Legge,noun,Spell (Abiurazione),Spells
+Protection from Negative Energy,Protezione dall'Energia Negativa,noun,Spell (Abiurazione),Spells
+Protection From Spells,Protezione dagli Incantesimi,noun,Spell (Abiurazione),Spells
+Proud Arrogance,Superba Arroganza,noun,Spell (Ammaliamento),Spells
+Prying Eyes,Occhi Indagatori,noun,Spell (Divinazione),Spells
+"Prying Eyes, Greater",Occhi Indagatori Superiore,noun,Spell (Divinazione),Spells
+Purify Food and Drink,Purificare Cibo e Bevande,noun,Spell (Universale),Spells
+Pyrotechnics,Pirotecnica,noun,Spell (Trasmutazione),Spells
+Quench,Estinguere Fuoco,noun,Spell (Trasmutazione),Spells
+Quickshift,Spostamento Rapido,noun,Spell (Trasmutazione),Spells
+Quill Blast,Deflagrazione di Aculei,noun,Spell (Evocazione),Spells
+Radiant Fog,Nebbia Radiosa,noun,Spell (Evocazione),Spells
+Radiant Shield,Scudo Radioso,noun,Spell (Invocazione),Spells
+Rage,Ira,noun,Spell (Ammaliamento),Spells
+Rain of Black Tulips,Pioggia di Tulipani Neri,noun,Spell (Invocazione),Spells
+Rain of Embers,Pioggia di Brace,noun,Spell (Invocazione),Spells
+Rain of Needles,Pioggia di Aghi,noun,Spell (Trasmutazione),Spells
+Rain of Roses,Pioggia di Rose,noun,Spell (Invocazione),Spells
+Rainbow Pattern,Trama Iridescente,noun,Spell (Illusione),Spells
+Raise Dead,Rianimare Morti,noun,Spell (Evocazione),Spells
+Rary's Interplanar Telepathic Bond,Legame Telepatico Interplanare di Rary,noun,Spell (Divinazione),Spells
+Ray of Enfeeblement,Raggio di Indebolimento,noun,Spell (Necromanzia),Spells
+Ray of Exhaustion,Raggio di Esaurimento,noun,Spell (Necromanzia),Spells
+Ray of Frost,Raggio di Gelo,noun,Spell (Invocazione),Spells
+Ray of Hope,Raggio di Speranza,noun,Spell (Ammaliamento),Spells
+Razorfangs,Rasoi Taglienti,noun,Spell (Trasmutazione),Spells
+Read Magic,Lettura del Magico,noun,Spell (Divinazione),Spells
+Reanimation,Rianimazione,noun,Spell (Evocazione),Spells
+Reaving Dispel,Dissoluzione Privante,noun,Spell (Abiurazione),Spells
+Rebuking Breath,Soffio Intimorente,noun,Spell (Necromanzia),Spells
+Reciprocal Gyre,Controreazione,noun,Spell (Abiurazione),Spells
+Recitation,Recitazione,noun,Spell (Evocazione),Spells
+Reduce Animal,Ridurre Animali,noun,Spell (Trasmutazione),Spells
+Reduce Person,Ridurre Persone,noun,Spell (Trasmutazione),Spells
+"Reduce Person, Mass",Ridurre Persone di Massa,noun,Spell (Trasmutazione),Spells
+Refreshment,Rinfrescare,noun,Spell (Evocazione),Spells
+Refuge,Rifugio,noun,Spell (Trasmutazione),Spells
+Refusal,Diniego,noun,Spell (Abiurazione),Spells
+Regenerate,Rigenerazione,noun,Spell (Evocazione),Spells
+Reincarnate,Reincarnazione,noun,Spell (Trasmutazione),Spells
+Rejuvenation Cocoon,Bozzolo di Rinvigorimento,noun,Spell (Evocazione),Spells
+Remove Addiction,Rimuovi Dipendenza,noun,Spell (Evocazione),Spells
+Remove Blindness/Deafness,Rimuovi Cecità/Sordità,noun,Spell (Evocazione),Spells
+Remove Curse,Rimuovi Maledizione,noun,Spell (Abiurazione),Spells
+Remove Disease,Rimuovi Malattia,noun,Spell (Evocazione),Spells
+Remove Fatigue,Rimuovi Affaticamento,noun,Spell (Trasmutazione),Spells
+Remove Fear,Rimuovi Paura,noun,Spell (Abiurazione),Spells
+Remove Nausea,Rimuovi Nausea,noun,Spell (Evocazione),Spells
+Remove Paralysis,Rimuovi Paralisi,noun,Spell (Evocazione),Spells
+Renewal Pact,Patto di Rinnovamento,noun,Spell (Evocazione),Spells
+Repair Critical Damage,Ripara Danni Critici,noun,Spell (Trasmutazione),Spells
+Repair Light Damage,Ripara Danni Leggeri,noun,Spell (Trasmutazione),Spells
+Repair Minor Damage,Ripara Danni Minori,noun,Spell (Trasmutazione),Spells
+Repair Moderate Damage,Ripara Danni Moderati,noun,Spell (Trasmutazione),Spells
+Repair Serious Damage,Ripara Danni Gravi,noun,Spell (Trasmutazione),Spells
+Repel Metal or Stone,Respingere Metallo o Pietra,noun,Spell (Abiurazione),Spells
+Repel Vermin,Respingere Parassiti,noun,Spell (Abiurazione),Spells
+Repel Wood,Respingere Legno,noun,Spell (Trasmutazione),Spells
+Repulsion,Repulsione,noun,Spell (Abiurazione),Spells
+Resilient Sphere,Sfera Elastica di Otiluke,noun,Spell (Invocazione),Spells
+Resist Energy,Resistere all'Energia,noun,Spell (Abiurazione),Spells
+"Resist Energy, Mass",Resistere all'Energia di Massa,noun,Spell (Abiurazione),Spells
+Resist Planar Alignment,Resistere all'Allineamento Planare,noun,Spell (Abiurazione),Spells
+Resist Taint,Resistere alla Corruzione,noun,Spell (Abiurazione),Spells
+Resistance,Resistenza,noun,Spell (Abiurazione),Spells
+Resonating Bolt,Fulmine Risonante,noun,Spell (Invocazione),Spells
+Restful Slumber,Sonno Ristoratore,noun,Spell (Ammaliamento),Spells
+Restoration,Ristorare,noun,Spell (Evocazione),Spells
+"Restoration, Greater",Ristorare Superiore,noun,Spell (Evocazione),Spells
+"Restoration, Lesser",Ristorare Inferiore,noun,Spell (Evocazione),Spells
+"Restoration, Mass",Ristorare di Massa,noun,Spell (Evocazione),Spells
+Restore Soul's Treasure,Ripristinare il Tesoro dell'Anima,noun,Spell (Trasmutazione),Spells
+Resurgence,Ripristino,noun,Spell (Abiurazione),Spells
+"Resurgence, Mass",Ripristino di Massa,noun,Spell (Abiurazione),Spells
+Resurrection,Resurrezione,noun,Spell (Evocazione),Spells
+Revenance,Redivivo,noun,Spell (Evocazione),Spells
+Reverse Gravity,Inversione della Gravità,noun,Spell (Trasmutazione),Spells
+Revive Undead,Rianimare Non Morti,noun,Spell (Necromanzia),Spells
+Righteous Glare,Giusto Sguardo,noun,Spell (Necromanzia),Spells
+Righteous Might,Giusto Potere,noun,Spell (Trasmutazione),Spells
+Righteous Smite,Giusta Punizione,noun,Spell (Invocazione),Spells
+Righteous Wrath of the Faithful,Giusta Ira dei Fedeli,noun,Spell (Ammaliamento),Spells
+Ring of Blades,Anello di Lame,noun,Spell (Evocazione),Spells
+Rooftop Strider,Andatura sui Tetti,noun,Spell (Trasmutazione),Spells
+Rope Trick,Trucco della Corda,noun,Spell (Trasmutazione),Spells
+Rusting Grasp,Stretta Corrosiva,noun,Spell (Trasmutazione),Spells
+Sacred Guardian,Guardiano Sacro,noun,Spell (Divinazione),Spells
+Sacred Haven,Rifugio Sacro,noun,Spell (Abiurazione),Spells
+Sanctify the Wicked,Santificare i Perversi,noun,Spell (Necromanzia),Spells
+Sanctuary,Santuario,noun,Spell (Abiurazione),Spells
+Sandblast,Sabbie Brucianti,noun,Spell (Invocazione),Spells
+Scale Weakening,Indebolire Scaglie,noun,Spell (Trasmutazione),Spells
+Scales of the Lizard,Scaglie della Lucertola,noun,Spell (Trasmutazione),Spells
+Scare,Spaventare,noun,Spell (Necromanzia),Spells
+Scent,Olfatto Acuto,noun,Spell (Trasmutazione),Spells
+Scholar's Touch,Tocco dello Studioso,noun,Spell (Divinazione),Spells
+Scintillating Pattern,Trama Scintillante,noun,Spell (Illusione),Spells
+Scintillating Scales,Scaglie Scintillanti,noun,Spell (Abiurazione),Spells
+Scorching Ray,Raggio Rovente,noun,Spell (Invocazione),Spells
+Scourge,Flagello,noun,Spell (Necromanzia),Spells
+Screen,Schermo,noun,Spell (Illusione),Spells
+"Scrying, Greater",Scrutare Superiore,noun,Spell (Divinazione),Spells
+Sculpt Sound,Modellare Suono,noun,Spell (Trasmutazione),Spells
+Seal Portal,Sigillare Portale,noun,Spell (Abiurazione),Spells
+Searing Light,Luce Incandescente,noun,Spell (Invocazione),Spells
+Second Wind,Assecondare il Vento,noun,Spell (Trasmutazione),Spells
+Secret Chest,Scrigno Segreto di Leomund,noun,Spell (Evocazione),Spells
+Secret Page,Pagina Segreta,noun,Spell (Trasmutazione),Spells
+Secret Signs,Segnali Segreti,noun,Spell (Ammaliamento),Spells
+Secure Corpse,Cadavere Sicuro,noun,Spell (Necromanzia),Spells
+Secure Shelter,Riparo Sicuro di Leomund,noun,Spell (Evocazione),Spells
+See Invisibility,Vedere Invisibilità,noun,Spell (Divinazione),Spells
+Seeming,Sembrare,noun,Spell (Illusione),Spells
+Sending,Inviare,noun,Spell (Invocazione),Spells
+Sepia Snake Sigil,Sigillo del Serpente,noun,Spell (Evocazione),Spells
+Sequester,Celare,noun,Spell (Abiurazione),Spells
+Servant Horde,Orda di Servitori,noun,Spell (Evocazione),Spells
+Shades,Ombre,noun,Spell (Illusione),Spells
+Shadow Conjuration,Ombra di una Evocazione,noun,Spell (Illusione),Spells
+"Shadow Conjuration, Greater",Ombra di una Evocazione Superiore,noun,Spell (Illusione),Spells
+Shadow Evocation,Ombra di una Invocazione,noun,Spell (Illusione),Spells
+"Shadow Evocation, Greater",Ombra di una Invocazione Superiore,noun,Spell (Illusione),Spells
+Shadow Form,Forma d'Ombra,noun,Spell (Illusione),Spells
+Shadow Guardians,Guardiani d'Ombra,noun,Spell (Trasmutazione),Spells
+Shadow Landscape,Paesaggio d'Ombra,noun,Spell (Illusione),Spells
+Shadow Walk,Camminare nelle Ombre,noun,Spell (Illusione),Spells
+Shambler,Cumulo Strisciante,noun,Spell (Evocazione),Spells
+Shapechange,Trasformazione,noun,Spell (Trasmutazione),Spells
+Sharptooth,Zanne Aguzze,noun,Spell (Trasmutazione),Spells
+Shatter,Frantumare,noun,Spell (Invocazione),Spells
+Sheltered Vitality,Vitalità Riparata,noun,Spell (Abiurazione),Spells
+Shield,Scudo,noun,Spell (Abiurazione),Spells
+Shield of Faith,Scudo della Fede,noun,Spell (Abiurazione),Spells
+Shield of Law,Scudo della Legge,noun,Spell (Abiurazione),Spells
+Shield of the Archons,Scudo degli Arconti,noun,Spell (Abiurazione),Spells
+Shield of Warding,Scudo di Interdizione,noun,Spell (Abiurazione),Spells
+Shield Other,Scudo su Altri,noun,Spell (Abiurazione),Spells
+Shillelagh,Randello Incantato,noun,Spell (Trasmutazione),Spells
+Shocking Grasp,Stretta Folgorante,noun,Spell (Invocazione),Spells
+Shout,Grido,noun,Spell (Invocazione),Spells
+"Shout, Greater",Grido Superiore,noun,Spell (Invocazione),Spells
+Shrink Item,Restringere Oggetto,noun,Spell (Trasmutazione),Spells
+Sicken Evil,Malvagi Infermi,noun,Spell (Necromanzia),Spells
+Sign of Sealing,Segno del Sigillo,noun,Spell (Abiurazione),Spells
+"Sign of Sealing, Greater",Segno del Sigillo Superiore,noun,Spell (Abiurazione),Spells
+Silence,Silenzio,noun,Spell (Illusione),Spells
+Silent Image,Immagine Silenziosa,noun,Spell (Illusione),Spells
+Silvered Claws,Artigli Argentei,noun,Spell (Trasmutazione),Spells
+Silvered Weapon,Arma Argentea,noun,Spell (Trasmutazione),Spells
+Simulacrum,Simulacro,noun,Spell (Illusione),Spells
+Skyline Runner,Corridore Cittadino,noun,Spell (Trasmutazione),Spells
+Slay Living,Distruggere Viventi,noun,Spell (Necromanzia),Spells
+Sleep,Sonno,noun,Spell (Ammaliamento),Spells
+Sleet Storm,Tempesta di Nevischio,noun,Spell (Evocazione),Spells
+Slime Wave,Onda di Fanghiglia,noun,Spell (Evocazione),Spells
+Slow,Lentezza,noun,Spell (Trasmutazione),Spells
+Smite Heretic,Punire gli Eretici,noun,Spell (Evocazione),Spells
+Smoke Ladder,Scala di Fumo,noun,Spell (Trasmutazione),Spells
+Snake Darts,Dardi Serpentini,noun,Spell (Trasmutazione),Spells
+Snare,Calappio,noun,Spell (Trasmutazione),Spells
+Sniper's Eye,Occhio del Cecchino,noun,Spell (Trasmutazione),Spells
+Sniper's Shot,Tiro del Cecchino,noun,Spell (Divinazione),Spells
+Soften Earth and Stone,Ammorbidire Terra e Pietra,noun,Spell (Trasmutazione),Spells
+Solid Fog,Nebbia Solida,noun,Spell (Evocazione),Spells
+Song of Discord,Canto di Discordia,noun,Spell (Ammaliamento),Spells
+Sonic Weapon,Arma Sonora,noun,Spell (Trasmutazione),Spells
+Soul Bind,Legare Anima,noun,Spell (Necromanzia),Spells
+Soul Link,Legame dell'Anima,noun,Spell (Necromanzia),Spells
+Sound Burst,Suono Dirompente,noun,Spell (Invocazione),Spells
+Spark of Life,Scintilla di Vita,noun,Spell (Necromanzia),Spells
+Spawn Screen,Schermo dalla Progenie,noun,Spell (Necromanzia),Spells
+Speak with Animals,Parlare con gli Animali,noun,Spell (Divinazione),Spells
+Speak with Dead,Parlare con i Morti,noun,Spell (Necromanzia),Spells
+Speak with Plants,Parlare con i Vegetali,noun,Spell (Divinazione),Spells
+Spear of Valarian,Lancia di Valarian,noun,Spell (Trasmutazione),Spells
+Spectral Hand,Mano Spettrale,noun,Spell (Necromanzia),Spells
+Spectral Touch,Tocco Spettrale,noun,Spell (Necromanzia),Spells
+Spectral Weapon,Arma Spettrale,noun,Spell (Illusione),Spells
+Speechlink,Collegamento Vocale,noun,Spell (Divinazione),Spells
+Spell Immunity,Immunità agli Incantesimi,noun,Spell (Abiurazione),Spells
+"Spell Immunity, Greater",Immunità agli Incantesimi Superiore,noun,Spell (Abiurazione),Spells
+Spell Resistance,Resistenza agli Incantesimi,noun,Spell (Abiurazione),Spells
+"Spell Resistance, Mass",Resistenza agli Incantesimi di Massa,noun,Spell (Abiurazione),Spells
+Spell Turning,Riflettere Incantesimo,noun,Spell (Abiurazione),Spells
+Spell Vulnerability,Vulnerabilità agli Incantesimi,noun,Spell (Trasmutazione),Spells
+Spellstaff,Bastone dell'Incantesimo,noun,Spell (Trasmutazione),Spells
+Sphere of Ultimate Destruction,Sfera della Distruzione Assoluta,noun,Spell (Evocazione),Spells
+Spider Climb,Movimenti del Ragno,noun,Spell (Trasmutazione),Spells
+Spike Growth,Crescita di Spine,noun,Spell (Trasmutazione),Spells
+Spike Stones,Rocce Aguzze,noun,Spell (Trasmutazione),Spells
+Spikes,Spine,noun,Spell (Trasmutazione),Spells
+Spirit Binding,Legame Spirituale,noun,Spell (Evocazione),Spells
+"Spirit Binding, Greater",Legame Spirituale Superiore,noun,Spell (Evocazione),Spells
+"Spirit Binding, Lesser",Legame Spirituale Inferiore,noun,Spell (Evocazione),Spells
+Spirit Needle,Ago per Spiriti,noun,Spell (Trasmutazione),Spells
+Spirit Self,Forma di Spirito,noun,Spell (Necromanzia),Spells
+Spiritual Chariot,Carro Spirituale,noun,Spell (Evocazione),Spells
+Spiritual Weapon,Arma Spirituale,noun,Spell (Invocazione),Spells
+Spiritwall,Muro Spettrale,noun,Spell (Necromanzia),Spells
+Spread of Contentment,Propagazione di Cordialità,noun,Spell (Ammaliamento),Spells
+Standing Wave,Onda Eretta,noun,Spell (Trasmutazione),Spells
+Starmantle,Mantello Stellare,noun,Spell (Abiurazione),Spells
+Stars of Arvandor,Stelle di Arvandor,noun,Spell (Invocazione),Spells
+Statue,Statua,noun,Spell (Trasmutazione),Spells
+Steam Breath,Soffio di Vapore,noun,Spell (Invocazione),Spells
+Stinking Cloud,Nube Maleodorante,noun,Spell (Evocazione),Spells
+Stone Fist,Pugno di Pietra,noun,Spell (Trasmutazione),Spells
+Stone Shape,Scolpire Pietra,noun,Spell (Trasmutazione),Spells
+Stone Tell,Pietre Parlanti,noun,Spell (Divinazione),Spells
+Stone to Flesh,Pietra in Carne,noun,Spell (Trasmutazione),Spells
+Stoneskin,Pelle di Pietra,noun,Spell (Abiurazione),Spells
+Stony Grasp,Stretta di Pietra,noun,Spell (Invocazione Inferiore),Spells
+Storm of Elemental Fury,Tempesta di Furia Elementale,noun,Spell (Evocazione),Spells
+Storm of Shards,Tempesta di Schegge,noun,Spell (Invocazione),Spells
+Storm of Vengeance,Tempesta di Vendetta,noun,Spell (Evocazione),Spells
+Storm Tower,Torre della Tempesta,noun,Spell (Abiurazione),Spells
+Stormrage,Tempesta Furiosa,noun,Spell (Trasmutazione),Spells
+Stunning Breath,Soffio Stordente,noun,Spell (Trasmutazione),Spells
+Sublime Revelry,Euforia Sublime,noun,Spell (Abiurazione),Spells
+Subvert Planar Essence,Sovvertire Essenza Planare,noun,Spell (Trasmutazione),Spells
+Suggestion,Suggestione,noun,Spell (Ammaliamento),Spells
+"Suggestion, Mass",Suggestione di Massa,noun,Spell (Ammaliamento),Spells
+Summon Babau Demon,Evoca Demone Babau,noun,Spell (Evocazione),Spells
+Summon Bearded Devil,Evoca Diavolo Barbuto,noun,Spell (Evocazione),Spells
+Summon Bralani Eladrin,Evoca Eladrin Bralani,noun,Spell (Evocazione),Spells
+Summon Elemental Monolith,Evoca Monolito Elementale,noun,Spell (Evocazione),Spells
+Summon Elementite Swarm,Evoca Sciame di Elementiti,noun,Spell (Evocazione),Spells
+Summon Elysian Thrush,Evoca Tordo Elisio,noun,Spell (Evocazione),Spells
+Summon Greater Elemental,Evoca Elementale Superiore,noun,Spell (Evocazione),Spells
+Summon Hound Archon,Evoca Arcone Segugio,noun,Spell (Evocazione),Spells
+Summon Instrument,Evoca Strumento,noun,Spell (Evocazione),Spells
+Summon Monster I,Evoca Mostri I,noun,Spell (Evocazione),Spells
+Summon Monster II,Evoca Mostri II,noun,Spell (Evocazione),Spells
+Summon Monster III,Evoca Mostri III,noun,Spell (Evocazione),Spells
+Summon Monster IV,Evoca Mostri IV,noun,Spell (Evocazione),Spells
+Summon Monster IX,Evoca Mostri IX,noun,Spell (Evocazione),Spells
+Summon Monster V,Evoca Mostri V,noun,Spell (Evocazione),Spells
+Summon Monster VI,Evoca Mostri VI,noun,Spell (Evocazione),Spells
+Summon Monster VII,Evoca Mostri VII,noun,Spell (Evocazione),Spells
+Summon Monster VIII,Evoca Mostri VIII,noun,Spell (Evocazione),Spells
+Summon Nature’s Ally I,Evoca Alleato Naturale I,noun,Spell (Evocazione),Spells
+Summon Nature’s Ally II,Evoca Alleato Naturale II,noun,Spell (Evocazione),Spells
+Summon Nature’s Ally III,Evoca Alleato Naturale III,noun,Spell (Evocazione),Spells
+Summon Nature’s Ally IV,Evoca Alleato Naturale IV,noun,Spell (Evocazione),Spells
+Summon Nature’s Ally IX,Evoca Alleato Naturale IX,noun,Spell (Evocazione),Spells
+Summon Nature’s Ally V,Evoca Alleato Naturale V,noun,Spell (Evocazione),Spells
+Summon Nature’s Ally VI,Evoca Alleato Naturale VI,noun,Spell (Evocazione),Spells
+Summon Nature’s Ally VII,Evoca Alleato Naturale VII,noun,Spell (Evocazione),Spells
+Summon Nature’s Ally VIII,Evoca Alleato Naturale VIII,noun,Spell (Evocazione),Spells
+Summon Swarm,Evoca Sciame,noun,Spell (Invocazione Minima),Spells
+Summon Undead I,Evoca Non Morti I,noun,Spell (Evocazione),Spells
+Summon Undead II,Evoca Non Morti II,noun,Spell (Evocazione),Spells
+Summon Undead III,Evoca Non Morti III,noun,Spell (Evocazione),Spells
+Summon Undead IV,Evoca Non Morti IV,noun,Spell (Evocazione),Spells
+Summon Undead V,Evoca Non Morti V,noun,Spell (Evocazione),Spells
+Summoning Wind,Vento di Adunata,noun,Spell (Trasmutazione),Spells
+Sunbeam,Bagliore Solare,noun,Spell (Invocazione),Spells
+Sunburst,Esplosione Solare,noun,Spell (Invocazione),Spells
+Sunmantle,Manto Solare,noun,Spell (Abiurazione),Spells
+Superior Invisibility,Invisibilità Suprema,noun,Spell (Illusione),Spells
+Suppress Breath Weapon,Sopprimere Arma a Soffio,noun,Spell (Ammaliamento),Spells
+Sustain,Sostentare,noun,Spell (Trasmutazione),Spells
+Sword of Conscience,Spada della Coscienza,noun,Spell (Ammaliamento),Spells
+Sword of Darkness,Spada dell'Oscurità,noun,Spell (Necromanzia),Spells
+Sword of Deception,Spada dell'Inganno,noun,Spell (Invocazione),Spells
+Symbol of Death,Simbolo di Morte,noun,Spell (Necromanzia),Spells
+Symbol of Fear,Simbolo di Paura,noun,Spell (Necromanzia),Spells
+Symbol of Insanity,Simbolo di Demenza,noun,Spell (Ammaliamento),Spells
+Symbol of Pain,Simbolo di Dolore,noun,Spell (Necromanzia),Spells
+Symbol of Persuasion,Simbolo di Persuasione,noun,Spell (Ammaliamento),Spells
+Symbol of Sleep,Simbolo di Sonno,noun,Spell (Ammaliamento),Spells
+Symbol of Stunning,Simbolo di Stordimento,noun,Spell (Ammaliamento),Spells
+Symbol of Weakness,Simbolo di Debolezza,noun,Spell (Necromanzia),Spells
+Sympathetic Vibration,Vibrazione Armonica,noun,Spell (Invocazione),Spells
+Sympathy,Simpatia,noun,Spell (Ammaliamento),Spells
+Tactical Precision,Precisione Tattica,noun,Spell (Divinazione),Spells
+Telekinesis,Telecinesi,noun,Spell (Trasmutazione),Spells
+Telekinetic Sphere,Sfera Telecinetica di Otiluke,noun,Spell (Invocazione),Spells
+Telepathic Bond,Legame Telepatico di Rary,noun,Spell (Divinazione),Spells
+"Telepathic Bond, Lesser",Legame Telepatico Inferiore,noun,Spell (Divinazione),Spells
+Telepathy Block,Blocco Telepatico,noun,Spell (Abiurazione),Spells
+Telepathy Tap,Spia Telepatica,noun,Spell (Divinazione),Spells
+Teleport,Teletrasporto,noun,Spell (Trasmutazione),Spells
+Teleport Object,Teletrasporto degli Oggetti,noun,Spell (Trasmutazione),Spells
+"Teleport, Greater",Teletrasporto Superiore,noun,Spell (Trasmutazione),Spells
+Teleportation Circle,Cerchio di Teletrasporto,noun,Spell (Evocazione),Spells
+Temporal Stasis,Stasi Temporale,noun,Spell (Trasmutazione),Spells
+Terra Cotta Lion,Leone di Terracotta,noun,Spell (Trasmutazione),Spells
+Terra Cotta Warrior,Guerriero di Terracotta,noun,Spell (Trasmutazione),Spells
+Thornskin,Pelle di Spine,noun,Spell (Trasmutazione),Spells
+Tidal Surge,Marea Impetuosa,noun,Spell (Invocazione),Spells
+Time Stop,Fermare il Tempo,noun,Spell (Trasmutazione),Spells
+Tiny Hut,Capanna di Leomund,noun,Spell (Invocazione),Spells
+Tomb of Light,Tomba di Luce,noun,Spell (Trasmutazione),Spells
+Tongues,Linguaggi,noun,Spell (Divinazione),Spells
+Tortoise Shell,Guscio di Tartaruga,noun,Spell (Trasmutazione),Spells
+Touch of Adamantine,Tocco Adamantino,noun,Spell (Trasmutazione),Spells
+Touch of Fatigue,Tocco di Affaticamento,noun,Spell (Necromanzia),Spells
+Touch of Idiocy,Tocco di Idiozia,noun,Spell (Ammaliamento),Spells
+Touch of Madness,Tocco di Follia,noun,Spell (Ammaliamento),Spells
+Touchstone Lightning,Fulmine della Piattaforma,noun,Spell (Trasmutazione),Spells
+Train Animal,Addestrare Animali,noun,Spell (Ammaliamento),Spells
+Transfix,Immobilizzare,noun,Spell (Ammaliamento),Spells
+Transformation,Trasformazione di Tenser,noun,Spell (Trasmutazione),Spells
+Transmute Metal to Wood,Trasmutare Metallo in Legno,noun,Spell (Trasmutazione),Spells
+Transmute Mud to Rock,Trasmutare Fango in Roccia,noun,Spell (Trasmutazione),Spells
+Transmute Rock to Lava,Tramutare Roccia in Lava,noun,Spell (Trasmutazione),Spells
+Transmute Rock to Mud,Trasmutare Roccia in Fango,noun,Spell (Trasmutazione),Spells
+Transport via Plants,Trasporto tramite Piante,noun,Spell (Evocazione),Spells
+Trap the Soul,Intrappolare l'Anima,noun,Spell (Evocazione),Spells
+Traveler's Mount,Destriero del Cavaliere,noun,Spell (Trasmutazione),Spells
+Tree Shape,Forma Arborea,noun,Spell (Trasmutazione),Spells
+Tree Stride,Traslazione Arborea,noun,Spell (Trasmutazione),Spells
+True Creation,Creazione Vera,noun,Spell (Evocazione),Spells
+True Domination,Dominazione Vera,noun,Spell (Ammaliamento),Spells
+True Resurrection,Resurrezione Pura,noun,Spell (Evocazione),Spells
+True Seeing,Visione del Vero,noun,Spell (Divinazione),Spells
+True Strike,Colpo Accurato,noun,Spell (Divinazione),Spells
+Twilight Luck,Fortuna del Crepuscolo,noun,Spell (Abiurazione),Spells
+Unbinding,Slegare,noun,Spell (Abiurazione),Spells
+Undead Bane Weapon,Arma Anatema dei Non Morti,noun,Spell (Trasmutazione),Spells
+Undeath to Death,Non Morto a Morto,noun,Spell (Necromanzia),Spells
+Undetectable Alignment,Allineamento Imperscrutabile,noun,Spell (Abiurazione),Spells
+Undulant Innards,Interiora Ondulanti,noun,Spell (Trasmutazione),Spells
+Unearthly Beauty,Bellezza Ultraterrena,noun,Spell (Trasmutazione),Spells
+Unhallow,Profanare,noun,Spell (Invocazione),Spells
+Unholy Aura,Aura Sacrilega,noun,Spell (Abiurazione),Spells
+Unholy Blight,Influenza Sacrilega,noun,Spell (Invocazione),Spells
+Unholy Storm,Tempesta Sacrilega,noun,Spell (Evocazione),Spells
+Unluck,Sfortuna,noun,Spell (Divinazione),Spells
+Unseen Servant,Servitore Inosservato,noun,Spell (Evocazione),Spells
+"Unseen Servant, Mass",Servitore Inosservato di Massa,noun,Spell (Invocazione),Spells
+Unyielding Roots,Radici Inflessibili,noun,Spell (Trasmutazione),Spells
+Urban Shield,Scudo Urbano,noun,Spell (Abiurazione),Spells
+Utterdark,Buio Completo,noun,Spell (Evocazione),Spells
+Valiant Fury,Collera Valorosa,noun,Spell (Trasmutazione),Spells
+Valiant Steed,Destriero Valoroso,noun,Spell (Evocazione),Spells
+Vampiric Touch,Tocco del Vampiro,noun,Spell (Necromanzia),Spells
+Vanishing Weapon,Arma Svanente,noun,Spell (Abiurazione),Spells
+Veil,Velo,noun,Spell (Illusione),Spells
+Veil of Undeath,Velo della Non Morte,noun,Spell (Necromanzia),Spells
+Vengeance Halo,Aureola di Vendetta,noun,Spell (Abiurazione),Spells
+Ventriloquism,Ventriloquio,noun,Spell (Illusione),Spells
+Vigor,Vigore,noun,Spell (Evocazione),Spells
+"Vigor, Greater",Vigore Superiore,noun,Spell (Evocazione),Spells
+"Vigor, Lesser",Vigore Inferiore,noun,Spell (Evocazione),Spells
+"Vigor, Mass Lesser",Vigore Inferiore di Massa,noun,Spell (Evocazione),Spells
+Vigorous Circle,Cerchio Vigoroso,noun,Spell (Evocazione),Spells
+Vile Death,Morte Infame,noun,Spell (Evocazione),Spells
+Vine Strike,Colpire Vegetali,noun,Spell (Divinazione),Spells
+Virtue,Virtù,noun,Spell (Trasmutazione),Spells
+Visage of the Deity,Volto della Divinità,noun,Spell (Trasmutazione),Spells
+"Visage of the Deity, Greater",Volto della Divinità Superiore,noun,Spell (Trasmutazione),Spells
+"Visage of the Deity, Lesser",Volto della Divinità Inferiore,noun,Spell (Trasmutazione),Spells
+Vision,Visione,noun,Spell (Divinazione),Spells
+Vision of Entropy,Visione dell'Entropia,noun,Spell (Illusione),Spells
+Vision of Heaven,Visione del Paradiso,noun,Spell (Ammaliamento),Spells
+Vitriolic Sphere,Sfera al Vetriolo,noun,Spell (Evocazione),Spells
+Voice of the Dragon,Voce del Drago,noun,Spell (Trasmutazione),Spells
+Vulnerability,Vulnerabilità,noun,Spell (Trasmutazione),Spells
+Wages of Sin,Riflessi del Peccato,noun,Spell (Ammaliamento),Spells
+Wail of Doom,Lamento del Fato,noun,Spell (Necromanzia),Spells
+Wail of the Banshee,Lamento della Banshee,noun,Spell (Necromanzia),Spells
+Walk the Mountain's Path,Camminare sul Crinale dei Monti,noun,Spell (Trasmutazione),Spells
+Wall of Bones,Muro di Ossa,noun,Spell (Evocazione),Spells
+Wall of Fire,Muro di Fuoco,noun,Spell (Invocazione),Spells
+Wall of Force,Muro di Forza,noun,Spell (Invocazione),Spells
+Wall of Gears,Muro di Ingranaggi,noun,Spell (Evocazione),Spells
+Wall of Gloom,Muro di Mestizia,noun,Spell (Invocazione Inferiore),Spells
+Wall of Ice,Muro di Ghiaccio,noun,Spell (Invocazione),Spells
+Wall of Iron,Muro di Ferro,noun,Spell (Evocazione),Spells
+Wall of Stone,Muro di Pietra,noun,Spell (Evocazione),Spells
+Wall of Thorns,Muro di Spine,noun,Spell (Evocazione),Spells
+Warcry,Urlo di Guerra,noun,Spell (Ammaliamento),Spells
+Warding Gems,Gemme dell'Interdizione,noun,Spell (Evocazione),Spells
+Warp Destiny,Deformare Destino,noun,Spell (Trasmutazione),Spells
+Warp Wood,Deformare Legno,noun,Spell (Trasmutazione),Spells
+Water Breathing,Respirare Sott'Acqua,noun,Spell (Trasmutazione),Spells
+Water to Poison,Acqua in Veleno,noun,Spell (Trasmutazione),Spells
+Water Walk,Camminare sull'Acqua,noun,Spell (Trasmutazione),Spells
+Waterspout,Soffio d'Acqua,noun,Spell (Evocazione),Spells
+Wave of Grief,Onda di Afflizione,noun,Spell (Ammaliamento),Spells
+Waves of Exhaustion,Onde di Esaurimento,noun,Spell (Necromanzia),Spells
+Waves of Fatigue,Onde di Affaticamento,noun,Spell (Necromanzia),Spells
+Weapon of the Deity,Arma della Divinità,noun,Spell (Trasmutazione),Spells
+Weather Eye,Occhio del Tempo Atmosferico,noun,Spell (Divinazione),Spells
+Web,Ragnatela,noun,Spell (Evocazione),Spells
+Weird,Fatale,noun,Spell (Illusione),Spells
+Whirling Blade,Lama Rotante,noun,Spell (Trasmutazione),Spells
+Whirlwind,Turbine,noun,Spell (Invocazione),Spells
+"Whirlwind, Greater",Turbine Superiore,noun,Spell (Invocazione),Spells
+Whispercast,Lancio Sussurrato,noun,Spell (Trasmutazione),Spells
+Whispering Wind,Vento Sussurrante,noun,Spell (Trasmutazione),Spells
+Wind Walk,Camminare nel Vento,noun,Spell (Trasmutazione),Spells
+Wind Wall,Muro di Vento,noun,Spell (Invocazione),Spells
+Winding Alleys,Vincoli Tortuosi,noun,Spell (Illusione),Spells
+Wingbind,Ali Legate,noun,Spell (Invocazione),Spells
+Winged Mount,Cavalcatura Alata,noun,Spell (Trasmutazione),Spells
+Wings of Air,Ali dell'Aria,noun,Spell (Trasmutazione),Spells
+"Wings of Air, Greater",Ali dell'Aria Superiore,noun,Spell (Trasmutazione),Spells
+Wish,Desiderio,noun,Spell (Universale),Spells
+Wither Limb,Arto Avvizzito,noun,Spell (Necromanzia),Spells
+Withering Palm,Palmo Avvizzente,noun,Spell (Necromanzia),Spells
+Wood Rot,Putrefazione del Legno,noun,Spell (Trasmutazione),Spells
+Wood Shape,Scolpire Legno,noun,Spell (Trasmutazione),Spells
+Wood Wose,Wose,noun,Spell (Evocazione),Spells
+Word of Chaos,Parola del Caos,noun,Spell (Invocazione),Spells
+Word of Recall,Parola del Ritiro,noun,Spell (Evocazione),Spells
+Wrack,Agonia,noun,Spell (Necromanzia),Spells
+Wracking Touch,Tocco Straziante,noun,Spell (Necromanzia),Spells
+Wraithstrike,Colpo del Wraith,noun,Spell (Trasmutazione),Spells
+Yoke of Mercy,Giogo della Pietà,noun,Spell (Ammaliamento),Spells
+Zeal,Zelo,noun,Spell (Abiurazione),Spells
+Zealot Pact,Patto dello Zelota,noun,Spell (Invocazione),Spells
+Zone of Silence,Zona di Silenzio,noun,Spell (Illusione),Spells
+Zone of Truth,Zona di Verità,noun,Spell (Ammaliamento),Spells
+﻿Perfect Summons,Evocazione Perfetta,noun,Spell,Spells

@@ -1910,7 +1910,7 @@
     "reference": "pag. 176"
   },
   {
-    "slug": "brillant-aura",
+    "slug": "brilliant-aura",
     "name": "Aura Brillante",
     "summary_it": "Circonda gli alleati con un'aura brillante che gli garantisce speciali capacità in combattimento.",
     "school": "Trasmutazione",
@@ -3780,7 +3780,7 @@
     "reference": "pag. 167"
   },
   {
-    "slug": "curse-of-licanthropy",
+    "slug": "curse-of-lycanthropy",
     "name": "Maledizione della Licantropia",
     "summary_it": "Infetta con la licantropia il bersaglio.",
     "school": "Necromanzia",
@@ -5780,7 +5780,7 @@
     "reference": "pag. 112"
   },
   {
-    "slug": "energy-votex",
+    "slug": "energy-vortex",
     "name": "Vortice di Energia",
     "summary_it": "Uno scoppio di un predeterminato tipo di energia danneggia le creature presenti nell'area d'effetto.",
     "school": "Invocazione",
@@ -9217,7 +9217,7 @@
     "reference": "pag. 148"
   },
   {
-    "slug": "insigna-of-blessing",
+    "slug": "insignia-of-blessing",
     "name": "Distintivo di Benedizione",
     "summary_it": "Rende coraggioso chi indossa uno speciale distintivo mandandogli anche un avviso mentale.",
     "school": "Ammaliamento",
@@ -11429,7 +11429,7 @@
     "reviewed": false
   },
   {
-    "slug": "nightstalker-s-trasformation",
+    "slug": "nightstalkers-transformation",
     "name": "Trasformazione del Predatore Notturno",
     "summary_it": "Trasforma in un abile e subdolo combattente.",
     "school": "Trasmutazione",
@@ -15681,7 +15681,7 @@
     "reviewed": false
   },
   {
-    "slug": "spell-resistence-mass",
+    "slug": "spell-resistance-mass",
     "name": "Resistenza agli Incantesimi di Massa",
     "summary_it": "Dona una certa resistenza gli incantesimi a più soggetti.",
     "school": "Abiurazione",
@@ -16305,7 +16305,7 @@
     "reference": "pag. 96"
   },
   {
-    "slug": "summon-greather-elemental",
+    "slug": "summon-greater-elemental",
     "name": "Evoca Elementale Superiore",
     "summary_it": "Evoca un elementale superiore.",
     "school": "Evocazione",
@@ -17218,7 +17218,7 @@
     "reference": "pag. 93"
   },
   {
-    "slug": "telepathy-trap",
+    "slug": "telepathy-tap",
     "name": "Spia Telepatica",
     "summary_it": "Permette di ascolare le trasmissioni telepatiche nelle vicinanze.",
     "school": "Divinazione",
