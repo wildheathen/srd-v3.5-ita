@@ -20,14 +20,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 METADATA_FIELDS = {"translation_source", "reviewed"}
 
 TRANSLATABLE_FIELDS = {
-    "skills":    ["name", "check"],
-    "classes":   ["name", "manual_name", "reference"],
+    "skills":    ["name", "source_book", "check", "action", "special", "synergy", "try_again", "restriction", "untrained", "benefit", "desc_html"],
+    "classes":   ["name", "source_book", "reference", "table_html", "desc_html_dndtools", "desc_html"],
     "equipment": ["name", "category"],
-    "feats":     ["name", "manual_name", "reference"],
-    "monsters":  ["name", "desc_html"],
-    "races":     ["name", "traits", "desc_html"],
+    "feats":     ["name", "source_book", "reference", "desc_html"],
+    "monsters":  ["name", "source_book", "desc_html"],
+    "races":     ["name", "source_book", "traits", "desc_html"],
     "rules":     ["name", "desc_html"],
-    "spells":    ["name", "summary_it", "school", "level", "manual_name", "reference"],
+    "spells":    ["name", "summary_it", "school", "level", "manual_name", "reference", "desc_html"],
 }
 
 def import_translations(lang_code):

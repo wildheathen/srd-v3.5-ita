@@ -14,13 +14,14 @@ import os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Campi da tradurre per ogni file (escludi: slug, translation_source, reviewed)
+# NB: spells usa "manual_name", le altre categorie usano "source_book" per il nome del manuale
 TRANSLATABLE_FIELDS = {
-    "skills":    ["name", "check", "desc_html"],
-    "classes":   ["name", "manual_name", "reference", "desc_html"],
+    "skills":    ["name", "source_book", "check", "action", "special", "synergy", "try_again", "restriction", "untrained", "benefit", "desc_html"],
+    "classes":   ["name", "source_book", "reference", "table_html", "desc_html_dndtools", "desc_html"],
     "equipment": ["name", "category"],  # nessun desc_html nella sorgente
-    "feats":     ["name", "manual_name", "reference", "desc_html"],
-    "monsters":  ["name", "desc_html"],
-    "races":     ["name", "traits", "desc_html"],
+    "feats":     ["name", "source_book", "reference", "desc_html"],
+    "monsters":  ["name", "source_book", "desc_html"],
+    "races":     ["name", "source_book", "traits", "desc_html"],
     "rules":     ["name"],  # desc_html escluso: supera il limite di 65535 byte di Crowdin
     "spells":    ["name", "summary_it", "school", "level", "manual_name", "reference", "desc_html"],
 }
