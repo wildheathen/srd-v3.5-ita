@@ -1,6 +1,6 @@
 {
   "lang": "it",
-  "generated_at": "2026-03-08T13:22:51Z",
+  "generated_at": "2026-03-08T13:38:18Z",
   "categories": {
     "spells": {
       "total": 3623,
@@ -5580,40 +5580,40 @@
           "percent": 26.3
         },
         "type": {
-          "translated": 110,
+          "translated": 128,
           "suspicious": 0,
           "total": 2984,
-          "percent": 3.7
+          "percent": 4.3
         },
         "prerequisites": {
-          "translated": 66,
+          "translated": 82,
           "suspicious": 1,
           "total": 2548,
-          "percent": 2.6
+          "percent": 3.2
         },
         "benefit": {
-          "translated": 111,
+          "translated": 127,
           "suspicious": 0,
           "total": 2987,
-          "percent": 3.7
+          "percent": 4.3
         },
         "normal": {
-          "translated": 33,
+          "translated": 39,
           "suspicious": 0,
           "total": 413,
-          "percent": 8.0
+          "percent": 9.4
         },
         "special": {
-          "translated": 66,
+          "translated": 72,
           "suspicious": 0,
           "total": 961,
-          "percent": 6.9
+          "percent": 7.5
         },
         "desc_html": {
-          "translated": 0,
+          "translated": 126,
           "suspicious": 0,
           "total": 2988,
-          "percent": 0.0
+          "percent": 4.2
         }
       },
       "by_source": {
@@ -5631,9 +5631,9 @@
               "percent": 99.1
             },
             "prerequisites": {
-              "translated": 66,
+              "translated": 67,
               "total": 69,
-              "percent": 95.7
+              "percent": 97.1
             },
             "benefit": {
               "translated": 111,
@@ -5651,14 +5651,14 @@
               "percent": 97.1
             },
             "desc_html": {
-              "translated": 0,
+              "translated": 108,
               "total": 111,
-              "percent": 0.0
+              "percent": 97.3
             }
           },
           "total_fields": 615,
-          "translated_fields": 495,
-          "percent": 80.5
+          "translated_fields": 604,
+          "percent": 98.2
         },
         "dndtools": {
           "total": 2877,
@@ -5669,45 +5669,49 @@
               "percent": 23.5
             },
             "type": {
-              "translated": 0,
+              "translated": 18,
               "total": 2873,
-              "percent": 0.0
+              "percent": 0.6
             },
             "prerequisites": {
-              "translated": 0,
+              "translated": 15,
               "total": 2479,
-              "percent": 0.0
+              "percent": 0.6
             },
             "benefit": {
-              "translated": 0,
+              "translated": 16,
               "total": 2876,
-              "percent": 0.0
+              "percent": 0.6
             },
             "normal": {
-              "translated": 0,
+              "translated": 6,
               "total": 379,
-              "percent": 0.0
+              "percent": 1.6
             },
             "special": {
-              "translated": 0,
+              "translated": 6,
               "total": 893,
-              "percent": 0.0
+              "percent": 0.7
             },
             "desc_html": {
-              "translated": 0,
+              "translated": 18,
               "total": 2877,
-              "percent": 0.0
+              "percent": 0.6
             }
           },
           "total_fields": 15254,
-          "translated_fields": 676,
-          "percent": 4.4
+          "translated_fields": 755,
+          "percent": 4.9
         }
       },
       "translation_quality": {
-        "total": 111,
+        "total": 129,
         "reviewed": 0,
         "by_source_type": {
+          "pdf": {
+            "count": 18,
+            "reviewed": 0
+          },
           "manual": {
             "count": 111,
             "reviewed": 0
@@ -8906,6 +8910,519 @@
         }
       }
     },
+    "skills": {
+      "total": 113,
+      "overlay_count": 60,
+      "fields": {
+        "name": {
+          "translated": 59,
+          "suspicious": 1,
+          "total": 112,
+          "percent": 52.7
+        },
+        "check": {
+          "translated": 0,
+          "suspicious": 0,
+          "total": 63,
+          "percent": 0.0
+        },
+        "action": {
+          "translated": 0,
+          "suspicious": 0,
+          "total": 56,
+          "percent": 0.0
+        },
+        "try_again": {
+          "translated": 0,
+          "suspicious": 0,
+          "total": 51,
+          "percent": 0.0
+        },
+        "special": {
+          "translated": 0,
+          "suspicious": 0,
+          "total": 43,
+          "percent": 0.0
+        },
+        "synergy": {
+          "translated": 0,
+          "suspicious": 0,
+          "total": 40,
+          "percent": 0.0
+        },
+        "restriction": {
+          "translated": 0,
+          "suspicious": 0,
+          "total": 8,
+          "percent": 0.0
+        },
+        "untrained": {
+          "translated": 0,
+          "suspicious": 0,
+          "total": 21,
+          "percent": 0.0
+        },
+        "desc_html": {
+          "translated": 18,
+          "suspicious": 0,
+          "total": 106,
+          "percent": 17.0
+        }
+      },
+      "by_source": {
+        "CSc": {
+          "total": 42,
+          "fields": {
+            "name": {
+              "translated": 1,
+              "total": 42,
+              "percent": 2.4
+            },
+            "desc_html": {
+              "translated": 0,
+              "total": 42,
+              "percent": 0.0
+            }
+          },
+          "total_fields": 84,
+          "translated_fields": 1,
+          "percent": 1.2
+        },
+        "OA": {
+          "total": 4,
+          "fields": {
+            "name": {
+              "translated": 0,
+              "total": 4,
+              "percent": 0.0
+            },
+            "check": {
+              "translated": 0,
+              "total": 4,
+              "percent": 0.0
+            },
+            "action": {
+              "translated": 0,
+              "total": 3,
+              "percent": 0.0
+            },
+            "try_again": {
+              "translated": 0,
+              "total": 3,
+              "percent": 0.0
+            },
+            "untrained": {
+              "translated": 0,
+              "total": 3,
+              "percent": 0.0
+            },
+            "desc_html": {
+              "translated": 0,
+              "total": 4,
+              "percent": 0.0
+            }
+          },
+          "total_fields": 21,
+          "translated_fields": 0,
+          "percent": 0.0
+        },
+        "PHB": {
+          "total": 47,
+          "fields": {
+            "name": {
+              "translated": 46,
+              "total": 47,
+              "percent": 97.9
+            },
+            "check": {
+              "translated": 0,
+              "total": 46,
+              "percent": 0.0
+            },
+            "action": {
+              "translated": 0,
+              "total": 47,
+              "percent": 0.0
+            },
+            "try_again": {
+              "translated": 0,
+              "total": 36,
+              "percent": 0.0
+            },
+            "special": {
+              "translated": 0,
+              "total": 35,
+              "percent": 0.0
+            },
+            "synergy": {
+              "translated": 0,
+              "total": 33,
+              "percent": 0.0
+            },
+            "restriction": {
+              "translated": 0,
+              "total": 4,
+              "percent": 0.0
+            },
+            "untrained": {
+              "translated": 0,
+              "total": 16,
+              "percent": 0.0
+            },
+            "desc_html": {
+              "translated": 18,
+              "total": 47,
+              "percent": 38.3
+            }
+          },
+          "total_fields": 311,
+          "translated_fields": 64,
+          "percent": 20.6
+        },
+        "PHB3.0": {
+          "total": 6,
+          "fields": {
+            "name": {
+              "translated": 6,
+              "total": 6,
+              "percent": 100.0
+            },
+            "check": {
+              "translated": 0,
+              "total": 6,
+              "percent": 0.0
+            },
+            "try_again": {
+              "translated": 0,
+              "total": 5,
+              "percent": 0.0
+            },
+            "special": {
+              "translated": 0,
+              "total": 3,
+              "percent": 0.0
+            },
+            "synergy": {
+              "translated": 0,
+              "total": 2,
+              "percent": 0.0
+            },
+            "restriction": {
+              "translated": 0,
+              "total": 2,
+              "percent": 0.0
+            },
+            "desc_html": {
+              "translated": 0,
+              "total": 6,
+              "percent": 0.0
+            }
+          },
+          "total_fields": 30,
+          "translated_fields": 6,
+          "percent": 20.0
+        },
+        "ToB": {
+          "total": 1,
+          "fields": {
+            "name": {
+              "translated": 1,
+              "total": 1,
+              "percent": 100.0
+            },
+            "check": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "action": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "try_again": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "special": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "desc_html": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            }
+          },
+          "total_fields": 6,
+          "translated_fields": 1,
+          "percent": 16.7
+        },
+        "XPH": {
+          "total": 2,
+          "fields": {
+            "name": {
+              "translated": 2,
+              "total": 2,
+              "percent": 100.0
+            },
+            "check": {
+              "translated": 0,
+              "total": 2,
+              "percent": 0.0
+            },
+            "action": {
+              "translated": 0,
+              "total": 2,
+              "percent": 0.0
+            },
+            "try_again": {
+              "translated": 0,
+              "total": 2,
+              "percent": 0.0
+            },
+            "special": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "synergy": {
+              "translated": 0,
+              "total": 2,
+              "percent": 0.0
+            },
+            "desc_html": {
+              "translated": 0,
+              "total": 2,
+              "percent": 0.0
+            }
+          },
+          "total_fields": 13,
+          "translated_fields": 2,
+          "percent": 15.4
+        },
+        "manual-of-the-planes": {
+          "total": 1,
+          "fields": {
+            "name": {
+              "translated": 1,
+              "total": 1,
+              "percent": 100.0
+            },
+            "check": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "try_again": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "desc_html": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            }
+          },
+          "total_fields": 4,
+          "translated_fields": 1,
+          "percent": 25.0
+        },
+        "monster-manual-v35": {
+          "total": 1,
+          "fields": {
+            "name": {
+              "translated": 1,
+              "total": 1,
+              "percent": 100.0
+            },
+            "special": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "desc_html": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            }
+          },
+          "total_fields": 3,
+          "translated_fields": 1,
+          "percent": 33.3
+        },
+        "sword-and-fist-a-guidebook-to-monks-and-fighters": {
+          "total": 1,
+          "fields": {
+            "name": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "check": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "action": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "try_again": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "special": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "synergy": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "restriction": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "untrained": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "desc_html": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            }
+          },
+          "total_fields": 9,
+          "translated_fields": 0,
+          "percent": 0.0
+        },
+        "tome-of-magic": {
+          "total": 1,
+          "fields": {
+            "name": {
+              "translated": 1,
+              "total": 1,
+              "percent": 100.0
+            },
+            "check": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "action": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "try_again": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "synergy": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "desc_html": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            }
+          },
+          "total_fields": 6,
+          "translated_fields": 1,
+          "percent": 16.7
+        },
+        "unknown": {
+          "total": 6,
+          "fields": {
+            "name": {
+              "translated": 1,
+              "total": 6,
+              "percent": 16.7
+            }
+          },
+          "total_fields": 6,
+          "translated_fields": 1,
+          "percent": 16.7
+        },
+        "web": {
+          "total": 1,
+          "fields": {
+            "name": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "check": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "action": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "try_again": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "special": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "synergy": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "restriction": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "untrained": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            },
+            "desc_html": {
+              "translated": 0,
+              "total": 1,
+              "percent": 0.0
+            }
+          },
+          "total_fields": 9,
+          "translated_fields": 0,
+          "percent": 0.0
+        }
+      },
+      "translation_quality": {
+        "total": 18,
+        "reviewed": 0,
+        "by_source_type": {
+          "pdf": {
+            "count": 18,
+            "reviewed": 0
+          }
+        }
+      }
+    },
     "rules": {
       "total": 19,
       "overlay_count": 19,
@@ -8936,9 +9453,9 @@
     }
   },
   "summary": {
-    "total_entries": 7950,
-    "total_fields": 61263,
-    "translated_fields": 12687,
-    "overall_percent": 20.7
+    "total_entries": 8063,
+    "total_fields": 61763,
+    "translated_fields": 12952,
+    "overall_percent": 21.0
   }
 }

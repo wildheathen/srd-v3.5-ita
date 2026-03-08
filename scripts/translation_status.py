@@ -37,6 +37,10 @@ TRANSLATABLE_FIELDS = {
     "equipment": [
         "name", "category", "desc_html",
     ],
+    "skills": [
+        "name", "check", "action", "try_again", "special", "synergy",
+        "restriction", "untrained", "desc_html",
+    ],
     "rules": [
         "name", "desc_html",
     ],

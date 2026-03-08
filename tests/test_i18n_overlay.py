@@ -6,7 +6,7 @@ import pytest
 DATA_DIR = pathlib.Path(__file__).resolve().parent.parent / 'data'
 I18N_DIR = DATA_DIR / 'i18n' / 'it'
 
-CATEGORIES = ['spells', 'feats', 'classes', 'monsters', 'races']
+CATEGORIES = ['spells', 'feats', 'classes', 'monsters', 'races', 'skills']
 
 VALID_TRANSLATION_SOURCES = {'manual', 'auto', 'ocr', 'pdf'}
 
