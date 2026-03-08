@@ -407,6 +407,12 @@ main {
   min-width: 0;
   max-height: var(--content-height, calc(100vh - 260px));
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.vs-spacer {
+  contain: layout style;
+  will-change: contents;
 }
 
 #detail-panel {
