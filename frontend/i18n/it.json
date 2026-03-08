@@ -11,6 +11,7 @@
   "tab.rules": "Regole",
 
   "search.placeholder": "Cerca per nome...",
+  "search.fulltext": "Cerca nella descrizione",
 
   "filter.all_schools": "Tutte le scuole",
   "filter.all_classes": "Tutte le classi",

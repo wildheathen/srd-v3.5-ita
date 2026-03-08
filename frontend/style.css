@@ -254,6 +254,33 @@ header.collapsed #header-toggle {
   color: var(--text-dim);
 }
 
+.fulltext-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  cursor: pointer;
+  margin-top: 0.4rem;
+  padding: 0.15rem 0;
+  white-space: nowrap;
+}
+
+.fulltext-toggle:hover {
+  color: var(--text);
+}
+
+.fulltext-toggle:has(input:checked) {
+  color: var(--accent);
+}
+
+mark {
+  background: rgba(255, 224, 102, 0.45);
+  color: inherit;
+  padding: 0 1px;
+  border-radius: 2px;
+}
+
 #filters {
   display: flex;
   gap: 0.5rem;
@@ -385,12 +412,14 @@ main {
 #detail-panel {
   position: relative;
   flex: 1.8;
+  min-width: 0;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 1.5rem;
   max-height: var(--content-height, calc(100vh - 260px));
   overflow-y: auto;
+  overflow-x: hidden;
   position: sticky;
   top: 1rem;
 }
@@ -428,6 +457,7 @@ main {
   cursor: pointer;
   transition: background 0.2s, border-left-color 0.2s, transform 0.15s;
   border-left: 3px solid var(--school-clr, transparent);
+  overflow: hidden;
 }
 
 .result-item:hover {
@@ -728,6 +758,8 @@ main {
   margin-bottom: 0.3rem;
   font-size: 1.4rem;
   letter-spacing: 0.04em;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .detail-name-en {
@@ -1408,5 +1440,28 @@ main {
   .prep-controls {
     width: 100%;
     justify-content: flex-end;
+  }
+
+  /* Touch-friendly targets (min 44x44px per WCAG) */
+  .counter-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  .remove-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 1.3rem;
+  }
+
+  .prep-btn, .learn-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 1.1rem;
+  }
+
+  .level-check {
+    padding: 0.3rem 0.15rem;
   }
 }

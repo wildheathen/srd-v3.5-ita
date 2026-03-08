@@ -14,6 +14,12 @@ let debounceTimer = null;
 let sourcesData = null;
 let sourceBookMap = null;   // reverse map: normalised source_book → abbreviation key
 
+// ── Virtual scroll state ────────────────────────────────────────────────
+const VS_ROW_HEIGHT = 64;  // px per result item (padding + margin + content)
+const VS_BUFFER = 15;      // extra rows above/below viewport
+let vsFilteredData = [];    // current filtered dataset for virtual scroll
+let vsLastRange = null;     // last rendered range {start, end} to avoid redundant renders
+
 // Known spell domains (EN + IT) — everything NOT in this set is treated as a class
 const SPELL_DOMAINS = new Set([
   // Standard D&D 3.5 domains
@@ -183,7 +189,7 @@ document.querySelectorAll('.tab').forEach((btn) => {
     searchClear.classList.add('hidden');
     detailPanel.classList.add('hidden');
     const hideSearch = currentTab === 'prepared' || currentTab === 'learned' || currentTab === 'translation-status';
-    searchInput.parentElement.style.display = hideSearch ? 'none' : '';
+    searchInput.closest('.search-wrapper').style.display = hideSearch ? 'none' : '';
     buildFilters();
     renderResults();
   });
@@ -211,15 +217,41 @@ function initLangSwitcher() {
   if (!sel) return;
   sel.value = getCurrentLang();
   sel.addEventListener('change', async () => {
+    // Remember selected item before switching language
+    const prevSlug = detailPanel.classList.contains('hidden') ? null : detailPanel.dataset.activeSlug;
+    const prevTab = currentTab;
     setLang(sel.value);
     clearAllDataCache();
     await loadI18n(sel.value);
     updateTabLabels();
     searchInput.placeholder = t('search.placeholder');
+    const ftLabel = document.getElementById('fulltext-text');
+    if (ftLabel) ftLabel.textContent = t('search.fulltext');
     buildFilters();
-    renderResults();
-    // Re-render detail if visible
-    detailPanel.classList.add('hidden');
+    await renderResults();
+    // Re-select same item after language switch
+    if (prevSlug && prevTab === currentTab) {
+      const item = vsFilteredData.find(d => d.slug === prevSlug);
+      if (item) {
+        showDetail(item);
+        // Scroll virtual list to bring the item into view
+        const idx = vsFilteredData.indexOf(item);
+        resultsList.scrollTop = idx * VS_ROW_HEIGHT;
+        // After scroll triggers re-render, highlight the item
+        requestAnimationFrame(() => {
+          vsRenderVisible();
+          const el = resultsList.querySelector(`[data-index="${idx}"]`);
+          if (el) {
+            resultsList.querySelectorAll('.selected').forEach(s => s.classList.remove('selected'));
+            el.classList.add('selected');
+          }
+        });
+      } else {
+        detailPanel.classList.add('hidden');
+      }
+    } else {
+      detailPanel.classList.add('hidden');
+    }
   });
 }
 
@@ -517,6 +549,35 @@ function getSelectedLevels() {
   return new Set([...checks].map((cb) => parseInt(cb.value)));
 }
 
+// ── HTML tag stripper for full-text search ───────────────────────────────
+function stripHtml(html) {
+  if (!html) return '';
+  return html.replace(/<[^>]*>/g, ' ').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ');
+}
+
+// ── Search term highlighting ─────────────────────────────────────────────
+function highlightText(text, query) {
+  if (!query) return esc(text);
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(`(${escaped})`, 'gi');
+  return esc(text).replace(re, '<mark>$1</mark>');
+}
+
+function highlightHtml(html, query) {
+  if (!query || !html) return html;
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(`(${escaped})`, 'gi');
+  // Only highlight inside text nodes (outside of HTML tags)
+  return html.replace(/>([^<]+)</g, (match, textContent) => {
+    return '>' + textContent.replace(re, '<mark>$1</mark>') + '<';
+  });
+}
+
+function isFullTextSearch() {
+  const el = document.getElementById('search-fulltext');
+  return el && el.checked;
+}
+
 async function renderResults() {
   // Special handling for prepared tab
   if (currentTab === 'prepared') {
@@ -541,12 +602,26 @@ async function renderResults() {
 
   const q = searchInput.value.trim().toLowerCase();
   let filtered = data;
+  const fullText = isFullTextSearch();
 
   // Text search
   if (q) {
-    filtered = filtered.filter((item) =>
-      item.name.toLowerCase().includes(q)
-    );
+    if (fullText) {
+      filtered = filtered.filter((item) => {
+        if (item.name.toLowerCase().includes(q)) return true;
+        if (item._name_en && item._name_en.toLowerCase().includes(q)) return true;
+        const plain = stripHtml(item.desc_html);
+        if (plain.toLowerCase().includes(q)) return true;
+        // Also search benefit/special for feats
+        if (item.benefit && stripHtml(item.benefit).toLowerCase().includes(q)) return true;
+        return false;
+      });
+    } else {
+      filtered = filtered.filter((item) =>
+        item.name.toLowerCase().includes(q) ||
+        (item._name_en && item._name_en.toLowerCase().includes(q))
+      );
+    }
   }
 
   // Edition filter (shared across tabs that have the toggle)
@@ -623,14 +698,58 @@ async function renderResults() {
   if (countEl) countEl.textContent = t('msg.results_count', { count: filtered.length });
 
   if (filtered.length === 0) {
+    vsFilteredData = [];
+    vsLastRange = null;
     resultsList.innerHTML = `<div class="no-results">${t('msg.no_results')}</div>`;
     return;
   }
 
+  // Store filtered data for virtual scroll rendering
+  vsFilteredData = filtered;
+  vsLastRange = null;
+  resultsList._filtered = filtered;
+  resultsList._searchQuery = q;
+
+  // Setup virtual scroll container
+  const totalHeight = filtered.length * VS_ROW_HEIGHT;
+  resultsList.innerHTML = `<div class="vs-spacer" style="height:${totalHeight}px;position:relative"></div>`;
+  resultsList._vsSpacer = resultsList.querySelector('.vs-spacer');
+
+  // Remove old scroll listener, add new one
+  resultsList.removeEventListener('scroll', vsOnScroll);
+  resultsList.addEventListener('scroll', vsOnScroll);
+
+  // Initial render of visible rows
+  vsRenderVisible();
+}
+
+function vsOnScroll() {
+  requestAnimationFrame(vsRenderVisible);
+}
+
+function vsRenderVisible() {
+  const filtered = vsFilteredData;
+  if (!filtered.length) return;
+
+  const scrollTop = resultsList.scrollTop;
+  const viewportHeight = resultsList.clientHeight;
+
+  let start = Math.floor(scrollTop / VS_ROW_HEIGHT) - VS_BUFFER;
+  let end = Math.ceil((scrollTop + viewportHeight) / VS_ROW_HEIGHT) + VS_BUFFER;
+  start = Math.max(0, start);
+  end = Math.min(filtered.length, end);
+
+  // Skip if range hasn't changed
+  if (vsLastRange && vsLastRange.start === start && vsLastRange.end === end) return;
+  vsLastRange = { start, end };
+
   const prepared = currentTab === 'spells' ? loadPrepared() : {};
   const learned = currentTab === 'feats' ? loadLearned() : {};
+  const q = resultsList._searchQuery || '';
 
-  resultsList.innerHTML = filtered.map((item, idx) => {
+  let html = '';
+  for (let idx = start; idx < end; idx++) {
+    const item = filtered[idx];
     const meta = getMeta(item);
     let actionHtml = '';
     if (currentTab === 'spells') {
@@ -649,45 +768,48 @@ async function renderResults() {
     const isPrepared = currentTab === 'spells' && prepared[item.slug];
     const isLearned = currentTab === 'feats' && learned[item.slug];
     const schoolStyle = currentTab === 'spells' && item.school ? ` style="--school-clr: ${getSchoolColor(item.school)}"` : '';
-    return `<div class="result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}" data-index="${idx}" data-slug="${item.slug || ''}"${schoolStyle}>
+    const nameHtml = q ? highlightText(item.name, q) : esc(item.name);
+    const enNameHtml = item._name_en ? `<span class="name-en">${q ? highlightText(item._name_en, q) : esc(item._name_en)}</span>` : '';
+    const top = idx * VS_ROW_HEIGHT;
+    html += `<div class="result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}" data-index="${idx}" data-slug="${item.slug || ''}"${schoolStyle} style="position:absolute;top:${top}px;left:0;right:0;height:${VS_ROW_HEIGHT}px;box-sizing:border-box">
       <div class="result-row">
         <div class="result-text">
-          <div class="name">${esc(item.name)}${renderSourceBadge(item)}${item._name_en ? `<span class="name-en">${esc(item._name_en)}</span>` : ''}</div>
+          <div class="name">${nameHtml}${renderSourceBadge(item)}${enNameHtml}</div>
           ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
         </div>
         ${actionHtml}
       </div>
     </div>`;
-  }).join('');
+  }
 
-  // Store filtered list for detail lookup
-  resultsList._filtered = filtered;
+  resultsList._vsSpacer.innerHTML = html;
 
-  resultsList.querySelectorAll('.result-item').forEach((el) => {
+  // Bind event listeners on the visible items
+  resultsList._vsSpacer.querySelectorAll('.result-item').forEach((el) => {
     el.addEventListener('click', (e) => {
       if (e.target.classList.contains('prep-btn') || e.target.classList.contains('learn-btn')) return;
       resultsList.querySelectorAll('.selected').forEach((s) => s.classList.remove('selected'));
       el.classList.add('selected');
-      const item = resultsList._filtered[parseInt(el.dataset.index)];
+      const item = vsFilteredData[parseInt(el.dataset.index)];
       showDetail(item);
     });
   });
 
   // Prepare spell buttons
-  resultsList.querySelectorAll('.prep-btn').forEach((btn) => {
+  resultsList._vsSpacer.querySelectorAll('.prep-btn').forEach((btn) => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
-      const item = resultsList._filtered[parseInt(btn.dataset.idx)];
+      const item = vsFilteredData[parseInt(btn.dataset.idx)];
       addPrepared(item);
       renderResults();
     });
   });
 
   // Learn feat buttons
-  resultsList.querySelectorAll('.learn-btn').forEach((btn) => {
+  resultsList._vsSpacer.querySelectorAll('.learn-btn').forEach((btn) => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
-      const item = resultsList._filtered[parseInt(btn.dataset.idx)];
+      const item = vsFilteredData[parseInt(btn.dataset.idx)];
       toggleLearned(item);
       renderResults();
     });
@@ -914,6 +1036,7 @@ function getMeta(item) {
 function showDetail(item, overrideTab) {
   const tab = overrideTab || currentTab;
   detailPanel.classList.remove('hidden');
+  detailPanel.dataset.activeSlug = item.slug || '';
   detailPanel.innerHTML = `<button class="detail-close" aria-label="Chiudi">&times;</button>` + renderDetail(item, tab);
   detailPanel.querySelector('.detail-close').addEventListener('click', () => {
     detailPanel.classList.add('hidden');
@@ -1519,7 +1642,9 @@ function renderFields(fields) {
 
 function renderDesc(html) {
   if (!html) return '';
-  return `<div class="desc-html">${html}</div>`;
+  const q = (isFullTextSearch() && searchInput) ? searchInput.value.trim() : '';
+  const highlighted = q ? highlightHtml(html, q) : html;
+  return `<div class="desc-html">${highlighted}</div>`;
 }
 
 function escAllowInline(str) {
@@ -1565,6 +1690,21 @@ function updateContentHeight() {
   document.documentElement.style.setProperty('--content-height', `${Math.max(200, height)}px`);
 }
 
+// ── Full-text search toggle ──────────────────────────────────────────────
+
+function initFullTextToggle() {
+  const cb = document.getElementById('search-fulltext');
+  const label = document.getElementById('fulltext-text');
+  if (!cb) return;
+  // Restore preference
+  cb.checked = localStorage.getItem('crystalball_fulltext') === '1';
+  if (label) label.textContent = t('search.fulltext');
+  cb.addEventListener('change', () => {
+    localStorage.setItem('crystalball_fulltext', cb.checked ? '1' : '0');
+    if (searchInput.value.trim()) renderResults();
+  });
+}
+
 // ── Init ─────────────────────────────────────────────────────────────────
 
 async function initApp() {
@@ -1574,6 +1714,7 @@ async function initApp() {
   searchInput.placeholder = t('search.placeholder');
   initLangSwitcher();
   initHeaderToggle();
+  initFullTextToggle();
   buildFilters();
   renderResults();
   updateContentHeight();

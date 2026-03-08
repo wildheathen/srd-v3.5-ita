@@ -8,12 +8,13 @@ I nomi e i metadati sono quasi tutti tradotti. Il lavoro grosso che resta sono l
 
 | Categoria | Entries | Descrizioni tradotte | Priorita |
 |-----------|---------|---------------------|----------|
-| Mostri | 289 | 2% | Alta |
+| Mostri | 312 | ~2% | Alta |
 | Regole | 19 | 0% | Alta |
-| Classi | 31 | 23% | Media |
-| Incantesimi | 608 | 100% (32 da rivedere) | Bassa |
-| Talenti | 111 | 100% | -- |
-| Razze | 7 | 100% | -- |
+| Classi | 730 | ~3% | Media |
+| Talenti | 3,537 | ~3% (111 SRD completi) | Media |
+| Incantesimi | 4,155 | ~15% (608 SRD completi) | Bassa |
+| Abilita | 113 | 0% | Media |
+| Razze | 42 | ~17% (7 SRD complete) | Bassa |
 
 ## Come contribuire (3 modi)
 
