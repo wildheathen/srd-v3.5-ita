@@ -1,1442 +1,1106 @@
 [
   {
     "slug": "gauntlet",
-    "name": "Guanto",
-    "category": "arma"
+    "name": "Guanto"
   },
   {
     "slug": "unarmed-strike",
-    "name": "Colpo senz'armi",
-    "category": "arma"
+    "name": "Colpo senz'armi"
   },
   {
     "slug": "dagger",
-    "name": "Pugnale",
-    "category": "arma"
+    "name": "Pugnale"
   },
   {
     "slug": "dagger-punching",
-    "name": "Pugnale da presa",
-    "category": "arma"
+    "name": "Pugnale da presa"
   },
   {
     "slug": "gauntlet-spiked",
-    "name": "Guanto chiodato",
-    "category": "arma"
+    "name": "Guanto chiodato"
   },
   {
     "slug": "mace-light",
-    "name": "Mazza leggera",
-    "category": "arma"
+    "name": "Mazza leggera"
   },
   {
     "slug": "sickle",
-    "name": "Falcetto",
-    "category": "arma"
+    "name": "Falcetto"
   },
   {
     "slug": "club",
-    "name": "Randello",
-    "category": "arma"
+    "name": "Randello"
   },
   {
     "slug": "mace-heavy",
-    "name": "Mazza pesante",
-    "category": "arma"
+    "name": "Mazza pesante"
   },
   {
     "slug": "morningstar",
-    "name": "Stella del mattino",
-    "category": "arma"
+    "name": "Stella del mattino"
   },
   {
     "slug": "shortspear",
-    "name": "Lancia corta",
-    "category": "arma"
+    "name": "Lancia corta"
   },
   {
     "slug": "longspear4",
-    "name": "Lancia lunga",
-    "category": "arma"
+    "name": "Lancia lunga"
   },
   {
     "slug": "quarterstaff5",
-    "name": "Bastone ferrato",
-    "category": "arma"
+    "name": "Bastone ferrato"
   },
   {
     "slug": "spear",
-    "name": "Lancia",
-    "category": "arma"
+    "name": "Lancia"
   },
   {
     "slug": "crossbow-heavy",
-    "name": "Balestra pesante",
-    "category": "arma"
+    "name": "Balestra pesante"
   },
   {
     "slug": "bolts-crossbow-10",
-    "name": "Quadrelli da balestra (10)",
-    "category": "arma"
+    "name": "Quadrelli da balestra (10)"
   },
   {
     "slug": "crossbow-light",
-    "name": "Balestra leggera",
-    "category": "arma"
-  },
-  {
-    "slug": "bolts-crossbow-10",
-    "name": "Quadrelli da balestra (10)",
-    "category": "arma"
+    "name": "Balestra leggera"
   },
   {
     "slug": "dart",
-    "name": "Dardo",
-    "category": "arma"
+    "name": "Dardo"
   },
   {
     "slug": "javelin",
-    "name": "Giavellotto",
-    "category": "arma"
+    "name": "Giavellotto"
   },
   {
     "slug": "sling",
-    "name": "Fionda",
-    "category": "arma"
+    "name": "Fionda"
   },
   {
     "slug": "bullets-sling-10",
-    "name": "Proiettili da fionda (10)",
-    "category": "arma"
+    "name": "Proiettili da fionda (10)"
   },
   {
     "slug": "axe-throwing",
-    "name": "Ascia da lancio",
-    "category": "arma"
+    "name": "Ascia da lancio"
   },
   {
     "slug": "hammer-light",
-    "name": "Martello leggero",
-    "category": "arma"
+    "name": "Martello leggero"
   },
   {
     "slug": "handaxe",
-    "name": "Accetta",
-    "category": "arma"
+    "name": "Accetta"
   },
   {
     "slug": "kukri",
-    "name": "Kukri",
-    "category": "arma"
+    "name": "Kukri"
   },
   {
     "slug": "pick-light",
-    "name": "Piccone leggero",
-    "category": "arma"
+    "name": "Piccone leggero"
   },
   {
     "slug": "sap",
-    "name": "Manganello",
-    "category": "arma"
+    "name": "Manganello"
   },
   {
     "slug": "shield-light",
-    "name": "Scudo leggero",
-    "category": "arma"
+    "name": "Scudo leggero"
   },
   {
     "slug": "spiked-armor",
-    "name": "Armatura chiodata",
-    "category": "arma"
+    "name": "Armatura chiodata"
   },
   {
     "slug": "spiked-shield-light",
-    "name": "Scudo leggero chiodato",
-    "category": "arma"
+    "name": "Scudo leggero chiodato"
   },
   {
     "slug": "sword-short",
-    "name": "Spada corta",
-    "category": "arma"
+    "name": "Spada corta"
   },
   {
     "slug": "battleaxe",
-    "name": "Ascia da battaglia",
-    "category": "arma"
+    "name": "Ascia da battaglia"
   },
   {
     "slug": "flail",
-    "name": "Mazzafrusto",
-    "category": "arma"
+    "name": "Mazzafrusto"
   },
   {
     "slug": "longsword",
-    "name": "Spada lunga",
-    "category": "arma"
+    "name": "Spada lunga"
   },
   {
     "slug": "pick-heavy",
-    "name": "Piccone pesante",
-    "category": "arma"
+    "name": "Piccone pesante"
   },
   {
     "slug": "rapier",
-    "name": "Stocco",
-    "category": "arma"
+    "name": "Stocco"
   },
   {
     "slug": "scimitar",
-    "name": "Scimitarra",
-    "category": "arma"
+    "name": "Scimitarra"
   },
   {
     "slug": "shield-heavy",
-    "name": "Scudo pesante",
-    "category": "arma"
+    "name": "Scudo pesante"
   },
   {
     "slug": "spiked-shield-heavy",
-    "name": "Scudo pesante chiodato",
-    "category": "arma"
+    "name": "Scudo pesante chiodato"
   },
   {
     "slug": "trident",
-    "name": "Tridente",
-    "category": "arma"
+    "name": "Tridente"
   },
   {
     "slug": "warhammer",
-    "name": "Martello da guerra",
-    "category": "arma"
+    "name": "Martello da guerra"
   },
   {
     "slug": "falchion",
-    "name": "Falcione",
-    "category": "arma"
+    "name": "Falcione"
   },
   {
     "slug": "glaive4",
-    "name": "Falcione d'armi",
-    "category": "arma"
+    "name": "Falcione d'armi"
   },
   {
     "slug": "greataxe",
-    "name": "Ascia bipenne",
-    "category": "arma"
+    "name": "Ascia bipenne"
   },
   {
     "slug": "greatclub",
-    "name": "Randello pesante",
-    "category": "arma"
+    "name": "Randello pesante"
   },
   {
     "slug": "flail-heavy",
-    "name": "Mazzafrusto pesante",
-    "category": "arma"
+    "name": "Mazzafrusto pesante"
   },
   {
     "slug": "greatsword",
-    "name": "Spadone",
-    "category": "arma"
+    "name": "Spadone"
   },
   {
     "slug": "guisarme4",
-    "name": "Guisarma",
-    "category": "arma"
+    "name": "Guisarma"
   },
   {
     "slug": "halberd",
-    "name": "Alabarda",
-    "category": "arma"
+    "name": "Alabarda"
   },
   {
     "slug": "lance4",
-    "name": "Lancia da cavaliere",
-    "category": "arma"
+    "name": "Lancia da cavaliere"
   },
   {
     "slug": "ranseur4",
-    "name": "Ranseur",
-    "category": "arma"
+    "name": "Ranseur"
   },
   {
     "slug": "scythe",
-    "name": "Falce",
-    "category": "arma"
+    "name": "Falce"
   },
   {
     "slug": "longbow",
-    "name": "Arco lungo",
-    "category": "arma"
+    "name": "Arco lungo"
   },
   {
     "slug": "arrows-20",
-    "name": "Frecce (20)",
-    "category": "arma"
+    "name": "Frecce (20)"
   },
   {
     "slug": "longbow-composite",
-    "name": "Arco lungo composito",
-    "category": "arma"
-  },
-  {
-    "slug": "arrows-20",
-    "name": "Frecce (20)",
-    "category": "arma"
+    "name": "Arco lungo composito"
   },
   {
     "slug": "shortbow",
-    "name": "Arco corto",
-    "category": "arma"
-  },
-  {
-    "slug": "arrows-20",
-    "name": "Frecce (20)",
-    "category": "arma"
+    "name": "Arco corto"
   },
   {
     "slug": "shortbow-composite",
-    "name": "Arco corto composito",
-    "category": "arma"
-  },
-  {
-    "slug": "arrows-20",
-    "name": "Frecce (20)",
-    "category": "arma"
+    "name": "Arco corto composito"
   },
   {
     "slug": "kama",
-    "name": "Kama",
-    "category": "arma"
+    "name": "Kama"
   },
   {
     "slug": "nunchaku",
-    "name": "Nunchaku",
-    "category": "arma"
+    "name": "Nunchaku"
   },
   {
     "slug": "sai",
-    "name": "Sai",
-    "category": "arma"
+    "name": "Sai"
   },
   {
     "slug": "siangham",
-    "name": "Siangham",
-    "category": "arma"
+    "name": "Siangham"
   },
   {
     "slug": "sword-bastard",
-    "name": "Spada bastarda",
-    "category": "arma"
+    "name": "Spada bastarda"
   },
   {
     "slug": "waraxe-dwarven",
-    "name": "Ascia da guerra nanica",
-    "category": "arma"
+    "name": "Ascia da guerra nanica"
   },
   {
     "slug": "whip4",
-    "name": "Frusta",
-    "category": "arma"
+    "name": "Frusta"
   },
   {
     "slug": "axe-orc-double5",
-    "name": "Ascia doppia orchesca",
-    "category": "arma"
+    "name": "Ascia doppia orchesca"
   },
   {
     "slug": "chain-spiked4",
-    "name": "Catena chiodata",
-    "category": "arma"
+    "name": "Catena chiodata"
   },
   {
     "slug": "flail-dire5",
-    "name": "Mazzafrusto doppio",
-    "category": "arma"
+    "name": "Mazzafrusto doppio"
   },
   {
     "slug": "hammer-gnome-hooked5",
-    "name": "Martello-uncino gnomesco",
-    "category": "arma"
+    "name": "Martello-uncino gnomesco"
   },
   {
     "slug": "sword-two-bladed5",
-    "name": "Spada a due lame",
-    "category": "arma"
+    "name": "Spada a due lame"
   },
   {
     "slug": "urgrosh-dwarven5",
-    "name": "Urgrosh nanico",
-    "category": "arma"
+    "name": "Urgrosh nanico"
   },
   {
     "slug": "bolas",
-    "name": "Bolas",
-    "category": "arma"
+    "name": "Bolas"
   },
   {
     "slug": "crossbow-hand",
-    "name": "Balestra a mano",
-    "category": "arma"
+    "name": "Balestra a mano"
   },
   {
     "slug": "bolts-10",
-    "name": "Quadrelli (10)",
-    "category": "arma"
+    "name": "Quadrelli (10)"
   },
   {
     "slug": "crossbow-repeating-heavy",
-    "name": "Balestra pesante a ripetizione",
-    "category": "arma"
+    "name": "Balestra pesante a ripetizione"
   },
   {
     "slug": "bolts-5",
-    "name": "Quadrelli (5)",
-    "category": "arma"
+    "name": "Quadrelli (5)"
   },
   {
     "slug": "crossbow-repeating-light",
-    "name": "Balestra leggera a ripetizione",
-    "category": "arma"
-  },
-  {
-    "slug": "bolts-5",
-    "name": "Quadrelli (5)",
-    "category": "arma"
+    "name": "Balestra leggera a ripetizione"
   },
   {
     "slug": "net",
-    "name": "Rete",
-    "category": "arma"
+    "name": "Rete"
   },
   {
     "slug": "shuriken-5",
-    "name": "Shuriken (5)",
-    "category": "arma"
+    "name": "Shuriken (5)"
   },
   {
     "slug": "light-armor",
-    "name": "Armatura leggera",
-    "category": "armatura"
+    "name": "Armatura leggera"
   },
   {
     "slug": "padded",
-    "name": "Imbottita",
-    "category": "armatura"
+    "name": "Imbottita"
   },
   {
     "slug": "leather",
-    "name": "Cuoio",
-    "category": "armatura"
+    "name": "Cuoio"
   },
   {
     "slug": "studded-leather",
-    "name": "Cuoio borchiato",
-    "category": "armatura"
+    "name": "Cuoio borchiato"
   },
   {
     "slug": "chain-shirt",
-    "name": "Giaco di maglia",
-    "category": "armatura"
+    "name": "Giaco di maglia"
   },
   {
     "slug": "medium-armor",
-    "name": "Armatura media",
-    "category": "armatura"
+    "name": "Armatura media"
   },
   {
     "slug": "hide",
-    "name": "Pelle",
-    "category": "armatura"
+    "name": "Pelle"
   },
   {
     "slug": "scale-mail",
-    "name": "Corazza di scaglie",
-    "category": "armatura"
+    "name": "Corazza di scaglie"
   },
   {
     "slug": "chainmail",
-    "name": "Cotta di maglia",
-    "category": "armatura"
+    "name": "Cotta di maglia"
   },
   {
     "slug": "breastplate",
-    "name": "Corazza",
-    "category": "armatura"
+    "name": "Corazza"
   },
   {
     "slug": "heavy-armor",
-    "name": "Armatura pesante",
-    "category": "armatura"
+    "name": "Armatura pesante"
   },
   {
     "slug": "splint-mail",
-    "name": "Corazza di bande",
-    "category": "armatura"
+    "name": "Corazza di bande"
   },
   {
     "slug": "banded-mail",
-    "name": "Corazza a strisce",
-    "category": "armatura"
+    "name": "Corazza a strisce"
   },
   {
     "slug": "half-plate",
-    "name": "Mezza armatura",
-    "category": "armatura"
+    "name": "Mezza armatura"
   },
   {
     "slug": "full-plate",
-    "name": "Armatura completa",
-    "category": "armatura"
+    "name": "Armatura completa"
   },
   {
     "slug": "shields",
-    "name": "Scudi",
-    "category": "armatura"
+    "name": "Scudi"
   },
   {
     "slug": "buckler",
-    "name": "Brocchiere",
-    "category": "armatura"
+    "name": "Brocchiere"
   },
   {
     "slug": "shield-light-wooden",
-    "name": "Scudo leggero di legno",
-    "category": "armatura"
+    "name": "Scudo leggero di legno"
   },
   {
     "slug": "shield-light-steel",
-    "name": "Scudo leggero d'acciaio",
-    "category": "armatura"
+    "name": "Scudo leggero d'acciaio"
   },
   {
     "slug": "shield-heavy-wooden",
-    "name": "Scudo pesante di legno",
-    "category": "armatura"
+    "name": "Scudo pesante di legno"
   },
   {
     "slug": "shield-heavy-steel",
-    "name": "Scudo pesante d'acciaio",
-    "category": "armatura"
+    "name": "Scudo pesante d'acciaio"
   },
   {
     "slug": "shield-tower",
-    "name": "Scudo torre",
-    "category": "armatura"
+    "name": "Scudo torre"
   },
   {
     "slug": "extras",
-    "name": "Extra",
-    "category": "armatura"
+    "name": "Extra"
   },
   {
     "slug": "armor-spikes",
-    "name": "Spuntoni per armatura",
-    "category": "armatura"
+    "name": "Spuntoni per armatura"
   },
   {
     "slug": "gauntlet-locked",
-    "name": "Guanto bloccato",
-    "category": "armatura"
+    "name": "Guanto bloccato"
   },
   {
     "slug": "shield-spikes",
-    "name": "Spuntoni per scudo",
-    "category": "armatura"
+    "name": "Spuntoni per scudo"
   },
   {
     "slug": "backpack-empty",
-    "name": "Zaino (vuoto)",
-    "category": "beni"
+    "name": "Zaino (vuoto)"
   },
   {
     "slug": "barrel-empty",
-    "name": "Barile (vuoto)",
-    "category": "beni"
+    "name": "Barile (vuoto)"
   },
   {
     "slug": "basket-empty",
-    "name": "Cestino (vuoto)",
-    "category": "beni"
+    "name": "Cestino (vuoto)"
   },
   {
     "slug": "bedroll",
-    "name": "Sacco a pelo",
-    "category": "beni"
+    "name": "Sacco a pelo"
   },
   {
     "slug": "bell",
-    "name": "Campanella",
-    "category": "beni"
+    "name": "Campanella"
   },
   {
     "slug": "blanket-winter",
-    "name": "Coperta invernale",
-    "category": "beni"
+    "name": "Coperta invernale"
   },
   {
     "slug": "block-and-tackle",
-    "name": "Paranco",
-    "category": "beni"
+    "name": "Paranco"
   },
   {
     "slug": "bottle-wine-glass",
-    "name": "Bottiglia di vetro per vino",
-    "category": "beni"
+    "name": "Bottiglia di vetro per vino"
   },
   {
     "slug": "bucket-empty",
-    "name": "Secchio (vuoto)",
-    "category": "beni"
+    "name": "Secchio (vuoto)"
   },
   {
     "slug": "caltrops",
-    "name": "Triboli",
-    "category": "beni"
+    "name": "Triboli"
   },
   {
     "slug": "candle",
-    "name": "Candela",
-    "category": "beni"
+    "name": "Candela"
   },
   {
     "slug": "canvas-sq-yd",
-    "name": "Tela (mq)",
-    "category": "beni"
+    "name": "Tela (mq)"
   },
   {
     "slug": "case-map-or-scroll",
-    "name": "Astuccio per mappe o pergamene",
-    "category": "beni"
+    "name": "Astuccio per mappe o pergamene"
   },
   {
     "slug": "chain-10-ft",
-    "name": "Catena (3 m)",
-    "category": "beni"
+    "name": "Catena (3 m)"
   },
   {
     "slug": "chalk-1-piece",
-    "name": "Gesso, 1 pezzo",
-    "category": "beni"
+    "name": "Gesso, 1 pezzo"
   },
   {
     "slug": "chest-empty",
-    "name": "Forziere (vuoto)",
-    "category": "beni"
+    "name": "Forziere (vuoto)"
   },
   {
     "slug": "crowbar",
-    "name": "Piede di porco",
-    "category": "beni"
+    "name": "Piede di porco"
   },
   {
     "slug": "firewood-per-day",
-    "name": "Legna da ardere (al giorno)",
-    "category": "beni"
+    "name": "Legna da ardere (al giorno)"
   },
   {
     "slug": "fishhook",
-    "name": "Amo da pesca",
-    "category": "beni"
+    "name": "Amo da pesca"
   },
   {
     "slug": "fishing-net-25-sq-ft",
-    "name": "Rete da pesca, 2,5 mq",
-    "category": "beni"
+    "name": "Rete da pesca, 2,5 mq"
   },
   {
     "slug": "flask-empty",
-    "name": "Fiaschetta (vuota)",
-    "category": "beni"
+    "name": "Fiaschetta (vuota)"
   },
   {
     "slug": "flint-and-steel",
-    "name": "Acciarino e pietra focaia",
-    "category": "beni"
+    "name": "Acciarino e pietra focaia"
   },
   {
     "slug": "grappling-hook",
-    "name": "Rampino",
-    "category": "beni"
+    "name": "Rampino"
   },
   {
     "slug": "hammer",
-    "name": "Martello",
-    "category": "beni"
+    "name": "Martello"
   },
   {
     "slug": "ink-1-oz-vial",
-    "name": "Inchiostro (fiala da 30 ml)",
-    "category": "beni"
+    "name": "Inchiostro (fiala da 30 ml)"
   },
   {
     "slug": "inkpen",
-    "name": "Penna a inchiostro",
-    "category": "beni"
+    "name": "Penna a inchiostro"
   },
   {
     "slug": "jug-clay",
-    "name": "Brocca di terracotta",
-    "category": "beni"
+    "name": "Brocca di terracotta"
   },
   {
     "slug": "ladder-10-foot",
-    "name": "Scala, 3 metri",
-    "category": "beni"
+    "name": "Scala, 3 metri"
   },
   {
     "slug": "lamp-common",
-    "name": "Lampada comune",
-    "category": "beni"
+    "name": "Lampada comune"
   },
   {
     "slug": "lantern-bullseye",
-    "name": "Lanterna schermata",
-    "category": "beni"
+    "name": "Lanterna schermata"
   },
   {
     "slug": "lantern-hooded",
-    "name": "Lanterna con cappuccio",
-    "category": "beni"
+    "name": "Lanterna con cappuccio"
   },
   {
     "slug": "lock",
-    "name": "Serratura",
-    "category": "beni"
+    "name": "Serratura"
   },
   {
     "slug": "very-simple",
-    "name": "Molto semplice",
-    "category": "beni"
+    "name": "Molto semplice"
   },
   {
     "slug": "average",
-    "name": "Media",
-    "category": "beni"
+    "name": "Media"
   },
   {
     "slug": "good",
-    "name": "Buona",
-    "category": "beni"
+    "name": "Buona"
   },
   {
     "slug": "amazing",
-    "name": "Eccezionale",
-    "category": "beni"
+    "name": "Eccezionale"
   },
   {
     "slug": "manacles",
-    "name": "Manette",
-    "category": "beni"
+    "name": "Manette"
   },
   {
     "slug": "manacles-masterwork",
-    "name": "Manette di qualità superiore",
-    "category": "beni"
+    "name": "Manette di qualità superiore"
   },
   {
     "slug": "mirror-small-steel",
-    "name": "Specchio piccolo d'acciaio",
-    "category": "beni"
+    "name": "Specchio piccolo d'acciaio"
   },
   {
     "slug": "mug-tankard-clay",
-    "name": "Boccale di terracotta",
-    "category": "beni"
+    "name": "Boccale di terracotta"
   },
   {
     "slug": "oil-1-pint-flask",
-    "name": "Olio (fiasca da mezzo litro)",
-    "category": "beni"
+    "name": "Olio (fiasca da mezzo litro)"
   },
   {
     "slug": "paper-sheet",
-    "name": "Carta (foglio)",
-    "category": "beni"
+    "name": "Carta (foglio)"
   },
   {
     "slug": "parchment-sheet",
-    "name": "Pergamena (foglio)",
-    "category": "beni"
+    "name": "Pergamena (foglio)"
   },
   {
     "slug": "pick-miner-s",
-    "name": "Piccone da minatore",
-    "category": "beni"
+    "name": "Piccone da minatore"
   },
   {
     "slug": "pitcher-clay",
-    "name": "Brocca di terracotta",
-    "category": "beni"
+    "name": "Brocca di terracotta"
   },
   {
     "slug": "piton",
-    "name": "Chiodo da roccia",
-    "category": "beni"
+    "name": "Chiodo da roccia"
   },
   {
     "slug": "pole-10-foot",
-    "name": "Pertica, 3 metri",
-    "category": "beni"
+    "name": "Pertica, 3 metri"
   },
   {
     "slug": "pot-iron",
-    "name": "Pentola di ferro",
-    "category": "beni"
+    "name": "Pentola di ferro"
   },
   {
     "slug": "pouch-belt-empty",
-    "name": "Borsa da cintura (vuota)",
-    "category": "beni"
+    "name": "Borsa da cintura (vuota)"
   },
   {
     "slug": "ram-portable",
-    "name": "Ariete portatile",
-    "category": "beni"
+    "name": "Ariete portatile"
   },
   {
     "slug": "rations-trail-per-day",
-    "name": "Razioni da viaggio (al giorno)",
-    "category": "beni"
+    "name": "Razioni da viaggio (al giorno)"
   },
   {
     "slug": "rope-hempen-50-ft",
-    "name": "Corda di canapa (15 m)",
-    "category": "beni"
+    "name": "Corda di canapa (15 m)"
   },
   {
     "slug": "rope-silk-50-ft",
-    "name": "Corda di seta (15 m)",
-    "category": "beni"
+    "name": "Corda di seta (15 m)"
   },
   {
     "slug": "sack-empty",
-    "name": "Sacco (vuoto)",
-    "category": "beni"
+    "name": "Sacco (vuoto)"
   },
   {
     "slug": "sealing-wax",
-    "name": "Ceralacca",
-    "category": "beni"
+    "name": "Ceralacca"
   },
   {
     "slug": "sewing-needle",
-    "name": "Ago da cucito",
-    "category": "beni"
+    "name": "Ago da cucito"
   },
   {
     "slug": "signal-whistle",
-    "name": "Fischietto",
-    "category": "beni"
+    "name": "Fischietto"
   },
   {
     "slug": "signet-ring",
-    "name": "Anello con sigillo",
-    "category": "beni"
+    "name": "Anello con sigillo"
   },
   {
     "slug": "sledge",
-    "name": "Mazza da fabbro",
-    "category": "beni"
+    "name": "Mazza da fabbro"
   },
   {
     "slug": "soap-per-lb",
-    "name": "Sapone (per libbra)",
-    "category": "beni"
+    "name": "Sapone (per libbra)"
   },
   {
     "slug": "spade-or-shovel",
-    "name": "Vanga o pala",
-    "category": "beni"
+    "name": "Vanga o pala"
   },
   {
     "slug": "spyglass",
-    "name": "Cannocchiale",
-    "category": "beni"
+    "name": "Cannocchiale"
   },
   {
     "slug": "tent",
-    "name": "Tenda",
-    "category": "beni"
+    "name": "Tenda"
   },
   {
     "slug": "torch",
-    "name": "Torcia",
-    "category": "beni"
+    "name": "Torcia"
   },
   {
     "slug": "vial-ink-or-potion",
-    "name": "Fiala per inchiostro o pozione",
-    "category": "beni"
+    "name": "Fiala per inchiostro o pozione"
   },
   {
     "slug": "waterskin",
-    "name": "Otre",
-    "category": "beni"
+    "name": "Otre"
   },
   {
     "slug": "whetstone",
-    "name": "Pietra per affilare",
-    "category": "beni"
+    "name": "Pietra per affilare"
   },
   {
     "slug": "acid-flask",
-    "name": "Acido (fiasca)",
-    "category": "beni"
+    "name": "Acido (fiasca)"
   },
   {
     "slug": "alchemist-s-fire-flask",
-    "name": "Fuoco dell'alchimista (fiasca)",
-    "category": "beni"
+    "name": "Fuoco dell'alchimista (fiasca)"
   },
   {
     "slug": "antitoxin-vial",
-    "name": "Antitossina (fiala)",
-    "category": "beni"
+    "name": "Antitossina (fiala)"
   },
   {
     "slug": "everburning-torch",
-    "name": "Torcia perenne",
-    "category": "beni"
+    "name": "Torcia perenne"
   },
   {
     "slug": "holy-water-flask",
-    "name": "Acqua santa (fiasca)",
-    "category": "beni"
+    "name": "Acqua santa (fiasca)"
   },
   {
     "slug": "smokestick",
-    "name": "Bastone fumogeno",
-    "category": "beni"
+    "name": "Bastone fumogeno"
   },
   {
     "slug": "sunrod",
-    "name": "Bastoncino solare",
-    "category": "beni"
+    "name": "Bastoncino solare"
   },
   {
     "slug": "tanglefoot-bag",
-    "name": "Borsa intralciante",
-    "category": "beni"
+    "name": "Borsa intralciante"
   },
   {
     "slug": "thunderstone",
-    "name": "Pietra del tuono",
-    "category": "beni"
+    "name": "Pietra del tuono"
   },
   {
     "slug": "tindertwig",
-    "name": "Ramoscello incendiario",
-    "category": "beni"
+    "name": "Ramoscello incendiario"
   },
   {
     "slug": "alchemist-s-lab",
-    "name": "Laboratorio da alchimista",
-    "category": "beni"
+    "name": "Laboratorio da alchimista"
   },
   {
     "slug": "artisan-s-tools",
-    "name": "Attrezzi da artigiano",
-    "category": "beni"
+    "name": "Attrezzi da artigiano"
   },
   {
     "slug": "artisan-s-tools-masterwork",
-    "name": "Attrezzi da artigiano di qualità superiore",
-    "category": "beni"
+    "name": "Attrezzi da artigiano di qualità superiore"
   },
   {
     "slug": "climber-s-kit",
-    "name": "Kit da scalatore",
-    "category": "beni"
+    "name": "Kit da scalatore"
   },
   {
     "slug": "disguise-kit",
-    "name": "Kit per travestimento",
-    "category": "beni"
+    "name": "Kit per travestimento"
   },
   {
     "slug": "healer-s-kit",
-    "name": "Kit da guaritore",
-    "category": "beni"
+    "name": "Kit da guaritore"
   },
   {
     "slug": "holly-and-mistletoe",
-    "name": "Agrifoglio e vischio",
-    "category": "beni"
+    "name": "Agrifoglio e vischio"
   },
   {
     "slug": "holy-symbol-wooden",
-    "name": "Simbolo sacro di legno",
-    "category": "beni"
+    "name": "Simbolo sacro di legno"
   },
   {
     "slug": "holy-symbol-silver",
-    "name": "Simbolo sacro d'argento",
-    "category": "beni"
+    "name": "Simbolo sacro d'argento"
   },
   {
     "slug": "hourglass",
-    "name": "Clessidra",
-    "category": "beni"
+    "name": "Clessidra"
   },
   {
     "slug": "magnifying-glass",
-    "name": "Lente d'ingrandimento",
-    "category": "beni"
+    "name": "Lente d'ingrandimento"
   },
   {
     "slug": "musical-instrument-common",
-    "name": "Strumento musicale comune",
-    "category": "beni"
+    "name": "Strumento musicale comune"
   },
   {
     "slug": "musical-instrument-masterwork",
-    "name": "Strumento musicale di qualità superiore",
-    "category": "beni"
+    "name": "Strumento musicale di qualità superiore"
   },
   {
     "slug": "scale-merchant-s",
-    "name": "Bilancia da mercante",
-    "category": "beni"
+    "name": "Bilancia da mercante"
   },
   {
     "slug": "spell-component-pouch",
-    "name": "Borsa per componenti",
-    "category": "beni"
+    "name": "Borsa per componenti"
   },
   {
     "slug": "spellbook-wizard-s-blank",
-    "name": "Libro degli incantesimi (vuoto)",
-    "category": "beni"
+    "name": "Libro degli incantesimi (vuoto)"
   },
   {
     "slug": "thieves-tools",
-    "name": "Attrezzi da scasso",
-    "category": "beni"
+    "name": "Attrezzi da scasso"
   },
   {
     "slug": "thieves-tools-masterwork",
-    "name": "Attrezzi da scasso di qualità superiore",
-    "category": "beni"
+    "name": "Attrezzi da scasso di qualità superiore"
   },
   {
     "slug": "tool-masterwork",
-    "name": "Attrezzo di qualità superiore",
-    "category": "beni"
+    "name": "Attrezzo di qualità superiore"
   },
   {
     "slug": "water-clock",
-    "name": "Orologio ad acqua",
-    "category": "beni"
+    "name": "Orologio ad acqua"
   },
   {
     "slug": "artisan-s-outfit",
-    "name": "Abito da artigiano",
-    "category": "beni"
+    "name": "Abito da artigiano"
   },
   {
     "slug": "cleric-s-vestments",
-    "name": "Paramenti clericali",
-    "category": "beni"
+    "name": "Paramenti clericali"
   },
   {
     "slug": "cold-weather-outfit",
-    "name": "Abito per climi freddi",
-    "category": "beni"
+    "name": "Abito per climi freddi"
   },
   {
     "slug": "courtier-s-outfit",
-    "name": "Abito da cortigiano",
-    "category": "beni"
+    "name": "Abito da cortigiano"
   },
   {
     "slug": "entertainer-s-outfit",
-    "name": "Abito da intrattenitore",
-    "category": "beni"
+    "name": "Abito da intrattenitore"
   },
   {
     "slug": "explorer-s-outfit",
-    "name": "Abito da esploratore",
-    "category": "beni"
+    "name": "Abito da esploratore"
   },
   {
     "slug": "monk-s-outfit",
-    "name": "Abito da monaco",
-    "category": "beni"
+    "name": "Abito da monaco"
   },
   {
     "slug": "noble-s-outfit",
-    "name": "Abito da nobile",
-    "category": "beni"
+    "name": "Abito da nobile"
   },
   {
     "slug": "peasant-s-outfit",
-    "name": "Abito da contadino",
-    "category": "beni"
+    "name": "Abito da contadino"
   },
   {
     "slug": "royal-outfit",
-    "name": "Abito reale",
-    "category": "beni"
+    "name": "Abito reale"
   },
   {
     "slug": "scholar-s-outfit",
-    "name": "Abito da studioso",
-    "category": "beni"
+    "name": "Abito da studioso"
   },
   {
     "slug": "traveler-s-outfit",
-    "name": "Abito da viaggio",
-    "category": "beni"
+    "name": "Abito da viaggio"
   },
   {
     "slug": "ale",
-    "name": "Birra",
-    "category": "beni"
+    "name": "Birra"
   },
   {
     "slug": "gallon",
-    "name": "Gallone",
-    "category": "beni"
+    "name": "Gallone"
   },
   {
     "slug": "mug",
-    "name": "Boccale",
-    "category": "beni"
+    "name": "Boccale"
   },
   {
     "slug": "banquet-per-person",
-    "name": "Banchetto (a persona)",
-    "category": "beni"
+    "name": "Banchetto (a persona)"
   },
   {
     "slug": "bread-per-loaf",
-    "name": "Pane, per pagnotta",
-    "category": "beni"
+    "name": "Pane, per pagnotta"
   },
   {
     "slug": "cheese-hunk-of",
-    "name": "Formaggio, pezzo",
-    "category": "beni"
+    "name": "Formaggio, pezzo"
   },
   {
     "slug": "inn-stay-per-day",
-    "name": "Soggiorno alla locanda (al giorno)",
-    "category": "beni"
-  },
-  {
-    "slug": "good",
-    "name": "Buona",
-    "category": "beni"
+    "name": "Soggiorno alla locanda (al giorno)"
   },
   {
     "slug": "common",
-    "name": "Comune",
-    "category": "beni"
+    "name": "Comune"
   },
   {
     "slug": "poor",
-    "name": "Scadente",
-    "category": "beni"
+    "name": "Scadente"
   },
   {
     "slug": "meals-per-day",
-    "name": "Pasti (al giorno)",
-    "category": "beni"
-  },
-  {
-    "slug": "good",
-    "name": "Buona",
-    "category": "beni"
-  },
-  {
-    "slug": "common",
-    "name": "Comune",
-    "category": "beni"
-  },
-  {
-    "slug": "poor",
-    "name": "Scadente",
-    "category": "beni"
+    "name": "Pasti (al giorno)"
   },
   {
     "slug": "meat-chunk-of",
-    "name": "Carne, pezzo",
-    "category": "beni"
+    "name": "Carne, pezzo"
   },
   {
     "slug": "wine",
-    "name": "Vino",
-    "category": "beni"
+    "name": "Vino"
   },
   {
     "slug": "common-pitcher",
-    "name": "Comune (brocca)",
-    "category": "beni"
+    "name": "Comune (brocca)"
   },
   {
     "slug": "fine-bottle",
-    "name": "Pregiato (bottiglia)",
-    "category": "beni"
+    "name": "Pregiato (bottiglia)"
   },
   {
     "slug": "barding",
-    "name": "Barda",
-    "category": "beni"
+    "name": "Barda"
   },
   {
     "slug": "medium-creature",
-    "name": "Creatura media",
-    "category": "beni"
+    "name": "Creatura media"
   },
   {
     "slug": "large-creature",
-    "name": "Creatura grande",
-    "category": "beni"
+    "name": "Creatura grande"
   },
   {
     "slug": "bit-and-bridle",
-    "name": "Morso e briglie",
-    "category": "beni"
+    "name": "Morso e briglie"
   },
   {
     "slug": "dog-guard",
-    "name": "Cane da guardia",
-    "category": "beni"
+    "name": "Cane da guardia"
   },
   {
     "slug": "dog-riding",
-    "name": "Cane da sella",
-    "category": "beni"
+    "name": "Cane da sella"
   },
   {
     "slug": "donkey-or-mule",
-    "name": "Asino o mulo",
-    "category": "beni"
+    "name": "Asino o mulo"
   },
   {
     "slug": "feed-per-day",
-    "name": "Mangime (al giorno)",
-    "category": "beni"
+    "name": "Mangime (al giorno)"
   },
   {
     "slug": "horse",
-    "name": "Cavallo",
-    "category": "beni"
+    "name": "Cavallo"
   },
   {
     "slug": "horse-heavy",
-    "name": "Cavallo pesante",
-    "category": "beni"
+    "name": "Cavallo pesante"
   },
   {
     "slug": "horse-light",
-    "name": "Cavallo leggero",
-    "category": "beni"
+    "name": "Cavallo leggero"
   },
   {
     "slug": "pony",
-    "name": "Pony",
-    "category": "beni"
+    "name": "Pony"
   },
   {
     "slug": "warhorse-heavy",
-    "name": "Destriero pesante",
-    "category": "beni"
+    "name": "Destriero pesante"
   },
   {
     "slug": "warhorse-light",
-    "name": "Destriero leggero",
-    "category": "beni"
+    "name": "Destriero leggero"
   },
   {
     "slug": "warpony",
-    "name": "Pony da guerra",
-    "category": "beni"
+    "name": "Pony da guerra"
   },
   {
     "slug": "saddle",
-    "name": "Sella",
-    "category": "beni"
+    "name": "Sella"
   },
   {
     "slug": "military",
-    "name": "Militare",
-    "category": "beni"
+    "name": "Militare"
   },
   {
     "slug": "pack",
-    "name": "Da soma",
-    "category": "beni"
+    "name": "Da soma"
   },
   {
     "slug": "riding",
-    "name": "Da cavalcatura",
-    "category": "beni"
+    "name": "Da cavalcatura"
   },
   {
     "slug": "saddle-exotic",
-    "name": "Sella esotica",
-    "category": "beni"
-  },
-  {
-    "slug": "military",
-    "name": "Militare",
-    "category": "beni"
-  },
-  {
-    "slug": "pack",
-    "name": "Da soma",
-    "category": "beni"
-  },
-  {
-    "slug": "riding",
-    "name": "Da cavalcatura",
-    "category": "beni"
+    "name": "Sella esotica"
   },
   {
     "slug": "saddlebags",
-    "name": "Bisacce da sella",
-    "category": "beni"
+    "name": "Bisacce da sella"
   },
   {
     "slug": "stabling-per-day",
-    "name": "Stalla (al giorno)",
-    "category": "beni"
+    "name": "Stalla (al giorno)"
   },
   {
     "slug": "carriage",
-    "name": "Carrozza",
-    "category": "beni"
+    "name": "Carrozza"
   },
   {
     "slug": "cart",
-    "name": "Carro",
-    "category": "beni"
+    "name": "Carro"
   },
   {
     "slug": "galley",
-    "name": "Galea",
-    "category": "beni"
+    "name": "Galea"
   },
   {
     "slug": "keelboat",
-    "name": "Barca a chiglia",
-    "category": "beni"
+    "name": "Barca a chiglia"
   },
   {
     "slug": "longship",
-    "name": "Drakkar",
-    "category": "beni"
+    "name": "Drakkar"
   },
   {
     "slug": "rowboat",
-    "name": "Barca a remi",
-    "category": "beni"
+    "name": "Barca a remi"
   },
   {
     "slug": "oar",
-    "name": "Remo",
-    "category": "beni"
+    "name": "Remo"
   },
   {
     "slug": "sailing-ship",
-    "name": "Veliero",
-    "category": "beni"
+    "name": "Veliero"
   },
   {
     "slug": "sled",
-    "name": "Slitta",
-    "category": "beni"
+    "name": "Slitta"
   },
   {
     "slug": "wagon",
-    "name": "Carro da trasporto",
-    "category": "beni"
+    "name": "Carro da trasporto"
   },
   {
     "slug": "warship",
-    "name": "Nave da guerra",
-    "category": "beni"
+    "name": "Nave da guerra"
   },
   {
     "slug": "coach-cab",
-    "name": "Carrozza a noleggio",
-    "category": "beni"
+    "name": "Carrozza a noleggio"
   },
   {
     "slug": "hireling-trained",
-    "name": "Mercenario addestrato",
-    "category": "beni"
+    "name": "Mercenario addestrato"
   },
   {
     "slug": "hireling-untrained",
-    "name": "Mercenario non addestrato",
-    "category": "beni"
+    "name": "Mercenario non addestrato"
   },
   {
     "slug": "messenger",
-    "name": "Messaggero",
-    "category": "beni"
+    "name": "Messaggero"
   },
   {
     "slug": "road-or-gate-toll",
-    "name": "Pedaggio stradale o di porta",
-    "category": "beni"
+    "name": "Pedaggio stradale o di porta"
   },
   {
     "slug": "ship-s-passage",
-    "name": "Passaggio su nave",
-    "category": "beni"
+    "name": "Passaggio su nave"
   },
   {
     "slug": "spell-0-level",
-    "name": "Incantesimo, livello 0",
-    "category": "beni"
+    "name": "Incantesimo, livello 0"
   },
   {
     "slug": "spell-1st-level",
-    "name": "Incantesimo, livello 1",
-    "category": "beni"
+    "name": "Incantesimo, livello 1"
   },
   {
     "slug": "spell-2nd-level",
-    "name": "Incantesimo, livello 2",
-    "category": "beni"
+    "name": "Incantesimo, livello 2"
   },
   {
     "slug": "spell-3rd-level",
-    "name": "Incantesimo, livello 3",
-    "category": "beni"
+    "name": "Incantesimo, livello 3"
   },
   {
     "slug": "spell-4th-level",
-    "name": "Incantesimo, livello 4",
-    "category": "beni"
+    "name": "Incantesimo, livello 4"
   },
   {
     "slug": "spell-5th-level",
-    "name": "Incantesimo, livello 5",
-    "category": "beni"
+    "name": "Incantesimo, livello 5"
   },
   {
     "slug": "spell-6th-level",
-    "name": "Incantesimo, livello 6",
-    "category": "beni"
+    "name": "Incantesimo, livello 6"
   },
   {
     "slug": "spell-7th-level",
-    "name": "Incantesimo, livello 7",
-    "category": "beni"
+    "name": "Incantesimo, livello 7"
   },
   {
     "slug": "spell-8th-level",
-    "name": "Incantesimo, livello 8",
-    "category": "beni"
+    "name": "Incantesimo, livello 8"
   },
   {
     "slug": "spell-9th-level",
-    "name": "Incantesimo, livello 9",
-    "category": "beni"
+    "name": "Incantesimo, livello 9"
   }
 ]
