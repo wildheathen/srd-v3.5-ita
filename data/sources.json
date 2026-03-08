@@ -5,10 +5,10 @@
     "abbreviation": "SRD",
     "abbreviation_it": "SRD"
   },
-  "PHB": {
+  "PH": {
     "name_en": "Player's Handbook",
     "name_it": "Manuale del Giocatore 3.5",
-    "abbreviation": "PHB",
+    "abbreviation": "PH",
     "abbreviation_it": "MdG"
   },
   "DMG": {
@@ -35,10 +35,10 @@
     "abbreviation": "CD",
     "abbreviation_it": "PS"
   },
-  "CA": {
+  "CAr": {
     "name_en": "Complete Arcane",
     "name_it": "Perfetto Arcanista",
-    "abbreviation": "CA",
+    "abbreviation": "CAr",
     "abbreviation_it": "PA"
   },
   "CAd": {
@@ -47,22 +47,22 @@
     "abbreviation": "CAd",
     "abbreviation_it": "PAv"
   },
-  "RoS": {
+  "RS": {
     "name_en": "Races of Stone",
     "name_it": "Razze di Pietra",
-    "abbreviation": "RoS",
+    "abbreviation": "RS",
     "abbreviation_it": "RdP"
   },
-  "RoD": {
+  "RD": {
     "name_en": "Races of Destiny",
     "name_it": "Razze del Destino",
-    "abbreviation": "RoD",
+    "abbreviation": "RD",
     "abbreviation_it": "RdD"
   },
-  "BoED": {
+  "BE": {
     "name_en": "Book of Exalted Deeds",
     "name_it": "Libro delle Imprese Eroiche",
-    "abbreviation": "BoED",
+    "abbreviation": "BE",
     "abbreviation_it": "LIE"
   },
   "PlH": {
@@ -71,10 +71,10 @@
     "abbreviation": "PlH",
     "abbreviation_it": "AP"
   },
-  "Drac": {
+  "Dr": {
     "name_en": "Draconomicon",
     "name_it": "Draconomicon",
-    "abbreviation": "Drac",
+    "abbreviation": "Dr",
     "abbreviation_it": "Drac"
   },
   "LM": {
@@ -89,29 +89,23 @@
     "abbreviation": "LoM",
     "abbreviation_it": "SdF"
   },
-  "HoH": {
+  "HH": {
     "name_en": "Heroes of Horror",
     "name_it": "Eroi dell'Orrore",
-    "abbreviation": "HoH",
+    "abbreviation": "HH",
     "abbreviation_it": "EdO"
   },
-  "FC1": {
+  "FCI": {
     "name_en": "Fiendish Codex I: Hordes of the Abyss",
     "name_it": "Codex Immondo I: Orde dell'Abisso",
-    "abbreviation": "FC1",
+    "abbreviation": "FCI",
     "abbreviation_it": "CI1"
   },
-  "BoVD": {
+  "BV": {
     "name_en": "Book of Vile Darkness",
-    "abbreviation": "BoVD",
+    "abbreviation": "BV",
     "name_it": "Libro delle Fosche Tenebre",
     "abbreviation_it": "LFT"
-  },
-  "CArc": {
-    "name_en": "Complete Arcane",
-    "abbreviation": "CArc",
-    "name_it": "Perfetto Arcanista",
-    "abbreviation_it": "PA"
   },
   "CC": {
     "name_en": "Complete Champion",
@@ -119,21 +113,15 @@
     "name_it": "Campione Completo",
     "abbreviation_it": "CC"
   },
-  "CDiv": {
-    "name_en": "Complete Divine",
-    "abbreviation": "CDiv",
-    "name_it": "Perfetto Sacerdote",
-    "abbreviation_it": "PS"
-  },
   "CM": {
     "name_en": "Complete Mage",
     "abbreviation": "CM",
     "name_it": "Mago Completo",
     "abbreviation_it": "MC"
   },
-  "CPsi": {
+  "CP": {
     "name_en": "Complete Psionic",
-    "abbreviation": "CPsi",
+    "abbreviation": "CP",
     "name_it": "Psionico Completo",
     "abbreviation_it": "PsiC"
   },
@@ -155,9 +143,9 @@
     "name_it": "City of Splendors: Waterdeep",
     "abbreviation_it": "CSW"
   },
-  "CSc": {
+  "Ci": {
     "name_en": "CityScape",
-    "abbreviation": "CSc",
+    "abbreviation": "Ci",
     "name_it": "Scena Urbana",
     "abbreviation_it": "SU"
   },
@@ -167,9 +155,9 @@
     "name_it": "Champions of Valor",
     "abbreviation_it": "CV"
   },
-  "D": {
+  "Dra": {
     "name_en": "Dragonmarked",
-    "abbreviation": "D",
+    "abbreviation": "Dra",
     "name_it": "Dragonmarked",
     "abbreviation_it": "D"
   },
@@ -185,51 +173,45 @@
     "name_it": "Divinita e Semidei",
     "abbreviation_it": "DeS"
   },
-  "DF": {
+  "DrF": {
     "name_en": "Dragons of Faerun",
-    "abbreviation": "DF",
+    "abbreviation": "DrF",
     "name_it": "Dragons of Faerun",
     "abbreviation_it": "DF"
   },
-  "DFAG": {
+  "DF": {
     "name_en": "Defenders of the Faith",
-    "abbreviation": "DFAG",
+    "abbreviation": "DF",
     "name_it": "Defenders of the Faith",
     "abbreviation_it": "DFAG"
   },
-  "DLCS": {
+  "DCS": {
     "name_en": "Dragonlance Campaign Setting",
-    "abbreviation": "DLCS",
+    "abbreviation": "DCS",
     "name_it": "Dragonlance Campaign Setting",
     "abbreviation_it": "DLCS"
   },
-  "DSc": {
+  "Du": {
     "name_en": "Dungeonscape",
-    "abbreviation": "DSc",
+    "abbreviation": "Du",
     "name_it": "Scena del Dungeon",
     "abbreviation_it": "SdD"
   },
-  "DotU": {
+  "DrU": {
     "name_en": "Drow of the Underdark",
-    "abbreviation": "DotU",
+    "abbreviation": "DrU",
     "name_it": "Drow of the Underdark",
     "abbreviation_it": "DotU"
   },
-  "DrC": {
-    "name_en": "Dragon Compendium",
-    "abbreviation": "DrC",
-    "name_it": "Dragon Compendium",
-    "abbreviation_it": "DrC"
-  },
-  "DrM": {
+  "DM": {
     "name_en": "Dragon Magic",
-    "abbreviation": "DrM",
+    "abbreviation": "DM",
     "name_it": "Magia Draconica",
     "abbreviation_it": "MD"
   },
-  "ECR": {
+  "Rav": {
     "name_en": "Expedition to Castle Ravenloft",
-    "abbreviation": "ECR",
+    "abbreviation": "Rav",
     "name_it": "Expedition to Castle Ravenloft",
     "abbreviation_it": "ECR"
   },
@@ -251,15 +233,15 @@
     "name_it": "Explorer's Handbook",
     "abbreviation_it": "EH"
   },
-  "ELH": {
+  "EL": {
     "name_en": "Epic Level Handbook",
-    "abbreviation": "ELH",
+    "abbreviation": "EL",
     "name_it": "Manuale dei Livelli Epici",
     "abbreviation_it": "MLE"
   },
-  "FC2": {
+  "FCII": {
     "name_en": "Fiendish Codex II: Tyrants of the Nine Hells",
-    "abbreviation": "FC2",
+    "abbreviation": "FCII",
     "name_it": "Fiendish Codex II: Tyrants of the Nine Hells",
     "abbreviation_it": "FC2"
   },
@@ -293,21 +275,21 @@
     "name_it": "Forgotten Realms Campaign Setting",
     "abbreviation_it": "FRCS"
   },
-  "Frost": {
+  "Fr": {
     "name_en": "Frostburn",
-    "abbreviation": "Frost",
+    "abbreviation": "Fr",
     "name_it": "Gelo e Ghiaccio",
     "abbreviation_it": "GeG"
   },
-  "G": {
+  "Gh": {
     "name_en": "Ghostwalk",
-    "abbreviation": "G",
+    "abbreviation": "Gh",
     "name_it": "Ghostwalk",
     "abbreviation_it": "G"
   },
-  "HoB": {
+  "HB": {
     "name_en": "Heroes of Battle",
-    "abbreviation": "HoB",
+    "abbreviation": "HB",
     "name_it": "Eroi di Battaglia",
     "abbreviation_it": "EdB"
   },
@@ -317,27 +299,27 @@
     "name_it": "Lords of Darkness",
     "abbreviation_it": "LD"
   },
-  "LEF": {
+  "LE": {
     "name_en": "Lost Empires of Faerun",
-    "abbreviation": "LEF",
+    "abbreviation": "LE",
     "name_it": "Lost Empires of Faerun",
     "abbreviation_it": "LEF"
   },
-  "MCMF": {
+  "Mon": {
     "name_en": "Monster Compendium: Monsters of Faerun",
-    "abbreviation": "MCMF",
+    "abbreviation": "Mon",
     "name_it": "Monster Compendium: Monsters of Faerun",
     "abbreviation_it": "MCMF"
   },
-  "ME": {
+  "MoE": {
     "name_en": "Magic of Eberron",
-    "abbreviation": "ME",
+    "abbreviation": "MoE",
     "name_it": "Magic of Eberron",
     "abbreviation_it": "ME"
   },
-  "MF": {
+  "Mag": {
     "name_en": "Magic of Faerun",
-    "abbreviation": "MF",
+    "abbreviation": "Mag",
     "name_it": "Magic of Faerun",
     "abbreviation_it": "MF"
   },
@@ -353,9 +335,9 @@
     "name_it": "Manual of the Planes",
     "abbreviation_it": "MP"
   },
-  "MWAG": {
+  "MW": {
     "name_en": "Masters of the Wild",
-    "abbreviation": "MWAG",
+    "abbreviation": "MW",
     "name_it": "Masters of the Wild",
     "abbreviation_it": "MWAG"
   },
@@ -377,21 +359,21 @@
     "name_it": "Power of Faerun",
     "abbreviation_it": "PF"
   },
-  "PGE": {
+  "PE": {
     "name_en": "Player's Guide to Eberron",
-    "abbreviation": "PGE",
+    "abbreviation": "PE",
     "name_it": "Player's Guide to Eberron",
     "abbreviation_it": "PGE"
   },
-  "PGF": {
+  "PG": {
     "name_en": "Player's Guide to Faerun",
-    "abbreviation": "PGF",
+    "abbreviation": "PG",
     "name_it": "Player's Guide to Faerun",
     "abbreviation_it": "PGF"
   },
-  "PHB2": {
+  "PH2": {
     "name_en": "Player's Handbook II",
-    "abbreviation": "PHB2",
+    "abbreviation": "PH2",
     "name_it": "Manuale del Giocatore II",
     "abbreviation_it": "MdG2"
   },
@@ -401,45 +383,45 @@
     "name_it": "Player's Handbook 3.0",
     "abbreviation_it": "PHB3.0"
   },
-  "RF": {
+  "Rac": {
     "name_en": "Races of Faerun",
-    "abbreviation": "RF",
+    "abbreviation": "Rac",
     "name_it": "Races of Faerun",
     "abbreviation_it": "RF"
   },
-  "RTEE": {
+  "RT": {
     "name_en": "Return to the Temple of Elemental Evil",
-    "abbreviation": "RTEE",
+    "abbreviation": "RT",
     "name_it": "Return to the Temple of Elemental Evil",
     "abbreviation_it": "RTEE"
   },
-  "RoE": {
+  "RE": {
     "name_en": "Races of Eberron",
-    "abbreviation": "RoE",
+    "abbreviation": "RE",
     "name_it": "Races of Eberron",
     "abbreviation_it": "RoE"
   },
-  "RoW": {
+  "RW": {
     "name_en": "Races of the Wild",
-    "abbreviation": "RoW",
+    "abbreviation": "RW",
     "name_it": "Razze Selvagge",
     "abbreviation_it": "RS"
   },
-  "RotDr": {
+  "RDr": {
     "name_en": "Races of the Dragon",
-    "abbreviation": "RotDr",
+    "abbreviation": "RDr",
     "name_it": "Races of the Dragon",
     "abbreviation_it": "RotDr"
   },
-  "SCT": {
+  "Sh": {
     "name_en": "Sharn: City of Towers",
-    "abbreviation": "SCT",
+    "abbreviation": "Sh",
     "name_it": "Sharn: City of Towers",
     "abbreviation_it": "SCT"
   },
-  "SFAG": {
+  "SF": {
     "name_en": "Sword and Fist",
-    "abbreviation": "SFAG",
+    "abbreviation": "SF",
     "name_it": "Sword and Fist",
     "abbreviation_it": "SFAG"
   },
@@ -455,15 +437,15 @@
     "name_it": "Silver Marches",
     "abbreviation_it": "SM"
   },
-  "SS": {
+  "ShS": {
     "name_en": "Shining South",
-    "abbreviation": "SS",
+    "abbreviation": "ShS",
     "name_it": "Shining South",
     "abbreviation_it": "SS"
   },
-  "SSAG": {
+  "SaS": {
     "name_en": "Song and Silence",
-    "abbreviation": "SSAG",
+    "abbreviation": "SaS",
     "name_it": "Song and Silence",
     "abbreviation_it": "SSAG"
   },
@@ -473,27 +455,27 @@
     "name_it": "Secrets of Xen'drik",
     "abbreviation_it": "SX"
   },
-  "Sand": {
+  "Sa": {
     "name_en": "Sandstorm",
-    "abbreviation": "Sand",
+    "abbreviation": "Sa",
     "name_it": "Sabbia e Polvere",
     "abbreviation_it": "SeP"
   },
-  "Storm": {
+  "Sto": {
     "name_en": "Stormwrack",
-    "abbreviation": "Storm",
+    "abbreviation": "Sto",
     "name_it": "Stormwrack",
     "abbreviation_it": "Storm"
   },
-  "TBAG": {
+  "TB": {
     "name_en": "Tome and Blood",
-    "abbreviation": "TBAG",
+    "abbreviation": "TB",
     "name_it": "Tome and Blood",
     "abbreviation_it": "TBAG"
   },
-  "TSGS": {
+  "ShG": {
     "name_en": "The Shattered Gates of Slaughtergarde",
-    "abbreviation": "TSGS",
+    "abbreviation": "ShG",
     "name_it": "The Shattered Gates of Slaughtergarde",
     "abbreviation_it": "TSGS"
   },
@@ -503,15 +485,15 @@
     "name_it": "Tomo della Battaglia",
     "abbreviation_it": "TdB"
   },
-  "ToM": {
+  "TM": {
     "name_en": "Tome of Magic",
-    "abbreviation": "ToM",
+    "abbreviation": "TM",
     "name_it": "Tomo della Magia",
     "abbreviation_it": "TdM"
   },
-  "U": {
+  "Und": {
     "name_en": "Underdark",
-    "abbreviation": "U",
+    "abbreviation": "Und",
     "name_it": "Underdark",
     "abbreviation_it": "U"
   },
@@ -521,17 +503,11 @@
     "name_it": "Arcani Rivelati",
     "abbreviation_it": "AR"
   },
-  "UE": {
+  "Una": {
     "name_en": "Unapproachable East",
-    "abbreviation": "UE",
+    "abbreviation": "Una",
     "name_it": "Unapproachable East",
     "abbreviation_it": "UE"
-  },
-  "Und": {
-    "name_en": "Underdark",
-    "abbreviation": "Und",
-    "name_it": "Underdark",
-    "abbreviation_it": "Und"
   },
   "W": {
     "name_en": "Web",
@@ -551,9 +527,9 @@
     "name_it": "Manuale Psionico Espanso",
     "abbreviation_it": "MPE"
   },
-  "AEG": {
+  "AE": {
     "name_en": "Arms and Equipment Guide",
-    "abbreviation": "AEG",
+    "abbreviation": "AE",
     "name_it": "Arms and Equipment Guide",
     "abbreviation_it": "AEG"
   },
@@ -563,9 +539,9 @@
     "name_it": "Guida del Dungeon Master II",
     "abbreviation_it": "GdDM2"
   },
-  "EE": {
+  "ElE": {
     "name_en": "Elder Evils",
-    "abbreviation": "EE",
+    "abbreviation": "ElE",
     "name_it": "Elder Evils",
     "abbreviation_it": "EE"
   },
@@ -575,9 +551,9 @@
     "name_it": "Enemies and Allies",
     "abbreviation_it": "EA"
   },
-  "ExE": {
+  "EE": {
     "name_en": "Exemplars of Evil",
-    "abbreviation": "ExE",
+    "abbreviation": "EE",
     "name_it": "Exemplars of Evil",
     "abbreviation_it": "ExE"
   },
@@ -623,15 +599,15 @@
     "name_it": "Psionics Handbook 3.0",
     "abbreviation_it": "PsiHB"
   },
-  "RHD": {
+  "RH": {
     "name_en": "Red Hand of Doom",
-    "abbreviation": "RHD",
+    "abbreviation": "RH",
     "name_it": "Red Hand of Doom",
     "abbreviation_it": "RHD"
   },
-  "SavS": {
+  "SS": {
     "name_en": "Savage Species",
-    "abbreviation": "SavS",
+    "abbreviation": "SS",
     "name_it": "Specie Selvagge",
     "abbreviation_it": "SS"
   },
@@ -641,22 +617,226 @@
     "name_it": "Secrets of Sarlona",
     "abbreviation_it": "SoS"
   },
-  "SStL": {
+  "SSL": {
     "name_en": "Shadowdale: The Scouring of the Land",
-    "abbreviation": "SStL",
+    "abbreviation": "SSL",
     "name_it": "Shadowdale: The Scouring of the Land",
     "abbreviation_it": "SStL"
   },
-  "SBG": {
+  "SB": {
     "name_en": "Stronghold Builder's Guidebook",
-    "abbreviation": "SBG",
+    "abbreviation": "SB",
     "name_it": "Stronghold Builder's Guidebook",
     "abbreviation_it": "SBG"
   },
-  "DoE": {
+  "DE": {
     "name_en": "Dragons of Eberron",
-    "abbreviation": "DoE",
+    "abbreviation": "DE",
     "name_it": "Dragons of Eberron",
     "abbreviation_it": "DoE"
+  },
+  "An": {
+    "name_en": "Anauroch: The Empire of Shade",
+    "name_it": "",
+    "abbreviation": "An",
+    "abbreviation_it": ""
+  },
+  "BFK": {
+    "name_en": "Barrow of the Forgotten King",
+    "name_it": "",
+    "abbreviation": "BFK",
+    "abbreviation_it": ""
+  },
+  "BB": {
+    "name_en": "Bastion of Broken Souls",
+    "name_it": "",
+    "abbreviation": "BB",
+    "abbreviation_it": ""
+  },
+  "BC": {
+    "name_en": "Book of Challenges: Dungeon Rooms, Puzzles, and Traps",
+    "name_it": "",
+    "abbreviation": "BC",
+    "abbreviation_it": ""
+  },
+  "CiP": {
+    "name_en": "City of Peril",
+    "name_it": "",
+    "abbreviation": "CiP",
+    "abbreviation_it": ""
+  },
+  "CSQ": {
+    "name_en": "City of the Spider Queen",
+    "name_it": "",
+    "abbreviation": "CSQ",
+    "abbreviation_it": ""
+  },
+  "Co": {
+    "name_en": "Cormyr: The Tearing of the Weave",
+    "name_it": "",
+    "abbreviation": "Co",
+    "abbreviation_it": ""
+  },
+  "DG": {
+    "name_en": "D&D Gazetteer",
+    "name_it": "",
+    "abbreviation": "DG",
+    "abbreviation_it": ""
+  },
+  "DH": {
+    "name_en": "Deep Horizon",
+    "name_it": "",
+    "abbreviation": "DH",
+    "abbreviation_it": ""
+  },
+  "ERG": {
+    "name_en": "Expedition to the Ruins of Greyhawk",
+    "name_it": "",
+    "abbreviation": "ERG",
+    "abbreviation_it": ""
+  },
+  "EU": {
+    "name_en": "Expedition to Undermountain",
+    "name_it": "",
+    "abbreviation": "EU",
+    "abbreviation_it": ""
+  },
+  "FLFD": {
+    "name_en": "Fantastic Locations: Fane of the Drow",
+    "name_it": "",
+    "abbreviation": "FLFD",
+    "abbreviation_it": ""
+  },
+  "FLFR": {
+    "name_en": "Fantastic Locations: Fields of Ruin",
+    "name_it": "",
+    "abbreviation": "FLFR",
+    "abbreviation_it": ""
+  },
+  "FLHP": {
+    "name_en": "Fantastic Locations: Hellspike Prison",
+    "name_it": "",
+    "abbreviation": "FLHP",
+    "abbreviation_it": ""
+  },
+  "Fo": {
+    "name_en": "Forge of Fury, The",
+    "name_it": "",
+    "abbreviation": "Fo",
+    "abbreviation_it": ""
+  },
+  "FW": {
+    "name_en": "Forge of War, The",
+    "name_it": "",
+    "abbreviation": "FW",
+    "abbreviation_it": ""
+  },
+  "FY": {
+    "name_en": "Fortress of the Yuan-Ti",
+    "name_it": "",
+    "abbreviation": "FY",
+    "abbreviation_it": ""
+  },
+  "GHR": {
+    "name_en": "Grand History of the Realms",
+    "name_it": "",
+    "abbreviation": "GHR",
+    "abbreviation_it": ""
+  },
+  "GC": {
+    "name_en": "Grasp of the Emerald Claw",
+    "name_it": "",
+    "abbreviation": "GC",
+    "abbreviation_it": ""
+  },
+  "HN": {
+    "name_en": "Heart of Nightfang Spire",
+    "name_it": "",
+    "abbreviation": "HN",
+    "abbreviation_it": ""
+  },
+  "HBG": {
+    "name_en": "Hero Builder's Guidebook",
+    "name_it": "",
+    "abbreviation": "HBG",
+    "abbreviation_it": ""
+  },
+  "LG": {
+    "name_en": "Living Greyhawk Gazetteer",
+    "name_it": "",
+    "abbreviation": "LG",
+    "abbreviation_it": ""
+  },
+  "LF": {
+    "name_en": "Lord of the Iron Fortress",
+    "name_it": "",
+    "abbreviation": "LF",
+    "abbreviation_it": ""
+  },
+  "Mys": {
+    "name_en": "Mysteries of the Moonsea",
+    "name_it": "",
+    "abbreviation": "Mys",
+    "abbreviation_it": ""
+  },
+  "RC": {
+    "name_en": "Rules Compendium",
+    "name_it": "",
+    "abbreviation": "RC",
+    "abbreviation_it": ""
+  },
+  "SL": {
+    "name_en": "Shadows of the Last War",
+    "name_it": "",
+    "abbreviation": "SL",
+    "abbreviation_it": ""
+  },
+  "SiS": {
+    "name_en": "Sinister Spire, The",
+    "name_it": "",
+    "abbreviation": "SiS",
+    "abbreviation_it": ""
+  },
+  "SG": {
+    "name_en": "Sons of Gruumsh",
+    "name_it": "",
+    "abbreviation": "SG",
+    "abbreviation_it": ""
+  },
+  "SD": {
+    "name_en": "Speaker in Dreams, The",
+    "name_it": "",
+    "abbreviation": "SD",
+    "abbreviation_it": ""
+  },
+  "StS": {
+    "name_en": "Standing Stone, The",
+    "name_it": "",
+    "abbreviation": "StS",
+    "abbreviation_it": ""
+  },
+  "SC": {
+    "name_en": "Sunless Citadel, The",
+    "name_it": "",
+    "abbreviation": "SC",
+    "abbreviation_it": ""
+  },
+  "VGD": {
+    "name_en": "Voyage of the Golden Dragon",
+    "name_it": "",
+    "abbreviation": "VGD",
+    "abbreviation_it": ""
+  },
+  "WB": {
+    "name_en": "Whispers of the Vampire's Blade",
+    "name_it": "",
+    "abbreviation": "WB",
+    "abbreviation_it": ""
+  },
+  "SpC": {
+    "name_en": "Spell Compendium",
+    "name_it": "Compendio degli Incantesimi",
+    "abbreviation": "SpC",
+    "abbreviation_it": "CdI"
   }
 }

@@ -568,11 +568,12 @@ async function populateMonsterFilters() {
     crSel.innerHTML += `<option value="${esc(cr)}">CR ${esc(cr)}</option>`;
   });
 
-  // Types
+  // Types — extract base creature type, stripping size prefix and subtypes
+  const SIZES = /^(?:Fine|Diminutive|Tiny|Small|Medium(?:-Size)?|Large|Huge|Gargantuan|Colossal)\s+/i;
   const types = new Set();
   data.forEach((m) => {
     if (m.type) {
-      const base = m.type.replace(/\s*\(.*\)/, '').trim();
+      const base = m.type.replace(/\s*\(.*\)/, '').replace(SIZES, '').trim();
       if (base) types.add(base);
     }
   });
@@ -662,6 +663,9 @@ async function renderResults() {
         if (item._name_en && item._name_en.toLowerCase().includes(q)) return true;
         const plain = stripHtml(item.desc_html);
         if (plain.toLowerCase().includes(q)) return true;
+        // Also search short_description and description
+        if (item.short_description && item.short_description.toLowerCase().includes(q)) return true;
+        if (item.description && item.description.toLowerCase().includes(q)) return true;
         // Also search benefit/special for feats
         if (item.benefit && stripHtml(item.benefit).toLowerCase().includes(q)) return true;
         return false;
@@ -727,7 +731,7 @@ async function renderResults() {
     const cr = document.getElementById('filter-cr')?.value;
     const mtype = document.getElementById('filter-mtype')?.value;
     if (cr) filtered = filtered.filter((m) => m.challenge_rating === cr);
-    if (mtype) filtered = filtered.filter((m) => m.type && m.type.replace(/\s*\(.*\)/, '').trim() === mtype);
+    if (mtype) filtered = filtered.filter((m) => m.type && m.type.replace(/\s*\(.*\)/, '').replace(/^(?:Fine|Diminutive|Tiny|Small|Medium(?:-Size)?|Large|Huge|Gargantuan|Colossal)\s+/i, '').trim() === mtype);
   } else if (currentTab === 'skills') {
     const cat = document.getElementById('filter-skill-category')?.value;
     const ability = document.getElementById('filter-ability')?.value;
@@ -1290,6 +1294,10 @@ function renderSpell(s) {
     [t('detail.spell.spell_resistance'), s.spell_resistance],
   ];
   let html = renderDetailTitle(s) + renderFields(fields);
+  // Show short_description as summary line
+  if (s.short_description) {
+    html += `<div class="spell-summary"><em>${esc(s.short_description)}</em></div>`;
+  }
   // Show summary if no full description
   if (!s.desc_html && s.summary_it) {
     html += `<div class="desc-html"><p><em>${esc(s.summary_it)}</em></p></div>`;

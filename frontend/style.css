@@ -878,6 +878,14 @@ main {
   font-size: 0.95rem;
 }
 
+#detail-panel .spell-summary {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  color: var(--text-secondary, #888);
+  font-size: 0.9em;
+  border-left: 3px solid var(--accent);
+}
+
 #detail-panel .desc-html {
   margin-top: 1rem;
   line-height: 1.6;

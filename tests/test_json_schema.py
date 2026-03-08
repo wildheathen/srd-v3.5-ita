@@ -40,6 +40,18 @@ class TestSpells:
         for s in spells:
             assert s.get('school'), f'Empty school for {s["name"]}'
 
+    def test_short_description_coverage(self, spells):
+        has_short = sum(1 for s in spells if s.get('short_description'))
+        assert has_short > 3000, f'Expected 3000+ spells with short_description, got {has_short}'
+
+    def test_no_known_typos(self, spells):
+        typos = {'Brillant Aura', 'Curse of Licanthropy', 'Energy Votex',
+                 'Spell Resistence, Mass', 'Summon Greather Elemental',
+                 'Insigna of Blessing'}
+        names = {s['name'] for s in spells}
+        found = typos & names
+        assert not found, f'Known typos still present: {found}'
+
 
 # ── Feat schema ──────────────────────────────────────────────────────────
 
@@ -75,7 +87,7 @@ class TestClasses:
         return load_json('classes')
 
     def test_has_entries(self, classes):
-        assert len(classes) > 20, f'Expected 20+ classes, got {len(classes)}'
+        assert len(classes) > 500, f'Expected 500+ classes, got {len(classes)}'
 
     def test_required_fields(self, classes):
         required = {'name', 'slug'}
@@ -97,7 +109,7 @@ class TestMonsters:
         return load_json('monsters')
 
     def test_has_entries(self, monsters):
-        assert len(monsters) > 200, f'Expected 200+ monsters, got {len(monsters)}'
+        assert len(monsters) > 1000, f'Expected 1000+ monsters, got {len(monsters)}'
 
     def test_required_fields(self, monsters):
         required = {'name', 'slug'}
@@ -160,3 +172,25 @@ class TestSkills:
         for s in skills:
             missing = required - set(s.keys())
             assert not missing, f'Skill {s.get("name","?")} missing: {missing}'
+
+
+# ── Sources schema ──────────────────────────────────────────────────────
+
+class TestSources:
+    @pytest.fixture(scope='class')
+    def sources(self):
+        with open(DATA_DIR / 'sources.json', encoding='utf-8') as f:
+            return json.load(f)
+
+    def test_has_entries(self, sources):
+        assert len(sources) > 100, f'Expected 100+ sources, got {len(sources)}'
+
+    def test_required_fields(self, sources):
+        for key, val in sources.items():
+            assert val.get('name_en'), f'Source {key} missing name_en'
+            assert val.get('abbreviation'), f'Source {key} missing abbreviation'
+
+    def test_no_duplicate_abbreviations(self, sources):
+        abbrs = [v['abbreviation'] for v in sources.values()]
+        dupes = [a for a in set(abbrs) if abbrs.count(a) > 1]
+        assert not dupes, f'Duplicate abbreviations: {dupes}'
