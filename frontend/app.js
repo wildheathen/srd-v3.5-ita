@@ -193,6 +193,7 @@ document.querySelectorAll('.tab').forEach((btn) => {
     searchInput.value = '';
     searchClear.classList.add('hidden');
     detailPanel.classList.add('hidden');
+    document.querySelector('main').classList.remove('mobile-detail-active');
     const hideSearch = currentTab === 'prepared' || currentTab === 'learned' || currentTab === 'translation-status';
     searchInput.closest('.search-wrapper').style.display = hideSearch ? 'none' : '';
     buildFilters();
@@ -1216,13 +1217,12 @@ function showDetail(item, overrideTab) {
   detailPanel.innerHTML = `<button class="detail-close" aria-label="Chiudi">&times;</button>` + renderDetail(item, tab);
   detailPanel.querySelector('.detail-close').addEventListener('click', () => {
     detailPanel.classList.add('hidden');
+    document.querySelector('main').classList.remove('mobile-detail-active');
   });
   if (window.innerWidth <= 768) {
-    // On mobile, use setTimeout to ensure layout is complete before scrolling
-    setTimeout(() => {
-      const y = detailPanel.getBoundingClientRect().top + window.pageYOffset - 10;
-      window.scrollTo({ top: y, behavior: 'smooth' });
-    }, 50);
+    // Mobile master-detail: hide list, show only detail panel
+    document.querySelector('main').classList.add('mobile-detail-active');
+    window.scrollTo({ top: 0, behavior: 'instant' });
   }
 }
 

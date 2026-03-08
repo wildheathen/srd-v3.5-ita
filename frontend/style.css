@@ -1467,6 +1467,16 @@ main {
     max-height: var(--content-height, 40vh);
   }
 
+  /* Mobile master-detail: hide list when detail is active */
+  main.mobile-detail-active #results-list {
+    display: none;
+  }
+
+  main.mobile-detail-active #detail-panel {
+    border-top: none;
+    margin-top: 0;
+  }
+
   #detail-panel .fields-grid {
     grid-template-columns: 1fr;
     gap: 0.15rem;
