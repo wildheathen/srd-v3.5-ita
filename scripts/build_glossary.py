@@ -605,17 +605,21 @@ def main():
     all_entries = standard + entities
 
     # Write Crowdin CSV format
+    # Crowdin expects: Term = source language, Term (XX) = target translation
+    # See: https://support.crowdin.com/glossary/#csv-xlsx-based-glossary
     with open(OUTPUT_PATH, 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
-        # Crowdin glossary header
-        writer.writerow(['Term (EN)', 'Translation (IT)', 'Part of Speech', 'Description', 'Domain'])
+        # Crowdin glossary header: Term = EN source, Term (IT) = IT translation
+        writer.writerow(['Term', 'Description', 'Part of Speech', 'Term (IT)', 'Description (IT)'])
         for entry in all_entries:
+            # Description combines domain and context info
+            desc = f"[{entry['domain']}] {entry['description']}" if entry['description'] else entry['domain']
             writer.writerow([
                 entry['term_en'],
-                entry['translation_it'],
+                desc,
                 entry['pos'],
-                entry['description'],
-                entry['domain'],
+                entry['translation_it'],
+                '',  # Description (IT) empty
             ])
 
     print(f'  Saved to: {OUTPUT_PATH}')
