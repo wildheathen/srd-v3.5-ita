@@ -590,11 +590,11 @@ main {
 .prepared-item .prep-info {
   flex: 1;
   min-width: 0;
+  cursor: pointer;
 }
 
 .prepared-item .prep-name {
   font-weight: 500;
-  cursor: pointer;
 }
 
 .prepared-item .meta {
@@ -602,7 +602,7 @@ main {
   color: var(--school-clr, var(--text-dim));
 }
 
-.prepared-item .prep-name:hover {
+.prepared-item .prep-info:hover .prep-name {
   color: var(--accent);
 }
 

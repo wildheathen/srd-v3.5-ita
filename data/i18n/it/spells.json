@@ -341,17 +341,6 @@
     "reference": "pag. 221"
   },
   {
-    "slug": "animal-messagger",
-    "name": "Animale Messaggero",
-    "summary_it": "Obbliga un animaletto a fare da messaggero.",
-    "school": "Ammaliamento",
-    "subschool": "Compulsione",
-    "descriptor": "Influenza Mentale",
-    "level": "Brd 2, Drd 2, Rgr 1",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 203"
-  },
-  {
     "slug": "animal-messenger",
     "name": "Messaggero Animale",
     "school": "Ammaliamento",
@@ -918,16 +907,6 @@
     "reference": "pag. 78"
   },
   {
-    "slug": "avascular",
-    "name": "Svuotamento di Sangue",
-    "summary_it": "Un raggio danneggia risucchiando il sangue.",
-    "school": "Necromanzia",
-    "descriptor": "Male, Morte",
-    "level": "Legame Mortale 7, Mag/Str 7",
-    "manual_name": "Liber Mortis",
-    "reference": "pag. 71"
-  },
-  {
     "slug": "avascular-mass",
     "name": "Svuotamento di Sangue",
     "summary_it": "Un raggio danneggia risucchiando il sangue.",
@@ -1067,15 +1046,6 @@
     "short_description": "Trasforma il soggetto in un animale innocuo",
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 257"
-  },
-  {
-    "slug": "baleful-utterance",
-    "name": "Pronuncia Funesta",
-    "summary_it": "Scaglia un attacco sonoro contro il bersaglio.",
-    "school": "Invocazione Minima",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 136"
   },
   {
     "slug": "balor-nimbus",
@@ -1263,15 +1233,6 @@
     "reference": "pag. 157"
   },
   {
-    "slug": "beguiling-influence",
-    "name": "Influenza Ingannevole",
-    "summary_it": "Migliora le capacità di relazione.",
-    "school": "Invocazione Minima",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 134"
-  },
-  {
     "slug": "belker-claws",
     "name": "Artigli del Belker",
     "summary_it": "Trasforma una mano del soggetto in un'arma letale.",
@@ -1280,15 +1241,6 @@
     "level": "Mag/Str 2",
     "manual_name": "Atlante Planare",
     "reference": "pag. 93"
-  },
-  {
-    "slug": "beshadowed-blast",
-    "name": "Deflagrazione Adombrata",
-    "summary_it": "Rende accecante la propria deflagrazione mistica.",
-    "school": "Invocazione Inferiore; Essenza Mistica",
-    "level": "Warlock 4",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 132"
   },
   {
     "slug": "bestow-curse",
@@ -1325,15 +1277,6 @@
     "level": "Mag/Str 1, Necromante del Terrore 1, Rancore 1",
     "manual_name": "Eroi dell'Orrore",
     "reference": "pag. 135"
-  },
-  {
-    "slug": "bewitching-blast",
-    "name": "Deflagrazione Confondente",
-    "summary_it": "La deflagrazione mistica confonde il bersaglio.",
-    "school": "Invocazione Superiore; Essenza Mistica",
-    "level": "Warlock 4",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 132"
   },
   {
     "slug": "binding",
@@ -1842,15 +1785,6 @@
     "reference": "pag. 81"
   },
   {
-    "slug": "breath-of-the-night",
-    "name": "Soffio della Notte",
-    "summary_it": "Crea una fitta nebbia che ostacola la visuale all'interno dell'area.",
-    "school": "Invocazione Minima",
-    "level": "Warlock 1",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 136"
-  },
-  {
     "slug": "breath-weapon-admixture",
     "name": "Arma a Soffio Mescolata",
     "summary_it": "Potenzia un'arma a soffio.",
@@ -1904,15 +1838,6 @@
     "level": "Santificato 3",
     "manual_name": "Libro delle Imprese Eroiche",
     "reference": "pag. 96"
-  },
-  {
-    "slug": "brimstone-blast",
-    "name": "Deflagrazione Sulfurea",
-    "summary_it": "La deflagrazione mistica brucia il bersaglio.",
-    "school": "Invocazione Inferiore; Essenza Mistica",
-    "level": "Warlock 3",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 133"
   },
   {
     "slug": "bulls-strength",
@@ -2352,15 +2277,6 @@
     "reference": "pag. 256"
   },
   {
-    "slug": "charm",
-    "name": "Charme",
-    "summary_it": "Affascina il bersaglio.",
-    "school": "Invocazione Inferiore",
-    "level": "Warlock 4",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 132"
-  },
-  {
     "slug": "charm-animal",
     "name": "Charme su Animali",
     "school": "Ammaliamento",
@@ -2508,15 +2424,6 @@
     "reference": "pag. 301"
   },
   {
-    "slug": "chilling-tentacles",
-    "name": "Tentacoli Gelidi",
-    "summary_it": "Tentacoli neri compaiono nell'area attaccando chi vi si trova provocando danni da freddo.",
-    "school": "Invocazione Superiore",
-    "level": "Warlock 5",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 136"
-  },
-  {
     "slug": "choose-destiny",
     "name": "Scegliere il Destino",
     "summary_it": "Raddoppia le capacità di successo nel fare qualcosa.",
@@ -2590,14 +2497,6 @@
     "short_description": "L'incantatore vede o sente a distanza per 1 minuto per livello",
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 214"
-  },
-  {
-    "slug": "clairaudienceclairvoyance",
-    "name": "Chiaroudienza/Chiaroveggenza",
-    "desc_html": "<p>per livello ) Chiaroudienza/chiaroveggenza crea un sensore magico invisibile in una locazione speci fica che permette all'incantatore di udire o vedere (a sua scelta) come se si trovasse su l posto . L'incantatore non necessita di una li nea di visuale o di effetto, ma deve trattarsi di un luogo conosciuto: un luogo familiare o comunque evidente (ad esempio dietr o una porta, dietro tin angolo, una radura in un bosco). Una volta selezionato il luogo, il sensore non si muove, ma l'incantatore può girarlo in tutte le direzioni per perlustrare l'area a piacimento. A differenza di altri in cantesimi di scrutamento, questo incantesi mo non permette a sensi potenziati magicamente o in modo soprannaturale di funzionare attraverso di esso. Se il luogo scelto è stato oscurato magicamente, l'incantatore non vedrà niente . Se vi è un'oscurità naturale, l'incantatore riuscirà a vedere nel raggio di 3 metri attorno al centro di effett o dell'incantesimo. Chiaroudienza/chiaroveggenza funziona solo sul piano di esistenza i n cui si trova in quel momento l'incantatore. . Focus arcano: Un piccolo corno (per udi-. re) o un occhio di vetro (per vedere). Clone Necromanzi a Questo incantesimo genera un duplicato inerte di una creatura . Se l'individuo originale è stato ucciso, la sua anima si trasferisce immediatamente nel clone, che fung e da corpo sostitutivo (purché l'anima sia libera e intenzionata a ritornare ; vedi la sezione \"Riportare in vita i morti \" , pagin a</p>\n<p>I resti fisici del corpo originale, se ne rimangono, diventano materia inerte e no n possono essere riportati in vita in seguito . Se la creatura originale ha raggiunto il termine del suo arco di vita naturale (cioè, è morta per cause naturali), qualsiasi tentativo di clonazione fallisce. Per creare il duplicato, è necessario u n campione di carne (non capelli, unghie , scaglie o simili) preso dal corpo in vita del- . l'originale del volume di almeno 15 cm'. Il. pezzo di carne non deve essere fresco, ma, deve esserne impedita la decomposizione, (ad esempio, con l'incantesimo riposo inviolato). Una volta che l'incantesimo è stat o lanciato, il duplicato deve crescere in un la boratorio per 2d4 mesi. Quando il clone viene completato, se l a creatura originale è già morta, l'anima entr a immediatamente nel clone. Il clone è fisicamente identico all'originale e possiede l a stessa personalità e gli stessi ricordi dell'ori- , ginale . Sotto altri aspetti, si deve considera-. re il clone come se fosse il personaggio ori-. ginale riportato in vita dai morti, compresa, la perdita di un livello odi 2 punti di Costi tuzione (se l'originale era un personaggio d i i° livello). Se questa modifica porta la Costi tuzione del clone a 0, l'incantesimo fallisce. Se la creatura originale ha perduto livelli da quando il campione di carne le è stato prelevato ed è morta a un livello inferiore a quello a cui sarebbe il clone, il clone risul tante ha un livello in meno rispetto a quel lo dell'originale al momento della morte . Questo incantesimo duplica solo il corpo e la mente dell'originale, non il suo equipaggiamento. Un duplicato può essere fatto crescer e mentre l'originale è ancora in vita, o quando l'anima dell'originale non è disponibile, ma il corpo risultante è solo un ammass o inerte di carne, che comincerà a marcire se non viene in qualche modo conservato . Componente materiale: 11 campione di carne e vari strumenti da laboratorio (del cost o di 1.000 mo). Focus: Strumenti speciali da laboratori_ (del costo di 500 mo).</p>",
-    "school": "Divinazione",
-    "subschool": "Scrutamento",
-    "target_area_effect": "Sensore magico"
   },
   {
     "slug": "clenched-fist",
@@ -3650,15 +3549,6 @@
     "reference": "pag. 222"
   },
   {
-    "slug": "curse-of-despair",
-    "name": "Maledizione della Disperazione",
-    "summary_it": "Infligge una maledizione ad un bersaglio.",
-    "school": "Invocazione Inferiore",
-    "level": "Warlock 4",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
-  },
-  {
     "slug": "curse-of-ill-fortune",
     "name": "Maledizione della Cattiva Sorte",
     "summary_it": "Scaglia una maledizione sul bersaglio.",
@@ -3777,33 +3667,6 @@
     "level": "Chr 5, Drd 5, Mag/Str 4",
     "manual_name": "Libro delle Imprese Eroiche",
     "reference": "pag. 105"
-  },
-  {
-    "slug": "dark-discorporation",
-    "name": "Scorporazione Oscura",
-    "summary_it": "Trasforma in uno sciame d'ombre a forma di pipistrello.",
-    "school": "Invocazione Oscura",
-    "level": "Warlock 8",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 136"
-  },
-  {
-    "slug": "dark-foresight",
-    "name": "Previsione Oscura",
-    "summary_it": "Conferisce il dono della preveggenza.",
-    "school": "Invocazione Oscura",
-    "level": "Warlock 9",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
-  },
-  {
-    "slug": "dark-one-s-own-luck",
-    "name": "Fortuna dell'Oscuro",
-    "summary_it": "Migliora i tiri salvezza.",
-    "school": "Invocazione Minima",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 134"
   },
   {
     "slug": "darkbolt",
@@ -4503,24 +4366,6 @@
     "reference": "pag. 102"
   },
   {
-    "slug": "devil-sight",
-    "name": "Vista del Diavolo",
-    "summary_it": "Permette di vedere nell'oscurità.",
-    "school": "Invocazione Minima",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 136"
-  },
-  {
-    "slug": "devour-magic",
-    "name": "Divora Magie",
-    "summary_it": "Dissolve magie provocando danni.",
-    "school": "Invocazione Superiore",
-    "level": "Warlock 6",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 134"
-  },
-  {
     "slug": "diamond-spray",
     "name": "Spruzzo di Diamante",
     "summary_it": "Infligge danni alle creature nell'area d'effetto.",
@@ -5151,36 +4996,6 @@
     "reference": "pag. 161"
   },
   {
-    "slug": "draconic-ally",
-    "name": "Alleato Draconico",
-    "summary_it": "Evoca un drago al servizio dell'incantatore.",
-    "school": "Evocazione",
-    "subschool": "Convocazione",
-    "level": "Drago 7, Mag/Str 7",
-    "manual_name": "Draconomicon",
-    "reference": "pag. 109"
-  },
-  {
-    "slug": "draconic-ally-greater",
-    "name": "Alleato Draconico Superiore",
-    "summary_it": "Evoca un drago al servizio dell'incantatore.",
-    "school": "Evocazione",
-    "subschool": "Convocazione",
-    "level": "Mag/Str 9",
-    "manual_name": "Draconomicon",
-    "reference": "pag. 110"
-  },
-  {
-    "slug": "draconic-ally-lesser",
-    "name": "Alleato Draconico Inferiore",
-    "summary_it": "Evoca un drago al servizio dell'incantatore.",
-    "school": "Evocazione",
-    "subschool": "Convocazione",
-    "level": "Mag/Str 5",
-    "manual_name": "Draconomicon",
-    "reference": "pag. 109"
-  },
-  {
     "slug": "draconic-might",
     "name": "Potere Draconico",
     "summary_it": "Potenzia un soggetto.",
@@ -5459,42 +5274,6 @@
     "reference": "pag. 108"
   },
   {
-    "slug": "eldritch-chain",
-    "name": "Catena Mistica",
-    "summary_it": "La deflagrazione mistica danneggia più bersagli.",
-    "school": "Invocazione Inferiore; Modifica Deflagrazione",
-    "level": "Warlock 4",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 131"
-  },
-  {
-    "slug": "eldritch-cone",
-    "name": "Cono Mistico",
-    "summary_it": "La deflagrazione mistica danneggia più bersagli.",
-    "school": "Invocazione Superiore; Modifica Deflagrazione",
-    "level": "Warlock 5",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 132"
-  },
-  {
-    "slug": "eldritch-doom",
-    "name": "Devastazione Mistica",
-    "summary_it": "La deflagrazione mistica danneggia più bersagli.",
-    "school": "Invocazione Oscura; Modifica Deflagrazione",
-    "level": "Warlock 8",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 133"
-  },
-  {
-    "slug": "eldritch-spear",
-    "name": "Lancia Mistica",
-    "summary_it": "Aumenta la gittata della deflagrazione mistica.",
-    "school": "Invocazione Minima; Modifica Deflagrazione",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
-  },
-  {
     "slug": "elemental-burst",
     "name": "Esplosione Elementale",
     "summary_it": "Un'esplosione elementale rilascia svariati effetti magici.",
@@ -5674,15 +5453,6 @@
     "reference": "pag. 80"
   },
   {
-    "slug": "enervating-shadow",
-    "name": "Ombra Debilitante",
-    "summary_it": "Ombre oscure avvolgono un'area intorno al warlock garantendogli vantaggi e provocando penalità agli altri.",
-    "school": "Invocazione Superiore",
-    "level": "Warlock 5",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
-  },
-  {
     "slug": "enervation",
     "name": "Debilitazione",
     "school": "Necromanzia",
@@ -5826,15 +5596,6 @@
     "short_description": "Gli attacchi a distanza contro l'incantatore hanno una probabilità del 20% di mancare il bersaglio",
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 288"
-  },
-  {
-    "slug": "entropic-warding",
-    "name": "Interdizione Entropica",
-    "summary_it": "Permette di dissimulare il proprio passaggio e provoca un ridotta probabilità di fallimento agli attacchi a distanza di cui si è bersaglio.",
-    "school": "Invocazione Minima",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 134"
   },
   {
     "slug": "enveloping-cocoon",
@@ -6158,17 +5919,6 @@
     "reference": "pag. 308"
   },
   {
-    "slug": "familiar-geas",
-    "name": "Costrizione Ereditaria",
-    "summary_it": "Impone un comando magico ad una creatura qualsiasi, che se non eseguito entro l'arco vitale si trasmette per via ereditaria.",
-    "school": "Ammaliamento",
-    "subschool": "Compulsione",
-    "descriptor": "Dipendente dal Linguaggio, Influenza Mentale",
-    "level": "Brd 6, Chr 8, Mag/Str 8",
-    "manual_name": "Eroi dell'Orrore",
-    "reference": "pag. 130"
-  },
-  {
     "slug": "familiar-pocket",
     "name": "Tasca per Famiglio",
     "summary_it": "Crea un rifugio extradimensionale per il famiglio dell'incantatore.",
@@ -6245,15 +5995,6 @@
     "reference": "pag. 277"
   },
   {
-    "slug": "fell-flight",
-    "name": "Volo Nefasto",
-    "summary_it": "Consente di volare.",
-    "school": "Invocazione Minima",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 136"
-  },
-  {
     "slug": "fell-the-greatest-foe",
     "name": "Abbattere Nemici Giganteschi",
     "summary_it": "Permette di fare più danni contro creature gigantesche.",
@@ -6291,17 +6032,6 @@
     "level": "Chr 7, Demoniaco 7, Mag/Str 7",
     "manual_name": "Codex Immondo I: Orde dell'Abisso",
     "reference": "pag. 94"
-  },
-  {
-    "slug": "fierce-pride-of-beastlands",
-    "name": "Feroce Orgoglio delle Terre Bestiali",
-    "summary_it": "Evoca alcune belve celestiali.",
-    "school": "Evocazione",
-    "subschool": "Convocazione",
-    "descriptor": "Bene, Caotico",
-    "level": "Chr 8, Mag/Str 8",
-    "manual_name": "Atlante Planare",
-    "reference": "pag. 97"
   },
   {
     "slug": "fiery-eyes",
@@ -6662,15 +6392,6 @@
     "reference": "pag. 250"
   },
   {
-    "slug": "flee-the-scene",
-    "name": "Fuggire di Scena",
-    "summary_it": "Porta istantaneamente in un punto non molto distante.",
-    "school": "Invocazione Inferiore",
-    "level": "Warlock 4",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 134"
-  },
-  {
     "slug": "flensing",
     "name": "Scuoiamento",
     "summary_it": "Strappa via la pelle da una creatura.",
@@ -7024,15 +6745,6 @@
     "reference": "pag. 165"
   },
   {
-    "slug": "frightful-blast",
-    "name": "Deflagrazione Terrificante",
-    "summary_it": "La deflagrazione mistica scuote il bersaglio.",
-    "school": "Invocazione Minima; Essenza Mistica",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 133"
-  },
-  {
     "slug": "gaseous-form",
     "name": "Forma Gassosa",
     "school": "Trasmutazione",
@@ -7341,23 +7053,6 @@
     "desc_html": "<p>Una sfera magica immobile e debolmente luccicante ti circonda ed esclude tutti gli effetti di incantesimi di 3° livello o inferiore. L'area o l'effetto di tali incantesimi non include l'area del <i>globo di invulnerabilità minore</i>. Tali incantesimi falliscono se lanciati all'interno del globo, il raggio è deviato, l'area è bloccata. Ma le creature all'interno del globo possono essere influenzate da incantesimi lanciati dall'esterno (a meno che il globo non blocchi la linea d'effetto).</p>"
   },
   {
-    "slug": "globe-of-invulnerability-minor",
-    "name": "Globo di Invulnerabilità Inferiore",
-    "summary_it": "Una sfera intangibile blocca tutti gli incantesimi fino ad un certo livello.",
-    "school": "Abiurazione",
-    "level": "Mag/Str 4",
-    "desc_html": "<p>Una sfera magica immobile e dotata di una debole luminescenza circonda l'incantatore escludendo gli effetti di qualunque magia fino al 3° livello.</p><p> L'area o l'effetto di tali incantesimi non influenza l'area del <i>globo di invulnerabilità inferiore</i>.</p><p> Questi incantesimi semplicemente non hanno effetto su qualsiasi bersaglio si trovi all'interno del globo.</p><p> Gli effetti esclusi comprendono capacità magiche e incantesimi o effetti magici derivanti da oggetti.</p><p> Qualunque tipo di incantesimo può comunque essere lanciato attraverso o all'esterno del globo magico.</p><p> Gli incantesimi di 4° livello o superiore non subiscono l'effetto del globo, né lo subiscono gli incantesimi già attivi quando viene lanciato il globo.</p><p> Quest'ultimo può essere distrutto da un dissolvi magie lanciato specificatamente su di esso, e non ad area di effetto.</p><p> L' incantatore può uscire e tornare all'interno del globo senza penalità.</p><p> Da notare che gli incantesimi non vengono annullati a meno che i loro effetti non interessino l'area del globo, e anche in quel caso non vengono dissolti, ma semplicemente soppressi.</p><p> Ad esempio, le creature all'interno del globo vedrebbero comunque un immagine speculare creata da un incantatore che si trovi all'esterno.</p><p> Se l'incantatore in questione entrasse nel globo, le immagini svanirebbero per riapparire nel momento in cui ne uscisse.</p><p> Allo stesso modo, un incantatore nell'area di effetto di un incantesimo luce avrebbe comunque luce a sufficienza per vedere, anche se la parte di area di effetto all'interno del globo non è illuminata.</p><p> Se un incantesimo presenta differenze di livello a seconda della classe del personaggio che lo lancia, si usa il livello appropriato all'incantatore per determinare se il <i>globo di invulnerabilità inferiore</i> è in grado di fermarlo.</p><p><i>Componente materiale: </i>Una piccola sfera di vetro o cristallo che si frantuma al termine dell'incantesimo.</p>",
-    "components": "V, S, M",
-    "casting_time": "1 azione standard",
-    "range": "3 m",
-    "target_area_effect": "Emanazione sferica del raggio di 3 m centrata sull'incantatore",
-    "duration": "1 round per livello (I)",
-    "spell_resistance": "No",
-    "short_description": "Impedisce gli effetti di incantesimi dal 1° al 3° livello",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 240"
-  },
-  {
     "slug": "glorious-raiment",
     "name": "Veste Gloriosa",
     "summary_it": "Rende magico un abito.",
@@ -7517,20 +7212,6 @@
     "short_description": "Rende scivoloso un quadrato con lato di 3 m o un oggetto",
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 306"
-  },
-  {
-    "slug": "greater",
-    "name": "Superiore (Nome Incantesimo)",
-    "desc_html": ""
-  },
-  {
-    "slug": "greater-status",
-    "name": "Status Superiore",
-    "summary_it": "Tiene sotto osservazione le condizioni degli alleati e permette di intervenire magicamente.",
-    "school": "Divinazione",
-    "level": "Chr 4, Comunità 4",
-    "manual_name": "Libro delle Imprese Eroiche",
-    "reference": "pag. 109"
   },
   {
     "slug": "guards-and-wards",
@@ -7979,15 +7660,6 @@
     "reference": "pag. 100"
   },
   {
-    "slug": "hellrime-blast",
-    "name": "Deflagrazione di Brina Infernale",
-    "summary_it": "La deflagrazione mistica divengano provoca congelamento.",
-    "school": "Invocazione Inferiore; Essenza Mistica",
-    "level": "Warlock 4",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 132"
-  },
-  {
     "slug": "helping-hand",
     "name": "Mano in Aiuto",
     "school": "Invocazione",
@@ -8119,15 +7791,6 @@
     "short_description": "I non morti non possono percepire la presenza di un soggetto per livello",
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 262"
-  },
-  {
-    "slug": "hideous-blow",
-    "name": "Colpo Orrendo",
-    "summary_it": "Permette di sferrare un terribile attacco in mischia.",
-    "school": "Invocazione Minima; Modifica Deflagrazione",
-    "level": "Warlock 1",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 132"
   },
   {
     "slug": "hideous-laughter",
@@ -8399,15 +8062,6 @@
     "school": "Illusione",
     "subschool": "Ombra",
     "level": "Lama Iettatrice 3"
-  },
-  {
-    "slug": "hungry-darkness",
-    "name": "Oscurità Famelica",
-    "summary_it": "Getta nell'oscurità e riempie di pipistrelli famelici l'area attorno all'oggetto bersaglio.",
-    "school": "Invocazione Inferiore",
-    "level": "Warlock 3",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
   },
   {
     "slug": "hunters-of-hades",
@@ -8989,40 +8643,12 @@
     "reference": "pag. 148"
   },
   {
-    "slug": "insigna-healing",
-    "name": "Distintivo di Guarigione",
-    "summary_it": "Cura chi indossa uno speciale distintivo.",
-    "school": "Evocazione",
-    "subschool": "Guarigione",
-    "level": "Brd 3, Chr 3",
-    "manual_name": "Razze del Destino",
-    "reference": "pag. 165"
-  },
-  {
-    "slug": "insigna-of-allarm",
-    "name": "Distintivo di Allarme",
-    "summary_it": "Manda un avviso mentale a chi indossa uno speciale distintivo.",
-    "school": "Abiurazione",
-    "level": "Brd 3, Chr 2, Pal 2",
-    "manual_name": "Razze del Destino",
-    "reference": "pag. 164"
-  },
-  {
     "slug": "insigna-of-blessing",
     "name": "Distintivo di Benedizione",
     "summary_it": "Rende coraggioso chi indossa uno speciale distintivo mandandogli anche un avviso mentale.",
     "school": "Ammaliamento",
     "subschool": "Compulsione",
     "descriptor": "Influenza Mentale",
-    "level": "Chr 3, Pal 3",
-    "manual_name": "Razze del Destino",
-    "reference": "pag. 165"
-  },
-  {
-    "slug": "insigna-warding",
-    "name": "Distintivo di Interdizione",
-    "summary_it": "Fornisce una certa chi indossa uno speciale distintivo mandandogli anche un avviso mentale.",
-    "school": "Abiurazione",
     "level": "Chr 3, Pal 3",
     "manual_name": "Razze del Destino",
     "reference": "pag. 165"
@@ -9463,15 +9089,6 @@
     "reference": "pag. 94"
   },
   {
-    "slug": "leaps-and-bounds",
-    "name": "Salti e Balzi",
-    "summary_it": "Dona grande agilità.",
-    "school": "Invocazione Minima",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 136"
-  },
-  {
     "slug": "legend-lore",
     "name": "Conoscenza delle Leggende",
     "school": "Divinazione",
@@ -9516,11 +9133,6 @@
     "level": "Drd 8",
     "manual_name": "Libro delle Imprese Eroiche",
     "reference": "pag. 107"
-  },
-  {
-    "slug": "lesser",
-    "name": "Minore (Nome Incantesimo)",
-    "desc_html": ""
   },
   {
     "slug": "levitate",
@@ -9984,17 +9596,6 @@
     "reference": "pag. 296"
   },
   {
-    "slug": "magic-armor",
-    "name": "Armatura Magica",
-    "summary_it": "Crea una barriera magica che protegge il corpo del bersaglio.",
-    "school": "Evocazione",
-    "subschool": "Creazione",
-    "descriptor": "Forza",
-    "level": "Mag/Str 1",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 206"
-  },
-  {
     "slug": "magic-aura",
     "name": "Aura Magica di Nystul",
     "school": "Illusione",
@@ -10423,10 +10024,6 @@
     "reference": "pag. 168"
   },
   {
-    "slug": "mass",
-    "name": "Di Massa (Nome Incantesimo)"
-  },
-  {
     "slug": "master-s-lament",
     "name": "Lamento del Padrone",
     "summary_it": "Aumenta la portata del legame tra padrone e famiglio.",
@@ -10585,15 +10182,6 @@
     "level": "Drd 6, Mag/Str 7",
     "manual_name": "Atlante Planare",
     "reference": "pag. 99"
-  },
-  {
-    "slug": "miasmic-cloud",
-    "name": "Nube di Miasmi",
-    "summary_it": "Crea una piccola nube tossica.",
-    "school": "Invocazione Minima",
-    "level": "Warlock 1",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
   },
   {
     "slug": "mind-blank",
@@ -11162,15 +10750,6 @@
     "reference": "pag. 204"
   },
   {
-    "slug": "noxious-blast",
-    "name": "Deflagrazione Malsana",
-    "summary_it": "La deflagrazione mistica nausea il bersaglio.",
-    "school": "Invocazione Superiore; Essenza Mistica",
-    "level": "Warlock 6",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 133"
-  },
-  {
     "slug": "oath-of-blood",
     "name": "Giuramento di Sangue",
     "summary_it": "Prolunga gli effetti di una costrizione anche oltre la morte del soggetto.",
@@ -11414,24 +10993,6 @@
     "reference": "pag. 250"
   },
   {
-    "slug": "otiluke-s-dissolving-screen",
-    "name": "Schermo Dissolvente di Otiluke",
-    "summary_it": "Uno schermo dissolve incantesimi posti su oggetti e creature.",
-    "school": "Abiurazione",
-    "level": "Mag/Str 4",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 121"
-  },
-  {
-    "slug": "otiluke-s-dissolving-screen-greater",
-    "name": "Schermo Dissolvente di Otiluke Superiore",
-    "summary_it": "Uno schermo dissolve incantesimi potenti posti su oggetti e creature.",
-    "school": "Abiurazione",
-    "level": "Mag/Str 7",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 121"
-  },
-  {
     "slug": "otyugh-swarm",
     "name": "Sciame di Otyugh",
     "summary_it": "Permette di creare otyugh.",
@@ -11548,15 +11109,6 @@
     "short_description": "Crea un passaggio attraverso pareti di legno e pietra",
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 268"
-  },
-  {
-    "slug": "path-of-shadow",
-    "name": "Sentiero d'Ombra",
-    "summary_it": "Consente di viaggiare rapidamente fra le ombre.",
-    "school": "Invocazione Oscura",
-    "level": "Warlock 6",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 136"
   },
   {
     "slug": "path-of-the-exalted",
@@ -11787,22 +11339,6 @@
     "level": "Brd 1, Lama Iettatrice 1"
   },
   {
-    "slug": "phantom-trap",
-    "name": "Trappola Fantasma",
-    "school": "Illusione",
-    "subschool": "Mascheramento",
-    "spell_resistance": "No",
-    "saving_throw": "Nessuno",
-    "casting_time": "1 azione standard",
-    "range": "Contatto",
-    "duration": "Permanente (C)",
-    "components": "V, S, M",
-    "level": "Str/Mag 2",
-    "target_area_effect": "Oggetto toccato",
-    "desc_html": "<p>Questo incantesimo fa sembrare un lucchetto o un altro piccolo meccanismo intrappolato a chiunque sia in grado di individuare trappole. Poni l'incantesimo su qualsiasi piccolo meccanismo o dispositivo, come un lucchetto, un cardine, un fermaglio, un tappo o un ingranaggio. Qualsiasi personaggio in grado di individuare trappole, o che usa un incantesimo o dispositivo che permette l'individuazione di trappole, è sicuro al 100% che esista una vera trappola. Naturalmente, l'effetto è illusorio e nulla viene realmente scaricato; la <i>trappola fantasma</i> è benigna.</p>\n<p>Se un'altra <i>trappola fantasma</i> è già presente sull'oggetto, questa non ha effetto. Questo incantesimo non influenza trappole reali in alcun modo.</p>\n<p><em>Componente Materiale:</em> Una speciale miscela di polveri del valore di 50 mo.</p>",
-    "short_description": "Fa apparire un oggetto protetto da una trappola"
-  },
-  {
     "slug": "phantom-wolf",
     "name": "Lupo Fantomatico",
     "summary_it": "Convoca un lupo fantomatico.",
@@ -12021,16 +11557,6 @@
     "level": "Chr 4",
     "manual_name": "Atlante Planare",
     "reference": "pag. 103"
-  },
-  {
-    "slug": "planar-shift-greater",
-    "name": "Spostamento Planare Superiore",
-    "summary_it": "Consente il viaggio extraplanare.",
-    "school": "Evocazione",
-    "subschool": "Teletrasporto",
-    "level": "Chr 7, Mag/Str 8",
-    "manual_name": "Atlante Planare",
-    "reference": "pag. 105"
   },
   {
     "slug": "planar-tolerance",
@@ -12618,15 +12144,6 @@
     "short_description": "Conferisce un bonus di resistenza +8",
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 275"
-  },
-  {
-    "slug": "protege",
-    "name": "Pupillo",
-    "summary_it": "Infonde in un'altra creatura le capacità bardiche dell'incantatore.",
-    "school": "Invocazione",
-    "level": "Brd 6",
-    "manual_name": "Perfetto Avventuriero",
-    "reference": "pag. 152"
   },
   {
     "slug": "proud-arrogance",
@@ -13384,15 +12901,6 @@
     "reference": "pag. 278"
   },
   {
-    "slug": "repelling-blast",
-    "name": "Deflagrazione Repellente",
-    "summary_it": "La deflagrazione mistica spinge via il bersaglio.",
-    "school": "Invocazione Superiore; Essenza Mistica",
-    "level": "Warlock 6",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 133"
-  },
-  {
     "slug": "repulsion",
     "name": "Repulsione",
     "school": "Abiurazione",
@@ -13624,15 +13132,6 @@
     "short_description": "Fa risorgere interamente il soggetto morto",
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 279"
-  },
-  {
-    "slug": "retributive-invisibility",
-    "name": "Invisibilità Punitiva",
-    "summary_it": "Rende invisibili.",
-    "school": "Invocazione Oscura",
-    "level": "Warlock 6",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 134"
   },
   {
     "slug": "revenance",
@@ -14144,15 +13643,6 @@
     "reference": "pag. 306"
   },
   {
-    "slug": "see-the-unseen",
-    "name": "Vedere l'Inosservabile",
-    "summary_it": "Permette di vedere ciò che è invisibile.",
-    "school": "Invocazione Minima",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 136"
-  },
-  {
     "slug": "seeming",
     "name": "Sembrare",
     "school": "Illusione",
@@ -14651,15 +14141,6 @@
     "level": "Santificato 5",
     "manual_name": "Libro delle Imprese Eroiche",
     "reference": "pag. 102"
-  },
-  {
-    "slug": "sickening-blast",
-    "name": "Deflagrazione Rivoltante",
-    "summary_it": "La deflagrazione mistica rende infermo il bersaglio.",
-    "school": "Invocazione Minima; Essenza Mistica",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 133"
   },
   {
     "slug": "sign-of-sealing",
@@ -15286,15 +14767,6 @@
     "reference": "pag. 258"
   },
   {
-    "slug": "spiderwalk",
-    "name": "Passo del Ragno",
-    "summary_it": "Permette di muoversi sui muri come i ragni.",
-    "school": "Invocazione Minima",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
-  },
-  {
     "slug": "spike-growth",
     "name": "Crescita di Spine",
     "school": "Trasmutazione",
@@ -15437,15 +14909,6 @@
     "level": "Chr 8, Piacere 8",
     "manual_name": "Libro delle Imprese Eroiche",
     "reference": "pag. 105"
-  },
-  {
-    "slug": "stalwart-path",
-    "name": "Patto di Prestanza",
-    "summary_it": "Potenzia un soggetto quando questi viene ferito gravemente.",
-    "school": "Invocazione",
-    "level": "Chr 5, Destino 5",
-    "manual_name": "Razze del Destino",
-    "reference": "pag. 166"
   },
   {
     "slug": "standing-wave",
@@ -16762,15 +16225,6 @@
     "reference": "pag. 297"
   },
   {
-    "slug": "tenacious-plague",
-    "name": "Piaga Tenace",
-    "summary_it": "Evoca uno sciame di insetti fastidiosi che occupano un'area disturbano e colpiscono chi vi si trova.",
-    "school": "Invocazione Superiore",
-    "level": "Warlock 6",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
-  },
-  {
     "slug": "terra-cotta-lion",
     "name": "Leone di Terracotta",
     "summary_it": "Anima una statuetta che combatte per l'incantatore.",
@@ -16787,15 +16241,6 @@
     "level": "Wu Jen 3 (terra)",
     "manual_name": "Perfetto Arcanista",
     "reference": "pag. 110"
-  },
-  {
-    "slug": "the-dead-walk",
-    "name": "Morti che Camminano",
-    "summary_it": "Trasforma i cadaveri in non morti pronti ad eseguire ordini.",
-    "school": "Invocazione Inferiore",
-    "level": "Warlock 4",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
   },
   {
     "slug": "thornskin",
@@ -17084,44 +16529,6 @@
     "short_description": "Imprigiona il soggetto all'interno di una gemma",
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 248"
-  },
-  {
-    "slug": "trasmute-metal-to-wood",
-    "name": "Trasmutare Metallo in Legno",
-    "summary_it": "Trasforma il metallo in legno.",
-    "school": "Trasmutazione",
-    "level": "Drd 7",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 304"
-  },
-  {
-    "slug": "trasmute-mud-to-rock",
-    "name": "Trasmutare Fango in Roccia",
-    "summary_it": "Trasforma il fango in roccia.",
-    "school": "Trasmutazione",
-    "descriptor": "Terra",
-    "level": "Drd 5, Mag/Str 5",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 304"
-  },
-  {
-    "slug": "trasmute-rock-to-mud",
-    "name": "Trasmutare Roccia in Fango",
-    "summary_it": "Trasforma la roccia in fango.",
-    "school": "Trasmutazione",
-    "descriptor": "Terra",
-    "level": "Drd 5, Mag/Str 5",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 304"
-  },
-  {
-    "slug": "trasport-via-plants",
-    "name": "Trasporto Vegetale",
-    "summary_it": "Pemette di entrare in una pianta ed uscire da un'altra indipendentemente dalla distanza che le separa.",
-    "school": "Trasmutazione",
-    "level": "Drd 6",
-    "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 305"
   },
   {
     "slug": "traveler-s-mount",
@@ -17459,15 +16866,6 @@
     "reference": "pag. 209"
   },
   {
-    "slug": "utterdark-blast",
-    "name": "Deflagrazione della Completa Oscurità",
-    "summary_it": "La deflagrazione mistica diventa un attacco di energia negativa.",
-    "school": "Invocazione Oscura; Essenza Mistica",
-    "level": "Warlock 8",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 132"
-  },
-  {
     "slug": "valiant-fury",
     "name": "Collera Valorosa",
     "summary_it": "Potenzia un soggetto.",
@@ -17569,15 +16967,6 @@
     "short_description": "La voce risuona lontana per 1 minuto per livello",
     "manual_name": "Manuale del Giocatore 3.5",
     "reference": "pag. 307"
-  },
-  {
-    "slug": "vetriolic-blast",
-    "name": "Deflagrazione al Vetriolo",
-    "summary_it": "La deflagrazione mistica corrode il bersaglio.",
-    "school": "Invocazione Superiore; Essenza Mistica",
-    "level": "Warlock 6",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 132"
   },
   {
     "slug": "vigor",
@@ -17753,24 +17142,6 @@
     "reference": "pag. 115"
   },
   {
-    "slug": "voidsense",
-    "name": "Percezione del Vuoto",
-    "summary_it": "Aumenta la capacità di percezione audiovisiva.",
-    "school": "Invocazione Inferiore",
-    "level": "Warlock 4",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
-  },
-  {
-    "slug": "voracious-dispelling",
-    "name": "Dissolvere Vorace",
-    "summary_it": "Dissolve magie provocando danni.",
-    "school": "Invocazione Inferiore",
-    "level": "Warlock 4",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 134"
-  },
-  {
     "slug": "vulnerability",
     "name": "Vulnerabilità",
     "summary_it": "Rende il soggetto più vulnerabile.",
@@ -17827,15 +17198,6 @@
     "level": "Drd3, Mag/Str 3",
     "manual_name": "Razze di Pietra",
     "reference": "pag. 164"
-  },
-  {
-    "slug": "walk-unseen",
-    "name": "Camminare Inosservato",
-    "summary_it": "Rende invisibili.",
-    "school": "Invocazione Inferiore",
-    "level": "Warlock 2",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 131"
   },
   {
     "slug": "wall-of-bones",
@@ -17943,15 +17305,6 @@
     "reference": "pag. 259"
   },
   {
-    "slug": "wall-of-perilous-flame",
-    "name": "Muro di Fiamme Perigliose",
-    "summary_it": "Crea un muro fatto di fiamme.",
-    "school": "Invocazione Superiore",
-    "level": "Warlock 5",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
-  },
-  {
     "slug": "wall-of-stone",
     "name": "Muro di Pietra",
     "school": "Evocazione",
@@ -18010,15 +17363,6 @@
     "level": "Chr 5",
     "manual_name": "Libro delle Imprese Eroiche",
     "reference": "pag. 98"
-  },
-  {
-    "slug": "warlock-s-call",
-    "name": "Chiamata del Warlock",
-    "summary_it": "Permette di inviare messaggi magicamente.",
-    "school": "Invocazione Superiore",
-    "level": "Warlock 5",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 132"
   },
   {
     "slug": "warp-destiny",
@@ -18431,15 +17775,6 @@
     "level": "Drd 1",
     "manual_name": "Perfetto Sacerdote",
     "reference": "pag. 189"
-  },
-  {
-    "slug": "word-of-changing",
-    "name": "Parola del Cambiamento",
-    "summary_it": "Trasforma il bersaglio in una creatura diversa ma innoqua.",
-    "school": "Invocazione",
-    "level": "Warlock 5",
-    "manual_name": "Perfetto Arcanista",
-    "reference": "pag. 135"
   },
   {
     "slug": "word-of-chaos",
