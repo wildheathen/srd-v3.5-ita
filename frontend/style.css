@@ -584,6 +584,9 @@ main {
 .result-item .meta {
   font-size: 0.8rem;
   margin-top: 0.15rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .no-results {
