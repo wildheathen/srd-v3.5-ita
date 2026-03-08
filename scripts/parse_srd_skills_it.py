@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """
-Parse Italian skill descriptions from the PDF SRD text and update skills overlay.
+Advanced parser for Italian SRD skill descriptions from PDF.
 
-Reads the raw text extracted from srd35_04_01_elencoabilita.pdf via pdftotext,
-parses each skill entry into structured fields matching the EN base data schema
-(check, action, try_again, special, synergy, restriction, untrained), and writes
-them as individual overlay fields so the frontend renders them in the proper
-sections (replacing the English text).
+Uses a hybrid approach (same as pdf_to_html.py):
+  1. pdftotext (flow mode) for complete text extraction
+  2. pdftotext -layout for table detection and column splitting
+  3. Raw PDF stream parsing for bold/italic font detection
 
-Also re-processes skills from the HTML conversion to fix bold formatting artifacts
-and extract individual fields.
+Produces structured overlay fields (check, action, special, etc.) with:
+  - Proper <table> HTML for DC/check tables
+  - <b> and <i> tags from PDF font analysis
+  - Sentence-based line breaks for readability
 
 Usage:
     python scripts/parse_srd_skills_it.py <pdf_path>           # apply changes
@@ -22,11 +23,25 @@ import subprocess
 import sys
 from pathlib import Path
 
+# Reuse formatting functions from pdf_to_html.py
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pdf_to_html import (
+    decompress_streams,
+    parse_font_map,
+    extract_formatted_fragments,
+    apply_bold_italic,
+    detect_table_lines,
+    split_table_columns,
+    table_lines_to_html,
+)
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 OVERLAY_PATH = DATA_DIR / "i18n" / "it" / "skills.json"
 BASE_PATH = DATA_DIR / "skills.json"
 HTML_SOURCE = ROOT / "sources" / "pdf-ita" / "04-abilita" / "elencoabilita.html"
+
+# ── Skill name mappings ─────────────────────────────────────────────────────
 
 # Mapping from Italian skill name (uppercase) to EN slug
 IT_SKILL_TO_SLUG = {
@@ -96,33 +111,148 @@ FIELD_MARKERS = [
     "Senza addestramento:",
 ]
 
+# Patterns that indicate the start of a DC table sidebar
+# These are detected and stripped from flow-mode text, then re-extracted
+# from layout mode as proper HTML tables
+TABLE_START_PATTERNS = [
+    r"CD di \w+\s*Esempio",
+    r"CD\s+Esempio di",
+    r"Atteggiamento\s+iniziale",
+    r"INFLUENZARE L'ATTEGGIAMENTO",
+    r"Modificatore alla CD di",
+    r"CD\s+Compito",
+    r"\d+\s+Una pendenza",
+]
 
-def extract_text_from_pdf(pdf_path):
-    """Extract text from PDF using pdftotext."""
-    result = subprocess.run(
-        ["pdftotext", str(pdf_path), "-"],
-        capture_output=True,
-    )
+
+# ── PDF text extraction ─────────────────────────────────────────────────────
+
+def extract_text_from_pdf(pdf_path, layout=False):
+    """Extract text from PDF using pdftotext.
+
+    Args:
+        pdf_path: Path to PDF file
+        layout: If True, use -layout mode (preserves spatial layout for tables)
+    """
+    cmd = ["pdftotext"]
+    if layout:
+        cmd.append("-layout")
+    cmd.extend([str(pdf_path), "-"])
+
+    result = subprocess.run(cmd, capture_output=True)
     if result.returncode != 0:
         print(f"Error running pdftotext: {result.stderr}")
         sys.exit(1)
-    # Try UTF-8 first, fall back to latin-1
-    try:
-        return result.stdout.decode("utf-8")
-    except UnicodeDecodeError:
-        return result.stdout.decode("latin-1")
+    for enc in ["utf-8", "latin-1", "cp1252"]:
+        try:
+            text = result.stdout.decode(enc)
+            if any(c in text for c in "àèéìòùÀÈÉÌÒÙ"):
+                return text
+        except Exception:
+            continue
+    return result.stdout.decode("latin-1")
 
+
+def extract_formatting_from_pdf(pdf_path):
+    """Extract bold and italic fragment sets from PDF stream analysis."""
+    with open(pdf_path, "rb") as f:
+        pdf_bytes = f.read()
+
+    font_map = parse_font_map(pdf_bytes)
+    streams = decompress_streams(pdf_bytes)
+    bold_set, italic_set = extract_formatted_fragments(streams, font_map)
+    return bold_set, italic_set
+
+
+# ── Table extraction from layout mode ───────────────────────────────────────
+
+def extract_tables_by_skill(layout_text, skill_boundaries):
+    """Extract HTML tables from layout-mode text for each skill.
+
+    Uses detect_table_lines from pdf_to_html.py to find table regions,
+    then associates them with the nearest skill heading.
+
+    Returns: dict slug → list of table HTML strings
+    """
+    lines = layout_text.split("\n")
+    table_ranges = detect_table_lines(lines)
+
+    # Build a mapping of line number → skill slug
+    skill_line_map = []
+    for slug, (start_line, end_line) in skill_boundaries.items():
+        skill_line_map.append((start_line, end_line, slug))
+    skill_line_map.sort()
+
+    # Associate each table with a skill
+    skill_tables = {}
+    for table_start, table_end in table_ranges:
+        # Find which skill owns this table range
+        owner_slug = None
+        for s_start, s_end, slug in skill_line_map:
+            if s_start <= table_start < s_end:
+                owner_slug = slug
+                break
+
+        if not owner_slug:
+            # Try nearest skill before this table
+            for s_start, s_end, slug in reversed(skill_line_map):
+                if s_start <= table_start:
+                    owner_slug = slug
+                    break
+
+        if owner_slug:
+            table_html = table_lines_to_html(
+                lines[table_start:table_end], set(), set()
+            )
+            if table_html:
+                skill_tables.setdefault(owner_slug, []).append(table_html)
+
+    return skill_tables
+
+
+def find_skill_boundaries_layout(layout_text):
+    """Find line ranges for each skill in layout-mode text.
+
+    Returns: dict slug → (start_line, end_line)
+    """
+    lines = layout_text.split("\n")
+    boundaries = {}
+    skill_starts = []
+
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        if not stripped:
+            continue
+
+        # Check for skill heading (ALL-CAPS name)
+        name_part = stripped.split("(")[0].strip().upper()
+        # Handle multi-word names that might wrap
+        for name, slug in IT_SKILL_TO_SLUG.items():
+            if name_part == name or stripped.upper().startswith(name + " ("):
+                skill_starts.append((i, slug))
+                break
+
+    # Build boundaries
+    for idx, (start, slug) in enumerate(skill_starts):
+        if idx + 1 < len(skill_starts):
+            end = skill_starts[idx + 1][0]
+        else:
+            end = len(lines)
+        boundaries[slug] = (start, end)
+
+    return boundaries
+
+
+# ── Flow-mode text parsing ──────────────────────────────────────────────────
 
 def parse_skills_from_text(text):
-    """Parse skill entries from raw PDF text.
+    """Parse skill entries from raw PDF text (flow mode).
 
     Returns dict: slug → {name_it, ability_info, fields}
-    where fields maps IT field names to text content.
     """
     lines = text.split("\n")
     skills = {}
 
-    # Find all skill heading positions
     skill_starts = []
     i = 0
     while i < len(lines):
@@ -131,15 +261,12 @@ def parse_skills_from_text(text):
             i += 1
             continue
 
-        # Handle headings where ability info is on the same line
         m = HEADING_RE.match(line)
         if m:
             potential_name = m.group(1).strip()
             ability_info = m.group(2) or ""
 
-            # Check if it's a known skill
             if potential_name in IT_SKILL_TO_SLUG:
-                # If ability_info is empty, check next line
                 if not ability_info and i + 1 < len(lines):
                     next_line = lines[i + 1].strip()
                     if next_line.startswith("(") and next_line.endswith(")"):
@@ -154,11 +281,9 @@ def parse_skills_from_text(text):
                 )
         i += 1
 
-    # Extract content for each skill
     for idx, (start_line, name, ability_info, content_start) in enumerate(
         skill_starts
     ):
-        # Content goes until the next skill heading or end of file
         if idx + 1 < len(skill_starts):
             end_line = skill_starts[idx + 1][0]
         else:
@@ -171,15 +296,12 @@ def parse_skills_from_text(text):
             if line.strip()
             and not line.strip().startswith("This material is Open Game")
         )
-
-        # Clean up multiple spaces
         content = re.sub(r"\s+", " ", content).strip()
 
         slug = IT_SKILL_TO_SLUG.get(name)
         if not slug:
             continue
 
-        # Parse fields from content
         fields = parse_skill_fields(content)
 
         skills[slug] = {
@@ -192,14 +314,9 @@ def parse_skills_from_text(text):
 
 
 def parse_skill_fields(content):
-    """Parse field sections from skill content text.
-
-    Returns dict with IT field names as keys (Prova, Azione, etc.)
-    and a 'preamble' key for text before the first field.
-    """
+    """Parse field sections from skill content text."""
     fields = {}
 
-    # Find positions of all field markers
     marker_positions = []
     for marker in FIELD_MARKERS:
         pos = 0
@@ -207,15 +324,12 @@ def parse_skill_fields(content):
             idx = content.find(marker, pos)
             if idx == -1:
                 break
-            # Make sure it's not inside a word
             if idx == 0 or not content[idx - 1].isalpha():
                 marker_positions.append((idx, marker))
             pos = idx + len(marker)
 
-    # Sort by position
     marker_positions.sort(key=lambda x: x[0])
 
-    # Extract preamble (text before first field)
     if marker_positions:
         preamble = content[: marker_positions[0][0]].strip()
         if preamble:
@@ -223,7 +337,6 @@ def parse_skill_fields(content):
     else:
         fields["preamble"] = content.strip()
 
-    # Extract each field
     for i, (pos, marker) in enumerate(marker_positions):
         field_name = marker.rstrip(":")
         start = pos + len(marker)
@@ -234,204 +347,107 @@ def parse_skill_fields(content):
 
         value = content[start:end].strip()
         if value:
-            # Strip DC table data that pdftotext appends at the end
-            # (sidebar tables in the PDF get extracted after the main text)
             value = strip_table_data(value)
             fields[field_name] = value
 
     return fields
 
 
-# Patterns that indicate the start of a DC table sidebar
-# These tables are already present in the EN base data as proper HTML tables
-TABLE_START_PATTERNS = [
-    r"CD di \w+\s*Esempio",       # "CD di Scalare Esempio di..."
-    r"CD\s+Esempio di",           # "CD Esempio di..."
-    r"Atteggiamento\s+iniziale",  # Diplomazia attitude table
-    r"INFLUENZARE L'ATTEGGIAMENTO",
-    r"Modificatore alla CD di",   # DC modifier tables
-    r"CD\s+Compito",              # "CD Compito" task tables
-    r"\d+\s+Una pendenza",        # Start of climb DC entries
-]
-
-
 def strip_table_data(text):
     """Remove DC table data that pdftotext appends from PDF sidebars.
 
-    The tables are already available in the EN base data with proper HTML
-    formatting. Keeping the flat text version would be confusing.
+    The tables are extracted separately from layout mode with proper formatting.
+    Finds the EARLIEST matching pattern to truncate at.
     """
+    earliest_pos = len(text)
     for pattern in TABLE_START_PATTERNS:
         m = re.search(pattern, text)
-        if m:
-            # Truncate at the start of the table data
-            truncated = text[:m.start()].strip()
-            if truncated:
-                return truncated
+        if m and m.start() < earliest_pos:
+            earliest_pos = m.start()
+
+    if earliest_pos < len(text):
+        truncated = text[:earliest_pos].strip()
+        if truncated:
+            return truncated
     return text
 
 
-def format_field_html(text):
-    """Wrap plain text in paragraph tags with sentence-based line breaks.
+# ── HTML formatting ─────────────────────────────────────────────────────────
 
-    Adds <p> wrapper and inserts <br> after sentences ending with periods
-    followed by capital letters (indicating a new sentence/paragraph in
-    the original PDF layout).
+def clean_bold_artifacts(html):
+    """Fix common bold formatting artifacts from PDF extraction.
+
+    The PDF has 'di', 'CD', 'e' etc. as separate bold fragments that
+    get incorrectly matched against the flow-mode text. This post-processing
+    removes or fixes these false positives.
+    """
+    # Remove bold from common short Italian prepositions/articles
+    for word in ["di", "del", "dei", "della", "delle", "e", "il", "la",
+                 "le", "lo", "gli", "in", "un", "una", "al", "per",
+                 "con", "da", "che", "non", "si", "se", "su", "o"]:
+        # Standalone bold word: <b>di</b>
+        html = re.sub(
+            rf"<b>{re.escape(word)}</b>",
+            word,
+            html,
+        )
+        # Merged bold: <b>diScalare</b> → di <b>Scalare</b>
+        html = re.sub(
+            rf"<b>{re.escape(word)}([A-ZÀÈÉÌÒÙ])",
+            rf"{word} <b>\1",
+            html,
+        )
+
+    # Remove bold from standalone 'CD' (it's an abbreviation, not emphasis)
+    html = re.sub(r"<b>CD</b>", "CD", html)
+
+    # Merge adjacent bold tags that got split: </b> <b> → space
+    html = re.sub(r"</b>\s*<b>", " ", html)
+
+    # Remove empty bold/italic tags
+    html = re.sub(r"<b>\s*</b>", "", html)
+    html = re.sub(r"<i>\s*</i>", "", html)
+
+    return html
+
+
+def format_field_html(text, bold_set, italic_set):
+    """Format a field's text as HTML with bold/italic and line breaks.
+
+    Uses the bold/italic fragment sets from PDF stream analysis,
+    then cleans up common artifacts.
     """
     if not text:
         return ""
 
-    # Add line breaks between distinct topics/paragraphs
-    # Pattern: sentence end (. ) followed by a new topic indicator
-    text = re.sub(
-        r'(\.) ([A-ZÀÈÉÌÒÙ])',
-        r'\1<br>\2',
-        text
+    # Apply bold/italic from PDF formatting analysis
+    html = apply_bold_italic(text, bold_set, italic_set)
+
+    # Clean up bold artifacts
+    html = clean_bold_artifacts(html)
+
+    # Add line breaks between sentences
+    html = re.sub(r"(\.) (?=(?:<[bi]>)*[A-ZÀÈÉÌÒÙ])", r"\1<br>", html)
+
+    return f"<p>{html}</p>"
+
+
+def break_long_html(html):
+    """Add line breaks to long HTML paragraphs for readability."""
+    # Break after periods followed by uppercase (new sentences)
+    html = re.sub(
+        r"(\.) (?=(?:<[bi]>)*[A-ZÀÈÉÌÒÙ])", r"\1<br>\n", html
     )
-
-    return f"<p>{text}</p>"
-
-
-def extract_skills_from_html(filepath):
-    """Extract skill entries from the Italian SRD HTML file.
-
-    Returns dict: slug → {fields dict with IT field names}
-    """
-    with open(filepath, encoding="utf-8") as f:
-        content = f.read()
-
-    body_match = re.search(r"<body>(.*)</body>", content, re.DOTALL)
-    if not body_match:
-        return {}
-    body = body_match.group(1)
-
-    # Split by h3 headings (skill entries)
-    parts = re.split(r"<h3>([^<]+)</h3>", body)
-
-    skills = {}
-    i = 1  # Skip preamble before first h3
-    while i < len(parts):
-        heading = parts[i].strip()
-        content_after = parts[i + 1] if i + 1 < len(parts) else ""
-        i += 2
-
-        # Parse heading: NAME (ABILITY; FLAGS)
-        m = re.match(r"(.+?)\s*\(([^)]+)\)", heading)
-        if not m:
-            continue
-
-        name = " ".join(m.group(1).split()).strip()
-        name_upper = name.upper()
-
-        slug = IT_SKILL_TO_SLUG.get(name_upper)
-        if not slug:
-            continue
-
-        # Clean the HTML content
-        desc = content_after.strip()
-
-        # Fix bold formatting artifacts from pdf_to_html.py
-        # Remove erroneous <b>di</b> (preposition wrongly bolded)
-        desc = re.sub(r'<b>di</b>', 'di', desc)
-        # Fix merged words like <b>diScalare</b> → di <b>Scalare</b>
-        desc = re.sub(
-            r'<b>di([A-ZÀÈÉÌÒÙ][a-zàèéìòù]+)</b>',
-            r'di \1',
-            desc
-        )
-        # Fix <b>CD</b> artifacts (CD is not bolded in the original)
-        desc = re.sub(r'<b>CD</b>', 'CD', desc)
-
-        # Normalize whitespace
-        desc = re.sub(r"\s+", " ", desc).strip()
-
-        # Parse fields from HTML content
-        fields = parse_html_skill_fields(desc)
-
-        skills[slug] = {
-            "name_it": name.title() if name.isupper() else name,
-            "fields": fields,
-            "source": "html",
-        }
-
-    return skills
+    return html
 
 
-def parse_html_skill_fields(html_content):
-    """Parse field sections from HTML skill content.
-
-    Handles both <b>Prova:</b> and <strong>Prova:</strong> patterns.
-    """
-    fields = {}
-    content = html_content
-
-    # Field markers in HTML (both <b> and <strong> variants)
-    html_markers = []
-    for marker_text in FIELD_MARKERS:
-        label = marker_text.rstrip(":")
-        # Match <b>Label:</b> or <strong>Label:</strong>
-        for tag in ["b", "strong"]:
-            pattern = f"<{tag}>{re.escape(label)}:</{tag}>"
-            for m in re.finditer(pattern, content, re.IGNORECASE):
-                html_markers.append((m.start(), m.end(), label))
-
-        # Also match plain text "Label:" at word boundary
-        pattern = rf"(?<![<\w]){re.escape(label)}:\s"
-        for m in re.finditer(pattern, content):
-            # Skip if inside a tag
-            before = content[:m.start()]
-            if before.count("<") > before.count(">"):
-                continue
-            html_markers.append((m.start(), m.end(), label))
-
-    # Deduplicate and sort by position
-    seen = set()
-    unique_markers = []
-    for start, end, label in sorted(html_markers, key=lambda x: x[0]):
-        if start not in seen:
-            seen.add(start)
-            unique_markers.append((start, end, label))
-
-    # Extract preamble
-    if unique_markers:
-        preamble = content[:unique_markers[0][0]].strip()
-        if preamble:
-            # Clean HTML tags from preamble for plain-text storage
-            fields["preamble"] = strip_tags(preamble)
-    else:
-        fields["preamble"] = strip_tags(content)
-
-    # Extract each field
-    for idx, (start, end, label) in enumerate(unique_markers):
-        if idx + 1 < len(unique_markers):
-            next_start = unique_markers[idx + 1][0]
-            value = content[end:next_start].strip()
-        else:
-            value = content[end:].strip()
-
-        # Clean trailing <br> tags
-        value = re.sub(r"\s*<br\s*/?>\s*$", "", value).strip()
-
-        if value:
-            fields[label] = strip_tags(value)
-
-    return fields
-
-
-def strip_tags(html):
-    """Remove HTML tags from text, preserving content."""
-    # First handle <br> → space
-    text = re.sub(r"<br\s*/?>", " ", html)
-    # Remove all other tags
-    text = re.sub(r"<[^>]+>", "", text)
-    # Normalize whitespace
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
-
+# ── Main logic ──────────────────────────────────────────────────────────────
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python scripts/parse_srd_skills_it.py <pdf_path> [--dry-run]")
+        print(
+            "Usage: python scripts/parse_srd_skills_it.py <pdf_path> [--dry-run]"
+        )
         sys.exit(1)
 
     pdf_path = Path(sys.argv[1])
@@ -444,36 +460,38 @@ def main():
     if dry_run:
         print("=== DRY RUN MODE (no files will be modified) ===\n")
 
-    # Extract text from PDF
+    # ── Step 1: Extract text (flow mode) ──
     print(f"Extracting text from {pdf_path}...")
-    text = extract_text_from_pdf(pdf_path)
-    print(f"  Got {len(text)} chars\n")
+    flow_text = extract_text_from_pdf(pdf_path, layout=False)
+    print(f"  Flow mode: {len(flow_text)} chars")
 
-    # Parse skills from PDF text
-    pdf_parsed = parse_skills_from_text(text)
-    print(f"Parsed {len(pdf_parsed)} skills from PDF text\n")
+    # ── Step 2: Extract text (layout mode, for tables) ──
+    layout_text = extract_text_from_pdf(pdf_path, layout=True)
+    print(f"  Layout mode: {len(layout_text)} chars")
 
-    # Parse skills from HTML source (if available)
-    html_parsed = {}
-    if HTML_SOURCE.exists():
-        html_parsed = extract_skills_from_html(HTML_SOURCE)
-        print(f"Parsed {len(html_parsed)} skills from HTML source\n")
+    # ── Step 3: Extract bold/italic from PDF streams ──
+    print("Analyzing PDF streams for bold/italic...")
+    bold_set, italic_set = extract_formatting_from_pdf(pdf_path)
+    print(f"  Bold fragments: {len(bold_set)}")
+    print(f"  Italic fragments: {len(italic_set)}")
 
-    # Merge: prefer PDF text for field extraction (cleaner text),
-    # but use HTML source as fallback
-    all_parsed = {}
-    for slug in set(list(pdf_parsed.keys()) + list(html_parsed.keys())):
-        if slug in pdf_parsed:
-            all_parsed[slug] = pdf_parsed[slug]
-        else:
-            all_parsed[slug] = html_parsed[slug]
+    # ── Step 4: Extract tables from layout mode ──
+    print("Detecting tables in layout mode...")
+    layout_boundaries = find_skill_boundaries_layout(layout_text)
+    skill_tables = extract_tables_by_skill(layout_text, layout_boundaries)
+    total_tables = sum(len(v) for v in skill_tables.values())
+    print(f"  Found {total_tables} tables across {len(skill_tables)} skills")
+    for slug, tables in sorted(skill_tables.items()):
+        print(f"    {slug}: {len(tables)} table(s)")
+    print()
 
-    print(f"Total unique skills: {len(all_parsed)}\n")
+    # ── Step 5: Parse skill fields from flow text ──
+    parsed = parse_skills_from_text(flow_text)
+    print(f"Parsed {len(parsed)} skills from PDF text\n")
 
-    # Load base and overlay
+    # ── Step 6: Load base and overlay ──
     with open(BASE_PATH, encoding="utf-8") as f:
         base = json.load(f)
-    # Build base_map preferring category=skill over skill_trick for duplicates
     base_map = {}
     for e in base:
         slug = e["slug"]
@@ -487,103 +505,81 @@ def main():
         overlay = []
     overlay_map = {e["slug"]: e for e in overlay}
 
-    # Update overlay with individual fields
+    # ── Step 7: Update overlay ──
     updated = 0
-    added = 0
 
-    for slug, skill_data in sorted(all_parsed.items()):
+    for slug, skill_data in sorted(parsed.items()):
         if slug not in base_map:
             print(f"  Warning: {slug} not in base, skipping")
             continue
 
         base_entry = base_map[slug]
         fields = skill_data["fields"]
+        tables = skill_tables.get(slug, [])
 
-        if slug in overlay_map:
-            entry = overlay_map[slug]
-            changes = []
+        if slug not in overlay_map:
+            print(f"  Warning: {slug} not in overlay, skipping")
+            continue
 
-            # Write individual fields (check, action, etc.)
-            for it_field, en_field in IT_FIELD_TO_EN.items():
-                it_text = fields.get(it_field, "")
-                if not it_text:
-                    continue
+        entry = overlay_map[slug]
+        changes = []
 
-                # Only update if EN base has this field (don't add fields
-                # that don't exist in the base)
-                if not base_entry.get(en_field):
-                    continue
+        # Write individual fields with bold/italic formatting
+        for it_field, en_field in IT_FIELD_TO_EN.items():
+            it_text = fields.get(it_field, "")
+            if not it_text:
+                continue
 
-                # Only update if overlay doesn't have it yet
-                if not entry.get(en_field, "").strip():
-                    html_val = format_field_html(it_text)
-                    if not dry_run:
-                        entry[en_field] = html_val
-                    changes.append(f"+{en_field}")
+            if not base_entry.get(en_field):
+                continue
 
-            # Remove old desc_html if we now have individual fields
-            # (individual fields are preferred by the frontend)
-            if changes and entry.get("desc_html"):
-                if not dry_run:
-                    del entry["desc_html"]
-                changes.append("-desc_html (replaced by fields)")
+            # Build HTML with formatting
+            field_html = format_field_html(it_text, bold_set, italic_set)
 
-            # Update translation_source
-            if changes and "translation_source" not in entry:
-                if not dry_run:
-                    entry["translation_source"] = "pdf"
-                    entry["reviewed"] = False
-
-            if changes:
-                updated += 1
-                print(f"  Updated {slug}: {', '.join(changes)}")
-        else:
-            # Create new entry
-            new_entry = {
-                "slug": slug,
-                "name": skill_data["name_it"],
-                "translation_source": "pdf",
-                "reviewed": False,
-            }
-
-            for it_field, en_field in IT_FIELD_TO_EN.items():
-                it_text = fields.get(it_field, "")
-                if it_text and base_entry.get(en_field):
-                    new_entry[en_field] = format_field_html(it_text)
+            # Append tables to the 'check' field (where DC tables belong)
+            if en_field == "check" and tables:
+                field_html += "\n" + "\n".join(tables)
 
             if not dry_run:
-                overlay.append(new_entry)
-                overlay_map[slug] = new_entry
-            added += 1
-            print(f"  Added {slug}: {skill_data['name_it']}")
+                entry[en_field] = field_html
+            changes.append(f"+{en_field}")
+
+        # Set desc_html to empty to suppress English fallback
+        if changes:
+            if not dry_run:
+                entry["desc_html"] = ""
+            changes.append("desc_html='' (suppress EN)")
+
+        # Update translation_source to 'pdf' for all fields we touched
+        if changes:
+            if not dry_run:
+                entry["translation_source"] = "pdf"
+                entry["reviewed"] = False
+
+            updated += 1
+            print(f"  Updated {slug}: {', '.join(changes)}")
 
     # Summary
     print(f"\nSummary:")
-    print(f"  PDF skills parsed:  {len(pdf_parsed)}")
-    print(f"  HTML skills parsed: {len(html_parsed)}")
-    print(f"  Updated: {updated} overlay entries")
-    print(f"  Added:   {added} new overlay entries")
+    print(f"  Skills parsed: {len(parsed)}")
+    print(f"  Tables found:  {total_tables}")
+    print(f"  Updated:       {updated} overlay entries")
 
-    # Count field coverage
+    # Field coverage
     field_counts = {en: 0 for en in IT_FIELD_TO_EN.values()}
+    table_count = 0
     for entry in overlay:
         for en_field in IT_FIELD_TO_EN.values():
             if entry.get(en_field):
                 field_counts[en_field] += 1
-    print(f"\n  Field coverage in overlay:")
+        if any("<table" in (entry.get(f) or "") for f in IT_FIELD_TO_EN.values()):
+            table_count += 1
+    print(f"\n  Field coverage:")
     for field, count in sorted(field_counts.items()):
         print(f"    {field}: {count}")
+    print(f"  Skills with tables: {table_count}")
 
-    # Show unmatched
-    known_slugs = set(IT_SKILL_TO_SLUG.values())
-    parsed_slugs = set(all_parsed.keys())
-    missing = known_slugs - parsed_slugs
-    if missing:
-        print(f"\n  Skills in mapping but not parsed ({len(missing)}):")
-        for s in sorted(missing):
-            print(f"    {s}")
-
-    if not dry_run and (updated > 0 or added > 0):
+    if not dry_run and updated > 0:
         overlay.sort(key=lambda e: e.get("slug", ""))
         with open(OVERLAY_PATH, "w", encoding="utf-8") as f:
             json.dump(overlay, f, ensure_ascii=False, indent=2)
