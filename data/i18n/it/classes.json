@@ -30,10 +30,6 @@
     "name": "Aerial Avenger"
   },
   {
-    "slug": "agent-retriever",
-    "name": "Agent Retriever"
-  },
-  {
     "slug": "aglarondan-griffonrider",
     "name": "Aglarondan Griffonrider"
   },
@@ -116,10 +112,6 @@
     "name": "Atavist"
   },
   {
-    "slug": "auspician",
-    "name": "Auspician"
-  },
-  {
     "slug": "avenging-executioner",
     "name": "Avenging Executioner"
   },
@@ -154,10 +146,6 @@
   {
     "slug": "battle-dancer",
     "name": "Battle Dancer"
-  },
-  {
-    "slug": "battle-scion",
-    "name": "Battle Scion"
   },
   {
     "slug": "battle-sorcerer",
@@ -200,20 +188,12 @@
     "name": "Bereft"
   },
   {
-    "slug": "berserk",
-    "name": "Berserk"
-  },
-  {
     "slug": "binder",
     "name": "Binder"
   },
   {
     "slug": "black-blood-cultist",
     "name": "Black Blood Cultist"
-  },
-  {
-    "slug": "black-blood-hunter",
-    "name": "Black Blood Hunter"
   },
   {
     "slug": "black-dog",
@@ -278,16 +258,8 @@
     "name": "Bonded Summoner"
   },
   {
-    "slug": "bone-collector",
-    "name": "Bone Collector"
-  },
-  {
     "slug": "bone-knight",
     "name": "Bone Knight"
-  },
-  {
-    "slug": "breachgnome",
-    "name": "Breachgnome"
   },
   {
     "slug": "broken-one-monk",
@@ -300,10 +272,6 @@
   {
     "slug": "cancer-mage",
     "name": "Cancer Mage"
-  },
-  {
-    "slug": "candle-caster",
-    "name": "Candle Caster"
   },
   {
     "slug": "cannith-wand-adept",
@@ -324,10 +292,6 @@
   {
     "slug": "cavestalker",
     "name": "Cavestalker"
-  },
-  {
-    "slug": "celebrant-of-sharess",
-    "name": "Celebrant of Sharess"
   },
   {
     "slug": "celestial-mystic",
@@ -392,10 +356,6 @@
     "name": "Cloud Anchorite"
   },
   {
-    "slug": "cognition-thief",
-    "name": "Cognition Thief"
-  },
-  {
     "slug": "coiled-cabalist",
     "name": "Coiled Cabalist"
   },
@@ -428,10 +388,6 @@
   {
     "slug": "corrupt-avenger",
     "name": "Vendicatore Corrotto"
-  },
-  {
-    "slug": "cosmic-descryer",
-    "name": "Cosmic Descryer"
   },
   {
     "slug": "court-herald",
@@ -498,10 +454,6 @@
     "name": "Dark Scholar"
   },
   {
-    "slug": "darkmask",
-    "name": "Darkmask"
-  },
-  {
     "slug": "darkrunner",
     "name": "Scorridore delle Tenebre"
   },
@@ -532,10 +484,6 @@
   {
     "slug": "deaths-chosen",
     "name": "Prescelto della Morte"
-  },
-  {
-    "slug": "deathwarden-chanter",
-    "name": "Deathwarden Chanter"
   },
   {
     "slug": "deep-diviner",
@@ -662,10 +610,6 @@
     "name": "Divine Disciple"
   },
   {
-    "slug": "divine-emissary",
-    "name": "Divine Emissary"
-  },
-  {
     "slug": "divine-mind",
     "name": "Divine Mind"
   },
@@ -688,14 +632,6 @@
   {
     "slug": "domain-wizard",
     "name": "Domain Wizard"
-  },
-  {
-    "slug": "doomdreamer",
-    "name": "Doomdreamer"
-  },
-  {
-    "slug": "doomguide",
-    "name": "Doomguide"
   },
   {
     "slug": "doomlord",
@@ -842,14 +778,6 @@
     "name": "Maestro dell'Effigie"
   },
   {
-    "slug": "eidolon",
-    "name": "Eidolon"
-  },
-  {
-    "slug": "eidoloncer",
-    "name": "Eidoloncer"
-  },
-  {
     "slug": "eldeen-ranger",
     "name": "Eldeen Ranger"
   },
@@ -866,10 +794,6 @@
   {
     "slug": "eldritch-theurge",
     "name": "Eldritch Theurge"
-  },
-  {
-    "slug": "elemental-archon",
-    "name": "Elemental Archon"
   },
   {
     "slug": "elemental-master",
@@ -912,68 +836,8 @@
     "name": "Effimero Esemplare"
   },
   {
-    "slug": "epic-assassin",
-    "name": "Epic Assassin"
-  },
-  {
     "slug": "epic-barbarian",
     "name": "Epic Barbarian"
-  },
-  {
-    "slug": "epic-bard",
-    "name": "Epic Bard"
-  },
-  {
-    "slug": "epic-blackguard",
-    "name": "Epic Blackguard"
-  },
-  {
-    "slug": "epic-druid",
-    "name": "Epic Druid"
-  },
-  {
-    "slug": "epic-dwarven-defender",
-    "name": "Epic Dwarven Defender"
-  },
-  {
-    "slug": "epic-fighter",
-    "name": "Epic Fighter"
-  },
-  {
-    "slug": "epic-monk",
-    "name": "Epic Monk"
-  },
-  {
-    "slug": "epic-psion",
-    "name": "Epic Psion"
-  },
-  {
-    "slug": "epic-psychic-warrior",
-    "name": "Epic Psychic Warrior"
-  },
-  {
-    "slug": "epic-ranger",
-    "name": "Epic Ranger"
-  },
-  {
-    "slug": "epic-rogue",
-    "name": "Epic Rogue"
-  },
-  {
-    "slug": "epic-shadowdancer",
-    "name": "Epic Shadowdancer"
-  },
-  {
-    "slug": "epic-sorcerer",
-    "name": "Epic Sorcerer"
-  },
-  {
-    "slug": "epic-wizard",
-    "name": "Epic Wizard"
-  },
-  {
-    "slug": "erudite-variant-psion",
-    "name": "Erudite (variant Psion)"
   },
   {
     "slug": "escalation-mage",
@@ -1040,10 +904,6 @@
     "name": "Force Missile Mage"
   },
   {
-    "slug": "forest-master",
-    "name": "Forest Master"
-  },
-  {
     "slug": "forest-reeve",
     "name": "Forest Reeve"
   },
@@ -1076,28 +936,12 @@
     "name": "Great Rift Deep Defender"
   },
   {
-    "slug": "great-rift-skyguard",
-    "name": "Great Rift Skyguard"
-  },
-  {
     "slug": "great-sea-corsair",
     "name": "Great Sea Corsair"
   },
   {
     "slug": "green-star-adept",
     "name": "Adepto della Stella Verde"
-  },
-  {
-    "slug": "guardian-paramount",
-    "name": "Guardian Paramount"
-  },
-  {
-    "slug": "guild-thief",
-    "name": "Guild Thief"
-  },
-  {
-    "slug": "guild-wizard-of-waterdeep",
-    "name": "Guild Wizard of Waterdeep"
   },
   {
     "slug": "half-giant-racial-class",
@@ -1132,22 +976,6 @@
     "name": "Harper Agent"
   },
   {
-    "slug": "harper-mage",
-    "name": "Harper Mage"
-  },
-  {
-    "slug": "harper-paragon",
-    "name": "Harper Paragon"
-  },
-  {
-    "slug": "harper-priest",
-    "name": "Harper Priest"
-  },
-  {
-    "slug": "harper-scout",
-    "name": "Harper Scout"
-  },
-  {
     "slug": "hathran",
     "name": "Hathran"
   },
@@ -1158,10 +986,6 @@
   {
     "slug": "healer",
     "name": "Healer"
-  },
-  {
-    "slug": "heartwarder",
-    "name": "Heartwarder"
   },
   {
     "slug": "heir-of-siberys",
@@ -1208,10 +1032,6 @@
   {
     "slug": "high-elemental-binder",
     "name": "High Elemental Binder"
-  },
-  {
-    "slug": "high-proselytizer",
-    "name": "High Proselytizer"
   },
   {
     "slug": "highland-stalker",
@@ -1308,10 +1128,6 @@
     "name": "Justice of Weald and Woe"
   },
   {
-    "slug": "justiciar-of-taiia",
-    "name": "Justiciar of Taiia"
-  },
-  {
     "slug": "justiciar-of-tyr",
     "name": "Justiciar of Tyr"
   },
@@ -1388,32 +1204,12 @@
     "name": "Knight of the Raven"
   },
   {
-    "slug": "knight-of-the-rose",
-    "name": "Knight of the Rose"
-  },
-  {
     "slug": "knight-of-the-sacred-seal",
     "name": "Knight of the Sacred Seal"
   },
   {
-    "slug": "knight-of-the-skull",
-    "name": "Knight of the Skull"
-  },
-  {
-    "slug": "knight-of-the-sword",
-    "name": "Knight of the Sword"
-  },
-  {
-    "slug": "knight-of-the-thorn",
-    "name": "Knight of the Thorn"
-  },
-  {
     "slug": "knight-weave",
     "name": "Knight of the Weave"
-  },
-  {
-    "slug": "knight-errant-of-silverymoon",
-    "name": "Knight-errant of Silverymoon"
   },
   {
     "slug": "landforged-walker",
@@ -1432,16 +1228,8 @@
     "name": "Legendary Captain"
   },
   {
-    "slug": "legendary-dreadnought",
-    "name": "Legendary Dreadnought"
-  },
-  {
     "slug": "legendary-leader",
     "name": "Legendary Leader"
-  },
-  {
-    "slug": "legendary-tactician",
-    "name": "Legendary Tactician"
   },
   {
     "slug": "leviathan-hunter",
@@ -1506,10 +1294,6 @@
     "name": "Mago dell'Ordine Arcano"
   },
   {
-    "slug": "mage-killer",
-    "name": "Mage-killer"
-  },
-  {
     "slug": "magelord",
     "name": "Magelord"
   },
@@ -1518,20 +1302,8 @@
     "name": "Magical Trickster"
   },
   {
-    "slug": "maho-tsukai",
-    "name": "Maho-tsukai"
-  },
-  {
-    "slug": "maiden-of-pain",
-    "name": "Maiden of Pain"
-  },
-  {
     "slug": "malconvoker",
     "name": "Malconvoker"
-  },
-  {
-    "slug": "mantis-mercenary",
-    "name": "Mantis Mercenary"
   },
   {
     "slug": "maquar-crusader",
@@ -1540,14 +1312,6 @@
   {
     "slug": "marshal",
     "name": "Marshal"
-  },
-  {
-    "slug": "martyred-champion-of-ilmater",
-    "name": "Martyred Champion of Ilmater"
-  },
-  {
-    "slug": "master-alchemist",
-    "name": "Master Alchemist"
   },
   {
     "slug": "master-inquisitive",
@@ -1692,10 +1456,6 @@
     "name": "Mortal Hunter"
   },
   {
-    "slug": "moto-avenger",
-    "name": "Moto Avenger"
-  },
-  {
     "slug": "mountebank",
     "name": "Mountebank"
   },
@@ -1716,10 +1476,6 @@
     "translation_source": "manual",
     "reviewed": false,
     "name": "Teurgo Mistico"
-  },
-  {
-    "slug": "mystic-wanderer",
-    "name": "Mystic Wanderer"
   },
   {
     "slug": "mythic-exemplar",
@@ -1802,10 +1558,6 @@
     "name": "Uccisore dell'Occulto"
   },
   {
-    "slug": "ocular-adept",
-    "name": "Ocular Adept"
-  },
-  {
     "slug": "olin-gisir",
     "name": "Olin Gisir"
   },
@@ -1816,14 +1568,6 @@
   {
     "slug": "oozemaster",
     "name": "Oozemaster"
-  },
-  {
-    "slug": "orc-scout",
-    "name": "Orc Scout"
-  },
-  {
-    "slug": "orc-warlord",
-    "name": "Orc Warlord"
   },
   {
     "slug": "order-of-the-bow-initiate",
@@ -1888,10 +1632,6 @@
     "name": "Corridore Pellegrino"
   },
   {
-    "slug": "perfect-wight",
-    "name": "Perfect Wight"
-  },
-  {
     "slug": "phoenix-disciple-monk",
     "name": "Phoenix Disciple (Monk)"
   },
@@ -1954,10 +1694,6 @@
   {
     "slug": "psion-uncarnate",
     "name": "Psion Uncarnate"
-  },
-  {
-    "slug": "psionic-artificer",
-    "name": "Psionic Artificer"
   },
   {
     "slug": "psychic-theurge",
@@ -2254,10 +1990,6 @@
     "name": "Shadowstriker"
   },
   {
-    "slug": "shaman",
-    "name": "Shaman"
-  },
-  {
     "slug": "shaper-form",
     "name": "Shaper of Form"
   },
@@ -2306,10 +2038,6 @@
     "name": "Silver Pyromancer"
   },
   {
-    "slug": "silverstar",
-    "name": "Silverstar"
-  },
-  {
     "slug": "singer-of-concordance",
     "name": "Singer of Concordance"
   },
@@ -2326,10 +2054,6 @@
   {
     "slug": "stalker-of-kharash",
     "name": "Cacciatore di Kharash"
-  },
-  {
-    "slug": "steel-legionnaire",
-    "name": "Steel Legionnaire"
   },
   {
     "slug": "stonedeath-assassin",
@@ -2370,10 +2094,6 @@
   {
     "slug": "streetfighter",
     "name": "Guerriero di Strada"
-  },
-  {
-    "slug": "strifeleader",
-    "name": "Strifeleader"
   },
   {
     "slug": "sublime-chord",
@@ -2604,20 +2324,12 @@
     "name": "Guerriero PNG"
   },
   {
-    "slug": "warrior-skald",
-    "name": "Warrior Skald"
-  },
-  {
     "slug": "warrior-of-darkness",
     "name": "Warrior of Darkness"
   },
   {
     "slug": "warshaper",
     "name": "Mutaforma Combattente"
-  },
-  {
-    "slug": "warsling-sniper",
-    "name": "Warsling Sniper"
   },
   {
     "slug": "wary-swordknight-paladin",
@@ -2636,10 +2348,6 @@
     "name": "Waverider"
   },
   {
-    "slug": "waveservant",
-    "name": "Waveservant"
-  },
-  {
     "slug": "wayfarer-guide",
     "name": "Viaggiatore Guida"
   },
@@ -2650,10 +2358,6 @@
   {
     "slug": "weapon-master-kensei",
     "name": "Weapon Master (Kensei)"
-  },
-  {
-    "slug": "wearer-of-purple",
-    "name": "Wearer of Purple"
   },
   {
     "slug": "weretouched-master",
@@ -2670,10 +2374,6 @@
   {
     "slug": "wild-plains-outrider",
     "name": "Avanguardia delle Pianure Selvagge"
-  },
-  {
-    "slug": "wild-scout",
-    "name": "Wild Scout"
   },
   {
     "slug": "wild-soul",
@@ -2694,10 +2394,6 @@
   {
     "slug": "windrider",
     "name": "Windrider"
-  },
-  {
-    "slug": "windwalker",
-    "name": "Windwalker"
   },
   {
     "slug": "windwright-captain",
@@ -2730,10 +2426,6 @@
     "name": "Wizard Variant"
   },
   {
-    "slug": "wizard-of-high-sorcery",
-    "name": "Wizard of High Sorcery"
-  },
-  {
     "slug": "wonderworker",
     "name": "Creatore di Meraviglie"
   },
@@ -2754,20 +2446,12 @@
     "name": "Yathchol Webrider"
   },
   {
-    "slug": "yathrinshee",
-    "name": "Yathrinshee"
-  },
-  {
     "slug": "yuan-ti-cultist",
     "name": "Yuan-ti Cultist"
   },
   {
     "slug": "zerth-cenobite",
     "name": "Zerth Cenobite"
-  },
-  {
-    "slug": "zhentarim-skymage",
-    "name": "Zhentarim Skymage"
   },
   {
     "slug": "zhentarim-spy",

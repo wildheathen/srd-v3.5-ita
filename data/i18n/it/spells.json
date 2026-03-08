@@ -3112,14 +3112,6 @@
     "manual_name": "Player's Handbook II"
   },
   {
-    "slug": "brillant-aura",
-    "name": "Aura Brillante",
-    "school": "Trasmutazione",
-    "level": "Druido 7",
-    "manual_name": "Perfetto Sacerdote",
-    "reference": "pag. 153"
-  },
-  {
     "slug": "brilliant-blade",
     "name": "Lama Luminosa",
     "school": "Trasmutazione",
@@ -5671,13 +5663,6 @@
     "level": "Bard 3, Ranger 3, Sorcerer 3, Wizard 3",
     "manual_name": "Spell Compendium",
     "reference": "p. 57"
-  },
-  {
-    "slug": "curse-of-licanthropy",
-    "name": "Maledizione della Licantropia",
-    "school": "Necromanzia",
-    "manual_name": "Perfetto Sacerdote",
-    "reference": "pag. 168"
   },
   {
     "slug": "curse-of-petty-failing",
@@ -8717,14 +8702,6 @@
     "level": "Sorcerer 7, Wizard 7",
     "manual_name": "Spell Compendium",
     "reference": "p. 80"
-  },
-  {
-    "slug": "energy-votex",
-    "name": "Vortice di Energia",
-    "school": "Invocazione",
-    "level": "Chierico 4, Druido 4",
-    "manual_name": "Perfetto Sacerdote",
-    "reference": "pag. 189"
   },
   {
     "slug": "energy-vulnerability",
@@ -12334,13 +12311,6 @@
     "reference": "pag. 153"
   },
   {
-    "slug": "hero-s-blad",
-    "name": "Hero?s Blad",
-    "school": "Necromancy",
-    "manual_name": "Eberron Campaign Setting",
-    "reference": "p. 112"
-  },
-  {
     "slug": "heroes-feast",
     "translation_source": "ocr",
     "reviewed": false,
@@ -13743,14 +13713,6 @@
     "level": "Swordsage 6, Warblade 6",
     "manual_name": "Tome of Battle: The Book of Nine Swords",
     "reference": "p. 64"
-  },
-  {
-    "slug": "insigna-of-blessing",
-    "name": "Distintivo di Benedizione",
-    "school": "Ammaliamento",
-    "level": "Chierico 3, Paladino 3",
-    "manual_name": "Razze del Destino",
-    "reference": "pag. 165"
   },
   {
     "slug": "insignia-of-alarm",
@@ -17271,14 +17233,6 @@
     "level": "Cleric 1, Sorcerer 1, Wizard 1",
     "manual_name": "Spell Compendium",
     "reference": "p. 148"
-  },
-  {
-    "slug": "nightstalker-s-trasformation",
-    "name": "Trasformazione del Predatore Notturno",
-    "school": "Trasmutazione",
-    "level": "Mago 5, Stregone 5",
-    "manual_name": "Perfetto Avventuriero",
-    "reference": "pag. 157"
   },
   {
     "slug": "nimbus-of-light",
@@ -23281,14 +23235,6 @@
     "reference": "pag. 278"
   },
   {
-    "slug": "spell-resistence-mass",
-    "name": "Resistenza agli Incantesimi di Massa",
-    "school": "Abiurazione",
-    "level": "Chierico 7",
-    "manual_name": "Perfetto Sacerdote",
-    "reference": "pag. 176"
-  },
-  {
     "slug": "spell-shield",
     "name": "Spell Shield",
     "school": "Abjuration",
@@ -24713,14 +24659,6 @@
     "manual_name": "Player's Handbook II"
   },
   {
-    "slug": "summon-greather-elemental",
-    "name": "Evoca Elementale Superiore",
-    "school": "Evocazione",
-    "level": "Druido 6",
-    "manual_name": "Atlante Planare",
-    "reference": "pag. 96"
-  },
-  {
     "slug": "summon-holy-symbol",
     "name": "Summon Holy Symbol",
     "school": "Conjuration",
@@ -25594,13 +25532,6 @@
     "level": "Bardo 5, Chierico 5, Mago 5, Stregone 5",
     "manual_name": "Libro delle Imprese Eroiche",
     "reference": "pag. 93"
-  },
-  {
-    "slug": "telepathy-trap",
-    "name": "Spia Telepatica",
-    "school": "Divinazione",
-    "manual_name": "Libro delle Imprese Eroiche",
-    "reference": "pag. 109"
   },
   {
     "slug": "teleport",

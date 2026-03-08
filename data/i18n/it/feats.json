@@ -4216,12 +4216,6 @@
     "name": "Fearsome and Fearless"
   },
   {
-    "slug": "feat-name",
-    "translation_source": "manual",
-    "reviewed": false,
-    "name": "Feat Name"
-  },
-  {
     "slug": "feeble",
     "name": "Feeble"
   },
