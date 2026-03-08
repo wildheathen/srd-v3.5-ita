@@ -1,0 +1,36 @@
+name: Rigenera file Crowdin EN
+
+# Scatta quando i file sorgente inglesi vengono modificati su master
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'data/*.json'           # file sorgente EN (spells, feats, ecc.)
+      - 'scripts/crowdin_generate.py'  # o quando cambia lo script stesso
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    # Evita loop: non girare se il commit è stato fatto da questa stessa Action
+    if: github.actor != 'github-actions[bot]'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Rigenera file flat JSON per Crowdin
+        run: python3 scripts/crowdin_generate.py
+
+      - name: Commit e push se ci sono modifiche
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/i18n/crowdin/en/
+          git diff --cached --quiet && echo "Nessuna modifica" && exit 0
+          git commit -m "chore: rigenera file Crowdin EN da sorgenti [skip ci]"
+          git push
