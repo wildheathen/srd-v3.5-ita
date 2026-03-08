@@ -535,13 +535,41 @@ main {
 
 .result-item .name {
   font-weight: 500;
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.result-item .name-text {
+  flex-shrink: 0;
 }
 
 .result-item .source-badge {
   font-size: 0.6rem;
   padding: 0.05rem 0.3rem;
-  margin-left: 0.4rem;
   vertical-align: baseline;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.result-item .edition-badge {
+  flex-shrink: 0;
+}
+
+.result-item .name-en {
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  opacity: 0.6;
+  font-style: italic;
 }
 
 .name-en {
@@ -1467,12 +1495,13 @@ main {
     max-height: var(--content-height, 40vh);
   }
 
-  /* Mobile master-detail: hide list when detail is active */
-  main.mobile-detail-active #results-list {
+  /* Mobile master-detail: hide list + search when detail is shown (pure CSS) */
+  body:has(#detail-panel:not(.hidden)) #search-bar,
+  body:has(#detail-panel:not(.hidden)) #results-list {
     display: none;
   }
 
-  main.mobile-detail-active #detail-panel {
+  body:has(#detail-panel:not(.hidden)) #detail-panel {
     border-top: none;
     margin-top: 0;
   }

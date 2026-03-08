@@ -16,13 +16,40 @@ let sourceBookMap = null;   // reverse map: normalised source_book → abbreviat
 
 // ── Virtual scroll state ────────────────────────────────────────────────
 const VS_ROW_HEIGHT = 64;  // px per result item (padding + margin + content)
+const VS_HEADER_HEIGHT = 36; // px per level group header
 const VS_BUFFER = 15;      // extra rows above/below viewport
 let vsFilteredData = [];    // current filtered dataset for virtual scroll
 let vsDisplayMap = [];      // maps display-row-index → {type:'header',label,level,count} | {type:'item',dataIdx}
+let vsRowTops = [];         // precomputed Y position for each display row
+let vsTotalHeight = 0;      // total height of all rows
 let vsDataToDisplay = {};   // reverse map: dataIdx → displayIdx (for scroll-to-item)
 let vsCollapsedLevels = new Set(); // collapsed level groups (-1 = no level, 0-9 = spell levels)
 let vsSpellFilterCls = '';  // current class/domain filter for spell level calculation
 let vsLastRange = null;     // last rendered range {start, end} to avoid redundant renders
+
+function vsComputePositions() {
+  vsRowTops = [];
+  let y = 0;
+  for (let i = 0; i < vsDisplayMap.length; i++) {
+    vsRowTops.push(y);
+    y += vsDisplayMap[i].type === 'header' ? VS_HEADER_HEIGHT : VS_ROW_HEIGHT;
+  }
+  vsTotalHeight = y;
+}
+
+function vsRowHeight(displayIdx) {
+  return vsDisplayMap[displayIdx].type === 'header' ? VS_HEADER_HEIGHT : VS_ROW_HEIGHT;
+}
+
+// Binary search: find first display row whose top <= scrollTop
+function vsFindRowAtY(scrollY) {
+  let lo = 0, hi = vsRowTops.length - 1;
+  while (lo < hi) {
+    const mid = (lo + hi + 1) >> 1;
+    if (vsRowTops[mid] <= scrollY) lo = mid; else hi = mid - 1;
+  }
+  return lo;
+}
 let vsRafPending = false;   // debounce rAF for scroll handler
 
 // Known spell domains (EN + IT) — everything NOT in this set is treated as a class
@@ -193,7 +220,6 @@ document.querySelectorAll('.tab').forEach((btn) => {
     searchInput.value = '';
     searchClear.classList.add('hidden');
     detailPanel.classList.add('hidden');
-    document.querySelector('main').classList.remove('mobile-detail-active');
     const hideSearch = currentTab === 'prepared' || currentTab === 'learned' || currentTab === 'translation-status';
     searchInput.closest('.search-wrapper').style.display = hideSearch ? 'none' : '';
     buildFilters();
@@ -243,7 +269,7 @@ function initLangSwitcher() {
         // Scroll virtual list to bring the item into view
         const dataIdx = vsFilteredData.indexOf(item);
         const displayIdx = vsDataToDisplay[dataIdx] ?? dataIdx;
-        resultsList.scrollTop = displayIdx * VS_ROW_HEIGHT;
+        resultsList.scrollTop = vsRowTops[displayIdx] || 0;
         // After scroll triggers re-render, highlight the item
         requestAnimationFrame(() => {
           vsRenderVisible();
@@ -770,8 +796,8 @@ async function renderResults() {
   }
 
   // Setup virtual scroll container
-  const totalHeight = vsDisplayMap.length * VS_ROW_HEIGHT;
-  resultsList.innerHTML = `<div class="vs-spacer" style="height:${totalHeight}px;position:relative"></div>`;
+  vsComputePositions();
+  resultsList.innerHTML = `<div class="vs-spacer" style="height:${vsTotalHeight}px;position:relative"></div>`;
   resultsList._vsSpacer = resultsList.querySelector('.vs-spacer');
 
   // Event delegation: single listener on spacer (never re-bound per render)
@@ -831,16 +857,17 @@ function vsRebuildDisplayMap() {
   }
 
   // Re-setup spacer height and re-render
-  const totalHeight = vsDisplayMap.length * VS_ROW_HEIGHT;
+  vsComputePositions();
   const spacer = resultsList._vsSpacer;
-  spacer.style.height = totalHeight + 'px';
+  spacer.style.height = vsTotalHeight + 'px';
   vsLastRange = null;
   vsRenderVisible();
 }
 
 function vsCreateRow(displayIdx, prepared, learned, q) {
   const entry = vsDisplayMap[displayIdx];
-  const top = displayIdx * VS_ROW_HEIGHT;
+  const top = vsRowTops[displayIdx];
+  const h = vsRowHeight(displayIdx);
   const div = document.createElement('div');
   div.dataset.index = String(displayIdx);
 
@@ -848,7 +875,7 @@ function vsCreateRow(displayIdx, prepared, learned, q) {
   if (entry.type === 'header') {
     div.className = `level-group-header${entry.collapsed ? ' collapsed' : ''}`;
     div.dataset.level = String(entry.level);
-    div.setAttribute('style', `position:absolute;top:${top}px;left:0;right:0;height:${VS_ROW_HEIGHT}px;box-sizing:border-box;display:flex;align-items:center`);
+    div.setAttribute('style', `position:absolute;top:${top}px;left:0;right:0;height:${h}px;box-sizing:border-box;display:flex;align-items:center`);
     div.innerHTML = `<span class="level-chevron">${entry.collapsed ? '\u25B8' : '\u25BE'}</span>${esc(entry.label)}<span class="level-count">${entry.count}</span>`;
     return div;
   }
@@ -880,7 +907,7 @@ function vsCreateRow(displayIdx, prepared, learned, q) {
   div.setAttribute('style', `position:absolute;top:${top}px;left:0;right:0;height:${VS_ROW_HEIGHT}px;box-sizing:border-box${schoolStyle ? ';--school-clr:' + getSchoolColor(item.school) : ''}`);
   div.innerHTML = `<div class="result-row">
     <div class="result-text">
-      <div class="name">${nameHtml}${renderSourceBadge(item)}${enNameHtml}</div>
+      <div class="name"><span class="name-text">${nameHtml}</span>${renderSourceBadge(item)}${enNameHtml}</div>
       ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
     </div>
     ${actionHtml}
@@ -894,8 +921,8 @@ function vsRenderVisible() {
   const scrollTop = resultsList.scrollTop;
   const viewportHeight = resultsList.clientHeight;
 
-  let start = Math.floor(scrollTop / VS_ROW_HEIGHT) - VS_BUFFER;
-  let end = Math.ceil((scrollTop + viewportHeight) / VS_ROW_HEIGHT) + VS_BUFFER;
+  let start = vsFindRowAtY(scrollTop) - VS_BUFFER;
+  let end = vsFindRowAtY(scrollTop + viewportHeight) + 1 + VS_BUFFER;
   start = Math.max(0, start);
   end = Math.min(vsDisplayMap.length, end);
 
@@ -1217,11 +1244,10 @@ function showDetail(item, overrideTab) {
   detailPanel.innerHTML = `<button class="detail-close" aria-label="Chiudi">&times;</button>` + renderDetail(item, tab);
   detailPanel.querySelector('.detail-close').addEventListener('click', () => {
     detailPanel.classList.add('hidden');
-    document.querySelector('main').classList.remove('mobile-detail-active');
   });
-  if (window.innerWidth <= 768) {
-    // Mobile master-detail: hide list, show only detail panel
-    document.querySelector('main').classList.add('mobile-detail-active');
+  // On mobile, CSS :has() hides the list+search when detail is visible.
+  // Scroll to top so the detail panel is immediately readable.
+  if (window.matchMedia('(max-width: 768px)').matches) {
     window.scrollTo({ top: 0, behavior: 'instant' });
   }
 }
