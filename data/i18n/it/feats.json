@@ -47,7 +47,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Saltare e Acrobazia.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 89"
+    "reference": "pag. 89",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "adroit-flyby-attack",
@@ -59,7 +61,9 @@
     "slug": "agile",
     "name": "Agile",
     "type": "Generale",
-    "benefit": "Ottieni un bonus di +2 a tutte le prove di Equilibrio e Artista della Fuga."
+    "benefit": "Ottieni un bonus di +2 a tutte le prove di Equilibrio e Artista della Fuga.",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "agile-tyrant",
@@ -80,7 +84,9 @@
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Ascoltare e Osservare.",
     "special": "Il padrone di un famiglio ottiene il beneficio del talento Allerta ogni volta che il famiglio è entro portata di braccio.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 89"
+    "reference": "pag. 89",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "anarchic-heritage",
@@ -106,7 +112,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Addestrare Animali e Cavalcare.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 89"
+    "reference": "pag. 89",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "animal-friend",
@@ -183,7 +191,9 @@
     "special": "Guerrieri, barbari, paladini, chierici, druidi e bardi hanno automaticamente Competenza nelle Armature (medie) come talento bonus. Non hanno bisogno di selezionarlo.",
     "prerequisites": "Competenza nelle Armature (leggere).",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 93"
+    "reference": "pag. 93",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "armor-skin",
@@ -224,7 +234,9 @@
     "normal": "Un personaggio privo di questo talento che percuote con lo scudo, perde il suo bonus di scudo alla CA fino al turno successivo.",
     "special": "Un guerriero può selezionare Attacco con lo Scud o Migliorato come uno dei suoi talenti bonus dei guerrieri (vedi pagina 38).",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 92"
+    "reference": "pag. 92",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "augment-healing",
@@ -239,7 +251,9 @@
     "benefit": "Ogni creatura che evochi con qualsiasi incantesimo di evocazione ottiene un bonus di potenziamento di +4 a Forza e Costituzione per la durata dell'incantesimo che l'ha evocata.",
     "prerequisites": "Focalizzazione Magica (evocazione).",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 92"
+    "reference": "pag. 92",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "augmented-alchemy",
@@ -363,7 +377,9 @@
     "normal": "La mischia regolare contro un avversario con occultamento richiede una prova di mancamento. I nemici invisibili ottengono vantaggi ai tiri per colpire contro di te in mischia.",
     "special": "Il talento Combattere alla Cieca non ha effetto contro un personaggio che è oggetto di un incantesimo di <i>intermittenza</i>.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 93"
+    "reference": "pag. 93",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "blindsense",
@@ -420,7 +436,9 @@
     "benefit": "Puoi creare una pozione di qualsiasi incantesimo di 3° livello o inferiore che conosci e che ha come bersaglio una o più creature. Preparare una pozione richiede un giorno. Quando crei una pozione, stabilisci il livello dell'incantatore, che deve essere sufficiente per lanciare l'incantesimo in questione e non superiore al tuo livello. Il prezzo base di una pozione è il suo livello dell'incantesimo × il livello dell'incantesimo × 50 mo. Per preparare una pozione, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà di questo prezzo base.",
     "prerequisites": "Livello dell'incantatore 3°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "bright-sigil",
@@ -520,7 +538,9 @@
     "special": "Un guerriero può selezionare Fendente come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "For 13, Attacco Poderoso.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 96"
+    "reference": "pag. 96",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "clever-wrestling",
@@ -576,7 +596,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +4 alle prove di Concentrazione effettuate per lanciare un incantesimo o usare una capacità magica mentre sei sulla difensiva o mentre sei in lotta.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 97"
+    "reference": "pag. 97",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "combat-expertise",
@@ -587,7 +609,9 @@
     "normal": "Un personaggio senza il talento Competenza in Combattimento può combattere sulla difensiva mentre usa l'azione di attacco o l'azione di attacco completo per subire una penalità di –4 ai tiri per colpire e ottenere un bonus di schivare +2 alla Classe Armatura.",
     "prerequisites": "Int 13.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "combat-intuition",
@@ -603,7 +627,9 @@
     "normal": "Un personaggio senza questo talento può effettuare solo un attacco di opportunità per round e non può effettuare attacchi di opportunità quando è colto alla sprovvista.",
     "special": "Il talento Riflessi in Combattimento non ti permette di effettuare più di un attacco di opportunità per la stessa circostanza.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 99"
+    "reference": "pag. 99",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "communicator",
@@ -708,7 +734,9 @@
     "benefit": "Puoi creare qualsiasi arma, armatura o scudo magico di cui soddisfi i prerequisiti. Potenziare un'arma, un'armatura o uno scudo richiede un giorno per ogni 1.000 mo nel prezzo delle sue caratteristiche magiche. Per potenziare un'arma, un'armatura o uno scudo, devi spendere 1/25 del prezzo totale delle sue caratteristiche in PE e usare materie prime per un costo pari alla metà del prezzo.",
     "prerequisites": "Livello dell'incantatore 5°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 95"
+    "reference": "pag. 95",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "craft-psionic-seal",
@@ -723,7 +751,9 @@
     "benefit": "Puoi creare qualsiasi verga di cui soddisfi i prerequisiti. Creare una verga richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare una verga, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base.",
     "prerequisites": "Livello dell'incantatore 9°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 95"
+    "reference": "pag. 95",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "craft-rune-circle",
@@ -738,7 +768,9 @@
     "benefit": "Puoi creare qualsiasi bastone di cui soddisfi i prerequisiti. Creare un bastone richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare un bastone, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base. Un bastone appena creato ha 50 cariche.",
     "prerequisites": "Livello dell'incantatore 12°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 95"
+    "reference": "pag. 95",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "craft-wand",
@@ -747,7 +779,9 @@
     "benefit": "Puoi creare una bacchetta di qualsiasi incantesimo di 4° livello o inferiore che conosci. Creare una bacchetta richiede un giorno per ogni 1.000 mo nel suo prezzo base. Il prezzo base di una bacchetta è il suo livello dell'incantatore × il livello dell'incantesimo × 750 mo. Per creare una bacchetta, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà del prezzo base.",
     "prerequisites": "Livello dell'incantatore 5°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 95"
+    "reference": "pag. 95",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "craft-wondrous-item",
@@ -756,7 +790,9 @@
     "benefit": "Puoi creare qualsiasi oggetto meraviglioso di cui soddisfi i prerequisiti. Incantare un oggetto meraviglioso richiede un giorno per ogni 1.000 mo nel suo prezzo. Per incantare un oggetto meraviglioso, devi spendere 1/25 del prezzo dell'oggetto in PE e usare materie prime per un costo pari alla metà di questo prezzo. Puoi anche riparare un oggetto meraviglioso rotto se soddisfi i prerequisiti per crearlo.",
     "prerequisites": "Livello dell'incantatore 3°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 95"
+    "reference": "pag. 95",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "crescent-moon",
@@ -854,7 +890,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Camuffare e Falsificare.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "deep-vision",
@@ -888,7 +926,9 @@
     "special": "Un monaco può selezionare Deviare Frecce come talento bonus al 2° livello, anche se non soddisfa i prerequisiti. Un guerriero può selezionare Deviare Frecce come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Des 13, Colpo Senz'Armi Migliorato.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 95"
+    "reference": "pag. 95",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "deflective-armor",
@@ -926,7 +966,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Rapidità di Mano e Usare Corde.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "deft-opportunist",
@@ -1014,7 +1056,9 @@
     "normal": "Un personaggio senza questo talento che è ridotto tra –1 e –9 punti ferita è incosciente e morente.",
     "prerequisites": "Resistenza Fisica.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 96"
+    "reference": "pag. 96",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "diligent",
@@ -1022,7 +1066,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Valutare e Decifrare Scritti.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 96"
+    "reference": "pag. 96",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "dire-charge",
@@ -1134,7 +1180,9 @@
     "special": "Un guerriero può selezionare Schivare come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Des 13.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 100"
+    "reference": "pag. 100",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "domain-focus",
@@ -1424,7 +1472,9 @@
     "type": "Metamagico",
     "benefit": "Tutti gli effetti numerici variabili di un incantesimo potenziato sono aumentati della metà. I tiri salvezza e i tiri contrapposti non sono influenzati, né lo sono gli incantesimi senza variabili casuali. Un incantesimo potenziato usa uno slot incantesimo di due livelli superiore al livello effettivo dell'incantesimo.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "empower-spell-like-ability",
@@ -1458,7 +1508,9 @@
     "normal": "Un personaggio senza questo talento che dorme in armatura media o più pesante è automaticamente affaticato il giorno successivo.",
     "special": "Un ranger ottiene automaticamente Resistenza Fisica come talento bonus al 3° livello. Non ha bisogno di selezionarlo.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 99"
+    "reference": "pag. 99",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "endure-blows",
@@ -1532,7 +1584,9 @@
     "type": "Metamagico",
     "benefit": "Puoi alterare un incantesimo con raggio corto, medio o lungo per aumentare il suo raggio del 100%. Un incantesimo esteso con raggio corto ha ora un raggio di 15 m + 1,5 m/livello, mentre gli incantesimi a raggio medio hanno un raggio di 60 m + 6 m/livello e gli incantesimi a raggio lungo hanno un raggio di 240 m + 24 m/livello. Un incantesimo esteso usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 97"
+    "reference": "pag. 97",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "epic-combat-expertise",
@@ -1624,7 +1678,9 @@
     "type": "Generale",
     "benefit": "Puoi lanciare qualsiasi incantesimo che ha una componente materiale del costo di 1 mo o meno senza bisogno di quella componente. (Il lancio dell'incantesimo provoca comunque attacchi di opportunità come normale.) Se l'incantesimo richiede una componente materiale che costa più di 1 mo, devi avere la componente materiale a portata di mano per lanciare l'incantesimo, come normale.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 96"
+    "reference": "pag. 96",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "eternal-strength",
@@ -1695,7 +1751,9 @@
     "special": "Puoi ottenere Competenza nelle Armi Esotiche più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma esotica.",
     "prerequisites": "Bonus di attacco base +1 (più For 13 per spada bastarda o ascia da guerra nanica).",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 94"
+    "reference": "pag. 94",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "expert-tactician",
@@ -1721,7 +1779,9 @@
     "type": "Metamagico",
     "benefit": "Un incantesimo prolungato dura il doppio del normale. Un incantesimo con durata di concentrazione, istantaneo o permanente non è influenzato da questo talento. Un incantesimo prolungato usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 97"
+    "reference": "pag. 97",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "extend-spreading-breath",
@@ -1798,7 +1858,9 @@
     "special": "Puoi ottenere Scacciare Extra più volte. I suoi effetti si cumulano. Ogni volta che prendi il talento, puoi usare ciascuna delle tue capacità di scacciare o intimorire quattro volte aggiuntive al giorno.",
     "prerequisites": "Capacità di scacciare o intimorire creature.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 100"
+    "reference": "pag. 100",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "extra-wild-shape",
@@ -1856,7 +1918,9 @@
     "special": "Un guerriero può selezionare Tiro Lontano come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Tiro Ravvicinato.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 101"
+    "reference": "pag. 101",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "fast-healing",
@@ -1903,7 +1967,9 @@
     "special": "Guerrieri, paladini e chierici hanno automaticamente Competenza nelle Armature (pesanti) come talento bonus. Non hanno bisogno di selezionarlo.",
     "prerequisites": "Competenza nelle Armature (leggere), Competenza nelle Armature (medie).",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 94"
+    "reference": "pag. 94",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "feat-descriptions--armor-proficiency-light",
@@ -1913,14 +1979,18 @@
     "normal": "Un personaggio che indossa un'armatura con cui non è competente applica la sua penalità di controllo dell'armatura ai tiri per colpire e a tutte le prove di abilità che comportano movimento, incluso Cavalcare.",
     "special": "Tutti i personaggi eccetto maghi, stregoni e monaci hanno automaticamente Competenza nelle Armature (leggere) come talento bonus. Non hanno bisogno di selezionarlo.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 93"
+    "reference": "pag. 93",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "feat-name",
     "benefit": "Ciò che il talento consente al personaggio (\"tu\" nella descrizione del talento) di fare. Se un personaggio ha lo stesso talento più di una volta, i suoi benefici non si cumulano a meno che non sia indicato diversamente nella descrizione. In generale, avere un talento due volte è uguale ad averlo una volta.",
     "normal": "A cosa è limitato o da cosa è ristretto un personaggio che non ha questo talento. Se non avere il talento non causa alcuno svantaggio particolare, questa voce è assente.",
     "special": "Fatti aggiuntivi sul talento che possono essere utili quando si decide se acquisirlo.",
-    "prerequisites": "Un punteggio di caratteristica minimo, un altro talento o talenti, un bonus di attacco base minimo, un numero minimo di gradi in una o più abilità, o un livello di classe che un personaggio deve avere per acquisire questo talento. Questa voce è assente se un talento non ha prerequisiti. Un talento può avere più di un prerequisito."
+    "prerequisites": "Un punteggio di caratteristica minimo, un altro talento o talenti, un bonus di attacco base minimo, un numero minimo di gradi in una o più abilità, o un livello di classe che un personaggio deve avere per acquisire questo talento. Questa voce è assente se un talento non ha prerequisiti. Un talento può avere più di un prerequisito.",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "fell-animate",
@@ -2049,7 +2119,9 @@
     "benefit": "Puoi creare qualsiasi anello di cui soddisfi i prerequisiti. Creare un anello richiede un giorno per ogni 1.000 mo nel suo prezzo base. Per creare un anello, devi spendere 1/25 del suo prezzo base in PE e usare materie prime per un costo pari alla metà del suo prezzo base. Puoi anche riparare un anello rotto se soddisfi i prerequisiti per crearlo.",
     "prerequisites": "Livello dell'incantatore 12°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 96"
+    "reference": "pag. 96",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "formation-expert",
@@ -2137,7 +2209,9 @@
     "special": "Un guerriero può selezionare Fendente Poderoso come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "For 13, Fendente, Attacco Poderoso, bonus di attacco base +4.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 97"
+    "reference": "pag. 97",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "great-fortitude",
@@ -2145,7 +2219,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Tempra.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "great-smiting",
@@ -2184,7 +2260,9 @@
     "benefit": "Aggiungi +1 alla Classe Difficoltà per tutti i tiri salvezza contro gli incantesimi della scuola di magia selezionata. Questo bonus si cumula con il bonus di Focalizzazione Magica.",
     "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia a cui hai già applicato il talento Focalizzazione Magica.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 97"
+    "reference": "pag. 97",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "greater-spell-penetration",
@@ -2193,7 +2271,9 @@
     "benefit": "Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura. Questo bonus si cumula con quello di Penetrazione Magica.",
     "prerequisites": "Penetrazione Magica.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 97"
+    "reference": "pag. 97",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "greater-two-weapon-defense",
@@ -2209,7 +2289,9 @@
     "special": "Un guerriero può selezionare Combattere con Due Armi Superiore come uno dei suoi talenti bonus da guerriero. Un ranger di 11° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Superiore, anche se non ne soddisfa i prerequisiti.",
     "prerequisites": "Des 19, Combattere con Due Armi Migliorato, Combattere con Due Armi, bonus di attacco base +11.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 93"
+    "reference": "pag. 93",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "greater-weapon-focus",
@@ -2219,7 +2301,9 @@
     "special": "Puoi ottenere Focalizzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
     "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 8°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 89"
+    "reference": "pag. 89",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "greater-weapon-specialization",
@@ -2229,7 +2313,9 @@
     "special": "Puoi ottenere Specializzazione sull'Arma Superiore più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
     "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma Superiore con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, Specializzazione sull'Arma con l'arma selezionata, livello da guerriero 12°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 92"
+    "reference": "pag. 92",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "green-ear",
@@ -2333,7 +2419,9 @@
     "type": "Metamagico",
     "benefit": "Un incantesimo intensificato ha un livello dell'incantesimo più alto del normale (fino a un massimo di 9° livello). A differenza di altri talenti metamagici, Incantesimi Intensificati aumenta effettivamente il livello dell'incantesimo che modifica. Tutti gli effetti dipendenti dal livello dell'incantesimo (come le CD dei tiri salvezza e la capacità di penetrare un <i>globo di invulnerabilità inferiore</i>) sono calcolati in base al livello intensificato.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 97"
+    "reference": "pag. 97",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "heighten-spell-like-ability",
@@ -2415,7 +2503,9 @@
     "special": "Un guerriero può selezionare Spingere Migliorato come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "For 13, Attacco Poderoso.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 101"
+    "reference": "pag. 101",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-combat-casting",
@@ -2436,7 +2526,9 @@
     "benefit": "Quando controincanti, puoi usare un incantesimo della stessa scuola che sia di uno o più livelli superiore all'incantesimo bersaglio.",
     "normal": "Senza questo talento, puoi controincantare un incantesimo solo con lo stesso incantesimo o con un incantesimo specificamente designato come contromisura dell'incantesimo bersaglio.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 94"
+    "reference": "pag. 94",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-critical",
@@ -2446,7 +2538,9 @@
     "special": "Puoi ottenere Critico Migliorato più volte. Gli effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Questo effetto non si cumula con nessun altro effetto che espande l'intervallo di minaccia di un'arma.",
     "prerequisites": "Competenza con l'arma, bonus di attacco base +8.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 95"
+    "reference": "pag. 95",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-disarm",
@@ -2457,7 +2551,9 @@
     "special": "Un guerriero può selezionare Disarmare Migliorato come uno dei suoi talenti bonus da guerriero. Un monaco può selezionare Disarmare Migliorato come talento bonus al 6° livello, anche se non ne soddisfa i prerequisiti.",
     "prerequisites": "Int 13, Competenza in Combattimento.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 96"
+    "reference": "pag. 96",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-diversion",
@@ -2484,7 +2580,9 @@
     "benefit": "Quando scegli un famiglio, le creature elencate di seguito sono disponibili anche per l'incantatore. L'incantatore può scegliere un famiglio con un allineamento fino a un passo di distanza su ciascuno degli assi di allineamento (da legale a caotico, da buono a malvagio).",
     "prerequisites": "Capacità di acquisire un nuovo famiglio, allineamento compatibile, livello sufficientemente alto (vedi sotto).",
     "manual_name": "Guida del Dungeon Master",
-    "reference": "pag. 200"
+    "reference": "pag. 200",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-favored-enemy",
@@ -2500,7 +2598,9 @@
     "normal": "Fintare in combattimento è un'azione standard.",
     "prerequisites": "Int 13, Competenza in Combattimento.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 96"
+    "reference": "pag. 96",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-flight",
@@ -2517,7 +2617,9 @@
     "special": "Un guerriero può selezionare Lotta Migliorata come uno dei suoi talenti bonus da guerriero. Un monaco può selezionare Lotta Migliorata come talento bonus al 1° livello, anche se non ne soddisfa i prerequisiti.",
     "prerequisites": "Des 13, Colpo Senz'Armi Migliorato.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-initiative",
@@ -2526,7 +2628,9 @@
     "benefit": "Ottieni un bonus di +4 alle prove di iniziativa.",
     "special": "Un guerriero può selezionare Iniziativa Migliorata come uno dei suoi talenti bonus da guerriero.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-maneuverability",
@@ -2579,7 +2683,9 @@
     "special": "Un guerriero può selezionare Travolgere Migliorato come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "For 13, Attacco Poderoso.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 99"
+    "reference": "pag. 99",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-paralysis",
@@ -2596,7 +2702,9 @@
     "prerequisites": "Des 19, Tiro Ravvicinato, Tiro Preciso, bonus di attacco base +11.",
     "normal": "Vedi le regole normali sugli effetti di copertura e occultamento. Senza questo talento, un personaggio che spara o lancia un'arma a distanza contro un bersaglio impegnato in lotta deve tirare casualmente per vedere quale partecipante alla lotta è colpito.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 102"
+    "reference": "pag. 102",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-rapid-shot",
@@ -2625,7 +2733,9 @@
     "special": "Un guerriero può selezionare Colpo con lo Scudo Migliorato come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Competenza negli Scudi.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 92"
+    "reference": "pag. 92",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-sigil-aesh",
@@ -2720,7 +2830,9 @@
     "special": "Un guerriero può selezionare Distruggere Migliorato come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "For 13, Attacco Poderoso.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 101"
+    "reference": "pag. 101",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-swimming",
@@ -2743,7 +2855,9 @@
     "special": "Al 6° livello, un monaco può selezionare Sgambetto Migliorato come talento bonus, anche se non ne soddisfa i prerequisiti.",
     "prerequisites": "Int 13, Competenza in Combattimento.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 100"
+    "reference": "pag. 100",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-turn-resistance",
@@ -2758,7 +2872,9 @@
     "benefit": "Aggiungi un bonus di +1 al tuo livello di scacciare quando fai una prova di scacciare per determinare il Dado Vita massimo della creatura non morta che puoi influenzare.",
     "prerequisites": "Capacità di scacciare o intimorire creature.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 100"
+    "reference": "pag. 100",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-two-weapon-defense",
@@ -2775,7 +2891,9 @@
     "special": "Un guerriero può selezionare Combattere con Due Armi Migliorato come uno dei suoi talenti bonus da guerriero. Un ranger di 6° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi Migliorato, anche se non ne soddisfa i prerequisiti.",
     "prerequisites": "Des 17, Combattere con Due Armi, bonus di attacco base +6.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 93"
+    "reference": "pag. 93",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-unarmed-strike",
@@ -2785,7 +2903,9 @@
     "normal": "Senza questo talento, sei considerato disarmato quando attacchi con un colpo senz'armi e provochi un attacco di opportunità da avversari armati.",
     "special": "Un monaco ottiene automaticamente Colpo Senz'Armi Migliorato come talento bonus al 1° livello. Non ha bisogno di selezionarlo.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 93"
+    "reference": "pag. 93",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "improved-weapon-familiarity",
@@ -2865,7 +2985,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Raccogliere Informazioni e Cercare.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "iron-will",
@@ -2873,7 +2995,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sulla Volontà.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 102"
+    "reference": "pag. 102",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "ironskin-chant",
@@ -2948,7 +3072,9 @@
     "benefit": "Avere questo talento consente al personaggio di attrarre compagni leali e seguaci devoti, subordinati che lo assistono. Il personaggio può reclutare un coorteo e un certo numero di seguaci in base al suo punteggio di Autorità.",
     "prerequisites": "Livello del personaggio 6°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 92"
+    "reference": "pag. 92",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "leap-attack",
@@ -3016,7 +3142,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutti i tiri salvezza sui Riflessi.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 100"
+    "reference": "pag. 100",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "lingering-breath",
@@ -3072,7 +3200,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Conoscenze Magiche e Utilizzare Oggetti Magici.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 102"
+    "reference": "pag. 102",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "magical-beast-wild-shape",
@@ -3088,7 +3218,9 @@
     "special": "Indipendentemente dal numero di frecce che tiri, applichi i danni basati sulla precisione solo una volta. Se ottieni un colpo critico, solo la prima freccia tirata infligge danni critici; tutte le altre infliggono danni normali.",
     "prerequisites": "Des 17, Tiro Ravvicinato, Tiro Rapido, bonus di attacco base +6.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 101"
+    "reference": "pag. 101",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "markings-of-the-blessed",
@@ -3128,7 +3260,9 @@
     "normal": "Quando usi un'arma con cui non sei competente, subisci una penalità di –4 ai tiri per colpire.",
     "special": "Barbari, guerrieri, paladini e ranger sono competenti con tutte le armi da guerra. Non hanno bisogno di selezionare questo talento. Puoi ottenere Competenza nelle Armi da Guerra più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma da guerra.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 94"
+    "reference": "pag. 94",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "master-of-knowledge",
@@ -3160,7 +3294,9 @@
     "type": "Metamagico",
     "benefit": "Tutti gli effetti numerici variabili di un incantesimo modificato da questo talento sono massimizzati. I tiri salvezza e i tiri contrapposti non sono influenzati, né lo sono gli incantesimi senza variabili casuali. Un incantesimo massimizzato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 97"
+    "reference": "pag. 97",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "maximize-spell-like-ability",
@@ -3218,7 +3354,9 @@
     "special": "Un guerriero può selezionare Mobilità come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Des 13, Schivare.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 99"
+    "reference": "pag. 99",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "monkey-grip",
@@ -3252,7 +3390,9 @@
     "special": "Un guerriero può selezionare Tiro in Sella come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Cavalcare 1 grado, Combattimento in Sella.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 101"
+    "reference": "pag. 101",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "mounted-combat",
@@ -3262,7 +3402,9 @@
     "special": "Un guerriero può selezionare Combattere in Sella come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Cavalcare 1 grado.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 93"
+    "reference": "pag. 93",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "multiattack",
@@ -3307,7 +3449,9 @@
     "benefit": "Puoi completare le componenti verbali e somatiche degli incantesimi mentre sei in forma selvatica. Puoi anche usare qualsiasi focus materiale o focus divino che porti incorporato nella tua forma selvatica.",
     "prerequisites": "Sag 13, capacità forma selvatica.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "natural-trickster",
@@ -3357,7 +3501,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Diplomazia e Percepire Intenzioni.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 99"
+    "reference": "pag. 99",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "nemesis",
@@ -3401,7 +3547,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Disattivare Congegni e Scassinare Serrature.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 96"
+    "reference": "pag. 96",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "nonlethal-substitution",
@@ -3529,7 +3677,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Raggirare e Intimidire.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 99"
+    "reference": "pag. 99",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "phalanx-fighting",
@@ -3610,7 +3760,9 @@
     "benefit": "Ottieni un bonus di +1 ai tiri per colpire e ai tiri per i danni con armi a distanza a portata fino a 9 metri.",
     "special": "Un guerriero può selezionare Tiro Ravvicinato come uno dei suoi talenti bonus da guerriero.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 102"
+    "reference": "pag. 102",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "poison-healer",
@@ -3644,7 +3796,9 @@
     "special": "Se attacchi con un'arma a due mani, aggiungi invece il doppio del numero sottratto dai tiri per colpire. Non puoi aggiungere il bonus ai danni con un'arma leggera.",
     "prerequisites": "For 13.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 92"
+    "reference": "pag. 92",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "power-climb",
@@ -3696,7 +3850,9 @@
     "special": "Un guerriero può selezionare Tiro Preciso come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Tiro Ravvicinato.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 102"
+    "reference": "pag. 102",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "precocious-apprentice",
@@ -3785,7 +3941,9 @@
     "special": "Un guerriero può selezionare Estrazione Rapida come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Bonus di attacco base +1.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 96"
+    "reference": "pag. 96",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "quick-reconnoiter",
@@ -3824,7 +3982,9 @@
     "benefit": "Lanciare un incantesimo rapido è un'azione gratuita. Puoi effettuare un'altra azione, incluso lanciare un altro incantesimo, nello stesso round in cui lanci un incantesimo rapido. Puoi lanciare solo un incantesimo rapido per round. Un incantesimo il cui tempo di lancio è più di 1 azione di round completo non può essere reso rapido. Un incantesimo rapido usa uno slot incantesimo di quattro livelli superiore al livello effettivo dell'incantesimo.",
     "special": "Questo talento non può essere applicato a nessun incantesimo lanciato spontaneamente (inclusi incantesimi da stregone, bardo e incantesimi da chierico o druido lanciati spontaneamente), poiché applicare un talento metamagico a un incantesimo lanciato spontaneamente ne aumenta automaticamente il tempo di lancio.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "quicken-spell-like-ability",
@@ -3895,7 +4055,9 @@
     "special": "Puoi ottenere Ricarica Rapida più volte. Ogni volta che prendi il talento, si applica a un nuovo tipo di balestra. Un guerriero può selezionare Ricarica Rapida come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Competenza nelle Armi (tipo di balestra scelto).",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 99"
+    "reference": "pag. 99",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "rapid-shot",
@@ -3905,7 +4067,9 @@
     "special": "Un guerriero può selezionare Tiro Rapido come uno dei suoi talenti bonus da guerriero. Un ranger di 2° livello che ha scelto lo stile di combattimento con arco è considerato come se avesse Tiro Rapido, anche se non ne soddisfa i prerequisiti.",
     "prerequisites": "Des 13, Tiro Ravvicinato.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 102"
+    "reference": "pag. 102",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "rapid-spell",
@@ -3999,7 +4163,9 @@
     "special": "Un guerriero può selezionare Attacco in Corsa a Cavallo come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Cavalcare 1 grado, Combattimento in Sella.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 92"
+    "reference": "pag. 92",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "righteous-wrath",
@@ -4038,7 +4204,9 @@
     "benefit": "Quando corri, ti muovi a cinque volte la tua velocità normale (se indossi armatura media, leggera o nessuna e trasporti un carico non più che medio) o a quattro volte la tua velocità (se indossi armatura pesante o trasporti un carico pesante). Se effettui un salto dopo una rincorsa, ottieni un bonus di +4 alla prova di Saltare.",
     "normal": "Ti muovi a quattro volte la tua velocità mentre corri (se indossi armatura media, leggera o nessuna e trasporti un carico non più che medio) o a tre volte la tua velocità (se indossi armatura pesante o trasporti un carico pesante).",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 95"
+    "reference": "pag. 95",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "sacred-boost",
@@ -4131,7 +4299,9 @@
     "benefit": "Puoi creare una pergamena di qualsiasi incantesimo che conosci. Scrivere una pergamena richiede un giorno per ogni 1.000 mo nel suo prezzo base. Il prezzo base di una pergamena è il suo livello dell'incantesimo × il suo livello dell'incantatore × 25 mo. Per scrivere una pergamena, devi spendere 1/25 di questo prezzo base in PE e usare materie prime per un costo pari alla metà del prezzo base.",
     "prerequisites": "Livello dell'incantatore 1°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 100"
+    "reference": "pag. 100",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "sculpt-spell",
@@ -4145,7 +4315,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Guarire e Sopravvivenza.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 92"
+    "reference": "pag. 92",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "sense-weakness",
@@ -4198,7 +4370,9 @@
     "special": "Barbari, bardi, chierici, druidi, guerrieri, paladini e ranger hanno automaticamente Competenza negli Scudi come talento bonus. Non hanno bisogno di selezionarlo.",
     "prerequisites": "Competenza negli Scudi.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 94"
+    "reference": "pag. 94",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "shield-slam",
@@ -4226,7 +4400,9 @@
     "special": "Un guerriero può selezionare Tiro in Movimento come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Des 13, Schivare, Mobilità, Tiro Ravvicinato, bonus di attacco base +4.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 101"
+    "reference": "pag. 101",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "silencing-strike",
@@ -4241,7 +4417,9 @@
     "benefit": "Un incantesimo silenzioso può essere lanciato senza componenti verbali. Gli incantesimi senza componenti verbali non sono influenzati. Un incantesimo silenzioso usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
     "special": "Gli incantesimi da bardo non possono essere potenziati da questo talento metamagico.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 98"
+    "reference": "pag. 98",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "simple-weapon-proficiency",
@@ -4251,7 +4429,9 @@
     "normal": "Quando usi un'arma con cui non sei competente, subisci una penalità di –4 ai tiri per colpire.",
     "special": "Tutti i personaggi eccetto druidi, monaci e maghi sono automaticamente competenti con tutte le armi semplici. Non hanno bisogno di selezionare questo talento.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 94"
+    "reference": "pag. 94",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "skill-focus",
@@ -4260,7 +4440,9 @@
     "benefit": "Ottieni un bonus di +3 a tutte le prove che coinvolgono quell'abilità.",
     "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova abilità.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 89"
+    "reference": "pag. 89",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "skilled-telekinetic",
@@ -4294,7 +4476,9 @@
     "special": "Un guerriero può selezionare Afferrare Frecce come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Des 15, Deviare Frecce, Colpo Senz'Armi Migliorato.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 89"
+    "reference": "pag. 89",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "sociable-personality",
@@ -4327,7 +4511,9 @@
     "benefit": "Aggiungi +1 alla Classe Difficoltà per tutti i tiri salvezza contro gli incantesimi della scuola di magia selezionata.",
     "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a una nuova scuola di magia.",
     "manual_name": "Perfetto Sacerdote",
-    "reference": "pag. 82"
+    "reference": "pag. 82",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "spell-focus-good",
@@ -4355,7 +4541,9 @@
     "normal": "Senza questo talento, devi usare un libro degli incantesimi per preparare tutti i tuoi incantesimi, eccetto <i>lettura del magico</i>.",
     "prerequisites": "Livello da mago 1°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 99"
+    "reference": "pag. 99",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "spell-penetration",
@@ -4363,7 +4551,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 alle prove di livello dell'incantatore (1d20 + livello dell'incantatore) effettuate per superare la resistenza agli incantesimi di una creatura.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 97"
+    "reference": "pag. 97",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "spellcasting-harrier",
@@ -4397,7 +4587,9 @@
     "special": "Un guerriero può selezionare Carica Impetuosa come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Cavalcare 1 grado, Combattimento in Sella, Attacco in Corsa.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 92"
+    "reference": "pag. 92",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "spit-poison",
@@ -4449,7 +4641,9 @@
     "special": "Un guerriero può selezionare Attacco in Movimento come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Des 13, Schivare, Mobilità, bonus di attacco base +4.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 92"
+    "reference": "pag. 92",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "spurn-deaths-touch",
@@ -4493,7 +4687,9 @@
     "type": "Generale",
     "benefit": "Ottieni un bonus di +2 a tutte le prove di Nascondersi e Muoversi Silenziosamente.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 96"
+    "reference": "pag. 96",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "stigmata",
@@ -4508,7 +4704,9 @@
     "benefit": "Un incantesimo immobilizzato può essere lanciato senza componenti somatiche. Gli incantesimi senza componenti somatiche non sono influenzati. Un incantesimo immobilizzato usa uno slot incantesimo di un livello superiore al livello effettivo dell'incantesimo.",
     "prerequisites": "Incantesimi Inarrestabili . _",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 97"
+    "reference": "pag. 97",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "stitched-flesh-familiar",
@@ -4542,7 +4740,9 @@
     "special": "Puoi tentare uno stordimento una volta al giorno per ogni quattro livelli che hai raggiunto, e non più di una volta per round.",
     "prerequisites": "Des 13, Sag 13, Colpo Senz'Armi Migliorato, bonus di attacco base +8.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 99"
+    "reference": "pag. 99",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "subsonics",
@@ -4755,7 +4955,9 @@
     "benefit": "Ottieni +3 punti ferita.",
     "special": "Un personaggio può ottenere questo talento più volte. I suoi effetti si cumulano.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 100"
+    "reference": "pag. 100",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "tower-shield-proficiency",
@@ -4766,7 +4968,9 @@
     "special": "I guerrieri hanno automaticamente Competenza nello Scudo Torre come talento bonus. Non hanno bisogno di selezionarlo.",
     "prerequisites": "Competenza negli Scudi.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 94"
+    "reference": "pag. 94",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "track",
@@ -4776,7 +4980,9 @@
     "normal": "Senza questo talento, puoi usare l'abilità Sopravvivenza per trovare le tracce, ma puoi seguirle solo se la CD è 10 o inferiore. In alternativa, puoi usare la prova di Cercare per trovare delle impronte o segni simili.",
     "special": "Un ranger ottiene automaticamente Seguire Tracce come talento bonus. Non ha bisogno di selezionarlo. Questo talento non ti permette di trovare o seguire le tracce di soggetti con il talento Passo senza Tracce.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 100"
+    "reference": "pag. 100",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "trample",
@@ -4786,7 +4992,9 @@
     "special": "Un guerriero può selezionare Travolgere come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Cavalcare 1 grado, Combattimento in Sella.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 102"
+    "reference": "pag. 102",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "transdimensional-spell",
@@ -4838,7 +5046,9 @@
     "special": "Un guerriero può selezionare Difesa con Due Armi come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Des 15, Combattere con Due Armi.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 96"
+    "reference": "pag. 96",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "two-weapon-fighting",
@@ -4849,7 +5059,9 @@
     "special": "Un ranger di 2° livello che ha scelto lo stile di combattimento con due armi è considerato come se avesse Combattere con Due Armi, anche se non ne soddisfa i prerequisiti.",
     "prerequisites": "Des 15.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 93"
+    "reference": "pag. 93",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "undead-leadership",
@@ -4997,7 +5209,9 @@
     "special": "Un guerriero può selezionare Arma Accurata come uno dei suoi talenti bonus da guerriero. Le creature naturali possono selezionare questo talento.",
     "prerequisites": "Bonus di attacco base +1.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 89"
+    "reference": "pag. 89",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "weapon-focus",
@@ -5007,7 +5221,9 @@
     "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma.",
     "prerequisites": "Competenza con l'arma selezionata, bonus di attacco base +1.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 89"
+    "reference": "pag. 89",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "weapon-specialization",
@@ -5017,7 +5233,9 @@
     "special": "Puoi ottenere questo talento più volte. I suoi effetti non si cumulano. Ogni volta che prendi il talento, si applica a un nuovo tipo di arma. Un guerriero può selezionare Specializzazione sull'Arma come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Competenza con l'arma selezionata, Focalizzazione sull'Arma con l'arma selezionata, livello da guerriero 4°.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 89"
+    "reference": "pag. 89",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "whirlwind-attack",
@@ -5027,7 +5245,9 @@
     "special": "Un guerriero può selezionare Attacco Turbinante come uno dei suoi talenti bonus da guerriero.",
     "prerequisites": "Des 13, Int 13, Competenza in Combattimento, Schivare, Mobilità, Attacco in Movimento, bonus di attacco base +4.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 92"
+    "reference": "pag. 92",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "whirlwind-tail-sweep",
@@ -5047,7 +5267,9 @@
     "type": "Metamagico",
     "benefit": "Puoi alterare un incantesimo a forma di scoppio, emanazione, linea o diffusione per aumentare la sua area. Qualsiasi misurazione numerica dell'area dell'incantesimo aumenta del 100%. Un incantesimo allargato usa uno slot incantesimo di tre livelli superiore al livello effettivo dell'incantesimo. Gli incantesimi che non hanno un'area di una di queste quattro forme non sono influenzati da questo talento.",
     "manual_name": "Manuale del Giocatore 3.5",
-    "reference": "pag. 97"
+    "reference": "pag. 97",
+    "translation_source": "manual",
+    "reviewed": false
   },
   {
     "slug": "wield-oversized-weapon",

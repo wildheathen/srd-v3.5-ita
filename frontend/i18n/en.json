@@ -144,6 +144,8 @@
   "status.generated": "Generated on",
   "status.entries": "entries",
   "status.by_source": "By sourcebook",
+  "status.quality_title": "Translation quality",
+  "status.reviewed": "reviewed",
 
   "source.label": "Source",
   "spell.level_header": "Level ${level}",

@@ -305,6 +305,30 @@ def generate_json_report(lang, data_dir, categories):
                 }
             cat_data["by_source"] = by_source
 
+        # ── Translation quality metadata ──
+        quality = {"total": 0, "reviewed": 0, "by_source_type": {}}
+        for slug, ov in overlay_map.items():
+            ts = ov.get("translation_source")
+            rev = ov.get("reviewed", False)
+            # Only count entries that have actual translated content
+            has_content = any(
+                ov.get(f, "").strip()
+                for f in fields
+                if f not in ("name",) and isinstance(ov.get(f, ""), str)
+            )
+            if not has_content:
+                continue
+            quality["total"] += 1
+            if rev:
+                quality["reviewed"] += 1
+            src_type = ts or "untagged"
+            if src_type not in quality["by_source_type"]:
+                quality["by_source_type"][src_type] = {"count": 0, "reviewed": 0}
+            quality["by_source_type"][src_type]["count"] += 1
+            if rev:
+                quality["by_source_type"][src_type]["reviewed"] += 1
+        cat_data["translation_quality"] = quality
+
         result["categories"][cat] = cat_data
         result["summary"]["total_entries"] += len(base)
 

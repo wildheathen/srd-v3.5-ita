@@ -1739,6 +1739,27 @@ function renderStatusDashboard(data, langs, activeLang) {
       html += `</div></div>`;
     }
 
+    // ── Translation quality section ──
+    if (cat.translation_quality && cat.translation_quality.total > 0) {
+      const tq = cat.translation_quality;
+      const sourceLabels = { manual: 'Manuale', auto: 'Automatica', ocr: 'OCR', pdf: 'PDF SRD', untagged: 'Non classificata' };
+      html += `<div class="status-quality">`;
+      html += `<h4 class="quality-title">${t('status.quality_title') || 'Qualità traduzioni'}</h4>`;
+      html += `<div class="quality-stats">`;
+      html += `<span class="quality-reviewed">${tq.reviewed}/${tq.total} ${t('status.reviewed') || 'verificate'}</span>`;
+      html += `</div>`;
+      html += `<div class="quality-sources">`;
+      for (const [srcType, srcData] of Object.entries(tq.by_source_type)) {
+        const label = sourceLabels[srcType] || srcType;
+        const revBadge = srcData.reviewed > 0 ? ` <span class="badge badge-reviewed">${srcData.reviewed} ✓</span>` : '';
+        html += `<div class="quality-source-row">`;
+        html += `<span class="quality-source-label">${esc(label)}</span>`;
+        html += `<span class="quality-source-count">${srcData.count}${revBadge}</span>`;
+        html += `</div>`;
+      }
+      html += `</div></div>`;
+    }
+
     // ── CSV export button ──
     html += `<div class="status-export">`;
     html += `<button class="export-csv-btn" data-cat="${esc(catName)}" title="Esporta CSV mancanti">`;

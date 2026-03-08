@@ -1357,6 +1357,57 @@ main {
   font-style: italic;
 }
 
+/* Translation quality section */
+.status-quality {
+  margin-top: 0.8rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: rgba(255,255,255,0.02);
+}
+.quality-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 0.4rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.quality-stats {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-bottom: 0.4rem;
+}
+.quality-reviewed {
+  font-weight: 500;
+}
+.quality-sources {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.quality-source-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+.quality-source-label {
+  opacity: 0.8;
+}
+.quality-source-count {
+  font-weight: 500;
+}
+.badge-reviewed {
+  background: #2d6a4f;
+  color: #d8f3dc;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.65rem;
+  margin-left: 0.3rem;
+}
+
 /* CSV export button */
 .status-export {
   margin-top: 0.8rem;

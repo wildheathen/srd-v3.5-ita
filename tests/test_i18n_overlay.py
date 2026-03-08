@@ -8,6 +8,8 @@ I18N_DIR = DATA_DIR / 'i18n' / 'it'
 
 CATEGORIES = ['spells', 'feats', 'classes', 'monsters', 'races']
 
+VALID_TRANSLATION_SOURCES = {'manual', 'auto', 'ocr', 'pdf'}
+
 
 def load_json(path):
     with open(path, encoding='utf-8') as f:
@@ -58,6 +60,37 @@ class TestOverlayIntegrity:
         slugs = [e['slug'] for e in overlay]
         dupes = [s for s in set(slugs) if slugs.count(s) > 1]
         assert not dupes, f'{cat}: duplicate overlay slugs: {dupes}'
+
+    def test_translation_source_values(self, category_data):
+        """translation_source, if present, must be one of the allowed values."""
+        cat, _, overlay = category_data
+        for entry in overlay:
+            src = entry.get('translation_source')
+            if src is not None:
+                assert src in VALID_TRANSLATION_SOURCES, (
+                    f'{cat}/{entry.get("slug","?")}: invalid translation_source '
+                    f'"{src}", expected one of {VALID_TRANSLATION_SOURCES}'
+                )
+
+    def test_reviewed_is_boolean(self, category_data):
+        """reviewed, if present, must be a boolean."""
+        cat, _, overlay = category_data
+        for entry in overlay:
+            if 'reviewed' in entry:
+                assert isinstance(entry['reviewed'], bool), (
+                    f'{cat}/{entry.get("slug","?")}: reviewed must be bool, '
+                    f'got {type(entry["reviewed"]).__name__}'
+                )
+
+    def test_reviewed_requires_source(self, category_data):
+        """If reviewed is set, translation_source should also be present."""
+        cat, _, overlay = category_data
+        for entry in overlay:
+            if 'reviewed' in entry and 'translation_source' not in entry:
+                pytest.fail(
+                    f'{cat}/{entry.get("slug","?")}: has reviewed but no '
+                    f'translation_source'
+                )
 
 
 class TestOverlayMerge:
