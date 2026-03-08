@@ -460,18 +460,40 @@ main {
 
 .level-group-header {
   padding: 0.4rem 0.8rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.25rem;
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-dim);
   border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  gap: 0.4rem;
+  transition: color 0.15s, background 0.15s;
 }
 
-.level-group-header:first-child {
-  margin-top: 0;
+.level-group-header:hover {
+  color: var(--accent);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.level-group-header.collapsed {
+  border-bottom-color: transparent;
+}
+
+.level-chevron {
+  font-size: 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  width: 0.8rem;
+  flex-shrink: 0;
+}
+
+.level-count {
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 0.7rem;
+  opacity: 0.6;
 }
 
 /* ── Result items ─────────────────────────────────── */

@@ -18,8 +18,10 @@ let sourceBookMap = null;   // reverse map: normalised source_book → abbreviat
 const VS_ROW_HEIGHT = 64;  // px per result item (padding + margin + content)
 const VS_BUFFER = 15;      // extra rows above/below viewport
 let vsFilteredData = [];    // current filtered dataset for virtual scroll
-let vsDisplayMap = [];      // maps display-row-index → {type:'header',label} | {type:'item',dataIdx}
+let vsDisplayMap = [];      // maps display-row-index → {type:'header',label,level,count} | {type:'item',dataIdx}
 let vsDataToDisplay = {};   // reverse map: dataIdx → displayIdx (for scroll-to-item)
+let vsCollapsedLevels = new Set(); // collapsed level groups (-1 = no level, 0-9 = spell levels)
+let vsSpellFilterCls = '';  // current class/domain filter for spell level calculation
 let vsLastRange = null;     // last rendered range {start, end} to avoid redundant renders
 let vsRafPending = false;   // debounce rAF for scroll handler
 
@@ -652,6 +654,7 @@ async function renderResults() {
     const domain = document.getElementById('filter-domain')?.value;
     const filterCls = cls || domain; // use whichever is set (mutually exclusive)
     spellFilterCls = filterCls;
+    vsSpellFilterCls = filterCls;
     const levels = getSelectedLevels();
 
     if (school) filtered = filtered.filter((s) => s.school === school);
@@ -722,6 +725,7 @@ async function renderResults() {
 
   // Store filtered data for virtual scroll rendering
   vsFilteredData = filtered;
+  vsCollapsedLevels.clear();  // reset collapsed state when filters change
   vsLastRange = null;
   resultsList._filtered = filtered;
   resultsList._searchQuery = q;
@@ -730,18 +734,32 @@ async function renderResults() {
   vsDisplayMap = [];
   vsDataToDisplay = {};
   if (currentTab === 'spells') {
+    // First pass: group items by level to get counts
+    const levelGroups = [];
     let lastLevel = null;
     for (let i = 0; i < filtered.length; i++) {
       const lvl = getSpellSortLevel(filtered[i], spellFilterCls);
       if (lvl !== lastLevel) {
-        const label = lvl === -1
-          ? t('spell.no_level_header')
-          : t('spell.level_header', { level: lvl });
-        vsDisplayMap.push({ type: 'header', label });
+        levelGroups.push({ level: lvl, startIdx: i, count: 0 });
         lastLevel = lvl;
       }
-      vsDataToDisplay[i] = vsDisplayMap.length;
-      vsDisplayMap.push({ type: 'item', dataIdx: i });
+      levelGroups[levelGroups.length - 1].count++;
+    }
+    // Second pass: build display map with collapse support
+    let dataIdx = 0;
+    for (const group of levelGroups) {
+      const label = group.level === -1
+        ? t('spell.no_level_header')
+        : t('spell.level_header', { level: group.level });
+      const collapsed = vsCollapsedLevels.has(group.level);
+      vsDisplayMap.push({ type: 'header', label, level: group.level, count: group.count, collapsed });
+      for (let j = 0; j < group.count; j++) {
+        const i = group.startIdx + j;
+        if (!collapsed) {
+          vsDataToDisplay[i] = vsDisplayMap.length;
+          vsDisplayMap.push({ type: 'item', dataIdx: i });
+        }
+      }
     }
   } else {
     for (let i = 0; i < filtered.length; i++) {
@@ -776,6 +794,49 @@ function vsOnScroll() {
   }
 }
 
+// Rebuild display map after collapse toggle (no re-filter needed)
+function vsRebuildDisplayMap() {
+  const filtered = vsFilteredData;
+  if (!filtered.length) return;
+
+  const q = resultsList._searchQuery || '';
+
+  // Rebuild display map
+  vsDisplayMap = [];
+  vsDataToDisplay = {};
+  let lastLevel = null;
+  const levelGroups = [];
+  for (let i = 0; i < filtered.length; i++) {
+    const lvl = getSpellSortLevel(filtered[i], vsSpellFilterCls);
+    if (lvl !== lastLevel) {
+      levelGroups.push({ level: lvl, startIdx: i, count: 0 });
+      lastLevel = lvl;
+    }
+    levelGroups[levelGroups.length - 1].count++;
+  }
+  for (const group of levelGroups) {
+    const label = group.level === -1
+      ? t('spell.no_level_header')
+      : t('spell.level_header', { level: group.level });
+    const collapsed = vsCollapsedLevels.has(group.level);
+    vsDisplayMap.push({ type: 'header', label, level: group.level, count: group.count, collapsed });
+    for (let j = 0; j < group.count; j++) {
+      const i = group.startIdx + j;
+      if (!collapsed) {
+        vsDataToDisplay[i] = vsDisplayMap.length;
+        vsDisplayMap.push({ type: 'item', dataIdx: i });
+      }
+    }
+  }
+
+  // Re-setup spacer height and re-render
+  const totalHeight = vsDisplayMap.length * VS_ROW_HEIGHT;
+  const spacer = resultsList._vsSpacer;
+  spacer.style.height = totalHeight + 'px';
+  vsLastRange = null;
+  vsRenderVisible();
+}
+
 function vsCreateRow(displayIdx, prepared, learned, q) {
   const entry = vsDisplayMap[displayIdx];
   const top = displayIdx * VS_ROW_HEIGHT;
@@ -784,9 +845,10 @@ function vsCreateRow(displayIdx, prepared, learned, q) {
 
   // Level group header row
   if (entry.type === 'header') {
-    div.className = 'level-group-header';
+    div.className = `level-group-header${entry.collapsed ? ' collapsed' : ''}`;
+    div.dataset.level = String(entry.level);
     div.setAttribute('style', `position:absolute;top:${top}px;left:0;right:0;height:${VS_ROW_HEIGHT}px;box-sizing:border-box;display:flex;align-items:center`);
-    div.textContent = entry.label;
+    div.innerHTML = `<span class="level-chevron">${entry.collapsed ? '\u25B8' : '\u25BE'}</span>${esc(entry.label)}<span class="level-count">${entry.count}</span>`;
     return div;
   }
 
@@ -894,6 +956,19 @@ function vsRenderVisible() {
 
 // ── Event delegation for virtual scroll items ──
 function vsHandleClick(e) {
+  // Level group header click → toggle collapse
+  const header = e.target.closest('.level-group-header');
+  if (header && header.dataset.level !== undefined) {
+    const level = parseInt(header.dataset.level);
+    if (vsCollapsedLevels.has(level)) {
+      vsCollapsedLevels.delete(level);
+    } else {
+      vsCollapsedLevels.add(level);
+    }
+    vsRebuildDisplayMap();
+    return;
+  }
+
   const prepBtn = e.target.closest('.prep-btn');
   if (prepBtn) {
     e.stopPropagation();
