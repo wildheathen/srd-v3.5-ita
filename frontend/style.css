@@ -982,6 +982,16 @@ main {
   opacity: 0.6;
   margin-top: 0.2rem;
 }
+.source-footer-site a {
+  color: var(--accent);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+.source-footer-site a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
 
 /* ── Translation status dashboard ────────────────── */
 

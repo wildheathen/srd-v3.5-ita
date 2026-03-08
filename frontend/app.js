@@ -1556,7 +1556,9 @@ function renderSourceFooter(item) {
     if (ref.page) parts.push(ref.page);
     html += `<div class="source-footer-line"><span class="source-footer-lang">${ref.lang}</span> ${esc(parts.join(', '))}</div>`;
   }
-  if (item.source_site) {
+  if (item.source_url) {
+    html += `<div class="source-footer-site"><a href="${esc(item.source_url)}" target="_blank" rel="noopener noreferrer">dndtools.net ↗</a></div>`;
+  } else if (item.source_site) {
     html += `<div class="source-footer-site">(${esc(item.source_site)})</div>`;
   }
   html += '</div>';
