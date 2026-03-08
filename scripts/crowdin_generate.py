@@ -15,14 +15,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Campi da tradurre per ogni file (escludi: slug, translation_source, reviewed)
 TRANSLATABLE_FIELDS = {
-    "skills":    ["name", "check"],
-    "classes":   ["name", "manual_name", "reference"],
-    "equipment": ["name", "category"],
-    "feats":     ["name", "manual_name", "reference"],
+    "skills":    ["name", "check", "desc_html"],
+    "classes":   ["name", "manual_name", "reference", "desc_html"],
+    "equipment": ["name", "category"],  # nessun desc_html nella sorgente
+    "feats":     ["name", "manual_name", "reference", "desc_html"],
     "monsters":  ["name", "desc_html"],
     "races":     ["name", "traits", "desc_html"],
     "rules":     ["name"],  # desc_html escluso: supera il limite di 65535 byte di Crowdin
-    "spells":    ["name", "summary_it", "school", "level", "manual_name", "reference"],
+    "spells":    ["name", "summary_it", "school", "level", "manual_name", "reference", "desc_html"],
 }
 
 def to_flat(entries, fields):
