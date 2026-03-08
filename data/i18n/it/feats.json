@@ -4626,11 +4626,12 @@
     "name": "Ghermire",
     "manual_name": "Manuale dei Mostri",
     "reference": "pag. 304",
-    "prerequisites": "Taglia Enorme o superiore.\nBenefici: La creatura può decidere di iniziare una lotta quando colpisce con un artiglio o un morso, come se possedesse la capacità speciale afferrare migliorato.\nSe la creatura riesce a trattenere una creatura di tre o più taglie inferiore, la stritola ogni round infliggendogli automaticamente danni da morso o artiglio.\nUn avversario ghermito trattenuto nella bocca della creatura non ha diritto ad alcun tiro salvezza sui Riflessi contro l'arma a soffio della creatura, se questa ne ha una.\nLa creatura può liberare l'avversario ghermito con un'azione gratuita o utilizzare un'azione standard per scagliarlo via.\nUna creatura scagliata viaggia per 1d6 x 3 metri, e subisce 1d6 danni per ogni 3 metri di volo.\nSe la creatura scaglia una creatura mentre è in volo, l'avversario subisce l'ammontare indicato o i danni da caduta, quale dei due sia più elevato.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Taglia Enorme o superiore.<br>\n<b>Benefici:</b> La creatura può decidere di iniziare una lotta quando colpisce con un artiglio o un morso, come se possedesse la capacità speciale afferrare migliorato.<br>\nSe la creatura riesce a trattenere una creatura di tre o più taglie inferiore, la stritola ogni round infliggendogli automaticamente danni da morso o artiglio.<br>\nUn avversario ghermito trattenuto nella bocca della creatura non ha diritto ad alcun tiro salvezza sui Riflessi contro l'arma a soffio della creatura, se questa ne ha una.<br>\nLa creatura può liberare l'avversario ghermito con un'azione gratuita o utilizzare un'azione standard per scagliarlo via.<br>\nUna creatura scagliata viaggia per 1d6 x 3 metri, e subisce 1d6 danni per ogni 3 metri di volo.<br>\nSe la creatura scaglia una creatura mentre è in volo, l'avversario subisce l'ammontare indicato o i danni da caduta, quale dei due sia più elevato.</p>",
+    "prerequisites": "Taglia Enorme o superiore.",
+    "desc_html": "<p><strong>Prerequisiti:</strong> Taglia Enorme o superiore.</p>\n<p><strong>Beneficio:</strong> La creatura può decidere di iniziare una lotta quando colpisce con un artiglio o un morso, come se possedesse la capacità speciale afferrare migliorato.\nSe la creatura riesce a trattenere una creatura di tre o più taglie inferiore, la stritola ogni round infliggendogli automaticamente danni da morso o artiglio.\nUn avversario ghermito trattenuto nella bocca della creatura non ha diritto ad alcun tiro salvezza sui Riflessi contro l'arma a soffio della creatura, se questa ne ha una.\nLa creatura può liberare l'avversario ghermito con un'azione gratuita o utilizzare un'azione standard per scagliarlo via.\nUna creatura scagliata viaggia per 1d6 x 3 metri, e subisce 1d6 danni per ogni 3 metri di volo.\nSe la creatura scaglia una creatura mentre è in volo, l'avversario subisce l'ammontare indicato o i danni da caduta, quale dei due sia più elevato.</p>",
     "type": "Generale",
     "translation_source": "pdf",
-    "reviewed": false
+    "reviewed": false,
+    "benefit": "La creatura può decidere di iniziare una lotta quando colpisce con un artiglio o un morso, come se possedesse la capacità speciale afferrare migliorato.\nSe la creatura riesce a trattenere una creatura di tre o più taglie inferiore, la stritola ogni round infliggendogli automaticamente danni da morso o artiglio.\nUn avversario ghermito trattenuto nella bocca della creatura non ha diritto ad alcun tiro salvezza sui Riflessi contro l'arma a soffio della creatura, se questa ne ha una.\nLa creatura può liberare l'avversario ghermito con un'azione gratuita o utilizzare un'azione standard per scagliarlo via.\nUna creatura scagliata viaggia per 1d6 x 3 metri, e subisce 1d6 danni per ogni 3 metri di volo.\nSe la creatura scaglia una creatura mentre è in volo, l'avversario subisce l'ammontare indicato o i danni da caduta, quale dei due sia più elevato."
   },
   {
     "slug": "snatch-and-swallow",
@@ -4943,6 +4944,15 @@
     "prerequisites": "Qualsiasi talento di metamagia.",
     "benefit": "Una volta al giorno, il personaggio può applicare il talento Incantesimi Potenziati a qualsiasi incantesimo lanci, senza incrementare il livello dell'incantesimo o doverlo preparare appositamente prima del tempo.\nIl personaggio può utilizzare normalmente il talento Incantesimi Potenziati, se lo possiede.",
     "desc_html": "<p><strong>Prerequisiti:</strong> Qualsiasi talento di metamagia.</p>\n<p><strong>Beneficio:</strong> Una volta al giorno, il personaggio può applicare il talento Incantesimi Potenziati a qualsiasi incantesimo lanci, senza incrementare il livello dell'incantesimo o doverlo preparare appositamente prima del tempo.<br>\nIl personaggio può utilizzare normalmente il talento Incantesimi Potenziati, se lo possiede.</p>",
+    "type": "Metamagia",
+    "translation_source": "pdf",
+    "reviewed": false
+  },
+  {
+    "slug": "sudden-enlarge",
+    "name": "Incantesimi Ingranditi Immediati",
+    "benefit": "Una volta al giorno, il personaggio può applicare il talento Incantesimi Ingranditi a qualsiasi incantesimo lanci, senza incrementare il livello dell'incantesimo o doverlo preparare appositamente prima del tempo.\nIl personaggio può utilizzare normalmente il talento Incantesimi Ingranditi, se lo possiede.",
+    "desc_html": "<p><strong>Beneficio:</strong> Una volta al giorno, il personaggio può applicare il talento Incantesimi Ingranditi a qualsiasi incantesimo lanci, senza incrementare il livello dell'incantesimo o doverlo preparare appositamente prima del tempo.\nIl personaggio può utilizzare normalmente il talento Incantesimi Ingranditi, se lo possiede.</p>",
     "type": "Metamagia",
     "translation_source": "pdf",
     "reviewed": false
@@ -5513,11 +5523,12 @@
     "name": "Virare",
     "manual_name": "Manuale dei Mostri",
     "reference": "pag. 304",
-    "prerequisites": "Velocità di volare.\nBenefici: Una creatura volante con questo talento può cambiare direzione rapidamente una volta per round come azione gratuita.\nQuesto talento permette di virare fino a 180 gradi quale che sia la manovrabilità, in aggiunta a qualsiasi altra svolta normalmente consentita.\nUna creatura non può guadagnare altitudine in un round in cui esegue una virata, ma può scendere in picchiata.\nIl cambio di direzione consuma 3 metri del movimento in volo.",
-    "desc_html": "<p><strong>Prerequisiti:</strong> Velocità di volare.<br>\n<b>Benefici:</b> Una creatura volante con questo talento può cambiare direzione rapidamente una volta per round come azione gratuita.<br>\nQuesto talento permette di virare fino a 180 gradi quale che sia la manovrabilità, in aggiunta a qualsiasi altra svolta normalmente consentita.<br>\nUna creatura non può guadagnare altitudine in un round in cui esegue una virata, ma può scendere in picchiata.<br>\nIl cambio di direzione consuma 3 metri del movimento in volo.</p>",
+    "prerequisites": "Velocità di volare.",
+    "desc_html": "<p><strong>Prerequisiti:</strong> Velocità di volare.</p>\n<p><strong>Beneficio:</strong> Una creatura volante con questo talento può cambiare direzione rapidamente una volta per round come azione gratuita.\nQuesto talento permette di virare fino a 180 gradi quale che sia la manovrabilità, in aggiunta a qualsiasi altra svolta normalmente consentita.\nUna creatura non può guadagnare altitudine in un round in cui esegue una virata, ma può scendere in picchiata.\nIl cambio di direzione consuma 3 metri del movimento in volo.</p>",
     "type": "Generale",
     "translation_source": "pdf",
-    "reviewed": false
+    "reviewed": false,
+    "benefit": "Una creatura volante con questo talento può cambiare direzione rapidamente una volta per round come azione gratuita.\nQuesto talento permette di virare fino a 180 gradi quale che sia la manovrabilità, in aggiunta a qualsiasi altra svolta normalmente consentita.\nUna creatura non può guadagnare altitudine in un round in cui esegue una virata, ma può scendere in picchiata.\nIl cambio di direzione consuma 3 metri del movimento in volo."
   },
   {
     "slug": "wingstorm",

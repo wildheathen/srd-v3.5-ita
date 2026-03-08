@@ -7,7 +7,18 @@ Target:  data/i18n/it/feats.json
 
 The PDF SRD uses the official Italian manual names (MdG) which may differ from
 the overlay names (from dndtools/5clone). We match by building a mapping from
-IT name → EN slug using the existing overlay and base data.
+IT name -> EN slug using the existing overlay and base data.
+
+The HTML files contain clean structured content:
+  <h2>FEAT NAME [TYPE, TYPE]</h2>
+  <p>Preamble text.<br>
+  <b>Prerequisiti:</b> ...<br>
+  <b>Beneficio:</b> ...<br>
+  <b>Normale:</b> ...<br>
+  <b>Speciale:</b> ...</p>
+
+Inline tags (<b>, <i>) are preserved in field values since the frontend's
+escAllowInline() function supports them.
 """
 
 import json
@@ -28,23 +39,25 @@ IT_NAME_TO_SLUG = {
     "ABILITÀ FOCALIZZATA": "skill-focus",
     "ARMA FOCALIZZATA": "weapon-focus",
     "ARMA FOCALIZZATA SUPERIORE": "greater-weapon-focus",
+    "ARMA SPECIALIZZATA": "weapon-specialization",
+    "ARMA SPECIALIZZATA SUPERIORE": "greater-weapon-specialization",
     "AUMENTARE EVOCAZIONE": "augment-summoning",
+    "COMPETENZA NELLE ARMATURE (LEGGERE)": "feat-descriptions--armor-proficiency-light",
+    "COMPETENZA NELLE ARMATURE (MEDIE)": "armor-proficiency-medium",
+    "COMPETENZA NELLE ARMATURE (PESANTI)": "feat-descriptions--armor-proficiency-heavy",
+    "CREARE COSTRUTTO": "craft-construct",
     "INCALZARE": "cleave",
-    "GRANDE INCALZARE": "great-cleave",
+    "INCALZARE POTENZIATO": "great-cleave",
     "INCANTESIMI INARRESTABILI": "spell-penetration",
     "INCANTESIMI INARRESTABILI SUPERIORE": "greater-spell-penetration",
     "INCANTESIMI INGRANDITI": "enlarge-spell",
+    "INCANTESIMI INGRANDITI IMMEDIATI": "sudden-enlarge",
     "INDAGATORE": "investigator",
     "MANOLESTA": "deft-hands",
     "PADRONANZA DEGLI INCANTESIMI": "spell-mastery",
     "SEGUIRE TRACCE URBANE": "urban-tracking",
     "TEMPRA POSSENTE": "great-fortitude",
-    "VOCAZIONE MAGICA": "spell-focus",
-    "VOCAZIONE MAGICA SUPERIORE": "greater-spell-focus",
-    "CREARE COSTRUTTO": "craft-construct",
-    "ARMA SPECIALIZZATA": "weapon-specialization",
-    "ARMA SPECIALIZZATA SUPERIORE": "greater-weapon-specialization",
-    "INCALZARE POTENZIATO": "great-cleave",
+    "VOCAZIONE MAGICA": "magical-aptitude",
     "NOME DEL TALENTO": None,  # Template entry, skip
 }
 
@@ -111,8 +124,30 @@ def extract_feats_from_html(filepath):
     return feats
 
 
+def clean_field_value(text):
+    """Clean a field value: remove trailing <br>, collapse whitespace.
+
+    Preserves inline HTML tags (<b>, <i>, <em>, <strong>) since the frontend's
+    escAllowInline() supports them.
+    """
+    text = text.strip()
+    # Remove leading/trailing <br> tags
+    text = re.sub(r"^\s*(<br\s*/?>[\s]*)+", "", text)
+    text = re.sub(r"(\s*<br\s*/?>[\s]*)+$", "", text)
+    # Convert internal <br> to newline for multi-line fields
+    text = re.sub(r"\s*<br\s*/?>\s*", "\n", text)
+    # Remove <p> tags (not needed in individual fields)
+    text = re.sub(r"</?p>", "", text)
+    # Collapse multiple newlines
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
 def parse_feat_content(name, feat_type, html_content):
-    """Parse the HTML content of a feat entry into structured fields."""
+    """Parse the HTML content of a feat entry into structured fields.
+
+    Preserves inline formatting (<b>, <i>) in field values.
+    """
     # Skip template entries
     if name.upper() == "NOME DEL TALENTO":
         return None
@@ -127,11 +162,12 @@ def parse_feat_content(name, feat_type, html_content):
     # Extract fields using bold markers
     fields = {}
 
-    # Patterns for field extraction
+    # Patterns for field extraction (all variants including singular/plural)
     field_patterns = [
         (r"<b>Prerequisit[io]:</b>\s*", "prerequisites"),
         (r"<b>Prerequisiti:</b>\s*", "prerequisites"),
         (r"<b>Beneficio:</b>\s*", "benefit"),
+        (r"<b>Benefici:</b>\s*", "benefit"),  # plural form (monster feats)
         (r"<b>Normale:</b>\s*", "normal"),
         (r"<b>Speciale:</b>\s*", "special"),
     ]
@@ -140,7 +176,10 @@ def parse_feat_content(name, feat_type, html_content):
     field_positions = []
     for pattern, field_name in field_patterns:
         for m in re.finditer(pattern, content, re.IGNORECASE):
-            field_positions.append((m.start(), m.end(), field_name))
+            # Avoid duplicate positions for same field
+            already = any(fp[2] == field_name and abs(fp[0] - m.start()) < 5 for fp in field_positions)
+            if not already:
+                field_positions.append((m.start(), m.end(), field_name))
 
     # Sort by position
     field_positions.sort(key=lambda x: x[0])
@@ -160,16 +199,13 @@ def parse_feat_content(name, feat_type, html_content):
         else:
             value = content[end:].strip()
 
-        # Clean trailing <br> tags
-        value = re.sub(r"\s*<br\s*/?>[\s]*$", "", value)
-        value = value.strip()
+        value = clean_field_value(value)
 
         if field_name not in fields or not fields[field_name]:
             fields[field_name] = value
 
     # Clean up preamble
-    preamble = re.sub(r"\s*<br\s*/?>[\s]*$", "", preamble)
-    preamble = preamble.strip()
+    preamble = clean_field_value(preamble)
 
     # Build the result
     result = {
@@ -338,36 +374,50 @@ def main():
             entry = overlay_map[slug]
             changes = []
 
-            # Update fields if the overlay doesn't have them
+            # Update fields if the overlay doesn't have them OR if existing
+            # data is corrupted (e.g., benefit text dumped into prerequisites)
+            # Preserve inline HTML (<b>, <i>) since frontend supports it
             for field in ["prerequisites", "benefit", "normal", "special"]:
                 pdf_val = feat.get(field, "")
                 existing_val = entry.get(field, "")
+
+                # Detect corrupted prerequisites (contains "Benefici:" marker)
+                if field == "prerequisites" and existing_val and "Benefici" in existing_val:
+                    if pdf_val:
+                        if not dry_run:
+                            entry[field] = pdf_val
+                        changes.append(f"~{field}")  # replaced
+                    continue
+
                 if pdf_val and not existing_val:
                     if not dry_run:
-                        entry[field] = strip_html(pdf_val)
+                        entry[field] = pdf_val
                     changes.append(f"+{field}")
 
-            # Add desc_html if missing
-            if not entry.get("desc_html", "").strip():
+            # Update desc_html if missing, or if we fixed corrupted fields
+            has_corrupted = any(c.startswith("~") for c in changes)
+            if has_corrupted or (not entry.get("benefit") and not entry.get("desc_html", "").strip()):
                 desc = build_desc_html(feat)
                 if desc:
                     if not dry_run:
                         entry["desc_html"] = desc
-                    changes.append("+desc_html")
+                    if has_corrupted:
+                        changes.append("~desc_html")
+                    else:
+                        changes.append("+desc_html")
 
             # Add type if missing
             if not entry.get("type", "").strip() and feat.get("type_it"):
                 if not dry_run:
-                    entry["type"] = feat["type_it"].title()
+                    entry["type"] = feat["type_it"]
                 changes.append("+type")
 
-            # Tag source if not already tagged
-            if "translation_source" not in entry and changes:
-                if not dry_run:
-                    entry["translation_source"] = "pdf"
-                    entry["reviewed"] = False
-
+            # Tag source if adding new content and not already tagged
             if changes:
+                if not dry_run:
+                    if entry.get("translation_source") != "manual":
+                        entry["translation_source"] = "pdf"
+                    entry["reviewed"] = False
                 updated += 1
                 print(f"  Updated {slug}: {', '.join(changes)}")
         else:
@@ -377,7 +427,7 @@ def main():
             for field in ["prerequisites", "benefit", "normal", "special"]:
                 val = feat.get(field, "")
                 if val:
-                    new_entry[field] = strip_html(val)
+                    new_entry[field] = val
 
             desc = build_desc_html(feat)
             if desc:
