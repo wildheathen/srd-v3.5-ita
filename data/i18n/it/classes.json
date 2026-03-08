@@ -1,675 +1,901 @@
 [
   {
     "slug": "abjurant-champion",
-    "name": "Abjurant Champion"
+    "name": "Abjurant Champion",
+    "reference": "p. 50"
   },
   {
     "slug": "abjurer-variant",
-    "name": "Abjurer Variant"
+    "name": "Abjurer Variant",
+    "reference": "p. 59"
   },
   {
     "slug": "abolisher",
-    "name": "Abolitore"
+    "name": "Abolitore",
+    "reference": "p. 182"
   },
   {
     "slug": "acolyte-of-the-ego",
-    "name": "Acolyte of the Ego"
+    "name": "Acolyte of the Ego",
+    "reference": "pag. 250"
   },
   {
     "slug": "acolyte-of-the-skin",
-    "name": "Accolito della Pelle"
+    "name": "Accolito della Pelle",
+    "reference": "pag. 169"
   },
   {
     "slug": "adept",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Adepto"
+    "name": "Adepto",
+    "reference": "p. 108"
   },
   {
     "slug": "aerial-avenger",
-    "name": "Aerial Avenger"
+    "name": "Aerial Avenger",
+    "reference": "p. 67"
   },
   {
     "slug": "aglarondan-griffonrider",
-    "name": "Aglarondan Griffonrider"
+    "name": "Aglarondan Griffonrider",
+    "reference": "p. 18"
   },
   {
     "slug": "akodo-champion",
-    "name": "Akodo Champion"
+    "name": "Akodo Champion",
+    "reference": "pag. 245"
   },
   {
     "slug": "alchemist-savant",
-    "name": "Alchemist Savant"
+    "name": "Alchemist Savant",
+    "reference": "pag. 97"
   },
   {
     "slug": "alienist",
-    "name": "Alienista"
+    "name": "Alienista",
+    "reference": "pag. 156"
   },
   {
     "slug": "anarchic-initiate",
-    "name": "Anarchic Initiate"
+    "name": "Anarchic Initiate",
+    "reference": "p. 17"
   },
   {
     "slug": "ancient-master",
-    "name": "Ancient Master"
+    "name": "Ancient Master",
+    "reference": "pag. 102"
   },
   {
     "slug": "anima-mage",
-    "name": "Anima Mage"
+    "name": "Anima Mage",
+    "reference": "p. 50"
   },
   {
     "slug": "animal-lord",
-    "name": "Signore degli Animali"
+    "name": "Signore degli Animali",
+    "reference": "pag. 169"
   },
   {
     "slug": "anointed-knight",
-    "name": "Cavaliere Alchimista"
+    "name": "Cavaliere Alchimista",
+    "reference": "p. 49"
+  },
+  {
+    "slug": "apostle-of-peace",
+    "name": "Apostle of Peace"
+  },
+  {
+    "slug": "arachnomancer",
+    "name": "Arachnomancer"
   },
   {
     "slug": "arcane-archer",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Arciere Arcano"
+    "name": "Arciere Arcano",
+    "reference": "p. 176"
+  },
+  {
+    "slug": "arcane-devotee",
+    "name": "Arcane Devotee"
+  },
+  {
+    "slug": "arcane-hierophant",
+    "name": "Arcane Hierophant"
   },
   {
     "slug": "arcane-trickster",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Mistificatore Arcano"
+    "name": "Mistificatore Arcano",
+    "reference": "p. 47"
+  },
+  {
+    "slug": "arcanopath-monk",
+    "name": "Arcanopath Monk"
+  },
+  {
+    "slug": "archivist",
+    "name": "Archivist"
   },
   {
     "slug": "archmage",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Arcimago"
+    "name": "Arcimago",
+    "reference": "p. 41"
+  },
+  {
+    "slug": "ardent",
+    "name": "Ardent"
+  },
+  {
+    "slug": "ardent-dilettante",
+    "name": "Ardent Dilettante"
+  },
+  {
+    "slug": "argent-fist",
+    "name": "Argent Fist"
+  },
+  {
+    "slug": "argent-savant",
+    "name": "Argent Savant"
   },
   {
     "slug": "aristocrat",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Aristocratico"
+    "name": "Aristocratico",
+    "reference": "p. 108"
   },
   {
     "slug": "artificer",
-    "name": "Artificer"
+    "name": "Artificer",
+    "reference": "p. 29"
   },
   {
     "slug": "ashworm-dragoon",
-    "name": "Ashworm Dragoon"
+    "name": "Ashworm Dragoon",
+    "reference": "pag. 66"
   },
   {
     "slug": "assassin",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Assassino"
+    "name": "Assassino",
+    "reference": "pag. 178"
   },
   {
     "slug": "astral-dancer",
-    "name": "Danzatore Astrale"
+    "name": "Danzatore Astrale",
+    "reference": "p. 63"
   },
   {
     "slug": "atavist",
-    "name": "Atavist"
+    "name": "Atavist",
+    "reference": "p. 133"
   },
   {
     "slug": "avenging-executioner",
-    "name": "Avenging Executioner"
+    "name": "Avenging Executioner",
+    "reference": "pag. 94"
   },
   {
     "slug": "bane-of-infidels",
-    "name": "Bane of Infidels"
+    "name": "Bane of Infidels",
+    "reference": "pag. 111"
   },
   {
     "slug": "barbarian",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Barbaro"
+    "name": "Barbaro",
+    "reference": "pag. 156"
   },
   {
     "slug": "barbarian-variant",
-    "name": "Barbarian Variant"
+    "name": "Barbarian Variant",
+    "reference": "p. 58"
   },
   {
     "slug": "bard",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Bardo"
+    "name": "Bardo",
+    "reference": "pag. 157"
   },
   {
     "slug": "bard-variant",
-    "name": "Bard Variant"
+    "name": "Bard Variant",
+    "reference": "p. 58"
   },
   {
     "slug": "bardic-sage",
-    "name": "Bardic Sage"
+    "name": "Bardic Sage",
+    "reference": "p. 49"
   },
   {
     "slug": "battle-dancer",
-    "name": "Battle Dancer"
+    "name": "Battle Dancer",
+    "reference": "pag. 157"
+  },
+  {
+    "slug": "battle-maiden",
+    "name": "Battle Maiden"
   },
   {
     "slug": "battle-sorcerer",
-    "name": "Battle Sorcerer"
+    "name": "Battle Sorcerer",
+    "reference": "pag. 164"
+  },
+  {
+    "slug": "battle-trickster",
+    "name": "Battle Trickster"
   },
   {
     "slug": "battlesmith",
-    "name": "Fabbro Guerriero"
+    "name": "Fabbro Guerriero",
+    "reference": "pag. 98"
   },
   {
     "slug": "bayushi-deceiver",
-    "name": "Bayushi Deceiver"
+    "name": "Bayushi Deceiver",
+    "reference": "pag. 224"
   },
   {
     "slug": "bear-warrior",
-    "name": "Combattente Orso"
+    "name": "Combattente Orso",
+    "reference": "p. 36"
   },
   {
     "slug": "beast-heart-adept",
-    "name": "Beast Heart Adept"
+    "name": "Beast Heart Adept",
+    "reference": "pag. 99"
   },
   {
     "slug": "beastmaster",
-    "name": "Ammaestratore"
+    "name": "Ammaestratore",
+    "reference": "pag. 157"
   },
   {
     "slug": "beguiler",
-    "name": "Beguiler"
+    "name": "Beguiler",
+    "reference": "pag. 149"
   },
   {
     "slug": "beholder-mage",
-    "name": "Beholder Magi"
+    "name": "Beholder Magi",
+    "reference": "p. 21"
   },
   {
     "slug": "beloved-of-valarian",
-    "name": "Protetta di Valarian"
+    "name": "Protetta di Valarian",
+    "reference": "pag. 97"
   },
   {
     "slug": "bereft",
-    "name": "Bereft"
+    "name": "Bereft",
+    "reference": "pag. 240"
+  },
+  {
+    "slug": "berronar-valkyrie-paladin",
+    "name": "Berronar Valkyrie (Paladin)"
   },
   {
     "slug": "binder",
-    "name": "Binder"
+    "name": "Binder",
+    "reference": "p. 9"
   },
   {
     "slug": "black-blood-cultist",
-    "name": "Black Blood Cultist"
+    "name": "Black Blood Cultist",
+    "reference": "pag. 156"
   },
   {
     "slug": "black-dog",
-    "name": "Black Dog"
+    "name": "Black Dog",
+    "reference": "p. 95"
   },
   {
     "slug": "black-flame-zealot",
-    "name": "Zelota della Fiamma Nera"
+    "name": "Zelota della Fiamma Nera",
+    "reference": "p. 21"
   },
   {
     "slug": "blackguard",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Cavaliere Nero"
+    "name": "Cavaliere Nero",
+    "reference": "pag. 79"
   },
   {
     "slug": "blade-bravo",
-    "name": "Spadaccino Virtuoso"
+    "name": "Spadaccino Virtuoso",
+    "reference": "p. 99"
   },
   {
     "slug": "blade-dancer",
-    "name": "Blade Dancer"
+    "name": "Blade Dancer",
+    "reference": "p. 37"
   },
   {
     "slug": "blade-of-orien",
-    "name": "Blade of Orien"
+    "name": "Blade of Orien",
+    "reference": "p. 99"
   },
   {
     "slug": "bladesinger",
-    "name": "Cantore della Lama"
+    "name": "Cantore della Lama",
+    "reference": "p. 49"
   },
   {
     "slug": "blessed-gruumsh",
-    "name": "Blessed of Gruumsh"
+    "name": "Blessed of Gruumsh",
+    "reference": "p. 70"
   },
   {
     "slug": "blighter",
-    "name": "Rinnegato"
+    "name": "Rinnegato",
+    "reference": "pag. 99"
   },
   {
     "slug": "blood-magus",
-    "name": "Magus del Sangue"
+    "name": "Magus del Sangue",
+    "reference": "p. 50"
   },
   {
     "slug": "bloodclaw-master",
-    "name": "Bloodclaw Master"
+    "name": "Bloodclaw Master",
+    "reference": "p. 96"
   },
   {
     "slug": "bloodhound",
-    "name": "Segugio"
+    "name": "Segugio",
+    "reference": "p. 49"
   },
   {
     "slug": "bloodscaled-fury",
-    "name": "Furia dalle Scaglie Insanguinate"
+    "name": "Furia dalle Scaglie Insanguinate",
+    "reference": "p. 86"
   },
   {
     "slug": "bloodstorm-blade",
-    "name": "Bloodstorm Blade"
+    "name": "Bloodstorm Blade",
+    "reference": "p. 100"
   },
   {
     "slug": "bonded-summoner",
-    "name": "Bonded Summoner"
+    "name": "Bonded Summoner",
+    "reference": "pag. 156"
   },
   {
     "slug": "bone-knight",
-    "name": "Bone Knight"
+    "name": "Bone Knight",
+    "reference": "p. 117"
+  },
+  {
+    "slug": "brimstone-speaker",
+    "name": "Brimstone Speaker"
   },
   {
     "slug": "broken-one-monk",
-    "name": "Broken One (Monk)"
+    "name": "Broken One (Monk)",
+    "reference": "p. 36"
   },
   {
     "slug": "cabinet-trickster",
-    "name": "Cabinet Trickster"
+    "name": "Cabinet Trickster",
+    "reference": "p. 139"
   },
   {
     "slug": "cancer-mage",
-    "name": "Cancer Mage"
+    "name": "Cancer Mage",
+    "reference": "p. 52"
   },
   {
     "slug": "cannith-wand-adept",
-    "name": "Cannith Wand Adept"
+    "name": "Cannith Wand Adept",
+    "reference": "pag. 119"
   },
   {
     "slug": "cataclysm-mage",
-    "name": "Cataclysm Mage"
+    "name": "Cataclysm Mage",
+    "reference": "p. 58"
   },
   {
     "slug": "cavalier",
-    "name": "Cavaliere"
+    "name": "Cavaliere",
+    "reference": "pag. 98"
   },
   {
     "slug": "cavelord",
-    "name": "Cavelord"
+    "name": "Cavelord",
+    "reference": "p. 30"
   },
   {
     "slug": "cavestalker",
-    "name": "Cavestalker"
+    "name": "Cavestalker",
+    "reference": "p. 68"
   },
   {
     "slug": "celestial-mystic",
-    "name": "Mistico Celestiale"
+    "name": "Mistico Celestiale",
+    "reference": "p. 55"
   },
   {
     "slug": "cerebremancer",
-    "name": "Cerebremancer"
+    "name": "Cerebremancer",
+    "reference": "p. 141"
   },
   {
     "slug": "cerebrex",
-    "name": "Cerebrex"
+    "name": "Cerebrex",
+    "reference": "p. 72"
   },
   {
     "slug": "chameleon",
-    "name": "Camaleonte"
+    "name": "Camaleonte",
+    "reference": "p. 111"
   },
   {
     "slug": "champion-of-corellon-larethian",
-    "name": "Champion of Corellon Larethian"
+    "name": "Champion of Corellon Larethian",
+    "reference": "p. 113"
   },
   {
     "slug": "champion-of-gwynharwyf",
-    "name": "Campione di Gwynharwyf"
+    "name": "Campione di Gwynharwyf",
+    "reference": "pag. 164"
   },
   {
     "slug": "chaotician",
-    "name": "Caoticista"
+    "name": "Caoticista",
+    "reference": "pag. 67"
   },
   {
     "slug": "child-of-night",
-    "name": "Child of Night"
+    "name": "Child of Night",
+    "reference": "p. 117"
   },
   {
     "slug": "church-inquisitor",
-    "name": "Inquisitore"
+    "name": "Inquisitore",
+    "reference": "pag. 63"
   },
   {
     "slug": "cipher-adept",
-    "name": "Adepto Cifrato"
+    "name": "Adepto Cifrato",
+    "reference": "p. 58"
   },
   {
     "slug": "citadel-elite",
-    "name": "Citadel Elite"
+    "name": "Citadel Elite",
+    "reference": "pag. 100"
+  },
+  {
+    "slug": "claw-of-the-sun-and-the-ankh-paladin",
+    "name": "Claw of the Sun and the Ankh (Paladin)"
   },
   {
     "slug": "cleric",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Chierico"
+    "name": "Chierico",
+    "reference": "pag. 156"
   },
   {
     "slug": "cleric-variant",
-    "name": "Cleric Variant"
+    "name": "Cleric Variant",
+    "reference": "p. 58"
   },
   {
     "slug": "cloaked-dancer",
-    "name": "Cloaked Dancer"
+    "name": "Cloaked Dancer",
+    "reference": "p. 31"
+  },
+  {
+    "slug": "cloistered-cleric",
+    "name": "Cloistered Cleric"
   },
   {
     "slug": "cloud-anchorite",
-    "name": "Cloud Anchorite"
+    "name": "Cloud Anchorite",
+    "reference": "p. 52"
   },
   {
     "slug": "coiled-cabalist",
-    "name": "Coiled Cabalist"
+    "name": "Coiled Cabalist",
+    "reference": "p. 161"
   },
   {
     "slug": "combat-medic",
-    "name": "Combat Medic"
+    "name": "Combat Medic",
+    "reference": "p. 99"
   },
   {
     "slug": "combat-trapsmith",
-    "name": "Combat Trapsmith"
+    "name": "Combat Trapsmith",
+    "reference": "p. 34"
   },
   {
     "slug": "commoner",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Popolano"
+    "name": "Popolano",
+    "reference": "pag. 210"
   },
   {
     "slug": "conjurer-variant",
-    "name": "Conjurer Variant"
+    "name": "Conjurer Variant",
+    "reference": "p. 60"
   },
   {
     "slug": "consecrated-harrier",
-    "name": "Cacciatore Consacrato"
+    "name": "Cacciatore Consacrato",
+    "reference": "p. 52"
   },
   {
     "slug": "contemplative",
-    "name": "Contemplativo"
+    "name": "Contemplativo",
+    "reference": "p. 54"
   },
   {
     "slug": "corrupt-avenger",
-    "name": "Vendicatore Corrotto"
+    "name": "Vendicatore Corrotto",
+    "reference": "pag. 128"
   },
   {
     "slug": "court-herald",
-    "name": "Court Herald"
+    "name": "Court Herald",
+    "reference": "p. 108"
   },
   {
     "slug": "cragtop-archer",
-    "name": "Arciere degli Altopiani"
+    "name": "Arciere degli Altopiani",
+    "reference": "p. 101"
   },
   {
     "slug": "crescent-moon-knight-paladin",
-    "name": "Crescent Moon Knight (Paladin)"
+    "name": "Crescent Moon Knight (Paladin)",
+    "reference": "p. 37"
   },
   {
     "slug": "crimson-scourge",
-    "name": "Crimson Scourge"
+    "name": "Crimson Scourge",
+    "reference": "p. 92"
   },
   {
     "slug": "crinti-shadow-marauder",
-    "name": "Crinti Shadow Marauder"
+    "name": "Crinti Shadow Marauder",
+    "reference": "pag. 120"
   },
   {
     "slug": "crusader",
-    "name": "Crusader"
+    "name": "Crusader",
+    "reference": "p. 8"
   },
   {
     "slug": "cryokineticist",
-    "name": "Cryokineticist"
+    "name": "Cryokineticist",
+    "reference": "p. 54"
   },
   {
     "slug": "cultist-of-the-shattered-peak",
-    "name": "Cultist of the Shattered Peak"
+    "name": "Cultist of the Shattered Peak",
+    "reference": "p. 10"
   },
   {
     "slug": "cyran-avenger",
-    "name": "Cyran Avenger"
+    "name": "Cyran Avenger",
+    "reference": "p. 86"
   },
   {
     "slug": "cyre-scout",
-    "name": "Cyre Scout"
+    "name": "Cyre Scout",
+    "reference": "p. 101"
   },
   {
     "slug": "daggerspell-mage",
-    "name": "Mago dei Pugnali Incantati"
+    "name": "Mago dei Pugnali Incantati",
+    "reference": "p. 31"
   },
   {
     "slug": "daggerspell-shaper",
-    "name": "Druido dei Pugnali Incantati"
+    "name": "Druido dei Pugnali Incantati",
+    "reference": "p. 36"
   },
   {
     "slug": "daidoji-bodyguard",
-    "name": "Daidoji Bodyguard"
+    "name": "Daidoji Bodyguard",
+    "reference": "pag. 220"
   },
   {
     "slug": "dark-hunter",
-    "name": "Cacciatore Oscuro"
+    "name": "Cacciatore Oscuro",
+    "reference": "p. 20"
   },
   {
     "slug": "dark-lantern",
-    "name": "Dark Lantern"
+    "name": "Dark Lantern",
+    "reference": "p. 68"
   },
   {
     "slug": "dark-scholar",
-    "name": "Dark Scholar"
+    "name": "Dark Scholar",
+    "reference": "pag. 106"
   },
   {
     "slug": "darkrunner",
-    "name": "Scorridore delle Tenebre"
+    "name": "Scorridore delle Tenebre",
+    "reference": "p. 186"
   },
   {
     "slug": "darksong-knight-fighter",
-    "name": "Darksong Knight (Fighter)"
+    "name": "Darksong Knight (Fighter)",
+    "reference": "pag. 213"
   },
   {
     "slug": "darkwood-stalker",
-    "name": "Predatore dei Boschi"
+    "name": "Predatore dei Boschi",
+    "reference": "pag. 120"
   },
   {
     "slug": "dawncaller",
-    "name": "Cantore dell'Aurora"
+    "name": "Cantore dell'Aurora",
+    "reference": "pag. 72"
   },
   {
     "slug": "deadgrim",
-    "name": "Deadgrim"
+    "name": "Deadgrim",
+    "reference": "p. 57"
   },
   {
     "slug": "death-delver",
-    "name": "Cacciatore di Morte"
+    "name": "Cacciatore di Morte",
+    "reference": "p. 93"
   },
   {
     "slug": "death-master",
-    "name": "Death Master"
+    "name": "Death Master",
+    "reference": "p. 30"
   },
   {
     "slug": "deaths-chosen",
-    "name": "Prescelto della Morte"
+    "name": "Prescelto della Morte",
+    "reference": "p. 41"
   },
   {
     "slug": "deep-diviner",
-    "name": "Deep Diviner"
+    "name": "Deep Diviner",
+    "reference": "p. 32"
   },
   {
     "slug": "deepstone-sentinel",
-    "name": "Deepstone Sentinel"
+    "name": "Deepstone Sentinel",
+    "reference": "pag. 66"
   },
   {
     "slug": "deepwarden",
-    "name": "Guardiano del Baratro"
+    "name": "Guardiano del Baratro",
+    "reference": "pag. 66"
   },
   {
     "slug": "deepwood-sniper",
-    "name": "Deepwood Sniper"
+    "name": "Deepwood Sniper",
+    "reference": "p. 52"
   },
   {
     "slug": "defender-of-sealtiel",
-    "name": "Difensore di Sealtiel"
+    "name": "Difensore di Sealtiel",
+    "reference": "p. 58"
   },
   {
     "slug": "defiant",
-    "name": "Sfidante"
+    "name": "Sfidante",
+    "reference": "pag. 156"
   },
   {
     "slug": "demonbinder",
-    "name": "Demonbinder"
+    "name": "Demonbinder",
+    "reference": "p. 72"
   },
   {
     "slug": "demonologist",
-    "name": "Demonologist"
+    "name": "Demonologist",
+    "reference": "p. 54"
   },
   {
     "slug": "demonwrecker",
-    "name": "Demonwrecker"
+    "name": "Demonwrecker",
+    "reference": "p. 168"
   },
   {
     "slug": "demonwrecker-arcane",
-    "name": "Demonwrecker Arcane"
+    "name": "Demonwrecker Arcane",
+    "reference": "p. 170"
   },
   {
     "slug": "deneith-warden",
-    "name": "Deneith Warden"
+    "name": "Deneith Warden",
+    "reference": "pag. 66"
   },
   {
     "slug": "dervish",
-    "name": "Derviscio"
+    "name": "Derviscio",
+    "reference": "p. 25"
   },
   {
     "slug": "devoted-defender",
-    "name": "Devoted Defender"
+    "name": "Devoted Defender",
+    "reference": "pag. 98"
   },
   {
     "slug": "diabolist",
-    "name": "Diabolist"
+    "name": "Diabolist",
+    "reference": "pag. 164"
   },
   {
     "slug": "diamond-dragon",
-    "name": "Diamond Dragon"
+    "name": "Diamond Dragon",
+    "reference": "p. 30"
   },
   {
     "slug": "dirgesinger",
-    "name": "Cantore Funebre"
+    "name": "Cantore Funebre",
+    "reference": "pag. 169"
   },
   {
     "slug": "disciple-of-ashardalon",
-    "name": "Discepolo di Ashardalon"
+    "name": "Discepolo di Ashardalon",
+    "reference": "p. 87"
   },
   {
     "slug": "disciple-of-asmodeus",
-    "name": "Disciple of Asmodeus"
+    "name": "Disciple of Asmodeus",
+    "reference": "p. 57"
   },
   {
     "slug": "disciple-of-baalzebul",
-    "name": "Disciple of Baalzebul"
+    "name": "Disciple of Baalzebul",
+    "reference": "p. 58"
   },
   {
     "slug": "disciple-of-dispater",
-    "name": "Disciple of Dispater"
+    "name": "Disciple of Dispater",
+    "reference": "p. 60"
   },
   {
     "slug": "disciple-of-mammon",
-    "name": "Disciple of Mammon"
+    "name": "Disciple of Mammon",
+    "reference": "p. 60"
   },
   {
     "slug": "disciple-of-mephistopheles",
-    "name": "Disciple of Mephistopheles"
-  },
-  {
-    "slug": "disciple-of-thrym",
-    "name": "Disciple of Thrym"
+    "name": "Disciple of Mephistopheles",
+    "reference": "pag. 62"
   },
   {
     "slug": "disciple-of-the-eye",
-    "name": "Disciple of the Eye"
+    "name": "Disciple of the Eye",
+    "reference": "p. 75"
   },
   {
     "slug": "disciple-of-the-word",
-    "name": "Disciple of the Word"
+    "name": "Disciple of the Word",
+    "reference": "pag. 222"
+  },
+  {
+    "slug": "disciple-of-thrym",
+    "name": "Disciple of Thrym",
+    "reference": "pag. 164"
   },
   {
     "slug": "dispassionate-watcher-of-chronepsis",
-    "name": "Osservatore Indifferente di Chronepsis"
+    "name": "Osservatore Indifferente di Chronepsis",
+    "reference": "p. 89"
   },
   {
     "slug": "divine-agent",
-    "name": "Divine Agent"
+    "name": "Divine Agent",
+    "reference": "pag. 94"
   },
   {
     "slug": "divine-bard",
-    "name": "Divine Bard"
+    "name": "Divine Bard",
+    "reference": "p. 50"
   },
   {
     "slug": "divine-champion",
-    "name": "Divine Champion"
+    "name": "Divine Champion",
+    "reference": "p. 49"
   },
   {
     "slug": "divine-crusader",
-    "name": "Crociato Divino"
+    "name": "Crociato Divino",
+    "reference": "pag. 108"
   },
   {
     "slug": "divine-disciple",
-    "name": "Divine Disciple"
+    "name": "Divine Disciple",
+    "reference": "pag. 63"
   },
   {
     "slug": "divine-mind",
-    "name": "Divine Mind"
+    "name": "Divine Mind",
+    "reference": "p. 9"
   },
   {
     "slug": "divine-oracle",
-    "name": "Oracolo Divino"
+    "name": "Oracolo Divino",
+    "reference": "pag. 164"
   },
   {
     "slug": "divine-prankster",
-    "name": "Burlone Divino"
+    "name": "Burlone Divino",
+    "reference": "p. 107"
   },
   {
     "slug": "divine-seeker",
-    "name": "Divine Seeker"
+    "name": "Divine Seeker",
+    "reference": "p. 52"
   },
   {
     "slug": "diviner-variant",
-    "name": "Diviner Variant"
+    "name": "Diviner Variant",
+    "reference": "p. 60"
   },
   {
     "slug": "domain-wizard",
-    "name": "Domain Wizard"
+    "name": "Domain Wizard",
+    "reference": "p. 57"
   },
   {
     "slug": "doomlord",
-    "name": "Signore del Fato"
+    "name": "Signore del Fato",
+    "reference": "p. 47"
   },
   {
     "slug": "dracolexi",
-    "name": "Dracolexi"
+    "name": "Dracolexi",
+    "reference": "pag. 143"
   },
   {
     "slug": "dracolyte",
-    "name": "Accolito dei Draghi"
+    "name": "Accolito dei Draghi",
+    "reference": "pag. 158"
   },
   {
     "slug": "dragon-ascendant",
-    "name": "Drago Asceta"
+    "name": "Drago Asceta",
+    "reference": "p. 90"
   },
   {
     "slug": "dragon-descendant",
-    "name": "Dragon Descendant"
+    "name": "Dragon Descendant",
+    "reference": "p. 34"
   },
   {
     "slug": "dragon-devotee",
-    "name": "Dragon Devotee"
+    "name": "Dragon Devotee",
+    "reference": "pag. 179"
   },
   {
     "slug": "dragon-disciple",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Discepolo del Drago"
+    "name": "Discepolo del Drago",
+    "reference": "p. 55"
   },
   {
     "slug": "dragon-lord",
-    "name": "Dragon Lord"
+    "name": "Dragon Lord",
+    "reference": "pag. 213"
   },
   {
     "slug": "dragon-prophet",
-    "name": "Dragon Prophet"
+    "name": "Dragon Prophet",
+    "reference": "p. 63"
   },
   {
     "slug": "dragon-rider",
@@ -677,81 +903,143 @@
   },
   {
     "slug": "dragon-samurai",
-    "name": "Dragon Samurai"
+    "name": "Dragon Samurai",
+    "reference": "p. 18"
   },
   {
     "slug": "dragon-shaman",
-    "name": "Dragon Shaman"
+    "name": "Dragon Shaman",
+    "reference": "pag. 106"
   },
   {
     "slug": "dragonfire-adept",
-    "name": "Dragonfire Adept"
+    "name": "Dragonfire Adept",
+    "reference": "pag. 94"
   },
   {
     "slug": "dragonheart-mage",
-    "name": "Dragonheart Mage"
+    "name": "Dragonheart Mage",
+    "reference": "pag. 128"
   },
   {
     "slug": "dragonkith",
-    "name": "Valletto dei draghi"
+    "name": "Valletto dei draghi",
+    "reference": "p. 123"
   },
   {
     "slug": "dragonmark-heir",
-    "name": "Dragonmark Heir"
+    "name": "Dragonmark Heir",
+    "reference": "pag. 114"
   },
   {
     "slug": "dragonrider",
-    "name": "Cavaliere di Draghi"
+    "name": "Cavaliere di Draghi",
+    "reference": "pag. 153"
   },
   {
     "slug": "dragonslayer",
-    "name": "Uccisore di Draghi"
+    "name": "Uccisore di Draghi",
+    "reference": "p. 125"
   },
   {
     "slug": "dragonsong-lyrist",
-    "name": "Poeta Lirico del Canto del Drago"
+    "name": "Poeta Lirico del Canto del Drago",
+    "reference": "p. 127"
+  },
+  {
+    "slug": "dragonstalker",
+    "name": "Dragonstalker"
+  },
+  {
+    "slug": "dread-commando",
+    "name": "Dread Commando"
+  },
+  {
+    "slug": "dread-fang-of-lolth",
+    "name": "Dread Fang of Lolth"
+  },
+  {
+    "slug": "dread-necromancer",
+    "name": "Dread Necromancer"
+  },
+  {
+    "slug": "dread-pirate",
+    "name": "Dread Pirate"
+  },
+  {
+    "slug": "dread-witch",
+    "name": "Dread Witch"
+  },
+  {
+    "slug": "drow-judicator",
+    "name": "Drow Judicator"
   },
   {
     "slug": "druid",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Druido"
+    "name": "Druido",
+    "reference": "p. 47"
+  },
+  {
+    "slug": "druid-variant",
+    "name": "Druid Variant"
+  },
+  {
+    "slug": "druidic-avenger",
+    "name": "Druidic Avenger"
+  },
+  {
+    "slug": "drunken-master",
+    "name": "Drunken Master"
   },
   {
     "slug": "duelist",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Duellante"
+    "name": "Duellante",
+    "reference": "p. 17"
+  },
+  {
+    "slug": "duergar-racial-class",
+    "name": "Duergar Racial Class"
   },
   {
     "slug": "dukar",
-    "name": "Dukar"
+    "name": "Dukar",
+    "reference": "pag. 213"
   },
   {
     "slug": "dungeon-delver",
-    "name": "Esploratore di Dungeon"
+    "name": "Esploratore di Dungeon",
+    "reference": "pag. 95"
   },
   {
     "slug": "dungeon-lord",
-    "name": "Dungeon Lord"
+    "name": "Dungeon Lord",
+    "reference": "p. 108"
   },
   {
     "slug": "duraakash",
-    "name": "Duraak'ash"
+    "name": "Duraak'ash",
+    "reference": "p. 107"
   },
   {
     "slug": "durthan",
-    "name": "Durthan"
+    "name": "Durthan",
+    "reference": "pag. 105"
   },
   {
     "slug": "duskblade",
-    "name": "Duskblade"
+    "name": "Duskblade",
+    "reference": "pag. 71"
   },
   {
     "slug": "dwarven-defender",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Difensore Nanico"
+    "name": "Difensore Nanico",
+    "reference": "p. 186"
   },
   {
     "slug": "dweomerkeeper",
@@ -759,677 +1047,1069 @@
   },
   {
     "slug": "earth-dreamer",
-    "name": "Sognatore della Terra"
+    "name": "Sognatore della Terra",
+    "reference": "p. 110"
   },
   {
     "slug": "ebon-saint",
-    "name": "Ebon Saint"
+    "name": "Ebon Saint",
+    "reference": "pag. 105"
   },
   {
     "slug": "ebonmar-infiltrator",
-    "name": "Ebonmar Infiltrator"
+    "name": "Ebonmar Infiltrator",
+    "reference": "pag. 143"
   },
   {
     "slug": "ectopic-adept",
-    "name": "Ectopic Adept"
+    "name": "Ectopic Adept",
+    "reference": "pag. 157"
   },
   {
     "slug": "effigy-master",
-    "name": "Maestro dell'Effigie"
+    "name": "Maestro dell'Effigie",
+    "reference": "p. 30"
   },
   {
     "slug": "eldeen-ranger",
-    "name": "Eldeen Ranger"
+    "name": "Eldeen Ranger",
+    "reference": "pag. 135"
   },
   {
     "slug": "eldritch-disciple",
-    "name": "Eldritch Disciple"
+    "name": "Eldritch Disciple",
+    "reference": "pag. 97"
   },
   {
     "slug": "eldritch-knight",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Cavaliere Mistico"
+    "name": "Cavaliere Mistico",
+    "reference": "p. 187"
   },
   {
     "slug": "eldritch-theurge",
-    "name": "Eldritch Theurge"
+    "name": "Eldritch Theurge",
+    "reference": "p. 57"
   },
   {
     "slug": "elemental-master",
-    "name": "Maestro Elementale"
+    "name": "Maestro Elementale",
+    "reference": "p. 92"
   },
   {
     "slug": "elemental-savant",
-    "name": "Sapiente Elementale"
+    "name": "Sapiente Elementale",
+    "reference": "p. 57"
   },
   {
     "slug": "elemental-scion-of-zilargo",
-    "name": "Elemental Scion of Zilargo"
+    "name": "Elemental Scion of Zilargo",
+    "reference": "p. 68"
   },
   {
     "slug": "elemental-warrior",
-    "name": "Combattente Elementale"
+    "name": "Combattente Elementale",
+    "reference": "p. 65"
+  },
+  {
+    "slug": "elocater",
+    "name": "Elocater"
   },
   {
     "slug": "emancipated-spawn",
-    "name": "Emancipated Spawn"
+    "name": "Emancipated Spawn",
+    "reference": "p. 75"
   },
   {
     "slug": "emissary-of-barachiel",
-    "name": "Emissario di Barachiel"
+    "name": "Emissario di Barachiel",
+    "reference": "p. 59"
+  },
+  {
+    "slug": "enchanter-variant",
+    "name": "Enchanter Variant"
   },
   {
     "slug": "enlightened-fist",
-    "name": "Pugno Illuminato"
+    "name": "Pugno Illuminato",
+    "reference": "p. 34"
   },
   {
     "slug": "enlightened-spirit",
-    "name": "Enlightened Spirit"
+    "name": "Enlightened Spirit",
+    "reference": "p. 60"
   },
   {
     "slug": "entropomancer",
-    "name": "Entropomancer"
+    "name": "Entropomancer",
+    "reference": "p. 36"
   },
   {
     "slug": "ephemeral-exemplar",
-    "name": "Effimero Esemplare"
+    "name": "Effimero Esemplare",
+    "reference": "pag. 97"
   },
   {
     "slug": "epic-barbarian",
-    "name": "Epic Barbarian"
+    "name": "Epic Barbarian",
+    "reference": "pag. 296"
   },
   {
     "slug": "escalation-mage",
-    "name": "Escalation Mage"
+    "name": "Escalation Mage",
+    "reference": "p. 52"
   },
   {
     "slug": "eternal-blade",
-    "name": "Eternal Blade"
+    "name": "Eternal Blade",
+    "reference": "pag. 210"
+  },
+  {
+    "slug": "eternal-order-paladin",
+    "name": "Eternal Order (Paladin)"
+  },
+  {
+    "slug": "eunuch-warlock",
+    "name": "Eunuch Warlock"
+  },
+  {
+    "slug": "evangelist",
+    "name": "Evangelist"
+  },
+  {
+    "slug": "evereskan-tomb-guardian",
+    "name": "Evereskan Tomb Guardian"
+  },
+  {
+    "slug": "evoker-variant",
+    "name": "Evoker Variant"
+  },
+  {
+    "slug": "exalted-arcanist",
+    "name": "Exalted Arcanist"
+  },
+  {
+    "slug": "exemplar",
+    "name": "Exemplar"
+  },
+  {
+    "slug": "exorcist-of-the-silver-flame",
+    "name": "Exorcist of the Silver Flame"
+  },
+  {
+    "slug": "exotic-weapon-master",
+    "name": "Exotic Weapon Master"
   },
   {
     "slug": "expert",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Esperto"
+    "name": "Esperto",
+    "reference": "p. 77"
+  },
+  {
+    "slug": "extreme-explorer",
+    "name": "Extreme Explorer"
+  },
+  {
+    "slug": "eye-of-gruumsh",
+    "name": "Eye of Gruumsh"
+  },
+  {
+    "slug": "eye-of-horus-re",
+    "name": "Eye of Horus-re"
+  },
+  {
+    "slug": "eye-of-lolth",
+    "name": "Eye of Lolth"
+  },
+  {
+    "slug": "factotum",
+    "name": "Factotum"
+  },
+  {
+    "slug": "fang-of-lolth",
+    "name": "Fang of Lolth"
+  },
+  {
+    "slug": "fang-of-sseth",
+    "name": "Fang of Sseth"
+  },
+  {
+    "slug": "fangshields-barbarian",
+    "name": "Fangshields Barbarian"
+  },
+  {
+    "slug": "fangshields-druid",
+    "name": "Fangshields Druid"
+  },
+  {
+    "slug": "fangshields-ranger",
+    "name": "Fangshields Ranger"
+  },
+  {
+    "slug": "fatemaker",
+    "name": "Fatemaker"
+  },
+  {
+    "slug": "fiend-blooded",
+    "name": "Fiend-blooded"
+  },
+  {
+    "slug": "fiendbinder",
+    "name": "Fiendbinder"
   },
   {
     "slug": "fighter",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Guerriero"
+    "name": "Guerriero",
+    "reference": "p. 37"
+  },
+  {
+    "slug": "fighter-variant",
+    "name": "Fighter Variant"
+  },
+  {
+    "slug": "fist-of-dal-quor",
+    "name": "Fist of Dal Quor"
   },
   {
     "slug": "fist-of-hextor",
-    "name": "Fist of Hextor"
+    "name": "Fist of Hextor",
+    "reference": "p. 18"
   },
   {
     "slug": "fist-of-raziel",
-    "name": "Pugno di Raziel"
-  },
-  {
-    "slug": "fist-of-zuoken",
-    "name": "Fist of Zuoken"
+    "name": "Pugno di Raziel",
+    "reference": "pag. 62"
   },
   {
     "slug": "fist-of-the-forest",
-    "name": "Fist of the Forest"
+    "name": "Fist of the Forest",
+    "reference": "pag. 69"
+  },
+  {
+    "slug": "fist-of-zuoken",
+    "name": "Fist of Zuoken",
+    "reference": "p. 144"
   },
   {
     "slug": "flayerspawn-psychic",
-    "name": "Flayerspawn Psychic"
+    "name": "Flayerspawn Psychic",
+    "reference": "p. 30"
   },
   {
     "slug": "fleet-runner-ehlonna",
-    "name": "Fleet Runner of Ehlonna"
+    "name": "Fleet Runner of Ehlonna",
+    "reference": "pag. 135"
   },
   {
     "slug": "fleshwarper",
-    "name": "Modellacarne"
+    "name": "Modellacarne",
+    "reference": "p. 189"
   },
   {
     "slug": "flux-adept",
-    "name": "Flux Adept"
+    "name": "Flux Adept",
+    "reference": "p. 76"
   },
   {
     "slug": "fochlucan-lyrist",
-    "name": "Liristradi Fochlucan"
+    "name": "Liristradi Fochlucan",
+    "reference": "p. 47"
   },
   {
     "slug": "foe-hunter",
-    "name": "Foe Hunter"
+    "name": "Foe Hunter",
+    "reference": "pag. 164"
   },
   {
     "slug": "force-missile-mage",
-    "name": "Force Missile Mage"
+    "name": "Force Missile Mage",
+    "reference": "pag. 70"
   },
   {
     "slug": "forest-reeve",
-    "name": "Forest Reeve"
+    "name": "Forest Reeve",
+    "reference": "p. 82"
   },
   {
     "slug": "forsaker",
-    "name": "Forsaker"
+    "name": "Forsaker",
+    "reference": "p. 57"
   },
   {
     "slug": "fortunes-friend",
-    "name": "Fortune's Friend"
+    "name": "Fortune's Friend",
+    "reference": "pag. 213"
   },
   {
     "slug": "frenzied-berserker",
-    "name": "Berserker Furioso"
+    "name": "Berserker Furioso",
+    "reference": "p. 59"
   },
   {
     "slug": "frost-mage",
-    "name": "Frost Mage"
+    "name": "Frost Mage",
+    "reference": "p. 58"
   },
   {
     "slug": "frostrager",
-    "name": "Frostrager"
+    "name": "Frostrager",
+    "reference": "p. 60"
   },
   {
     "slug": "gatecrasher",
-    "name": "Gatecrasher"
+    "name": "Gatecrasher",
+    "reference": "pag. 157"
+  },
+  {
+    "slug": "gatekeeper-mystagogue",
+    "name": "Gatekeeper Mystagogue"
+  },
+  {
+    "slug": "geomancer",
+    "name": "Geomancer"
+  },
+  {
+    "slug": "geometer",
+    "name": "Geometer"
+  },
+  {
+    "slug": "ghost-faced-killer",
+    "name": "Ghost-faced Killer"
+  },
+  {
+    "slug": "ghostwalker",
+    "name": "Ghostwalker"
+  },
+  {
+    "slug": "githyanki-racial-class",
+    "name": "Githyanki Racial Class"
+  },
+  {
+    "slug": "githzerai-racial-class",
+    "name": "Githzerai Racial Class"
+  },
+  {
+    "slug": "gladiator",
+    "name": "Gladiator"
+  },
+  {
+    "slug": "glorious-servitor",
+    "name": "Glorious Servitor"
+  },
+  {
+    "slug": "gnome-giant-slayer",
+    "name": "Gnome Giant-slayer"
+  },
+  {
+    "slug": "golden-cup-paladin",
+    "name": "Golden Cup (Paladin)"
+  },
+  {
+    "slug": "golden-lion-paladin",
+    "name": "Golden Lion (Paladin)"
+  },
+  {
+    "slug": "goliath-liberator",
+    "name": "Goliath Liberator"
+  },
+  {
+    "slug": "gray-guard",
+    "name": "Gray Guard"
+  },
+  {
+    "slug": "gray-hand-enforcer",
+    "name": "Gray Hand Enforcer"
   },
   {
     "slug": "great-rift-deep-defender",
-    "name": "Great Rift Deep Defender"
+    "name": "Great Rift Deep Defender",
+    "reference": "pag. 94"
   },
   {
     "slug": "great-sea-corsair",
-    "name": "Great Sea Corsair"
+    "name": "Great Sea Corsair",
+    "reference": "pag. 157"
   },
   {
     "slug": "green-star-adept",
-    "name": "Adepto della Stella Verde"
+    "name": "Adepto della Stella Verde",
+    "reference": "p. 41"
   },
   {
     "slug": "half-giant-racial-class",
-    "name": "Half-giant Racial Class"
+    "name": "Half-giant Racial Class",
+    "reference": "p. 148"
   },
   {
     "slug": "halfling-outrider",
-    "name": "Avanguardia Halfling"
+    "name": "Avanguardia Halfling",
+    "reference": "pag. 105"
   },
   {
     "slug": "halruaan-elder",
-    "name": "Halruaan Elder"
+    "name": "Halruaan Elder",
+    "reference": "p. 27"
   },
   {
     "slug": "halruaan-magehound",
-    "name": "Halruaan Magehound"
+    "name": "Halruaan Magehound",
+    "reference": "p. 29"
   },
   {
     "slug": "hammer-of-moradin",
-    "name": "Hammer of Moradin"
+    "name": "Hammer of Moradin",
+    "reference": "pag. 164"
   },
   {
     "slug": "hand-of-the-adama",
-    "name": "Hand of the Adama"
+    "name": "Hand of the Adama",
+    "reference": "p. 31"
   },
   {
     "slug": "hand-of-the-winged-masters",
-    "name": "Hand of the Winged Masters"
+    "name": "Hand of the Winged Masters",
+    "reference": "pag. 169"
   },
   {
     "slug": "harper-agent",
-    "name": "Harper Agent"
+    "name": "Harper Agent",
+    "reference": "p. 58"
   },
   {
     "slug": "hathran",
-    "name": "Hathran"
+    "name": "Hathran",
+    "reference": "p. 59"
   },
   {
     "slug": "havoc-mage",
-    "name": "Havoc Mage"
+    "name": "Havoc Mage",
+    "reference": "p. 20"
+  },
+  {
+    "slug": "haztaratain",
+    "name": "Haztaratain"
   },
   {
     "slug": "healer",
-    "name": "Healer"
+    "name": "Healer",
+    "reference": "p. 8"
   },
   {
     "slug": "heir-of-siberys",
-    "name": "Heir of Siberys"
+    "name": "Heir of Siberys",
+    "reference": "pag. 69"
   },
   {
     "slug": "hellbreaker",
-    "name": "Hellbreaker"
+    "name": "Hellbreaker",
+    "reference": "p. 86"
   },
   {
     "slug": "hellfire-warlock",
-    "name": "Hellfire Warlock"
+    "name": "Hellfire Warlock",
+    "reference": "p. 89"
   },
   {
     "slug": "hellreaver",
-    "name": "Hellreaver"
+    "name": "Hellreaver",
+    "reference": "p. 92"
   },
   {
     "slug": "henshin-mystic",
-    "name": "Henshin Mystic"
+    "name": "Henshin Mystic",
+    "reference": "pag. 78"
   },
   {
     "slug": "hexblade",
-    "name": "Lama Iettatrice"
+    "name": "Lama Iettatrice",
+    "reference": "p. 5"
   },
   {
     "slug": "hexer",
-    "name": "Hexer"
+    "name": "Hexer",
+    "reference": "p. 63"
   },
   {
     "slug": "hida-defender",
-    "name": "Hida Defender"
+    "name": "Hida Defender",
+    "reference": "pag. 215"
   },
   {
     "slug": "hidecarved-dragon",
-    "name": "Drago dalla Corazza Incisa"
+    "name": "Drago dalla Corazza Incisa",
+    "reference": "p. 94"
   },
   {
     "slug": "hierophant",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Ierofante"
+    "name": "Ierofante",
+    "reference": "pag. 99"
   },
   {
     "slug": "high-elemental-binder",
-    "name": "High Elemental Binder"
+    "name": "High Elemental Binder",
+    "reference": "p. 104"
   },
   {
     "slug": "highland-stalker",
-    "name": "Predatore delle Montagne"
+    "name": "Predatore delle Montagne",
+    "reference": "p. 54"
+  },
+  {
+    "slug": "hin-fist",
+    "name": "Hin Fist"
+  },
+  {
+    "slug": "hoardstealer",
+    "name": "Hoardstealer"
+  },
+  {
+    "slug": "holt-warden",
+    "name": "Holt Warden"
+  },
+  {
+    "slug": "holy-judge-paladin",
+    "name": "Holy Judge (Paladin)"
+  },
+  {
+    "slug": "holy-liberator",
+    "name": "Holy Liberator"
+  },
+  {
+    "slug": "holy-scourge",
+    "name": "Holy Scourge"
   },
   {
     "slug": "horizon-walker",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Camminatore degli Orizzonti"
+    "name": "Camminatore degli Orizzonti",
+    "reference": "p. 189"
+  },
+  {
+    "slug": "hospitaler",
+    "name": "Hospitaler"
+  },
+  {
+    "slug": "hulking-hurler",
+    "name": "Hulking Hurler"
+  },
+  {
+    "slug": "hunter-of-the-dead",
+    "name": "Hunter of the Dead"
+  },
+  {
+    "slug": "iaijutsu-master",
+    "name": "Iaijutsu Master"
+  },
+  {
+    "slug": "illithid-body-tamer",
+    "name": "Illithid Body Tamer"
+  },
+  {
+    "slug": "illithid-savant",
+    "name": "Illithid Savant"
+  },
+  {
+    "slug": "illithid-slayer",
+    "name": "Illithid Slayer"
+  },
+  {
+    "slug": "illumine-soul",
+    "name": "Illumine Soul"
   },
   {
     "slug": "illusionist-variant",
-    "name": "Illusionist Variant"
+    "name": "Illusionist Variant",
+    "reference": "p. 63"
   },
   {
     "slug": "imaskari-vengeance-taker",
-    "name": "Imaskari Vengeance Taker"
+    "name": "Imaskari Vengeance Taker",
+    "reference": "p. 37"
   },
   {
     "slug": "impure-prince",
-    "name": "Impure Prince"
+    "name": "Impure Prince",
+    "reference": "pag. 114"
   },
   {
     "slug": "incandescent-champion",
-    "name": "Incandescent Champion"
+    "name": "Incandescent Champion",
+    "reference": "p. 115"
   },
   {
     "slug": "incantatrix",
-    "name": "Incantatrix"
+    "name": "Incantatrix",
+    "reference": "pag. 67"
   },
   {
     "slug": "incarnate",
-    "name": "Incarnate"
+    "name": "Incarnate",
+    "reference": "p. 20"
   },
   {
     "slug": "incarnum-blade",
-    "name": "Incarnum Blade"
+    "name": "Incarnum Blade",
+    "reference": "p. 121"
   },
   {
     "slug": "initiate-of-pistis-sophia",
-    "name": "Iniziato di Pistis Sofia"
+    "name": "Iniziato di Pistis Sofia",
+    "reference": "p. 64"
   },
   {
     "slug": "initiate-of-the-draconic-mysteries",
-    "name": "Iniziato ai Misteri Draconici"
+    "name": "Iniziato ai Misteri Draconici",
+    "reference": "p. 131"
   },
   {
     "slug": "initiate-of-the-sevenfold-veil",
-    "name": "Iniziato dei Sette Veli"
+    "name": "Iniziato dei Sette Veli",
+    "reference": "pag. 156"
   },
   {
     "slug": "inquisitor",
-    "name": "Inquisitor"
+    "name": "Inquisitor",
+    "reference": "pag. 69"
   },
   {
     "slug": "inquisitor-of-the-drowning-goddess",
-    "name": "Inquisitor of the Drowning Goddess"
+    "name": "Inquisitor of the Drowning Goddess",
+    "reference": "pag. 78"
   },
   {
     "slug": "insidious-corruptor",
-    "name": "Insidious Corruptor"
+    "name": "Insidious Corruptor",
+    "reference": "pag. 143"
   },
   {
     "slug": "invisible-blade",
-    "name": "Lama Invisibile"
+    "name": "Lama Invisibile",
+    "reference": "pag. 156"
   },
   {
     "slug": "iron-mind",
-    "name": "Mente di Ferro"
+    "name": "Mente di Ferro",
+    "reference": "p. 114"
   },
   {
     "slug": "ironsoul-forgemaster",
-    "name": "Ironsoul Forgemaster"
+    "name": "Ironsoul Forgemaster",
+    "reference": "p. 126"
   },
   {
     "slug": "jade-phoenix-mage",
-    "name": "Jade Phoenix Mage"
+    "name": "Jade Phoenix Mage",
+    "reference": "p. 113"
   },
   {
     "slug": "jaunter",
-    "name": "Jaunter"
+    "name": "Jaunter",
+    "reference": "p. 172"
   },
   {
     "slug": "jester",
-    "name": "Jester"
+    "name": "Jester",
+    "reference": "p. 36"
   },
   {
     "slug": "jordain-vizier",
-    "name": "Jordain Vizier"
+    "name": "Jordain Vizier",
+    "reference": "pag. 108"
   },
   {
     "slug": "justice-of-weald-and-woe",
-    "name": "Justice of Weald and Woe"
+    "name": "Justice of Weald and Woe",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "justiciar",
+    "name": "Justiciar"
   },
   {
     "slug": "justiciar-of-tyr",
-    "name": "Justiciar of Tyr"
+    "name": "Justiciar of Tyr",
+    "reference": "p. 63"
   },
   {
     "slug": "keeper-of-the-cerulean-sign",
-    "name": "Custode del Segno Ceruleo"
+    "name": "Custode del Segno Ceruleo",
+    "reference": "pag. 156"
   },
   {
     "slug": "kensai",
-    "name": "Kensai"
+    "name": "Kensai",
+    "reference": "p. 49"
   },
   {
     "slug": "kingqueen-of-the-wild",
-    "name": "King/queen of the Wild"
+    "name": "King/queen of the Wild",
+    "reference": "p. 65"
   },
   {
     "slug": "kinslayer",
-    "name": "Kinslayer"
+    "name": "Kinslayer",
+    "reference": "p. 87"
   },
   {
     "slug": "kishi-charger",
-    "name": "Kishi Charger"
+    "name": "Kishi Charger",
+    "reference": "pag. 101"
   },
   {
     "slug": "knight",
-    "name": "Knight"
-  },
-  {
-    "slug": "knight-phantom",
-    "name": "Knight Phantom"
-  },
-  {
-    "slug": "knight-protector",
-    "name": "Cavaliere Protettore"
-  },
-  {
-    "slug": "knight-protector-of-the-great-kingdom",
-    "name": "Knight Protector of the Great Kingdom"
+    "name": "Knight",
+    "reference": "pag. 94"
   },
   {
     "slug": "knight-of-the-blue-moon",
-    "name": "Knight of the Blue Moon"
+    "name": "Knight of the Blue Moon",
+    "reference": "pag. 81"
   },
   {
     "slug": "knight-of-the-chalice",
-    "name": "Cavaliere del Calice"
+    "name": "Cavaliere del Calice",
+    "reference": "p. 63"
   },
   {
     "slug": "knight-of-the-crown",
-    "name": "Knight of the Crown"
+    "name": "Knight of the Crown",
+    "reference": "pag. 164"
   },
   {
     "slug": "knight-flying-hunt",
-    "name": "Knight of the Flying Hunt"
+    "name": "Knight of the Flying Hunt",
+    "reference": "p. 106"
   },
   {
     "slug": "knight-of-the-iron-glacier",
-    "name": "Knight of the Iron Glacier"
+    "name": "Knight of the Iron Glacier",
+    "reference": "pag. 62"
   },
   {
     "slug": "knight-of-the-lily",
-    "name": "Knight of the Lily"
+    "name": "Knight of the Lily",
+    "reference": "p. 63"
   },
   {
     "slug": "knight-of-the-middle-circle",
-    "name": "Knight of the Middle Circle"
+    "name": "Knight of the Middle Circle",
+    "reference": "p. 65"
   },
   {
     "slug": "knight-of-the-pearl",
-    "name": "Knight of the Pearl"
+    "name": "Knight of the Pearl",
+    "reference": "p. 52"
   },
   {
     "slug": "knight-of-the-raven",
-    "name": "Knight of the Raven"
+    "name": "Knight of the Raven",
+    "reference": "pag. 211"
   },
   {
     "slug": "knight-of-the-sacred-seal",
-    "name": "Knight of the Sacred Seal"
+    "name": "Knight of the Sacred Seal",
+    "reference": "p. 54"
   },
   {
     "slug": "knight-weave",
-    "name": "Knight of the Weave"
+    "name": "Knight of the Weave",
+    "reference": "p. 111"
+  },
+  {
+    "slug": "knight-phantom",
+    "name": "Knight Phantom",
+    "reference": "p. 41"
+  },
+  {
+    "slug": "knight-protector",
+    "name": "Cavaliere Protettore",
+    "reference": "p. 55"
+  },
+  {
+    "slug": "knight-protector-of-the-great-kingdom",
+    "name": "Knight Protector of the Great Kingdom",
+    "reference": "pag. 94"
   },
   {
     "slug": "landforged-walker",
-    "name": "Landforged Walker"
+    "name": "Landforged Walker",
+    "reference": "p. 123"
   },
   {
     "slug": "lasher",
-    "name": "Lasher"
+    "name": "Lasher",
+    "reference": "p. 25"
   },
   {
     "slug": "legacy-champion",
-    "name": "Legacy Champion"
+    "name": "Legacy Champion",
+    "reference": "pag. 71"
   },
   {
     "slug": "legendary-captain",
-    "name": "Legendary Captain"
+    "name": "Legendary Captain",
+    "reference": "pag. 164"
   },
   {
     "slug": "legendary-leader",
-    "name": "Legendary Leader"
+    "name": "Legendary Leader",
+    "reference": "p. 107"
   },
   {
     "slug": "leviathan-hunter",
-    "name": "Leviathan Hunter"
+    "name": "Leviathan Hunter",
+    "reference": "pag. 67"
   },
   {
     "slug": "lifedrinker",
-    "name": "Lifedrinker"
+    "name": "Lifedrinker",
+    "reference": "p. 63"
   },
   {
     "slug": "lightbringer",
-    "name": "Lightbringer"
+    "name": "Lightbringer",
+    "reference": "pag. 250"
   },
   {
     "slug": "lion-legionnaire-paladin",
-    "name": "Lion Legionnaire (Paladin)"
+    "name": "Lion Legionnaire (Paladin)",
+    "reference": "pag. 156"
   },
   {
     "slug": "lion-of-talisid",
-    "name": "Leone di Talisid"
+    "name": "Leone di Talisid",
+    "reference": "p. 65"
   },
   {
     "slug": "lord-of-tides",
-    "name": "Lord of Tides"
+    "name": "Lord of Tides",
+    "reference": "p. 70"
   },
   {
     "slug": "loredelver",
-    "name": "Ricercatore del Sapere"
+    "name": "Ricercatore del Sapere",
+    "reference": "p. 117"
   },
   {
     "slug": "loremaster",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Maestro del Sapere"
+    "name": "Maestro del Sapere",
+    "reference": "p. 191"
   },
   {
     "slug": "luckstealer",
-    "name": "Luckstealer"
+    "name": "Luckstealer",
+    "reference": "p. 118"
   },
   {
     "slug": "luiren-marchwarden",
-    "name": "Luiren Marchwarden"
+    "name": "Luiren Marchwarden",
+    "reference": "p. 35"
   },
   {
     "slug": "lurk",
-    "name": "Lurk"
+    "name": "Lurk",
+    "reference": "pag. 98"
   },
   {
     "slug": "lurking-terror",
-    "name": "Terrore Incombente"
+    "name": "Terrore Incombente",
+    "reference": "p. 54"
   },
   {
     "slug": "lyric-thaumaturge",
-    "name": "Lyric Thaumaturge"
+    "name": "Lyric Thaumaturge",
+    "reference": "p. 67"
   },
   {
     "slug": "maester",
-    "name": "Mastro Artigiano"
+    "name": "Mastro Artigiano",
+    "reference": "pag. 164"
   },
   {
     "slug": "mage-of-the-arcane-order",
-    "name": "Mago dell'Ordine Arcano"
+    "name": "Mago dell'Ordine Arcano",
+    "reference": "p. 60"
   },
   {
     "slug": "magelord",
-    "name": "Magelord"
+    "name": "Magelord",
+    "reference": "p. 17"
   },
   {
     "slug": "magical-trickster",
-    "name": "Magical Trickster"
+    "name": "Magical Trickster",
+    "reference": "pag. 156"
   },
   {
     "slug": "malconvoker",
-    "name": "Malconvoker"
+    "name": "Malconvoker",
+    "reference": "pag. 99"
   },
   {
     "slug": "maquar-crusader",
-    "name": "Maquar Crusader"
+    "name": "Maquar Crusader",
+    "reference": "pag. 213"
   },
   {
     "slug": "marshal",
-    "name": "Marshal"
+    "name": "Marshal",
+    "reference": "pag. 106"
   },
   {
     "slug": "master-inquisitive",
-    "name": "Master Inquisitive"
-  },
-  {
-    "slug": "master-samurai",
-    "name": "Master Samurai"
-  },
-  {
-    "slug": "master-specialist",
-    "name": "Master Specialist"
-  },
-  {
-    "slug": "master-thrower",
-    "name": "Maestro Tiratore"
-  },
-  {
-    "slug": "master-transmogrifist",
-    "name": "Maestro Trasformista"
-  },
-  {
-    "slug": "master-vampire",
-    "name": "Maestro Vampiro"
+    "name": "Master Inquisitive",
+    "reference": "p. 82"
   },
   {
     "slug": "master-of-chains",
-    "name": "Master of Chains"
+    "name": "Master of Chains",
+    "reference": "p. 27"
   },
   {
     "slug": "master-of-flies",
-    "name": "Master of Flies"
+    "name": "Master of Flies",
+    "reference": "pag. 69"
   },
   {
     "slug": "master-of-many-forms",
-    "name": "Maestro dalle Molte Forme"
+    "name": "Maestro dalle Molte Forme",
+    "reference": "p. 58"
   },
   {
     "slug": "master-of-masks",
-    "name": "Master of Masks"
+    "name": "Master of Masks",
+    "reference": "p. 52"
   },
   {
     "slug": "master-of-nine",
-    "name": "Master of Nine"
+    "name": "Master of Nine",
+    "reference": "p. 119"
   },
   {
     "slug": "master-of-radiance",
-    "name": "Maestro della Luminosità"
+    "name": "Maestro della Luminosità",
+    "reference": "pag. 156"
   },
   {
     "slug": "master-of-shadow",
-    "name": "Master of Shadow"
+    "name": "Master of Shadow",
+    "reference": "p. 121"
   },
   {
     "slug": "master-of-shrouds",
     "name": "Maestro del Sudario"
   },
   {
-    "slug": "master-of-vipers",
-    "name": "Master of Vipers"
-  },
-  {
     "slug": "master-of-the-unseen-hand",
-    "name": "Mestro della Mano Invisibile"
+    "name": "Mestro della Mano Invisibile",
+    "reference": "p. 60"
   },
   {
     "slug": "master-of-the-yuirwood",
-    "name": "Master of the Yuirwood"
+    "name": "Master of the Yuirwood",
+    "reference": "pag. 94"
+  },
+  {
+    "slug": "master-of-vipers",
+    "name": "Master of Vipers",
+    "reference": "pag. 100"
+  },
+  {
+    "slug": "master-samurai",
+    "name": "Master Samurai",
+    "reference": "p. 29"
+  },
+  {
+    "slug": "master-specialist",
+    "name": "Master Specialist",
+    "reference": "p. 70"
+  },
+  {
+    "slug": "master-thrower",
+    "name": "Maestro Tiratore",
+    "reference": "p. 58"
+  },
+  {
+    "slug": "master-transmogrifist",
+    "name": "Maestro Trasformista",
+    "reference": "pag. 63"
+  },
+  {
+    "slug": "master-vampire",
+    "name": "Maestro Vampiro",
+    "reference": "p. 55"
   },
   {
     "slug": "medani-prophet",
-    "name": "Medani Prophet"
+    "name": "Medani Prophet",
+    "reference": "p. 110"
   },
   {
     "slug": "menacing-brute",
-    "name": "Bruto Minaccioso"
+    "name": "Bruto Minaccioso",
+    "reference": "p. 123"
   },
   {
     "slug": "merchant-prince",
-    "name": "Merchant Prince"
+    "name": "Merchant Prince",
+    "reference": "p. 71"
   },
   {
     "slug": "metamind",
-    "name": "Metamind"
+    "name": "Metamind",
+    "reference": "p. 147"
   },
   {
     "slug": "mindbender",
-    "name": "Dominatore Mentale"
+    "name": "Dominatore Mentale",
+    "reference": "p. 63"
   },
   {
     "slug": "mindspy",
-    "name": "Spia Mentale"
+    "name": "Spia Mentale",
+    "reference": "pag. 62"
   },
   {
     "slug": "mirumoto-niten-master",
-    "name": "Mirumoto Niten Master"
+    "name": "Mirumoto Niten Master",
+    "reference": "pag. 225"
   },
   {
     "slug": "monk",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Monaco"
-  },
-  {
-    "slug": "monk-variant",
-    "name": "Monk Variant"
-  },
-  {
-    "slug": "monk-variant-fighting-styles",
-    "name": "Monk Variant: Fighting Styles"
+    "name": "Monaco",
+    "reference": "pag. 78"
   },
   {
     "slug": "monk-enabled-hand",
-    "name": "Monk of the Enabled Hand"
+    "name": "Monk of the Enabled Hand",
+    "reference": "pag. 69"
   },
   {
     "slug": "monk-of-the-long-death",
-    "name": "Monk of the Long Death"
+    "name": "Monk of the Long Death",
+    "reference": "p. 65"
+  },
+  {
+    "slug": "monk-variant",
+    "name": "Monk Variant",
+    "reference": "p. 58"
+  },
+  {
+    "slug": "monk-variant-fighting-styles",
+    "name": "Monk Variant: Fighting Styles",
+    "reference": "p. 52"
   },
   {
     "slug": "moon-guardian",
@@ -1437,77 +2117,95 @@
   },
   {
     "slug": "moonsea-skysentinel",
-    "name": "Moonsea Skysentinel"
+    "name": "Moonsea Skysentinel",
+    "reference": "p. 117"
   },
   {
     "slug": "moonspeaker",
-    "name": "Moonspeaker"
+    "name": "Moonspeaker",
+    "reference": "p. 143"
   },
   {
     "slug": "moonstar-agent",
-    "name": "Moonstar Agent"
+    "name": "Moonstar Agent",
+    "reference": "pag. 179"
   },
   {
     "slug": "morninglord-of-lathander",
-    "name": "Morninglord of Lathander"
+    "name": "Morninglord of Lathander",
+    "reference": "pag. 66"
   },
   {
     "slug": "mortal-hunter",
-    "name": "Mortal Hunter"
+    "name": "Mortal Hunter",
+    "reference": "p. 64"
   },
   {
     "slug": "mountebank",
-    "name": "Mountebank"
+    "name": "Mountebank",
+    "reference": "p. 57"
   },
   {
     "slug": "mountebank-dragon-compendium",
-    "name": "Mountebank (Dragon Compendium)"
+    "name": "Mountebank (Dragon Compendium)",
+    "reference": "pag. 101"
   },
   {
     "slug": "mystic",
-    "name": "Mystic"
+    "name": "Mystic",
+    "reference": "p. 47"
   },
   {
     "slug": "mystic-fire-knight-paladin",
-    "name": "Mystic Fire Knight (Paladin)"
+    "name": "Mystic Fire Knight (Paladin)",
+    "reference": "pag. 156"
   },
   {
     "slug": "mystic-theurge",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Teurgo Mistico"
+    "name": "Teurgo Mistico",
+    "reference": "p. 192"
   },
   {
     "slug": "mythic-exemplar",
-    "name": "Mythic Exemplar"
+    "name": "Mythic Exemplar",
+    "reference": "p. 86"
   },
   {
     "slug": "naga-overlord",
-    "name": "Naga Overlord"
+    "name": "Naga Overlord",
+    "reference": "pag. 167"
   },
   {
     "slug": "nar-demonbinder",
-    "name": "Nar Demonbinder"
+    "name": "Nar Demonbinder",
+    "reference": "p. 25"
   },
   {
     "slug": "natures-warrior",
-    "name": "Combattente Naturale"
+    "name": "Combattente Naturale",
+    "reference": "p. 63"
   },
   {
     "slug": "necrocarnate",
-    "name": "Necrocarnate"
+    "name": "Necrocarnate",
+    "reference": "pag. 98"
   },
   {
     "slug": "necromancer-variant",
-    "name": "Necromancer Variant"
+    "name": "Necromancer Variant",
+    "reference": "p. 63"
   },
   {
     "slug": "nentyar-hunter",
-    "name": "Nentyar Hunter"
+    "name": "Nentyar Hunter",
+    "reference": "p. 28"
   },
   {
     "slug": "night-mask-deathbringer",
-    "name": "Night Mask Deathbringer"
+    "name": "Night Mask Deathbringer",
+    "reference": "pag. 97"
   },
   {
     "slug": "nightcloak",
@@ -1515,185 +2213,242 @@
   },
   {
     "slug": "nightmare-spinner",
-    "name": "Nightmare Spinner"
+    "name": "Nightmare Spinner",
+    "reference": "pag. 135"
   },
   {
     "slug": "nightsong-enforcer",
-    "name": "Militante del Canto Notturno"
+    "name": "Militante del Canto Notturno",
+    "reference": "p. 60"
   },
   {
     "slug": "nightsong-infiltrator",
-    "name": "Infiltrato del Canto Notturno"
+    "name": "Infiltrato del Canto Notturno",
+    "reference": "pag. 62"
   },
   {
     "slug": "ninja",
-    "name": "Ninja"
-  },
-  {
-    "slug": "ninja-spy",
-    "name": "Ninja Spy"
+    "name": "Ninja",
+    "reference": "p. 5"
   },
   {
     "slug": "ninja-of-the-crescent-moon",
-    "name": "Ninja of the Crescent Moon"
+    "name": "Ninja of the Crescent Moon",
+    "reference": "p. 30"
+  },
+  {
+    "slug": "ninja-spy",
+    "name": "Ninja Spy",
+    "reference": "pag. 169"
   },
   {
     "slug": "noble",
-    "name": "Noble"
+    "name": "Noble",
+    "reference": "p. 50"
   },
   {
     "slug": "noble-heart-paladin",
-    "name": "Noble Heart (Paladin)"
+    "name": "Noble Heart (Paladin)",
+    "reference": "pag. 111"
   },
   {
     "slug": "noctumancer",
-    "name": "Noctumancer"
+    "name": "Noctumancer",
+    "reference": "p. 125"
   },
   {
     "slug": "nosomatic-chirurgeon",
-    "name": "Nosomatic Chirurgeon"
+    "name": "Nosomatic Chirurgeon",
+    "reference": "p. 114"
   },
   {
     "slug": "occult-slayer",
-    "name": "Uccisore dell'Occulto"
+    "name": "Uccisore dell'Occulto",
+    "reference": "pag. 66"
   },
   {
     "slug": "olin-gisir",
-    "name": "Olin Gisir"
+    "name": "Olin Gisir",
+    "reference": "p. 21"
   },
   {
     "slug": "ollam",
-    "name": "Ollam"
+    "name": "Ollam",
+    "reference": "pag. 66"
   },
   {
     "slug": "oozemaster",
-    "name": "Oozemaster"
+    "name": "Oozemaster",
+    "reference": "p. 67"
+  },
+  {
+    "slug": "ordained-champion",
+    "name": "Ordained Champion"
   },
   {
     "slug": "order-of-the-bow-initiate",
-    "name": "Iniziato dell'Ordine dell'Arco"
+    "name": "Iniziato dell'Ordine dell'Arco",
+    "reference": "p. 32"
   },
   {
     "slug": "osteomancer",
-    "name": "Osteomancer"
+    "name": "Osteomancer",
+    "reference": "p. 82"
   },
   {
     "slug": "outcast-champion",
-    "name": "Campione dei Reietti"
+    "name": "Campione dei Reietti",
+    "reference": "p. 126"
   },
   {
     "slug": "outlaw-of-the-crimson-road",
-    "name": "Outlaw of the Crimson Road"
+    "name": "Outlaw of the Crimson Road",
+    "reference": "p. 10"
   },
   {
     "slug": "pact-bound-adept",
-    "name": "Pact-bound Adept"
+    "name": "Pact-bound Adept",
+    "reference": "pag. 111"
   },
   {
     "slug": "paladin",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Paladino"
-  },
-  {
-    "slug": "paladin-variant",
-    "name": "Paladin Variant"
+    "name": "Paladino",
+    "reference": "pag. 99"
   },
   {
     "slug": "paladin-of-freedom",
-    "name": "Paladin of Freedom"
+    "name": "Paladin of Freedom",
+    "reference": "pag. 97"
   },
   {
     "slug": "paladin-of-slaughter",
-    "name": "Paladin of Slaughter"
+    "name": "Paladin of Slaughter",
+    "reference": "pag. 97"
   },
   {
     "slug": "paladin-of-tyranny",
-    "name": "Paladin of Tyranny"
+    "name": "Paladin of Tyranny",
+    "reference": "p. 54"
+  },
+  {
+    "slug": "paladin-variant",
+    "name": "Paladin Variant",
+    "reference": "p. 58"
   },
   {
     "slug": "pale-master",
-    "name": "Maestro Esangue"
+    "name": "Maestro Esangue",
+    "reference": "p. 64"
   },
   {
     "slug": "paragnostic-apostle",
-    "name": "Paragnostic Apostle"
+    "name": "Paragnostic Apostle",
+    "reference": "p. 94"
   },
   {
     "slug": "paragnostic-initiate",
-    "name": "Paragnostic Initiate"
+    "name": "Paragnostic Initiate",
+    "reference": "p. 96"
   },
   {
     "slug": "peerless-archer",
-    "name": "Peerless Archer"
+    "name": "Peerless Archer",
+    "reference": "p. 115"
   },
   {
     "slug": "peregrine-runner",
-    "name": "Corridore Pellegrino"
+    "name": "Corridore Pellegrino",
+    "reference": "p. 116"
   },
   {
     "slug": "phoenix-disciple-monk",
-    "name": "Phoenix Disciple (Monk)"
+    "name": "Phoenix Disciple (Monk)",
+    "reference": "pag. 111"
+  },
+  {
+    "slug": "pious-templar",
+    "name": "Pious Templar"
   },
   {
     "slug": "pixie",
-    "name": "Pixie"
+    "name": "Pixie",
+    "reference": "p. 190"
   },
   {
     "slug": "planar-champion",
-    "name": "Planar Champion"
+    "name": "Planar Champion",
+    "reference": "p. 28"
   },
   {
     "slug": "planar-ranger",
-    "name": "Planar Ranger"
+    "name": "Planar Ranger",
+    "reference": "p. 55"
   },
   {
     "slug": "planar-shepherd",
-    "name": "Planar Shepherd"
+    "name": "Planar Shepherd",
+    "reference": "pag. 66"
+  },
+  {
+    "slug": "planeshifter",
+    "name": "Planeshifter"
   },
   {
     "slug": "platinum-knight",
-    "name": "Cavaliere di Platino"
+    "name": "Cavaliere di Platino",
+    "reference": "p. 133"
   },
   {
     "slug": "prestige-bard",
-    "name": "Prestige Bard"
+    "name": "Prestige Bard",
+    "reference": "p. 69"
   },
   {
     "slug": "prestige-paladin",
-    "name": "Prestige Paladin"
+    "name": "Prestige Paladin",
+    "reference": "p. 70"
   },
   {
     "slug": "prestige-ranger",
-    "name": "Prestige Ranger"
+    "name": "Prestige Ranger",
+    "reference": "p. 71"
   },
   {
     "slug": "primal-scholar",
-    "name": "Primal Scholar"
+    "name": "Primal Scholar",
+    "reference": "p. 127"
   },
   {
     "slug": "prime-underdark-guide",
-    "name": "Prime Underdark Guide"
+    "name": "Prime Underdark Guide",
+    "reference": "pag. 113"
   },
   {
     "slug": "primeval",
-    "name": "Primeval"
+    "name": "Primeval",
+    "reference": "p. 65"
   },
   {
     "slug": "prophet-of-erathaoi",
-    "name": "Prophet of Erathaoi"
+    "name": "Prophet of Erathaoi",
+    "reference": "pag. 66"
   },
   {
     "slug": "psibond-agent",
-    "name": "Psibond Agent"
+    "name": "Psibond Agent",
+    "reference": "p. 60"
   },
   {
     "slug": "psion",
-    "name": "Psion"
+    "name": "Psion",
+    "reference": "pag. 71"
   },
   {
     "slug": "psion-uncarnate",
-    "name": "Psion Uncarnate"
+    "name": "Psion Uncarnate",
+    "reference": "p. 148"
   },
   {
     "slug": "psychic-theurge",
@@ -1701,760 +2456,1214 @@
   },
   {
     "slug": "psychic-warrior",
-    "name": "Psychic Warrior"
+    "name": "Psychic Warrior",
+    "reference": "pag. 94"
   },
   {
     "slug": "purifier-of-the-hallowed-doctrine",
-    "name": "Purificatore della Dottrina Consacrata"
+    "name": "Purificatore della Dottrina Consacrata",
+    "reference": "p. 108"
   },
   {
     "slug": "purple-dragon-knight",
-    "name": "Cavaliere dei Draghi Purpurei"
+    "name": "Cavaliere dei Draghi Purpurei",
+    "reference": "p. 68"
   },
   {
     "slug": "purple-staff-cleric",
-    "name": "Purple Staff (Cleric)"
+    "name": "Purple Staff (Cleric)",
+    "reference": "p. 47"
   },
   {
     "slug": "pyrokineticist",
-    "name": "Pyrokineticist"
+    "name": "Pyrokineticist",
+    "reference": "p. 151"
   },
   {
     "slug": "quori-mindhunter",
-    "name": "Quori Mindhunter"
+    "name": "Quori Mindhunter",
+    "reference": "p. 77"
   },
   {
     "slug": "quori-nightmare",
-    "name": "Quori Nightmare"
+    "name": "Quori Nightmare",
+    "reference": "p. 148"
   },
   {
     "slug": "radiant-servant-of-pelor",
-    "name": "Servitore Radioso di Pelor"
+    "name": "Servitore Radioso di Pelor",
+    "reference": "p. 52"
   },
   {
     "slug": "rage-mage",
-    "name": "Mago Iracondo"
+    "name": "Mago Iracondo",
+    "reference": "p. 72"
   },
   {
     "slug": "rainbow-servant",
-    "name": "Servitore Iridescente"
+    "name": "Servitore Iridescente",
+    "reference": "p. 54"
   },
   {
     "slug": "ranger",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Ranger"
+    "name": "Ranger",
+    "reference": "pag. 99"
   },
   {
     "slug": "ranger-variant",
-    "name": "Ranger Variant"
+    "name": "Ranger Variant",
+    "reference": "p. 58"
+  },
+  {
+    "slug": "raumathari-battlemage",
+    "name": "Raumathari Battlemage"
+  },
+  {
+    "slug": "ravager",
+    "name": "Ravager"
+  },
+  {
+    "slug": "reachrunner",
+    "name": "Reachrunner"
+  },
+  {
+    "slug": "reaping-mauler",
+    "name": "Reaping Mauler"
+  },
+  {
+    "slug": "recaster",
+    "name": "Recaster"
+  },
+  {
+    "slug": "red-avenger",
+    "name": "Red Avenger"
+  },
+  {
+    "slug": "red-falcon-paladin",
+    "name": "Red Falcon (Paladin)"
+  },
+  {
+    "slug": "reforged",
+    "name": "Reforged"
+  },
+  {
+    "slug": "renegade-mastermaker",
+    "name": "Renegade Mastermaker"
+  },
+  {
+    "slug": "revenant-blade",
+    "name": "Revenant Blade"
+  },
+  {
+    "slug": "rimefire-witch",
+    "name": "Rimefire Witch"
+  },
+  {
+    "slug": "risen-martyr",
+    "name": "Risen Martyr"
   },
   {
     "slug": "rogue",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Ladro"
+    "name": "Ladro",
+    "reference": "p. 49"
   },
   {
     "slug": "rogue-variant",
-    "name": "Rogue Variant"
+    "name": "Rogue Variant",
+    "reference": "p. 58"
   },
   {
     "slug": "ronin",
-    "name": "Ronin"
+    "name": "Ronin",
+    "reference": "p. 77"
   },
   {
     "slug": "royal-explorer",
-    "name": "Royal Explorer"
+    "name": "Royal Explorer",
+    "reference": "pag. 98"
   },
   {
     "slug": "ruathar",
-    "name": "Ruathar"
+    "name": "Ruathar",
+    "reference": "pag. 158"
   },
   {
     "slug": "ruby-knight-vindicator",
-    "name": "Ruby Knight Vindicator"
+    "name": "Ruby Knight Vindicator",
+    "reference": "pag. 158"
   },
   {
     "slug": "ruby-rose-knight-paladin",
-    "name": "Ruby Rose Knight (Paladin)"
+    "name": "Ruby Rose Knight (Paladin)",
+    "reference": "p. 49"
   },
   {
     "slug": "runecaster",
-    "name": "Runecaster"
+    "name": "Runecaster",
+    "reference": "p. 69"
   },
   {
     "slug": "runescarred-berserker",
-    "name": "Runescarred Berserker"
+    "name": "Runescarred Berserker",
+    "reference": "p. 31"
   },
   {
     "slug": "runesmith",
-    "name": "Creatore di Rune"
+    "name": "Creatore di Rune",
+    "reference": "p. 118"
   },
   {
     "slug": "sacred-exorcist",
-    "name": "Esorcista Sacro"
+    "name": "Esorcista Sacro",
+    "reference": "p. 68"
   },
   {
     "slug": "sacred-fist",
-    "name": "Pugno Sacro"
+    "name": "Pugno Sacro",
+    "reference": "p. 70"
   },
   {
     "slug": "sacred-purifier",
-    "name": "Purificatore Sacro"
+    "name": "Purificatore Sacro",
+    "reference": "p. 49"
   },
   {
     "slug": "sacred-warder-of-bahamut",
-    "name": "Sacro Guardiano di Bahamut"
+    "name": "Sacro Guardiano di Bahamut",
+    "reference": "p. 96"
   },
   {
     "slug": "samurai",
-    "name": "Samurai"
+    "name": "Samurai",
+    "reference": "p. 20"
   },
   {
     "slug": "sanctified-mind",
-    "name": "Mente Santificata"
+    "name": "Mente Santificata",
+    "reference": "pag. 221"
   },
   {
     "slug": "sanctified-one",
-    "name": "Sanctified One"
+    "name": "Sanctified One",
+    "reference": "p. 99"
   },
   {
     "slug": "sand-shaper",
-    "name": "Sand Shaper"
+    "name": "Sand Shaper",
+    "reference": "p. 76"
   },
   {
     "slug": "sapphire-hierarch",
-    "name": "Sapphire Hierarch"
+    "name": "Sapphire Hierarch",
+    "reference": "pag. 99"
   },
   {
     "slug": "savage-bard",
-    "name": "Savage Bard"
+    "name": "Savage Bard",
+    "reference": "p. 50"
   },
   {
     "slug": "savant",
-    "name": "Savant"
+    "name": "Savant",
+    "reference": "pag. 156"
   },
   {
     "slug": "savant-aboleth",
-    "name": "Sapiente Aboleth"
+    "name": "Sapiente Aboleth",
+    "reference": "p. 21"
   },
   {
     "slug": "scaled-horror",
-    "name": "Scaled Horror"
+    "name": "Scaled Horror",
+    "reference": "pag. 143"
   },
   {
     "slug": "scar-enforcer",
-    "name": "Militante delle Cicatrici"
+    "name": "Militante delle Cicatrici",
+    "reference": "p. 130"
   },
   {
     "slug": "scarlet-corsair",
-    "name": "Scarlet Corsair"
+    "name": "Scarlet Corsair",
+    "reference": "p. 65"
   },
   {
     "slug": "scion-of-dantalion",
-    "name": "Scion of Dantalion"
+    "name": "Scion of Dantalion",
+    "reference": "p. 59"
   },
   {
     "slug": "scion-of-tem-et-nu",
-    "name": "Scion of Tem-et-nu"
+    "name": "Scion of Tem-et-nu",
+    "reference": "p. 82"
   },
   {
     "slug": "scorpion-heritor",
-    "name": "Scorpion Heritor"
+    "name": "Scorpion Heritor",
+    "reference": "p. 86"
   },
   {
     "slug": "scorpion-wraith",
-    "name": "Scorpion Wraith"
+    "name": "Scorpion Wraith",
+    "reference": "p. 130"
   },
   {
     "slug": "scourge-maiden",
-    "name": "Scourge Maiden"
+    "name": "Scourge Maiden",
+    "reference": "pag. 113"
   },
   {
     "slug": "scout",
-    "name": "Esploratore"
+    "name": "Esploratore",
+    "reference": "p. 10"
   },
   {
     "slug": "sea-mother-whip",
-    "name": "Sea Mother Whip"
+    "name": "Sea Mother Whip",
+    "reference": "pag. 101"
   },
   {
     "slug": "sea-witch",
-    "name": "Sea Witch"
+    "name": "Sea Witch",
+    "reference": "p. 68"
   },
   {
     "slug": "seeker-of-the-misty-isle",
-    "name": "Cacciatore dell'Isola Brumosa"
+    "name": "Cacciatore dell'Isola Brumosa",
+    "reference": "pag. 67"
   },
   {
     "slug": "seeker-of-the-song",
-    "name": "Cercatore del Canto"
+    "name": "Cercatore del Canto",
+    "reference": "pag. 164"
   },
   {
     "slug": "sentinel-of-bharrai",
-    "name": "Sentinel of Bharrai"
+    "name": "Sentinel of Bharrai",
+    "reference": "p. 69"
   },
   {
     "slug": "serene-guardian",
-    "name": "Serene Guardian"
+    "name": "Serene Guardian",
+    "reference": "pag. 95"
   },
   {
     "slug": "serpent-slayer",
-    "name": "Serpent Slayer"
+    "name": "Serpent Slayer",
+    "reference": "p. 166"
   },
   {
     "slug": "shair",
-    "name": "Sha'ir"
+    "name": "Sha'ir",
+    "reference": "pag. 63"
   },
   {
     "slug": "shaaryan-hunter",
-    "name": "Shaaryan Hunter"
+    "name": "Shaaryan Hunter",
+    "reference": "p. 71"
   },
   {
     "slug": "shade-hunter",
-    "name": "Shade Hunter"
+    "name": "Shade Hunter",
+    "reference": "p. 58"
   },
   {
     "slug": "shadow-adept",
-    "name": "Shadow Adept"
+    "name": "Shadow Adept",
+    "reference": "p. 72"
   },
   {
     "slug": "shadow-hunter",
-    "name": "Shadow Hunter"
+    "name": "Shadow Hunter",
+    "reference": "p. 117"
   },
   {
     "slug": "shadow-scout",
-    "name": "Shadow Scout"
+    "name": "Shadow Scout",
+    "reference": "pag. 156"
   },
   {
     "slug": "shadow-sentinel",
-    "name": "Sentinella d?Ombra"
+    "name": "Sentinella d?Ombra",
+    "reference": "p. 137"
   },
   {
     "slug": "shadow-sun-ninja",
-    "name": "Shadow Sun Ninja"
+    "name": "Shadow Sun Ninja",
+    "reference": "p. 126"
   },
   {
     "slug": "shadow-sword-ranger",
-    "name": "Shadow Sword (Ranger)"
+    "name": "Shadow Sword (Ranger)",
+    "reference": "p. 49"
   },
   {
     "slug": "shadow-thief-of-amn",
-    "name": "Shadow Thief of Amn"
+    "name": "Shadow Thief of Amn",
+    "reference": "pag. 135"
   },
   {
     "slug": "shadowbane-inquisitor",
-    "name": "Inquisitore Anatema delle Ombre"
+    "name": "Inquisitore Anatema delle Ombre",
+    "reference": "p. 68"
   },
   {
     "slug": "shadowbane-stalker",
-    "name": "Cacciatore Anatema delle Ombre"
+    "name": "Cacciatore Anatema delle Ombre",
+    "reference": "p. 70"
   },
   {
     "slug": "shadowblade",
-    "name": "Shadowblade"
+    "name": "Shadowblade",
+    "reference": "p. 129"
   },
   {
     "slug": "shadowcaster",
-    "name": "Shadowcaster"
+    "name": "Shadowcaster",
+    "reference": "p. 111"
   },
   {
     "slug": "shadowcraft-mage",
-    "name": "Mago delle Arti d'Ombra"
+    "name": "Mago delle Arti d'Ombra",
+    "reference": "p. 120"
   },
   {
     "slug": "shadowcrafter",
-    "name": "Shadowcrafter"
+    "name": "Shadowcrafter",
+    "reference": "pag. 169"
   },
   {
     "slug": "shadowdancer",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Danzatore delle Ombre"
+    "name": "Danzatore delle Ombre",
+    "reference": "pag. 156"
   },
   {
     "slug": "shadowmind",
-    "name": "Ombra Mentale"
+    "name": "Ombra Mentale",
+    "reference": "pag. 135"
   },
   {
     "slug": "shadowsmith",
-    "name": "Shadowsmith"
+    "name": "Shadowsmith",
+    "reference": "pag. 98"
   },
   {
     "slug": "shadowspy",
-    "name": "Shadowspy"
+    "name": "Shadowspy",
+    "reference": "pag. 66"
   },
   {
     "slug": "shadowstriker",
-    "name": "Shadowstriker"
+    "name": "Shadowstriker",
+    "reference": "p. 108"
   },
   {
     "slug": "shaper-form",
-    "name": "Shaper of Form"
+    "name": "Shaper of Form",
+    "reference": "p. 85"
   },
   {
     "slug": "shapeshifter",
-    "name": "Shapeshifter"
+    "name": "Shapeshifter",
+    "reference": "pag. 156"
   },
   {
     "slug": "sharn-skymage",
-    "name": "Sharn Skymage"
+    "name": "Sharn Skymage",
+    "reference": "pag. 167"
   },
   {
     "slug": "shiba-protector",
-    "name": "Shiba Protector"
+    "name": "Shiba Protector",
+    "reference": "pag. 284"
   },
   {
     "slug": "shifter",
-    "name": "Shifter"
+    "name": "Shifter",
+    "reference": "p. 68"
   },
   {
     "slug": "shining-blade-of-heironeous",
-    "name": "Lama Scintillante di Heironeus"
+    "name": "Lama Scintillante di Heironeus",
+    "reference": "p. 63"
   },
   {
     "slug": "shintao-monk",
-    "name": "Shintao Monk"
+    "name": "Shintao Monk",
+    "reference": "pag. 111"
   },
   {
     "slug": "shooting-star-ranger",
-    "name": "Shooting Star (Ranger)"
+    "name": "Shooting Star (Ranger)",
+    "reference": "p. 50"
   },
   {
     "slug": "shou-disciple",
-    "name": "Shou Disciple"
+    "name": "Shou Disciple",
+    "reference": "p. 32"
   },
   {
     "slug": "shugenja",
-    "name": "Shugenja"
+    "name": "Shugenja",
+    "reference": "pag. 94"
   },
   {
     "slug": "silver-key",
-    "name": "Silver Key"
+    "name": "Silver Key",
+    "reference": "p. 120"
   },
   {
     "slug": "silver-pyromancer",
-    "name": "Silver Pyromancer"
+    "name": "Silver Pyromancer",
+    "reference": "p. 150"
   },
   {
     "slug": "singer-of-concordance",
-    "name": "Singer of Concordance"
+    "name": "Singer of Concordance",
+    "reference": "p. 91"
   },
   {
     "slug": "singh-rager",
-    "name": "Singh Rager"
+    "name": "Singh Rager",
+    "reference": "pag. 99"
+  },
+  {
+    "slug": "siren",
+    "name": "Siren"
+  },
+  {
+    "slug": "skullclan-hunter",
+    "name": "Skullclan Hunter"
+  },
+  {
+    "slug": "skylord",
+    "name": "Skylord"
+  },
+  {
+    "slug": "skypledged",
+    "name": "Skypledged"
+  },
+  {
+    "slug": "slaad-brooder",
+    "name": "Slaad Brooder"
+  },
+  {
+    "slug": "slayer-of-domiel",
+    "name": "Slayer of Domiel"
+  },
+  {
+    "slug": "solar-channeler",
+    "name": "Solar Channeler"
   },
   {
     "slug": "sorcerer",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Stregone"
+    "name": "Stregone",
+    "reference": "p. 49"
+  },
+  {
+    "slug": "sorcerer-wizard-variant",
+    "name": "Sorcerer/Wizard Variant"
+  },
+  {
+    "slug": "soul-eater",
+    "name": "Soul Eater"
+  },
+  {
+    "slug": "soulborn",
+    "name": "Soulborn"
+  },
+  {
+    "slug": "soulbow",
+    "name": "Soulbow"
+  },
+  {
+    "slug": "soulcaster",
+    "name": "Soulcaster"
+  },
+  {
+    "slug": "soulguard",
+    "name": "Soulguard"
+  },
+  {
+    "slug": "soulknife",
+    "name": "Soulknife"
+  },
+  {
+    "slug": "sovereign-speaker",
+    "name": "Sovereign Speaker"
+  },
+  {
+    "slug": "spellcarved-soldier",
+    "name": "Spellcarved Soldier"
+  },
+  {
+    "slug": "spellcaster",
+    "name": "Spellcaster"
+  },
+  {
+    "slug": "spellguard-of-silverymoon",
+    "name": "Spellguard of Silverymoon"
+  },
+  {
+    "slug": "spellthief",
+    "name": "Spellthief"
+  },
+  {
+    "slug": "spellwarp-sniper",
+    "name": "Spellwarp Sniper"
+  },
+  {
+    "slug": "spinemeld-warrior",
+    "name": "Spinemeld Warrior"
+  },
+  {
+    "slug": "spirit-shaman",
+    "name": "Spirit Shaman"
+  },
+  {
+    "slug": "spymaster",
+    "name": "Spymaster"
+  },
+  {
+    "slug": "squire-of-legend",
+    "name": "Squire of Legend"
   },
   {
     "slug": "stalker-of-kharash",
-    "name": "Cacciatore di Kharash"
+    "name": "Cacciatore di Kharash",
+    "reference": "p. 75"
+  },
+  {
+    "slug": "stoneblessed",
+    "name": "Stoneblessed"
   },
   {
     "slug": "stonedeath-assassin",
-    "name": "Assassino della Morte di Pietra"
+    "name": "Assassino della Morte di Pietra",
+    "reference": "pag. 153"
   },
   {
     "slug": "stonelord",
-    "name": "Signore della Pietra"
+    "name": "Signore della Pietra",
+    "reference": "pag. 81"
   },
   {
     "slug": "stonespeaker-guardian",
-    "name": "Custode degli Oracoli di Pietra"
+    "name": "Custode degli Oracoli di Pietra",
+    "reference": "p. 127"
   },
   {
     "slug": "storm-disciple",
-    "name": "Storm Disciple"
+    "name": "Storm Disciple",
+    "reference": "pag. 113"
   },
   {
     "slug": "storm-sentry",
-    "name": "Storm Sentry"
+    "name": "Storm Sentry",
+    "reference": "pag. 153"
   },
   {
     "slug": "stormcaster",
-    "name": "Stormcaster"
+    "name": "Stormcaster",
+    "reference": "p. 72"
   },
   {
     "slug": "stormlord",
-    "name": "Signore delle Tempeste"
+    "name": "Signore delle Tempeste",
+    "reference": "pag. 203"
   },
   {
     "slug": "stormsinger",
-    "name": "Stormsinger"
+    "name": "Stormsinger",
+    "reference": "p. 70"
   },
   {
     "slug": "stormtalon",
-    "name": "Stormtalon"
+    "name": "Stormtalon",
+    "reference": "p. 131"
   },
   {
     "slug": "streetfighter",
-    "name": "Guerriero di Strada"
+    "name": "Guerriero di Strada",
+    "reference": "pag. 143"
   },
   {
     "slug": "sublime-chord",
-    "name": "Accordo Sublime"
+    "name": "Accordo Sublime",
+    "reference": "p. 60"
   },
   {
     "slug": "suel-arcanamach",
-    "name": "Arcanamach di Suel"
+    "name": "Arcanamach di Suel",
+    "reference": "p. 63"
   },
   {
     "slug": "sun-soul-monk",
-    "name": "Sun Soul Monk"
+    "name": "Sun Soul Monk",
+    "reference": "pag. 128"
   },
   {
     "slug": "sunmaster",
-    "name": "Sunmaster"
+    "name": "Sunmaster",
+    "reference": "p. 25"
   },
   {
     "slug": "survivor",
-    "name": "Survivor"
+    "name": "Survivor",
+    "reference": "p. 89"
+  },
+  {
+    "slug": "swanmay",
+    "name": "Swanmay"
+  },
+  {
+    "slug": "swashbuckler",
+    "name": "Swashbuckler"
+  },
+  {
+    "slug": "swift-wing",
+    "name": "Swift Wing"
+  },
+  {
+    "slug": "sword-of-righteousness",
+    "name": "Sword of Righteousness"
+  },
+  {
+    "slug": "swordsage",
+    "name": "Swordsage"
+  },
+  {
+    "slug": "sybil",
+    "name": "Sybil"
+  },
+  {
+    "slug": "tactical-soldier",
+    "name": "Tactical Soldier"
+  },
+  {
+    "slug": "tainted-scholar",
+    "name": "Tainted Scholar"
+  },
+  {
+    "slug": "talon-of-tiamat",
+    "name": "Talon of Tiamat"
+  },
+  {
+    "slug": "talontar-blightlord",
+    "name": "Talontar Blightlord"
+  },
+  {
+    "slug": "tamer-of-beasts",
+    "name": "Tamer of Beasts"
+  },
+  {
+    "slug": "tattooed-monk",
+    "name": "Tattooed Monk"
+  },
+  {
+    "slug": "telflammar-shadowlord",
+    "name": "Telflammar Shadowlord"
   },
   {
     "slug": "tempest",
-    "name": "Tempesta"
+    "name": "Tempesta",
+    "reference": "p. 72"
+  },
+  {
+    "slug": "templar",
+    "name": "Templar"
   },
   {
     "slug": "temple-raider-of-olidammara",
-    "name": "Predatore dei Templi di Olidammara"
+    "name": "Predatore dei Templi di Olidammara",
+    "reference": "pag. 156"
   },
   {
     "slug": "tenebrous-apostate",
-    "name": "Tenebrous Apostate"
+    "name": "Tenebrous Apostate",
+    "reference": "p. 63"
   },
   {
     "slug": "thaumaturgist",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Taumaturgo"
+    "name": "Taumaturgo",
+    "reference": "pag. 262"
   },
   {
     "slug": "thayan-gladiator",
-    "name": "Thayan Gladiator"
+    "name": "Thayan Gladiator",
+    "reference": "p. 63"
   },
   {
     "slug": "thayan-knight",
-    "name": "Cavaliere Thayan"
+    "name": "Cavaliere Thayan",
+    "reference": "p. 64"
   },
   {
     "slug": "thayan-slaver",
-    "name": "Thayan Slaver"
+    "name": "Thayan Slaver",
+    "reference": "p. 37"
   },
   {
     "slug": "thief-of-life",
-    "name": "Thief of Life"
+    "name": "Thief of Life",
+    "reference": "pag. 179"
   },
   {
     "slug": "thief-acrobat",
-    "name": "Ladro-Acrobata"
+    "name": "Ladro-Acrobata",
+    "reference": "p. 18"
+  },
+  {
+    "slug": "thrall-of-demogorgon",
+    "name": "Thrall of Demogorgon"
   },
   {
     "slug": "thrall-of-grazzt",
-    "name": "Thrall of Graz'zt"
+    "name": "Thrall of Graz'zt",
+    "reference": "p. 68"
   },
   {
     "slug": "thrall-of-juiblex",
-    "name": "Thrall of Juiblex"
+    "name": "Thrall of Juiblex",
+    "reference": "p. 70"
   },
   {
     "slug": "thrall-of-orcus",
-    "name": "Thrall of Orcus"
+    "name": "Thrall of Orcus",
+    "reference": "p. 71"
   },
   {
     "slug": "thrallherd",
-    "name": "Thrallherd"
+    "name": "Thrallherd",
+    "reference": "p. 153"
   },
   {
     "slug": "thri-kreen-racial-class",
-    "name": "Thri-kreen Racial Class"
+    "name": "Thri-kreen Racial Class",
+    "reference": "p. 149"
   },
   {
     "slug": "thug",
-    "name": "Thug"
+    "name": "Thug",
+    "reference": "pag. 63"
   },
   {
     "slug": "thunder-guide",
-    "name": "Thunder Guide"
+    "name": "Thunder Guide",
+    "reference": "p. 64"
   },
   {
     "slug": "tomb-warden",
-    "name": "Protettore della Tomba"
+    "name": "Protettore della Tomba",
+    "reference": "p. 57"
   },
   {
     "slug": "topaz-guardian",
-    "name": "Guardiano di Topazio"
+    "name": "Guardiano di Topazio",
+    "reference": "pag. 203"
   },
   {
     "slug": "totem-barbarian",
-    "name": "Totem Barbarian"
+    "name": "Totem Barbarian",
+    "reference": "pag. 99"
   },
   {
     "slug": "totem-rager",
-    "name": "Totem Rager"
+    "name": "Totem Rager",
+    "reference": "p. 153"
   },
   {
     "slug": "totemist",
-    "name": "Totemist"
+    "name": "Totemist",
+    "reference": "p. 29"
   },
   {
     "slug": "transmuter-variant",
-    "name": "Transmuter Variant"
+    "name": "Transmuter Variant",
+    "reference": "p. 64"
   },
   {
     "slug": "trapsmith",
-    "name": "Trapsmith"
+    "name": "Trapsmith",
+    "reference": "pag. 97"
   },
   {
     "slug": "triadic-knight",
-    "name": "Triadic Knight"
+    "name": "Triadic Knight",
+    "reference": "pag. 158"
   },
   {
     "slug": "tribal-protector",
-    "name": "Tribal Protector"
+    "name": "Tribal Protector",
+    "reference": "p. 35"
   },
   {
     "slug": "troubadour-of-stars",
-    "name": "Trovatore delle Stelle"
+    "name": "Trovatore delle Stelle",
+    "reference": "pag. 70"
   },
   {
     "slug": "true-necromancer",
-    "name": "Necromante Puro"
+    "name": "Necromante Puro",
+    "reference": "p. 69"
   },
   {
     "slug": "truenamer",
-    "name": "Truenamer"
+    "name": "Truenamer",
+    "reference": "pag. 221"
   },
   {
     "slug": "twisted-lord",
-    "name": "Twisted Lord"
+    "name": "Twisted Lord",
+    "reference": "pag. 98"
   },
   {
     "slug": "ultimate-magus",
-    "name": "Ultimate Magus"
+    "name": "Ultimate Magus",
+    "reference": "p. 77"
   },
   {
     "slug": "umbral-disciple",
-    "name": "Umbral Disciple"
+    "name": "Umbral Disciple",
+    "reference": "pag. 133"
   },
   {
     "slug": "unbound-scroll",
-    "name": "Unbound Scroll"
+    "name": "Unbound Scroll",
+    "reference": "p. 127"
   },
   {
     "slug": "uncanny-trickster",
-    "name": "Uncanny Trickster"
+    "name": "Uncanny Trickster",
+    "reference": "p. 67"
   },
   {
     "slug": "unholy-ravager-of-tiamat",
-    "name": "Sacrilego Distruttore di Tiamat"
+    "name": "Sacrilego Distruttore di Tiamat",
+    "reference": "pag. 98"
+  },
+  {
+    "slug": "unseen-seer",
+    "name": "Unseen Seer"
+  },
+  {
+    "slug": "ur-priest",
+    "name": "Ur-priest"
+  },
+  {
+    "slug": "urban-druid",
+    "name": "Urban Druid"
+  },
+  {
+    "slug": "urban-ranger",
+    "name": "Urban Ranger"
+  },
+  {
+    "slug": "urban-savant",
+    "name": "Urban Savant"
+  },
+  {
+    "slug": "urban-soul",
+    "name": "Urban Soul"
+  },
+  {
+    "slug": "vadalis-beastkeeper",
+    "name": "Vadalis Beastkeeper"
+  },
+  {
+    "slug": "vassal-of-bahamut",
+    "name": "Vassal of Bahamut"
+  },
+  {
+    "slug": "vengeance-knight",
+    "name": "Vengeance Knight"
+  },
+  {
+    "slug": "verdant-lord",
+    "name": "Verdant Lord"
+  },
+  {
+    "slug": "vermin-keeper",
+    "name": "Vermin Keeper"
+  },
+  {
+    "slug": "vermin-lord",
+    "name": "Vermin Lord"
+  },
+  {
+    "slug": "vigilant-eye-of-helm-paladin",
+    "name": "Vigilant Eye of Helm (Paladin)"
+  },
+  {
+    "slug": "vigilant-sentinel-of-aerenal",
+    "name": "Vigilant Sentinel of Aerenal"
+  },
+  {
+    "slug": "vigilante",
+    "name": "Vigilante"
   },
   {
     "slug": "virtuoso",
-    "name": "Artista"
+    "name": "Artista",
+    "reference": "pag. 105"
   },
   {
     "slug": "visionary-seeker",
-    "name": "Ricercatore Visionario"
+    "name": "Ricercatore Visionario",
+    "reference": "pag. 97"
   },
   {
     "slug": "void-disciple",
-    "name": "Void Disciple"
+    "name": "Void Disciple",
+    "reference": "pag. 63"
   },
   {
     "slug": "walker-in-the-waste",
-    "name": "Walker In the Waste"
+    "name": "Walker In the Waste",
+    "reference": "p. 89"
   },
   {
     "slug": "war-chanter",
-    "name": "Musico da Guerra"
+    "name": "Musico da Guerra",
+    "reference": "p. 87"
   },
   {
     "slug": "war-hulk",
-    "name": "War Hulk"
+    "name": "War Hulk",
+    "reference": "pag. 105"
   },
   {
     "slug": "war-mind",
-    "name": "War Mind"
+    "name": "War Mind",
+    "reference": "pag. 151"
   },
   {
     "slug": "war-weaver",
-    "name": "War Weaver"
+    "name": "War Weaver",
+    "reference": "p. 112"
   },
   {
     "slug": "war-wizard-of-cormyr",
-    "name": "War Wizard of Cormyr"
+    "name": "War Wizard of Cormyr",
+    "reference": "pag. 113"
   },
   {
     "slug": "warblade",
-    "name": "Warblade"
+    "name": "Warblade",
+    "reference": "p. 20"
   },
   {
     "slug": "warchief",
-    "name": "Warchief"
+    "name": "Warchief",
+    "reference": "pag. 94"
   },
   {
     "slug": "warforged-juggernaut",
-    "name": "Warforged Juggernaut"
+    "name": "Warforged Juggernaut",
+    "reference": "pag. 143"
   },
   {
     "slug": "warlock",
-    "name": "Warlock"
+    "name": "Warlock",
+    "reference": "p. 5"
   },
   {
     "slug": "warmage",
-    "name": "Mago Combattente"
+    "name": "Mago Combattente",
+    "reference": "pag. 110"
   },
   {
     "slug": "warmaster",
-    "name": "Warmaster"
+    "name": "Warmaster",
+    "reference": "p. 37"
   },
   {
     "slug": "warpriest",
-    "name": "Sacerdote-Guerriero"
+    "name": "Sacerdote-Guerriero",
+    "reference": "pag. 135"
   },
   {
     "slug": "warrior",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Guerriero PNG"
+    "name": "Guerriero PNG",
+    "reference": "pag. 70"
   },
   {
     "slug": "warrior-of-darkness",
-    "name": "Warrior of Darkness"
+    "name": "Warrior of Darkness",
+    "reference": "p. 75"
   },
   {
     "slug": "warshaper",
-    "name": "Mutaforma Combattente"
+    "name": "Mutaforma Combattente",
+    "reference": "p. 89"
   },
   {
     "slug": "wary-swordknight-paladin",
-    "name": "Wary Swordknight (Paladin)"
+    "name": "Wary Swordknight (Paladin)",
+    "reference": "pag. 63"
   },
   {
     "slug": "watch-detective",
-    "name": "Watch Detective"
+    "name": "Watch Detective",
+    "reference": "p. 75"
   },
   {
     "slug": "wavekeeper",
-    "name": "Wavekeeper"
+    "name": "Wavekeeper",
+    "reference": "p. 76"
   },
   {
     "slug": "waverider",
-    "name": "Waverider"
+    "name": "Waverider",
+    "reference": "p. 93"
   },
   {
     "slug": "wayfarer-guide",
-    "name": "Viaggiatore Guida"
+    "name": "Viaggiatore Guida",
+    "reference": "p. 70"
   },
   {
     "slug": "weapon-master",
-    "name": "Weapon Master"
+    "name": "Weapon Master",
+    "reference": "pag. 213"
   },
   {
     "slug": "weapon-master-kensei",
-    "name": "Weapon Master (Kensei)"
+    "name": "Weapon Master (Kensei)",
+    "reference": "pag. 97"
   },
   {
     "slug": "weretouched-master",
-    "name": "Weretouched Master"
+    "name": "Weretouched Master",
+    "reference": "p. 85"
   },
   {
     "slug": "whisperknife",
-    "name": "Whisperknife"
+    "name": "Whisperknife",
+    "reference": "p. 135"
   },
   {
     "slug": "wild-mage",
-    "name": "Mago Selvaggio"
+    "name": "Mago Selvaggio",
+    "reference": "p. 68"
   },
   {
     "slug": "wild-plains-outrider",
-    "name": "Avanguardia delle Pianure Selvagge"
+    "name": "Avanguardia delle Pianure Selvagge",
+    "reference": "p. 92"
   },
   {
     "slug": "wild-soul",
-    "name": "Wild Soul"
+    "name": "Wild Soul",
+    "reference": "pag. 179"
   },
   {
     "slug": "wilder",
-    "name": "Wilder"
+    "name": "Wilder",
+    "reference": "p. 29"
   },
   {
     "slug": "wilderness-rogue",
-    "name": "Wilderness Rogue"
+    "name": "Wilderness Rogue",
+    "reference": "pag. 164"
   },
   {
     "slug": "wildrunner",
-    "name": "Wildrunner"
+    "name": "Wildrunner",
+    "reference": "p. 139"
   },
   {
     "slug": "windrider",
-    "name": "Windrider"
+    "name": "Windrider",
+    "reference": "p. 77"
   },
   {
     "slug": "windwright-captain",
-    "name": "Windwright Captain"
+    "name": "Windwright Captain",
+    "reference": "p. 70"
   },
   {
     "slug": "winterhaunt-of-iborighu",
-    "name": "Winterhaunt of Iborighu"
+    "name": "Winterhaunt of Iborighu",
+    "reference": "p. 72"
   },
   {
     "slug": "witch-hunter",
-    "name": "Witch Hunter"
+    "name": "Witch Hunter",
+    "reference": "p. 54"
   },
   {
     "slug": "witch-slayer",
-    "name": "Witch Slayer"
+    "name": "Witch Slayer",
+    "reference": "p. 67"
   },
   {
     "slug": "witchborn-binder",
-    "name": "Witchborn Binder"
+    "name": "Witchborn Binder",
+    "reference": "pag. 119"
   },
   {
     "slug": "wizard",
     "translation_source": "manual",
     "reviewed": false,
-    "name": "Mago"
+    "name": "Mago",
+    "reference": "p. 49"
   },
   {
     "slug": "wizard-variant",
-    "name": "Wizard Variant"
+    "name": "Wizard Variant",
+    "reference": "p. 59"
   },
   {
     "slug": "wonderworker",
-    "name": "Creatore di Meraviglie"
+    "name": "Creatore di Meraviglie",
+    "reference": "p. 82"
   },
   {
     "slug": "wu-jen",
-    "name": "Wu Jen"
+    "name": "Wu Jen",
+    "reference": "p. 30"
   },
   {
     "slug": "wyrm-wizard",
-    "name": "Wyrm Wizard"
+    "name": "Wyrm Wizard",
+    "reference": "p. 55"
   },
   {
     "slug": "yakuza",
-    "name": "Yakuza"
+    "name": "Yakuza",
+    "reference": "p. 55"
   },
   {
     "slug": "yathchol-webrider",
-    "name": "Yathchol Webrider"
+    "name": "Yathchol Webrider",
+    "reference": "pag. 111"
   },
   {
     "slug": "yuan-ti-cultist",
-    "name": "Yuan-ti Cultist"
+    "name": "Yuan-ti Cultist",
+    "reference": "pag. 98"
   },
   {
     "slug": "zerth-cenobite",
-    "name": "Zerth Cenobite"
+    "name": "Zerth Cenobite",
+    "reference": "pag. 169"
   },
   {
     "slug": "zhentarim-spy",
-    "name": "Zhentarim Spy"
+    "name": "Zhentarim Spy",
+    "reference": "p. 77"
   }
 ]
