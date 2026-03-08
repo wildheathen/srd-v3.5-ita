@@ -263,25 +263,32 @@ function initLangSwitcher() {
     await renderResults();
     // Re-select same item after language switch
     if (prevSlug && prevTab === currentTab) {
-      const item = vsFilteredData.find(d => d.slug === prevSlug);
-      if (item) {
-        showDetail(item);
-        // Scroll virtual list to bring the item into view
-        const dataIdx = vsFilteredData.indexOf(item);
-        const displayIdx = vsDataToDisplay[dataIdx] ?? dataIdx;
-        resultsList.scrollTop = vsRowTops[displayIdx] || 0;
-        // After scroll triggers re-render, highlight the item
-        requestAnimationFrame(() => {
-          vsRenderVisible();
-          const el = resultsList.querySelector(`[data-data-idx="${dataIdx}"]`);
-          if (el) {
-            resultsList.querySelectorAll('.selected').forEach(s => s.classList.remove('selected'));
-            el.classList.add('selected');
-          }
-        });
+      // For prepared/learned tabs, reload the item from the source data
+      let item;
+      if (currentTab === 'prepared' || currentTab === 'learned') {
+        const sourceTab = currentTab === 'prepared' ? 'spells' : 'feats';
+        const sourceData = await loadData(sourceTab);
+        item = sourceData ? sourceData.find(d => d.slug === prevSlug) : null;
+        if (item) showDetail(item, sourceTab);
       } else {
-        detailPanel.classList.add('hidden');
+        item = vsFilteredData.find(d => d.slug === prevSlug);
+        if (item) {
+          showDetail(item);
+          // Scroll virtual list to bring the item into view
+          const dataIdx = vsFilteredData.indexOf(item);
+          const displayIdx = vsDataToDisplay[dataIdx] ?? dataIdx;
+          resultsList.scrollTop = vsRowTops[displayIdx] || 0;
+          requestAnimationFrame(() => {
+            vsRenderVisible();
+            const el = resultsList.querySelector(`[data-data-idx="${dataIdx}"]`);
+            if (el) {
+              resultsList.querySelectorAll('.selected').forEach(s => s.classList.remove('selected'));
+              el.classList.add('selected');
+            }
+          });
+        }
       }
+      if (!item) detailPanel.classList.add('hidden');
     } else {
       detailPanel.classList.add('hidden');
     }
@@ -1244,6 +1251,10 @@ function showDetail(item, overrideTab) {
   detailPanel.innerHTML = `<button class="detail-close" aria-label="Chiudi">&times;</button>` + renderDetail(item, tab);
   detailPanel.querySelector('.detail-close').addEventListener('click', () => {
     detailPanel.classList.add('hidden');
+    // After closing on mobile, the list becomes visible again (CSS :has).
+    // Force re-render since vsRenderVisible may have been a no-op while hidden.
+    vsLastRange = null;
+    requestAnimationFrame(() => vsRenderVisible());
   });
   // On mobile, CSS :has() hides the list+search when detail is visible.
   // Scroll to top so the detail panel is immediately readable.
