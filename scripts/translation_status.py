@@ -93,7 +93,7 @@ def load_json(path):
 def make_bar(ratio):
     filled = round(ratio * BAR_WIDTH)
     empty = BAR_WIDTH - filled
-    return "█" * filled + "░" * empty
+    return "#" * filled + "-" * empty
 
 
 def report_category(category, lang, data_dir):
@@ -153,7 +153,7 @@ def report_category(category, lang, data_dir):
 
         print(f"  {field:<20s} {translated:>4d}/{base_with_field:<4d} {bar} {pct:5.1f}%")
         if suspicious > 0:
-            print(f"    \u26a0 {suspicious} entries have overlay \u2248 EN base (>{SIMILARITY_THRESHOLD*100:.0f}% similar)")
+            print(f"    WARNING: {suspicious} entries have overlay ~= EN base (>{SIMILARITY_THRESHOLD*100:.0f}% similar)")
 
     print()
 
