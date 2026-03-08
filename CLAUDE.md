@@ -4,71 +4,44 @@ App di consultazione del System Reference Document D&D 3.5, basata sul fork di [
 
 ## Stack
 
-- **Backend:** Python + FastAPI (opzionale, per API REST)
-- **Database:** SQLite (`dnd35.db`, opzionale)
+- **Frontend:** HTML/CSS/JS vanilla su GitHub Pages (legge i JSON direttamente, nessun build system)
 - **Data format:** JSON per categoria in `/data/`
-- **Frontend:** HTML/CSS/JS statico su GitHub Pages (legge i JSON direttamente)
-- **CI/CD:** GitHub Actions
+- **Backend:** Python + FastAPI (opzionale, per API REST locale)
+- **Database:** SQLite (`dnd35.db`, opzionale, generato dagli script)
+- **CI/CD:** GitHub Actions (test + deploy)
 
-## Struttura repo
+## Fonti dati
 
-```
-/data/              → JSON generati dal parser (spells, feats, races, equipment, classes, monsters, rules)
-/scripts/           → parse_srd.py, import_to_db.py, import_translations.py
-/backend/           → FastAPI app (opzionale, non necessario per GitHub Pages)
-/frontend/          → style.css, app.js, i18n.js (caricati da index.html nella root)
-/frontend/i18n/     → UI string files per lingua (it.json, en.json, ...)
-/data/i18n/{lang}/  → Data overlay files per lingua (solo campi tradotti, keyed by slug)
-index.html          → Entry point Crystal Ball (root, servito da GitHub Pages)
-dnd35.db            → SQLite database (gitignored, generato dagli script)
-```
+I dati del progetto provengono da diverse fonti, tutte relative al contenuto Open Game License (OGL) di D&D 3.5:
 
-**Sorgenti e risorse** (sotto `/sources/`):
-```
-/sources/srd/spells/            → 9 file HTML con tutti gli incantesimi (spells-a-b.html ... spells-t-z.html)
-/sources/srd/basic-rules-and-legal/ → regole base, talenti, razze, classi, equipaggiamento, combattimento, abilità
-/sources/srd/divine/            → abilità divine, domini, ranghi
-/sources/srd/epic/              → contenuti di livello epico
-/sources/srd/magic-items/       → oggetti magici
-/sources/srd/monsters/          → mostri (18 file HTML)
-/sources/srd/psionics/          → contenuti psionici
-/sources/testo-manuale/         → testo manuale italiano (OCR da PDF) + HTML per capitoli
-/sources/contrib/               → CSV e HTML di supporto per traduzioni e import
-/sources/pdf-ita/               → HTML estratti dai PDF SRD italiano (249 file, 10 capitoli)
-```
-
-**Sorgenti PDF italiano** (sotto `/sources/pdf-ita/`, 249 file totali):
-```
-/sources/pdf-ita/01-regole-base/       → 6 file (basi, caratteristiche, allineamento, ecc.)
-/sources/pdf-ita/02-razze/             → 128 file (razze base + varianti ambientali + mostri come razze)
-/sources/pdf-ita/03-classi/            → 70 file (classi base + varianti + classi di prestigio)
-/sources/pdf-ita/04-abilita/           → 3 file (intro, elenco, gradi massimi)
-/sources/pdf-ita/05-talenti/           → 6 file (generali, combattimento, creazione, metamagia, mostri)
-/sources/pdf-ita/06-equipaggiamento/   → 4 file (armi, armature, avventura, merci/servizi)
-/sources/pdf-ita/07-avventura/         → 4 file (esplorazione, movimento, condizioni, trasporto)
-/sources/pdf-ita/08-combattimento/     → 7 file (basi, azioni, attacco, difesa, iniziativa, speciali)
-/sources/pdf-ita/09-magia/            → 5 file (intro, arcana, divina, descrizioni, capacita speciali)
-/sources/pdf-ita/10-incantesimi/       → 16 file (A-UVWXYZ, 601 incantesimi con campi strutturati)
-```
+| Fonte | Tipo | Contenuto |
+|-------|------|-----------|
+| [olimot/srd-v3.5](https://github.com/olimot/srd-v3.5) | HTML EN | SRD inglese completo: spell, feat, classi, razze, equipaggiamento, mostri, regole, psionics, epic, divine, magic items |
+| [dndtools.net](https://dndtools.net) | HTML EN | Database esteso D&D 3.5: 4155 incantesimi, 3537 talenti, 730 classi, 113 abilita/trucchi, 42 razze, 312 mostri. Include source book, pagina, edizione (3.0/3.5) |
+| [5clone.com](https://5clone.com) | HTML IT/EN | Wiki italiana D&D 3.5: nomi italiani degli incantesimi, riferimenti ai manuali, descrizioni brevi (~1368 spell) |
+| [editorifolli.it](https://www.editorifolli.it/f/srd35/) | PDF IT | SRD italiano ufficiale: 249 PDF organizzati in 10 capitoli (regole, razze, classi, abilita, talenti, equipaggiamento, avventura, combattimento, magia, incantesimi) |
+| Testo manuale OCR | TXT IT | Manuale del Giocatore italiano (OCR da PDF), usato per estrarre descrizioni IT di spell e talenti |
+| `data/sources.json` | JSON | Catalogo di 110 manuali D&D 3.5 con nomi EN/IT e abbreviazioni (es. PHB→MdG, DMG→GdDM) |
 
 ## Dati estratti
 
 | Categoria | JSON | Entries | Fonti |
 |-----------|------|---------|-------|
-| Incantesimi | `spells.json` | 1377 | SRD + dndtools.net |
-| Talenti | `feats.json` | 3537 | SRD (111) + dndtools.net (3426 nuovi) |
-| Abilità | `skills.json` | 113 | dndtools.net (71 skills + 42 skill tricks) |
-| Razze | `races.json` | 42 | SRD (7) + dndtools.net (35 nuove) |
+| Incantesimi | `spells.json` | 4,155 | SRD + dndtools.net + 5clone.com |
+| Talenti | `feats.json` | 3,537 | SRD (111) + dndtools.net (3,426) |
+| Abilita | `skills.json` | 113 | dndtools.net (71 skills + 42 skill tricks) |
+| Classi | `classes.json` | 730 | SRD (31) + dndtools.net (699, di cui 610 prestigio) |
+| Razze | `races.json` | 42 | SRD (7) + dndtools.net (35) |
+| Mostri | `monsters.json` | 312 | SRD (289) + dndtools.net (23) |
 | Equipaggiamento | `equipment.json` | 288 | SRD |
-| Classi | `classes.json` | 730 | SRD (31) + dndtools.net (699 nuove, 610 prestigio) |
-| Mostri | `monsters.json` | 312 | SRD (289) + dndtools.net (23 nuovi) |
 | Regole | `rules.json` | 19 pagine | SRD |
+| Manuali | `sources.json` | 110 | Catalogo manuali EN/IT |
 
 ### Campi comuni dndtools.net
 
 Ogni entry proveniente da dndtools.net ha questi campi aggiuntivi:
 - `source_book`: nome completo del manuale EN (es. "Player's Handbook v.3.5")
-- `source_page`: numero pagina (es. "37")
+- `source_page`: numero pagina
 - `source_url`: URL dndtools.net della pagina dettaglio
 - `edition`: "3.0" o "3.5"
 - `source_site`: "dndtools.net"
@@ -84,6 +57,28 @@ Skills (`category: "skill"`):
 Skill Tricks (`category: "skill_trick"`):
 - `prerequisites`: testo requisiti
 - `benefit`: testo beneficio HTML
+
+## Struttura repo
+
+```
+/data/              → JSON generati dal parser (spells, feats, races, equipment, classes, monsters, rules, skills, sources)
+/data/i18n/{lang}/  → Data overlay files per lingua (solo campi tradotti, keyed by slug)
+/scripts/           → Parser, scraper, import, PDF converter
+/backend/           → FastAPI app (opzionale, non necessario per GitHub Pages)
+/frontend/          → style.css, app.js, i18n.js (caricati da index.html nella root)
+/frontend/i18n/     → UI string files per lingua (it.json, en.json)
+/tests/             → Test suite pytest (schema JSON, overlay i18n)
+/sources/           → Sorgenti HTML/PDF/CSV (vedi sotto)
+index.html          → Entry point Crystal Ball (root, servito da GitHub Pages)
+```
+
+**Sorgenti e risorse** (sotto `/sources/`):
+```
+/sources/srd/                   → HTML SRD inglese da olimot/srd-v3.5 (spells, monsters, regole, ecc.)
+/sources/testo-manuale/         → Testo manuale italiano (OCR da PDF) + HTML per capitoli
+/sources/contrib/               → CSV e HTML di supporto per traduzioni e import (5clone, classi, mostri)
+/sources/pdf-ita/               → HTML estratti dai PDF SRD italiano (249 file, 10 capitoli)
+```
 
 ## Schema DB
 
@@ -117,13 +112,22 @@ Serve per le traduzioni IT incrementali senza toccare le tabelle principali.
 
 ## Frontend
 
-Tab disponibili: **Incantesimi**, **Preparati**, **Talenti**, **Appresi**, **Abilità**, **Classi**, **Razze**, **Equipaggiamento**, **Mostri**, **Regole**, **Stato Traduzioni**
+Tab disponibili: **Incantesimi**, **Preparati**, **Talenti**, **Appresi**, **Abilita**, **Classi**, **Razze**, **Equipaggiamento**, **Mostri**, **Regole**, **Stato Traduzioni**
+
+### Feature principali
+
+- **Virtual scrolling**: con 4,155+ spell, il DOM renderizza solo ~30-40 nodi visibili (altezza fissa 52px per riga, buffer ±15 righe). Riduce drasticamente il consumo di memoria.
+- **Ricerca full-text**: toggle "Cerca nella descrizione" accanto alla barra di ricerca. Quando attivo, cerca anche in `desc_html` e `benefit` (con strip dei tag HTML). Preferenza salvata in localStorage.
+- **Highlighting**: i termini cercati vengono evidenziati con `<mark>` sia nella lista risultati che nel pannello dettaglio.
+- **Persistenza selezione al cambio lingua**: quando si cambia lingua (IT/EN), l'item aperto nel dettaglio resta selezionato e viene aggiornato nella nuova lingua.
+- **Touch target mobile**: bottoni min 36x36px per usabilita su dispositivi touch.
 
 ### Incantesimi
-- Filtro scuola (dropdown), filtro classe/dominio (dropdown)
+- Filtro scuola (dropdown), filtro classe/dominio (dropdown), filtro manuale
 - Multi-select livello 0–9 (checkbox), con bottoni Tutti/Nessuno
+- Checkbox "Includi edizione 3.0"
 - Ordinamento per livello crescente
-- Badge verde con contatore `usato/preparato` per incantesimi già preparati
+- Badge verde con contatore `usato/preparato` per incantesimi gia preparati
 - Bottone **+** per aggiungere alla lista preparati
 
 ### Preparati
@@ -132,8 +136,8 @@ Tab disponibili: **Incantesimi**, **Preparati**, **Talenti**, **Appresi**, **Abi
 - Click sul nome per vedere il dettaglio dell'incantesimo
 - Indicatore visivo rosso quando tutti gli usi sono esauriti
 
-### Abilità
-- Filtro per categoria (Abilità / Trucchi / Entrambi)
+### Abilita
+- Filtro per categoria (Abilita / Trucchi / Entrambi)
 - Filtro per caratteristica chiave (STR/DEX/CON/INT/WIS/CHA)
 - Checkbox "Solo addestrate"
 - Dettaglio con sezioni Check, Azione, Speciale, Sinergia, ecc.
@@ -143,7 +147,7 @@ Tab disponibili: **Incantesimi**, **Preparati**, **Talenti**, **Appresi**, **Abi
 - Dettaglio con hit die, skill points, class skills, source book
 
 ### Razze
-- Dettaglio con taglia, velocità, modificatori caratteristiche, livello aggiustamento
+- Dettaglio con taglia, velocita, modificatori caratteristiche, livello aggiustamento
 
 ### Mostri
 - Filtro per CR (Challenge Rating) e tipo creatura
@@ -152,44 +156,37 @@ Tab disponibili: **Incantesimi**, **Preparati**, **Talenti**, **Appresi**, **Abi
 ## Script
 
 ```bash
-# Parsing dei sorgenti HTML → JSON
+# ── Parsing sorgenti SRD (HTML → JSON) ──
 python scripts/parse_srd.py              # parse tutto
 python scripts/parse_srd.py spells       # parse solo incantesimi
 python scripts/parse_srd.py monsters     # parse solo mostri
 
-# Import JSON → SQLite
+# ── Import JSON → SQLite ──
 python scripts/import_to_db.py
 
-# Import traduzioni IT (formato JSON)
+# ── Import traduzioni IT (formato JSON) ──
 python scripts/import_translations.py translations_it.json
 
-# Estrazione PDF → HTML strutturato (con grassetto/corsivo)
+# ── Estrazione PDF → HTML strutturato ──
 python scripts/pdf_to_html.py <pdf_path> <output_html>                    # modo spells (default)
 python scripts/pdf_to_html.py --mode generic <pdf_path> <output_html>     # modo generico
 
-# Download tutti i 249 PDF SRD italiano
-python scripts/download_srd_pdfs.py --output-dir /tmp/srd-pdf-ita
-
-# Conversione batch di tutti i PDF in HTML
+# ── Download e conversione batch PDF SRD italiano ──
+python scripts/download_srd_pdfs.py --output-dir /tmp/srd-pdf-ita         # download 249 PDF
 python scripts/convert_all_pdfs.py --pdf-dir /tmp/srd-pdf-ita --output-dir sources/pdf-ita
-python scripts/convert_all_pdfs.py --force   # ri-converte anche se HTML esiste
-
-# Avvio backend locale (opzionale)
-uvicorn backend.app:app --reload --port 8000
+python scripts/convert_all_pdfs.py --force                                # ri-converte anche se HTML esiste
 
 # ── Scraping dndtools.net (EN) ──
-
-# Download pagine HTML da dndtools.net (100 workers paralleli, resume-safe)
 python scripts/dndtools_download.py --category feats      # 3588 talenti
-python scripts/dndtools_download.py --category skills     # 71 abilità
-python scripts/dndtools_download.py --category skill-tricks # 42 trucchi abilità
+python scripts/dndtools_download.py --category skills     # 71 abilita
+python scripts/dndtools_download.py --category skill-tricks # 42 trucchi abilita
 python scripts/dndtools_download.py --category classes    # 743 classi
 python scripts/dndtools_download.py --category races      # 42 razze
 python scripts/dndtools_download.py --category monsters   # 29 mostri
 
 # Parse HTML → JSON intermedio
 python scripts/dndtools_parse_feats.py     # → data/dndtools/feats_en_parsed.json
-python scripts/dndtools_parse_skills.py    # → data/skills.json (skills + skill tricks)
+python scripts/dndtools_parse_skills.py    # → data/skills.json
 python scripts/dndtools_parse_classes.py   # → data/dndtools/classes_en_parsed.json
 python scripts/dndtools_parse_races.py     # → data/dndtools/races_en_parsed.json
 python scripts/dndtools_parse_monsters.py  # → data/dndtools/monsters_en_parsed.json
@@ -199,22 +196,31 @@ python scripts/dndtools_merge_feats.py     # feats.json: 111 → 3537
 python scripts/dndtools_merge_classes.py   # classes.json: 31 → 730
 python scripts/dndtools_merge_races.py     # races.json: 7 → 42
 python scripts/dndtools_merge_monsters.py  # monsters.json: 289 → 312
+
+# ── Scraping 5clone.com (IT) ──
+python scripts/parse_5clone_index.py       # estrai URL spell da indice salvato
+python scripts/scrape_5clone.py            # scrape pagine dettaglio (~1368 spell)
+python scripts/merge_5clone_spells.py      # merge nomi IT in spells.json
+
+# ── Backend locale (opzionale) ──
+uvicorn backend.app:app --reload --port 8000
 ```
 
 ## Estrazione PDF SRD
 
 Lo script `scripts/pdf_to_html.py` converte i PDF del SRD italiano (da editorifolli.it) in HTML strutturato.
 
-**Due modalità:**
+**Due modalita:**
 - `--mode spells` (default): parsing strutturato per incantesimi con campi separati (Scuola, Livello, Componenti, ecc.)
-- `--mode generic`: parsing generico per tutti gli altri contenuti (heading detection, paragrafi, bold/italic)
+- `--mode generic`: parsing generico per tutti gli altri contenuti (heading detection, paragrafi, bold/italic, tabelle)
 
 **Approccio ibrido:**
 1. `pdftotext` per il testo completo (zero perdite)
 2. Parsing raw PDF streams per identificare font Bold/Italic
 3. Merge: applica `<b>`/`<i>` al testo usando i frammenti formattati (con word-boundary check per bold)
 4. Struttura: split in blocchi con campi separati dalla descrizione (spells) o heading detection (generic)
-5. Leggibilità: `<br>` dopo ogni frase e prima di elenchi
+5. Leggibilita: `<br>` dopo ogni frase e prima di elenchi
+6. Tabelle: rilevamento automatico di pattern tabulari (colonne separate da 3+ spazi), generazione `<table>` HTML
 
 **Pipeline batch:**
 - `download_srd_pdfs.py`: manifesto hardcoded di tutti i 249 PDF, download con curl, resume-safe
@@ -222,9 +228,19 @@ Lo script `scripts/pdf_to_html.py` converte i PDF del SRD italiano (da editorifo
 
 **Requisiti:** `pdftotext` e `curl` nel PATH (inclusi in Git for Windows). Nessuna dipendenza Python esterna.
 
-**Limiti:** Non gestisce tabelle (da estendere). I PDF di classi/equipaggiamento hanno tabelle che vengono preservate come testo ma perdono la struttura.
-
 **Sorgenti PDF:** `https://www.editorifolli.it/f/srd35/` (249 file, ~100MB totali)
+
+## Test
+
+Test suite con pytest, eseguiti automaticamente in CI prima del deploy.
+
+```bash
+python -m pytest tests/ -v
+```
+
+**Test disponibili:**
+- `test_json_schema.py` — Validazione schema JSON per tutte le categorie (campi obbligatori, no duplicati, no nomi vuoti, conteggi minimi)
+- `test_i18n_overlay.py` — Integrita overlay traduzioni (slug validi, no orfani, merge corretto, fallback EN)
 
 ## API Endpoints (backend opzionale)
 
@@ -247,8 +263,8 @@ Tutti gli endpoint accettano `?lang=it` per le traduzioni.
 
 GitHub Actions workflow (`.github/workflows/deploy.yml`):
 - Trigger: push su `master` o manual dispatch
-- Copia `index.html`, `frontend/`, `data/*.json` in `_site/`
-- Deploy su GitHub Pages
+- Step: test pytest → genera report traduzioni → build con cache-busting → deploy GitHub Pages
+- Copia `index.html`, `frontend/`, `data/*.json`, `data/i18n/` in `_site/`
 
 ## Sistema i18n (multi-lingua)
 
@@ -269,6 +285,7 @@ Due livelli di traduzione:
 - Per ogni lingua diversa da EN, il frontend carica un overlay da `data/i18n/{lang}/` e fa il merge per slug
 - Se un campo non ha traduzione nell'overlay, resta in inglese (fallback automatico)
 - La funzione `t(key)` traduce le stringhe UI; `loadDataOverlay()` e `applyOverlay()` gestiscono i dati
+- Cambio lingua preserva l'item selezionato nel pannello dettaglio
 
 ### Aggiungere una nuova lingua
 
@@ -299,11 +316,18 @@ Solo i campi presenti vengono sovrascritti; il resto resta in inglese.
 - [x] Scrivere import_translations.py
 - [x] GitHub Actions deploy workflow
 - [x] Sistema preparazione incantesimi con contatori uso/preparati
-- [x] Sezione mostri (289 entries con stat block)
+- [x] Sezione mostri (312 entries con stat block)
 - [x] Sezione regole (19 pagine descrittive)
 - [x] Sistema i18n multi-lingua (UI strings + data overlay)
 - [x] Traduzioni IT termini chiave (nomi spell, mostri, talenti, classi, razze)
 - [x] Scraping dndtools.net EN (feats, skills, skill tricks, classes, races, monsters)
-- [x] Tab Abilità (skills + skill tricks) con filtri
+- [x] Scraping 5clone.com IT (nomi italiani incantesimi)
+- [x] Tab Abilita (skills + skill tricks) con filtri
 - [x] Dettagli estesi per tutte le categorie (source book, prestige, size, ecc.)
+- [x] Virtual scrolling per performance con 4000+ entries
+- [x] Ricerca full-text con toggle e highlighting
+- [x] Test suite pytest (schema JSON + overlay i18n)
+- [x] Touch target mobile
+- [x] Table parsing nel PDF converter
+- [x] Persistenza selezione al cambio lingua
 - [ ] Traduzioni IT descrizioni complete (desc_html, benefit, ecc.)

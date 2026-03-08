@@ -2,71 +2,83 @@
 
 App di consultazione del System Reference Document D&D 3.5 in italiano, basata sul fork di [olimot/srd-v3.5](https://github.com/olimot/srd-v3.5).
 
-## Stack
-
-- **Backend:** Python + FastAPI
-- **Database:** SQLite (`dnd35.db`)
-- **Data format:** JSON per categoria in `/data/`
-- **Frontend:** HTML/CSS/JS statico su GitHub Pages
-- **CI/CD:** GitHub Actions
+Frontend statico (HTML/CSS/JS vanilla) su GitHub Pages, senza backend ne build system.
 
 ## Quick start
 
 ```bash
-# Installa dipendenze
+# Installa dipendenze (solo per test e backend opzionale)
 pip install -r requirements.txt
 
-# Parsing di tutti i contenuti SRD → JSON in /data/
-python scripts/parse_srd.py
+# Esegui test
+python -m pytest tests/ -v
 
-# Import JSON → SQLite
-python scripts/import_to_db.py
-
-# Avvio backend API
-uvicorn backend.app:app --reload --port 8000
-
-# Frontend (in un altro terminale, o aprire frontend/index.html)
-# L'API di default è http://localhost:8000/api
+# Apri direttamente nel browser
+# oppure usa un server locale:
+python -m http.server 8080
 ```
+
+L'app carica i JSON da `data/` e non richiede backend.
+
+## Dati
+
+| Categoria | Entries | Fonti |
+|-----------|---------|-------|
+| Incantesimi | 4,155 | SRD + [dndtools.net](https://dndtools.net) + [5clone.com](https://5clone.com) |
+| Talenti | 3,537 | SRD (111) + dndtools.net (3,426) |
+| Abilita | 113 | dndtools.net (71 skills + 42 skill tricks) |
+| Classi | 730 | SRD (31) + dndtools.net (699, di cui 610 prestigio) |
+| Razze | 42 | SRD (7) + dndtools.net (35) |
+| Mostri | 312 | SRD (289) + dndtools.net (23) |
+| Equipaggiamento | 288 | SRD |
+| Regole | 19 pagine | SRD |
+| Manuali | 110 | Catalogo manuali EN/IT con abbreviazioni |
+
+## Feature
+
+- **Virtual scrolling** — con 4,155+ spell, renderizza solo ~30-40 nodi DOM visibili
+- **Ricerca full-text** — toggle per cercare anche nelle descrizioni, con highlighting dei risultati
+- **Multilingua (IT/EN)** — cambio lingua in tempo reale con persistenza dell'item selezionato
+- **Preparazione incantesimi** — lista preparati con contatori uso/preparati, persistenza in localStorage
+- **Filtri avanzati** — scuola, classe/dominio, livello, tipo, CR, manuale, edizione 3.0/3.5
+- **Responsive** — layout adattivo con touch target 36x36px su mobile
 
 ## Struttura repo
 
 ```
-/data/              → JSON generati dal parser (spells.json, ...)
-/scripts/           → parse_srd.py, import_to_db.py, import_translations.py
-/backend/           → FastAPI app (app.py)
-/frontend/          → HTML/CSS/JS app di consultazione
-/spells/            → HTML sorgenti SRD (incantesimi)
-/basic-rules-and-legal/ → HTML sorgenti SRD (regole, talenti, razze, classi, equipaggiamento)
-dnd35.db            → SQLite database (gitignored)
+/data/              → JSON per categoria (spells, feats, classes, monsters, races, equipment, rules, skills, sources)
+/data/i18n/it/      → Overlay traduzioni italiane (per slug)
+/frontend/          → style.css, app.js, i18n.js
+/frontend/i18n/     → Stringhe UI per lingua (it.json, en.json)
+/scripts/           → Parser SRD, scraper dndtools/5clone, PDF converter, import
+/tests/             → Test pytest (schema JSON, overlay i18n)
+/sources/           → Sorgenti HTML/PDF/CSV
+index.html          → Entry point
 ```
 
-Per la documentazione completa (schema DB, convenzioni, task) vedi [CLAUDE.md](CLAUDE.md).
+## Fonti dati e crediti
 
-## Dati estratti
+| Fonte | Cosa fornisce |
+|-------|---------------|
+| [olimot/srd-v3.5](https://github.com/olimot/srd-v3.5) | HTML SRD inglese (base del progetto) |
+| [Wizards of the Coast SRD](https://archive.org/details/dnd35srd) | Documenti originali OGL D&D 3.5 |
+| [dndtools.net](https://dndtools.net) | Database esteso EN: incantesimi, talenti, classi, abilita, razze, mostri da 100+ manuali |
+| [5clone.com](https://5clone.com) | Wiki italiana D&D 3.5: nomi italiani incantesimi e riferimenti manuali |
+| [editorifolli.it](https://www.editorifolli.it/f/srd35/) | SRD italiano ufficiale in 249 PDF (regole, razze, classi, incantesimi, ecc.) |
+| Manuale del Giocatore IT (OCR) | Descrizioni italiane di incantesimi e talenti |
 
-| Categoria | Conteggio |
-|-----------|-----------|
-| Incantesimi | 608 |
-| Talenti | 111 |
-| Razze | 7 |
-| Equipaggiamento | 288 |
-| Classi | 31 |
-| Mostri | 289 |
-| Regole | 19 pagine |
+Catalogo di 110 manuali D&D 3.5 con nomi EN/IT e abbreviazioni in `data/sources.json`.
 
-## Stato attuale
+## Deploy
 
-- [x] Setup struttura cartelle e CLAUDE.md
-- [x] Parser completo (incantesimi, talenti, razze, equipaggiamento, classi, mostri, regole)
-- [x] Schema SQLite e import_to_db.py
-- [x] Backend FastAPI con API REST
-- [x] Frontend consultazione (dark theme, filtri avanzati)
-- [x] Sistema preparazione incantesimi (localStorage)
-- [x] GitHub Actions deploy
-- [ ] Traduzioni IT
+GitHub Actions: push su `master` → test pytest → build con cache-busting → deploy GitHub Pages.
 
-## Crediti
+## Contribuire
 
-- SRD HTML originale: [olimot/srd-v3.5](https://github.com/olimot/srd-v3.5)
-- Documenti originali: [Wizards of the Coast SRD](https://archive.org/details/dnd35srd)
+Le traduzioni italiane sono il contributo piu utile. Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per i dettagli.
+
+Per la documentazione tecnica completa (schema DB, convenzioni, script, architettura i18n) vedi [CLAUDE.md](CLAUDE.md).
+
+## Licenza
+
+Contenuti SRD rilasciati sotto [Open Game License v1.0a](https://opengamingfoundation.org/ogl.html).

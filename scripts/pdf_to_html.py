@@ -542,60 +542,160 @@ def format_spell_block(name, text, bold_set, italic_set):
     return f'<div class="spell-block">\n  <h3>{name_escaped}</h3>\n{inner}\n</div>'
 
 
+# ─── Table detection from pdftotext layout output ────────────────────────────
+
+def detect_table_lines(lines):
+    """Detect which consecutive lines form table rows based on column alignment.
+    Returns a list of (start_idx, end_idx) ranges for table blocks."""
+    # A line is "tabular" if it has 2+ runs of 3+ consecutive spaces separating text
+    def is_tabular(line):
+        stripped = line.rstrip()
+        if not stripped or len(stripped) < 10:
+            return False
+        gaps = re.findall(r'  {2,}', stripped)
+        return len(gaps) >= 2
+
+    tables = []
+    i = 0
+    while i < len(lines):
+        if is_tabular(lines[i]):
+            start = i
+            while i < len(lines) and (is_tabular(lines[i]) or not lines[i].strip()):
+                i += 1
+            # Need at least 2 tabular lines to be a table
+            tabular_count = sum(1 for j in range(start, i) if is_tabular(lines[j]))
+            if tabular_count >= 2:
+                # Trim trailing blank lines
+                end = i
+                while end > start and not lines[end - 1].strip():
+                    end -= 1
+                tables.append((start, end))
+        else:
+            i += 1
+    return tables
+
+
+def split_table_columns(line):
+    """Split a tabular line into cells using runs of 2+ spaces as delimiters."""
+    cells = re.split(r'  {2,}', line.strip())
+    return [c.strip() for c in cells if c.strip()]
+
+
+def table_lines_to_html(lines, bold_set, italic_set):
+    """Convert a block of tabular lines into an HTML <table>."""
+    rows = []
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            continue
+        cells = split_table_columns(stripped)
+        if cells:
+            rows.append(cells)
+
+    if not rows:
+        return ''
+
+    # First row is header if it has no numeric data typical of data rows
+    html = '<table class="srd-table">\n'
+
+    # Detect if first row is a header (mostly text, no "mo"/"ma"/"d4"/"d6" etc.)
+    first_row_text = ' '.join(rows[0]).lower()
+    is_header = not re.search(r'\d+d\d+|\d+\s*mo|\d+\s*ma|x[234]', first_row_text)
+
+    for i, row in enumerate(rows):
+        tag = 'th' if (i == 0 and is_header) else 'td'
+        cells_html = ''.join(
+            f'<{tag}>{apply_bold_italic(c, bold_set, italic_set)}</{tag}>'
+            for c in row
+        )
+        html += f'  <tr>{cells_html}</tr>\n'
+
+    html += '</table>'
+    return html
+
+
 # ─── Generic mode: paragraphs with headings ──────────────────────────────────
 
 def parse_generic(full_text, bold_set, italic_set):
-    """Parse generic PDF content into paragraphs with heading detection."""
+    """Parse generic PDF content into paragraphs with heading detection.
+    Detects tabular content and outputs <table> HTML."""
     full_text = full_text.replace('\r\n', '\n').replace('\r', '\n')
     full_text = full_text.replace('\f', '\n')
 
     lines = full_text.split('\n')
 
-    # Merge consecutive non-empty lines into paragraphs
-    paragraphs = []
+    # Detect table ranges before merging into paragraphs
+    table_ranges = detect_table_lines(lines)
+    table_line_set = set()
+    for start, end in table_ranges:
+        for j in range(start, end):
+            table_line_set.add(j)
+
+    # Process lines: merge non-table lines into paragraphs, emit tables inline
+    blocks = []
     current = ''
-    for line in lines:
-        stripped = line.strip()
-        if not stripped:
+    i = 0
+    while i < len(lines):
+        if i in table_line_set:
+            # Flush current paragraph
             if current:
-                paragraphs.append(current)
+                blocks.append(('para', current))
                 current = ''
-        else:
-            if current:
-                current += ' ' + stripped
+            # Find the table range this line belongs to
+            for start, end in table_ranges:
+                if start <= i < end:
+                    blocks.append(('table', lines[start:end]))
+                    i = end
+                    break
             else:
-                current = stripped
+                i += 1
+        else:
+            stripped = lines[i].strip()
+            if not stripped:
+                if current:
+                    blocks.append(('para', current))
+                    current = ''
+            else:
+                if current:
+                    current += ' ' + stripped
+                else:
+                    current = stripped
+            i += 1
     if current:
-        paragraphs.append(current)
+        blocks.append(('para', current))
 
     # Build HTML blocks
-    blocks = []
-    for para in paragraphs:
-        # Skip OGL header
-        if para.startswith('This material is Open Game Content'):
-            continue
-
-        # Detect headings: ALL-CAPS paragraphs (>80% uppercase, at least 3 alpha chars)
-        alpha = re.sub(r'[^a-zA-ZÀ-ú]', '', para)
-        is_heading = False
-        if alpha and len(alpha) >= 3:
-            upper_ratio = sum(1 for c in alpha if c.isupper()) / len(alpha)
-            if upper_ratio > 0.8 and len(para) < 120:
-                is_heading = True
-
-        para_escaped = para.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-
-        if is_heading:
-            # Short ALL-CAPS = h2, longer = h3
-            tag = 'h2' if len(para) < 40 else 'h3'
-            blocks.append(f'<{tag}>{para_escaped}</{tag}>')
+    html_blocks = []
+    for block_type, content in blocks:
+        if block_type == 'table':
+            table_html = table_lines_to_html(content, bold_set, italic_set)
+            if table_html:
+                html_blocks.append(table_html)
         else:
-            # Apply formatting
-            html = apply_bold_italic(para, bold_set, italic_set)
-            html = break_sentences(html)
-            blocks.append(f'<p>{html}</p>')
+            para = content
+            # Skip OGL header
+            if para.startswith('This material is Open Game Content'):
+                continue
 
-    return blocks
+            # Detect headings: ALL-CAPS paragraphs (>80% uppercase, at least 3 alpha chars)
+            alpha = re.sub(r'[^a-zA-ZÀ-ú]', '', para)
+            is_heading = False
+            if alpha and len(alpha) >= 3:
+                upper_ratio = sum(1 for c in alpha if c.isupper()) / len(alpha)
+                if upper_ratio > 0.8 and len(para) < 120:
+                    is_heading = True
+
+            para_escaped = para.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+
+            if is_heading:
+                tag = 'h2' if len(para) < 40 else 'h3'
+                html_blocks.append(f'<{tag}>{para_escaped}</{tag}>')
+            else:
+                html = apply_bold_italic(para, bold_set, italic_set)
+                html = break_sentences(html)
+                html_blocks.append(f'<p>{html}</p>')
+
+    return html_blocks
 
 
 def main_generic(pdf_path, output_path, title=None):
@@ -646,6 +746,24 @@ def main_generic(pdf_path, output_path, title=None):
   p {{
     margin: 8px 0;
     text-align: justify;
+  }}
+  .srd-table {{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 0.9em;
+  }}
+  .srd-table th, .srd-table td {{
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    text-align: left;
+  }}
+  .srd-table th {{
+    background: #f0ece0;
+    font-weight: bold;
+  }}
+  .srd-table tr:nth-child(even) td {{
+    background: #faf8f2;
   }}
 </style>
 </head>

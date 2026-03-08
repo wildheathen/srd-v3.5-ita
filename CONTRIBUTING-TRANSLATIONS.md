@@ -68,7 +68,7 @@ Ogni file overlay è un **array JSON** di oggetti. Ogni oggetto deve avere il ca
 
 ## Campi traducibili per categoria
 
-### Incantesimi (`spells.json`) — 608 entries
+### Incantesimi (`spells.json`) — 4,155 entries
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
@@ -86,7 +86,7 @@ Ogni file overlay è un **array JSON** di oggetti. Ogni oggetto deve avere il ca
 | `spell_resistance` | stringa | "Yes" | "Sì" | ✅ 100% |
 | `desc_html` | HTML | (descrizione completa) | — | ✅ 100% (⚠️ 32 troncati) |
 
-### Talenti (`feats.json`) — 111 entries
+### Talenti (`feats.json`) — 3,537 entries
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
@@ -98,7 +98,7 @@ Ogni file overlay è un **array JSON** di oggetti. Ogni oggetto deve avere il ca
 | `special` | stringa/null | "A fighter may..." | "Un guerriero può..." | ✅ 100% |
 | `desc_html` | HTML | (descrizione completa) | — | ✅ 100% |
 
-### Classi (`classes.json`) — 31 entries
+### Classi (`classes.json`) — 730 entries
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
@@ -108,7 +108,7 @@ Ogni file overlay è un **array JSON** di oggetti. Ogni oggetto deve avere il ca
 | `table_html` | HTML | (tabella progressione) | — | ⚠️ 70% (9 simili EN) |
 | `desc_html` | HTML | (descrizione classe) | — | ⚠️ 23% (solo strutturale) |
 
-### Razze (`races.json`) — 7 entries
+### Razze (`races.json`) — 42 entries
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
@@ -116,7 +116,7 @@ Ogni file overlay è un **array JSON** di oggetti. Ogni oggetto deve avere il ca
 | `traits` | array | ["Medium size", ...] | ["Taglia media", ...] | ✅ 100% |
 | `desc_html` | HTML | (descrizione razza) | — | ✅ 100% |
 
-### Mostri (`monsters.json`) — 289 entries
+### Mostri (`monsters.json`) — 312 entries
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
@@ -130,6 +130,18 @@ Ogni file overlay è un **array JSON** di oggetti. Ogni oggetto deve avere il ca
 > **Nota:** I campi numerici dello stat block (`hit_dice`, `initiative`, `speed`, `armor_class`, `saves`, `abilities`, `challenge_rating`, ecc.) generalmente non necessitano di traduzione.
 
 ### Equipaggiamento (`equipment.json`) — 288 entries
+
+### Abilita (`skills.json`) — 113 entries
+
+| Campo | Tipo | Esempio EN | Esempio IT | Stato |
+|-------|------|-----------|-----------|-------|
+| `name` | stringa | "Bluff" | "Raggirare" | ⚠️ Da fare |
+| `key_ability` | stringa | "CHA" | — | Dato tecnico |
+| `check` | HTML | (descrizione check) | — | ❌ 0% |
+| `action` | HTML | (descrizione azione) | — | ❌ 0% |
+| `special` | HTML | (note speciali) | — | ❌ 0% |
+
+> **Nota:** Le skills includono 71 abilita e 42 skill tricks da dndtools.net.
 
 | Campo | Tipo | Esempio EN | Esempio IT | Stato |
 |-------|------|-----------|-----------|-------|
@@ -163,13 +175,10 @@ python scripts/translation_status.py --lang it
 
 Output esempio:
 ```
-=== SPELLS (608 entries) ===
-  name         608/608  ████████████████████ 100%
-  school       608/608  ████████████████████ 100%
-  subschool    213/213  ████████████████████ 100%
-  descriptor     0/352  ░░░░░░░░░░░░░░░░░░░░   0%
-  casting_time   0/608  ░░░░░░░░░░░░░░░░░░░░   0%
-  desc_html      0/608  ░░░░░░░░░░░░░░░░░░░░   0%
+=== SPELLS (4155 entries) ===
+  name         608/4155 ███░░░░░░░░░░░░░░░░░  15%
+  school       608/4155 ███░░░░░░░░░░░░░░░░░  15%
+  desc_html    608/4155 ███░░░░░░░░░░░░░░░░░  15%
 ```
 
 ## Come contribuire
