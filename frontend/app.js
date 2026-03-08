@@ -896,8 +896,8 @@ async function renderPreparedList() {
     </div>`;
   }).join('');
 
-  // Event: click on name to show spell detail
-  resultsList.querySelectorAll('.prep-name').forEach((el) => {
+  // Event: click on prep-info area to show spell detail
+  resultsList.querySelectorAll('.prep-info').forEach((el) => {
     el.addEventListener('click', async () => {
       const slug = el.closest('[data-slug]').dataset.slug;
       const spells = await loadData('spells');
@@ -1042,7 +1042,10 @@ function showDetail(item, overrideTab) {
     detailPanel.classList.add('hidden');
   });
   if (window.innerWidth <= 768) {
-    detailPanel.scrollIntoView({ behavior: 'smooth' });
+    // Delay scroll so the detail content is rendered first
+    requestAnimationFrame(() => {
+      detailPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
   }
 }
 
