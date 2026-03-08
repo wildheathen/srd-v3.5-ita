@@ -31,6 +31,29 @@ jobs:
       - name: Install test dependencies
         run: pip install pytest
 
+      - name: Clean orphan overlay entries
+        run: |
+          python3 -c "
+          import json, pathlib
+          categories = ['spells','feats','classes','monsters','races','skills']
+          for cat in categories:
+              base_path = pathlib.Path(f'data/{cat}.json')
+              overlay_path = pathlib.Path(f'data/i18n/it/{cat}.json')
+              if not overlay_path.exists():
+                  continue
+              base = json.loads(base_path.read_text(encoding='utf-8'))
+              overlay = json.loads(overlay_path.read_text(encoding='utf-8'))
+              base_slugs = {item['slug'] for item in base}
+              cleaned = [e for e in overlay if e.get('slug') in base_slugs]
+              removed = len(overlay) - len(cleaned)
+              if removed > 0:
+                  print(f'{cat}: removed {removed} orphan overlay entries')
+                  overlay_path.write_text(
+                      json.dumps(cleaned, ensure_ascii=False, indent=2) + '\n',
+                      encoding='utf-8'
+                  )
+          "
+
       - name: Run tests
         run: python -m pytest tests/ -v
 
