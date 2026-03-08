@@ -19,6 +19,7 @@ const VS_ROW_HEIGHT = 64;  // px per result item (padding + margin + content)
 const VS_BUFFER = 15;      // extra rows above/below viewport
 let vsFilteredData = [];    // current filtered dataset for virtual scroll
 let vsLastRange = null;     // last rendered range {start, end} to avoid redundant renders
+let vsRafPending = false;   // debounce rAF for scroll handler
 
 // Known spell domains (EN + IT) — everything NOT in this set is treated as a class
 const SPELL_DOMAINS = new Set([
@@ -715,6 +716,9 @@ async function renderResults() {
   resultsList.innerHTML = `<div class="vs-spacer" style="height:${totalHeight}px;position:relative"></div>`;
   resultsList._vsSpacer = resultsList.querySelector('.vs-spacer');
 
+  // Event delegation: single listener on spacer (never re-bound per render)
+  resultsList._vsSpacer.addEventListener('click', vsHandleClick);
+
   // Remove old scroll listener, add new one
   resultsList.removeEventListener('scroll', vsOnScroll);
   resultsList.addEventListener('scroll', vsOnScroll);
@@ -724,7 +728,50 @@ async function renderResults() {
 }
 
 function vsOnScroll() {
-  requestAnimationFrame(vsRenderVisible);
+  if (!vsRafPending) {
+    vsRafPending = true;
+    requestAnimationFrame(() => {
+      vsRafPending = false;
+      vsRenderVisible();
+    });
+  }
+}
+
+function vsCreateRow(idx, item, prepared, learned, q) {
+  const meta = getMeta(item);
+  let actionHtml = '';
+  if (currentTab === 'spells') {
+    const p = prepared[item.slug];
+    if (p) {
+      const allUsed = p.used >= p.prepared;
+      actionHtml = `<span class="prep-badge ${allUsed ? 'exhausted' : ''}">${p.used}/${p.prepared}</span>`
+        + `<button class="prep-btn prep-btn-active" data-idx="${idx}" title="${t('btn.add_prep')}">+</button>`;
+    } else {
+      actionHtml = `<button class="prep-btn" data-idx="${idx}" title="${t('btn.prepare_spell')}">+</button>`;
+    }
+  } else if (currentTab === 'feats') {
+    const isLearned = !!learned[item.slug];
+    actionHtml = `<button class="learn-btn ${isLearned ? 'learn-btn-active' : ''}" data-idx="${idx}" title="${isLearned ? t('btn.unlearn_feat') : t('btn.learn_feat')}">\u2713</button>`;
+  }
+  const isPrepared = currentTab === 'spells' && prepared[item.slug];
+  const isLearned = currentTab === 'feats' && learned[item.slug];
+  const schoolStyle = currentTab === 'spells' && item.school ? ` style="--school-clr: ${getSchoolColor(item.school)}"` : '';
+  const nameHtml = q ? highlightText(item.name, q) : esc(item.name);
+  const enNameHtml = item._name_en ? `<span class="name-en">${q ? highlightText(item._name_en, q) : esc(item._name_en)}</span>` : '';
+  const top = idx * VS_ROW_HEIGHT;
+  const div = document.createElement('div');
+  div.className = `result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}`.trim();
+  div.dataset.index = idx;
+  div.dataset.slug = item.slug || '';
+  div.setAttribute('style', `position:absolute;top:${top}px;left:0;right:0;height:${VS_ROW_HEIGHT}px;box-sizing:border-box${schoolStyle ? ';--school-clr:' + getSchoolColor(item.school) : ''}`);
+  div.innerHTML = `<div class="result-row">
+    <div class="result-text">
+      <div class="name">${nameHtml}${renderSourceBadge(item)}${enNameHtml}</div>
+      ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
+    </div>
+    ${actionHtml}
+  </div>`;
+  return div;
 }
 
 function vsRenderVisible() {
@@ -741,79 +788,83 @@ function vsRenderVisible() {
 
   // Skip if range hasn't changed
   if (vsLastRange && vsLastRange.start === start && vsLastRange.end === end) return;
+
+  const oldStart = vsLastRange ? vsLastRange.start : -1;
+  const oldEnd = vsLastRange ? vsLastRange.end : -1;
   vsLastRange = { start, end };
+
+  const spacer = resultsList._vsSpacer;
+
+  // Full rebuild on first render or large jumps (>50% of items changed)
+  const overlap = Math.max(0, Math.min(oldEnd, end) - Math.max(oldStart, start));
+  const oldCount = oldEnd - oldStart;
+  const fullRebuild = oldStart < 0 || overlap < oldCount * 0.5;
 
   const prepared = currentTab === 'spells' ? loadPrepared() : {};
   const learned = currentTab === 'feats' ? loadLearned() : {};
   const q = resultsList._searchQuery || '';
 
-  let html = '';
-  for (let idx = start; idx < end; idx++) {
-    const item = filtered[idx];
-    const meta = getMeta(item);
-    let actionHtml = '';
-    if (currentTab === 'spells') {
-      const p = prepared[item.slug];
-      if (p) {
-        const allUsed = p.used >= p.prepared;
-        actionHtml = `<span class="prep-badge ${allUsed ? 'exhausted' : ''}">${p.used}/${p.prepared}</span>`
-          + `<button class="prep-btn prep-btn-active" data-idx="${idx}" title="${t('btn.add_prep')}">+</button>`;
-      } else {
-        actionHtml = `<button class="prep-btn" data-idx="${idx}" title="${t('btn.prepare_spell')}">+</button>`;
-      }
-    } else if (currentTab === 'feats') {
-      const isLearned = !!learned[item.slug];
-      actionHtml = `<button class="learn-btn ${isLearned ? 'learn-btn-active' : ''}" data-idx="${idx}" title="${isLearned ? t('btn.unlearn_feat') : t('btn.learn_feat')}">\u2713</button>`;
+  if (fullRebuild) {
+    const frag = document.createDocumentFragment();
+    for (let idx = start; idx < end; idx++) {
+      frag.appendChild(vsCreateRow(idx, filtered[idx], prepared, learned, q));
     }
-    const isPrepared = currentTab === 'spells' && prepared[item.slug];
-    const isLearned = currentTab === 'feats' && learned[item.slug];
-    const schoolStyle = currentTab === 'spells' && item.school ? ` style="--school-clr: ${getSchoolColor(item.school)}"` : '';
-    const nameHtml = q ? highlightText(item.name, q) : esc(item.name);
-    const enNameHtml = item._name_en ? `<span class="name-en">${q ? highlightText(item._name_en, q) : esc(item._name_en)}</span>` : '';
-    const top = idx * VS_ROW_HEIGHT;
-    html += `<div class="result-item ${isPrepared ? 'is-prepared' : ''} ${isLearned ? 'is-learned' : ''}" data-index="${idx}" data-slug="${item.slug || ''}"${schoolStyle} style="position:absolute;top:${top}px;left:0;right:0;height:${VS_ROW_HEIGHT}px;box-sizing:border-box">
-      <div class="result-row">
-        <div class="result-text">
-          <div class="name">${nameHtml}${renderSourceBadge(item)}${enNameHtml}</div>
-          ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
-        </div>
-        ${actionHtml}
-      </div>
-    </div>`;
+    spacer.textContent = '';
+    spacer.appendChild(frag);
+    return;
   }
 
-  resultsList._vsSpacer.innerHTML = html;
+  // Incremental update: remove out-of-range nodes, add new ones
+  const existing = spacer.children;
+  // Remove nodes outside new range (iterate backwards to avoid index shifts)
+  for (let i = existing.length - 1; i >= 0; i--) {
+    const nodeIdx = parseInt(existing[i].dataset.index);
+    if (nodeIdx < start || nodeIdx >= end) {
+      existing[i].remove();
+    }
+  }
 
-  // Bind event listeners on the visible items
-  resultsList._vsSpacer.querySelectorAll('.result-item').forEach((el) => {
-    el.addEventListener('click', (e) => {
-      if (e.target.classList.contains('prep-btn') || e.target.classList.contains('learn-btn')) return;
-      resultsList.querySelectorAll('.selected').forEach((s) => s.classList.remove('selected'));
-      el.classList.add('selected');
-      const item = vsFilteredData[parseInt(el.dataset.index)];
-      showDetail(item);
-    });
-  });
+  // Build set of currently rendered indices
+  const rendered = new Set();
+  for (const child of spacer.children) {
+    rendered.add(parseInt(child.dataset.index));
+  }
 
-  // Prepare spell buttons
-  resultsList._vsSpacer.querySelectorAll('.prep-btn').forEach((btn) => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const item = vsFilteredData[parseInt(btn.dataset.idx)];
-      addPrepared(item);
-      renderResults();
-    });
-  });
+  // Add missing rows
+  const frag = document.createDocumentFragment();
+  for (let idx = start; idx < end; idx++) {
+    if (!rendered.has(idx)) {
+      frag.appendChild(vsCreateRow(idx, filtered[idx], prepared, learned, q));
+    }
+  }
+  if (frag.childNodes.length) {
+    spacer.appendChild(frag);
+  }
+}
 
-  // Learn feat buttons
-  resultsList._vsSpacer.querySelectorAll('.learn-btn').forEach((btn) => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const item = vsFilteredData[parseInt(btn.dataset.idx)];
-      toggleLearned(item);
-      renderResults();
-    });
-  });
+// ── Event delegation for virtual scroll items ──
+function vsHandleClick(e) {
+  const prepBtn = e.target.closest('.prep-btn');
+  if (prepBtn) {
+    e.stopPropagation();
+    const item = vsFilteredData[parseInt(prepBtn.dataset.idx)];
+    if (item) { addPrepared(item); renderResults(); }
+    return;
+  }
+  const learnBtn = e.target.closest('.learn-btn');
+  if (learnBtn) {
+    e.stopPropagation();
+    const item = vsFilteredData[parseInt(learnBtn.dataset.idx)];
+    if (item) { toggleLearned(item); renderResults(); }
+    return;
+  }
+  const row = e.target.closest('.result-item');
+  if (row) {
+    resultsList.querySelectorAll('.selected').forEach((s) => s.classList.remove('selected'));
+    row.classList.add('selected');
+    const item = vsFilteredData[parseInt(row.dataset.index)];
+    if (item) showDetail(item);
+  }
 }
 
 // ── Prepared spells tab ──────────────────────────────────────────────────
@@ -1042,10 +1093,11 @@ function showDetail(item, overrideTab) {
     detailPanel.classList.add('hidden');
   });
   if (window.innerWidth <= 768) {
-    // Delay scroll so the detail content is rendered first
-    requestAnimationFrame(() => {
-      detailPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
+    // On mobile, use setTimeout to ensure layout is complete before scrolling
+    setTimeout(() => {
+      const y = detailPanel.getBoundingClientRect().top + window.pageYOffset - 10;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }, 50);
   }
 }
 
