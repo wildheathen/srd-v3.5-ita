@@ -24,6 +24,7 @@ let vsRowTops = [];         // precomputed Y position for each display row
 let vsTotalHeight = 0;      // total height of all rows
 let vsDataToDisplay = {};   // reverse map: dataIdx → displayIdx (for scroll-to-item)
 let vsCollapsedLevels = new Set(); // collapsed level groups (-1 = no level, 0-9 = spell levels)
+let prepCollapsedLevels = new Set(); // collapsed level groups for prepared spells tab
 let vsSpellFilterCls = '';  // current class/domain filter for spell level calculation
 let vsLastRange = null;     // last rendered range {start, end} to avoid redundant renders
 
@@ -1085,12 +1086,34 @@ async function renderPreparedList() {
     return aMin - bMin || a.name.localeCompare(b.name);
   });
 
-  resultsList.innerHTML = entries.map((p) => {
-    const allUsed = p.used >= p.prepared;
-    const schoolClr = getSchoolColor(p.school);
-    const schoolStyle = schoolClr ? ` style="--school-clr: ${schoolClr}"` : '';
-    const meta = [p.school, p.level].filter(Boolean).join(' — ');
-    return `<div class="result-item prepared-item ${allUsed ? 'all-used' : ''}" data-slug="${esc(p.slug)}"${schoolStyle}>
+  // Group entries by minimum spell level
+  const levelGroups = [];
+  let lastLevel = null;
+  for (const p of entries) {
+    const lvl = getSpellSortLevel(p);
+    if (lvl !== lastLevel) {
+      levelGroups.push({ level: lvl, items: [] });
+      lastLevel = lvl;
+    }
+    levelGroups[levelGroups.length - 1].items.push(p);
+  }
+
+  let html = '';
+  for (const group of levelGroups) {
+    const label = group.level === -1
+      ? t('spell.no_level_header')
+      : t('spell.level_header', { level: group.level });
+    const collapsed = prepCollapsedLevels.has(group.level);
+    html += `<div class="level-group-header${collapsed ? ' collapsed' : ''}" data-prep-level="${group.level}" style="display:flex;align-items:center">`;
+    html += `<span class="level-chevron">${collapsed ? '\u25B8' : '\u25BE'}</span>${esc(label)}<span class="level-count">${group.items.length}</span>`;
+    html += `</div>`;
+    if (!collapsed) {
+      for (const p of group.items) {
+        const allUsed = p.used >= p.prepared;
+        const schoolClr = getSchoolColor(p.school);
+        const schoolStyle = schoolClr ? ` style="--school-clr: ${schoolClr}"` : '';
+        const meta = [p.school, p.level].filter(Boolean).join(' — ');
+        html += `<div class="result-item prepared-item ${allUsed ? 'all-used' : ''}" data-slug="${esc(p.slug)}"${schoolStyle}>
       <div class="prep-info">
         <div class="prep-name">${esc(p.name)}${p._name_en ? `<span class="name-en">${esc(p._name_en)}</span>` : ''}</div>
         ${meta ? `<div class="meta">${esc(meta)}</div>` : ''}
@@ -1109,7 +1132,10 @@ async function renderPreparedList() {
         <button class="remove-btn" data-slug="${esc(p.slug)}" title="${t('btn.remove')}">&times;</button>
       </div>
     </div>`;
-  }).join('');
+      }
+    }
+  }
+  resultsList.innerHTML = html;
 
   // Event: click on prep-info area to show spell detail
   resultsList.querySelectorAll('.prep-info').forEach((el) => {
@@ -1159,6 +1185,19 @@ async function renderPreparedList() {
   resultsList.querySelectorAll('.remove-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
       removePrepared(btn.dataset.slug);
+      renderPreparedList();
+    });
+  });
+
+  // Event: toggle level group collapse
+  resultsList.querySelectorAll('.level-group-header[data-prep-level]').forEach((hdr) => {
+    hdr.addEventListener('click', () => {
+      const level = parseInt(hdr.dataset.prepLevel);
+      if (prepCollapsedLevels.has(level)) {
+        prepCollapsedLevels.delete(level);
+      } else {
+        prepCollapsedLevels.add(level);
+      }
       renderPreparedList();
     });
   });
